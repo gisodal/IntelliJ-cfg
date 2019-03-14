@@ -13,7 +13,14 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="$Redo" />
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
@@ -28,6 +35,13 @@
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
@@ -56,6 +70,10 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
@@ -79,6 +97,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="GotoFile" />
   <action id="GotoLine" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -90,6 +109,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
   </action>
   <action id="RunToCursor" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="shift alt s" />
     <keyboard-shortcut first-keystroke="ctrl f10" />
