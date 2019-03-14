@@ -1,8 +1,12 @@
 <keymap version="1" name="Eclipse (Giso)" parent="Eclipse">
   <action id="$Copy">
-    <keyboard-shortcut first-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -30,6 +34,9 @@
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="Editor Delete">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
@@ -50,6 +57,10 @@
   </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorCopy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl j" />
@@ -104,6 +115,10 @@
   </action>
   <action id="IncrementalSearch" />
   <action id="Print" />
+  <action id="QuickDocCopy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="RecentFiles" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -123,5 +138,9 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="XDebugger.CopyValue">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
 </keymap>
