@@ -26,6 +26,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="CloseActiveTab" />
   <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl divide" />
