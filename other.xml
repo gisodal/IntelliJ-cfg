@@ -1,0 +1,20 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.61021507" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="KEYMAP" value="up&#10;find&#10;close&#10;Ctrl&#10;w" />
+    <property name="ScalaSupport.hidePassedTests" value="false" />
+    <property name="SettingsSearchHistory" value="placement&#10;block" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="create.project.preferred.importer" value="sbt" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="file.chooser.recent.files" value="/usr/lib/jvm/java-11-openjdk-amd64&#10;/home/gdal/trunk/xlrit/gears/generator" />
+    <property name="file.gist.reindex.count" value="1" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="ideavim.statistics.timestamp" value="1551784647691" />
+    <property name="installed.kotlin.plugin.version" value="1.3.11-release-IJ2018.3-1" />
+    <property name="last.imported.location" value="$USER_HOME$/trunk/xlrit/gears/generator" />
+    <property name="lastTip" value="2" />
+    <property name="scala.last.updated" value="1552559433788" />
+  </component>
+</application>

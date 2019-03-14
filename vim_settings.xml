@@ -1,0 +1,82 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="false" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
+        <mark key="[" line="123" column="119" />
+        <mark key="]" line="123" column="118" />
+        <mark key="^" line="123" column="118" />
+        <mark key="." line="123" column="118" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesignBuilder.scala" timestamp="1551792612268" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1551779797644">
+        <mark key="'" line="775" column="15" />
+      </file>
+      <file name="/sbtShell" timestamp="1551790391671">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1551792677822" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1551785163660">
+        <mark key="[" line="34" column="6" />
+        <mark key="]" line="41" column="0" />
+        <mark key="." line="34" column="84" />
+      </file>
+      <file name="/fragment.java" timestamp="1551713120675">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="64" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
+      <jump line="775" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
+    </jumps>
+    <registers>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
+      </register>
+      <register name="/" type="4">
+        <text>b05.01</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>b05.01</last-search>
+      <last-offset />
+      <last-pattern>b05.01</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>B05</entry>
+        <entry>B05.01</entry>
+        <entry>b05.01</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
