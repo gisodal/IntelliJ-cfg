@@ -78,6 +78,10 @@
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl 5" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -89,6 +93,9 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EmacsStyleIndent">
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="EvaluateExpression" />
   <action id="FileChooser.NewFolder">
@@ -109,7 +116,13 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="GotoBookmark5" />
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoFile" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
   <action id="GotoLine" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
