@@ -153,6 +153,9 @@
     <keyboard-shortcut first-keystroke="ctrl f10" />
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleDistractionFreeMode">
