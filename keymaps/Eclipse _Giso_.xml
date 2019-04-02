@@ -27,6 +27,10 @@
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -116,6 +120,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="FindUsages" />
   <action id="GotoBookmark5" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
@@ -148,7 +153,14 @@
     <keyboard-shortcut first-keystroke="ctrl f10" />
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
