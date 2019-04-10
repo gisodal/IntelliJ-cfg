@@ -1,4 +1,8 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+    <option name="COLLAPSE_FILE_HEADER" value="false" />
+  </component>
   <component name="CodeInsightSettings">
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
     <option name="AUTOINSERT_PAIR_BRACKET" value="false" />
