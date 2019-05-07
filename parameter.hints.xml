@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Scala">
+        <added pattern="com.xlrit.gears.generator.testparser.TestParser.parseAll(p,input)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
