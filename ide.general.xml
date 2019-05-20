@@ -10,5 +10,6 @@
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="BSP.system.in.process" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
+    <entry key="editor.navigation.history.stack.size" value="1000" />
   </component>
 </application>
