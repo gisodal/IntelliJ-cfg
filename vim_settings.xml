@@ -20,12 +20,12 @@
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1551779797644">
         <mark key="'" line="775" column="15" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562677526896">
-        <mark key="'" line="37" column="43" />
-        <mark key="[" line="41" column="12" />
-        <mark key="]" line="42" column="7" />
-        <mark key="." line="42" column="7" />
-        <mark key="^" line="42" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562679002253">
+        <mark key="'" line="55" column="51" />
+        <mark key="[" line="50" column="46" />
+        <mark key="]" line="50" column="14" />
+        <mark key="." line="50" column="14" />
+        <mark key="^" line="50" column="14" />
       </file>
       <file name="/sbtShell" timestamp="1551790391671">
         <mark key="[" line="0" column="0" />
@@ -54,16 +54,29 @@
       <jump line="18" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" />
       <jump line="37" column="43" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="55" column="51" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
+      <register name="0" type="4">
+        <text>hasSuccessors</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
       </register>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">JzwsJz4hY29sdW1uIC10</text>
+      </register>
+      <register name="-" type="4">
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>b05.01</text>
@@ -82,7 +95,9 @@
         <entry>B05.01</entry>
         <entry>b05.01</entry>
       </history-search>
-      <history-cmd />
+      <history-cmd>
+        <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
@@ -131,6 +146,15 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
