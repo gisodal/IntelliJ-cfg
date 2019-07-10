@@ -18,22 +18,21 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562762611999">
-        <mark key="[" line="72" column="0" />
-        <mark key="]" line="72" column="0" />
-        <mark key="." line="72" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562766684836">
+        <mark key="[" line="73" column="6" />
+        <mark key="]" line="73" column="99" />
+        <mark key="^" line="73" column="99" />
+        <mark key="." line="73" column="99" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1562755614110">
         <mark key="[" line="18" column="2" />
         <mark key="]" line="18" column="53" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" timestamp="1562765430150">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" timestamp="1562766415138">
         <mark key="'" line="37" column="20" />
-        <mark key="[" line="30" column="1" />
-        <mark key="k" line="38" column="21" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
-        <mark key="^" line="30" column="0" />
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="." line="38" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1551785163660">
         <mark key="[" line="34" column="6" />
@@ -51,7 +50,6 @@
         <mark key="^" line="12" column="37" />
         <mark key="." line="12" column="37" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1562762783155" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="110" column="0" />
@@ -59,16 +57,16 @@
         <mark key="^" line="110" column="1" />
         <mark key="." line="110" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562763180104">
-        <mark key="[" line="198" column="121" />
-        <mark key="]" line="198" column="125" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562766066187">
+        <mark key="[" line="194" column="17" />
+        <mark key="]" line="194" column="76" />
         <mark key="." line="198" column="125" />
         <mark key="^" line="198" column="125" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562764702673">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562766120239">
         <mark key="'" line="46" column="65" />
-        <mark key="[" line="246" column="11" />
-        <mark key="]" line="246" column="11" />
+        <mark key="[" line="172" column="17" />
+        <mark key="]" line="172" column="30" />
         <mark key="." line="246" column="11" />
         <mark key="^" line="246" column="11" />
       </file>
@@ -77,7 +75,13 @@
         <mark key="]" line="82" column="0" />
         <mark key="." line="82" column="0" />
       </file>
-      <file name="/sbtShell" timestamp="1562756916223">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Trace.scala" timestamp="1562765573188">
+        <mark key="[" line="2" column="5" />
+        <mark key="]" line="2" column="4" />
+        <mark key="." line="2" column="4" />
+        <mark key="^" line="2" column="4" />
+      </file>
+      <file name="/sbtShell" timestamp="1562777629050">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -119,13 +123,13 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>\n</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHJ5IHsKICAgICAgICB0aHJvdyBuZXcgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCIiKQogICAgICB9IGNhdGNoIHsKICAgICAgICBjYXNlIGU6IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbiA9PgogICAgICAgICAgdmFsIHN3ID0gbmV3IGphdmEuaW8uU3RyaW5nV3JpdGVyCiAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZShuZXcgamF2YS5pby5QcmludFdyaXRlcihzdykpCiAgICAgICAgICB2YWwgdHJhY2UgPSBzdy50b1N0cmluZwogICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICh0aGlzR3JhcGgubm9kZXMudG9MaXN0LHRoaXNHcmFwaC5lZGdlcy50b0xpc3Qp</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IGRlZiBwcmludFRyYWNlOiBVbml0ID0gewogICAgdmFsIGUgPSBuZXcgRXhjZXB0aW9uCiAgICB2YWwgc3cgPSBuZXcgamF2YS5pby5TdHJpbmdXcml0ZXIKICAgIGUucHJpbnRTdGFja1RyYWNlKG5ldyBqYXZhLmlvLlByaW50V3JpdGVyKHN3KSkKICAgIHZhbCB0cmFjZSA9IHsiUHJpbnRpbmcgYSBwcm9ncmFtbWVyIGlzc3VlZCBzdGFja3RyYWNlOiIgOjogc3cudG9TdHJpbmcuc3BsaXQoIlxuIikudG9MaXN0LmRyb3AoMil9CiAgICAgIC5ta1N0cmluZygiXG4iKQogICAgcHJpbnRsbih0cmFjZSkKICB9</text>
@@ -155,7 +159,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>echo &quot;No clipboard support...&quot;</text>
       </register>
     </registers>
     <search>
@@ -178,8 +182,8 @@
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
         <entry>call Color_toggle()</entry>
-        <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>w</entry>
+        <entry>echo &quot;No clipboard support...&quot;</entry>
       </history-cmd>
       <history-expr />
       <history-input />
