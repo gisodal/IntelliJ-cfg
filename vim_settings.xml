@@ -38,11 +38,10 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="34" column="84" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1562757396755">
-        <mark key="[" line="7" column="27" />
-        <mark key="]" line="7" column="27" />
-        <mark key="^" line="7" column="27" />
-        <mark key="." line="7" column="27" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1562759199367">
+        <mark key="[" line="72" column="0" />
+        <mark key="]" line="72" column="0" />
+        <mark key="." line="72" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1562753405260">
         <mark key="[" line="12" column="17" />
@@ -68,6 +67,11 @@
         <mark key="]" line="59" column="56" />
         <mark key="." line="59" column="56" />
         <mark key="^" line="59" column="56" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1562759280106">
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
       </file>
       <file name="/sbtShell" timestamp="1562756916223">
         <mark key="[" line="0" column="0" />
@@ -104,35 +108,44 @@
       <jump line="46" column="65" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
-      <register name="0" type="4">
-        <text>export(processGraph,&quot;normalize&quot;)</text>
-      </register>
-      <register name="1" type="4">
-        <text encoding="base64">PQoKICAgICAg</text>
-      </register>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
-      </register>
-      <register name=":" type="4">
-        <text encoding="base64">JzwsJz4hY29sdW1uIC10</text>
       </register>
       <register name="-" type="4">
         <text>g</text>
       </register>
       <register name="/" type="4">
         <text>\n</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">ZXZhbElkcy5tYXAoXyAtPiBzdGVwSWQpCiAgICAgIH0uZ3JvdXBCeShfLl8xKS5tYXBWYWx1ZXMobSA9PiBtLm1hcChfLl8yKS50b1NldCk=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgdHVwbGVzLnRvTWFwCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIGltcCh3LndyYXBwZWQpCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGRlZiBhZnRlckV2YWxJZHM6IFNldFtFdmFsSWRdID0gewo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">PQoKICAgICAg</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>echo &quot;No clipboard support...&quot;</text>
       </register>
     </registers>
     <search>
@@ -153,9 +166,9 @@
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
-        <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
         <entry>call Color_toggle()</entry>
+        <entry>echo &quot;No clipboard support...&quot;</entry>
       </history-cmd>
       <history-expr />
       <history-input />
