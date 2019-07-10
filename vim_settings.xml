@@ -85,11 +85,10 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562757326688">
-        <mark key="[" line="46" column="18" />
-        <mark key="]" line="45" column="18" />
-        <mark key="." line="45" column="18" />
-        <mark key="^" line="45" column="18" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562758531569">
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="0" />
+        <mark key="." line="48" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -108,19 +107,22 @@
       <register name="0" type="4">
         <text>export(processGraph,&quot;normalize&quot;)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
+      <register name="1" type="4">
+        <text encoding="base64">PQoKICAgICAg</text>
       </register>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
       </register>
       <register name=":" type="4">
