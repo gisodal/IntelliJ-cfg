@@ -16,16 +16,20 @@
         <mark key="^" line="123" column="118" />
         <mark key="." line="123" column="118" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562676418965" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562748497010">
+        <mark key="[" line="188" column="0" />
+        <mark key="]" line="188" column="0" />
+        <mark key="." line="188" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1551779797644">
         <mark key="'" line="775" column="15" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562679002253">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562747762007">
         <mark key="'" line="55" column="51" />
-        <mark key="[" line="50" column="46" />
-        <mark key="]" line="50" column="14" />
-        <mark key="." line="50" column="14" />
-        <mark key="^" line="50" column="14" />
+        <mark key="[" line="56" column="17" />
+        <mark key="]" line="49" column="16" />
+        <mark key="." line="49" column="16" />
+        <mark key="^" line="49" column="16" />
       </file>
       <file name="/sbtShell" timestamp="1551790391671">
         <mark key="[" line="0" column="0" />
@@ -38,11 +42,11 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="34" column="84" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562677222014">
-        <mark key="[" line="173" column="10" />
-        <mark key="]" line="173" column="10" />
-        <mark key="." line="173" column="10" />
-        <mark key="^" line="173" column="10" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562748028399">
+        <mark key="[" line="153" column="39" />
+        <mark key="]" line="153" column="27" />
+        <mark key="." line="153" column="27" />
+        <mark key="^" line="153" column="27" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -58,7 +62,7 @@
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text>hasSuccessors</text>
+        <text>sortedEdges.size == graph.edges.size)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
@@ -76,7 +80,7 @@
         <text encoding="base64">JzwsJz4hY29sdW1uIC10</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text encoding="base64">IGltcG9ydCBkaWFncmFtLmVucmljaC5kZXNpZ24uR3JhcGguXw==</text>
       </register>
       <register name="/" type="4">
         <text>b05.01</text>
