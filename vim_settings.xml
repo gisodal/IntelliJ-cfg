@@ -18,14 +18,20 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562754197498">
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="0" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562756102337">
+        <mark key="[" line="36" column="12" />
+        <mark key="]" line="36" column="66" />
+        <mark key="." line="36" column="12" />
+        <mark key="^" line="33" column="49" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1562755614110">
         <mark key="[" line="18" column="2" />
         <mark key="]" line="18" column="53" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" timestamp="1562755690859">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="52" />
+        <mark key="." line="37" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1551785163660">
         <mark key="[" line="34" column="6" />
@@ -63,7 +69,7 @@
         <mark key="." line="59" column="56" />
         <mark key="^" line="59" column="56" />
       </file>
-      <file name="/sbtShell" timestamp="1562753583456">
+      <file name="/sbtShell" timestamp="1562755837894">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -73,10 +79,16 @@
         <mark key="[" line="76" column="10" />
         <mark key="]" line="87" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562755459345">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/Bpmn.scala" timestamp="1562756309570">
+        <mark key="[" line="116" column="40" />
+        <mark key="]" line="116" column="40" />
+        <mark key="." line="116" column="40" />
+        <mark key="^" line="116" column="40" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562756846369">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -93,7 +105,7 @@
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text>private implicit val prettifier = Steps.prettifier()</text>
+        <text>export(processGraph)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
@@ -111,7 +123,7 @@
         <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>echo &quot;No clipboard support...&quot;</text>
+        <text encoding="base64">JzwsJz4hY29sdW1uIC10</text>
       </register>
       <register name="-" type="4">
         <text>g</text>
@@ -127,7 +139,7 @@
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -137,9 +149,9 @@
         <entry>\n</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
+        <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -210,6 +222,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
