@@ -89,10 +89,11 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562758531569">
-        <mark key="[" line="48" column="0" />
-        <mark key="]" line="48" column="0" />
-        <mark key="." line="48" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562762114235">
+        <mark key="[" line="76" column="22" />
+        <mark key="]" line="81" column="40" />
+        <mark key="." line="81" column="40" />
+        <mark key="^" line="81" column="40" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -112,36 +113,39 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>g</text>
+        <text>w</text>
       </register>
       <register name="/" type="4">
         <text>\n</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZXZhbElkcy5tYXAoXyAtPiBzdGVwSWQpCiAgICAgIH0uZ3JvdXBCeShfLl8xKS5tYXBWYWx1ZXMobSA9PiBtLm1hcChfLl8yKS50b1NldCk=</text>
+        <text>val componentCountOld = processGraph.componentTraverser().map(_.nodes).size</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdHVwbGVzLnRvTWFwCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICAgICAgIHZhbCBraW5kVG9Ob2RlcyA9IGtpbmRUb0lkcy5tYXAobSA9PiAobS5fMSwgbS5fMi5tYXAoaWQgPT4gcHJvY2Vzc0dyYXBoLmdldChpZCkuZ2V0KSkpCgogICAgICAgICAgdmFsIEdXaGlsZSA9IHByb2Nlc3NHcmFwaC5zdWJncmFwaChraW5kVG9Ob2RlcyhCcmFuY2hLaW5kLldoaWxlKSkKICAgICAgICAgIHZhbCBHQWZ0ZXIgPSBwcm9jZXNzR3JhcGguc3ViZ3JhcGgoa2luZFRvTm9kZXMoQnJhbmNoS2luZC5BZnRlcikpCgogICAgICAgICAgdmFsIGV2YWxOb2RlID0gcHJvY2Vzc0dyYXBoLmdldChldmFsSWQpLmdldAogICAgICAgICAgcHJvY2Vzc0dyYXBoIC0tPSBHQWZ0ZXIucm9vdHMubWFwKHYgPT4gcHJvY2Vzc0dyYXBoLmdldCh2LnRvT3V0ZXIpKS5mbGF0TWFwKF8uaW5jb21pbmcpLmZpbHRlcihlID0+IGUuXzEgPT0gZXZhbE5vZGUpCiAgICAgICAgICBwcm9jZXNzR3JhcGggLS09IEdXaGlsZS5sZWF2ZXMubWFwKHYgPT4gcHJvY2Vzc0dyYXBoLmdldCh2LnRvT3V0ZXIpKS5mbGF0TWFwKF8ub3V0Z29pbmcpCiAgICAgICAgICBwcm9jZXNzR3JhcGggKys9IEdXaGlsZS5sZWF2ZXMuZmxhdE1hcChsZWFmID0+IEdBZnRlci5yb290cy5tYXAocm9vdCA9PiBFZGdlKGxlYWYscm9vdCxOb25lKSkpCiAgICAgICAgfQ==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIGltcCh3LndyYXBwZWQpCg==</text>
+        <text encoding="base64">ICAgICAgdHVwbGVzLnRvTWFwCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgIGltcCh3LndyYXBwZWQpCg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgIGRlZiBhZnRlckV2YWxJZHM6IFNldFtFdmFsSWRdID0gewo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">PQoKICAgICAg</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
       </register>
       <register name="8" type="2">
+        <text encoding="base64">ICAgIGRlZiBsZWF2ZXM6IEl0ZXJhYmxlW0Rlc2lnbkdyYXBoI05vZGVUXSA9IHsK</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgIHZhbCBsYWJlbCA9IFNvbWUoc3RhdGUudG9TdHJpbmcpCg==</text>
       </register>
       <register name=":" type="4">
@@ -245,6 +249,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>pressed F8</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
