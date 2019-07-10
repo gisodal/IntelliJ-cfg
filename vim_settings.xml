@@ -69,7 +69,7 @@
         <mark key="." line="59" column="56" />
         <mark key="^" line="59" column="56" />
       </file>
-      <file name="/sbtShell" timestamp="1562755837894">
+      <file name="/sbtShell" timestamp="1562756916223">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -85,10 +85,11 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562756846369">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562757200301">
+        <mark key="[" line="30" column="3" />
+        <mark key="]" line="30" column="4" />
+        <mark key="." line="30" column="4" />
+        <mark key="^" line="30" column="4" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -105,7 +106,7 @@
     </jumps>
     <registers>
       <register name="0" type="4">
-        <text>export(processGraph)</text>
+        <text>export(processGraph,&quot;normalize&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgXyA9PiAiPyIK</text>
@@ -139,7 +140,7 @@
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
