@@ -38,7 +38,7 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="34" column="84" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1562753715361">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1562757396755">
         <mark key="[" line="7" column="27" />
         <mark key="]" line="7" column="27" />
         <mark key="^" line="7" column="27" />
@@ -85,11 +85,11 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562757200301">
-        <mark key="[" line="30" column="3" />
-        <mark key="]" line="30" column="4" />
-        <mark key="." line="30" column="4" />
-        <mark key="^" line="30" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562757326688">
+        <mark key="[" line="46" column="18" />
+        <mark key="]" line="45" column="18" />
+        <mark key="." line="45" column="18" />
+        <mark key="^" line="45" column="18" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -153,6 +153,7 @@
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
+        <entry>call Color_toggle()</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -226,6 +227,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>pressed F8</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
