@@ -11,6 +11,5 @@
     <entry key="BSP.system.in.process" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="editor.navigation.history.stack.size" value="1000" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
