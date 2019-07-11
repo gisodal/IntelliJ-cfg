@@ -9,8 +9,12 @@
         <mark key="^" line="123" column="118" />
         <mark key="." line="123" column="118" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1551779797644">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1562833527312">
         <mark key="'" line="775" column="15" />
+        <mark key="[" line="383" column="109" />
+        <mark key="]" line="398" column="22" />
+        <mark key="^" line="398" column="22" />
+        <mark key="." line="398" column="22" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Java.scala" timestamp="1562751736057">
         <mark key="[" line="41" column="48" />
@@ -81,7 +85,7 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="/sbtShell" timestamp="1562777629050">
+      <file name="/sbtShell" timestamp="1562833181262">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -96,12 +100,6 @@
         <mark key="]" line="116" column="40" />
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562762114235">
-        <mark key="[" line="76" column="22" />
-        <mark key="]" line="81" column="40" />
-        <mark key="." line="81" column="40" />
-        <mark key="^" line="81" column="40" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
