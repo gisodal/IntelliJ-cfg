@@ -29,6 +29,12 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1562840623655">
+        <mark key="[" line="13" column="11" />
+        <mark key="]" line="13" column="11" />
+        <mark key="^" line="13" column="11" />
+        <mark key="." line="13" column="11" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562766684836">
         <mark key="[" line="73" column="6" />
         <mark key="]" line="73" column="99" />
@@ -108,11 +114,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562839980449">
-        <mark key="[" line="64" column="46" />
-        <mark key="]" line="64" column="44" />
-        <mark key="^" line="64" column="44" />
-        <mark key="." line="64" column="44" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562840611208">
+        <mark key="'" line="74" column="24" />
+        <mark key="[" line="74" column="31" />
+        <mark key="]" line="74" column="34" />
+        <mark key="." line="74" column="34" />
+        <mark key="^" line="74" column="34" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
@@ -130,6 +137,10 @@
       <jump line="37" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" />
       <jump line="37" column="112" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
       <jump line="13" column="31" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
+      <jump line="121" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="166" column="10" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="167" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="74" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -142,40 +153,39 @@
         <text>\n</text>
       </register>
       <register name="0" type="4">
-        <text>def apply(dependencyGraph: DepGraph, processGraph: design.Graph, processCtx: ProcessContext): Unit =
-    Export(Some(dependencyGraph), Some(processGraph), processCtx)</text>
+        <text encoding="base64">dmFsIGJvZHlHcmFwaCA9IHByb2Nlc3NHcmFwaC50b0JvZHlHcmFwaAogICAgICB2YWwgYm9keUlkcyA9IGJvZHlHcmFwaC50b3BvbG9naWNhbFNvcnQuZ2V0T3JFbHNlKE5pbCkubWFwKG5vZGUgPT4gbm9kZS50b091dGVyLmlkKQogICAgICB2YWwgYm9keVRvS2luZCA9IHByb2Nlc3NHcmFwaC5ib2R5VG9LaW5kCgogICAgICBib2R5SWRzLmZvcmVhY2goYm9keSA9PiBib2R5VG9LaW5kLmdldChib2R5KSBtYXRjaCB7</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBib2R5VG9LaW5kLmdldChib2R5KSBtYXRjaCB7Cg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgIHZhbCBwcm9jZXNzU3BlYyA9IGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWUpCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>if (dependencyGraph.nonEmpty)
         diagramExporter.addDepGraph(name, dependencyGraph.get)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>val location = projectCtx.translation.projectDir / &quot;diagrams&quot; 
     val diagramExporter = new DiagramExporter(location)</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">cHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc0N0eChkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFByb2Nlc3NDb250ZXh0ID0gewogICAgdmFsIHByb2plY3RDdHggPSBuZXcgUHJvamVjdENvbnRleHQoZGlybmFtZSwgTmlsKQogICAgdmFsIHByb2Nlc3NTcGVjID0gY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZSkKICAgIHZhbCBwcm9jZXNzQ3R4ID0gbmV3IFByb2Nlc3NDb250ZXh0KHByb2plY3RDdHgsIHByb2Nlc3NTcGVjKQogICAgCiAgICBwcm9jZXNzQ3R4CiAgfQogIA==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLmRpYWdyYW0uZW5yaWNoLmRlc2lnbi5HcmFwaC5SaWNoR3JhcGgoZ3JhcGgpLmV4cG9ydCgiVHJhdmVyc2VyIiwgInRlc3QiLCBmYWxzZSkK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">IGRlZiBwcmludFRyYWNlOiBVbml0ID0gewogICAgdmFsIGUgPSBuZXcgRXhjZXB0aW9uCiAgICB2YWwgc3cgPSBuZXcgamF2YS5pby5TdHJpbmdXcml0ZXIKICAgIGUucHJpbnRTdGFja1RyYWNlKG5ldyBqYXZhLmlvLlByaW50V3JpdGVyKHN3KSkKICAgIHZhbCB0cmFjZSA9IHsiUHJpbnRpbmcgYSBwcm9ncmFtbWVyIGlzc3VlZCBzdGFja3RyYWNlOiIgOjogc3cudG9TdHJpbmcuc3BsaXQoIlxuIikudG9MaXN0LmRyb3AoMil9CiAgICAgIC5ta1N0cmluZygiXG4iKQogICAgcHJpbnRsbih0cmFjZSkKICB9</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">IGRlZiBwcmludFRyYWNlOiBVbml0ID0gewogICAgICB0cnkgewogICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIiIpCiAgICAgIH0gY2F0Y2ggewogICAgICAgIGNhc2UgZTogSWxsZWdhbFN0YXRlRXhjZXB0aW9uID0+CiAgICAgICAgdmFsIHN3ID0gbmV3IGphdmEuaW8uU3RyaW5nV3JpdGVyCiAgICAgICAgZS5wcmludFN0YWNrVHJhY2UobmV3IGphdmEuaW8uUHJpbnRXcml0ZXIoc3cpKQogICAgICAgIHZhbCB0cmFjZSA9IHN3LnRvU3RyaW5nCiAgICAgICAgcHJpbnRsbih0cmFjZSkKICAgICAgfQogICAgfQo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">ZGVmIHByaW50VHJhY2U6IFVuaXQgewogICAgdHJ5IHsKICAgICAgdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiIikKICAgIH0gY2F0Y2ggewogICAgICBjYXNlIGU6IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbiA9PgogICAgICB2YWwgc3cgPSBuZXcgamF2YS5pby5TdHJpbmdXcml0ZXIKICAgICAgZS5wcmludFN0YWNrVHJhY2UobmV3IGphdmEuaW8uUHJpbnRXcml0ZXIoc3cpKQogICAgICB2YWwgdHJhY2UgPSBzdy50b1N0cmluZwogICAgICBwcmludGxuKHRyYWNlKQogICAgfQogIH0KICA=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICAgIHZhbCBraW5kVG9Ob2RlcyA9IGtpbmRUb0lkcy5tYXAobSA9PiAobS5fMSwgbS5fMi5tYXAoaWQgPT4gcHJvY2Vzc0dyYXBoLmdldChpZCkuZ2V0KSkpCgogICAgICAgICAgdmFsIEdXaGlsZSA9IHByb2Nlc3NHcmFwaC5zdWJncmFwaChraW5kVG9Ob2RlcyhCcmFuY2hLaW5kLldoaWxlKSkKICAgICAgICAgIHZhbCBHQWZ0ZXIgPSBwcm9jZXNzR3JhcGguc3ViZ3JhcGgoa2luZFRvTm9kZXMoQnJhbmNoS2luZC5BZnRlcikpCgogICAgICAgICAgdmFsIGV2YWxOb2RlID0gcHJvY2Vzc0dyYXBoLmdldChldmFsSWQpLmdldAogICAgICAgICAgcHJvY2Vzc0dyYXBoIC0tPSBHQWZ0ZXIucm9vdHMubWFwKHYgPT4gcHJvY2Vzc0dyYXBoLmdldCh2LnRvT3V0ZXIpKS5mbGF0TWFwKF8uaW5jb21pbmcpLmZpbHRlcihlID0+IGUuXzEgPT0gZXZhbE5vZGUpCiAgICAgICAgICBwcm9jZXNzR3JhcGggLS09IEdXaGlsZS5sZWF2ZXMubWFwKHYgPT4gcHJvY2Vzc0dyYXBoLmdldCh2LnRvT3V0ZXIpKS5mbGF0TWFwKF8ub3V0Z29pbmcpCiAgICAgICAgICBwcm9jZXNzR3JhcGggKys9IEdXaGlsZS5sZWF2ZXMuZmxhdE1hcChsZWFmID0+IEdBZnRlci5yb290cy5tYXAocm9vdCA9PiBFZGdlKGxlYWYscm9vdCxOb25lKSkpCiAgICAgICAgfQ==</text>
-      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>nohlsearch</text>
       </register>
     </registers>
     <search>
@@ -185,22 +195,23 @@
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
         <entry>B05</entry>
         <entry>B05.01</entry>
         <entry>b05.01</entry>
+        <entry>bodyG</entry>
         <entry>\n</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
         <entry>call Color_toggle()</entry>
-        <entry>nohlsearch</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>w</entry>
+        <entry>nohlsearch</entry>
+        <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
       </history-cmd>
       <history-expr />
       <history-input />
