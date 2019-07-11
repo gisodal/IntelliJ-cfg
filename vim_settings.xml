@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1562839019693">
@@ -29,7 +29,7 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1562840623655">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1562840708674">
         <mark key="[" line="13" column="11" />
         <mark key="]" line="13" column="11" />
         <mark key="^" line="13" column="11" />
@@ -80,7 +80,7 @@
         <mark key="." line="84" column="62" />
         <mark key="^" line="84" column="62" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562766120239">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562841046847">
         <mark key="'" line="46" column="65" />
         <mark key="[" line="172" column="17" />
         <mark key="]" line="172" column="30" />
@@ -98,7 +98,7 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="/sbtShell" timestamp="1562833181262">
+      <file name="/sbtShell" timestamp="1562840688854">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -114,12 +114,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562840611208">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562841093421">
         <mark key="'" line="74" column="24" />
-        <mark key="[" line="74" column="31" />
-        <mark key="]" line="74" column="34" />
-        <mark key="." line="74" column="34" />
-        <mark key="^" line="74" column="34" />
+        <mark key="[" line="74" column="24" />
+        <mark key="]" line="74" column="23" />
+        <mark key="." line="74" column="23" />
+        <mark key="^" line="74" column="23" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
