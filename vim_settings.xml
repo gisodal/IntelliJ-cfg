@@ -48,7 +48,7 @@
         <mark key="]" line="72" column="0" />
         <mark key="." line="72" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1562753405260">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1562834229867">
         <mark key="[" line="12" column="17" />
         <mark key="]" line="12" column="37" />
         <mark key="^" line="12" column="37" />
@@ -100,6 +100,12 @@
         <mark key="]" line="116" column="40" />
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562834055660">
+        <mark key="[" line="368" column="0" />
+        <mark key="]" line="368" column="0" />
+        <mark key="^" line="368" column="0" />
+        <mark key="." line="368" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1551713120675">
         <mark key="[" line="0" column="0" />
