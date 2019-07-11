@@ -75,11 +75,11 @@
         <mark key="^" line="110" column="1" />
         <mark key="." line="110" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562850468230">
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="^" line="56" column="62" />
-        <mark key="." line="84" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562851873834">
+        <mark key="[" line="85" column="84" />
+        <mark key="]" line="85" column="83" />
+        <mark key="^" line="85" column="83" />
+        <mark key="." line="85" column="83" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562841046847">
         <mark key="'" line="46" column="65" />
@@ -155,7 +155,7 @@
         <text>\n</text>
       </register>
       <register name="0" type="4">
-        <text>util.Export(dependencyGraph, processGraph, &quot;Designer&quot;, &quot;test&quot;)</text>
+        <text>com.xlrit.gears.generator.util.Export(depGraph, graph, &quot;Traverser&quot;, &quot;test&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
