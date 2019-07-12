@@ -69,11 +69,11 @@
         <mark key="^" line="110" column="1" />
         <mark key="." line="110" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562921906925">
-        <mark key="[" line="84" column="6" />
-        <mark key="]" line="84" column="7" />
-        <mark key="." line="84" column="7" />
-        <mark key="^" line="84" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562938433141">
+        <mark key="[" line="60" column="60" />
+        <mark key="]" line="60" column="119" />
+        <mark key="^" line="60" column="119" />
+        <mark key="." line="60" column="119" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562841046847">
         <mark key="'" line="46" column="65" />
@@ -109,12 +109,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562850217794">
-        <mark key="'" line="108" column="23" />
-        <mark key="[" line="93" column="17" />
-        <mark key="]" line="94" column="14" />
-        <mark key="^" line="94" column="14" />
-        <mark key="." line="94" column="14" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562937710091">
+        <mark key="'" line="47" column="0" />
+        <mark key="[" line="450" column="5" />
+        <mark key="]" line="450" column="36" />
+        <mark key="." line="450" column="36" />
+        <mark key="^" line="450" column="36" />
       </file>
     </filemarks>
     <jumps>
@@ -134,61 +134,62 @@
       <jump line="167" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="74" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="107" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="47" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>edge.label.asInstanceOf[design.Graph.Edge.Label]))</text>
+        <text>private val graph = {new Designer(depGraph, None, clustering = false, normalizeBranches = true)}.toProcessGraph</text>
       </register>
       <register name="/" type="4">
-        <text>\n</text>
+        <text>convertC</text>
       </register>
       <register name="0" type="4">
-        <text>com.xlrit.gears.generator.util.Export(depGraph, graph, &quot;Traverser&quot;, &quot;test&quot;)</text>
+        <text>new Designer(depGraph, None, clustering = false, normalizeBranches = true)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLnV0aWwuRXhwb3J0KGRlcEdyYXBoLCBncmFwaDIsICJUcmF2ZXJzZXIiLCAidGVzdCIpCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">dmFsIHByb2Nlc3NOb2RlID0gYy50b05vZGUoaW5kZXgpIAogICAgICAgICAgYy5ub2Rlcy5mb3JlYWNoKG5vZGUgPT4gZGVwTm9kZVRvUHJvY2Vzc05vZGUgKz0gbm9kZSAtPiBwcm9jZXNzTm9kZSkKICAgICAgICAgIHByb2Nlc3NOb2Rl</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLnV0aWwuRXhwb3J0KGRlcEdyYXBoLCBncmFwaDIsICJUcmF2ZXJzZXIiLCAidGVzdCIpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGJyYW5jaE5vZGUgKysgYnJhbmNoTm9kZS5hbmNlc3RvcnMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBib2R5VG9LaW5kLmdldChib2R5KSBtYXRjaCB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGJyYW5jaE5vZGUgKysgYnJhbmNoTm9kZS5hbmNlc3RvcnMK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBib2R5VG9LaW5kLmdldChib2R5KSBtYXRjaCB7Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgIHZhbCBwcm9jZXNzU3BlYyA9IGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWUpCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>if (dependencyGraph.nonEmpty)
         diagramExporter.addDepGraph(name, dependencyGraph.get)</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>val location = projectCtx.translation.projectDir / &quot;diagrams&quot; 
     val diagramExporter = new DiagramExporter(location)</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">cHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc0N0eChkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFByb2Nlc3NDb250ZXh0ID0gewogICAgdmFsIHByb2plY3RDdHggPSBuZXcgUHJvamVjdENvbnRleHQoZGlybmFtZSwgTmlsKQogICAgdmFsIHByb2Nlc3NTcGVjID0gY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZSkKICAgIHZhbCBwcm9jZXNzQ3R4ID0gbmV3IFByb2Nlc3NDb250ZXh0KHByb2plY3RDdHgsIHByb2Nlc3NTcGVjKQogICAgCiAgICBwcm9jZXNzQ3R4CiAgfQogIA==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLmRpYWdyYW0uZW5yaWNoLmRlc2lnbi5HcmFwaC5SaWNoR3JhcGgoZ3JhcGgpLmV4cG9ydCgiVHJhdmVyc2VyIiwgInRlc3QiLCBmYWxzZSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>\n</last-search>
+      <last-search>convertC</last-search>
       <last-offset />
-      <last-pattern>\n</last-pattern>
+      <last-pattern>convertC</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -197,6 +198,7 @@
         <entry>b05.01</entry>
         <entry>bodyG</entry>
         <entry>\n</entry>
+        <entry>convertC</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
