@@ -16,13 +16,7 @@
         <mark key="^" line="123" column="118" />
         <mark key="." line="123" column="118" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1562850345549">
-        <mark key="'" line="776" column="15" />
-        <mark key="[" line="383" column="109" />
-        <mark key="]" line="399" column="22" />
-        <mark key="^" line="399" column="22" />
-        <mark key="." line="399" column="22" />
-      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1562921713093" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Java.scala" timestamp="1562751736057">
         <mark key="[" line="41" column="48" />
         <mark key="]" line="41" column="66" />
@@ -75,11 +69,11 @@
         <mark key="^" line="110" column="1" />
         <mark key="." line="110" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562851873834">
-        <mark key="[" line="85" column="84" />
-        <mark key="]" line="85" column="83" />
-        <mark key="^" line="85" column="83" />
-        <mark key="." line="85" column="83" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562921906925">
+        <mark key="[" line="84" column="6" />
+        <mark key="]" line="84" column="7" />
+        <mark key="." line="84" column="7" />
+        <mark key="^" line="84" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562841046847">
         <mark key="'" line="46" column="65" />
@@ -99,7 +93,7 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="/sbtShell" timestamp="1562845497245">
+      <file name="/sbtShell" timestamp="1562920992066">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -121,9 +115,6 @@
         <mark key="]" line="94" column="14" />
         <mark key="^" line="94" column="14" />
         <mark key="." line="94" column="14" />
-      </file>
-      <file name="/fragment.java" timestamp="1551713120675">
-        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -158,33 +149,33 @@
         <text>com.xlrit.gears.generator.util.Export(depGraph, graph, &quot;Traverser&quot;, &quot;test&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLnV0aWwuRXhwb3J0KGRlcEdyYXBoLCBncmFwaDIsICJUcmF2ZXJzZXIiLCAidGVzdCIpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGJyYW5jaE5vZGUgKysgYnJhbmNoTm9kZS5hbmNlc3RvcnMK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBib2R5VG9LaW5kLmdldChib2R5KSBtYXRjaCB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGJyYW5jaE5vZGUgKysgYnJhbmNoTm9kZS5hbmNlc3RvcnMK</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBib2R5VG9LaW5kLmdldChib2R5KSBtYXRjaCB7Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIHZhbCBwcm9jZXNzU3BlYyA9IGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWUpCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>if (dependencyGraph.nonEmpty)
         diagramExporter.addDepGraph(name, dependencyGraph.get)</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>val location = projectCtx.translation.projectDir / &quot;diagrams&quot; 
     val diagramExporter = new DiagramExporter(location)</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">cHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc0N0eChkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFByb2Nlc3NDb250ZXh0ID0gewogICAgdmFsIHByb2plY3RDdHggPSBuZXcgUHJvamVjdENvbnRleHQoZGlybmFtZSwgTmlsKQogICAgdmFsIHByb2Nlc3NTcGVjID0gY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZSkKICAgIHZhbCBwcm9jZXNzQ3R4ID0gbmV3IFByb2Nlc3NDb250ZXh0KHByb2plY3RDdHgsIHByb2Nlc3NTcGVjKQogICAgCiAgICBwcm9jZXNzQ3R4CiAgfQogIA==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICBjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLmRpYWdyYW0uZW5yaWNoLmRlc2lnbi5HcmFwaC5SaWNoR3JhcGgoZ3JhcGgpLmV4cG9ydCgiVHJhdmVyc2VyIiwgInRlc3QiLCBmYWxzZSkK</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">IGRlZiBwcmludFRyYWNlOiBVbml0ID0gewogICAgdmFsIGUgPSBuZXcgRXhjZXB0aW9uCiAgICB2YWwgc3cgPSBuZXcgamF2YS5pby5TdHJpbmdXcml0ZXIKICAgIGUucHJpbnRTdGFja1RyYWNlKG5ldyBqYXZhLmlvLlByaW50V3JpdGVyKHN3KSkKICAgIHZhbCB0cmFjZSA9IHsiUHJpbnRpbmcgYSBwcm9ncmFtbWVyIGlzc3VlZCBzdGFja3RyYWNlOiIgOjogc3cudG9TdHJpbmcuc3BsaXQoIlxuIikudG9MaXN0LmRyb3AoMil9CiAgICAgIC5ta1N0cmluZygiXG4iKQogICAgcHJpbnRsbih0cmFjZSkKICB9</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
