@@ -69,19 +69,19 @@
         <mark key="^" line="110" column="1" />
         <mark key="." line="110" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562939139648">
-        <mark key="'" line="37" column="48" />
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="0" />
-        <mark key="." line="69" column="0" />
-        <mark key="^" line="68" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1562939960649">
+        <mark key="'" line="135" column="119" />
+        <mark key="[" line="135" column="94" />
+        <mark key="]" line="135" column="93" />
+        <mark key="." line="135" column="93" />
+        <mark key="^" line="135" column="93" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562841046847">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1562939315943">
         <mark key="'" line="46" column="65" />
-        <mark key="[" line="172" column="17" />
-        <mark key="]" line="172" column="30" />
-        <mark key="." line="246" column="11" />
-        <mark key="^" line="246" column="11" />
+        <mark key="[" line="413" column="7" />
+        <mark key="]" line="413" column="7" />
+        <mark key="." line="413" column="7" />
+        <mark key="^" line="413" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1562759280106">
         <mark key="[" line="82" column="0" />
@@ -137,6 +137,7 @@
       <jump line="107" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="47" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="38" column="48" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
+      <jump line="135" column="119" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -149,7 +150,7 @@
         <text>convertC</text>
       </register>
       <register name="0" type="4">
-        <text>new Designer(depGraph, None, clustering = false, normalizeBranches = true)</text>
+        <text encoding="base64">c29ydGVkRWRnZXNCeUxhYmVsLmZsYXRNYXAgeyBjYXNlIChfLGVkZ2VzKSA9PiBlZGdlcy50b0xpc3Quc29ydFdpdGggeyBjYXNlIChhLGIpID0+IGJ5Tm9kZU9yZGVyVHVwbGUoYS50byxiLnRvKSB9ICAgIH0=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">cHJpdmF0ZSB2YWwgZGVzaWduZXIgPSBuZXcgRGVzaWduZXIoZGVwR3JhcGgsIE5vbmUsIGNsdXN0ZXJpbmcgPSBmYWxzZSwgbm9ybWFsaXplQnJhbmNoZXMgPSB0cnVlKQogICAgICBwcml2YXRlIHZhbCBwcm9jZXNzR3JhcGggPSB7bmV3IERlc2lnbmVyKGRlcEdyYXBoLCBOb25lLCBjbHVzdGVyaW5nID0gZmFsc2UsIG5vcm1hbGl6ZUJyYW5jaGVzID0gdHJ1ZSl9LnRvUHJvY2Vzc0dyYXBoCgogICAgICBwcml2YXRlIHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgaW1wb3J0IGVucmljaC5SaWNoVGhpc05vZGUK</text>
