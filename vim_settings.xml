@@ -56,11 +56,11 @@
         <mark key="]" line="72" column="0" />
         <mark key="." line="72" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1562834229867">
-        <mark key="[" line="12" column="17" />
-        <mark key="]" line="12" column="37" />
-        <mark key="^" line="12" column="37" />
-        <mark key="." line="12" column="37" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1562964014789">
+        <mark key="[" line="78" column="10" />
+        <mark key="]" line="78" column="20" />
+        <mark key="^" line="78" column="20" />
+        <mark key="." line="78" column="20" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
@@ -108,12 +108,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562937710091">
-        <mark key="'" line="47" column="0" />
-        <mark key="[" line="450" column="5" />
-        <mark key="]" line="450" column="36" />
-        <mark key="." line="450" column="36" />
-        <mark key="^" line="450" column="36" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562964531778">
+        <mark key="'" line="48" column="0" />
+        <mark key="[" line="454" column="26" />
+        <mark key="]" line="454" column="24" />
+        <mark key="." line="454" column="24" />
+        <mark key="^" line="454" column="24" />
       </file>
     </filemarks>
     <jumps>
