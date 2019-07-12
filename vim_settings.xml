@@ -16,7 +16,6 @@
         <mark key="^" line="123" column="118" />
         <mark key="." line="123" column="118" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1562921713093" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Java.scala" timestamp="1562751736057">
         <mark key="[" line="41" column="48" />
         <mark key="]" line="41" column="66" />
@@ -92,7 +91,7 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="/sbtShell" timestamp="1562920992066">
+      <file name="/sbtShell" timestamp="1562964666560">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -108,12 +107,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562964531778">
-        <mark key="'" line="48" column="0" />
-        <mark key="[" line="454" column="26" />
-        <mark key="]" line="454" column="24" />
-        <mark key="." line="454" column="24" />
-        <mark key="^" line="454" column="24" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1562965250627">
+        <mark key="'" line="49" column="0" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+        <mark key="^" line="34" column="3" />
       </file>
     </filemarks>
     <jumps>
@@ -148,7 +147,7 @@
         <text>convertC</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">c29ydGVkRWRnZXNCeUxhYmVsLmZsYXRNYXAgeyBjYXNlIChfLGVkZ2VzKSA9PiBlZGdlcy50b0xpc3Quc29ydFdpdGggeyBjYXNlIChhLGIpID0+IGJ5Tm9kZU9yZGVyVHVwbGUoYS50byxiLnRvKSB9ICAgIH0=</text>
+        <text>util.Export(dependencyGraph, processGraph, &quot;Designer&quot;, &quot;test&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">cHJpdmF0ZSB2YWwgZGVzaWduZXIgPSBuZXcgRGVzaWduZXIoZGVwR3JhcGgsIE5vbmUsIGNsdXN0ZXJpbmcgPSBmYWxzZSwgbm9ybWFsaXplQnJhbmNoZXMgPSB0cnVlKQogICAgICBwcml2YXRlIHZhbCBwcm9jZXNzR3JhcGggPSB7bmV3IERlc2lnbmVyKGRlcEdyYXBoLCBOb25lLCBjbHVzdGVyaW5nID0gZmFsc2UsIG5vcm1hbGl6ZUJyYW5jaGVzID0gdHJ1ZSl9LnRvUHJvY2Vzc0dyYXBoCgogICAgICBwcml2YXRlIHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgaW1wb3J0IGVucmljaC5SaWNoVGhpc05vZGUK</text>
@@ -190,7 +189,7 @@
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
