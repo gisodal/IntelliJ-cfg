@@ -38,13 +38,13 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563204777199">
-        <mark key="'" line="132" column="27" />
-        <mark key="i" line="34" column="95" />
-        <mark key="[" line="53" column="30" />
-        <mark key="]" line="53" column="30" />
-        <mark key="^" line="53" column="30" />
-        <mark key="." line="53" column="30" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563205860749">
+        <mark key="'" line="133" column="27" />
+        <mark key="i" line="35" column="95" />
+        <mark key="[" line="50" column="57" />
+        <mark key="]" line="50" column="71" />
+        <mark key="." line="50" column="71" />
+        <mark key="^" line="50" column="71" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
         <mark key="'" line="46" column="65" />
@@ -173,7 +173,7 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>val frontiers = orders.map { case</text>
+        <text>toBuffer.</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
