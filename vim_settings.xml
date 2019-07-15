@@ -38,12 +38,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563179138183">
-        <mark key="'" line="93" column="27" />
-        <mark key="[" line="132" column="0" />
-        <mark key="]" line="132" column="0" />
-        <mark key="^" line="93" column="40" />
-        <mark key="." line="132" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563187326329">
+        <mark key="'" line="91" column="27" />
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="." line="59" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
         <mark key="'" line="46" column="65" />
@@ -67,12 +66,11 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563016436006">
-        <mark key="'" line="49" column="0" />
-        <mark key="[" line="34" column="4" />
-        <mark key="]" line="34" column="3" />
-        <mark key="." line="34" column="3" />
-        <mark key="^" line="34" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563187344329">
+        <mark key="'" line="47" column="0" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1562847829911">
         <mark key="'" line="12" column="31" />
@@ -176,7 +174,7 @@
         <text>a</text>
       </register>
       <register name="/" type="4">
-        <text>convertC</text>
+        <text>Export</text>
       </register>
       <register name="0" type="4">
         <text>Line(s&quot;While $condition == $whileClause&quot;, level) ::</text>
@@ -213,13 +211,13 @@
       </register>
     </registers>
     <search>
-      <last-search>convertC</last-search>
+      <last-search>Export</last-search>
       <last-offset />
-      <last-pattern>convertC</last-pattern>
+      <last-pattern>Export</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -229,6 +227,7 @@
         <entry>bodyG</entry>
         <entry>\n</entry>
         <entry>convertC</entry>
+        <entry>Export</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
