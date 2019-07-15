@@ -38,13 +38,13 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563202175489">
-        <mark key="'" line="121" column="27" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563204777199">
+        <mark key="'" line="132" column="27" />
         <mark key="i" line="34" column="95" />
-        <mark key="[" line="49" column="55" />
-        <mark key="]" line="49" column="54" />
-        <mark key="." line="49" column="54" />
-        <mark key="^" line="49" column="54" />
+        <mark key="[" line="53" column="30" />
+        <mark key="]" line="53" column="30" />
+        <mark key="^" line="53" column="30" />
+        <mark key="." line="53" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
         <mark key="'" line="46" column="65" />
@@ -173,13 +173,13 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IC8vIHVzZSBwYXJhbGxlbCBnYXRlIGFzIHN5bmMgcG9pbnQgZm9yIGludGVybGVhdmluZw==</text>
+        <text>val frontiers = orders.map { case</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>determineOrder(node)</text>
+        <text>: List[processGraph.NodeT]</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIG9yZGVyID0gbm9kZS50b091dGVyIG1hdGNoIHsKICAgICAgICAgICAgICBjYXNlIHA6R3JhcGguTm9kZS5QYXJhbGxlbCA9PgogICAgICAgICAgICAgICAgdmFsIG9yZGVycyA9IG5vZGUub3V0Z29pbmcudG9MaXN0Lm1hcChlZGdlID0+IHsgdmlzaXRlZCArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpfSkKICAgICAgICAgICAgICAgIGludGVybGVhdmUob3JkZXJzKQoKICAgICAgICAgICAgICBjYXNlIF8gPT4KICAgICAgICAgICAgICAgIC8vIHNvcnQgb3V0Z29pbmcgZWRnZXMKICAgICAgICAgICAgICAgIHZhbCBlZGdlcyA9IFByb2Nlc3NEZXNpZ24uc29ydE91dGdvaW5nKG5vZGUpLm1hcChfLmFzSW5zdGFuY2VPZltwcm9jZXNzR3JhcGguRWRnZVRdKQoKICAgICAgICAgICAgICAgIC8vIHRyYXZlcnNlIG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgICAgICB2YWwgb3JkZXJzID0gZWRnZXMubWFwKGVkZ2UgPT4geyB2aXNpdGVkICs9IGVkZ2U7IHRyYXZlcnNlKGVkZ2UudG8sdmlzaXRlZCl9KQogICAgICAgICAgICAgICAgb3JkZXJzLmZsYXR0ZW4KICAgICAgICAgICAgfQo=</text>
