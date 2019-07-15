@@ -36,21 +36,21 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563017464113">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563178455223">
         <mark key="'" line="40" column="7" />
-        <mark key="[" line="137" column="6" />
-        <mark key="]" line="137" column="5" />
-        <mark key="." line="137" column="5" />
-        <mark key="^" line="137" column="5" />
+        <mark key="[" line="138" column="34" />
+        <mark key="]" line="138" column="34" />
+        <mark key="." line="138" column="34" />
+        <mark key="^" line="138" column="34" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563016847217">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
         <mark key="'" line="46" column="65" />
         <mark key="[" line="231" column="7" />
         <mark key="]" line="231" column="7" />
         <mark key="^" line="231" column="7" />
         <mark key="." line="231" column="7" />
       </file>
-      <file name="/sbtShell" timestamp="1562964666560">
+      <file name="/sbtShell" timestamp="1563178219805">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -113,7 +113,6 @@
         <mark key="]" line="72" column="0" />
         <mark key="." line="72" column="0" />
       </file>
-      <file name="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/immutable/List.scala" timestamp="1563016545289" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="110" column="0" />
@@ -142,7 +141,6 @@
         <mark key="[" line="16" column="4" />
         <mark key="]" line="22" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1562967230850" />
     </filemarks>
     <jumps>
       <jump line="64" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
