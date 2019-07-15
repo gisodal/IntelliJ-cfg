@@ -3,22 +3,22 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563180404888">
-        <mark key="[" line="177" column="34" />
-        <mark key="]" line="177" column="32" />
-        <mark key="." line="177" column="32" />
-        <mark key="^" line="177" column="32" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563182099264">
+        <mark key="[" line="251" column="92" />
+        <mark key="]" line="251" column="91" />
+        <mark key="." line="251" column="91" />
+        <mark key="^" line="251" column="91" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563017499812">
-        <mark key="[" line="383" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563183801172">
+        <mark key="[" line="1463" column="41" />
         <mark key="]" line="383" column="56" />
         <mark key="." line="383" column="56" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1563178609392">
-        <mark key="[" line="159" column="56" />
-        <mark key="]" line="167" column="51" />
-        <mark key="^" line="167" column="51" />
-        <mark key="." line="167" column="51" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1563183370252">
+        <mark key="[" line="194" column="59" />
+        <mark key="]" line="194" column="98" />
+        <mark key="^" line="194" column="98" />
+        <mark key="." line="194" column="98" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562848410067">
         <mark key="[" line="73" column="6" />
@@ -178,7 +178,7 @@
         <text>convertC</text>
       </register>
       <register name="0" type="4">
-        <text>val orderedTuples = tuples.sortBy(_._1)</text>
+        <text>Line(s&quot;While $condition == $whileClause&quot;, level) ::</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">IjIiIAoiMyIgCiI0IiAKIjgiIAoiOSIgCiIxMCIKIjUiIAoiNiIgCiI3IiA=</text>
