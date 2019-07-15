@@ -38,13 +38,13 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563205860749">
-        <mark key="'" line="133" column="27" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563206534563">
+        <mark key="'" line="128" column="27" />
         <mark key="i" line="35" column="95" />
-        <mark key="[" line="50" column="57" />
-        <mark key="]" line="50" column="71" />
-        <mark key="." line="50" column="71" />
-        <mark key="^" line="50" column="71" />
+        <mark key="[" line="52" column="65" />
+        <mark key="]" line="52" column="65" />
+        <mark key="^" line="52" column="65" />
+        <mark key="." line="52" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
         <mark key="'" line="46" column="65" />
