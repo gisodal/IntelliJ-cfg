@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563280802524">
-        <mark key="[" line="95" column="31" />
-        <mark key="]" line="95" column="43" />
-        <mark key="^" line="95" column="43" />
-        <mark key="." line="95" column="43" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563281365027">
+        <mark key="[" line="93" column="127" />
+        <mark key="]" line="93" column="127" />
+        <mark key="." line="93" column="127" />
+        <mark key="^" line="93" column="127" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563268268619">
         <mark key="^" line="1743" column="54" />
