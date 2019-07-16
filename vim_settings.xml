@@ -10,10 +10,7 @@
         <mark key="^" line="251" column="91" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563268268619">
-        <mark key="[" line="1176" column="63" />
-        <mark key="]" line="1176" column="56" />
-        <mark key="." line="1176" column="56" />
-        <mark key="^" line="1709" column="54" />
+        <mark key="^" line="1743" column="54" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1563183370252">
         <mark key="[" line="194" column="59" />
@@ -46,12 +43,12 @@
         <mark key="^" line="75" column="58" />
         <mark key="." line="58" column="14" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563278532149">
         <mark key="'" line="46" column="65" />
-        <mark key="[" line="231" column="7" />
-        <mark key="]" line="231" column="7" />
-        <mark key="^" line="231" column="7" />
-        <mark key="." line="231" column="7" />
+        <mark key="[" line="88" column="0" />
+        <mark key="]" line="88" column="25" />
+        <mark key="^" line="88" column="25" />
+        <mark key="." line="88" column="25" />
       </file>
       <file name="/sbtShell" timestamp="1563264397354">
         <mark key="[" line="0" column="0" />
@@ -68,12 +65,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563277216057">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563278883919">
         <mark key="'" line="219" column="105" />
-        <mark key="[" line="217" column="22" />
-        <mark key="]" line="217" column="92" />
-        <mark key="." line="217" column="92" />
-        <mark key="^" line="217" column="92" />
+        <mark key="[" line="19" column="2" />
+        <mark key="]" line="19" column="1" />
+        <mark key="." line="19" column="1" />
+        <mark key="^" line="19" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271480588">
         <mark key="'" line="63" column="51" />
@@ -105,11 +102,11 @@
         <mark key="]" line="26" column="0" />
         <mark key="." line="26" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1563273231215">
-        <mark key="[" line="9" column="62" />
-        <mark key="]" line="9" column="76" />
-        <mark key="." line="9" column="76" />
-        <mark key="^" line="9" column="76" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1563279122951">
+        <mark key="[" line="9" column="77" />
+        <mark key="]" line="9" column="115" />
+        <mark key="." line="9" column="115" />
+        <mark key="^" line="9" column="115" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1562759199367">
         <mark key="[" line="72" column="0" />
@@ -177,7 +174,7 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>.map(_.asInstanceOf[processGraph.NodeT])</text>
+        <text>toProcessDesign:   Boolean = true,</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
