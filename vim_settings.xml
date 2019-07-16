@@ -38,13 +38,13 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563211158006">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563266408534">
         <mark key="'" line="80" column="32" />
         <mark key="i" line="35" column="95" />
-        <mark key="[" line="82" column="0" />
-        <mark key="]" line="82" column="0" />
-        <mark key="^" line="81" column="52" />
-        <mark key="." line="82" column="0" />
+        <mark key="[" line="58" column="13" />
+        <mark key="]" line="58" column="14" />
+        <mark key="^" line="75" column="58" />
+        <mark key="." line="58" column="14" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563178219911">
         <mark key="'" line="46" column="65" />
@@ -179,7 +179,7 @@
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>traversal.drop(1)</text>
+        <text encoding="base64">Y2FzZSBHcmFwaC5Ob2RlLkV4Y2x1c2l2ZShfLGV2YWxJZCxTb21lKGxhYmVsKSkgPT4KICAgICAgICAgICAgICAgICAgLy8gYWRkIGFsbCBub2RlcyBvZiB0aGUgc2FtZSBib2R5</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IGRlZiBjb25kaXRpb24oYTogcHJvY2Vzc0dyYXBoLk5vZGVULGI6IExpc3RCdWZmZXJbcHJvY2Vzc0dyYXBoLk5vZGVUXSk6IEJvb2xlYW4gPSBwYXJhbGxlbFRvQ291bnQuZ2V0KGEpIG1hdGNoIHsKICAgICAgICAgICAgICAgIGNhc2UgU29tZShjb3VudCkgPT4gYi5zaXplID09IGNvdW50CiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gZmFsc2UKICAgICAgICAgICAgICB9</text>
