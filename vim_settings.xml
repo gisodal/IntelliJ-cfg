@@ -68,12 +68,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563275402241">
-        <mark key="'" line="467" column="71" />
-        <mark key="[" line="40" column="5" />
-        <mark key="]" line="40" column="67" />
-        <mark key="^" line="21" column="35" />
-        <mark key="." line="21" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563277216057">
+        <mark key="'" line="219" column="105" />
+        <mark key="[" line="217" column="22" />
+        <mark key="]" line="217" column="92" />
+        <mark key="." line="217" column="92" />
+        <mark key="^" line="217" column="92" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271480588">
         <mark key="'" line="63" column="51" />
@@ -170,19 +170,20 @@
       <jump line="65" column="32" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="71" column="51" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
       <jump line="466" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="219" column="105" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>val exporter = util.Export.Exporter(&quot;Designer&quot;)</text>
+        <text>.map(_.asInstanceOf[processGraph.NodeT])</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>exporter.add(dependencyGraph, processGraph, &quot;normalized&quot;, true)</text>
+        <text>processGraph.mergeAll(clusters)</text>
       </register>
       <register name="1" type="4">
         <text>reduceParallelGates()
