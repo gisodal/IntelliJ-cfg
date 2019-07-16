@@ -68,19 +68,19 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563270998168">
-        <mark key="'" line="66" column="0" />
-        <mark key="[" line="35" column="60" />
-        <mark key="]" line="34" column="15" />
-        <mark key="." line="34" column="15" />
-        <mark key="^" line="34" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563273656675">
+        <mark key="'" line="467" column="71" />
+        <mark key="[" line="40" column="5" />
+        <mark key="]" line="40" column="67" />
+        <mark key="^" line="21" column="35" />
+        <mark key="." line="21" column="35" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271075524">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271480588">
         <mark key="'" line="63" column="51" />
-        <mark key="[" line="63" column="56" />
-        <mark key="]" line="63" column="59" />
-        <mark key="." line="63" column="59" />
-        <mark key="^" line="63" column="59" />
+        <mark key="[" line="77" column="6" />
+        <mark key="]" line="78" column="5" />
+        <mark key="^" line="78" column="5" />
+        <mark key="." line="78" column="5" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -105,11 +105,11 @@
         <mark key="]" line="26" column="0" />
         <mark key="." line="26" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1563268779061">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1563273231215">
         <mark key="[" line="9" column="62" />
-        <mark key="]" line="9" column="80" />
-        <mark key="." line="9" column="80" />
-        <mark key="^" line="9" column="80" />
+        <mark key="]" line="9" column="76" />
+        <mark key="." line="9" column="76" />
+        <mark key="^" line="9" column="76" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1562759199367">
         <mark key="[" line="72" column="0" />
@@ -169,46 +169,49 @@
       <jump line="93" column="27" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="65" column="32" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="71" column="51" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
+      <jump line="466" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>if (export)</text>
+        <text>val exporter = util.Export.Exporter(&quot;Designer&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>processGraph: design.Graph,</text>
+        <text>exporter.add(dependencyGraph, processGraph, &quot;normalized&quot;, true)</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">IHByaXZhdGUgZGVmIG1rT3JpZ2luKCkgPSBPcmlnaW4oIiIsIE5vUG9zaXRpb24pCgogIHByaXZhdGUgZGVmIGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWU6IFN0cmluZykgPSB7CiAgICB2YWwgcmVzdWx0ID0gU04uQm9vbGVhbkxpdGVyYWwodHJ1ZSkobWtPcmlnaW4oKSkKICAgIFByb2Nlc3NTcGVjKAogICAgICBwcm9jZXNzRGVmID0gUHJvY2Vzc0RlZmluaXRpb24oCiAgICAgICAgbmFtZSwKICAgICAgICBQcm9jZXNzUmVzdWx0KHJlc3VsdCwgTmlsKShta09yaWdpbigpKSwKICAgICAgICBrZXkgPSBOb25lLAogICAgICAgIHN0YXJ0ZXIgPSBOb25lLAogICAgICAgIHN1YmplY3QgPSBOb25lLAogICAgICAgIGRlc2NyaXB0aW9uID0gTm9uZQogICAgICApKG1rT3JpZ2luKCkpLAogICAgICByZXVzYWJsZURlZnMgPSBOaWwKICAgICkobWtPcmlnaW4oKSkKICB9CgogIHByaXZhdGUgZGVmIGNyZWF0ZVByb2Nlc3NDdHgoZGlybmFtZTogU3RyaW5nLCBuYW1lOiBTdHJpbmcpOiBQcm9jZXNzQ29udGV4dCA9IHsKICAgIHZhbCBwcm9qZWN0Q3R4ID0gbmV3IFByb2plY3RDb250ZXh0KGRpcm5hbWUsIE5pbCkKICAgIHZhbCBwcm9jZXNzU3BlYyA9IGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWUpCiAgICB2YWwgcHJvY2Vzc0N0eCA9IG5ldyBQcm9jZXNzQ29udGV4dChwcm9qZWN0Q3R4LCBwcm9jZXNzU3BlYykKCiAgICBwcm9jZXNzQ3R4CiAgfQo=</text>
+        <text>reduceParallelGates()
+    if (export)
+      exporter.add(dependencyGraph, processGraph, &quot;PD: reduced parallel&quot;, true)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZTogU3RyaW5nKSA9IHsKICAgIHZhbCByZXN1bHQgPSBTTi5Cb29sZWFuTGl0ZXJhbCh0cnVlKShta09yaWdpbigpKQogICAgUHJvY2Vzc1NwZWMoCiAgICAgIHByb2Nlc3NEZWYgPSBQcm9jZXNzRGVmaW5pdGlvbigKICAgICAgICBuYW1lLAogICAgICAgIFByb2Nlc3NSZXN1bHQocmVzdWx0LCBOaWwpKG1rT3JpZ2luKCkpLAogICAgICAgIGtleSA9IE5vbmUsCiAgICAgICAgc3RhcnRlciA9IE5vbmUsCiAgICAgICAgc3ViamVjdCA9IE5vbmUsCiAgICAgICAgZGVzY3JpcHRpb24gPSBOb25lCiAgICAgICkobWtPcmlnaW4oKSksCiAgICAgIHJldXNhYmxlRGVmcyA9IE5pbAogICAgKShta09yaWdpbigpKQogIH0KCiAgcHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc0N0eChkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFByb2Nlc3NDb250ZXh0ID0gewogICAgdmFsIHByb2plY3RDdHggPSBuZXcgUHJvamVjdENvbnRleHQoZGlybmFtZSwgTmlsKQogICAgdmFsIHByb2Nlc3NTcGVjID0gY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZSkKICAgIHZhbCBwcm9jZXNzQ3R4ID0gbmV3IFByb2Nlc3NDb250ZXh0KHByb2plY3RDdHgsIHByb2Nlc3NTcGVjKQoKICAgIHByb2Nlc3NDdHgKICB9Cg==</text>
+        <text encoding="base64">IHByaXZhdGUgZGVmIG1rT3JpZ2luKCkgPSBPcmlnaW4oIiIsIE5vUG9zaXRpb24pCgogIHByaXZhdGUgZGVmIGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWU6IFN0cmluZykgPSB7CiAgICB2YWwgcmVzdWx0ID0gU04uQm9vbGVhbkxpdGVyYWwodHJ1ZSkobWtPcmlnaW4oKSkKICAgIFByb2Nlc3NTcGVjKAogICAgICBwcm9jZXNzRGVmID0gUHJvY2Vzc0RlZmluaXRpb24oCiAgICAgICAgbmFtZSwKICAgICAgICBQcm9jZXNzUmVzdWx0KHJlc3VsdCwgTmlsKShta09yaWdpbigpKSwKICAgICAgICBrZXkgPSBOb25lLAogICAgICAgIHN0YXJ0ZXIgPSBOb25lLAogICAgICAgIHN1YmplY3QgPSBOb25lLAogICAgICAgIGRlc2NyaXB0aW9uID0gTm9uZQogICAgICApKG1rT3JpZ2luKCkpLAogICAgICByZXVzYWJsZURlZnMgPSBOaWwKICAgICkobWtPcmlnaW4oKSkKICB9CgogIHByaXZhdGUgZGVmIGNyZWF0ZVByb2Nlc3NDdHgoZGlybmFtZTogU3RyaW5nLCBuYW1lOiBTdHJpbmcpOiBQcm9jZXNzQ29udGV4dCA9IHsKICAgIHZhbCBwcm9qZWN0Q3R4ID0gbmV3IFByb2plY3RDb250ZXh0KGRpcm5hbWUsIE5pbCkKICAgIHZhbCBwcm9jZXNzU3BlYyA9IGNyZWF0ZVByb2Nlc3NTcGVjRm9yUmVzdWx0KG5hbWUpCiAgICB2YWwgcHJvY2Vzc0N0eCA9IG5ldyBQcm9jZXNzQ29udGV4dChwcm9qZWN0Q3R4LCBwcm9jZXNzU3BlYykKCiAgICBwcm9jZXNzQ3R4CiAgfQo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">IGRlZiBjb25kaXRpb24oYTogcHJvY2Vzc0dyYXBoLk5vZGVULGI6IExpc3RCdWZmZXJbcHJvY2Vzc0dyYXBoLk5vZGVUXSk6IEJvb2xlYW4gPSBwYXJhbGxlbFRvQ291bnQuZ2V0KGEpIG1hdGNoIHsKICAgICAgICAgICAgICAgIGNhc2UgU29tZShjb3VudCkgPT4gYi5zaXplID09IGNvdW50CiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gZmFsc2UKICAgICAgICAgICAgICB9</text>
+        <text encoding="base64">cHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZTogU3RyaW5nKSA9IHsKICAgIHZhbCByZXN1bHQgPSBTTi5Cb29sZWFuTGl0ZXJhbCh0cnVlKShta09yaWdpbigpKQogICAgUHJvY2Vzc1NwZWMoCiAgICAgIHByb2Nlc3NEZWYgPSBQcm9jZXNzRGVmaW5pdGlvbigKICAgICAgICBuYW1lLAogICAgICAgIFByb2Nlc3NSZXN1bHQocmVzdWx0LCBOaWwpKG1rT3JpZ2luKCkpLAogICAgICAgIGtleSA9IE5vbmUsCiAgICAgICAgc3RhcnRlciA9IE5vbmUsCiAgICAgICAgc3ViamVjdCA9IE5vbmUsCiAgICAgICAgZGVzY3JpcHRpb24gPSBOb25lCiAgICAgICkobWtPcmlnaW4oKSksCiAgICAgIHJldXNhYmxlRGVmcyA9IE5pbAogICAgKShta09yaWdpbigpKQogIH0KCiAgcHJpdmF0ZSBkZWYgY3JlYXRlUHJvY2Vzc0N0eChkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFByb2Nlc3NDb250ZXh0ID0gewogICAgdmFsIHByb2plY3RDdHggPSBuZXcgUHJvamVjdENvbnRleHQoZGlybmFtZSwgTmlsKQogICAgdmFsIHByb2Nlc3NTcGVjID0gY3JlYXRlUHJvY2Vzc1NwZWNGb3JSZXN1bHQobmFtZSkKICAgIHZhbCBwcm9jZXNzQ3R4ID0gbmV3IFByb2Nlc3NDb250ZXh0KHByb2plY3RDdHgsIHByb2Nlc3NTcGVjKQoKICAgIHByb2Nlc3NDdHgKICB9Cg==</text>
       </register>
       <register name="4" type="4">
+        <text encoding="base64">IGRlZiBjb25kaXRpb24oYTogcHJvY2Vzc0dyYXBoLk5vZGVULGI6IExpc3RCdWZmZXJbcHJvY2Vzc0dyYXBoLk5vZGVUXSk6IEJvb2xlYW4gPSBwYXJhbGxlbFRvQ291bnQuZ2V0KGEpIG1hdGNoIHsKICAgICAgICAgICAgICAgIGNhc2UgU29tZShjb3VudCkgPT4gYi5zaXplID09IGNvdW50CiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gZmFsc2UKICAgICAgICAgICAgICB9</text>
+      </register>
+      <register name="5" type="4">
         <text encoding="base64">dmFsIG9yZGVyID0gbm9kZS50b091dGVyIG1hdGNoIHsKICAgICAgICAgICAgICBjYXNlIHA6R3JhcGguTm9kZS5QYXJhbGxlbCA9PgogICAgICAgICAgICAgICAgdmFsIG9yZGVycyA9IG5vZGUub3V0Z29pbmcudG9MaXN0Lm1hcChlZGdlID0+IHsgdmlzaXRlZCArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpfSkKICAgICAgICAgICAgICAgIGludGVybGVhdmUob3JkZXJzKQoKICAgICAgICAgICAgICBjYXNlIF8gPT4KICAgICAgICAgICAgICAgIC8vIHNvcnQgb3V0Z29pbmcgZWRnZXMKICAgICAgICAgICAgICAgIHZhbCBlZGdlcyA9IFByb2Nlc3NEZXNpZ24uc29ydE91dGdvaW5nKG5vZGUpLm1hcChfLmFzSW5zdGFuY2VPZltwcm9jZXNzR3JhcGguRWRnZVRdKQoKICAgICAgICAgICAgICAgIC8vIHRyYXZlcnNlIG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgICAgICB2YWwgb3JkZXJzID0gZWRnZXMubWFwKGVkZ2UgPT4geyB2aXNpdGVkICs9IGVkZ2U7IHRyYXZlcnNlKGVkZ2UudG8sdmlzaXRlZCl9KQogICAgICAgICAgICAgICAgb3JkZXJzLmZsYXR0ZW4KICAgICAgICAgICAgfQo=</text>
       </register>
-      <register name="5" type="8">
+      <register name="6" type="8">
         <text encoding="base64">IjIiIAoiMyIgCiI0IiAKIjgiIAoiOSIgCiIxMCIKIjUiIAoiNiIgCiI3IiA=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Y2FzZSBFdmFsQ29sbFN0ZXAoXywgZWxlbWVudCwgdmFsdWUsIF8pICAgID0+ICgyLCBlbGVtZW50Lm5hbWUsICI1IikKICAgIGNhc2UgRXZhbEVsZW1TdGVwKF8sIGVsZW1lbnQsIHZhbHVlLCBfKSAgICA9PiAoMiwgZWxlbWVudC5uYW1lLCAiNiIpCiAgICBjYXNlIEV2YWxDb25kU3RlcChvcmlnaW4sIF8sIF8pICAgICAgICAgICAgPT4gKDIsIG9yaWdpbi5pZCwgICAgIjciKQ==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICBwcml2YXRlIGRlZiBibG9ja2lmeVJlYyhzdGVwOiBQU3RlcCk6IEJsb2NrID0gewo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">dmFsIHBzdGVwID0gYmxvY2tpZnlQU3RlcChzdGVwKQogICAgcHN0ZXAgbWF0Y2ggewogICAgICBjYXNlIGJsb2NrOkJsb2NrID0+IGJsb2NrCiAgICAgIGNhc2UgTmlsU3RlcCA9PiBOaWxTdGVwCiAgICAgIGNhc2UgXyA9PiBCbG9jayhMaXN0KHBzdGVwKSkKICAgIH0=</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">cHJpdmF0ZSB2YWwgZGVzaWduZXIgPSBuZXcgRGVzaWduZXIoZGVwR3JhcGgsIE5vbmUsIGNsdXN0ZXJpbmcgPSBmYWxzZSwgbm9ybWFsaXplQnJhbmNoZXMgPSB0cnVlKQogICAgICBwcml2YXRlIHZhbCBwcm9jZXNzR3JhcGggPSB7bmV3IERlc2lnbmVyKGRlcEdyYXBoLCBOb25lLCBjbHVzdGVyaW5nID0gZmFsc2UsIG5vcm1hbGl6ZUJyYW5jaGVzID0gdHJ1ZSl9LnRvUHJvY2Vzc0dyYXBoCgogICAgICBwcml2YXRlIHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgaW1wb3J0IGVucmljaC5SaWNoVGhpc05vZGUK</text>
+        <text encoding="base64">dmFsIHBzdGVwID0gYmxvY2tpZnlQU3RlcChzdGVwKQogICAgcHN0ZXAgbWF0Y2ggewogICAgICBjYXNlIGJsb2NrOkJsb2NrID0+IGJsb2NrCiAgICAgIGNhc2UgTmlsU3RlcCA9PiBOaWxTdGVwCiAgICAgIGNhc2UgXyA9PiBCbG9jayhMaXN0KHBzdGVwKSkKICAgIH0=</text>
       </register>
       <register name=":" type="4">
         <text>echo &quot;No clipboard support...&quot;</text>
@@ -236,8 +239,8 @@
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
         <entry>call Color_toggle()</entry>
-        <entry>nohlsearch</entry>
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
+        <entry>nohlsearch</entry>
         <entry>w</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
       </history-cmd>
