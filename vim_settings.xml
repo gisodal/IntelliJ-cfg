@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563182099264">
-        <mark key="[" line="251" column="92" />
-        <mark key="]" line="251" column="91" />
-        <mark key="." line="251" column="91" />
-        <mark key="^" line="251" column="91" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563280802524">
+        <mark key="[" line="95" column="31" />
+        <mark key="]" line="95" column="43" />
+        <mark key="^" line="95" column="43" />
+        <mark key="." line="95" column="43" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563268268619">
         <mark key="^" line="1743" column="54" />
@@ -180,7 +180,7 @@
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>processGraph.mergeAll(clusters)</text>
+        <text>thisGraph.nodes.map(_.pretty).mkString(&quot;\n\n&quot;)</text>
       </register>
       <register name="1" type="4">
         <text>reduceParallelGates()
@@ -212,7 +212,7 @@
         <text encoding="base64">dmFsIHBzdGVwID0gYmxvY2tpZnlQU3RlcChzdGVwKQogICAgcHN0ZXAgbWF0Y2ggewogICAgICBjYXNlIGJsb2NrOkJsb2NrID0+IGJsb2NrCiAgICAgIGNhc2UgTmlsU3RlcCA9PiBOaWxTdGVwCiAgICAgIGNhc2UgXyA9PiBCbG9jayhMaXN0KHBzdGVwKSkKICAgIH0=</text>
       </register>
       <register name=":" type="4">
-        <text>echo &quot;No clipboard support...&quot;</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -239,8 +239,8 @@
         <entry>call Color_toggle()</entry>
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry>nohlsearch</entry>
-        <entry>w</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
