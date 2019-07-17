@@ -36,17 +36,18 @@
         <mark key="." line="36" column="5" />
         <mark key="^" line="36" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1563013906203">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1563369590745">
+        <mark key="[" line="69" column="27" />
+        <mark key="]" line="69" column="32" />
+        <mark key="." line="69" column="32" />
+        <mark key="^" line="69" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563368650870">
-        <mark key="'" line="79" column="66" />
-        <mark key="[" line="85" column="53" />
-        <mark key="]" line="86" column="13" />
-        <mark key="." line="86" column="13" />
-        <mark key="^" line="86" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563370065563">
+        <mark key="'" line="80" column="66" />
+        <mark key="[" line="116" column="59" />
+        <mark key="]" line="117" column="75" />
+        <mark key="." line="117" column="75" />
+        <mark key="^" line="117" column="75" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563278532149">
         <mark key="'" line="46" column="65" />
@@ -181,13 +182,13 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>remove(traversals, next)</text>
+        <text>import design.enrich.Cluster._</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBHcmFwaC5Ob2RlLkV4Y2x1c2l2ZShfLGV2YWxJZCxTb21lKF8pKSA9Pg==</text>
+        <text encoding="base64">ZGVmIGJvZHk6IEJvZHlJZCA9IHByaW1hcnkgbWF0Y2ggewogICAgICBjYXNlIFNvbWUocykgPT4gcy5ib2R5CiAgICAgIGNhc2UgXyA9PiBOb25lCiAgICB9Cg==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">CiAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgdHJhdmVyc2Fs</text>
