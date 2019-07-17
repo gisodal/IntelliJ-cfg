@@ -3,20 +3,20 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563359003666">
-        <mark key="[" line="104" column="0" />
-        <mark key="]" line="104" column="0" />
-        <mark key="^" line="93" column="127" />
-        <mark key="." line="104" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563378800691">
+        <mark key="[" line="92" column="7" />
+        <mark key="]" line="92" column="7" />
+        <mark key="." line="92" column="7" />
+        <mark key="^" line="92" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563268268619">
         <mark key="^" line="1743" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1563366950518">
-        <mark key="[" line="8" column="46" />
-        <mark key="]" line="9" column="46" />
-        <mark key="^" line="9" column="46" />
-        <mark key="." line="9" column="46" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1563378700614">
+        <mark key="[" line="9" column="3" />
+        <mark key="]" line="9" column="1" />
+        <mark key="^" line="9" column="1" />
+        <mark key="." line="9" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1563183370252">
         <mark key="[" line="194" column="59" />
@@ -36,18 +36,17 @@
         <mark key="." line="36" column="5" />
         <mark key="^" line="36" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1563371254960">
-        <mark key="[" line="89" column="58" />
-        <mark key="]" line="69" column="32" />
-        <mark key="." line="69" column="32" />
-        <mark key="^" line="69" column="32" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1563378633884">
+        <mark key="[" line="68" column="5" />
+        <mark key="]" line="68" column="3" />
+        <mark key="^" line="68" column="3" />
+        <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563371170164">
-        <mark key="'" line="79" column="66" />
-        <mark key="[" line="21" column="64" />
-        <mark key="]" line="21" column="63" />
-        <mark key="." line="21" column="63" />
-        <mark key="^" line="21" column="63" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563378884246">
+        <mark key="[" line="14" column="82" />
+        <mark key="]" line="15" column="3" />
+        <mark key="." line="15" column="3" />
+        <mark key="^" line="15" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563278532149">
         <mark key="'" line="46" column="65" />
@@ -56,7 +55,7 @@
         <mark key="^" line="88" column="25" />
         <mark key="." line="88" column="25" />
       </file>
-      <file name="/sbtShell" timestamp="1563358976313">
+      <file name="/sbtShell" timestamp="1563378363539">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -71,12 +70,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563370821479">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563378516260">
         <mark key="'" line="220" column="105" />
-        <mark key="[" line="31" column="4" />
-        <mark key="]" line="31" column="3" />
-        <mark key="." line="31" column="3" />
-        <mark key="^" line="31" column="3" />
+        <mark key="[" line="31" column="3" />
+        <mark key="]" line="31" column="2" />
+        <mark key="." line="31" column="2" />
+        <mark key="^" line="31" column="2" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271480588">
         <mark key="'" line="63" column="51" />
@@ -114,11 +113,11 @@
         <mark key="." line="9" column="115" />
         <mark key="^" line="9" column="115" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1563366975862">
-        <mark key="[" line="75" column="31" />
-        <mark key="]" line="75" column="40" />
-        <mark key="." line="75" column="40" />
-        <mark key="^" line="75" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1563378678627">
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
+        <mark key="^" line="74" column="40" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
