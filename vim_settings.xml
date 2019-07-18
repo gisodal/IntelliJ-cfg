@@ -42,11 +42,11 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563447825763">
-        <mark key="[" line="277" column="29" />
-        <mark key="]" line="277" column="33" />
-        <mark key="." line="277" column="33" />
-        <mark key="^" line="277" column="33" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563449145477">
+        <mark key="[" line="123" column="8" />
+        <mark key="]" line="123" column="8" />
+        <mark key="." line="123" column="8" />
+        <mark key="^" line="123" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563380552452">
         <mark key="'" line="46" column="65" />
@@ -189,7 +189,7 @@
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">KGJvZHlTdGFjayAhPSBtYXBwaW5nKG5vZGUpICYmIGJvZHlTdGFjay5lbmRzV2l0aChtYXBwaW5nKG5vZGUpKQ==</text>
+        <text>assert(mapping.exists(_ == (Graph.Node.Start,List(None)))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIG1hcHBpbmcobm9kZSkgPSBleGNsdXNpdmVCb2R5U3RhY2sK</text>
