@@ -24,9 +24,9 @@
         <mark key="^" line="194" column="98" />
         <mark key="." line="194" column="98" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1562848410067">
-        <mark key="[" line="73" column="6" />
-        <mark key="]" line="73" column="99" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1563444026698">
+        <mark key="[" line="78" column="10" />
+        <mark key="]" line="79" column="37" />
         <mark key="^" line="73" column="99" />
         <mark key="." line="73" column="99" />
       </file>
@@ -42,11 +42,11 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563381551652">
-        <mark key="[" line="246" column="60" />
-        <mark key="]" line="246" column="38" />
-        <mark key="^" line="246" column="38" />
-        <mark key="." line="246" column="38" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563444194727">
+        <mark key="[" line="124" column="43" />
+        <mark key="]" line="125" column="7" />
+        <mark key="." line="125" column="7" />
+        <mark key="^" line="125" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563380552452">
         <mark key="'" line="46" column="65" />
@@ -55,7 +55,7 @@
         <mark key="^" line="88" column="25" />
         <mark key="." line="88" column="25" />
       </file>
-      <file name="/sbtShell" timestamp="1563378363539">
+      <file name="/sbtShell" timestamp="1563441147285">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -70,7 +70,7 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563378516260">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563444226800">
         <mark key="'" line="220" column="105" />
         <mark key="[" line="31" column="3" />
         <mark key="]" line="31" column="2" />
@@ -176,46 +176,48 @@
       <jump line="219" column="105" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="79" column="66" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="247" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
+      <jump line="260" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>import design.enrich.Cluster._</text>
+        <text>val traverser = design.Traverser(thisGraph)</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>node.getWhileLoopEdge</text>
+        <text>val traverser = design.Traverser(thisGraph)
+          traverser.topologicalSortDFS</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIAogICAgICAgICAgZWRnZXMuZm9yZWFjaCB7IGVkZ2UgPT4gdmlzaXRlZCArPSBlZGdlOyBzb3J0ZWRFZGdlcyArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpIH0K</text>
+      <register name="1" type="4">
+        <text encoding="base64">CiAgICAgIGRlZiBub2RlVG9Cb2R5U3RhY2s6IE1hcFtUaGlzTm9kZSwgQm9keVN0YWNrXSA9IHsKCiAgICAgICAgZGVmIGJvZHlTdGFja3Mobm9kZTogcHJvY2Vzc0dyYXBoLk5vZGVULCBib2R5U3RhY2s6IEJvZHlTdGFjaywgbWFwcGluZzogbXV0YWJsZS5NYXBbVGhpc05vZGUsIEJvZHlTdGFja10pOiBVbml0ID0gewogICAgICAgICAgaWYgKCFtYXBwaW5nLmNvbnRhaW5zKG5vZGUpIHx8IChib2R5U3RhY2sgIT0gbWFwcGluZyhub2RlKSAmJiBib2R5U3RhY2suZW5kc1dpdGgobWFwcGluZyhub2RlKSkpKSB7CiAgICAgICAgICAgIG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICAgICAgICAgICAgLy8gdGhlIHdoaWxlIGlzIHNwZWNpYWwsIGJlY2F1c2UgaXQgZG9lcyBub3QgaGF2ZSBhIGNsb3NpbmcgZXhjbHVzaXZlIGdhdGUKICAgICAgICAgICAgICBjYXNlIHdoaWxlTm9kZTpHcmFwaC5Ob2RlLkV4Y2x1c2l2ZS5XaGlsZSA9PgogICAgICAgICAgICAgICAgdmFsIGJvZHlFZGdlID0gbm9kZS5nZXRXaGlsZUJvZHlFZGdlCiAgICAgICAgICAgICAgICBhc3NlcnQoYm9keUVkZ2Uubm9uRW1wdHkpCiAgICAgICAgICAgICAgICB2YWwgd2hpbGVCb2R5U3RhY2sgPSBCb2R5SWQod2hpbGVOb2RlLmV2YWxJZCkgOjogYm9keVN0YWNrCiAgICAgICAgICAgICAgICBtYXBwaW5nKG5vZGUpID0gd2hpbGVCb2R5U3RhY2sKICAgICAgICAgICAgICAgIGJvZHlTdGFja3MoYm9keUVkZ2UuZ2V0LnRvLCB3aGlsZUJvZHlTdGFjaywgbWFwcGluZykKICAgICAgICAgICAgICAgIChub2RlLm91dGdvaW5nIC0gYm9keUVkZ2UuZ2V0KS5tYXAoXy50bykuZm9yZWFjaChub2RlID0+IGJvZHlTdGFja3Mobm9kZSwgYm9keVN0YWNrLCBtYXBwaW5nKSkKCiAgICAgICAgICAgICAgLy8gZXhjbHVzaXZlIG5vZGVzIGluY3JlYXNlIG9yIGRlY3JlYXNlIHRoZSBzdGFjawogICAgICAgICAgICAgIGNhc2UgR3JhcGguTm9kZS5FeGNsdXNpdmUoXywgZXZhbElkLCBsYWJlbCkgPT4KICAgICAgICAgICAgICAgIHZhbCBleGNsdXNpdmVCb2R5U3RhY2sgPSBsYWJlbCBtYXRjaCB7CiAgICAgICAgICAgICAgICAgIGNhc2UgU29tZShfKSA9PiBCb2R5SWQoZXZhbElkKSA6OiBib2R5U3RhY2sKICAgICAgICAgICAgICAgICAgY2FzZSBOb25lID0+IGJvZHlTdGFjay5kcm9wKDEpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBtYXBwaW5nKG5vZGUpID0gZXhjbHVzaXZlQm9keVN0YWNrCiAgICAgICAgICAgICAgICBub2RlLmRpU3VjY2Vzc29ycy5mb3JlYWNoKHN1Y2MgPT4gYm9keVN0YWNrcyhzdWNjLCBleGNsdXNpdmVCb2R5U3RhY2ssIG1hcHBpbmcpKQoKICAgICAgICAgICAgICAvLyBvdGhlcndpc2Ugc3VjY2Vzc29ycyBoYXZlIHRoZSBzYW1lIHN0YWNrCiAgICAgICAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICAgICAgICBub2RlLmRpU3VjY2Vzc29ycy5mb3JlYWNoKHN1Y2MgPT4gYm9keVN0YWNrcyhzdWNjLCBib2R5U3RhY2ssIG1hcHBpbmcpKQogICAgICAgICAgICB9CiAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YWwgYm9keVN0YWNrOiBCb2R5U3RhY2sgPSBMaXN0KE5vbmUpCiAgICAgICAgdmFsIG1hcHBpbmcgPSBtdXRhYmxlLk1hcC5lbXB0eVtUaGlzTm9kZSwgQm9keVN0YWNrXQogICAgICAgIHZhbCByb290cyA9IHByb2Nlc3NHcmFwaC5ub2Rlcy5maWx0ZXIoIV8uaGFzUHJlZGVjZXNzb3JzKQogICAgICAgIGFzc2VydChyb290cy5zaXplID09IDEsICJBIHByb2Nlc3MgZGVzaWduIHNob3VsZCBoYXZlIDEgcm9vdCB3aGVuIGNvbXB1dGluZyBib2R5IHN0YWNrcyIpCgoKICAgICAgICByb290cy5mb3JlYWNoKHJvb3QgPT4gYm9keVN0YWNrcyhyb290LGJvZHlTdGFjaywgbWFwcGluZykpCiAgICAgICAgbWFwcGluZy50b01hcAogICAgICB9</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQoc29ydGVkRWRnZXMuc2l6ZSA9PSBncmFwaC5lZGdlcy5zaXplLCAiVHJhdmVyc2VyIGRpZCBub3QgdmlzaXQgYWxsIGVkZ2VzIikK</text>
+        <text encoding="base64">ICAgICAgICAgIAogICAgICAgICAgZWRnZXMuZm9yZWFjaCB7IGVkZ2UgPT4gdmlzaXRlZCArPSBlZGdlOyBzb3J0ZWRFZGdlcyArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWRSb290cy5mb3JlYWNoKHJvb3QgPT4gdHJhdmVyc2Uocm9vdCx2aXNpdGVkKSkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQoc29ydGVkRWRnZXMuc2l6ZSA9PSBncmFwaC5lZGdlcy5zaXplLCAiVHJhdmVyc2VyIGRpZCBub3QgdmlzaXQgYWxsIGVkZ2VzIikK</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBzb3J0ZWRSb290cy5mb3JlYWNoKHJvb3QgPT4gdHJhdmVyc2Uocm9vdCx2aXNpdGVkKSkK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="8">
+      <register name="6" type="8">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgdAogICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgIC8=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ID0KICAgIG11dGFibGUuTWFwLmVtcHR5W0RlcEdyYXBoI05vZGVULEdyYXBoI05vZGVUXQ==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CiAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgdHJhdmVyc2Fs</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgY2FzZSBHcmFwaC5Ob2RlLkV4Y2x1c2l2ZShfLGV2YWxJZCxTb21lKF8pKSA9PiAgCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">KG5ldyAocHJvY2Vzc0dyYXBoLk5vZGVUID0+IEJvZHlTdGFjayl7CiAgICAgICAgICAgICAgICAgICAgZGVmIGFwcGx5KG5vZGU6IHByb2Nlc3NHcmFwaC5Ob2RlVCk6IEJvZHlTdGFjayA9IE5pbAogICAgICAgICAgICAgICAgICB9KShub2RlKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -228,7 +230,7 @@
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
