@@ -43,12 +43,12 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563823535083">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563825394046">
         <mark key="'" line="5" column="55" />
-        <mark key="[" line="31" column="103" />
-        <mark key="]" line="31" column="127" />
-        <mark key="." line="31" column="127" />
-        <mark key="^" line="31" column="127" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+        <mark key="^" line="31" column="102" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563820841555">
         <mark key="'" line="141" column="15" />
@@ -72,12 +72,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563823786097">
-        <mark key="'" line="356" column="64" />
-        <mark key="[" line="392" column="36" />
-        <mark key="]" line="392" column="36" />
-        <mark key="." line="392" column="36" />
-        <mark key="^" line="392" column="36" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563825301216">
+        <mark key="'" line="363" column="64" />
+        <mark key="[" line="523" column="13" />
+        <mark key="]" line="524" column="3" />
+        <mark key="^" line="524" column="3" />
+        <mark key="." line="524" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271480588">
         <mark key="'" line="63" column="51" />
@@ -135,10 +135,10 @@
         <mark key="^" line="22" column="19" />
         <mark key="." line="13" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1563820980475">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1563824315295">
         <mark key="'" line="50" column="42" />
-        <mark key="[" line="67" column="32" />
-        <mark key="]" line="67" column="31" />
+        <mark key="[" line="20" column="4" />
+        <mark key="]" line="29" column="4" />
         <mark key="." line="67" column="31" />
         <mark key="^" line="67" column="31" />
       </file>
@@ -258,13 +258,13 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>type StepId = String</text>
+        <text>depNodeToProcessNode.clear()</text>
       </register>
       <register name="/" type="4">
         <text>Some(</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Yy5ub2Rlcy5mb3JlYWNoKG5vZGUgPT4gZGVwTm9kZVRvUHJvY2Vzc05vZGUgKz0gbm9kZSAtPiBwcm9jZXNzSW5uZXJOb2RlKQ==</text>
+        <text>createNodeMap(processGraph)</text>
       </register>
       <register name="1" type="4">
         <text>private[design] object BodyId {
@@ -325,8 +325,8 @@
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
         <entry>call Color_toggle()</entry>
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
-        <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>nohlsearch</entry>
+        <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
