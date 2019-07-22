@@ -42,18 +42,18 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563783639288">
-        <mark key="[" line="253" column="99" />
-        <mark key="]" line="253" column="65" />
-        <mark key="." line="253" column="65" />
-        <mark key="^" line="253" column="65" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563794501439">
+        <mark key="[" line="295" column="0" />
+        <mark key="]" line="295" column="0" />
+        <mark key="." line="295" column="0" />
+        <mark key="^" line="296" column="37" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563784434052">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563794863273">
         <mark key="'" line="46" column="65" />
-        <mark key="[" line="263" column="0" />
-        <mark key="]" line="263" column="0" />
-        <mark key="^" line="262" column="35" />
-        <mark key="." line="263" column="0" />
+        <mark key="[" line="175" column="37" />
+        <mark key="]" line="175" column="36" />
+        <mark key="^" line="175" column="36" />
+        <mark key="." line="175" column="36" />
       </file>
       <file name="/sbtShell" timestamp="1563783414597">
         <mark key="[" line="0" column="0" />
@@ -189,7 +189,7 @@
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHJ5IHsKICAgICAgICBfdmVyaWZ5VG9wb2xvZ3kKICAgICAgfSBjYXRjaCB7CiAgICAgICAgY2FzZSBlOkRlc2lnbkV4Y2VwdGlvbiA9PgogICAgICAgICAgLy9pbXBvcnQgZGlhZ3JhbS5lbnJpY2guZGVzaWduLkdyYXBoLntSaWNoR3JhcGggPT4gUmljaEdyYXBoRXhwb3J0ZXJ9CiAgICAgICAgICAvL1JpY2hHcmFwaEV4cG9ydGVyKHRoaXNHcmFwaCkuZXhwb3J0KCJ2ZXJpZnlUZXN0IiwgInZlcmlmeSIsIHRydWUpCiAgICAgICAgICB0aHJvdyBEZXNpZ25FeGNlcHRpb24ocyJQcm9jZXNzIGRlc2lnbiBwb3N0Y29uZGl0aW9uIGZhaWxlZDogJHtlLmdldE1lc3NhZ2V9IikKICAgICAgfQ==</text>
+        <text>wrapException(_verifyTopology)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICAKICAgIAogICAgZGVm</text>
@@ -219,7 +219,7 @@
         <text encoding="base64">ICAgICAgICBhc3NlcnQoc29ydGVkRWRnZXMuc2l6ZSA9PSBncmFwaC5lZGdlcy5zaXplLCAiVHJhdmVyc2VyIGRpZCBub3QgdmlzaXQgYWxsIGVkZ2VzIikK</text>
       </register>
       <register name=":" type="4">
-        <text>echo &quot;No clipboard support...&quot;</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -246,8 +246,8 @@
         <entry>call Color_toggle()</entry>
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry>nohlsearch</entry>
-        <entry>w</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
