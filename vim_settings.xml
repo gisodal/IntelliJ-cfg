@@ -43,11 +43,12 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563822764932">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563823535083">
         <mark key="'" line="5" column="55" />
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="0" />
-        <mark key="." line="39" column="0" />
+        <mark key="[" line="31" column="103" />
+        <mark key="]" line="31" column="127" />
+        <mark key="." line="31" column="127" />
+        <mark key="^" line="31" column="127" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563820841555">
         <mark key="'" line="141" column="15" />
@@ -71,12 +72,12 @@
         <mark key="." line="116" column="40" />
         <mark key="^" line="116" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563820582116">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1563823786097">
         <mark key="'" line="356" column="64" />
-        <mark key="[" line="304" column="49" />
-        <mark key="]" line="304" column="49" />
-        <mark key="." line="304" column="49" />
-        <mark key="^" line="304" column="49" />
+        <mark key="[" line="392" column="36" />
+        <mark key="]" line="392" column="36" />
+        <mark key="." line="392" column="36" />
+        <mark key="^" line="392" column="36" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1563271480588">
         <mark key="'" line="63" column="51" />
@@ -263,7 +264,7 @@
         <text>Some(</text>
       </register>
       <register name="0" type="4">
-        <text>import com.xlrit.gears.generator.design.Graph.Node.Cluster</text>
+        <text encoding="base64">Yy5ub2Rlcy5mb3JlYWNoKG5vZGUgPT4gZGVwTm9kZVRvUHJvY2Vzc05vZGUgKz0gbm9kZSAtPiBwcm9jZXNzSW5uZXJOb2RlKQ==</text>
       </register>
       <register name="1" type="4">
         <text>private[design] object BodyId {
