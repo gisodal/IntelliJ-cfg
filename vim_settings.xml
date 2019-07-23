@@ -43,12 +43,12 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563872603320">
-        <mark key="'" line="335" column="0" />
-        <mark key="[" line="35" column="56" />
-        <mark key="]" line="35" column="55" />
-        <mark key="^" line="35" column="55" />
-        <mark key="." line="35" column="55" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563874710374">
+        <mark key="'" line="357" column="0" />
+        <mark key="[" line="116" column="37" />
+        <mark key="]" line="116" column="40" />
+        <mark key="^" line="116" column="40" />
+        <mark key="." line="116" column="40" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563820841555">
         <mark key="'" line="141" column="15" />
@@ -260,13 +260,13 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>import design.enrich.DepGraph._</text>
+        <text encoding="base64">IG5vZGVUb0JvZHlTdGFjayhoZWFkLnRvT3V0ZXIpLmVuZHNXaXRoKGJvZHlTdGFjayk=</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIHByb2Nlc3NOb2RlVG9EZXBOb2RlcyA9IGRlcE5vZGVUb1Byb2Nlc3NOb2RlLmdyb3VwQnkoXy5fMikubWFwVmFsdWVzKF8ua2V5cykKICAgICAgICB2YWwgZGVwTm9kZXNUb0JvZHlTdGFjayA9IG5vZGVUb0JvZHlTdGFjay5tYXAgeyBjYXNlIChwcm9jZXNzTm9kZSxib2R5U3RhY2spID0+CiAgICAgICAgICB2YWwgZGVwTm9kZXMgPSBwcm9jZXNzTm9kZVRvRGVwTm9kZXMocHJvY2Vzc05vZGUpCiAgICAgICAgICBkZXBOb2RlcyAtPiBib2R5U3RhY2sKICAgICAgICB9CgogICAgICAgIGRlcE5vZGVzVG9Cb2R5U3RhY2suZm9yYWxsIHsgY2FzZSAoZGVwTm9kZXMsIGJvZHlTdGFjaykgPT4KICAgICAgICAgIHZhbCBzdWJncmFwaCA9IGRlcGVuZGVuY3lHcmFwaC5zdWJncmFwaChkZXBOb2RlcykKICAgICAgICAgIHZhbCByb290MiA9IHN1YmdyYXBoLnJvb3RPcHRpb24gbWF0Y2ggewogICAgICAgICAgICBjYXNlIFNvbWUobm9kZSkgPT4gbm9kZQogICAgICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgRGVzaWduRXhjZXB0aW9uKHMiTm8gcm9vdCBmb3VuZCBmb3IgZGVwZW5kZW5jeSBncmFwaCBvZiBzaXplICR7ZGVwZW5kZW5jeUdyYXBoLm5vZGVzLnNpemV9IikKICAgICAgICAgIH0KICAgICAgICAgIHZhbCBkc3RlcCA9IHJvb3QyLnRvT3V0ZXIKICAgICAgICAgIGRzdGVwLmJvZHlTdGFjayA9PSBib2R5U3RhY2sKICAgICAgICB9Cg==</text>
+        <text encoding="base64">dHJhdmVyc2Fscy5mb3JlYWNoICggdHJhdmVyc2FsID0+IHRyYXZlcnNhbC5oZWFkT3B0aW9uIG1hdGNoIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIFNvbWUoaGVhZCkgaWYgaGVhZCA9PSBuZXh0ID0+IHRyYXZlcnNhbCAtPSBuZXh0CiAgICAgICAgICAgICAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICAgICAgICAgIH0p</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgZGVwTm9kZXNUb0JvZHlTdGFjayA9IHByb2Nlc3NOb2RlVG9Cb2R5U3RhY2sucmVtYWluKHByb2Nlc3NOb2RlVG9EZXBOb2Rlcy5rZXlzKS5tYXAgewo=</text>
