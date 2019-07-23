@@ -320,7 +320,7 @@
         <text encoding="base64">ZGVmIHZlcmlmeVN0YXJ0RW5kOiBVbml0ID0gewogICAgICB2YWwgc3RhcnROb2RlcyA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLmNvbGxlY3QgeyBjYXNlIG5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLlN0YXJ0LnR5cGUgPT4gbm9kZSB9CiAgICAgIHZhbCBlbmROb2RlcyA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLmNvbGxlY3QgeyBjYXNlIG5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLkVuZC50eXBlID0+IG5vZGUgfQoKICAgICAgaWYgKHN0YXJ0Tm9kZXMuc2l6ZSAhPSAxKQogICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIjEgU3RhcnQgbm9kZSBleHBlY3RlZCwgYnV0IGZvdW5kICR7c3RhcnROb2Rlcy5zaXplfSIpCgogICAgICBpZiAoZW5kTm9kZXMuc2l6ZSAhPSAxKQogICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIjEgRW5kIG5vZGUgZXhwZWN0ZWQsIGJ1dCBmb3VuZCAke2VuZE5vZGVzLnNpemV9IikKICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>source ~/.ideavim</text>
       </register>
     </registers>
     <search>
@@ -354,6 +354,7 @@
         <entry>nohlsearch</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>w</entry>
+        <entry>source ~/.ideavim</entry>
       </history-cmd>
       <history-expr />
       <history-input />
