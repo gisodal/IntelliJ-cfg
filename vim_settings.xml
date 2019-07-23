@@ -56,6 +56,12 @@
         <mark key="^" line="62" column="8" />
         <mark key="." line="62" column="8" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1563877738129">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="15" column="13" />
+        <mark key="." line="3" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563820841555">
         <mark key="'" line="141" column="15" />
         <mark key="[" line="253" column="147" />
@@ -160,11 +166,12 @@
         <mark key="^" line="77" column="0" />
         <mark key="." line="77" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1563877284275">
-        <mark key="[" line="290" column="27" />
-        <mark key="]" line="290" column="27" />
-        <mark key="^" line="290" column="31" />
-        <mark key="." line="290" column="27" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1563877510661">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="291" column="0" />
+        <mark key="]" line="291" column="0" />
+        <mark key="." line="291" column="0" />
+        <mark key="^" line="291" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -261,13 +268,15 @@
       <jump line="37" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="312" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="40" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
+      <jump line="289" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
+      <jump line="2" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>// traverse the process design</text>
+        <text encoding="base64">Y2FzZSBGYWlsdXJlKGV4KSA9PiB0aHJvdyBEZXNpZ25FeGNlcHRpb24oZXguZ2V0TWVzc2FnZSk=</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
