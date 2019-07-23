@@ -43,12 +43,18 @@
         <mark key="^" line="68" column="3" />
         <mark key="." line="68" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563874710374">
-        <mark key="'" line="357" column="0" />
-        <mark key="[" line="116" column="37" />
-        <mark key="]" line="116" column="40" />
-        <mark key="^" line="116" column="40" />
-        <mark key="." line="116" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1563875935615">
+        <mark key="[" line="6" column="48" />
+        <mark key="]" line="7" column="3" />
+        <mark key="." line="7" column="3" />
+        <mark key="^" line="7" column="3" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1563875650470">
+        <mark key="'" line="354" column="0" />
+        <mark key="[" line="62" column="8" />
+        <mark key="]" line="62" column="8" />
+        <mark key="^" line="62" column="8" />
+        <mark key="." line="62" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563820841555">
         <mark key="'" line="141" column="15" />
@@ -98,11 +104,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1563819790373">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="^" line="9" column="40" />
-        <mark key="." line="11" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1563875894111">
+        <mark key="[" line="10" column="22" />
+        <mark key="]" line="11" column="1" />
+        <mark key="^" line="11" column="1" />
+        <mark key="." line="11" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1563012607759">
         <mark key="[" line="26" column="0" />
@@ -153,11 +159,11 @@
         <mark key="^" line="73" column="41" />
         <mark key="." line="73" column="41" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1563820382188">
-        <mark key="[" line="68" column="79" />
-        <mark key="]" line="68" column="77" />
-        <mark key="." line="68" column="77" />
-        <mark key="^" line="68" column="77" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1563876187142">
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="77" column="0" />
+        <mark key="^" line="77" column="0" />
+        <mark key="." line="77" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -260,13 +266,15 @@
         <text encoding="base64">ICAgICAgaWYgKFRocmVhZC5pbnRlcnJ1cHRlZCgpKSB0aHJvdyBuZXcgSW50ZXJydXB0ZWRFeGNlcHRpb24oIlRocmVhZCBpbnRlcnJ1cHRlZCIpCgogICAgICB2YWwgKG5leHRTdGF0ZSwgbmV4dFJvdW5kKSA9IHJvdW5kLmFwcGx5KHN0YXRlKQogICAgICByZWFjaERvbmVTdGF0ZShuZXh0U3RhdGUsIG5leHRSb3VuZCkKICAgIH0KICB9Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG5vZGVUb0JvZHlTdGFjayhoZWFkLnRvT3V0ZXIpLmVuZHNXaXRoKGJvZHlTdGFjayk=</text>
+        <text>// traverse the process design</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHJhdmVyc2Fscy5mb3JlYWNoICggdHJhdmVyc2FsID0+IHRyYXZlcnNhbC5oZWFkT3B0aW9uIG1hdGNoIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIFNvbWUoaGVhZCkgaWYgaGVhZCA9PSBuZXh0ID0+IHRyYXZlcnNhbCAtPSBuZXh0CiAgICAgICAgICAgICAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICAgICAgICAgIH0p</text>
+        <text>override val id     : NodeId,
+        override val evalId : EvalId,
+        override val label  : Label,</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgZGVwTm9kZXNUb0JvZHlTdGFjayA9IHByb2Nlc3NOb2RlVG9Cb2R5U3RhY2sucmVtYWluKHByb2Nlc3NOb2RlVG9EZXBOb2Rlcy5rZXlzKS5tYXAgewo=</text>
