@@ -3,18 +3,19 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563880047453">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1563883184484">
+        <mark key="[" line="20" column="9" />
+        <mark key="]" line="20" column="30" />
+        <mark key="." line="20" column="30" />
+        <mark key="^" line="20" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1563268268619">
         <mark key="^" line="1743" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1563821629273">
-        <mark key="[" line="8" column="18" />
-        <mark key="]" line="8" column="17" />
-        <mark key="." line="8" column="17" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1563883388160">
+        <mark key="[" line="11" column="46" />
+        <mark key="]" line="11" column="47" />
+        <mark key="." line="11" column="47" />
         <mark key="^" line="8" column="17" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1563183370252">
@@ -68,7 +69,7 @@
         <mark key="." line="253" column="118" />
         <mark key="^" line="253" column="118" />
       </file>
-      <file name="/sbtShell" timestamp="1563869528691">
+      <file name="/sbtShell" timestamp="1563882395557">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -114,11 +115,6 @@
         <mark key="]" line="11" column="1" />
         <mark key="^" line="11" column="1" />
         <mark key="." line="11" column="1" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1563012607759">
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1563279122951">
         <mark key="[" line="9" column="77" />
@@ -274,6 +270,7 @@
       <jump line="40" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="289" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="2" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
+      <jump line="11" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -320,7 +317,7 @@
         <text encoding="base64">ZGVmIHZlcmlmeVN0YXJ0RW5kOiBVbml0ID0gewogICAgICB2YWwgc3RhcnROb2RlcyA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLmNvbGxlY3QgeyBjYXNlIG5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLlN0YXJ0LnR5cGUgPT4gbm9kZSB9CiAgICAgIHZhbCBlbmROb2RlcyA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLmNvbGxlY3QgeyBjYXNlIG5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLkVuZC50eXBlID0+IG5vZGUgfQoKICAgICAgaWYgKHN0YXJ0Tm9kZXMuc2l6ZSAhPSAxKQogICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIjEgU3RhcnQgbm9kZSBleHBlY3RlZCwgYnV0IGZvdW5kICR7c3RhcnROb2Rlcy5zaXplfSIpCgogICAgICBpZiAoZW5kTm9kZXMuc2l6ZSAhPSAxKQogICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIjEgRW5kIG5vZGUgZXhwZWN0ZWQsIGJ1dCBmb3VuZCAke2VuZE5vZGVzLnNpemV9IikKICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>source ~/.ideavim</text>
+        <text>source ~/.ideavimrc</text>
       </register>
     </registers>
     <search>
@@ -330,7 +327,7 @@
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
@@ -353,8 +350,10 @@
         <entry encoding="base64">JzwsJz4tMXMvXG4vXCAvZw==</entry>
         <entry>nohlsearch</entry>
         <entry>echo &quot;No clipboard support...&quot;</entry>
-        <entry>w</entry>
         <entry>source ~/.ideavim</entry>
+        <entry>map</entry>
+        <entry>w</entry>
+        <entry>source ~/.ideavimrc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
