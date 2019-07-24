@@ -59,21 +59,18 @@
         <mark key="^" line="15" column="13" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563993456600">
-        <mark key="'" line="512" column="0" />
-        <mark key="[" line="70" column="59" />
-        <mark key="]" line="70" column="51" />
-        <mark key="." line="70" column="51" />
-        <mark key="^" line="70" column="51" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1564004629920">
+        <mark key="'" line="517" column="0" />
+        <mark key="[" line="132" column="80" />
+        <mark key="]" line="132" column="97" />
+        <mark key="." line="132" column="97" />
+        <mark key="^" line="132" column="97" />
       </file>
       <file name="/sbtShell" timestamp="1563981352324">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="/Dummy.scala" timestamp="1563210784967">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/Bpmn.scala" timestamp="1562756309570">
         <mark key="[" line="116" column="40" />
@@ -139,11 +136,11 @@
         <mark key="^" line="22" column="19" />
         <mark key="." line="13" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1563885247634">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
-        <mark key="." line="83" column="0" />
-        <mark key="^" line="72" column="46" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1563994928196">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="^" line="25" column="52" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Trace.scala" timestamp="1562765573188">
         <mark key="[" line="2" column="5" />
@@ -163,6 +160,7 @@
         <mark key="^" line="77" column="0" />
         <mark key="." line="77" column="0" />
       </file>
+      <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1563994853326" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1563880010859">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="7" column="73" />
@@ -274,49 +272,47 @@
       <jump line="511" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGNhc2UgY2xhc3MgTm9kZShpZDogQm9keUlkLCBjb250YWluczogTWFwW09wdGlvbltCb29sZWFuXSxUcmF2ZXJzYWJsZVtkZXNpZ24uR3JhcGgjTm9kZVRdXSkgewo=</text>
+      <register name="&quot;" type="4">
+        <text>nodeWithEvalId.toOuter</text>
       </register>
       <register name="-" type="4">
-        <text>def empty: BodyId = Option.empty[EvalId]</text>
+        <text encoding="base64">Y2FzZSBOb25lID0+IHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkNvdWxkIG5vdCBmaW5kIGFuIGV2YWwncyBjb25kaXRpb24iKQ==</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text>thisGraph ++= incomingThisEdges</text>
+        <text>nodeWithEvalId.toOuter</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text encoding="base64">diB3cmFwcGVyLndyYXBwZXJDb25kaXRpb24gbWF0Y2ggewogICAgICAgICAgICAgICAgY2FzZSBTb21lKGNvbmRpdGlvbikgPT4gU29tZShjb25kaXRpb24pCiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihzIkNvdWxkIG5vdCBkZXRlcm1pbmUgd3JhcHBlcidzIGNvbmRpdGlvbiIpCiAgICAgICAgICAgICAgfQ==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGRlZiBzdWJncmFwaChub2RlczogVHJhdmVyc2FibGVbR3JhcGgjTm9kZVRdKTogR3JhcGggPQo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgIGNhc2UgY2xhc3MgTm9kZShpZDogQm9keUlkLCBjb250YWluczogTWFwW09wdGlvbltCb29sZWFuXSxUcmF2ZXJzYWJsZVtkZXNpZ24uR3JhcGgjTm9kZVRdXSkgewo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text encoding="base64">aWYgKHRoaXNOb2RlLnRvT3V0ZXIuZ2V0Q2xhc3MgIT0gdGhhdE5vZGUudG9PdXRlci5nZXRDbGFzcykKICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIlNob3VsZCBub3QgbWVyZ2Ugbm9kZXMgb2YgZGlmZmVyZW50IHR5cGVzIikK</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">Ly8gaW5jb21pbmcgZWRnZXMgZnJvbSB0aGF0Tm9kZSBiZWNvbWUgaW5jb21pbmcgbm9kZXMgZm9yIHRoaXNOb2RlCiAgICAgICAgdGhpc0dyYXBoICsrPSB0aGF0Tm9kZS5kaUxQcmVkZWNlc3NvcnMKICAgICAgICAgIC8vIHJlbW92ZSBzZWxmLWVkZ2UKICAgICAgICAgIC5maWx0ZXJ7Y2FzZSAobm9kZSxfKSA9PiBub2RlICE9IHRoaXNOb2RlfQogICAgICAgICAgLmRpZmYodGhpc05vZGUuZGlMUHJlZGVjZXNzb3JzKQogICAgICAgICAgLm1hcHtjYXNlIChub2RlLGxhYmVsKSA9PiBFZGdlKG5vZGUsdGhpc05vZGUsbGFiZWwpfQ==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">Ly8gb3V0Z29pbmcgZWRnZXMgZnJvbSB0aGF0Tm9kZSBiZWNvbWUgb3V0Z29pbmcgbm9kZXMgZm9yIHRoaXNOb2RlCiAgICAgICAgdGhpc0dyYXBoICsrPSB0aGF0Tm9kZS5kaUxTdWNjZXNzb3JzCiAgICAgICAgICAvLyByZW1vdmUgc2VsZi1lZGdlCiAgICAgICAgICAuZmlsdGVye2Nhc2UgKG5vZGUsXykgPT4gbm9kZSAhPSB0aGlzTm9kZX0KICAgICAgICAgIC5kaWZmKHRoaXNOb2RlLmRpTFN1Y2Nlc3NvcnMpCiAgICAgICAgICAubWFwe2Nhc2UgKG5vZGUsIGxhYmVsKSA9PiBFZGdlKHRoaXNOb2RlLG5vZGUsbGFiZWwpfQ==</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text encoding="base64">dmFsIGVkZ2VzID0gYm9keVN0YWNrcy5mbGF0TWFwKGJvZHlTdGFjayA9PiBib2R5U3RhY2suemlwKGJvZHlTdGFjay50YWlsKS5tYXAoXy5zd2FwKSkKICAgICAgICAuZmlsdGVyKGUgPT4gYm9keUlkcy5jb250YWlucyhlLl8xKSAmJiBib2R5SWRzLmNvbnRhaW5zKGUuXzIpKQo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgZGVwTm9kZXNUb0JvZHlTdGFjayA9IHByb2Nlc3NOb2RlVG9Cb2R5U3RhY2sucmVtYWluKHByb2Nlc3NOb2RlVG9EZXBOb2Rlcy5rZXlzKS5tYXAgewo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text encoding="base64">dmFsIHN1YmdyYXBoID0gZGVwZW5kZW5jeUdyYXBoLnN1YmdyYXBoKGRlcE5vZGVzKQogICAgICAgICAgdmFsIHJvb3QyID0gc3ViZ3JhcGgucm9vdE9wdGlvbiBtYXRjaCB7CiAgICAgICAgICAgIGNhc2UgU29tZShub2RlKSA9PiBub2RlCiAgICAgICAgICAgIGNhc2UgTm9uZSA9PiB0aHJvdyBEZXNpZ25FeGNlcHRpb24ocyJObyByb290IGZvdW5kIGZvciBkZXBlbmRlbmN5IGdyYXBoIG9mIHNpemUgJHtkZXBlbmRlbmN5R3JhcGgubm9kZXMuc2l6ZX0iKQogICAgICAgICAgfQogICAgICAgICAgIHJvb3QyLnRvT3V0ZXIuYm9keVN0YWNr</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">YXNzZXJ0KG1hcHBpbmcuZm9yYWxsIHsgY2FzZSAobm9kZSxib2R5U3RhY2s6IEJvZHlTdGFjaykgPT4gbm9kZS50b091dGVyIG1hdGNoIHsKICAgICAgICAgIGNhc2UgY2x1c3RlcjogQ2x1c3RlciA9PgogICAgICAgICAgICB2YWwgdGVzdCA9IGNsdXN0ZXIuYm9keVN0YWNrID09IGJvZHlTdGFjawogICAgICAgICAgICB0ZXN0CiAgICAgICAgICBjYXNlIF8gPT4gdHJ1ZQogICAgICAgIH19KQ==</text>
-      </register>
-      <register name="9" type="4">
-        <text>private[design] object BodyId {
-    def apply(evalId: EvalId): BodyId = Some(evalId)
-  }</text>
-      </register>
       <register name=":" type="4">
-        <text>source ~/.ideavimrc</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -351,8 +347,9 @@
         <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>source ~/.ideavim</entry>
         <entry>map</entry>
-        <entry>w</entry>
         <entry>source ~/.ideavimrc</entry>
+        <entry>w:w</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
