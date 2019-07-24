@@ -59,12 +59,12 @@
         <mark key="^" line="15" column="13" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563987129863">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1563993456600">
         <mark key="'" line="512" column="0" />
-        <mark key="[" line="73" column="78" />
-        <mark key="]" line="73" column="83" />
-        <mark key="." line="73" column="83" />
-        <mark key="^" line="73" column="83" />
+        <mark key="[" line="70" column="59" />
+        <mark key="]" line="70" column="51" />
+        <mark key="." line="70" column="51" />
+        <mark key="^" line="70" column="51" />
       </file>
       <file name="/sbtShell" timestamp="1563981352324">
         <mark key="[" line="0" column="0" />
@@ -316,7 +316,7 @@
   }</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>source ~/.ideavimrc</text>
       </register>
     </registers>
     <search>
@@ -351,8 +351,8 @@
         <entry>echo &quot;No clipboard support...&quot;</entry>
         <entry>source ~/.ideavim</entry>
         <entry>map</entry>
-        <entry>source ~/.ideavimrc</entry>
         <entry>w</entry>
+        <entry>source ~/.ideavimrc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
