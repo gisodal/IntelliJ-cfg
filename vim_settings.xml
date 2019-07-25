@@ -53,12 +53,12 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564055241343">
-        <mark key="'" line="354" column="0" />
-        <mark key="[" line="62" column="8" />
-        <mark key="]" line="62" column="8" />
-        <mark key="^" line="62" column="8" />
-        <mark key="." line="62" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564056347843">
+        <mark key="'" line="364" column="0" />
+        <mark key="[" line="157" column="27" />
+        <mark key="]" line="157" column="28" />
+        <mark key="." line="157" column="28" />
+        <mark key="^" line="157" column="28" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1563877738129">
         <mark key="[" line="3" column="0" />
@@ -298,10 +298,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>// TODO: implement graph in case of FOREACH</text>
+        <text encoding="base64">IHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgICBpbXBvcnQgZW5yaWNoLlJpY2hUaGlzTm9kZSA=</text>
       </register>
       <register name="-" type="4">
-        <text>// TODO: implement graph in case of FOREACH</text>
+        <text>Traverser(processGraph)</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
@@ -310,32 +310,33 @@
         <text>// if there is indentation, see the code lines as the label of one singleton</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
+        <text encoding="base64">IHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgICBpbXBvcnQgZW5yaWNoLlJpY2hUaGlzTm9kZSA=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIC8vIGlmIHRoZXJlIGlzIGluZGVudGF0aW9uLCBzZWUgdGhlIGNvZGUgbGluZXMgYXMgdGhlIGxhYmVsIG9mIG9uZSBzaW5nbGV0b24KICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgLy8gb3RoZXJ3aXNlLCBjcmVhdGUgYSBncmFwaCB3aGVyZSBlYWNoIGxpbmUgaXMgYSBzaW5nbGV0b24sIHRoYXQgaXMgZGVwZW5kZW50IG9uIHRoZSBuZXh0IHNpbmdsZXRvbgogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
+        <text>val enrich = new RichNode[processGraph.type](processGraph)
+        import enrich.RichThisNode</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIC8vIGlmIHRoZXJlIGlzIGluZGVudGF0aW9uLCBzZWUgdGhlIGNvZGUgbGluZXMgYXMgdGhlIGxhYmVsIG9mIG9uZSBzaW5nbGV0b24KICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgLy8gb3RoZXJ3aXNlLCBjcmVhdGUgYSBncmFwaCB3aGVyZSBlYWNoIGxpbmUgaXMgYSBzaW5nbGV0b24sIHRoYXQgaXMgZGVwZW5kZW50IG9uIHRoZSBuZXh0IHNpbmdsZXRvbgogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
+      </register>
+      <register name="5" type="4">
         <text>import com.xlrit.gears.generator.design.enrich.Cluster._
           import com.xlrit.gears.generator.design.enrich.DStep._</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">diB3cmFwcGVyLndyYXBwZXJDb25kaXRpb24gbWF0Y2ggewogICAgICAgICAgICAgICAgY2FzZSBTb21lKGNvbmRpdGlvbikgPT4gU29tZShjb25kaXRpb24pCiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihzIkNvdWxkIG5vdCBkZXRlcm1pbmUgd3JhcHBlcidzIGNvbmRpdGlvbiIpCiAgICAgICAgICAgICAgfQ==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIGRlZiBzdWJncmFwaChub2RlczogVHJhdmVyc2FibGVbR3JhcGgjTm9kZVRdKTogR3JhcGggPQo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIGNhc2UgY2xhc3MgTm9kZShpZDogQm9keUlkLCBjb250YWluczogTWFwW09wdGlvbltCb29sZWFuXSxUcmF2ZXJzYWJsZVtkZXNpZ24uR3JhcGgjTm9kZVRdXSkgewo=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">aWYgKHRoaXNOb2RlLnRvT3V0ZXIuZ2V0Q2xhc3MgIT0gdGhhdE5vZGUudG9PdXRlci5nZXRDbGFzcykKICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIlNob3VsZCBub3QgbWVyZ2Ugbm9kZXMgb2YgZGlmZmVyZW50IHR5cGVzIikK</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly8gaW5jb21pbmcgZWRnZXMgZnJvbSB0aGF0Tm9kZSBiZWNvbWUgaW5jb21pbmcgbm9kZXMgZm9yIHRoaXNOb2RlCiAgICAgICAgdGhpc0dyYXBoICsrPSB0aGF0Tm9kZS5kaUxQcmVkZWNlc3NvcnMKICAgICAgICAgIC8vIHJlbW92ZSBzZWxmLWVkZ2UKICAgICAgICAgIC5maWx0ZXJ7Y2FzZSAobm9kZSxfKSA9PiBub2RlICE9IHRoaXNOb2RlfQogICAgICAgICAgLmRpZmYodGhpc05vZGUuZGlMUHJlZGVjZXNzb3JzKQogICAgICAgICAgLm1hcHtjYXNlIChub2RlLGxhYmVsKSA9PiBFZGdlKG5vZGUsdGhpc05vZGUsbGFiZWwpfQ==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">Ly8gb3V0Z29pbmcgZWRnZXMgZnJvbSB0aGF0Tm9kZSBiZWNvbWUgb3V0Z29pbmcgbm9kZXMgZm9yIHRoaXNOb2RlCiAgICAgICAgdGhpc0dyYXBoICsrPSB0aGF0Tm9kZS5kaUxTdWNjZXNzb3JzCiAgICAgICAgICAvLyByZW1vdmUgc2VsZi1lZGdlCiAgICAgICAgICAuZmlsdGVye2Nhc2UgKG5vZGUsXykgPT4gbm9kZSAhPSB0aGlzTm9kZX0KICAgICAgICAgIC5kaWZmKHRoaXNOb2RlLmRpTFN1Y2Nlc3NvcnMpCiAgICAgICAgICAubWFwe2Nhc2UgKG5vZGUsIGxhYmVsKSA9PiBFZGdlKHRoaXNOb2RlLG5vZGUsbGFiZWwpfQ==</text>
+        <text encoding="base64">aWYgKHRoaXNOb2RlLnRvT3V0ZXIuZ2V0Q2xhc3MgIT0gdGhhdE5vZGUudG9PdXRlci5nZXRDbGFzcykKICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIlNob3VsZCBub3QgbWVyZ2Ugbm9kZXMgb2YgZGlmZmVyZW50IHR5cGVzIikK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
