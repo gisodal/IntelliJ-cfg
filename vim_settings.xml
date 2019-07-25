@@ -63,12 +63,12 @@
         <mark key="^" line="15" column="13" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1564043787374">
-        <mark key="'" line="521" column="0" />
-        <mark key="[" line="200" column="30" />
-        <mark key="]" line="201" column="56" />
-        <mark key="^" line="201" column="56" />
-        <mark key="." line="201" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1564066566241">
+        <mark key="'" line="109" column="91" />
+        <mark key="[" line="327" column="117" />
+        <mark key="]" line="327" column="118" />
+        <mark key="." line="327" column="118" />
+        <mark key="^" line="327" column="118" />
       </file>
       <file name="/sbtShell" timestamp="1564040279688">
         <mark key="[" line="0" column="0" />
@@ -92,11 +92,11 @@
         <mark key="^" line="38" column="30" />
         <mark key="." line="38" column="30" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1564063411358">
-        <mark key="[" line="270" column="5" />
-        <mark key="]" line="270" column="17" />
-        <mark key="^" line="270" column="17" />
-        <mark key="." line="270" column="17" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1564064824639">
+        <mark key="[" line="152" column="0" />
+        <mark key="]" line="152" column="0" />
+        <mark key="^" line="144" column="3" />
+        <mark key="." line="152" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1564005845252">
         <mark key="'" line="63" column="51" />
@@ -201,7 +201,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="13" column="31" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
       <jump line="121" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="166" column="10" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="167" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -301,48 +300,52 @@
       <jump line="259" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="296" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="294" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
+      <jump line="109" column="91" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>errors ++= result</text>
+        <text encoding="base64">Y2FzZSBjbHVzdGVyOiBOb2RlLkNsdXN0ZXIgPT4gU29tZShjbHVzdGVyKQ==</text>
       </register>
       <register name="-" type="4">
-        <text>errors ++= result</text>
+        <text>throw new IllegalAccessError(&quot;Attemping to access a node as a cluster&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text>Option[CompilerFailure]</text>
+        <text encoding="base64">Y2FzZSBjbHVzdGVyOiBOb2RlLkNsdXN0ZXIgPT4gU29tZShjbHVzdGVyKQ==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">ZGVmIGdldE5vZGUobm9kZUlkOiBTdHJpbmcpID0gewogICAgICBncmFwaC5nZXQobm9kZUlkKQogICAgICAgIC5nZXRPckVsc2UodGhyb3cgQ29tcGlsZXJFcnJvcihzIldoaWxlIGNyZWF0aW5nIGVkZ2UsIGdyYXBoIGRvZXMgbm90IGNvbnRhaW4gbm9kZSB3aXRoIGlkICcke25vZGVJZC50b1N0cmluZ30nIikpCiAgICB9Cg==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgICBpbXBvcnQgZW5yaWNoLlJpY2hUaGlzTm9kZSA=</text>
+        <text encoding="base64">ZGVmIGdldE5vZGUobm9kZUlkOiBTdHJpbmcpID0gewogICAgICBncmFwaC5nZXQobm9kZUlkKQogICAgICAgIC5nZXRPckVsc2UodGhyb3cgQ29tcGlsZXJFcnJvcihzIldoaWxlIGNyZWF0aW5nIGVkZ2UsIGdyYXBoIGRvZXMgbm90IGNvbnRhaW4gbm9kZSB3aXRoIGlkICcke25vZGVJZC50b1N0cmluZ30nIikpCiAgICB9Cg==</text>
       </register>
       <register name="3" type="4">
-        <text>val enrich = new RichNode[processGraph.type](processGraph)
-        import enrich.RichThisNode</text>
+        <text encoding="base64">ZGVmIGNoZWNrU3RhY2sobm9kZUFTVDogTm9kZUFTVCk6IE9wdGlvbltDb21waWxlckZhaWx1cmVdID0gewogICAgICBpZiAoc3RhY2suaGVhZC5nZXQobm9kZUFTVC5uYW1lLnRvU3RyaW5nKS5pc0RlZmluZWQpIHsKICAgICAgICBTb21lKENvbXBpbGVyRmFpbHVyZShzIiR7bm9kZUFTVC5uYW1lLnRvU3RyaW5nfSBpcyBhbHJlYWR5IGRlZmluZWQiLCBpbnB1dC5nZXQsIG5vZGVBU1QubmFtZS5wb3MpKQogICAgICB9IGVsc2UgTm9uZQogICAgfQo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIC8vIHZlcmlmeSBub2RlIGNvbnRlbnRzIChub24tcmVjdXNpdmVseSkKICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIC8vIGlmIHRoZXJlIGlzIGluZGVudGF0aW9uLCBzZWUgdGhlIGNvZGUgbGluZXMgYXMgdGhlIGxhYmVsIG9mIG9uZSBzaW5nbGV0b24KICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgLy8gb3RoZXJ3aXNlLCBjcmVhdGUgYSBncmFwaCB3aGVyZSBlYWNoIGxpbmUgaXMgYSBzaW5nbGV0b24sIHRoYXQgaXMgZGVwZW5kZW50IG9uIHRoZSBuZXh0IHNpbmdsZXRvbgogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
+        <text encoding="base64">ZGVmIHJlcXVpcmVHcmFwaChyZXF1aXJlOiBCb29sZWFuKTogT3B0aW9uW0NvbXBpbGVyRmFpbHVyZV0gPSB7CiAgICAgIGlmIChub2RlQVNULmdyYXBoLmlzRW1wdHkgPT0gcmVxdWlyZSkgewogICAgICAgIFNvbWUoQ29tcGlsZXJGYWlsdXJlKHMiZ3JhcGggc3BlY2lmaWNhdGlvbiAke2lmIChyZXF1aXJlKSAicmVxdWlyZWQiIGVsc2UgIm5vdCBhbGxvd2VkIn0iICsKICAgICAgICAgIHMiIHdpdGggbm9kZSB0eXBlICR7bm9kZUFTVC5raW5kLnRvU3RyaW5nfSIsIGlucHV0LmdldCwgbm9kZUFTVC5raW5kLnBvcykpCiAgICAgIH0gZWxzZSBOb25lCiAgICB9Cg==</text>
       </register>
       <register name="6" type="4">
-        <text>import com.xlrit.gears.generator.design.enrich.Cluster._
-          import com.xlrit.gears.generator.design.enrich.DStep._</text>
+        <text>private def checkStack(nodeAST: NodeAST): Option[CompilerFailure] = {
+    if (stack.head.get(nodeAST.name.toString).isDefined) {
+      Some(CompilerFailure(s&quot;${nodeAST.name.toString} is already defined&quot;, input.get, nodeAST.name.pos))
+    } else None
+  }</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">diB3cmFwcGVyLndyYXBwZXJDb25kaXRpb24gbWF0Y2ggewogICAgICAgICAgICAgICAgY2FzZSBTb21lKGNvbmRpdGlvbikgPT4gU29tZShjb25kaXRpb24pCiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihzIkNvdWxkIG5vdCBkZXRlcm1pbmUgd3JhcHBlcidzIGNvbmRpdGlvbiIpCiAgICAgICAgICAgICAgfQ==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBzdWJncmFwaChub2RlczogVHJhdmVyc2FibGVbR3JhcGgjTm9kZVRdKTogR3JhcGggPQo=</text>
+      <register name="8" type="4">
+        <text encoding="base64">IHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgICBpbXBvcnQgZW5yaWNoLlJpY2hUaGlzTm9kZSA=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIGNhc2UgY2xhc3MgTm9kZShpZDogQm9keUlkLCBjb250YWluczogTWFwW09wdGlvbltCb29sZWFuXSxUcmF2ZXJzYWJsZVtkZXNpZ24uR3JhcGgjTm9kZVRdXSkgewo=</text>
+      <register name="9" type="4">
+        <text>val enrich = new RichNode[processGraph.type](processGraph)
+        import enrich.RichThisNode</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
