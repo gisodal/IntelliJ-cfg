@@ -92,12 +92,11 @@
         <mark key="^" line="38" column="30" />
         <mark key="." line="38" column="30" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1564062643399">
-        <mark key="'" line="285" column="6" />
-        <mark key="[" line="254" column="4" />
-        <mark key="]" line="255" column="3" />
-        <mark key="^" line="255" column="3" />
-        <mark key="." line="255" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1564063411358">
+        <mark key="[" line="270" column="5" />
+        <mark key="]" line="270" column="17" />
+        <mark key="^" line="270" column="17" />
+        <mark key="." line="270" column="17" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1564005845252">
         <mark key="'" line="63" column="51" />
@@ -305,16 +304,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSBfOlRva2VuLkZPUkVBQ0ggPT4=</text>
+        <text>errors ++= result</text>
       </register>
       <register name="-" type="4">
-        <text>.getOrElse(NoPosition)</text>
+        <text>errors ++= result</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBfOlRva2VuLkZPUkVBQ0ggPT4=</text>
+        <text>Option[CompilerFailure]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
