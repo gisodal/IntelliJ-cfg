@@ -76,7 +76,7 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Dummy.scala" timestamp="1564058173797">
+      <file name="/Dummy.scala" timestamp="1564058714980">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/Bpmn.scala" timestamp="1562756309570">
@@ -92,11 +92,12 @@
         <mark key="^" line="38" column="30" />
         <mark key="." line="38" column="30" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1564058687953">
-        <mark key="'" line="159" column="28" />
-        <mark key="[" line="229" column="0" />
-        <mark key="]" line="229" column="0" />
-        <mark key="." line="229" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1564060900740">
+        <mark key="'" line="259" column="4" />
+        <mark key="[" line="291" column="22" />
+        <mark key="]" line="291" column="23" />
+        <mark key="." line="291" column="23" />
+        <mark key="^" line="291" column="23" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1564005845252">
         <mark key="'" line="63" column="51" />
@@ -201,8 +202,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="65" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="41" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" />
       <jump line="37" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" />
       <jump line="37" column="112" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
       <jump line="13" column="31" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
@@ -301,48 +300,50 @@
       <jump line="5" column="66" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" />
       <jump line="26" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
       <jump line="161" column="28" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
+      <jump line="262" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
+      <jump line="259" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>throw CompilerError(s&quot;While creating edge, graph does not contain node with id '${node1Id.toString}'&quot;)</text>
+        <text>()</text>
       </register>
       <register name="-" type="4">
-        <text>Traverser(processGraph)</text>
+        <text>.getOrElse(NoPosition)</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text>throw CompilerError(s&quot;While creating edge, graph does not contain node with id '${node1Id.toString}'&quot;)</text>
+        <text>()</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">IHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgICBpbXBvcnQgZW5yaWNoLlJpY2hUaGlzTm9kZSA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">IHZhbCBlbnJpY2ggPSBuZXcgUmljaE5vZGVbcHJvY2Vzc0dyYXBoLnR5cGVdKHByb2Nlc3NHcmFwaCkKICAgICAgICBpbXBvcnQgZW5yaWNoLlJpY2hUaGlzTm9kZSA=</text>
+      </register>
+      <register name="3" type="4">
         <text>val enrich = new RichNode[processGraph.type](processGraph)
         import enrich.RichThisNode</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">aWYgKGxpbmVzLmV4aXN0cyhzID0+IHMubWF0Y2hlcygiW1x1MjAwM10rLioiKSkpIHsKICAgICAgICAgIC8vIGlmIHRoZXJlIGlzIGluZGVudGF0aW9uLCBzZWUgdGhlIGNvZGUgbGluZXMgYXMgdGhlIGxhYmVsIG9mIG9uZSBzaW5nbGV0b24KICAgICAgICAgIHZhbCBub2RlcyA9IExpc3QoZ3JhcGh2ZXJpZmllci5UZXN0LkdyYXBoLk5vZGUuc2luZ2xldG9uKGlkICsgIl8iICsgIjAiLCBsaW5lcy5ta1N0cmluZygiXG4iKSkpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMpKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgLy8gb3RoZXJ3aXNlLCBjcmVhdGUgYSBncmFwaCB3aGVyZSBlYWNoIGxpbmUgaXMgYSBzaW5nbGV0b24sIHRoYXQgaXMgZGVwZW5kZW50IG9uIHRoZSBuZXh0IHNpbmdsZXRvbgogICAgICAgICAgdmFsIG5vZGVzID0gbGluZXMuemlwV2l0aEluZGV4Lm1hcHtjYXNlIChsaW5lLGluZGV4KSA9PiBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGguTm9kZS5zaW5nbGV0b24oaWQgKyAiXyIgKyBpbmRleCwgbGluZSl9CiAgICAgICAgICB2YWwgZWRnZXMgPSBub2Rlcy56aXAobm9kZXMudGFpbCkubWFwe2Nhc2UgKGZyb20sdG8pID0+IGdyYXBodmVyaWZpZXIuVGVzdC5HcmFwaC5FZGdlKGZyb20sdG8sTm9uZSl9CiAgICAgICAgICB2YWwgZ3JhcGggPSBncmFwaHZlcmlmaWVyLlRlc3QuR3JhcGgobm9kZXMsZWRnZXMpCiAgICAgICAgICBTb21lKGdyYXBodmVyaWZpZXIuVGVzdCh0cnVlLCBncmFwaCkpCiAgICAgICAgfQo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>import com.xlrit.gears.generator.design.enrich.Cluster._
           import com.xlrit.gears.generator.design.enrich.DStep._</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">diB3cmFwcGVyLndyYXBwZXJDb25kaXRpb24gbWF0Y2ggewogICAgICAgICAgICAgICAgY2FzZSBTb21lKGNvbmRpdGlvbikgPT4gU29tZShjb25kaXRpb24pCiAgICAgICAgICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgbmV3IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihzIkNvdWxkIG5vdCBkZXRlcm1pbmUgd3JhcHBlcidzIGNvbmRpdGlvbiIpCiAgICAgICAgICAgICAgfQ==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIGRlZiBzdWJncmFwaChub2RlczogVHJhdmVyc2FibGVbR3JhcGgjTm9kZVRdKTogR3JhcGggPQo=</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIGNhc2UgY2xhc3MgTm9kZShpZDogQm9keUlkLCBjb250YWluczogTWFwW09wdGlvbltCb29sZWFuXSxUcmF2ZXJzYWJsZVtkZXNpZ24uR3JhcGgjTm9kZVRdXSkgewo=</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">aWYgKHRoaXNOb2RlLnRvT3V0ZXIuZ2V0Q2xhc3MgIT0gdGhhdE5vZGUudG9PdXRlci5nZXRDbGFzcykKICAgICAgICAgIHRocm93IG5ldyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIlNob3VsZCBub3QgbWVyZ2Ugbm9kZXMgb2YgZGlmZmVyZW50IHR5cGVzIikK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
