@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1564155606972">
-        <mark key="'" line="35" column="56" />
-        <mark key="[" line="285" column="0" />
-        <mark key="]" line="285" column="0" />
-        <mark key="." line="285" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1564753968163">
+        <mark key="[" line="304" column="39" />
+        <mark key="]" line="304" column="39" />
+        <mark key="." line="304" column="39" />
+        <mark key="^" line="304" column="39" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/GraphEnhancements.scala" timestamp="1564046426595">
         <mark key="[" line="49" column="0" />
@@ -52,11 +52,12 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564147804830">
-        <mark key="[" line="57" column="25" />
-        <mark key="]" line="57" column="25" />
-        <mark key="." line="57" column="25" />
-        <mark key="^" line="57" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564753797663">
+        <mark key="'" line="7" column="0" />
+        <mark key="[" line="269" column="81" />
+        <mark key="]" line="269" column="80" />
+        <mark key="^" line="269" column="80" />
+        <mark key="." line="269" column="80" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
@@ -64,14 +65,14 @@
         <mark key="^" line="12" column="5" />
         <mark key="." line="12" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1564069023107">
-        <mark key="'" line="109" column="91" />
-        <mark key="[" line="482" column="43" />
-        <mark key="]" line="482" column="89" />
-        <mark key="." line="482" column="89" />
-        <mark key="^" line="482" column="89" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1564753475170">
+        <mark key="'" line="111" column="91" />
+        <mark key="[" line="37" column="14" />
+        <mark key="]" line="37" column="31" />
+        <mark key="." line="37" column="14" />
+        <mark key="^" line="37" column="13" />
       </file>
-      <file name="/sbtShell" timestamp="1564130001880">
+      <file name="/sbtShell" timestamp="1564734451600">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -185,6 +186,12 @@
         <mark key="^" line="77" column="0" />
         <mark key="." line="77" column="0" />
       </file>
+      <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
+        <mark key="[" line="533" column="9" />
+        <mark key="]" line="533" column="8" />
+        <mark key="^" line="533" column="8" />
+        <mark key="." line="533" column="8" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1564149630673">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="223" column="0" />
@@ -201,9 +208,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="167" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="74" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="107" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="47" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="38" column="48" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="135" column="119" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
@@ -301,50 +305,53 @@
       <jump line="109" column="91" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="41" column="79" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="35" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
+      <jump line="299" column="28" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
+      <jump line="286" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
+      <jump line="7" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5lbnJpY2guVGVzdC57UmljaEdyYXBoID0+IFJpY2hUZXN0R3JhcGh9CiAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5ncmFwaHZlcmlmaWVyLmVucmljaC5kZXNpZ24uR3JhcGgue1JpY2hHcmFwaCA9PiBSaWNoRGVzaWduR3JhcGh9</text>
+        <text>// check if all incoming edges have been traversed and if node is not traversed (in case of loop node)</text>
       </register>
       <register name="-" type="4">
-        <text>processDesign.verify(testGraph)</text>
+        <text>// check if all incoming edges have been traversed and if node is not traversed (in case of loop node)</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text>fail(e.getMessage, e)(pos)</text>
+        <text encoding="base64">aWYgKGluY29taW5nRWRnZXMuZm9yYWxsKGVkZ2UgPT4gdmlzaXRlZC5jb250YWlucyhlZGdlKSkgJiYgIXZpc2l0ZWQuY29udGFpbnMobm9kZSkpIHs=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5lbnJpY2guVGVzdC57UmljaEdyYXBoID0+IFJpY2hUZXN0R3JhcGh9CiAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5ncmFwaHZlcmlmaWVyLmVucmljaC5kZXNpZ24uR3JhcGgue1JpY2hHcmFwaCA9PiBSaWNoRGVzaWduR3JhcGh9</text>
+        <text encoding="base64">dmFsIGJvZHlFZGdlID0gZ3JhcGguZmluZChib2R5RWRnZXMuaGVhZC50b091dGVyKQogICAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IFRlc3RFcnJvcihzIkludGVybmFsIGVycm9yIGZpbmRpbmcgYm9keSBlZGdlIikpCiAgICAgICAgICAgIC5hc0luc3RhbmNlT2ZbR3JhcGgjRWRnZVRdCg==</text>
       </register>
       <register name="2" type="4">
+        <text>graph.find(bodyEdge.toOuter)
+            .getOrElse(throw TestError(s&quot;Internal error finding body edge&quot;))
+            .asInstanceOf[Graph#EdgeT]</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5lbnJpY2guVGVzdC57UmljaEdyYXBoID0+IFJpY2hUZXN0R3JhcGh9CiAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5ncmFwaHZlcmlmaWVyLmVucmljaC5kZXNpZ24uR3JhcGgue1JpY2hHcmFwaCA9PiBSaWNoRGVzaWduR3JhcGh9</text>
+      </register>
+      <register name="4" type="4">
         <text>// update ordering
                   order += next</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">Ly8gcmVjb3JkIHRoZSBtYXBwaW5nIGZyb20gZGVwZW5kZW5jeSBub2RlcyB0byBwcm9jZXNzIGRlc2lnbiBub2RlcwogICAgICAgIHZhbCBkZXBOb2RlVG9Qcm9jZXNzTm9kZSA9IGRlc2lnbmVyLmdldERlcE5vZGVUb1Byb2Nlc3NOb2RlCiAgICAgICAgdmFsIHRvRGVwTm9kZSA9IGRlcE5vZGVUb1Byb2Nlc3NOb2RlLm1hcChfLnN3YXApCiAgICAgICAgYXNzZXJ0KHRvRGVwTm9kZS52YWx1ZXMudG9TZXQgPT0gZGVwZW5kZW5jeUdyYXBoLm5vZGVzLnRvU2V0LCAiTm90IGFsbCBkZXBlbmRlbmN5IG5vZGVzIGFyZSBtYXBwaW5nIGluIHRyYXZlcnNlciIpCgogICAgICAgIC8vIGNyZWF0ZSBhIG1hcHBpbmcgZnJvbSBwcm9jZXNzIGRlc2lnbiBub2RlcyB0byBCb2R5U3RhY2tzCiAgICAgICAgdmFsIG5vZGVUb0JvZHlTdGFjayA9IFRyYXZlcnNlcihwcm9jZXNzR3JhcGgpLm5vZGVUb0JvZHlTdGFjay5hc0luc3RhbmNlT2ZbTWFwW2Rlc2lnbi5HcmFwaCNOb2RlVCxCb2R5U3RhY2tdXQogICAgICAgIHZlcmlmeU5vZGVUb0JvZHlTdGFjayhkZXBOb2RlVG9Qcm9jZXNzTm9kZSxub2RlVG9Cb2R5U3RhY2spCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>val enrich = new RichNode[processGraph.type](processGraph)
         import enrich.RichThisNode</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text encoding="base64">cHJpdmF0ZSB2YWwgc29ydGVkTm9kZXMgPSBtdXRhYmxlLkxpc3RCdWZmZXIuZW1wdHlbQW55Tm9kZV0KICAgICAgcHJpdmF0ZSB2YWwgc29ydGVkRWRnZXMgPSBtdXRhYmxlLkxpc3RCdWZmZXIuZW1wdHlbQW55RWRnZV0KCiAgICAgIHByaXZhdGUgZGVmIHRyYXZlcnNlKG5vZGU6IHByb2Nlc3NHcmFwaC5Ob2RlVCwgdmlzaXRlZDogVmlzaXRlZCA9IFZpc2l0ZWQuZW1wdHkpOiBVbml0ID0gewogICAgICAgIC8vIGRldGVybWluZSBpbmNvbWluZyBlZGdlcwogICAgICAgIHZhbCBpbmNvbWluZ0VkZ2VzID0gbm9kZS5pbmNvbWluZyAtLSBub2RlLmdldFdoaWxlTG9vcEVkZ2UKCiAgICAgICAgLy8gY2hlY2sgaWYgYWxsIGluY29taW5nIGVkZ2VzIGhhdmUgYmVlbiB0cmF2ZXJzZWQgYW5kIGlmIG5vZGUgaXMgbm90IHRyYXZlcnNlZCAoaW4gY2FzZSBvZiBsb29wIG5vZGUpCiAgICAgICAgaWYgKGluY29taW5nRWRnZXMuZm9yYWxsKGVkZ2UgPT4gdmlzaXRlZC5jb250YWlucyhlZGdlKSkgJiYgIXZpc2l0ZWQuY29udGFpbnMobm9kZSkpIHsKICAgICAgICAgIC8vIHNvcnQgb3V0Z29pbmcgZWRnZXMKICAgICAgICAgIHZhbCBlZGdlcyA9IHNvcnRPdXRnb2luZyhub2RlKS5tYXAoXy5hc0luc3RhbmNlT2ZbcHJvY2Vzc0dyYXBoLkVkZ2VUXSkKCiAgICAgICAgICAvLyByZWNvcmQgbm9kZXMgYW5kIGVkZ2VzCiAgICAgICAgICB2aXNpdGVkICs9IG5vZGUKICAgICAgICAgIHNvcnRlZE5vZGVzICs9IG5vZGUKICAgICAgICAgIGVkZ2VzLmZvcmVhY2ggeyBlZGdlID0+IHZpc2l0ZWQgKz0gZWRnZTsgc29ydGVkRWRnZXMgKz0gZWRnZTsgdHJhdmVyc2UoZWRnZS50byx2aXNpdGVkKSB9CiAgICAgICAgfQogICAgICB9CgogICAgICBwcml2YXRlIGRlZiByZXF1aXJlUHJvY2Vzc0Rlc2lnbjogVW5pdCA9IHsKICAgICAgICB0cnkgewogICAgICAgICAgaW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5lbnJpY2guZGVzaWduLkdyYXBoLl8KICAgICAgICAgIHByb2Nlc3NHcmFwaC52ZXJpZnkKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgIGNhc2UgZTogVGhyb3dhYmxlID0+CiAgICAgICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIlRvcG9sb2dpY2FsIHNvcnQgb25seSB3b3JrcyB3aXRoIGZpbmlzaGVkIHByb2Nlc3MgZGVzaWducywgYnV0IGVuY291bnRlcmVkOiAke2UuZ2V0TWVzc2FnZX0iKQogICAgICAgIH0KICAgICAgfQo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ZGVmIGRldGVybWluZU5leHQ6IHByb2Nlc3NHcmFwaC5Ob2RlVCA9IHsKICAgICAgICAgICAgICAgIHZhbCBmcm9udGllcnMgPSB0cmF2ZXJzYWxzLmZsYXRNYXAoXy5oZWFkT3B0aW9uKQogICAgICAgICAgICAgICAgdmFsIHJlbW92ZVBhcmFsbGVscyA9IGZyb250aWVycwogICAgICAgICAgICAgICAgICAuZ3JvdXBCeShub2RlID0+IG5vZGUpLmNvbGxlY3QgeyBjYXNlIChhLCBiKSBpZiBwYXJhbGxlbFRvQ291bnQuZ2V0KGEpLmNvbnRhaW5zKGIuc2l6ZSkgPT4gYSB9LnRvU2V0CgogICAgICAgICAgICAgICAgcmVtb3ZlUGFyYWxsZWxzLmlzRW1wdHkgbWF0Y2ggewogICAgICAgICAgICAgICAgICBjYXNlIHRydWUgPT4KICAgICAgICAgICAgICAgICAgICB2YWwgZWxpZ2libGUgPSBmcm9udGllcnMuZmlsdGVyTm90KHBhcmFsbGVsVG9Db3VudC5jb250YWlucykKICAgICAgICAgICAgICAgICAgICBhc3NlcnQoZWxpZ2libGUubm9uRW1wdHkpCgogICAgICAgICAgICAgICAgICAgIHZhbCBzb3J0ZWQgPSBlbGlnaWJsZS5tYXAoZSA9PiAoUHJvY2Vzc0Rlc2lnbi5ub2RlT3JkZXJUdXBsZShlKSwgZSkpLnNvcnRCeShfLl8xKQogICAgICAgICAgICAgICAgICAgIHZhbCBzZWxlY3RlZCA9IGVsaWdpYmxlLnNvcnRXaXRoKFByb2Nlc3NEZXNpZ24uYnlOb2RlT3JkZXJUdXBsZSkuaGVhZAogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkCgogICAgICAgICAgICAgICAgICBjYXNlIGZhbHNlID0+CiAgICAgICAgICAgICAgICAgICAgYXNzZXJ0KHJlbW92ZVBhcmFsbGVscy5zaXplID09IDEpCiAgICAgICAgICAgICAgICAgICAgLy8gcmVtb3ZlIHN5bmNocm9uaXphdGlvbiBiYXJyaWVyCiAgICAgICAgICAgICAgICAgICAgcmVtb3ZlUGFyYWxsZWxzLmhlYWQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgIAoKICAgICAgICAgICAgICBkZWYgY29uc3VtZShuZXh0IDogcHJvY2Vzc0dyYXBoLk5vZGVUKTogVW5pdCA9IHsKICAgICAgICAgICAgICAgIC8vIEFTU1VNUFRJT046IHBhaXJlZCBleGNsdXNpdmUgZ2F0ZXMgYW5kIHRoZWlyIGJvZHkgbm9kZXMgYWx3YXlzIHJlc2lkZSBpbiBvbmUgdHJhdmVyc2FsCiAgICAgICAgICAgICAgICBuZXh0LnRvT3V0ZXIgbWF0Y2ggewogICAgICAgICAgICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLkV4Y2x1c2l2ZShfLCBfLCBTb21lKF8pKSA9PiAvLyBhIGxhYmVsZWQgZXhjbHVzaXZlIG5vZGUKICAgICAgICAgICAgICAgICAgICB2YWwgYm9keVN0YWNrID0gbm9kZVRvQm9keVN0YWNrKG5leHQpCiAgICAgICAgICAgICAgICAgICAgYXNzZXJ0KHRyYXZlcnNhbHMuZmxhdE1hcChfLmhlYWRPcHRpb24pLm1hcChub2RlVG9Cb2R5U3RhY2spLmNvdW50KF8gPT0gYm9keVN0YWNrKSA9PSAxKQoKCiAgICAgICAgICAgICAgICAgICAgLy8gdXBkYXRlIG9yZGVyaW5nIGFuZCB0cmF2ZXJzYWwKICAgICAgICAgICAgICAgICAgICB2YXIgdXBkYXRlZCA9IHRydWUKICAgICAgICAgICAgICAgICAgICB3aGlsZSAodXBkYXRlZCkgewogICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICB0cmF2ZXJzYWxzLmZvcmVhY2godHJhdmVyc2FsID0+IHRyYXZlcnNhbC5oZWFkT3B0aW9uIG1hdGNoIHsKICAgICAgICAgICAgICAgICAgICAgICAgY2FzZSBTb21lKGhlYWQpIGlmIG5vZGVUb0JvZHlTdGFjayhoZWFkKS5lbmRzV2l0aChib2R5U3RhY2spID0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZCA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICBvcmRlciArPSBoZWFkCiAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhdmVyc2FsLnJlbW92ZSgwKQogICAgICAgICAgICAgICAgICAgICAgICBjYXNlIF8gPT4KICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICAgICAgICAgICAgLy8gdXBkYXRlIG9yZGVyaW5nCiAgICAgICAgICAgICAgICAgICAgb3JkZXIgKz0gbmV4dAoKICAgICAgICAgICAgICAgICAgICAvLyB1cGRhdGUgdHJhdmVyc2FscwogICAgICAgICAgICAgICAgICAgIHRyYXZlcnNhbHMuZm9yZWFjaCh0cmF2ZXJzYWwgPT4gdHJhdmVyc2FsLmhlYWRPcHRpb24gbWF0Y2ggewogICAgICAgICAgICAgICAgICAgICAgY2FzZSBTb21lKGhlYWQpIGlmIGhlYWQgPT0gbmV4dCA9PiB0cmF2ZXJzYWwucmVtb3ZlKDApCiAgICAgICAgICAgICAgICAgICAgICBjYXNlIF8gPT4KICAgICAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0K</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">dmFsIGZyb250aWVycyA9IHRyYXZlcnNhbHMuZmxhdE1hcChfLmhlYWRPcHRpb24pCiAgICAgICAgICAgICAg</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">dmFsIHJlbW92ZVBhcmFsbGVscyA9IGZyb250aWVycwogICAgICAgICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBub2RlKS5jb2xsZWN0IHsgY2FzZSAoYSxiKSBpZiBwYXJhbGxlbFRvQ291bnQuZ2V0KGEpLmNvbnRhaW5zKGIuc2l6ZSkgPT4gYSB9LnRvU2V0Cg==</text>
-      </register>
       <register name="9" type="4">
-        <text>// this function verifies if the mapping from process nodes to BodyStack is correct
-        // this is done by comparing the BodyStack of the DStep(s) in a process node cluster
-        // to what the traverser has determined</text>
+        <text encoding="base64">dmFsIGZyb250aWVycyA9IHRyYXZlcnNhbHMuZmxhdE1hcChfLmhlYWRPcHRpb24pCiAgICAgICAgICAgICAg</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
