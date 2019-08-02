@@ -52,12 +52,12 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564779145694">
-        <mark key="'" line="338" column="28" />
-        <mark key="[" line="72" column="0" />
-        <mark key="]" line="72" column="0" />
-        <mark key="^" line="84" column="143" />
-        <mark key="." line="72" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564781080410">
+        <mark key="'" line="348" column="28" />
+        <mark key="[" line="146" column="66" />
+        <mark key="]" line="144" column="7" />
+        <mark key="." line="144" column="7" />
+        <mark key="^" line="144" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
@@ -311,45 +311,50 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ProcessDesign.byNodeOrderTuple</text>
+        <text>// from a dependency graph or subgraph, create a process design, of which the nodes we will sort</text>
       </register>
       <register name="-" type="4">
-        <text>// remove those that</text>
+        <text>// from a dependency graph or subgraph, create a process design, of which the nodes we will sort</text>
       </register>
       <register name="/" type="4">
         <text>throw</text>
       </register>
       <register name="0" type="4">
-        <text>ProcessDesign.byNodeOrderTuple</text>
+        <text>ToProcessNode</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0KICAgICAgICB9IAo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">ZGVmIGludGVybGVhdmUob3JkZXJzOiBMaXN0W0xpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXV0pOiBMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0gPSBvcmRlcnMuY291bnQoXy5ub25FbXB0eSkgbWF0Y2ggewogICAgICAgICAgY2FzZSAwID0+IE5pbAogICAgICAgICAgY2FzZSAxID0+IG9yZGVycy5maW5kKF8ubm9uRW1wdHkpLmhlYWQKICAgICAgICAgIGNhc2UgXyA9PgogICAgICAgICAgICAvLyBpbnRlcmxlYXZlIHRvdGFsIG9yZGVycyB0aGF0IHN0YXJ0IGF0IHRoZSBjaGlsZHJlbiBvZiBhICdwYXJhbGxlbCcgcHJvY2VzcyBkZXNpZ24gbm9kZQogICAgICAgICAgICB2YWwgYmFycmllclRvQ291bnQgPSBvcmRlcnMuZmxhdHRlbi5ncm91cEJ5KG5vZGUgPT4gbm9kZSkubWFwVmFsdWVzKF8uc2l6ZSkuZmlsdGVyKF8uXzIgPiAxKQoKICAgICAgICAgICAgZGVmIHJlbW92ZUJhcnJpZXJzKHRyYXZlcnNhbHM6IExpc3RbTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdXSk6IChMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0sTGlzdFtMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF1dKSAgPSB7CiAgICAgICAgICAgICAgdmFsIGJhcnJpZXJzID0gdHJhdmVyc2Fscy5mbGF0TWFwKF8uaGVhZE9wdGlvbikuZ3JvdXBCeShub2RlID0+IG5vZGUpCiAgICAgICAgICAgICAgICAuY29sbGVjdCB7IGNhc2UgKGEsIGIpIGlmIGJhcnJpZXJUb0NvdW50LmdldChhKS5jb250YWlucyhiLnNpemUpID0+IGEgfS50b1NldAogICAgICAgICAgICAgYXNzZXJ0KGJhcnJpZXJzLnNpemUgPD0gMSkKCiAgICAgICAgICAgICAgKGJhcnJpZXJzLnRvTGlzdCwgcmVtb3ZlTm9kZXModHJhdmVyc2FscywgYmFycmllcnMudG9MaXN0KSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVmIGZpbHRlckVsaWdpYmxlKHRyYXZlcnNhbHM6IExpc3RbTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdXSk6IExpc3RbTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdXSA9CiAgICAgICAgICAgICAgdHJhdmVyc2FscwogICAgICAgICAgICAgICAgLy8gcmVtb3ZlIGVtcHR5IHRyYXZlcnNhbHMKICAgICAgICAgICAgICAgIC5maWx0ZXIoXy5ub25FbXB0eSkKICAgICAgICAgICAgICAgIC8vIHJlbW92ZSB0cmF2ZXJzYWxzIHRoYXQgc3RhcnQgd2l0aCBhIHN5bmNocm9uaXphdGlvbiBiYXJyaWVyCiAgICAgICAgICAgICAgICAuZmlsdGVyTm90KHRyYXZlcnNhbCA9PiB0cmF2ZXJzYWwuaGVhZE9wdGlvbi5leGlzdHMoYmFycmllclRvQ291bnQuY29udGFpbnMpKQoKICAgICAgICAgICAgZGVmIHNlbGVjdFRyYXZlcnNhbCh0cmF2ZXJzYWxzOiBMaXN0W0xpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXV0pOiBMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0gPQogICAgICAgICAgICAgICB0cmF2ZXJzYWxzLm1pbkJ5KHRyYXZlcnNhbCA9PiBQcm9jZXNzRGVzaWduLm5vZGVPcmRlclR1cGxlKHRyYXZlcnNhbC5oZWFkKSkKCiAgICAgICAgICAgIGRlZiBzZWxlY3ROb2Rlcyh0cmF2ZXJzYWw6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSk6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSA9IHsKICAgICAgICAgICAgICAvLyBBU1NVTVBUSU9OOiBwYWlyZWQgZXhjbHVzaXZlIGdhdGVzIGFuZCB0aGVpciBib2R5IG5vZGVzIGFsd2F5cyByZXNpZGUgaW4gb25lIHRyYXZlcnNhbAogICAgICAgICAgICAgIHZhbCBoZWFkID0gdHJhdmVyc2FsLmhlYWQKICAgICAgICAgICAgICBoZWFkLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgICAgICAgICAgY2FzZSBkZXNpZ24uR3JhcGguTm9kZS5FeGNsdXNpdmUoXywgXywgU29tZShfKSkgPT4gLy8gYSBsYWJlbGVkIGV4Y2x1c2l2ZSBub2RlCiAgICAgICAgICAgICAgICAgIHZhbCBleGNsdXNpdmVTdGFjayA9IG5vZGVUb0JvZHlTdGFjayhoZWFkKQogICAgICAgICAgICAgICAgICB2YWwgcmVzdCA9IHRyYXZlcnNhbC5kcm9wV2hpbGUobm9kZVRvQm9keVN0YWNrKF8pLmVuZHNXaXRoKGV4Y2x1c2l2ZVN0YWNrKSkKICAgICAgICAgICAgICAgICAgdHJhdmVyc2FsLmRyb3BSaWdodChyZXN0LnNpemUpCgogICAgICAgICAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICAgICAgICAgIGhlYWQgOjogTmlsCiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZWYgcmVtb3ZlTm9kZXModHJhdmVyc2FsczogTGlzdFtMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF1dLCBzZWxlY3Rpb25zOiBMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0pOiBMaXN0W0xpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXV0gPQogICAgICAgICAgICAgIHRyYXZlcnNhbHMubWFwIHsgdHJhdmVyc2FsID0+CiAgICAgICAgICAgICAgICBpZiAodHJhdmVyc2FsLnN0YXJ0c1dpdGgoc2VsZWN0aW9ucykpCiAgICAgICAgICAgICAgICAgIHRyYXZlcnNhbC5kcm9wKHNlbGVjdGlvbnMuc2l6ZSkKICAgICAgICAgICAgICAgIGVsc2UgdHJhdmVyc2FsCiAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIChiYXJyaWVycyx0cmF2ZXJzYWxzKSA9IHJlbW92ZUJhcnJpZXJzKG9yZGVycykKICAgICAgICAgICAgdmFsIGVsaWdpYmxlID0gZmlsdGVyRWxpZ2libGUodHJhdmVyc2FscykKICAgICAgICAgICAgaWYgKGVsaWdpYmxlLm5vbkVtcHR5KSB7CiAgICAgICAgICAgICAgdmFsIHRyYXZlcnNhbCA9IHNlbGVjdFRyYXZlcnNhbChlbGlnaWJsZSkKICAgICAgICAgICAgICB2YWwgbm9kZXMgPSBzZWxlY3ROb2Rlcyh0cmF2ZXJzYWwpCiAgICAgICAgICAgICAgYmFycmllcnMgOjo6IG5vZGVzIDo6OiBpbnRlcmxlYXZlKHJlbW92ZU5vZGVzKHRyYXZlcnNhbHMsIG5vZGVzKSkKICAgICAgICAgICAgfSBlbHNlIGJhcnJpZXJzIDo6OiBpbnRlcmxlYXZlKHRyYXZlcnNhbHMpCiAgICAgICAgfQoKICAgICAgICBkZWYgdHJhdmVyc2VTdWNjZXNzb3JzKG5vZGU6IHByb2Nlc3NHcmFwaC5Ob2RlVCwgdmlzaXRlZDogVmlzaXRlZCk6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSA9IG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICAgICAgICAvLyBpZiB0aGUgZW5jb3VudGVyZWQgbm9kZSBpcyBhICdwYXJhbGxlbCcgdGhlbiB3ZSBtdXN0IGludGVybGVhdmUgdGhlIG9yZGVyaW5ncyBvZiBpdHMgY2hpbGRyZW4KICAgICAgICAgIGNhc2UgcDpHcmFwaC5Ob2RlLlBhcmFsbGVsID0+CiAgICAgICAgICAgIHZhbCBvcmRlcnMgPSBub2RlLm91dGdvaW5nLnRvTGlzdC5tYXAoZWRnZSA9PiB7IHZpc2l0ZWQgKz0gZWRnZTsgdHJhdmVyc2UoZWRnZS50byx2aXNpdGVkKX0pCiAgICAgICAgICAgIGludGVybGVhdmUob3JkZXJzKQoKICAgICAgICAgIC8vIG90aGVyd2lzZSwgdGhlcmUgaXMgYSBwcmVkZWZpbmVkIG9yZGVyaW5nIG9uIHRoZSBub2Rlcy4KICAgICAgICAgIGNhc2UgXyA9PgogICAgICAgICAgICAvLyBzb3J0IG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgIHZhbCBlZGdlcyA9IFByb2Nlc3NEZXNpZ24uc29ydE91dGdvaW5nKG5vZGUpLm1hcChfLmFzSW5zdGFuY2VPZltwcm9jZXNzR3JhcGguRWRnZVRdKQoKICAgICAgICAgICAgLy8gdHJhdmVyc2Ugb3V0Z29pbmcgZWRnZXMKICAgICAgICAgICAgdmFsIG9yZGVycyA9IGVkZ2VzLm1hcChlZGdlID0+IHsgdmlzaXRlZCArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpfSkKICAgICAgICAgICAgb3JkZXJzLmZsYXR0ZW4KICAgICAgICB9CgogICAgICAgIGRlZiB0cmF2ZXJzZShub2RlOiBwcm9jZXNzR3JhcGguTm9kZVQsIHZpc2l0ZWQ6IFZpc2l0ZWQpOiBMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0gPSB7CiAgICAgICAgICAvLyBkZXRlcm1pbmUgaW5jb21pbmcgZWRnZXMKICAgICAgICAgIHZhbCBpbmNvbWluZ0VkZ2VzID0gbm9kZS5pbmNvbWluZyAtLSBub2RlLmdldFdoaWxlTG9vcEVkZ2UKCiAgICAgICAgICAvLyBjaGVjayBpZiBhbGwgaW5jb21pbmcgZWRnZXMgaGF2ZSBiZWVuIHRyYXZlcnNlZCBhbmQgaWYgbm9kZSBpcyBub3QgdHJhdmVyc2VkIChpbiBjYXNlIG9mIGxvb3Agbm9kZSkKICAgICAgICAgIGlmIChpbmNvbWluZ0VkZ2VzLmZvcmFsbChlZGdlID0+IHZpc2l0ZWQuY29udGFpbnMoZWRnZSkpICYmICF2aXNpdGVkLmNvbnRhaW5zKG5vZGUpKSB7CiAgICAgICAgICAgIHZpc2l0ZWQgKz0gbm9kZQogICAgICAgICAgICBub2RlIDo6IHRyYXZlcnNlU3VjY2Vzc29ycyhub2RlLCB2aXNpdGVkKQogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8gdXNlIHBhcmFsbGVsIGdhdGUgYXMgc3luYyBwb2ludCBmb3IgaW50ZXJsZWF2aW5nCiAgICAgICAgICAgIG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICAgICAgICAgICAgY2FzZSBfOiBHcmFwaC5Ob2RlLlBhcmFsbGVsID0+IExpc3Qobm9kZSkKICAgICAgICAgICAgICBjYXNlIF8gPT4gTmlsCiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIHJlcXVpcmUgdGhhdCB0aGUgaW5wdXQgaXMgYSBwcm9jZXNzIGRlc2lnbgogICAgICAgIHByb2Nlc3NHcmFwaC52ZXJpZnkKCiAgICAgICAgLy8gc29ydCBkZXBlbmRlbmN5IG5vZGVzLCBieSBzb3J0aW5nIHRoZSBjb3JyZXNwb25kaW5nIHByb2Nlc3MgZGVzaWduIG5vZGVzLgogICAgICAgIHZhbCB2aXNpdGVkID0gVmlzaXRlZC5lbXB0eQogICAgICAgIHZhbCBvcmRlciA9IHRyYXZlcnNlKHByb2Nlc3NHcmFwaC5yb290LCB2aXNpdGVkKQ==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ZGVmIHNlbGVjdE5vZGVzKHRyYXZlcnNhbDogTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdKTogTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdID0gewogICAgICAgICAgICAgICAgLy8gQVNTVU1QVElPTjogcGFpcmVkIGV4Y2x1c2l2ZSBnYXRlcyBhbmQgdGhlaXIgYm9keSBub2RlcyBhbHdheXMgcmVzaWRlIGluIG9uZSB0cmF2ZXJzYWwKICAgICAgICAgICAgICAgIGFzc2VydCh0cmF2ZXJzYWwubm9uRW1wdHkpCiAgICAgICAgICAgICAgICB2YWwgaGVhZCA9IHRyYXZlcnNhbC5oZWFkCiAgICAgICAgICAgICAgICBoZWFkLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgICAgICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLkV4Y2x1c2l2ZShfLCBfLCBTb21lKF8pKSA9PiAvLyBhIGxhYmVsZWQgZXhjbHVzaXZlIG5vZGUKICAgICAgICAgICAgICAgICAgICB2YWwgZXhjbHVzaXZlU3RhY2sgPSBub2RlVG9Cb2R5U3RhY2soaGVhZCkKICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdCA9IHRyYXZlcnNhbC5kcm9wV2hpbGUobm9kZVRvQm9keVN0YWNrKF8pLmVuZHNXaXRoKGV4Y2x1c2l2ZVN0YWNrKSkKICAgICAgICAgICAgICAgICAgICB0cmF2ZXJzYWwuZHJvcFJpZ2h0KHJlc3Quc2l6ZSkKCiAgICAgICAgICAgICAgICAgIGNhc2UgXyA9PgogICAgICAgICAgICAgICAgICAgIGhlYWQgOjogTmlsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">dmFsIGVucmljaCA9IG5ldyBSaWNoTm9kZVtwcm9jZXNzR3JhcGgudHlwZV0ocHJvY2Vzc0dyYXBoKQogICAgICAgIGltcG9ydCBlbnJpY2guUmljaFRoaXNOb2RlCg==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">IHZhbCB0b0RlcE5vZGUgPSBkZXBOb2RlVG9Qcm9jZXNzTm9kZS5tYXAoXy5zd2FwKQogICAgICAgIGFzc2VydCh0b0RlcE5vZGUudmFsdWVzLnRvU2V0ID09IGRlcGVuZGVuY3lHcmFwaC5ub2Rlcy50b1NldCwgIk5vdCBhbGwgZGVwZW5kZW5jeSBub2RlcyBhcmUgbWFwcGluZyBpbiB0cmF2ZXJzZXIiKQ==</text>
+      </register>
+      <register name="4" type="4">
+        <text>// from a dependency graph or subgraph, create a process design, of which the nodes we will sort
+        val designer = new Designer(dependencyGraph, None, clustering = false, normalizeBranches = true)
+        val processGraph = designer.toProcessGraph</text>
+      </register>
+      <register name="5" type="4">
+        <text>// record the mapping from dependency nodes to process design nodes
+        val depNodeToProcessNode = designer.getDepNodeToProcessNode
+        val toDepNode = depNodeToProcessNode.map(_.swap)
+        assert(toDepNode.values.toSet == dependencyGraph.nodes.toSet, &quot;Not all dependency nodes are mapping in traverser&quot;)</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgIH0KICAgICAgICB9IAo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ZGVmIHNlbGVjdE5vZGVzKHRyYXZlcnNhbDogTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdKTogTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdID0gewogICAgICAgICAgICAgICAgLy8gQVNTVU1QVElPTjogcGFpcmVkIGV4Y2x1c2l2ZSBnYXRlcyBhbmQgdGhlaXIgYm9keSBub2RlcyBhbHdheXMgcmVzaWRlIGluIG9uZSB0cmF2ZXJzYWwKICAgICAgICAgICAgICAgIGFzc2VydCh0cmF2ZXJzYWwubm9uRW1wdHkpCiAgICAgICAgICAgICAgICB2YWwgaGVhZCA9IHRyYXZlcnNhbC5oZWFkCiAgICAgICAgICAgICAgICBoZWFkLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgICAgICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLkV4Y2x1c2l2ZShfLCBfLCBTb21lKF8pKSA9PiAvLyBhIGxhYmVsZWQgZXhjbHVzaXZlIG5vZGUKICAgICAgICAgICAgICAgICAgICB2YWwgZXhjbHVzaXZlU3RhY2sgPSBub2RlVG9Cb2R5U3RhY2soaGVhZCkKICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdCA9IHRyYXZlcnNhbC5kcm9wV2hpbGUobm9kZVRvQm9keVN0YWNrKF8pLmVuZHNXaXRoKGV4Y2x1c2l2ZVN0YWNrKSkKICAgICAgICAgICAgICAgICAgICB0cmF2ZXJzYWwuZHJvcFJpZ2h0KHJlc3Quc2l6ZSkKCiAgICAgICAgICAgICAgICAgIGNhc2UgXyA9PgogICAgICAgICAgICAgICAgICAgIGhlYWQgOjogTmlsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="8" type="4">
         <text>val next = determineNext(orders)
             next:: interleave(toOrder(consume(next, traversals))
           }</text>
       </register>
-      <register name="4" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRyYXZlcnNhbHMuZmlsdGVyTm90KHRyYXZlcnNhbCA9PiB0cmF2ZXJzYWwuaGVhZE9wdGlvbi5leGlzdHMoYmFycmllclRvQ291bnQuY29udGFpbnMpKQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIHRvT3JkZXIodHJhdmVyc2FsczogTGlzdFtMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF1dKTogTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdID0gewo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG9yZGVyICsrPSBjb25zdW1lKG5leHQsIHRyYXZlcnNhbHMpCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">d2hpbGUgKHRyYXZlcnNhbHMuZXhpc3RzKF8ubm9uRW1wdHkpKSB7CiAgICAgICAgICAgICAgdmFsIG5leHQgPSBkZXRlcm1pbmVOZXh0KHRyYXZlcnNhbHMpCiAgICAgICAgICAgICAgb3JkZXIgKys9IGNvbnN1bWUobmV4dCwgdHJhdmVyc2FscykKICAgICAgICAgICAgfQo=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly8gdXBkYXRlIG1hcHBpbmcKICAgICAgICAgICAgICAgIHZhbCB3aGlsZUJvZHlTdGFjayA9IEJvZHlJZCh3aGlsZU5vZGUuZXZhbElkKSA6OiBib2R5U3RhY2sKICAgICAgICAgICAgICAgIG1hcHBpbmcobm9kZSkgPSB3aGlsZUJvZHlTdGFjawoKICAgICAgICAgICAgICAgIC8vIHRyYXZlcnNlIHdoaWxlIGJvZHkKICAgICAgICAgICAgICAgIHZhbCBib2R5Tm9kZSA9IG5vZGUuZ2V0V2hpbGVCb2R5RWRnZS5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJXaGlsZSBib2R5IG5vdCBmb3VuZCIpKS50bwogICAgICAgICAgICAgICAgYm9keVN0YWNrcyhib2R5Tm9kZSwgd2hpbGVCb2R5U3RhY2ssIG1hcHBpbmcpCgogICAgICAgICAgICAgICAgLy8gdHJhdmVyc2Ugd2hpbGUgYWZ0ZXIKICAgICAgICAgICAgICAgIChub2RlLmRpU3VjY2Vzc29ycyAtIGJvZHlOb2RlKS5mb3JlYWNoKG5vZGUgPT4gYm9keVN0YWNrcyhub2RlLCBib2R5U3RhY2ssIG1hcHBpbmcpKQ==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">dmFsIGJvZHlFZGdlID0gZ3JhcGguZmluZChib2R5RWRnZXMuaGVhZC50b091dGVyKQogICAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IFRlc3RFcnJvcihzIkludGVybmFsIGVycm9yIGZpbmRpbmcgYm9keSBlZGdlIikpCiAgICAgICAgICAgIC5hc0luc3RhbmNlT2ZbR3JhcGgjRWRnZVRdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
