@@ -52,12 +52,12 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564777870232">
-        <mark key="'" line="343" column="28" />
-        <mark key="[" line="102" column="28" />
-        <mark key="]" line="102" column="20" />
-        <mark key="." line="102" column="20" />
-        <mark key="^" line="102" column="20" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1564779145694">
+        <mark key="'" line="338" column="28" />
+        <mark key="[" line="72" column="0" />
+        <mark key="]" line="72" column="0" />
+        <mark key="^" line="84" column="143" />
+        <mark key="." line="72" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
