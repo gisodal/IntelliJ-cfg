@@ -202,12 +202,11 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1565096336988">
-        <mark key="'" line="251" column="29" />
-        <mark key="[" line="324" column="0" />
-        <mark key="]" line="324" column="0" />
-        <mark key="." line="324" column="0" />
-        <mark key="^" line="77" column="38" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1565099530674">
+        <mark key="'" line="254" column="29" />
+        <mark key="[" line="326" column="0" />
+        <mark key="]" line="326" column="0" />
+        <mark key="." line="326" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1565090926471">
         <mark key="[" line="157" column="0" />
@@ -327,16 +326,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>graphverifier.Test.Graph#NodeT</text>
+        <text>method with dependent type (blaat: test.graph.NodeT)test.graph.NodeT cannot be converted to function value</text>
       </register>
       <register name="-" type="4">
-        <text>with NodeLike</text>
+        <text>T</text>
       </register>
       <register name="/" type="4">
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text>graphverifier.Test.Graph#NodeT</text>
+        <text>method with dependent type (blaat: test.graph.NodeT)test.graph.NodeT cannot be converted to function value</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHRyYXZlcnNlU3VjY2Vzc29ycyhub2RlOiBwcm9jZXNzR3JhcGguTm9kZVQsIHZpc2l0ZWQ6IFZpc2l0ZWQpOiBMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0gPSBub2RlLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgICAgICAvLyBpZiB0aGUgZW5jb3VudGVyZWQgbm9kZSBpcyBhICdwYXJhbGxlbCcgdGhlbiB3ZSBtdXN0IGludGVybGVhdmUgdGhlIG9yZGVyaW5ncyBvZiBpdHMgY2hpbGRyZW4KICAgICAgICAgICAgY2FzZSBwOkdyYXBoLk5vZGUuUGFyYWxsZWwgPT4KICAgICAgICAgICAgICB2YWwgb3JkZXJzID0gbm9kZS5vdXRnb2luZy50b0xpc3QubWFwKGVkZ2UgPT4geyB2aXNpdGVkICs9IGVkZ2U7IHRyYXZlcnNlKGVkZ2UudG8sdmlzaXRlZCl9KQogICAgICAgICAgICAgIGludGVybGVhdmUob3JkZXJzKQoKICAgICAgICAgICAgLy8gb3RoZXJ3aXNlLCB0aGVyZSBpcyBhIHByZWRlZmluZWQgb3JkZXJpbmcgb24gdGhlIG5vZGVzLgogICAgICAgICAgICBjYXNlIF8gPT4KICAgICAgICAgICAgICAvLyBzb3J0IG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgICAgdmFsIGVkZ2VzID0gUHJvY2Vzc0Rlc2lnbi5zb3J0T3V0Z29pbmcobm9kZSkubWFwKF8uYXNJbnN0YW5jZU9mW3Byb2Nlc3NHcmFwaC5FZGdlVF0pCgogICAgICAgICAgICAgIC8vIHRyYXZlcnNlIG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgICAgdmFsIG9yZGVycyA9IGVkZ2VzLm1hcChlZGdlID0+IHsgdmlzaXRlZCArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpfSkKICAgICAgICAgICAgICBvcmRlcnMuZmxhdHRlbgogICAgICAgICAgfQo=</text>
