@@ -34,12 +34,12 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1564072894713">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1565181026469">
         <mark key="'" line="5" column="66" />
-        <mark key="[" line="64" column="12" />
-        <mark key="]" line="65" column="9" />
-        <mark key="." line="65" column="9" />
-        <mark key="^" line="65" column="9" />
+        <mark key="[" line="24" column="91" />
+        <mark key="]" line="24" column="99" />
+        <mark key="." line="24" column="99" />
+        <mark key="^" line="24" column="99" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/design/Graph.scala" timestamp="1562838347523">
         <mark key="[" line="6" column="0" />
@@ -60,11 +60,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565180002456">
-        <mark key="[" line="43" column="106" />
-        <mark key="]" line="100" column="76" />
-        <mark key="." line="100" column="76" />
-        <mark key="^" line="100" column="76" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565180535049">
+        <mark key="[" line="50" column="18" />
+        <mark key="]" line="50" column="97" />
+        <mark key="." line="50" column="97" />
+        <mark key="^" line="50" column="97" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
@@ -94,11 +94,11 @@
         <mark key="^" line="40" column="5" />
         <mark key="." line="37" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/Bpmn.scala" timestamp="1562756309570">
-        <mark key="[" line="116" column="40" />
-        <mark key="]" line="116" column="40" />
-        <mark key="." line="116" column="40" />
-        <mark key="^" line="116" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/Bpmn.scala" timestamp="1565181035969">
+        <mark key="[" line="131" column="97" />
+        <mark key="]" line="131" column="105" />
+        <mark key="." line="131" column="105" />
+        <mark key="^" line="131" column="105" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565167822911">
         <mark key="'" line="364" column="64" />
@@ -338,7 +338,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>exporter.add(graph, &quot;full&quot;)</text>
+        <text>Bpmn.ParallelGateway(idMap(thisNode.toOuter))</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
@@ -347,7 +347,7 @@
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text>exporter.add(graph, &quot;full&quot;)</text>
+        <text>Bpmn.ParallelGateway(idMap(thisNode.toOuter))</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IGlmICghcHJvY2Vzc0dyYXBoLmlzUHJvY2Vzc0Rlc2lnbikKICAgICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIlRvcG9sb2dpY2FsIHNvcnQgb25seSB3b3JrcyB3aXRoIGZpbmlzaGVkIHByb2Nlc3MgZGVzaWducywgYnV0IGVuY291bnRlcmVkOiAke2UuZ2V0TWVzc2FnZX0iKSAKICAgICAgICA=</text>
