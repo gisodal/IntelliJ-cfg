@@ -60,7 +60,7 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565176368351">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565177113529">
         <mark key="[" line="97" column="108" />
         <mark key="]" line="97" column="107" />
         <mark key="." line="97" column="107" />
@@ -85,7 +85,7 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Dummy.scala" timestamp="1565176370479">
+      <file name="/Dummy.scala" timestamp="1565176439784">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Exception.scala" timestamp="1565088953338">
