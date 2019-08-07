@@ -60,10 +60,10 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565170056007">
-        <mark key="[" line="275" column="0" />
-        <mark key="]" line="275" column="0" />
-        <mark key="." line="275" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565171187907">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
@@ -106,12 +106,11 @@
         <mark key="^" line="91" column="70" />
         <mark key="." line="91" column="70" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565092308152">
-        <mark key="'" line="126" column="4" />
-        <mark key="[" line="207" column="11" />
-        <mark key="]" line="207" column="29" />
-        <mark key="." line="207" column="11" />
-        <mark key="^" line="203" column="28" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565173033843">
+        <mark key="[" line="100" column="23" />
+        <mark key="]" line="100" column="12" />
+        <mark key="^" line="100" column="12" />
+        <mark key="." line="100" column="12" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1564005845252">
         <mark key="'" line="63" column="51" />
@@ -339,10 +338,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IGlmICghcHJvY2Vzc0dyYXBoLmlzUHJvY2Vzc0Rlc2lnbikKICAgICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIlRvcG9sb2dpY2FsIHNvcnQgb25seSB3b3JrcyB3aXRoIGZpbmlzaGVkIHByb2Nlc3MgZGVzaWducywgYnV0IGVuY291bnRlcmVkOiAke2UuZ2V0TWVzc2FnZX0iKSAKICAgICAgICA=</text>
+        <text>u</text>
       </register>
       <register name="-" type="4">
-        <text>T</text>
+        <text>u</text>
       </register>
       <register name="/" type="4">
         <text>graphverifier</text>
