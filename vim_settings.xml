@@ -60,7 +60,7 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565169152164">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565170056007">
         <mark key="[" line="275" column="0" />
         <mark key="]" line="275" column="0" />
         <mark key="." line="275" column="0" />
@@ -71,12 +71,12 @@
         <mark key="^" line="12" column="5" />
         <mark key="." line="12" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565169355399">
-        <mark key="'" line="93" column="93" />
-        <mark key="[" line="312" column="96" />
-        <mark key="]" line="312" column="7" />
-        <mark key="." line="312" column="7" />
-        <mark key="^" line="312" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565169573973">
+        <mark key="'" line="95" column="93" />
+        <mark key="[" line="317" column="3" />
+        <mark key="]" line="317" column="3" />
+        <mark key="." line="317" column="3" />
+        <mark key="^" line="317" column="3" />
       </file>
       <file name="/sbtShell" timestamp="1565166059586">
         <mark key="[" line="0" column="0" />
@@ -223,6 +223,9 @@
         <mark key="]" line="157" column="0" />
         <mark key="^" line="162" column="71" />
         <mark key="." line="157" column="0" />
+      </file>
+      <file name="/fragment.java" timestamp="1565171023834">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1565089272844">
         <mark key="'" line="80" column="21" />
