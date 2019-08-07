@@ -60,11 +60,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565177113529">
-        <mark key="[" line="97" column="108" />
-        <mark key="]" line="97" column="107" />
-        <mark key="." line="97" column="107" />
-        <mark key="^" line="97" column="107" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565180002456">
+        <mark key="[" line="43" column="106" />
+        <mark key="]" line="100" column="76" />
+        <mark key="." line="100" column="76" />
+        <mark key="^" line="100" column="76" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
@@ -113,12 +113,11 @@
         <mark key="^" line="100" column="12" />
         <mark key="." line="100" column="12" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1564005845252">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1565179427422">
         <mark key="'" line="63" column="51" />
-        <mark key="[" line="38" column="39" />
-        <mark key="]" line="78" column="5" />
-        <mark key="^" line="78" column="5" />
-        <mark key="." line="78" column="5" />
+        <mark key="[" line="22" column="4" />
+        <mark key="]" line="30" column="18" />
+        <mark key="." line="10" column="0" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -339,7 +338,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>u</text>
+        <text>exporter.add(graph, &quot;full&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
@@ -348,7 +347,7 @@
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text>throw DesignException(s&quot;Topological sort only works with finished process designs, but encountered: ${e.getMessage}&quot;)</text>
+        <text>exporter.add(graph, &quot;full&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IGlmICghcHJvY2Vzc0dyYXBoLmlzUHJvY2Vzc0Rlc2lnbikKICAgICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIlRvcG9sb2dpY2FsIHNvcnQgb25seSB3b3JrcyB3aXRoIGZpbmlzaGVkIHByb2Nlc3MgZGVzaWducywgYnV0IGVuY291bnRlcmVkOiAke2UuZ2V0TWVzc2FnZX0iKSAKICAgICAgICA=</text>
