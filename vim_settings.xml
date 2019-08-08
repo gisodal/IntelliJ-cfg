@@ -47,9 +47,9 @@
         <mark key="." line="36" column="5" />
         <mark key="^" line="36" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1564070156977">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1565268606608">
         <mark key="'" line="50" column="6" />
-        <mark key="[" line="52" column="31" />
+        <mark key="[" line="35" column="28" />
         <mark key="]" line="53" column="5" />
         <mark key="." line="53" column="5" />
         <mark key="^" line="53" column="5" />
@@ -78,12 +78,12 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565264684216">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565269151002">
         <mark key="'" line="95" column="93" />
-        <mark key="[" line="163" column="30" />
-        <mark key="]" line="163" column="30" />
-        <mark key="." line="163" column="30" />
-        <mark key="^" line="163" column="59" />
+        <mark key="[" line="158" column="0" />
+        <mark key="]" line="158" column="0" />
+        <mark key="." line="158" column="0" />
+        <mark key="^" line="154" column="14" />
       </file>
       <file name="/sbtShell" timestamp="1565251536437">
         <mark key="[" line="0" column="0" />
@@ -91,7 +91,7 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Dummy.scala" timestamp="1565264783617">
+      <file name="/Dummy.scala" timestamp="1565268769292">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Exception.scala" timestamp="1565088953338">
