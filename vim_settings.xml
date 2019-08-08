@@ -60,12 +60,6 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565183517076">
-        <mark key="[" line="145" column="67" />
-        <mark key="]" line="146" column="18" />
-        <mark key="." line="146" column="18" />
-        <mark key="^" line="146" column="18" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="3" column="50" />
@@ -79,7 +73,7 @@
         <mark key="." line="317" column="3" />
         <mark key="^" line="317" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1565166059586">
+      <file name="/sbtShell" timestamp="1565251536437">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -338,7 +332,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIGdyYXBoID0gbm9kZS5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW0dyYXBoXQogICAgICAgICAgICAgICAgdmFsIHN1YmdyYXBoID0gZ3JhcGguc3ViZ3JhcGgobm9kZSA6OiBub2RlLmRlc2NlbmRhbnRzLnRvTGlzdCApCiAgICAgICAgICAgICAgICB2YWwgZXhwb3J0ZXIgPSB1dGlsLkV4cG9ydC5FeHBvcnRlcigidHJhdmVyc2VyIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmFkZChncmFwaCwgImdyYXBoIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmFkZChzdWJncmFwaCwgInN1YmdyYXBoIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmV4cG9ydAogICAgICAgICAgICAgICAgdmFsIHRlc3RzZXIgPTEg</text>
+        <text>val edges = ProcessDesign.sortOutgoing(node).map(_.asInstanceOf[processGraph.EdgeT])</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
@@ -347,7 +341,7 @@
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIGdyYXBoID0gbm9kZS5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW0dyYXBoXQogICAgICAgICAgICAgICAgdmFsIHN1YmdyYXBoID0gZ3JhcGguc3ViZ3JhcGgobm9kZSA6OiBub2RlLmRlc2NlbmRhbnRzLnRvTGlzdCApCg==</text>
+        <text>val edges = ProcessDesign.sortOutgoing(node).map(_.asInstanceOf[processGraph.EdgeT])</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGdyYXBoID0gbm9kZS5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW0dyYXBoXQogICAgICAgICAgICAgICAgdmFsIHN1YmdyYXBoID0gZ3JhcGguc3ViZ3JhcGgobm9kZSA6OiBub2RlLmRlc2NlbmRhbnRzLnRvTGlzdCApCiAgICAgICAgICAgICAgICB2YWwgZXhwb3J0ZXIgPSB1dGlsLkV4cG9ydC5FeHBvcnRlcigidHJhdmVyc2VyIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmFkZChncmFwaCwgImdyYXBoIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmFkZChzdWJncmFwaCwgInN1YmdyYXBoIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmV4cG9ydAogICAgICAgICAgICAgICAgdmFsIHRlc3RzZXIgPTEg</text>
