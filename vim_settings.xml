@@ -78,12 +78,12 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565270220772">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565271769268">
         <mark key="'" line="95" column="93" />
-        <mark key="[" line="157" column="0" />
-        <mark key="]" line="157" column="0" />
-        <mark key="." line="157" column="0" />
-        <mark key="^" line="157" column="69" />
+        <mark key="[" line="155" column="254" />
+        <mark key="]" line="155" column="254" />
+        <mark key="." line="155" column="254" />
+        <mark key="^" line="160" column="38" />
       </file>
       <file name="/sbtShell" timestamp="1565251536437">
         <mark key="[" line="0" column="0" />
@@ -347,46 +347,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">LmZpbHRlcihlID0+IGJvZHlJZHMuY29udGFpbnMoZS5fMSkgJiYgYm9keUlkcy5jb250YWlucyhlLl8yKSk=</text>
+        <text>throw new IllegalStateException(&quot;Child body seems not to be a successor in body graph&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZGVmIA==</text>
+        <text>b</text>
       </register>
       <register name="/" type="4">
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">LmZpbHRlcihlID0+IGJvZHlJZHMuY29udGFpbnMoZS5fMSkgJiYgYm9keUlkcy5jb250YWlucyhlLl8yKSk=</text>
+        <text>throw new IllegalStateException(&quot;Child body seems not to be a successor in body graph&quot;)</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAuY29sbGVjdCB7IGNhc2UgU2VxKHRvLGZyb20pIGlmIGJvZHlJZHMuY29udGFpbnMoZnJvbSkgJiYgYm9keUlkcy5jb250YWlucyh0bykgPT4gKGZyb20sdG8pIH0K</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">IC8vIGNoZWNrIGlmIGJhcnJpZXJzIG9jY3VyIGluIHRoZSBzYW1lIG9yZGVyCiAgICAgICAgICAgICAgYXNzZXJ0KG9yZGVycy5jb21iaW5hdGlvbnMoMikuZm9yYWxsIHsgY2FzZSBhIDo6IGIgOjogXyA9PgogICAgICAgICAgICAgICAgdmFsIGNvbW1vbiA9IGEudG9TZXQuaW50ZXJzZWN0KGIudG9TZXQpCiAgICAgICAgICAgICAgICBhLmZpbHRlcihjb21tb24uY29udGFpbnMpID09IGIuZmlsdGVyKGNvbW1vbi5jb250YWlucykKICAgICAgICAgICAgICB9LCAiVHJ5aW5nIHRvIGludGVybGVhdmUgZHN0ZXAgc2VxdWVuY2VzIHRoYXQgaGF2ZSBhIGNvbmZsaWN0aW5nIG9yZGVyLiIp</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">dmFsIGdyYXBoID0gbm9kZS5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW0dyYXBoXQogICAgICAgICAgICAgICAgdmFsIHN1YmdyYXBoID0gZ3JhcGguc3ViZ3JhcGgobm9kZSA6OiBub2RlLmRlc2NlbmRhbnRzLnRvTGlzdCApCiAgICAgICAgICAgICAgICB2YWwgZXhwb3J0ZXIgPSB1dGlsLkV4cG9ydC5FeHBvcnRlcigidHJhdmVyc2VyIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmFkZChncmFwaCwgImdyYXBoIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmFkZChzdWJncmFwaCwgInN1YmdyYXBoIikKICAgICAgICAgICAgICAgIGV4cG9ydGVyLmV4cG9ydAogICAgICAgICAgICAgICAgdmFsIHRlc3RzZXIgPTEg</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">IGlmICghcHJvY2Vzc0dyYXBoLmlzUHJvY2Vzc0Rlc2lnbikKICAgICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIlRvcG9sb2dpY2FsIHNvcnQgb25seSB3b3JrcyB3aXRoIGZpbmlzaGVkIHByb2Nlc3MgZGVzaWducywgYnV0IGVuY291bnRlcmVkOiAke2UuZ2V0TWVzc2FnZX0iKSAKICAgICAgICA=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ZGVmIHRyYXZlcnNlU3VjY2Vzc29ycyhub2RlOiBwcm9jZXNzR3JhcGguTm9kZVQsIHZpc2l0ZWQ6IFZpc2l0ZWQpOiBMaXN0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0gPSBub2RlLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgICAgICAvLyBpZiB0aGUgZW5jb3VudGVyZWQgbm9kZSBpcyBhICdwYXJhbGxlbCcgdGhlbiB3ZSBtdXN0IGludGVybGVhdmUgdGhlIG9yZGVyaW5ncyBvZiBpdHMgY2hpbGRyZW4KICAgICAgICAgICAgY2FzZSBwOkdyYXBoLk5vZGUuUGFyYWxsZWwgPT4KICAgICAgICAgICAgICB2YWwgb3JkZXJzID0gbm9kZS5vdXRnb2luZy50b0xpc3QubWFwKGVkZ2UgPT4geyB2aXNpdGVkICs9IGVkZ2U7IHRyYXZlcnNlKGVkZ2UudG8sdmlzaXRlZCl9KQogICAgICAgICAgICAgIGludGVybGVhdmUob3JkZXJzKQoKICAgICAgICAgICAgLy8gb3RoZXJ3aXNlLCB0aGVyZSBpcyBhIHByZWRlZmluZWQgb3JkZXJpbmcgb24gdGhlIG5vZGVzLgogICAgICAgICAgICBjYXNlIF8gPT4KICAgICAgICAgICAgICAvLyBzb3J0IG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgICAgdmFsIGVkZ2VzID0gUHJvY2Vzc0Rlc2lnbi5zb3J0T3V0Z29pbmcobm9kZSkubWFwKF8uYXNJbnN0YW5jZU9mW3Byb2Nlc3NHcmFwaC5FZGdlVF0pCgogICAgICAgICAgICAgIC8vIHRyYXZlcnNlIG91dGdvaW5nIGVkZ2VzCiAgICAgICAgICAgICAgdmFsIG9yZGVycyA9IGVkZ2VzLm1hcChlZGdlID0+IHsgdmlzaXRlZCArPSBlZGdlOyB0cmF2ZXJzZShlZGdlLnRvLHZpc2l0ZWQpfSkKICAgICAgICAgICAgICBvcmRlcnMuZmxhdHRlbgogICAgICAgICAgfQo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Ly8gdmVyaWZ5IHVubWFwcGVkCiAgICAgICAgKHRoYXROb2Rlc0J5S2luZCAtLSB0aGlzTm9kZXNCeUtpbmQua2V5U2V0KS5mb3JlYWNoIHsgY2FzZSAoa2luZCwgbm9kZXMpID0+CiAgICAgICAgICB0aHJvdyBUZXN0RmFpbHVyZShzIkV4cGVjdGVkIHplcm8gbm9kZXMgb2YgdHlwZSAka2luZCwgYnV0IGZvdW5kICR7bm9kZXMuc2l6ZX0iKX0=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ZGVmIHVuYXBwbHkodG9rZW46IFRva2VuKTogQm9vbGVhbiA9IHRva2VuIG1hdGNoIHsKICAgICAgY2FzZSBfOiBUb2tlbi5JREVOVElGSUVSID0+IHRydWUKICAgICAgY2FzZSBfOiBUb2tlbi5MSVRFUkFMID0+IHRydWUKICAgICAgY2FzZSBfOiBOb2RlID0+IHRydWUKICAgICAgY2FzZSBfID0+IGZhbHNlCiAgICB9</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ewogICAgICAgIHZhbCBmb28xID0gVGVzdC5HcmFwaC5Ob2RlLmZyb21MaXRlcmFsKCJmb28xIikKICAgICAgICB2YWwgZm9vMiA9IFRlc3QuR3JhcGguTm9kZS5mcm9tTGl0ZXJhbCgiZm9vMiIpCiAgICAgICAgVGVzdC5HcmFwaC5lbXB0eSArPSBMRGlFZGdlKGZvbzEsZm9vMikoU29tZSgidHJlIikpIC8vIDwtLSAhISBGSVhNRTogc2hvdWxkIGZhaWwKICAgICAgfSk=</text>
-      </register>
       <register name="9" type="4">
-        <text>throw TestFailure(s&quot;Edge mismatch with node: \n&quot; +
-              thisNode.pretty(1) + &quot;\n\n&quot; +
-              s&quot;    ${thatNodes.size} possible matching candidate(s):\n&quot; +
-              thatNodes.map(_.pretty(2)).mkString(&quot;&quot;, &quot;\n\n&quot;, &quot;\n&quot;))</text>
+        <text encoding="base64">ewogICAgICAgIHZhbCBmb28xID0gVGVzdC5HcmFwaC5Ob2RlLmZyb21MaXRlcmFsKCJmb28xIikKICAgICAgICB2YWwgZm9vMiA9IFRlc3QuR3JhcGguTm9kZS5mcm9tTGl0ZXJhbCgiZm9vMiIpCiAgICAgICAgVGVzdC5HcmFwaC5lbXB0eSArPSBMRGlFZGdlKGZvbzEsZm9vMikoU29tZSgidHJlIikpIC8vIDwtLSAhISBGSVhNRTogc2hvdWxkIGZhaWwKICAgICAgfSk=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
