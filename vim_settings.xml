@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1564154043215">
-        <mark key="[" line="1842" column="27" />
-        <mark key="]" line="1842" column="24" />
-        <mark key="^" line="1842" column="24" />
-        <mark key="." line="1842" column="24" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565257181488">
+        <mark key="[" line="208" column="8" />
+        <mark key="]" line="208" column="10" />
+        <mark key="." line="208" column="10" />
+        <mark key="^" line="208" column="10" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -60,17 +60,22 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565255036062">
-        <mark key="[" line="36" column="16" />
-        <mark key="]" line="37" column="31" />
-        <mark key="." line="37" column="31" />
-        <mark key="^" line="37" column="31" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565257315625">
+        <mark key="[" line="149" column="38" />
+        <mark key="]" line="150" column="44" />
+        <mark key="." line="150" column="44" />
+        <mark key="^" line="150" column="44" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="3" column="50" />
         <mark key="^" line="12" column="5" />
         <mark key="." line="12" column="5" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/gears/Test_GenericDM.sn" timestamp="1565256378933">
+        <mark key="[" line="109" column="0" />
+        <mark key="]" line="109" column="0" />
+        <mark key="." line="109" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565169573973">
         <mark key="'" line="95" column="93" />
@@ -85,7 +90,7 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Dummy.scala" timestamp="1565176439784">
+      <file name="/Dummy.scala" timestamp="1565257280119">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Exception.scala" timestamp="1565088953338">
@@ -161,6 +166,9 @@
         <mark key="]" line="213" column="82" />
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1565256852158">
+        <mark key="[" line="25" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
@@ -337,8 +345,8 @@
       <jump line="93" column="93" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">dGVzdCgiQjAxLjA5IC0gU2luZ2xlIGRlbGV0ZSB3aXRob3V0IGRlcGVuZGVuY2llcyIpIHsKICAgIHZlcmlmeVByb2Nlc3NEZXNpZ24oCiAgICAgICIiIgogICAgICAgIHxyZXN1bHRzIGluOgogICAgICAgIHwgICAgdGhlIGZpcnN0IEVBUyBpcyBkZWxldGVkCiAgICAgICAgfAogICAgICAiIiIuc3RyaXBNYXJnaW4sCiAgICAgICIiIgogICAgICAgIHx7PQogICAgICAgIHxzdGFydCAtPiAnRGVsZXRlIGZyb20gRUFTJyAtPiBlbmQKICAgICAgICB8fQogICAgICAiIiIuc3RyaXBNYXJnaW4KICAgICkKICB9CiAg</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
@@ -347,7 +355,7 @@
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;Trying to interleave dstep sequences that have a conflicting order.&quot;</text>
+        <text encoding="base64">dGVzdCgiQjAxLjA5IC0gU2luZ2xlIGRlbGV0ZSB3aXRob3V0IGRlcGVuZGVuY2llcyIpIHsKICAgIHZlcmlmeVByb2Nlc3NEZXNpZ24oCiAgICAgICIiIgogICAgICAgIHxyZXN1bHRzIGluOgogICAgICAgIHwgICAgdGhlIGZpcnN0IEVBUyBpcyBkZWxldGVkCiAgICAgICAgfAogICAgICAiIiIuc3RyaXBNYXJnaW4sCiAgICAgICIiIgogICAgICAgIHx7PQogICAgICAgIHxzdGFydCAtPiAnRGVsZXRlIGZyb20gRUFTJyAtPiBlbmQKICAgICAgICB8fQogICAgICAiIiIuc3RyaXBNYXJnaW4KICAgICkKICB9CiAg</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAK</text>
