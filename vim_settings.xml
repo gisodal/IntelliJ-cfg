@@ -84,12 +84,11 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565357921287">
-        <mark key="'" line="110" column="93" />
-        <mark key="[" line="87" column="64" />
-        <mark key="]" line="87" column="35" />
-        <mark key="^" line="87" column="35" />
-        <mark key="." line="87" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565358103202">
+        <mark key="'" line="103" column="93" />
+        <mark key="[" line="85" column="0" />
+        <mark key="]" line="85" column="0" />
+        <mark key="." line="85" column="0" />
       </file>
       <file name="/sbtShell" timestamp="1565338277536">
         <mark key="[" line="0" column="0" />
@@ -112,12 +111,11 @@
         <mark key="." line="131" column="105" />
         <mark key="^" line="131" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565357133387">
-        <mark key="'" line="242" column="20" />
-        <mark key="[" line="235" column="16" />
-        <mark key="]" line="235" column="50" />
-        <mark key="^" line="246" column="13" />
-        <mark key="." line="244" column="32" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565358665324">
+        <mark key="[" line="228" column="0" />
+        <mark key="]" line="228" column="0" />
+        <mark key="^" line="235" column="13" />
+        <mark key="." line="228" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -354,7 +352,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>if (processGraph.findCycle.isEmpty)</text>
+        <text>throw DesignException(&quot;cycle!&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>processGraph.mergeAll(clusters)</text>
@@ -363,7 +361,7 @@
         <text>cycle</text>
       </register>
       <register name="0" type="4">
-        <text>if (processGraph.findCycle.isEmpty)</text>
+        <text>throw DesignException(&quot;cycle!&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8KICAgICAgICAgICAgICBjbHVzdGVycy5mb3JlYWNoIHsgY2x1c3RlciA9PgogICAgICAgICAgICAgICAgdmFsIHByb2Nlc3NHcmFwaENvcHkgPSBwcm9jZXNzR3JhcGguY2xvbmUoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBwcm9jZXNzR3JhcGgubWVyZ2UoY2x1c3RlcikKICAgICAgICAgICAgICB9Cgo=</text>
