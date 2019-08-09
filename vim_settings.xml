@@ -19,6 +19,12 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1565341900318">
+        <mark key="[" line="50" column="25" />
+        <mark key="]" line="50" column="25" />
+        <mark key="^" line="50" column="25" />
+        <mark key="." line="50" column="25" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1563183370252">
         <mark key="[" line="194" column="59" />
         <mark key="]" line="194" column="98" />
@@ -60,11 +66,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565257315625">
-        <mark key="[" line="149" column="38" />
-        <mark key="]" line="150" column="44" />
-        <mark key="." line="150" column="44" />
-        <mark key="^" line="150" column="44" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565340956268">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="^" line="110" column="26" />
+        <mark key="." line="32" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
         <mark key="[" line="2" column="0" />
@@ -106,12 +112,12 @@
         <mark key="." line="131" column="105" />
         <mark key="^" line="131" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565340115887">
-        <mark key="'" line="261" column="0" />
-        <mark key="[" line="26" column="45" />
-        <mark key="]" line="26" column="65" />
-        <mark key="^" line="26" column="65" />
-        <mark key="." line="26" column="65" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565342341087">
+        <mark key="'" line="268" column="0" />
+        <mark key="[" line="242" column="85" />
+        <mark key="]" line="244" column="88" />
+        <mark key="^" line="244" column="88" />
+        <mark key="." line="244" column="88" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -119,11 +125,12 @@
         <mark key="^" line="100" column="12" />
         <mark key="." line="100" column="12" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1565179427422">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1565341379546">
         <mark key="'" line="63" column="51" />
-        <mark key="[" line="22" column="4" />
-        <mark key="]" line="30" column="18" />
-        <mark key="." line="10" column="0" />
+        <mark key="[" line="18" column="181" />
+        <mark key="]" line="18" column="186" />
+        <mark key="." line="18" column="186" />
+        <mark key="^" line="18" column="186" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -347,16 +354,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>util.Export(processGraph, &quot;designer&quot;, &quot;clustering&quot;)</text>
+        <text>util.Export.export(None, Some(processGraph), &quot;clustering&quot;, s&quot;$id after}&quot;, true)</text>
       </register>
       <register name="-" type="4">
-        <text>b</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text>util.Export(processGraph, &quot;designer&quot;, &quot;clustering&quot;)</text>
+        <text>util.Export.export(None, Some(processGraph), &quot;clustering&quot;, s&quot;$id after}&quot;, true)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAuY29sbGVjdCB7IGNhc2UgU2VxKHRvLGZyb20pIGlmIGJvZHlJZHMuY29udGFpbnMoZnJvbSkgJiYgYm9keUlkcy5jb250YWlucyh0bykgPT4gKGZyb20sdG8pIH0K</text>
