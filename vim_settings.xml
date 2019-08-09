@@ -112,12 +112,12 @@
         <mark key="." line="131" column="105" />
         <mark key="^" line="131" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565351237017">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565353083175">
         <mark key="'" line="276" column="0" />
-        <mark key="[" line="229" column="56" />
-        <mark key="]" line="230" column="31" />
-        <mark key="." line="230" column="31" />
-        <mark key="^" line="230" column="31" />
+        <mark key="[" line="230" column="0" />
+        <mark key="]" line="230" column="14" />
+        <mark key="." line="230" column="14" />
+        <mark key="^" line="229" column="13" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
