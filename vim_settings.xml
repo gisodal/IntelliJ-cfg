@@ -78,14 +78,14 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565272313662">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565338353485">
         <mark key="'" line="95" column="93" />
-        <mark key="[" line="159" column="36" />
-        <mark key="]" line="159" column="25" />
-        <mark key="." line="159" column="25" />
-        <mark key="^" line="159" column="25" />
+        <mark key="[" line="157" column="15" />
+        <mark key="]" line="157" column="16" />
+        <mark key="." line="157" column="16" />
+        <mark key="^" line="157" column="16" />
       </file>
-      <file name="/sbtShell" timestamp="1565251536437">
+      <file name="/sbtShell" timestamp="1565338277536">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
