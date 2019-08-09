@@ -112,12 +112,12 @@
         <mark key="." line="131" column="105" />
         <mark key="^" line="131" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565343260631">
-        <mark key="'" line="268" column="0" />
-        <mark key="[" line="244" column="12" />
-        <mark key="]" line="244" column="13" />
-        <mark key="^" line="244" column="13" />
-        <mark key="." line="244" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565346166242">
+        <mark key="'" line="274" column="0" />
+        <mark key="[" line="266" column="65" />
+        <mark key="]" line="266" column="65" />
+        <mark key="." line="266" column="65" />
+        <mark key="^" line="266" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -354,16 +354,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>util.Export.export(None, Some(processGraph), &quot;clustering&quot;, s&quot;$id after}&quot;, true)</text>
+        <text encoding="base64">dXRpbC5FeHBvcnQuZXhwb3J0KE5vbmUsIFNvbWUocHJvY2Vzc0dyYXBoKSwgImNsdXN0ZXJpbmciLCBzImEpIHByZS1ib2R5IiwgdHJ1ZSkg</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text encoding="base64">dXRpbC5FeHBvcnQuZXhwb3J0KE5vbmUsIFNvbWUocHJvY2Vzc0dyYXBoKSwgImNsdXN0ZXJpbmciLCBzIiRpZCAyIGFmdGVyIiwgdHJ1ZSkg</text>
       </register>
       <register name="/" type="4">
         <text>graphverifier</text>
       </register>
       <register name="0" type="4">
-        <text>util.Export.export(None, Some(processGraph), &quot;clustering&quot;, s&quot;$id after}&quot;, true)</text>
+        <text encoding="base64">dXRpbC5FeHBvcnQuZXhwb3J0KE5vbmUsIFNvbWUocHJvY2Vzc0dyYXBoKSwgImNsdXN0ZXJpbmciLCBzImEpIHByZS1ib2R5IiwgdHJ1ZSkg</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAuY29sbGVjdCB7IGNhc2UgU2VxKHRvLGZyb20pIGlmIGJvZHlJZHMuY29udGFpbnMoZnJvbSkgJiYgYm9keUlkcy5jb250YWlucyh0bykgPT4gKGZyb20sdG8pIH0K</text>
