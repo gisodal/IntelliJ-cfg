@@ -111,12 +111,12 @@
         <mark key="." line="131" column="105" />
         <mark key="^" line="131" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565634688976">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565636252036">
         <mark key="'" line="231" column="87" />
-        <mark key="[" line="24" column="23" />
-        <mark key="]" line="24" column="24" />
-        <mark key="^" line="24" column="24" />
-        <mark key="." line="24" column="24" />
+        <mark key="[" line="432" column="74" />
+        <mark key="]" line="432" column="74" />
+        <mark key="^" line="431" column="9" />
+        <mark key="." line="432" column="74" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -149,7 +149,7 @@
         <mark key="^" line="9" column="53" />
         <mark key="." line="9" column="53" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565634760480">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565636193374">
         <mark key="[" line="11" column="62" />
         <mark key="]" line="11" column="76" />
         <mark key="^" line="11" column="76" />
@@ -353,7 +353,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>throw DesignException(&quot;cycle!&quot;)</text>
+        <text>val id = ids.next()</text>
       </register>
       <register name="-" type="4">
         <text>processGraph.mergeAll(clusters)</text>
@@ -362,7 +362,7 @@
         <text>clustering</text>
       </register>
       <register name="0" type="4">
-        <text>throw DesignException(&quot;cycle!&quot;)</text>
+        <text>val id = ids.next()</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8KICAgICAgICAgICAgICBjbHVzdGVycy5mb3JlYWNoIHsgY2x1c3RlciA9PgogICAgICAgICAgICAgICAgdmFsIHByb2Nlc3NHcmFwaENvcHkgPSBwcm9jZXNzR3JhcGguY2xvbmUoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBwcm9jZXNzR3JhcGgubWVyZ2UoY2x1c3RlcikKICAgICAgICAgICAgICB9Cgo=</text>
