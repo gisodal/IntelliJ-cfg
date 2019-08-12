@@ -111,12 +111,12 @@
         <mark key="." line="131" column="105" />
         <mark key="^" line="131" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565638226077">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565638901855">
         <mark key="'" line="231" column="87" />
-        <mark key="[" line="426" column="29" />
-        <mark key="]" line="426" column="30" />
-        <mark key="^" line="426" column="30" />
-        <mark key="." line="426" column="30" />
+        <mark key="[" line="432" column="71" />
+        <mark key="]" line="432" column="67" />
+        <mark key="^" line="432" column="67" />
+        <mark key="." line="432" column="67" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -353,7 +353,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">bm9kZS5pbmNvbWluZy50b0xpc3QuZ3JvdXBCeShlID0+IGUubGFiZWwuYXNJbnN0YW5jZU9mW0dyYXBoLkVkZ2UuTGFiZWxdKS52YWx1ZXMuZmlsdGVyKF8uc2l6ZSA+IDEpIA==</text>
+        <text>.label.asInstanceOf[Edge.Label]</text>
       </register>
       <register name="-" type="4">
         <text>processGraph.mergeAll(clusters)</text>
@@ -362,7 +362,7 @@
         <text>clustering</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">bm9kZS5pbmNvbWluZy50b0xpc3QuZ3JvdXBCeShlID0+IGUubGFiZWwuYXNJbnN0YW5jZU9mW0dyYXBoLkVkZ2UuTGFiZWxdKS52YWx1ZXMuZmlsdGVyKF8uc2l6ZSA+IDEpIA==</text>
+        <text>.label.asInstanceOf[Edge.Label]</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8KICAgICAgICAgICAgICBjbHVzdGVycy5mb3JlYWNoIHsgY2x1c3RlciA9PgogICAgICAgICAgICAgICAgdmFsIHByb2Nlc3NHcmFwaENvcHkgPSBwcm9jZXNzR3JhcGguY2xvbmUoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBwcm9jZXNzR3JhcGgubWVyZ2UoY2x1c3RlcikKICAgICAgICAgICAgICB9Cgo=</text>
