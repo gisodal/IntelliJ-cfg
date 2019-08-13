@@ -31,9 +31,6 @@
         <mark key="^" line="259" column="1" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1565086932472">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/PathRels.scala" timestamp="1565166939939">
         <mark key="[" line="29" column="40" />
         <mark key="]" line="29" column="40" />
@@ -95,7 +92,7 @@
         <mark key="." line="83" column="0" />
         <mark key="^" line="83" column="5" />
       </file>
-      <file name="/sbtShell" timestamp="1565683552232">
+      <file name="/sbtShell" timestamp="1565720612264">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -104,9 +101,6 @@
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/IterableEnhancements.scala" timestamp="1565689457077">
         <mark key="[" line="4" column="7" />
         <mark key="]" line="4" column="26" />
-      </file>
-      <file name="/Dummy.scala" timestamp="1565637209207">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Exception.scala" timestamp="1565088953338">
         <mark key="[" line="37" column="0" />
@@ -120,13 +114,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565703240849">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565721509506">
         <mark key="'" line="112" column="0" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="458" column="12" />
-        <mark key="]" line="458" column="11" />
-        <mark key="." line="458" column="11" />
-        <mark key="^" line="458" column="11" />
+        <mark key="[" line="498" column="0" />
+        <mark key="]" line="498" column="0" />
+        <mark key="." line="498" column="0" />
+        <mark key="^" line="499" column="19" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -134,13 +128,12 @@
         <mark key="^" line="100" column="12" />
         <mark key="." line="100" column="12" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/InputTargets.scala" timestamp="1565686206795" />
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1565341379546">
-        <mark key="'" line="63" column="51" />
-        <mark key="[" line="18" column="181" />
-        <mark key="]" line="18" column="186" />
-        <mark key="." line="18" column="186" />
-        <mark key="^" line="18" column="186" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1565721101169">
+        <mark key="'" line="66" column="51" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+        <mark key="^" line="11" column="81" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -189,9 +182,6 @@
         <mark key="]" line="213" column="82" />
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1565256852158">
-        <mark key="[" line="25" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
@@ -254,9 +244,6 @@
         <mark key="]" line="157" column="0" />
         <mark key="^" line="162" column="71" />
         <mark key="." line="157" column="0" />
-      </file>
-      <file name="/fragment.java" timestamp="1565171023834">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1565089272844">
         <mark key="'" line="80" column="21" />
@@ -370,16 +357,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">LmZpbHRlcihfLnNpemUgPiAxKQ==</text>
+        <text>case _: Node.Parallel</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LmZpbHRlcihfLnNpemUgPiAxKQ==</text>
+        <text>// FIXME hmmm</text>
       </register>
       <register name="/" type="4">
         <text>kind</text>
       </register>
       <register name="0" type="4">
-        <text>edges.head.label.asInstanceOf[Edge.Label]</text>
+        <text>case _: Node.Parallel</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIHZhbCBicmFuY2hOb2RlcyA9IG5vZGVzLnRvU2V0Cg==</text>
