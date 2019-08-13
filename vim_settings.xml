@@ -120,13 +120,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565700290484">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565701097352">
         <mark key="'" line="112" column="0" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="190" column="58" />
-        <mark key="]" line="190" column="58" />
-        <mark key="." line="190" column="58" />
-        <mark key="^" line="190" column="58" />
+        <mark key="[" line="172" column="34" />
+        <mark key="]" line="172" column="35" />
+        <mark key="." line="172" column="35" />
+        <mark key="^" line="172" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -370,7 +370,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>exporter.add(dependencyGraph, processGraph, &quot;normalized&quot;, true)</text>
+        <text>ancestorGraph.roots.</text>
       </register>
       <register name="-" type="4">
         <text>val subgraphNode = branchGraph.get(branchNode.toOuter)</text>
@@ -379,7 +379,7 @@
         <text>kind</text>
       </register>
       <register name="0" type="4">
-        <text>exporter.add(dependencyGraph, processGraph, &quot;normalized&quot;, true)</text>
+        <text>ancestorGraph.roots.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIHZhbCBicmFuY2hOb2RlcyA9IG5vZGVzLnRvU2V0Cg==</text>
