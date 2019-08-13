@@ -120,11 +120,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565696325598">
-        <mark key="[" line="110" column="69" />
-        <mark key="]" line="109" column="70" />
-        <mark key="." line="109" column="70" />
-        <mark key="^" line="109" column="70" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565700290484">
+        <mark key="'" line="112" column="0" />
+        <mark key="i" line="118" column="75" />
+        <mark key="[" line="190" column="58" />
+        <mark key="]" line="190" column="58" />
+        <mark key="." line="190" column="58" />
+        <mark key="^" line="190" column="58" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -163,11 +165,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565693432504">
-        <mark key="[" line="11" column="76" />
-        <mark key="]" line="11" column="77" />
-        <mark key="^" line="11" column="77" />
-        <mark key="." line="11" column="77" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565700200278">
+        <mark key="[" line="11" column="77" />
+        <mark key="]" line="11" column="102" />
+        <mark key="^" line="11" column="102" />
+        <mark key="." line="11" column="102" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
         <mark key="'" line="142" column="100" />
@@ -265,7 +267,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="321" column="36" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="326" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="331" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="336" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -365,47 +366,52 @@
       <jump line="140" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
       <jump line="142" column="100" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
       <jump line="67" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
+      <jump line="112" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>whileAfterGraph.roots</text>
+        <text>exporter.add(dependencyGraph, processGraph, &quot;normalized&quot;, true)</text>
       </register>
       <register name="-" type="4">
-        <text>leaf</text>
+        <text>val subgraphNode = branchGraph.get(branchNode.toOuter)</text>
       </register>
       <register name="/" type="4">
         <text>kind</text>
       </register>
       <register name="0" type="4">
-        <text>whileAfterGraph.roots</text>
+        <text>exporter.add(dependencyGraph, processGraph, &quot;normalized&quot;, true)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgIHZhbCBicmFuY2hOb2RlcyA9IG5vZGVzLnRvU2V0Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIC8vIGFzc3VtcHRpb246IGFsbCBib2R5IGxlYXZlcyBhcmUgb25seSBjb25uZWN0ZWQgdG8gdGhlIHJvb3RzIG9mIHRoZSBhZnRlciBib2R5Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>assert {
+            val whileRoots =  whileAfterGraph.roots.map(_.toOuter) ++ whileBodyGraph.roots.map(_.toOuter)
+            val evalSuccessors = evalNode.diSuccessors.map(_.toOuter)
+            whileRoots.subsetOf(evalSuccessors)
+          }</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgdGhpc0NsdXN0ZXIubm9kZXMubWFwKG5vZGUgPT4gbm9kZS50b091dGVyLmJvZHlTdGFjaykudG9TZXQK</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIC8vIEZJWE1FIHVudXNlZAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>// FIXME toSetMultiMap
         import util.IterableEnhancements._</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">aW1wbGljaXQgdmFsIGVkZ2VGYWN0b3J5OiBFZGdlLnR5cGUgPSBHcmFwaC5FZGdlCiBkZWYgZW1wdHk6IEdyYXBoID0gbXV0YWJsZS5HcmFwaC5lbXB0eVtHcmFwaC5Ob2RlLExrRGlFZGdlXSA=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">CiAgCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">aW1wbGljaXQgdmFsIGVkZ2VGYWN0b3J5OiBFZGdlLnR5cGUgPSBHcmFwaC5FZGdlCiBkZWYgZW1wdHk6IEdyYXBoID0gbXV0YWJsZS5HcmFwaC5lbXB0eVtHcmFwaC5Ob2RlLExrRGlFZGdlXSA=</text>
-      </register>
       <register name="8" type="4">
-        <text encoding="base64">dmFsIHN0YXRlVG9Cb2R5Tm9kZXMgPWJvZHlOb2RlcwogICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBib2R5SWQuZmxhdE1hcChldmFsSWQgPT4gbm9kZS5zdGF0ZShldmFsSWQpKSkKICAgICAgICAgIC5tYXBWYWx1ZXMoXy5tYXAoXy5hc0luc3RhbmNlT2ZbRGVzaWduR3JhcGgjTm9kZVRdKSkKICAgICAgICAgIA==</text>
+        <text encoding="base64">aW1wbGljaXQgdmFsIGVkZ2VGYWN0b3J5OiBFZGdlLnR5cGUgPSBHcmFwaC5FZGdlCiBkZWYgZW1wdHk6IEdyYXBoID0gbXV0YWJsZS5HcmFwaC5lbXB0eVtHcmFwaC5Ob2RlLExrRGlFZGdlXSA=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsIAo=</text>
+        <text encoding="base64">CiAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
