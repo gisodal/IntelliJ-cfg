@@ -120,11 +120,11 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565695216684">
-        <mark key="[" line="19" column="32" />
-        <mark key="]" line="19" column="32" />
-        <mark key="." line="19" column="32" />
-        <mark key="^" line="306" column="10" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565696325598">
+        <mark key="[" line="110" column="69" />
+        <mark key="]" line="109" column="70" />
+        <mark key="." line="109" column="70" />
+        <mark key="^" line="109" column="70" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -367,17 +367,17 @@
       <jump line="67" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+      <register name="&quot;" type="4">
+        <text>whileAfterGraph.roots</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>leaf</text>
       </register>
       <register name="/" type="4">
         <text>kind</text>
       </register>
       <register name="0" type="4">
-        <text>primary.bodyStack.endsWith(node.bodyStack)</text>
+        <text>whileAfterGraph.roots</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
