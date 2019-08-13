@@ -36,9 +36,7 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
-  </action>
+  <action id="EditSource" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -115,7 +113,9 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
-  <action id="FindInPath" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
@@ -123,7 +123,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
-  <action id="FindUsages" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="GotoBookmark5" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
@@ -141,6 +143,7 @@
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -167,9 +170,7 @@
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
-  <action id="Vcs.EditSource">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
-  </action>
+  <action id="Vcs.EditSource" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -178,7 +179,5 @@
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
-  <action id="XDebugger.JumpToSource">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
-  </action>
+  <action id="XDebugger.JumpToSource" />
 </keymap>
