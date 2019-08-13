@@ -25,11 +25,11 @@
         <mark key="^" line="50" column="25" />
         <mark key="." line="50" column="25" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1565688153030">
-        <mark key="[" line="240" column="0" />
-        <mark key="]" line="240" column="0" />
-        <mark key="^" line="235" column="5" />
-        <mark key="." line="240" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1565694581621">
+        <mark key="[" line="132" column="0" />
+        <mark key="]" line="132" column="0" />
+        <mark key="^" line="259" column="1" />
+        <mark key="." line="132" column="0" />
       </file>
       <file name="/a.dummy" timestamp="1565086932472">
         <mark key="[" line="0" column="0" />
@@ -53,12 +53,17 @@
         <mark key="." line="36" column="5" />
         <mark key="^" line="36" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1565694021142">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1565694170850">
         <mark key="'" line="41" column="14" />
-        <mark key="[" line="45" column="16" />
-        <mark key="]" line="45" column="25" />
-        <mark key="." line="45" column="25" />
-        <mark key="^" line="45" column="25" />
+        <mark key="[" line="62" column="0" />
+        <mark key="]" line="62" column="0" />
+        <mark key="." line="62" column="0" />
+        <mark key="^" line="63" column="108" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1565694499393">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1563875935615">
         <mark key="[" line="6" column="48" />
@@ -66,12 +71,12 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565683634103">
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="0" />
-        <mark key="." line="69" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565695156433">
+        <mark key="[" line="193" column="0" />
+        <mark key="]" line="193" column="0" />
+        <mark key="." line="193" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1564153814313">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="3" column="50" />
         <mark key="^" line="12" column="5" />
@@ -115,10 +120,10 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565685996763">
-        <mark key="[" line="306" column="10" />
-        <mark key="]" line="306" column="10" />
-        <mark key="." line="306" column="10" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565695216684">
+        <mark key="[" line="19" column="32" />
+        <mark key="]" line="19" column="32" />
+        <mark key="." line="19" column="32" />
         <mark key="^" line="306" column="10" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
@@ -152,6 +157,11 @@
         <mark key="]" line="9" column="53" />
         <mark key="^" line="9" column="53" />
         <mark key="." line="9" column="53" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1565694860906">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565693432504">
         <mark key="[" line="11" column="76" />
@@ -188,11 +198,17 @@
         <mark key="^" line="110" column="1" />
         <mark key="." line="110" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1563008319788">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="^" line="22" column="19" />
-        <mark key="." line="13" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1565694614004">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="^" line="19" column="19" />
+        <mark key="." line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/JavaBehaviorTranslator.scala" timestamp="1565694671848">
+        <mark key="[" line="55" column="11" />
+        <mark key="]" line="55" column="16" />
+        <mark key="." line="55" column="16" />
+        <mark key="^" line="55" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1565693405429">
         <mark key="'" line="67" column="7" />
@@ -219,11 +235,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1565693046611">
-        <mark key="[" line="17" column="19" />
-        <mark key="]" line="17" column="25" />
-        <mark key="." line="17" column="25" />
-        <mark key="^" line="17" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1565695035668">
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="76" column="0" />
+        <mark key="." line="76" column="0" />
+        <mark key="^" line="76" column="9" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -352,10 +368,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgdGhpc0NsdXN0ZXIubm9kZXMubWFwKG5vZGUgPT4gbm9kZS50b091dGVyLmJvZHlTdGFjaykudG9TZXQK</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name="-" type="4">
-        <text>import util.IterableEnhancements._</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>kind</text>
@@ -364,32 +380,32 @@
         <text>primary.bodyStack.endsWith(node.bodyStack)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdGhpc0NsdXN0ZXIubm9kZXMubWFwKG5vZGUgPT4gbm9kZS50b091dGVyLmJvZHlTdGFjaykudG9TZXQK</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgdGhpc0NsdXN0ZXIubm9kZXMubWFwKG5vZGUgPT4gbm9kZS50b091dGVyLmJvZHlTdGFjaykudG9TZXQK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgIC8vIEZJWE1FIHVudXNlZAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>// FIXME toSetMultiMap
         import util.IterableEnhancements._</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">aW1wbGljaXQgdmFsIGVkZ2VGYWN0b3J5OiBFZGdlLnR5cGUgPSBHcmFwaC5FZGdlCiBkZWYgZW1wdHk6IEdyYXBoID0gbXV0YWJsZS5HcmFwaC5lbXB0eVtHcmFwaC5Ob2RlLExrRGlFZGdlXSA=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">CiAgCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">aW1wbGljaXQgdmFsIGVkZ2VGYWN0b3J5OiBFZGdlLnR5cGUgPSBHcmFwaC5FZGdlCiBkZWYgZW1wdHk6IEdyYXBoID0gbXV0YWJsZS5HcmFwaC5lbXB0eVtHcmFwaC5Ob2RlLExrRGlFZGdlXSA=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">dmFsIHN0YXRlVG9Cb2R5Tm9kZXMgPWJvZHlOb2RlcwogICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBib2R5SWQuZmxhdE1hcChldmFsSWQgPT4gbm9kZS5zdGF0ZShldmFsSWQpKSkKICAgICAgICAgIC5tYXBWYWx1ZXMoXy5tYXAoXy5hc0luc3RhbmNlT2ZbRGVzaWduR3JhcGgjTm9kZVRdKSkKICAgICAgICAgIA==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFsIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">Ly8KICAgICAgICAgICAgICBjbHVzdGVycy5mb3JlYWNoIHsgY2x1c3RlciA9PgogICAgICAgICAgICAgICAgdmFsIHByb2Nlc3NHcmFwaENvcHkgPSBwcm9jZXNzR3JhcGguY2xvbmUoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBwcm9jZXNzR3JhcGgubWVyZ2UoY2x1c3RlcikKICAgICAgICAgICAgICB9Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
