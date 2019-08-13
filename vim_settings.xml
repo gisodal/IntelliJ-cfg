@@ -83,18 +83,22 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565689012016">
-        <mark key="'" line="93" column="14" />
-        <mark key="[" line="102" column="81" />
-        <mark key="]" line="46" column="15" />
-        <mark key="." line="46" column="15" />
-        <mark key="^" line="41" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565689755059">
+        <mark key="'" line="133" column="5" />
+        <mark key="[" line="138" column="0" />
+        <mark key="]" line="138" column="0" />
+        <mark key="." line="138" column="0" />
+        <mark key="^" line="55" column="33" />
       </file>
       <file name="/sbtShell" timestamp="1565683552232">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/IterableEnhancements.scala" timestamp="1565689457077">
+        <mark key="[" line="4" column="7" />
+        <mark key="]" line="4" column="26" />
       </file>
       <file name="/Dummy.scala" timestamp="1565637209207">
         <mark key="[" line="0" column="0" />
@@ -244,7 +248,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="148" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="190" column="52" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="219" column="50" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="221" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -344,19 +347,20 @@
       <jump line="231" column="87" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="239" column="26" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="93" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="133" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.map(_.asInstanceOf[DesignGraph#NodeT]).toSet</text>
+        <text>import util.IterableEnhancements._</text>
       </register>
       <register name="-" type="4">
-        <text>.mkString(&quot;, &quot;)</text>
+        <text>import util.IterableEnhancements._</text>
       </register>
       <register name="/" type="4">
         <text>FIX</text>
       </register>
       <register name="0" type="4">
-        <text>.map(_.asInstanceOf[DesignGraph#NodeT]).toSet</text>
+        <text>IterableEnhancements</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFsIAo=</text>
