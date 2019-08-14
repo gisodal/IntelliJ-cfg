@@ -37,10 +37,10 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1565688536113">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1565799282665">
         <mark key="'" line="5" column="66" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
+        <mark key="[" line="82" column="10" />
+        <mark key="]" line="83" column="37" />
         <mark key="." line="25" column="0" />
         <mark key="^" line="24" column="99" />
       </file>
@@ -68,11 +68,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565777713975">
-        <mark key="[" line="94" column="14" />
-        <mark key="]" line="95" column="13" />
-        <mark key="." line="95" column="13" />
-        <mark key="^" line="95" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565799398522">
+        <mark key="[" line="192" column="0" />
+        <mark key="]" line="192" column="0" />
+        <mark key="^" line="191" column="42" />
+        <mark key="." line="192" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
@@ -357,17 +357,19 @@
       <jump line="27" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgCg==</text>
+      <register name="&quot;" type="4">
+        <text>val traverser = design.Traverser(thisGraph)
+          traverser.topologicalSortDFS</text>
       </register>
       <register name="-" type="4">
-        <text>design.Graph(thisGraph.nodes.toOuter, thisGraph.edges.toOuter)</text>
+        <text>throw DesignException</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIGluaGliaXRvckRlc2NlbmRhbnRzID0gaW5oaWJpdG9ycy5mbGF0TWFwKG5vZGUgPT4gbm9kZS5kZXNjZW5kYW50cykudG9TZXQgLS0gaW5oaWJpdG9ycwogICAgICAgICAgICB2YWwgKGluaGliaXRlZCxub25pbmhpYml0ZWQpID0gY2x1c3Rlci5wYXJ0aXRpb24oaW5oaWJpdG9yRGVzY2VuZGFudHMuY29udGFpbnMpCiAgICAgICAgICAgIHZhbCBjbHVzdGVycyA9IExpc3QoaW5oaWJpdGVkLCBub25pbmhpYml0ZWQpCgogICAgICAgICAgICBtZXJnZUNsdXN0ZXJzKGNsdXN0ZXJzKQ==</text>
+        <text>val traverser = design.Traverser(thisGraph)
+          traverser.topologicalSortDFS</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgCg==</text>
