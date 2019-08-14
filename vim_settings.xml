@@ -92,7 +92,7 @@
         <mark key="." line="83" column="0" />
         <mark key="^" line="83" column="5" />
       </file>
-      <file name="/sbtShell" timestamp="1565720612264">
+      <file name="/sbtShell" timestamp="1565769867977">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -114,13 +114,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565721509506">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565770292380">
         <mark key="'" line="112" column="0" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="498" column="0" />
-        <mark key="]" line="498" column="0" />
-        <mark key="." line="498" column="0" />
-        <mark key="^" line="499" column="19" />
+        <mark key="[" line="504" column="113" />
+        <mark key="]" line="505" column="7" />
+        <mark key="." line="505" column="7" />
+        <mark key="^" line="505" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
