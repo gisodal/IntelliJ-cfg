@@ -115,13 +115,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565796532424">
-        <mark key="'" line="218" column="18" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565798266650">
+        <mark key="'" line="27" column="37" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="189" column="15" />
-        <mark key="]" line="190" column="12" />
-        <mark key="^" line="190" column="12" />
-        <mark key="." line="190" column="12" />
+        <mark key="[" line="289" column="0" />
+        <mark key="]" line="289" column="0" />
+        <mark key="^" line="175" column="100" />
+        <mark key="." line="289" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -159,8 +159,8 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565792005158">
-        <mark key="[" line="11" column="103" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565798320865">
+        <mark key="[" line="11" column="102" />
         <mark key="]" line="11" column="73" />
         <mark key="^" line="11" column="73" />
         <mark key="." line="11" column="73" />
@@ -255,8 +255,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="351" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="356" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="461" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="468" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="469" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -355,6 +353,8 @@
       <jump line="240" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="218" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="103" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="288" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="27" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -364,7 +364,7 @@
         <text>design.Graph(thisGraph.nodes.toOuter, thisGraph.edges.toOuter)</text>
       </register>
       <register name="/" type="4">
-        <text>normalzied</text>
+        <text>Export</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">dmFsIGluaGliaXRvckRlc2NlbmRhbnRzID0gaW5oaWJpdG9ycy5mbGF0TWFwKG5vZGUgPT4gbm9kZS5kZXNjZW5kYW50cykudG9TZXQgLS0gaW5oaWJpdG9ycwogICAgICAgICAgICB2YWwgKGluaGliaXRlZCxub25pbmhpYml0ZWQpID0gY2x1c3Rlci5wYXJ0aXRpb24oaW5oaWJpdG9yRGVzY2VuZGFudHMuY29udGFpbnMpCiAgICAgICAgICAgIHZhbCBjbHVzdGVycyA9IExpc3QoaW5oaWJpdGVkLCBub25pbmhpYml0ZWQpCgogICAgICAgICAgICBtZXJnZUNsdXN0ZXJzKGNsdXN0ZXJzKQ==</text>
@@ -401,9 +401,9 @@
       </register>
     </registers>
     <search>
-      <last-search>normalzied</last-search>
+      <last-search>Export</last-search>
       <last-offset />
-      <last-pattern>normalzied</last-pattern>
+      <last-pattern>Export</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -415,7 +415,6 @@
         <entry>bodyG</entry>
         <entry>\n</entry>
         <entry>convertC</entry>
-        <entry>Export</entry>
         <entry>BodyId</entry>
         <entry>String</entry>
         <entry>Some(</entry>
@@ -431,6 +430,7 @@
         <entry>kind</entry>
         <entry encoding="base64">Y2x1c3RlcnMgPSA=</entry>
         <entry>normalzied</entry>
+        <entry>Export</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
