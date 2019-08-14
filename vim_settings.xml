@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565258973313">
-        <mark key="[" line="202" column="27" />
-        <mark key="]" line="203" column="26" />
-        <mark key="." line="203" column="26" />
-        <mark key="^" line="203" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565782262697">
+        <mark key="[" line="1737" column="30" />
+        <mark key="]" line="1737" column="29" />
+        <mark key="^" line="1737" column="29" />
+        <mark key="." line="1737" column="29" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -86,12 +86,12 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565690765026">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1565781892657">
         <mark key="'" line="83" column="6" />
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="0" />
-        <mark key="." line="83" column="0" />
-        <mark key="^" line="83" column="5" />
+        <mark key="[" line="79" column="4" />
+        <mark key="]" line="79" column="4" />
+        <mark key="." line="79" column="4" />
+        <mark key="^" line="79" column="4" />
       </file>
       <file name="/sbtShell" timestamp="1565769867977">
         <mark key="[" line="0" column="0" />
@@ -358,7 +358,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICYmIGlzRXhjbHVzaXZlKGVkZ2UudG8p</text>
+        <text encoding="base64">YW5kCiAgRUExLlJBQjExID0gdGhlIG9ubHkgRUJTW2F0dHIxID4gRUExLmF0dHIxXQogIGFuZAogIGlmIEVBMS5SQUIxMSBleGlzdHMKICB0aGVuCiAgRUExLlJBQjExLmF0dHIxID0gY3VycmVudCBFQTEuUkFCMTEuYXR0cjEgLSBFQTEuYXR0cjEKICBlbHNlCiAgRUExLlJBQjExID0gaW5wdXQgZnJvbSBNR1IgYmFzZWQgb24gRUExCiAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CiAgYXR0cjEgPSBpbnB1dCBmcm9tIFVTUgogIGFuZAogIEVBMS5SQUIxMSA9IHRoZSBvbmx5IEVCU1thdHRyMSA+IEVBMS5hdHRyMV0KICBhbmQKICBpZiBFQTEuUkFCMTEgZXhpc3RzCiAgdGhlbgogIEVBMS5SQUIxMS5hdHRyMSA9IGN1cnJlbnQgRUExLlJBQjExLmF0dHIxIC0gRUExLmF0dHIxCiAgZWxzZQogIEVBMS5SQUIxMSA9IGlucHV0IGZyb20gTUdSIGJhc2VkIG9uIEVBMQ==</text>
       </register>
       <register name="-" type="4">
         <text>val computedTable = scala.collection.mutable.Map[Set[(processGraph.NodeT, Edge.Label)], processGraph.NodeT]()</text>
@@ -367,18 +367,21 @@
         <text>normalzied</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICYmIGlzRXhjbHVzaXZlKGVkZ2UudG8p</text>
+        <text encoding="base64">YW5kCiAgRUExLlJBQjExID0gdGhlIG9ubHkgRUJTW2F0dHIxID4gRUExLmF0dHIxXQogIGFuZAogIGlmIEVBMS5SQUIxMSBleGlzdHMKICB0aGVuCiAgRUExLlJBQjExLmF0dHIxID0gY3VycmVudCBFQTEuUkFCMTEuYXR0cjEgLSBFQTEuYXR0cjEKICBlbHNlCiAgRUExLlJBQjExID0gaW5wdXQgZnJvbSBNR1IgYmFzZWQgb24gRUExCiAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CiAgYXR0cjEgPSBpbnB1dCBmcm9tIFVTUgogIGFuZAogIEVBMS5SQUIxMSA9IHRoZSBvbmx5IEVCU1thdHRyMSA+IEVBMS5hdHRyMV0KICBhbmQKICBpZiBFQTEuUkFCMTEgZXhpc3RzCiAgdGhlbgogIEVBMS5SQUIxMS5hdHRyMSA9IGN1cnJlbnQgRUExLlJBQjExLmF0dHIxIC0gRUExLmF0dHIxCiAgZWxzZQogIEVBMS5SQUIxMSA9IGlucHV0IGZyb20gTUdSIGJhc2VkIG9uIEVBMQ==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">LyoqIHJlZHVjZSByZXByZXNlbnRhdGlvbiB0byBpdHMgY2Fub25pY2FsIGZvcm06IHRoZSByZXByZXNlbnRhdGlvbiB3aXRoIHRoZSBsZWFzdCBhbW91bnQgb2YgcGFyYWxsZWwgbm9kZXMuCiAgICAgICAgICAqLwo=</text>
+        <text encoding="base64">cmVzdWx0cyBpbjoKCiAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CgogIGF0dHIxID0gaW5wdXQgZnJvbSBVU1IKCiAgYW5kCgogIEVBMS5SQUIxMSA9IHRoZSBvbmx5IEVCU1thdHRyMSA+IEVBMS5hdHRyMV0KCiAgYW5kCgogIGlmIEVBMS5SQUIxMSBleGlzdHMKCiAgdGhlbgoKICBFQTEuUkFCMTEuYXR0cjEgPSBjdXJyZW50IEVBMS5SQUIxMS5hdHRyMSAtIEVBMS5hdHRyMQoKICBlbHNlCgogIEVBMS5SQUIxMSA9IGlucHV0IGZyb20gTUdSIGJhc2VkIG9uIEVBMQ==</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">LyoqIHJlZHVjZSByZXByZXNlbnRhdGlvbiB0byBpdHMgY2Fub25pY2FsIGZvcm06IHRoZSByZXByZXNlbnRhdGlvbiB3aXRoIHRoZSBsZWFzdCBhbW91bnQgb2YgcGFyYWxsZWwgbm9kZXMuCiAgICAgICAgICAqLwo=</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">ZGVmIHJlZHVjZShub2RlczogTGlzdFtwcm9jZXNzR3JhcGguTm9kZVRdKTogQm9vbGVhbiA9IHsKICAgICAgICAgIHR5cGUgQ29tcHV0ZWRUYWJsZSA9IG11dGFibGUuTWFwW1NldFsocHJvY2Vzc0dyYXBoLk5vZGVULCBFZGdlLkxhYmVsKV0sIHByb2Nlc3NHcmFwaC5Ob2RlVF0KCiAgICAgICAgICBkZWYgbWFrZUNhbm9uaWNhbChub2RlOiBwcm9jZXNzR3JhcGguTm9kZVQsIGNvbXB1dGVkVGFibGU6IENvbXB1dGVkVGFibGUpOiBCb29sZWFuID0gewogICAgICAgICAgICB2YWwgY2Fub25pY2FsTm9kZSA9IGNvbXB1dGVkVGFibGUuZ2V0T3JFbHNlVXBkYXRlKG5vZGUuZGlMU3VjY2Vzc29ycy50b1NldCwgbm9kZSkKICAgICAgICAgICAgaWYgKGNhbm9uaWNhbE5vZGUubmUobm9kZSkpIHsKICAgICAgICAgICAgICBjYW5vbmljYWxOb2RlLm1lcmdlKG5vZGUpCiAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICB9IGVsc2UgZmFsc2UKICAgICAgICAgIH0KCiAgICAgICAgICB2YWwgY29tcHV0ZWRUYWJsZTogQ29tcHV0ZWRUYWJsZSA9IG11dGFibGUuTWFwLmVtcHR5W1NldFsocHJvY2Vzc0dyYXBoLk5vZGVULCBFZGdlLkxhYmVsKV0sIHByb2Nlc3NHcmFwaC5Ob2RlVF0KICAgICAgICAgIHZhbCByZWR1Y2VkID0gbm9kZXMubWFwKG5vZGUgPT4gbWFrZUNhbm9uaWNhbChub2RlLCBjb21wdXRlZFRhYmxlKSkKICAgICAgICAgIHJlZHVjZWQuY29udGFpbnModHJ1ZSkKICAgICAgICB9</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>def makeCanonical(node: processGraph.NodeT): Boolean = {
               val canonical = tableSucc.getOrElseUpdate(node.diLSuccessors.toSet, node)
               if (canonical.ne(node)) {
@@ -387,24 +390,21 @@
               } else false
             }</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgIHZhbCBicmFuY2hOb2RlcyA9IG5vZGVzLnRvU2V0Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgIC8vIGFzc3VtcHRpb246IGFsbCBib2R5IGxlYXZlcyBhcmUgb25seSBjb25uZWN0ZWQgdG8gdGhlIHJvb3RzIG9mIHRoZSBhZnRlciBib2R5Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>assert {
             val whileRoots =  whileAfterGraph.roots.map(_.toOuter) ++ whileBodyGraph.roots.map(_.toOuter)
             val evalSuccessors = evalNode.diSuccessors.map(_.toOuter)
             whileRoots.subsetOf(evalSuccessors)
           }</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgdGhpc0NsdXN0ZXIubm9kZXMubWFwKG5vZGUgPT4gbm9kZS50b091dGVyLmJvZHlTdGFjaykudG9TZXQK</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
