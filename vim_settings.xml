@@ -115,13 +115,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565777139943">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565780524482">
         <mark key="'" line="218" column="18" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="468" column="12" />
-        <mark key="]" line="468" column="13" />
-        <mark key="^" line="468" column="13" />
-        <mark key="." line="468" column="13" />
+        <mark key="[" line="227" column="37" />
+        <mark key="]" line="227" column="36" />
+        <mark key="^" line="227" column="36" />
+        <mark key="." line="227" column="36" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -159,11 +159,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565700200278">
-        <mark key="[" line="11" column="77" />
-        <mark key="]" line="11" column="102" />
-        <mark key="^" line="11" column="102" />
-        <mark key="." line="11" column="102" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565780036302">
+        <mark key="[" line="11" column="103" />
+        <mark key="]" line="11" column="73" />
+        <mark key="^" line="11" column="73" />
+        <mark key="." line="11" column="73" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
         <mark key="'" line="142" column="100" />
@@ -364,7 +364,7 @@
         <text>val computedTable = scala.collection.mutable.Map[Set[(processGraph.NodeT, Edge.Label)], processGraph.NodeT]()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">Y2x1c3RlcnMgPSA=</text>
+        <text>normalzied</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ICYmIGlzRXhjbHVzaXZlKGVkZ2UudG8p</text>
@@ -411,9 +411,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">Y2x1c3RlcnMgPSA=</last-search>
+      <last-search>normalzied</last-search>
       <last-offset />
-      <last-pattern encoding="base64">Y2x1c3RlcnMgPSA=</last-pattern>
+      <last-pattern>normalzied</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -421,7 +421,6 @@
     </search>
     <history>
       <history-search>
-        <entry>B05.01</entry>
         <entry>b05.01</entry>
         <entry>bodyG</entry>
         <entry>\n</entry>
@@ -441,6 +440,7 @@
         <entry>throw</entry>
         <entry>kind</entry>
         <entry encoding="base64">Y2x1c3RlcnMgPSA=</entry>
+        <entry>normalzied</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
