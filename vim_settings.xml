@@ -68,10 +68,10 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565695156433">
-        <mark key="[" line="193" column="0" />
-        <mark key="]" line="193" column="0" />
-        <mark key="." line="193" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565777266291">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
@@ -114,13 +114,13 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565774948284">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565777139943">
         <mark key="'" line="218" column="18" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="599" column="99" />
-        <mark key="]" line="599" column="97" />
-        <mark key="." line="599" column="97" />
-        <mark key="^" line="599" column="97" />
+        <mark key="[" line="468" column="12" />
+        <mark key="]" line="468" column="13" />
+        <mark key="^" line="468" column="13" />
+        <mark key="." line="468" column="13" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -357,7 +357,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">cHJvY2Vzc0dyYXBoLm5vZGVzLmNvbGxlY3QgeyBjYXNlIG5vZGUgaWYgbm9kZS50b091dGVyLmlzSW5zdGFuY2VPZltQYXJhbGxlbF0gPT4gbm9kZSB9</text>
+        <text encoding="base64">ICYmIGlzRXhjbHVzaXZlKGVkZ2UudG8p</text>
       </register>
       <register name="-" type="4">
         <text>val computedTable = scala.collection.mutable.Map[Set[(processGraph.NodeT, Edge.Label)], processGraph.NodeT]()</text>
@@ -366,7 +366,7 @@
         <text encoding="base64">Y2x1c3RlcnMgPSA=</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJvY2Vzc0dyYXBoLm5vZGVzLmNvbGxlY3QgeyBjYXNlIG5vZGUgaWYgbm9kZS50b091dGVyLmlzSW5zdGFuY2VPZltQYXJhbGxlbF0gPT4gbm9kZSB9</text>
+        <text encoding="base64">ICYmIGlzRXhjbHVzaXZlKGVkZ2UudG8p</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">LyoqIHJlZHVjZSByZXByZXNlbnRhdGlvbiB0byBpdHMgY2Fub25pY2FsIGZvcm06IHRoZSByZXByZXNlbnRhdGlvbiB3aXRoIHRoZSBsZWFzdCBhbW91bnQgb2YgcGFyYWxsZWwgbm9kZXMuCiAgICAgICAgICAqLwo=</text>
