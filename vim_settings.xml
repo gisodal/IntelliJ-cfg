@@ -247,10 +247,10 @@
         <mark key="^" line="162" column="71" />
         <mark key="." line="157" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1565951988731">
-        <mark key="[" line="15" column="70" />
-        <mark key="]" line="15" column="123" />
-        <mark key="." line="15" column="123" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1565954224381">
+        <mark key="[" line="35" column="39" />
+        <mark key="]" line="35" column="39" />
+        <mark key="." line="35" column="39" />
         <mark key="^" line="15" column="123" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1565089272844">
