@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565871100653">
-        <mark key="[" line="205" column="9" />
-        <mark key="]" line="205" column="8" />
-        <mark key="." line="205" column="8" />
-        <mark key="^" line="205" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565874909404">
+        <mark key="[" line="1735" column="6" />
+        <mark key="]" line="1735" column="8" />
+        <mark key="." line="1735" column="8" />
+        <mark key="^" line="1735" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -93,7 +93,7 @@
         <mark key="." line="114" column="0" />
         <mark key="^" line="123" column="14" />
       </file>
-      <file name="/sbtShell" timestamp="1565870056255">
+      <file name="/sbtShell" timestamp="1565941867434">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -184,11 +184,11 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1565874638712">
-        <mark key="[" line="24" column="13" />
-        <mark key="]" line="24" column="66" />
-        <mark key="." line="24" column="66" />
-        <mark key="^" line="24" column="66" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1565874928724">
+        <mark key="[" line="25" column="76" />
+        <mark key="]" line="25" column="90" />
+        <mark key="." line="25" column="90" />
+        <mark key="^" line="25" column="90" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
@@ -364,8 +364,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val traverser = design.Traverser(thisGraph)
-          traverser.topologicalSortDFS</text>
+        <text>,code,next.pos</text>
       </register>
       <register name="-" type="4">
         <text>throw DesignException</text>
@@ -374,8 +373,7 @@
         <text>Export</text>
       </register>
       <register name="0" type="4">
-        <text>val traverser = design.Traverser(thisGraph)
-          traverser.topologicalSortDFS</text>
+        <text>,code,next.pos</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgCg==</text>
