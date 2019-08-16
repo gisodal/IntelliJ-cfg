@@ -68,11 +68,10 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565945894619">
-        <mark key="[" line="179" column="34" />
-        <mark key="]" line="179" column="42" />
-        <mark key="^" line="179" column="42" />
-        <mark key="." line="179" column="42" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565950510473">
+        <mark key="[" line="136" column="0" />
+        <mark key="]" line="136" column="0" />
+        <mark key="." line="136" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
@@ -364,7 +363,13 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>input2.pathTo(input1).isEmpty</text>
+        <text>//val graph = node.containingGraph.asInstanceOf[Graph]
+            //val subgraph = graph.subgraph(node :: node.descendants.toList)
+            //val exporter = util.Export.Exporter(&quot;traverser&quot;)
+            //exporter.add(graph, &quot;graph2&quot;)
+            //exporter.add(subgraph, &quot;subgraph2&quot;)
+            //exporter.export()
+            //val testser = 1</text>
       </register>
       <register name="-" type="4">
         <text>// TODO alternative solution is chosen when primary algorithm fails.</text>
@@ -376,31 +381,37 @@
         <text>input2.pathTo(input1).isEmpty</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ZGVmIHNvcnRQcm9jZXNzTm9kZXMocHJvY2Vzc0dyYXBoOiBHcmFwaCk6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSA9IHsKICAgICAgICAgIHRyeSB7IC8vIFRPRE8gYWx0ZXJuYXRpdmUgc29sdXRpb24gaXMgY2hvc2VuIHdoZW4gcHJpbWFyeSBhbGdvcml0aG0gZmFpbHMuCiAgICAgICAgICAgIHNvcnRlZFByb2Nlc3NOb2Rlcyhwcm9jZXNzR3JhcGgpCiAgICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgY2FzZSBleDogRGVzaWduRXhjZXB0aW9uID0+CiAgICAgICAgICAgICAgbG9nZ2VyLndhcm4oIkEgYmVoYXZpb3Igbm9kZSBpcyBvcmRlcmVkIGJ5IGEgc2Vjb25kYXJ5IG9yZGVyaW5nIHN0cmF0ZWd5LiIpCiAgICAgICAgICAgICAgdmFsIHRyYXZlcnNlciA9IGRlc2lnbi5UcmF2ZXJzZXIocHJvY2Vzc0dyYXBoKQogICAgICAgICAgICAgIHRyYXZlcnNlci50b3BvbG9naWNhbFNvcnRERlMuXzEuCiAgICAgICAgICB9CiAgICAgICAgfQ==</text>
+        <text>//val graph = node.containingGraph.asInstanceOf[Graph]
+            //val subgraph = graph.subgraph(node :: node.descendants.toList)
+            //val exporter = util.Export.Exporter(&quot;traverser&quot;)
+            //exporter.add(graph, &quot;graph2&quot;)
+            //exporter.add(subgraph, &quot;subgraph2&quot;)
+            //exporter.export()
+            //val testser = 1</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">ZGVmIHNvcnRQcm9jZXNzTm9kZXMocHJvY2Vzc0dyYXBoOiBHcmFwaCk6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSA9IHsKICAgICAgICAgIHRyeSB7IC8vIFRPRE8gYWx0ZXJuYXRpdmUgc29sdXRpb24gaXMgY2hvc2VuIHdoZW4gcHJpbWFyeSBhbGdvcml0aG0gZmFpbHMuCiAgICAgICAgICAgIHNvcnRlZFByb2Nlc3NOb2Rlcyhwcm9jZXNzR3JhcGgpCiAgICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgY2FzZSBleDogRGVzaWduRXhjZXB0aW9uID0+CiAgICAgICAgICAgICAgbG9nZ2VyLndhcm4oIkEgYmVoYXZpb3Igbm9kZSBpcyBvcmRlcmVkIGJ5IGEgc2Vjb25kYXJ5IG9yZGVyaW5nIHN0cmF0ZWd5LiIpCiAgICAgICAgICAgICAgdmFsIHRyYXZlcnNlciA9IGRlc2lnbi5UcmF2ZXJzZXIocHJvY2Vzc0dyYXBoKQogICAgICAgICAgICAgIHRyYXZlcnNlci50b3BvbG9naWNhbFNvcnRERlMuXzEuCiAgICAgICAgICB9CiAgICAgICAgfQ==</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">dGVzdCgiQjA4LjAyIC0gREZTIHRyYXZlcnNhbCBvZiBwcm9jZXNzIGRlc2lnbiBoYXMgY29uZmxpY3Rpbmcgb3JkZXJpbmciKSB7CiAgICB2ZXJpZnlQcm9jZXNzRGVzaWduKAogICAgICAiIiIKICAgICAgICB8cmVzdWx0cyBpbjoKICAgICAgICB8ICAgIG9uZSBFQjEgaW4gRUJTIGlzIGNyZWF0ZWQgd2l0aDoKICAgICAgICB8ICAgICAgICBhdHRyMSA9IDExCiAgICAgICAgfCAgICAgICAgYXR0cjUgPSAxNQogICAgICAgIHwgICAgYW5kCiAgICAgICAgfCAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CiAgICAgICAgfCAgICAgICAgYXR0cjMgPSBFQjEuYXR0cjEKICAgICAgICB8ICAgICAgICBhdHRyMiA9IEVCMS5hdHRyNQogICAgICAiIiIuc3RyaXBNYXJnaW4sCiAgICAgICIiIiIiIi5zdHJpcE1hcmdpbgogICAgKQogIH0K</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGNhc2UgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">Ly8gcGVyZnJvbSBjbHVzdGVyaW5nCiAgICAgICAgICAgICAgZGVmIG1lcmdlQ2x1c3RlcnMoY2x1c3RlcnM6IFRyYXZlcnNhYmxlW1RyYXZlcnNhYmxlW3Byb2Nlc3NHcmFwaC5Ob2RlVF1dKTogVW5pdCA9IHsKICAgICAgICAgICAgICAgIGNsdXN0ZXJzLmZvcmVhY2ggeyBjbHVzdGVyID0+CiAgICAgICAgICAgICAgICAgIHByb2Nlc3NHcmFwaC50cnlNZXJnZShjbHVzdGVyKSBtYXRjaCB7CiAgICAgICAgICAgICAgICAgICAgY2FzZSBGYWlsdXJlKF8pID0+IC8vIHRocm93IERlc2lnbkV4Y2VwdGlvbigiY3ljbGUhIikgLy8gRklYTUU6IGFkZGVkIGNsdXN0ZXJpbmcgbWV0aG9kIGZvciBjeWNsZXMKICAgICAgICAgICAgICAgICAgICAgIHZhbCBpbmhpYml0b3JzID0gcHJvY2Vzc0dyYXBoLmdldENsdXN0ZXJJbmhpYml0b3JzKGNsdXN0ZXIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDbHVzdGVyIGluaGliaXRvcnMgd2VyZSBleHBlY3RlZCBidXQgbm90IGZvdW5kIikpCgogICAgICAgICAgICAgICAgICAgICAgdmFsIGluaGliaXRvckRlc2NlbmRhbnRzID0gaW5oaWJpdG9ycy5mbGF0TWFwKG5vZGUgPT4gbm9kZS5kZXNjZW5kYW50cykudG9TZXQgLS0gaW5oaWJpdG9ycwogICAgICAgICAgICAgICAgICAgICAgdmFsIChpbmhpYml0ZWQsbm9uaW5oaWJpdGVkKSA9IGNsdXN0ZXIucGFydGl0aW9uKGluaGliaXRvckRlc2NlbmRhbnRzLmNvbnRhaW5zKQogICAgICAgICAgICAgICAgICAgICAgdmFsIGNsdXN0ZXJzID0gTGlzdChpbmhpYml0ZWQsIG5vbmluaGliaXRlZCkKCiAgICAgICAgICAgICAgICAgICAgICBtZXJnZUNsdXN0ZXJzKGNsdXN0ZXJzKQoKICAgICAgICAgICAgICAgICAgICBjYXNlIFN1Y2Nlc3MoXykgPT4gcHJvY2Vzc0dyYXBoLm1lcmdlKGNsdXN0ZXIpCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBhc3NlcnQoY29weWUubGFzdCBlcSBub2Rlcy5oZWFkKQo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgaWYgKGdyYXBoQ29weS5maW5kQ3ljbGUubm9uRW1wdHkpCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">fHJlc3VsdHMgaW46CiAgICAgICAgIHwgICAgb25lIEVBMSBpbiBFQVMgaXMgY3JlYXRlZCB3aXRoOgogICAgICAgICB8ICAgICAgICBhdHRyMSA9IGlucHV0IGZyb20gVVNSCiAgICAgICAgIHwgICAgYW5kCiAgICAgICAgIHwgICAgRUExLlJBQjExID0gdGhlIG9ubHkgRUJTW2F0dHIxID4gRUExLmF0dHIxXQogICAgICAgICB8ICAgIGFuZAogICAgICAgICB8ICAgIGlmIEVBMS5SQUIxMSBleGlzdHMKICAgICAgICAgfCAgICB0aGVuCiAgICAgICAgIHwgICAgICAgIEVBMS5SQUIxMS5SQkMxMS5hdHRyMSA9IGN1cnJlbnQgRUExLlJBQjExLlJCQzExLmF0dHIxIC0gRUExLmF0dHIxCiAgICAgICAgIHwgICAgZWxzZQogICAgICAgICB8ICAgICAgICBFQTEuUkFCMTEgPSBpbnB1dCBmcm9tIE1HUiBiYXNlZCBvbiBFQTE=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">cmVzdWx0cyBpbjoKCiAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CgogIGF0dHIxID0gaW5wdXQgZnJvbSBVU1IKCiAgYW5kCgogIEVBMS5SQUIxMSA9IHRoZSBvbmx5IEVCU1thdHRyMSA+IEVBMS5hdHRyMV0KCiAgYW5kCgogIGlmIEVBMS5SQUIxMSBleGlzdHMKCiAgdGhlbgoKICBFQTEuUkFCMTEuYXR0cjEgPSBjdXJyZW50IEVBMS5SQUIxMS5hdHRyMSAtIEVBMS5hdHRyMQoKICBlbHNlCgogIEVBMS5SQUIxMSA9IGlucHV0IGZyb20gTUdSIGJhc2VkIG9uIEVBMQ==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">LyoqIHJlZHVjZSByZXByZXNlbnRhdGlvbiB0byBpdHMgY2Fub25pY2FsIGZvcm06IHRoZSByZXByZXNlbnRhdGlvbiB3aXRoIHRoZSBsZWFzdCBhbW91bnQgb2YgcGFyYWxsZWwgbm9kZXMuCiAgICAgICAgICAqLwo=</text>
+        <text encoding="base64">cmVzdWx0cyBpbjoKCiAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CgogIGF0dHIxID0gaW5wdXQgZnJvbSBVU1IKCiAgYW5kCgogIEVBMS5SQUIxMSA9IHRoZSBvbmx5IEVCU1thdHRyMSA+IEVBMS5hdHRyMV0KCiAgYW5kCgogIGlmIEVBMS5SQUIxMSBleGlzdHMKCiAgdGhlbgoKICBFQTEuUkFCMTEuYXR0cjEgPSBjdXJyZW50IEVBMS5SQUIxMS5hdHRyMSAtIEVBMS5hdHRyMQoKICBlbHNlCgogIEVBMS5SQUIxMSA9IGlucHV0IGZyb20gTUdSIGJhc2VkIG9uIEVBMQ==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
