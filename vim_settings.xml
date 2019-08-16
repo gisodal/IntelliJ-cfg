@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565943281069">
-        <mark key="[" line="1718" column="58" />
-        <mark key="]" line="1718" column="58" />
-        <mark key="." line="1718" column="58" />
-        <mark key="^" line="1718" column="58" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565945332713">
+        <mark key="[" line="1871" column="0" />
+        <mark key="]" line="1871" column="0" />
+        <mark key="." line="1871" column="0" />
+        <mark key="^" line="1872" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -68,7 +68,7 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565943033461">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1565945625854">
         <mark key="[" line="30" column="102" />
         <mark key="]" line="30" column="102" />
         <mark key="^" line="30" column="102" />
@@ -115,7 +115,7 @@
         <mark key="." line="131" column="103" />
         <mark key="^" line="131" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565943026140">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565945296359">
         <mark key="'" line="27" column="37" />
         <mark key="i" line="118" column="75" />
         <mark key="[" line="25" column="2" />
@@ -364,10 +364,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dGVzdCgiQjA4LjAyIC0gREZTIHRyYXZlcnNhbCBvZiBwcm9jZXNzIGRlc2lnbiBoYXMgY29uZmxpY3Rpbmcgb3JkZXJpbmciKSB7CiAgICB2ZXJpZnlQcm9jZXNzRGVzaWduKAogICAgICAiIiIKICAgICAgICB8cmVzdWx0cyBpbjoKICAgICAgICB8ICAgIG9uZSBFQjEgaW4gRUJTIGlzIGNyZWF0ZWQgd2l0aDoKICAgICAgICB8ICAgICAgICBhdHRyMSA9IDExCiAgICAgICAgfCAgICAgICAgYXR0cjUgPSAxNQogICAgICAgIHwgICAgYW5kCiAgICAgICAgfCAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CiAgICAgICAgfCAgICAgICAgYXR0cjMgPSBFQjEuYXR0cjEKICAgICAgICB8ICAgICAgICBhdHRyMiA9IEVCMS5hdHRyNQogICAgICAiIiIuc3RyaXBNYXJnaW4sCiAgICAgICIiIiIiIi5zdHJpcE1hcmdpbgogICAgKQogIH0K</text>
+        <text>val testGraph = toTestGraph(verificationStr)</text>
       </register>
       <register name="-" type="4">
-        <text>throw DesignException</text>
+        <text>val testGraph = toTestGraph(verificationStr)</text>
       </register>
       <register name="/" type="4">
         <text>Export</text>
