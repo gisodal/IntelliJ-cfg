@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566204281130">
-        <mark key="[" line="1715" column="2" />
-        <mark key="]" line="1715" column="7" />
-        <mark key="^" line="1715" column="7" />
-        <mark key="." line="1715" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566207813139">
+        <mark key="[" line="1696" column="7" />
+        <mark key="]" line="1696" column="5" />
+        <mark key="^" line="1696" column="5" />
+        <mark key="." line="1696" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -92,7 +92,7 @@
         <mark key="." line="496" column="25" />
         <mark key="^" line="496" column="25" />
       </file>
-      <file name="/sbtShell" timestamp="1566202862353">
+      <file name="/sbtShell" timestamp="1566205601743">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -109,13 +109,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1565953269163">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566206803547">
         <mark key="'" line="27" column="37" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="259" column="54" />
-        <mark key="]" line="267" column="39" />
-        <mark key="." line="267" column="39" />
-        <mark key="^" line="267" column="39" />
+        <mark key="[" line="229" column="8" />
+        <mark key="]" line="229" column="9" />
+        <mark key="." line="229" column="9" />
+        <mark key="^" line="229" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -364,7 +364,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>def isBlank(str: String): Boolean = str.replaceAll(&quot;\\s&quot;, &quot;&quot;).isEmpty</text>
+        <text encoding="base64">ICAgICAgIiIiLnN0cmlwTWFyZ2luLAogICAgICAiIiIiIiIuc3RyaXBNYXJnaW4KICAgICkKICB9</text>
       </register>
       <register name="-" type="4">
         <text>def isBlank(str: String): Boolean = str.replaceAll(&quot;\\s&quot;, &quot;&quot;).isEmpty</text>
@@ -373,7 +373,7 @@
         <text>v</text>
       </register>
       <register name="0" type="4">
-        <text>def isBlank(str: String): Boolean = str.replaceAll(&quot;\\s&quot;, &quot;&quot;).isEmpty</text>
+        <text encoding="base64">ICAgICAgIiIiLnN0cmlwTWFyZ2luLAogICAgICAiIiIiIiIuc3RyaXBNYXJnaW4KICAgICkKICB9</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSkgCiAgICAgICAgICAgIGxvZ2dlci53YXJuKCIiKQo=</text>
@@ -395,6 +395,16 @@
       </register>
       <register name="5" type="4">
         <text encoding="base64">ZGVmIHNvcnRQcm9jZXNzTm9kZXMocHJvY2Vzc0dyYXBoOiBHcmFwaCk6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSA9IHsKICAgICAgICAgIHRyeSB7IC8vIFRPRE8gYWx0ZXJuYXRpdmUgc29sdXRpb24gaXMgY2hvc2VuIHdoZW4gcHJpbWFyeSBhbGdvcml0aG0gZmFpbHMuCiAgICAgICAgICAgIHNvcnRlZFByb2Nlc3NOb2Rlcyhwcm9jZXNzR3JhcGgpCiAgICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgY2FzZSBleDogRGVzaWduRXhjZXB0aW9uID0+CiAgICAgICAgICAgICAgbG9nZ2VyLndhcm4oIkEgYmVoYXZpb3Igbm9kZSBpcyBvcmRlcmVkIGJ5IGEgc2Vjb25kYXJ5IG9yZGVyaW5nIHN0cmF0ZWd5LiIpCiAgICAgICAgICAgICAgdmFsIHRyYXZlcnNlciA9IGRlc2lnbi5UcmF2ZXJzZXIocHJvY2Vzc0dyYXBoKQogICAgICAgICAgICAgIHRyYXZlcnNlci50b3BvbG9naWNhbFNvcnRERlMuXzEuCiAgICAgICAgICB9CiAgICAgICAgfQ==</text>
+      </register>
+      <register name="u" type="4">
+        <keys>
+          <key char="105" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="65535" code="67" mods="130" />
+          <key char="65535" code="81" mods="130" />
+          <key char="65535" code="81" mods="130" />
+          <key char="65535" code="81" mods="130" />
+        </keys>
       </register>
       <register name="6" type="4">
         <text encoding="base64">dGVzdCgiQjA4LjAyIC0gREZTIHRyYXZlcnNhbCBvZiBwcm9jZXNzIGRlc2lnbiBoYXMgY29uZmxpY3Rpbmcgb3JkZXJpbmciKSB7CiAgICB2ZXJpZnlQcm9jZXNzRGVzaWduKAogICAgICAiIiIKICAgICAgICB8cmVzdWx0cyBpbjoKICAgICAgICB8ICAgIG9uZSBFQjEgaW4gRUJTIGlzIGNyZWF0ZWQgd2l0aDoKICAgICAgICB8ICAgICAgICBhdHRyMSA9IDExCiAgICAgICAgfCAgICAgICAgYXR0cjUgPSAxNQogICAgICAgIHwgICAgYW5kCiAgICAgICAgfCAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CiAgICAgICAgfCAgICAgICAgYXR0cjMgPSBFQjEuYXR0cjEKICAgICAgICB8ICAgICAgICBhdHRyMiA9IEVCMS5hdHRyNQogICAgICAiIiIuc3RyaXBNYXJnaW4sCiAgICAgICIiIiIiIi5zdHJpcE1hcmdpbgogICAgKQogIH0K</text>
