@@ -92,7 +92,7 @@
         <mark key="." line="496" column="25" />
         <mark key="^" line="496" column="25" />
       </file>
-      <file name="/sbtShell" timestamp="1565941867434">
+      <file name="/sbtShell" timestamp="1566202862353">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -104,7 +104,6 @@
         <mark key="^" line="9" column="50" />
         <mark key="." line="9" column="50" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1565952389552" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/Bpmn.scala" timestamp="1565952112296">
         <mark key="[" line="132" column="0" />
         <mark key="]" line="132" column="0" />
