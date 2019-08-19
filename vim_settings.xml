@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1565952562639">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566204281130">
         <mark key="[" line="1715" column="2" />
-        <mark key="]" line="1715" column="11" />
-        <mark key="^" line="1715" column="11" />
-        <mark key="." line="1715" column="11" />
+        <mark key="]" line="1715" column="7" />
+        <mark key="^" line="1715" column="7" />
+        <mark key="." line="1715" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -178,11 +178,11 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1565941963785">
-        <mark key="[" line="24" column="45" />
-        <mark key="]" line="24" column="11" />
-        <mark key="." line="24" column="11" />
-        <mark key="^" line="24" column="11" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1566204338995">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="^" line="25" column="3" />
+        <mark key="." line="23" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
@@ -364,16 +364,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5HZW5lcmF0ZUV4Y2VwdGlvbihtZXNzYWdlLCBjYXVzZSkg</text>
+        <text>def isBlank(str: String): Boolean = str.replaceAll(&quot;\\s&quot;, &quot;&quot;).isEmpty</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5HZW5lcmF0ZUV4Y2VwdGlvbihtZXNzYWdlLCBjYXVzZSkg</text>
+        <text>def isBlank(str: String): Boolean = str.replaceAll(&quot;\\s&quot;, &quot;&quot;).isEmpty</text>
       </register>
       <register name="/" type="4">
         <text>v</text>
       </register>
       <register name="0" type="4">
-        <text>com.xlrit.gears.generator.GenerateException(message, cause)</text>
+        <text>def isBlank(str: String): Boolean = str.replaceAll(&quot;\\s&quot;, &quot;&quot;).isEmpty</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSkgCiAgICAgICAgICAgIGxvZ2dlci53YXJuKCIiKQo=</text>
