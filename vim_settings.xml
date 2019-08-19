@@ -8,11 +8,11 @@
         <mark key="]" line="333" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566209331181">
-        <mark key="[" line="1809" column="31" />
-        <mark key="]" line="1809" column="60" />
-        <mark key="^" line="1730" column="37" />
-        <mark key="." line="1809" column="31" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566215201294">
+        <mark key="[" line="1841" column="31" />
+        <mark key="]" line="1841" column="31" />
+        <mark key="^" line="1856" column="9" />
+        <mark key="." line="1841" column="31" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -253,7 +253,7 @@
         <mark key="^" line="162" column="71" />
         <mark key="." line="157" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1565954224381">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1566215407548">
         <mark key="[" line="35" column="39" />
         <mark key="]" line="35" column="39" />
         <mark key="." line="35" column="39" />
