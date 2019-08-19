@@ -92,9 +92,9 @@
         <mark key="." line="496" column="25" />
         <mark key="^" line="496" column="25" />
       </file>
-      <file name="/sbtShell" timestamp="1566225345039">
+      <file name="/sbtShell" timestamp="1566227389880">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
+        <mark key="]" line="0" column="95" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
@@ -115,13 +115,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566210187227">
-        <mark key="'" line="27" column="37" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566227457756">
+        <mark key="'" line="267" column="7" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="282" column="0" />
-        <mark key="]" line="282" column="0" />
-        <mark key="^" line="286" column="3" />
-        <mark key="." line="282" column="0" />
+        <mark key="[" line="240" column="7" />
+        <mark key="]" line="240" column="7" />
+        <mark key="^" line="240" column="7" />
+        <mark key="." line="240" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -267,8 +267,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
-      <jump line="312" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="40" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="289" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="2" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
@@ -367,35 +365,38 @@
       <jump line="48" column="41" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="52" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="53" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
+      <jump line="215" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>processGraph.transitiveReduction()</text>
+        <text>mergeable.headOption.foreach { _.safeMerge(mergeable.tail) }</text>
       </register>
       <register name="-" type="4">
-        <text>processGraph.transitiveReduction()</text>
+        <text>assert(inputGraph.findCycle.isEmpty, &quot;There is a cycle in the induced transitive input graph.&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text>v</text>
+        <text>cycle</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IChUT0RPIGFkZCB2ZXJpZmljYXRpb24gdGVzdCk=</text>
+        <text>mergeable.headOption.foreach { _.safeMerge(mergeable.tail) }</text>
       </register>
       <register name="1" type="4">
-        <text>clusterByBody()
-    assert(processGraph.findCycle.isEmpty, &quot;Clustering behaviors and inputs has lead to a cycle&quot;)</text>
+        <text>// FIXME flatMap(_._2).values kan in 1x en duidelijker met tuple destructure
+      // FIXME: wat is destructure?</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">Y2x1c3RlckJ5SW5wdXQoKQogICAgYXNzZXJ0KHByb2Nlc3NHcmFwaC5maW5kQ3ljbGUuaXNFbXB0eSwgIkNsdXN0ZXJpbmcgaW5wdXRzIGhhcyBsZWFkIHRvIGEgY3ljbGUiKQo=</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZUlucHV0R3JhcGggPSB7CiAgICAgICAgICBkZWYgdHJhbnNpdGl2ZUlucHV0UmVsYXRpb25zID0gewogICAgICAgICAgICAvLyBpZGVudGlmeSB0cmFuc2l0aXZlIGVkZ2VzIGJldHdlZW4gaW5wdXRzCiAgICAgICAgICAgIGlucHV0cy50b0xpc3QuY29tYmluYXRpb25zKDIpLm1hcCB7IGNhc2UgU2VxKGlucHV0MSwgaW5wdXQyKSA9PgogICAgICAgICAgICAgIHZhbCBpc05laWdoYm9yID0gaW5wdXQxLm5laWdoYm9ycy5jb250YWlucyhpbnB1dDIpCiAgICAgICAgICAgICAgaWYgKCFpc05laWdoYm9yKSB7CiAgICAgICAgICAgICAgICB2YWwgZWRnZUlucHV0MVRvMiA9IGlucHV0MS5wYXRoVG8oaW5wdXQyKS5ub25FbXB0eQogICAgICAgICAgICAgICAgdmFsIGVkZ2VJbnB1dDJUbzEgPSBpbnB1dDIucGF0aFRvKGlucHV0MSkubm9uRW1wdHkKICAgICAgICAgICAgICAgIGFzc2VydCgoZWRnZUlucHV0MVRvMiAhPSBlZGdlSW5wdXQyVG8xKSB8fCAoIWVkZ2VJbnB1dDFUbzIgJiYgIWVkZ2VJbnB1dDJUbzEpKQogICAgICAgICAgICAgICAgaWYgKGVkZ2VJbnB1dDFUbzIpCiAgICAgICAgICAgICAgICAgIExpc3QoaW5wdXQxLCBpbnB1dDIpCiAgICAgICAgICAgICAgICBlbHNlIGlmIChlZGdlSW5wdXQyVG8xKQogICAgICAgICAgICAgICAgICBMaXN0KGlucHV0MiwgaW5wdXQxKQogICAgICAgICAgICAgICAgZWxzZSBOaWwKICAgICAgICAgICAgICB9IGVsc2UgTmlsCiAgICAgICAgICAgIH0uY29sbGVjdCB7IGNhc2UgYSA6OiBiIDo6IF8gPT4gKGEsIGIpIH0KICAgICAgICAgIH0KCiAgICAgICAgICAvLyBjcmVhdGUgaW5wdXQgZ3JhcGggYmFzZWQgb24gdHJhbnNpdGl2ZSByZWxhdGlvbnMgYmV0d2VlbiBpbnB1dHMKICAgICAgICAgIHZhbCBlZGdlcyA9IHRyYW5zaXRpdmVJbnB1dFJlbGF0aW9ucy5tYXAoY29ubmVjdGlvbiA9PgogICAgICAgICAgICBkZXNpZ24uR3JhcGguRWRnZShjb25uZWN0aW9uLl8xLnRvT3V0ZXIsIGNvbm5lY3Rpb24uXzIudG9PdXRlciwgTm9uZSkpLnRvTGlzdAogICAgICAgICAgdmFsIG5vZGVzID0gaW5wdXRzLm1hcChfLnRvT3V0ZXIpCiAgICAgICAgICB2YWwgaW5wdXRHcmFwaCA9IGRlc2lnbi5HcmFwaChub2RlcywgZWRnZXMpCiAgICAgICAgICBpbnB1dEdyYXBoCiAgICAgICAgfQo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly8gdmVyaWZ5IHByb2Nlc3MgZGVzaWduCiAgICB2YWwgdGVzdCA9IHByb2Nlc3NEZXNpZ24uZ3JhcGgudG9UZXN0CiAgICB0ZXN0R3JhcGgudmVyaWZ5KHRlc3QpIG1hdGNoIHsKICAgICAgY2FzZSBzY2FsYS51dGlsLkZhaWx1cmUoZSkgPT4gZmFpbChlLmdldE1lc3NhZ2UsIGUpKHBvcykKICAgICAgY2FzZSBfID0+CiAgICB9</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSkgCiAgICAgICAgICAgIGxvZ2dlci53YXJuKCIiKQo=</text>
+        <text encoding="base64">aW5wdXRDb25uZWN0aW9ucy5tYXAoY29ubmVjdGlvbiA9PiAKICAgICAgICAgIGRlc2lnbi5HcmFwaC5FZGdlKGNvbm5lY3Rpb24uXzEudG9PdXRlciwgY29ubmVjdGlvbi5fMi50b091dGVyKS50b0xpc3QpICAgICAgICAg</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSAmJiApIAogICAgICAgICAgICBsb2dnZXIud2FybigiVGhlcmUgZXhpc3RzICIpCg==</text>
+        <text>clusterByBody()
+    assert(processGraph.findCycle.isEmpty, &quot;Clustering behaviors and inputs has lead to a cycle&quot;)</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -407,32 +408,26 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyAgdmFsIGlzTmVpZ2hib3IgPSBpbnB1dDEubmVpZ2hib3JzLmNvbnRhaW5zKGlucHV0MikK</text>
+      <register name="6" type="4">
+        <text encoding="base64">Y2x1c3RlckJ5SW5wdXQoKQogICAgYXNzZXJ0KHByb2Nlc3NHcmFwaC5maW5kQ3ljbGUuaXNFbXB0eSwgIkNsdXN0ZXJpbmcgaW5wdXRzIGhhcyBsZWFkIHRvIGEgY3ljbGUiKQo=</text>
       </register>
       <register name="7" type="4">
-        <text>//val graph = node.containingGraph.asInstanceOf[Graph]
-            //val subgraph = graph.subgraph(node :: node.descendants.toList)
-            //val exporter = util.Export.Exporter(&quot;traverser&quot;)
-            //exporter.add(graph, &quot;graph2&quot;)
-            //exporter.add(subgraph, &quot;subgraph2&quot;)
-            //exporter.export()
-            //val testser = 1</text>
+        <text encoding="base64">Ly8gdmVyaWZ5IHByb2Nlc3MgZGVzaWduCiAgICB2YWwgdGVzdCA9IHByb2Nlc3NEZXNpZ24uZ3JhcGgudG9UZXN0CiAgICB0ZXN0R3JhcGgudmVyaWZ5KHRlc3QpIG1hdGNoIHsKICAgICAgY2FzZSBzY2FsYS51dGlsLkZhaWx1cmUoZSkgPT4gZmFpbChlLmdldE1lc3NhZ2UsIGUpKHBvcykKICAgICAgY2FzZSBfID0+CiAgICB9</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ZGVmIHNvcnRQcm9jZXNzTm9kZXMocHJvY2Vzc0dyYXBoOiBHcmFwaCk6IExpc3RbcHJvY2Vzc0dyYXBoLk5vZGVUXSA9IHsKICAgICAgICAgIHRyeSB7IC8vIFRPRE8gYWx0ZXJuYXRpdmUgc29sdXRpb24gaXMgY2hvc2VuIHdoZW4gcHJpbWFyeSBhbGdvcml0aG0gZmFpbHMuCiAgICAgICAgICAgIHNvcnRlZFByb2Nlc3NOb2Rlcyhwcm9jZXNzR3JhcGgpCiAgICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgY2FzZSBleDogRGVzaWduRXhjZXB0aW9uID0+CiAgICAgICAgICAgICAgbG9nZ2VyLndhcm4oIkEgYmVoYXZpb3Igbm9kZSBpcyBvcmRlcmVkIGJ5IGEgc2Vjb25kYXJ5IG9yZGVyaW5nIHN0cmF0ZWd5LiIpCiAgICAgICAgICAgICAgdmFsIHRyYXZlcnNlciA9IGRlc2lnbi5UcmF2ZXJzZXIocHJvY2Vzc0dyYXBoKQogICAgICAgICAgICAgIHRyYXZlcnNlci50b3BvbG9naWNhbFNvcnRERlMuXzEuCiAgICAgICAgICB9CiAgICAgICAgfQ==</text>
+        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSkgCiAgICAgICAgICAgIGxvZ2dlci53YXJuKCIiKQo=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">dGVzdCgiQjA4LjAyIC0gREZTIHRyYXZlcnNhbCBvZiBwcm9jZXNzIGRlc2lnbiBoYXMgY29uZmxpY3Rpbmcgb3JkZXJpbmciKSB7CiAgICB2ZXJpZnlQcm9jZXNzRGVzaWduKAogICAgICAiIiIKICAgICAgICB8cmVzdWx0cyBpbjoKICAgICAgICB8ICAgIG9uZSBFQjEgaW4gRUJTIGlzIGNyZWF0ZWQgd2l0aDoKICAgICAgICB8ICAgICAgICBhdHRyMSA9IDExCiAgICAgICAgfCAgICAgICAgYXR0cjUgPSAxNQogICAgICAgIHwgICAgYW5kCiAgICAgICAgfCAgICBvbmUgRUExIGluIEVBUyBpcyBjcmVhdGVkIHdpdGg6CiAgICAgICAgfCAgICAgICAgYXR0cjMgPSBFQjEuYXR0cjEKICAgICAgICB8ICAgICAgICBhdHRyMiA9IEVCMS5hdHRyNQogICAgICAiIiIuc3RyaXBNYXJnaW4sCiAgICAgICIiIiIiIi5zdHJpcE1hcmdpbgogICAgKQogIH0K</text>
+        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSAmJiApIAogICAgICAgICAgICBsb2dnZXIud2FybigiVGhlcmUgZXhpc3RzICIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>v</last-search>
+      <last-search>cycle</last-search>
       <last-offset />
-      <last-pattern>v</last-pattern>
+      <last-pattern>cycle</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -450,7 +445,6 @@
         <entry>mapping</entry>
         <entry>imapping</entry>
         <entry>graphverifier</entry>
-        <entry>cycle</entry>
         <entry>clustering</entry>
         <entry>FIX</entry>
         <entry>throw</entry>
@@ -460,6 +454,7 @@
         <entry>Export</entry>
         <entry encoding="base64">diA=</entry>
         <entry>v</entry>
+        <entry>cycle</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
