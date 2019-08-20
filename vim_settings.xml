@@ -115,13 +115,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566287904160">
-        <mark key="'" line="242" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566289404668">
+        <mark key="'" line="261" column="7" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="220" column="0" />
-        <mark key="]" line="220" column="0" />
-        <mark key="^" line="200" column="60" />
-        <mark key="." line="220" column="0" />
+        <mark key="[" line="209" column="0" />
+        <mark key="]" line="209" column="0" />
+        <mark key="." line="209" column="0" />
+        <mark key="^" line="207" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -369,17 +369,17 @@
       <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAvL2lmIChub3RNZXJnZWFibGUuZmxhdHRlbi5ub25FbXB0eSAmJiBtZXJnZWFibGUubm9uRW1wdHkpCg==</text>
+      <register name="&quot;" type="4">
+        <text>mergeable.headOption.foreach { _.safeMerge(mergeable.tail) }</text>
       </register>
       <register name="-" type="4">
-        <text>.toList</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>cycle</text>
       </register>
       <register name="0" type="4">
-        <text>design.Graph.Edge(input1.toOuter, input2.toOuter, None)</text>
+        <text>mergeable.headOption.foreach { _.safeMerge(mergeable.tail) }</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAvL2lmIChub3RNZXJnZWFibGUuZmxhdHRlbi5ub25FbXB0eSAmJiBtZXJnZWFibGUubm9uRW1wdHkpCg==</text>
