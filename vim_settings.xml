@@ -92,7 +92,7 @@
         <mark key="." line="496" column="25" />
         <mark key="^" line="496" column="25" />
       </file>
-      <file name="/sbtShell" timestamp="1566227389880">
+      <file name="/sbtShell" timestamp="1566286443413">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="95" />
         <mark key="^" line="0" column="0" />
@@ -115,13 +115,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566227457756">
-        <mark key="'" line="267" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566287904160">
+        <mark key="'" line="242" column="7" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="240" column="7" />
-        <mark key="]" line="240" column="7" />
-        <mark key="^" line="240" column="7" />
-        <mark key="." line="240" column="7" />
+        <mark key="[" line="220" column="0" />
+        <mark key="]" line="220" column="0" />
+        <mark key="^" line="200" column="60" />
+        <mark key="." line="220" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -159,11 +159,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1565799945957">
-        <mark key="[" line="11" column="102" />
-        <mark key="]" line="11" column="75" />
-        <mark key="^" line="11" column="75" />
-        <mark key="." line="11" column="75" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566286751745">
+        <mark key="[" line="11" column="62" />
+        <mark key="]" line="11" column="73" />
+        <mark key="^" line="11" column="73" />
+        <mark key="." line="11" column="73" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
         <mark key="'" line="142" column="100" />
@@ -369,34 +369,33 @@
       <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>mergeable.headOption.foreach { _.safeMerge(mergeable.tail) }</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAvL2lmIChub3RNZXJnZWFibGUuZmxhdHRlbi5ub25FbXB0eSAmJiBtZXJnZWFibGUubm9uRW1wdHkpCg==</text>
       </register>
       <register name="-" type="4">
-        <text>assert(inputGraph.findCycle.isEmpty, &quot;There is a cycle in the induced transitive input graph.&quot;)</text>
+        <text>.toList</text>
       </register>
       <register name="/" type="4">
         <text>cycle</text>
       </register>
       <register name="0" type="4">
-        <text>mergeable.headOption.foreach { _.safeMerge(mergeable.tail) }</text>
+        <text>design.Graph.Edge(input1.toOuter, input2.toOuter, None)</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAvL2lmIChub3RNZXJnZWFibGUuZmxhdHRlbi5ub25FbXB0eSAmJiBtZXJnZWFibGUubm9uRW1wdHkpCg==</text>
+      </register>
+      <register name="2" type="4">
         <text>// FIXME flatMap(_._2).values kan in 1x en duidelijker met tuple destructure
       // FIXME: wat is destructure?</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">ZGVmIGNyZWF0ZUlucHV0R3JhcGggPSB7CiAgICAgICAgICBkZWYgdHJhbnNpdGl2ZUlucHV0UmVsYXRpb25zID0gewogICAgICAgICAgICAvLyBpZGVudGlmeSB0cmFuc2l0aXZlIGVkZ2VzIGJldHdlZW4gaW5wdXRzCiAgICAgICAgICAgIGlucHV0cy50b0xpc3QuY29tYmluYXRpb25zKDIpLm1hcCB7IGNhc2UgU2VxKGlucHV0MSwgaW5wdXQyKSA9PgogICAgICAgICAgICAgIHZhbCBpc05laWdoYm9yID0gaW5wdXQxLm5laWdoYm9ycy5jb250YWlucyhpbnB1dDIpCiAgICAgICAgICAgICAgaWYgKCFpc05laWdoYm9yKSB7CiAgICAgICAgICAgICAgICB2YWwgZWRnZUlucHV0MVRvMiA9IGlucHV0MS5wYXRoVG8oaW5wdXQyKS5ub25FbXB0eQogICAgICAgICAgICAgICAgdmFsIGVkZ2VJbnB1dDJUbzEgPSBpbnB1dDIucGF0aFRvKGlucHV0MSkubm9uRW1wdHkKICAgICAgICAgICAgICAgIGFzc2VydCgoZWRnZUlucHV0MVRvMiAhPSBlZGdlSW5wdXQyVG8xKSB8fCAoIWVkZ2VJbnB1dDFUbzIgJiYgIWVkZ2VJbnB1dDJUbzEpKQogICAgICAgICAgICAgICAgaWYgKGVkZ2VJbnB1dDFUbzIpCiAgICAgICAgICAgICAgICAgIExpc3QoaW5wdXQxLCBpbnB1dDIpCiAgICAgICAgICAgICAgICBlbHNlIGlmIChlZGdlSW5wdXQyVG8xKQogICAgICAgICAgICAgICAgICBMaXN0KGlucHV0MiwgaW5wdXQxKQogICAgICAgICAgICAgICAgZWxzZSBOaWwKICAgICAgICAgICAgICB9IGVsc2UgTmlsCiAgICAgICAgICAgIH0uY29sbGVjdCB7IGNhc2UgYSA6OiBiIDo6IF8gPT4gKGEsIGIpIH0KICAgICAgICAgIH0KCiAgICAgICAgICAvLyBjcmVhdGUgaW5wdXQgZ3JhcGggYmFzZWQgb24gdHJhbnNpdGl2ZSByZWxhdGlvbnMgYmV0d2VlbiBpbnB1dHMKICAgICAgICAgIHZhbCBlZGdlcyA9IHRyYW5zaXRpdmVJbnB1dFJlbGF0aW9ucy5tYXAoY29ubmVjdGlvbiA9PgogICAgICAgICAgICBkZXNpZ24uR3JhcGguRWRnZShjb25uZWN0aW9uLl8xLnRvT3V0ZXIsIGNvbm5lY3Rpb24uXzIudG9PdXRlciwgTm9uZSkpLnRvTGlzdAogICAgICAgICAgdmFsIG5vZGVzID0gaW5wdXRzLm1hcChfLnRvT3V0ZXIpCiAgICAgICAgICB2YWwgaW5wdXRHcmFwaCA9IGRlc2lnbi5HcmFwaChub2RlcywgZWRnZXMpCiAgICAgICAgICBpbnB1dEdyYXBoCiAgICAgICAgfQo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cgo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">aW5wdXRDb25uZWN0aW9ucy5tYXAoY29ubmVjdGlvbiA9PiAKICAgICAgICAgIGRlc2lnbi5HcmFwaC5FZGdlKGNvbm5lY3Rpb24uXzEudG9PdXRlciwgY29ubmVjdGlvbi5fMi50b091dGVyKS50b0xpc3QpICAgICAgICAg</text>
-      </register>
       <register name="5" type="4">
-        <text>clusterByBody()
-    assert(processGraph.findCycle.isEmpty, &quot;Clustering behaviors and inputs has lead to a cycle&quot;)</text>
+        <text encoding="base64">aW5wdXRDb25uZWN0aW9ucy5tYXAoY29ubmVjdGlvbiA9PiAKICAgICAgICAgIGRlc2lnbi5HcmFwaC5FZGdlKGNvbm5lY3Rpb24uXzEudG9PdXRlciwgY29ubmVjdGlvbi5fMi50b091dGVyKS50b0xpc3QpICAgICAgICAg</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -409,16 +408,17 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">Y2x1c3RlckJ5SW5wdXQoKQogICAgYXNzZXJ0KHByb2Nlc3NHcmFwaC5maW5kQ3ljbGUuaXNFbXB0eSwgIkNsdXN0ZXJpbmcgaW5wdXRzIGhhcyBsZWFkIHRvIGEgY3ljbGUiKQo=</text>
+        <text>clusterByBody()
+    assert(processGraph.findCycle.isEmpty, &quot;Clustering behaviors and inputs has lead to a cycle&quot;)</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">Ly8gdmVyaWZ5IHByb2Nlc3MgZGVzaWduCiAgICB2YWwgdGVzdCA9IHByb2Nlc3NEZXNpZ24uZ3JhcGgudG9UZXN0CiAgICB0ZXN0R3JhcGgudmVyaWZ5KHRlc3QpIG1hdGNoIHsKICAgICAgY2FzZSBzY2FsYS51dGlsLkZhaWx1cmUoZSkgPT4gZmFpbChlLmdldE1lc3NhZ2UsIGUpKHBvcykKICAgICAgY2FzZSBfID0+CiAgICB9</text>
+        <text encoding="base64">Y2x1c3RlckJ5SW5wdXQoKQogICAgYXNzZXJ0KHByb2Nlc3NHcmFwaC5maW5kQ3ljbGUuaXNFbXB0eSwgIkNsdXN0ZXJpbmcgaW5wdXRzIGhhcyBsZWFkIHRvIGEgY3ljbGUiKQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSkgCiAgICAgICAgICAgIGxvZ2dlci53YXJuKCIiKQo=</text>
+        <text encoding="base64">Ly8gdmVyaWZ5IHByb2Nlc3MgZGVzaWduCiAgICB2YWwgdGVzdCA9IHByb2Nlc3NEZXNpZ24uZ3JhcGgudG9UZXN0CiAgICB0ZXN0R3JhcGgudmVyaWZ5KHRlc3QpIG1hdGNoIHsKICAgICAgY2FzZSBzY2FsYS51dGlsLkZhaWx1cmUoZSkgPT4gZmFpbChlLmdldE1lc3NhZ2UsIGUpKHBvcykKICAgICAgY2FzZSBfID0+CiAgICB9</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSAmJiApIAogICAgICAgICAgICBsb2dnZXIud2FybigiVGhlcmUgZXhpc3RzICIpCg==</text>
+        <text encoding="base64">aWYgKG5vdE1lcmdlYWJsZS5ub25FbXB0eSkgCiAgICAgICAgICAgIGxvZ2dlci53YXJuKCIiKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
