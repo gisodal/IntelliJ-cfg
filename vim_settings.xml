@@ -86,12 +86,11 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566306259491">
-        <mark key="'" line="106" column="33" />
-        <mark key="[" line="107" column="56" />
-        <mark key="]" line="107" column="74" />
-        <mark key="." line="107" column="74" />
-        <mark key="^" line="107" column="74" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566307738856">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="101" column="59" />
+        <mark key="." line="10" column="0" />
       </file>
       <file name="/sbtShell" timestamp="1566286443413">
         <mark key="[" line="0" column="0" />
@@ -116,13 +115,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566304571472">
-        <mark key="'" line="277" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566308852545">
+        <mark key="'" line="27" column="34" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="223" column="45" />
-        <mark key="]" line="223" column="52" />
-        <mark key="." line="223" column="52" />
-        <mark key="^" line="223" column="52" />
+        <mark key="[" line="27" column="114" />
+        <mark key="]" line="28" column="1" />
+        <mark key="." line="28" column="1" />
+        <mark key="^" line="28" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -234,11 +233,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566306242606">
-        <mark key="[" line="22" column="4" />
-        <mark key="]" line="22" column="12" />
-        <mark key="^" line="22" column="12" />
-        <mark key="." line="22" column="12" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566306954163">
+        <mark key="[" line="39" column="6" />
+        <mark key="]" line="39" column="5" />
+        <mark key="^" line="39" column="5" />
+        <mark key="." line="39" column="5" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -354,7 +353,6 @@
       <jump line="218" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="103" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="288" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="27" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="24" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="25" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="30" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
@@ -367,19 +365,20 @@
       <jump line="53" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="215" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="27" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgdmFsIG5vZGVzMiA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLm1hcCB7IF8uY2xvbmUgfQo=</text>
+      <register name="&quot;" type="4">
+        <text>.isEmpty, &quot;Normalising the taskgraph has lead to a cycle&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>maybeBooleanToTs</text>
       </register>
       <register name="/" type="4">
-        <text>cycle</text>
+        <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIG5vZGVzID0gdGhpc0dyYXBoLm5vZGVzLnRvT3V0ZXIubWFwIHsKICAgICAgICBjYXNlIGNsdXN0ZXI6IENsdXN0ZXIgPT4gY2x1c3Rlci5jbG9uZSgpCiAgICAgICAgY2FzZSBub2RlID0+IG5vZGUKICAgICAgfQo=</text>
+        <text>.isEmpty, &quot;Normalising the taskgraph has lead to a cycle&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdmFsIG5vZGVzMiA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLm1hcCB7IF8uY2xvbmUgfQo=</text>
@@ -423,9 +422,9 @@
       </register>
     </registers>
     <search>
-      <last-search>cycle</last-search>
+      <last-search>findCy</last-search>
       <last-offset />
-      <last-pattern>cycle</last-pattern>
+      <last-pattern>findCy</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -433,7 +432,6 @@
     </search>
     <history>
       <history-search>
-        <entry>\n</entry>
         <entry>convertC</entry>
         <entry>BodyId</entry>
         <entry>String</entry>
@@ -453,6 +451,7 @@
         <entry encoding="base64">diA=</entry>
         <entry>v</entry>
         <entry>cycle</entry>
+        <entry>findCy</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
