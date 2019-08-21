@@ -37,10 +37,10 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386898692">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
-        <mark key="[" line="30" column="10" />
-        <mark key="]" line="30" column="97" />
+        <mark key="[" line="33" column="14" />
+        <mark key="]" line="33" column="67" />
         <mark key="." line="24" column="89" />
         <mark key="^" line="80" column="52" />
       </file>
@@ -232,11 +232,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566386892203">
-        <mark key="[" line="65" column="7" />
-        <mark key="]" line="65" column="7" />
-        <mark key="^" line="65" column="7" />
-        <mark key="." line="65" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566387886876">
+        <mark key="[" line="30" column="9" />
+        <mark key="]" line="30" column="15" />
+        <mark key="." line="30" column="15" />
+        <mark key="^" line="30" column="15" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -368,7 +368,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val dsteps = cluster.graph.topologicalSort.getOrElse(List.empty[DepNode]).map(_.toOuter)</text>
+        <text>sealed trait Code extends Node</text>
       </register>
       <register name="-" type="4">
         <text>val inputGraph: Graph = createInputGraph(inputs)</text>
@@ -377,7 +377,7 @@
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>val dsteps = cluster.graph.topologicalSort.getOrElse(List.empty[DepNode]).map(_.toOuter)</text>
+        <text>sealed trait Code extends Node</text>
       </register>
       <register name="1" type="4">
         <text>implicit class RichInnerTestNode(val thisNode: Graph#NodeT) extends AnyVal {
