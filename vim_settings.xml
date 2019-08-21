@@ -232,11 +232,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566387886876">
-        <mark key="[" line="30" column="9" />
-        <mark key="]" line="30" column="15" />
-        <mark key="." line="30" column="15" />
-        <mark key="^" line="30" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566389218163">
+        <mark key="[" line="54" column="58" />
+        <mark key="]" line="54" column="57" />
+        <mark key="." line="54" column="57" />
+        <mark key="^" line="54" column="57" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -368,7 +368,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>sealed trait Code extends Node</text>
+        <text encoding="base64">cHJldHR5Q29udGVudHMuc3BsaXQoJ1xuJykubWFwKHN0ciA9PiAiICAgIiArIHN0cikubWtTdHJpbmcoJ1xuJyk=</text>
       </register>
       <register name="-" type="4">
         <text>val inputGraph: Graph = createInputGraph(inputs)</text>
@@ -377,7 +377,7 @@
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>sealed trait Code extends Node</text>
+        <text encoding="base64">cHJldHR5Q29udGVudHMuc3BsaXQoJ1xuJykubWFwKHN0ciA9PiAiICAgIiArIHN0cikubWtTdHJpbmcoJ1xuJyk=</text>
       </register>
       <register name="1" type="4">
         <text>implicit class RichInnerTestNode(val thisNode: Graph#NodeT) extends AnyVal {
