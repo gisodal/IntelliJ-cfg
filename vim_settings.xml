@@ -85,11 +85,11 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566392142875">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566393544406">
         <mark key="[" line="382" column="49" />
-        <mark key="]" line="378" column="23" />
-        <mark key="^" line="378" column="23" />
-        <mark key="." line="378" column="23" />
+        <mark key="]" line="37" column="7" />
+        <mark key="^" line="37" column="7" />
+        <mark key="." line="37" column="7" />
       </file>
       <file name="/sbtShell" timestamp="1566376963606">
         <mark key="[" line="0" column="0" />
@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566392303743">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566393743074">
         <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="402" column="102" />
-        <mark key="]" line="285" column="65" />
-        <mark key="^" line="285" column="65" />
-        <mark key="." line="285" column="65" />
+        <mark key="[" line="385" column="84" />
+        <mark key="]" line="385" column="89" />
+        <mark key="." line="385" column="89" />
+        <mark key="^" line="385" column="89" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -368,16 +368,20 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;=================\n&quot; +</text>
+        <text>insertExclusiveGates()
+    if (export)
+      exporter.add(dependencyGraph, processGraph, &quot;Convert - exclusive&quot;, true)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bm9kZSAke25vZGUudG9PdXRlci5pZH06IA==</text>
+        <text>x</text>
       </register>
       <register name="/" type="4">
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;=================\n&quot; +</text>
+        <text>insertExclusiveGates()
+    if (export)
+      exporter.add(dependencyGraph, processGraph, &quot;Convert - exclusive&quot;, true)</text>
       </register>
       <register name="1" type="4">
         <text>implicit class RichInnerTestNode(val thisNode: Graph#NodeT) extends AnyVal {
