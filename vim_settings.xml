@@ -86,7 +86,7 @@
         <mark key="^" line="45" column="10" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566378854063">
-        <mark key="[" line="461" column="52" />
+        <mark key="[" line="460" column="52" />
         <mark key="]" line="10" column="0" />
         <mark key="^" line="101" column="59" />
         <mark key="." line="10" column="0" />
@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566379403871">
-        <mark key="'" line="27" column="34" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566382103831">
+        <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="278" column="0" />
-        <mark key="]" line="278" column="0" />
-        <mark key="^" line="264" column="37" />
-        <mark key="." line="278" column="0" />
+        <mark key="[" line="281" column="64" />
+        <mark key="]" line="285" column="65" />
+        <mark key="^" line="285" column="65" />
+        <mark key="." line="285" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -157,11 +157,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566380631000">
-        <mark key="[" line="11" column="70" />
-        <mark key="]" line="11" column="73" />
-        <mark key="^" line="11" column="73" />
-        <mark key="." line="11" column="73" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566382192888">
+        <mark key="[" line="11" column="62" />
+        <mark key="]" line="11" column="61" />
+        <mark key="^" line="11" column="61" />
+        <mark key="." line="11" column="61" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
         <mark key="'" line="142" column="100" />
@@ -265,7 +265,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="40" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="289" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="2" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="11" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
@@ -365,11 +364,11 @@
       <jump line="215" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="27" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="285" column="65" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>if (export)
-          exporter.add(dependencyGraph, processGraph, &quot;Clustering: Parallel 1&quot;, true)</text>
+        <text>inputGraph.roots</text>
       </register>
       <register name="-" type="4">
         <text>val inputGraph: Graph = createInputGraph(inputs)</text>
@@ -378,8 +377,7 @@
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>if (export)
-          exporter.add(dependencyGraph, processGraph, &quot;Clustering: Parallel 1&quot;, true)</text>
+        <text>inputGraph.roots</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IGRlZiBjcmVhdGVNZXJnZUdyb3VwcyhpbnB1dEdyYXBoOiBHcmFwaCkgPSB7CiAgICAgICAgICAgIGRlZiB0cmF2ZXJzZShmcm9udGllcjogTGlzdFtpbnB1dEdyYXBoLk5vZGVUXSwgdHJhdmVyc2VkOiBtdXRhYmxlLlNldFtHcmFwaCNOb2RlVF0pOiBMaXN0W0xpc3RbaW5wdXRHcmFwaC5Ob2RlVF1dID0gewogICAgICAgICAgICAgIGlmIChmcm9udGllci5pc0VtcHR5KQogICAgICAgICAgICAgICAgTmlsCiAgICAgICAgICAgICAgZWxzZSB7CiAgICAgICAgICAgICAgICB0cmF2ZXJzZWQgKys9IGZyb250aWVyCiAgICAgICAgICAgICAgICB2YWwgbmV4dEZyb250aWVyID0gZnJvbnRpZXIuZmxhdE1hcChfLmRpU3VjY2Vzc29ycykKICAgICAgICAgICAgICAgICAgLmZpbHRlcihub2RlID0+IG5vZGUuZGlQcmVkZWNlc3NvcnMuZm9yYWxsKHRyYXZlcnNlZC5jb250YWlucykgJiYgIXRyYXZlcnNlZC5jb250YWlucyhub2RlKSkKCiAgICAgICAgICAgICAgICBmcm9udGllciA6OiB0cmF2ZXJzZShuZXh0RnJvbnRpZXIsIHRyYXZlcnNlZCkKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCByb290cyA9IGlucHV0R3JhcGgucm9vdHMudG9MaXN0CiAgICAgICAgICAgIHZhbCB0cmF2ZXJzZWQgPSBtdXRhYmxlLlNldC5lbXB0eVtHcmFwaCNOb2RlVF0KICAgICAgICAgICAgdHJhdmVyc2Uocm9vdHMsIHRyYXZlcnNlZCkKICAgICAgICAgIH0=</text>
