@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566469914729">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566471346606">
         <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="561" column="85" />
-        <mark key="]" line="561" column="85" />
-        <mark key="." line="561" column="85" />
-        <mark key="^" line="560" column="53" />
+        <mark key="[" line="586" column="0" />
+        <mark key="]" line="586" column="0" />
+        <mark key="." line="586" column="0" />
+        <mark key="^" line="586" column="27" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -367,7 +367,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Lm1hcFZhbHVlcyhfLmZpbHRlcihub2RlID0+IG5vZGUubGFiZWwuaXNFbXB0eSkp</text>
+        <text>node.incoming</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Lm1hcFZhbHVlcyhfLmZpbHRlcihub2RlID0+IG5vZGUubGFiZWwuaXNFbXB0eSkp</text>
@@ -376,7 +376,7 @@
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">bm9kZXMuZm9yYWxsKG5vZGUgPT4gbm9kZS5sYWJlbC5ub25FbXB0eSk=</text>
+        <text>node.incoming</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHByZXR0eU5vZGVzKGV2YWxJZFRvTm9kZXM6IE1hcFtFdmFsSWQsIFNldFt0aGlzR3JhcGguTm9kZVRdXSk6IFN0cmluZyA9IHsKICAgICAgICAgIGV2YWxJZFRvTm9kZXMubWFwIHsgY2FzZSAoZXZhbElkLCBub2RlcykgPT4KICAgICAgICAgICAgcyJJZiBncm91cCB3aXRoIEV2YWxJZCA6ICRldmFsSWRcbiIgKyAiTm9kZShzKSAgOlxuIiArIAogICAgICAgICAgICAgIG5vZGVzLm1hcChub2RlID0+IG5vZGUucHJldHR5KS5ta1N0cmluZygiXG4iKQogICAgICAgICAgfS5ta1N0cmluZygiXG4iKQogICAgICAgIH0=</text>
