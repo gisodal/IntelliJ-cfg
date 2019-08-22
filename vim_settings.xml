@@ -8,11 +8,11 @@
         <mark key="]" line="31" column="2" />
         <mark key="." line="333" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566215201294">
-        <mark key="[" line="1841" column="31" />
-        <mark key="]" line="1841" column="31" />
-        <mark key="^" line="1856" column="9" />
-        <mark key="." line="1841" column="31" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566472553001">
+        <mark key="[" line="1064" column="47" />
+        <mark key="]" line="2053" column="59" />
+        <mark key="^" line="2053" column="59" />
+        <mark key="." line="2053" column="59" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566471346606">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566472970266">
         <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="586" column="0" />
-        <mark key="]" line="586" column="0" />
-        <mark key="." line="586" column="0" />
-        <mark key="^" line="586" column="27" />
+        <mark key="[" line="121" column="0" />
+        <mark key="]" line="121" column="6" />
+        <mark key="." line="121" column="6" />
+        <mark key="^" line="581" column="18" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -157,11 +157,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566391163090">
-        <mark key="[" line="11" column="62" />
-        <mark key="]" line="11" column="76" />
-        <mark key="^" line="11" column="76" />
-        <mark key="." line="11" column="76" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566472529808">
+        <mark key="[" line="11" column="77" />
+        <mark key="]" line="11" column="61" />
+        <mark key="^" line="11" column="61" />
+        <mark key="." line="11" column="61" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
         <mark key="'" line="142" column="100" />
@@ -232,10 +232,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566469640015">
-        <mark key="[" line="50" column="27" />
-        <mark key="]" line="27" column="0" />
-        <mark key="." line="27" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566472456781">
+        <mark key="[" line="102" column="82" />
+        <mark key="]" line="102" column="74" />
+        <mark key="." line="102" column="74" />
+        <mark key="^" line="102" column="74" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
