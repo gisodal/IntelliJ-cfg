@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566395590179">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566465794538">
         <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="435" column="34" />
-        <mark key="]" line="435" column="36" />
-        <mark key="." line="435" column="36" />
-        <mark key="^" line="435" column="36" />
+        <mark key="[" line="393" column="52" />
+        <mark key="]" line="393" column="58" />
+        <mark key="." line="393" column="58" />
+        <mark key="^" line="393" column="58" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -368,16 +368,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>Label(state.toString + &quot; (end if)&quot;)</text>
+        <text>assert(leaves.flatMap(_.outgoing.map(_.label.asInstanceOf[Edge.Label])).size == 1, &quot;Not all outgoing edges of a while branch are labeled that same&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>x</text>
+        <text encoding="base64">YXNzZXJ0KGxlYXZlcy5mbGF0TWFwKF8ub3V0Z29pbmcubWFwKF8ubGFiZWwuYXNJbnN0YW5jZU9mW0VkZ2UuTGFiZWxdKSkuc2l6ZSA9PSAxKSA=</text>
       </register>
       <register name="/" type="4">
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>Label(state.toString + &quot; (end if)&quot;)</text>
+        <text>assert(leaves.flatMap(_.outgoing.map(_.label.asInstanceOf[Edge.Label])).size == 1, &quot;Not all outgoing edges of a while branch are labeled that same&quot;)</text>
       </register>
       <register name="1" type="4">
         <text>implicit class RichInnerTestNode(val thisNode: Graph#NodeT) extends AnyVal {
