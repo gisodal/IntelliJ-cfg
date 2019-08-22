@@ -85,11 +85,11 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566468374986">
-        <mark key="[" line="252" column="29" />
-        <mark key="]" line="252" column="40" />
-        <mark key="." line="252" column="40" />
-        <mark key="^" line="252" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566469080048">
+        <mark key="[" line="288" column="31" />
+        <mark key="]" line="288" column="33" />
+        <mark key="^" line="288" column="33" />
+        <mark key="." line="288" column="33" />
       </file>
       <file name="/sbtShell" timestamp="1566462023452">
         <mark key="[" line="0" column="0" />
@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566465794538">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566469914729">
         <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="393" column="52" />
-        <mark key="]" line="393" column="58" />
-        <mark key="." line="393" column="58" />
-        <mark key="^" line="393" column="58" />
+        <mark key="[" line="561" column="85" />
+        <mark key="]" line="561" column="85" />
+        <mark key="." line="561" column="85" />
+        <mark key="^" line="560" column="53" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -232,11 +232,10 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566390922292">
-        <mark key="[" line="28" column="23" />
-        <mark key="]" line="28" column="22" />
-        <mark key="." line="28" column="22" />
-        <mark key="^" line="28" column="22" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566469640015">
+        <mark key="[" line="50" column="27" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -368,16 +367,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>design.Graph.Node.Exclusive.If</text>
+        <text encoding="base64">Lm1hcFZhbHVlcyhfLmZpbHRlcihub2RlID0+IG5vZGUubGFiZWwuaXNFbXB0eSkp</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">YXNzZXJ0KGxlYXZlcy5mbGF0TWFwKF8ub3V0Z29pbmcubWFwKF8ubGFiZWwuYXNJbnN0YW5jZU9mW0VkZ2UuTGFiZWxdKSkuc2l6ZSA9PSAxKSA=</text>
+        <text encoding="base64">Lm1hcFZhbHVlcyhfLmZpbHRlcihub2RlID0+IG5vZGUubGFiZWwuaXNFbXB0eSkp</text>
       </register>
       <register name="/" type="4">
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>design.Graph.Node.Exclusive.If</text>
+        <text encoding="base64">bm9kZXMuZm9yYWxsKG5vZGUgPT4gbm9kZS5sYWJlbC5ub25FbXB0eSk=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHByZXR0eU5vZGVzKGV2YWxJZFRvTm9kZXM6IE1hcFtFdmFsSWQsIFNldFt0aGlzR3JhcGguTm9kZVRdXSk6IFN0cmluZyA9IHsKICAgICAgICAgIGV2YWxJZFRvTm9kZXMubWFwIHsgY2FzZSAoZXZhbElkLCBub2RlcykgPT4KICAgICAgICAgICAgcyJJZiBncm91cCB3aXRoIEV2YWxJZCA6ICRldmFsSWRcbiIgKyAiTm9kZShzKSAgOlxuIiArIAogICAgICAgICAgICAgIG5vZGVzLm1hcChub2RlID0+IG5vZGUucHJldHR5KS5ta1N0cmluZygiXG4iKQogICAgICAgICAgfS5ta1N0cmluZygiXG4iKQogICAgICAgIH0=</text>
