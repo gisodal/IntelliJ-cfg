@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566476485495">
-        <mark key="'" line="117" column="117" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566477210432">
+        <mark key="'" line="141" column="79" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="524" column="14" />
-        <mark key="]" line="534" column="43" />
-        <mark key="." line="534" column="43" />
-        <mark key="^" line="534" column="43" />
+        <mark key="[" line="280" column="6" />
+        <mark key="]" line="281" column="91" />
+        <mark key="." line="279" column="4" />
+        <mark key="^" line="279" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -157,11 +157,11 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566472529808">
-        <mark key="[" line="11" column="77" />
-        <mark key="]" line="11" column="61" />
-        <mark key="^" line="11" column="61" />
-        <mark key="." line="11" column="61" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1566477113815">
+        <mark key="[" line="11" column="62" />
+        <mark key="]" line="11" column="76" />
+        <mark key="^" line="11" column="76" />
+        <mark key="." line="11" column="76" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
         <mark key="'" line="142" column="100" />
@@ -265,24 +265,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" />
-      <jump line="79" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
-      <jump line="205" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="457" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="79" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="511" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="88" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" />
-      <jump line="5" column="66" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" />
-      <jump line="26" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
-      <jump line="161" column="28" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
-      <jump line="262" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
-      <jump line="259" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
-      <jump line="296" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
-      <jump line="294" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
-      <jump line="109" column="91" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="41" column="79" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
-      <jump line="35" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="299" column="28" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="286" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="7" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
@@ -365,19 +347,39 @@
       <jump line="247" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="265" column="105" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="117" column="117" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="504" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="524" column="10" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="603" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="625" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="633" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="167" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="172" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="209" column="69" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="216" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="217" column="73" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="503" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="575" column="53" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="615" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="632" column="67" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="700" column="62" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="88" column="67" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="123" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="141" column="79" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>node.incoming</text>
+        <text>if (export)
+        exporter.add(dependencyGraph, processGraph, &quot;Clustering - Neighboring inputs&quot;, true)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Lm1hcFZhbHVlcyhfLmZpbHRlcihub2RlID0+IG5vZGUubGFiZWwuaXNFbXB0eSkp</text>
       </register>
       <register name="/" type="4">
-        <text>insert</text>
+        <text>if [^(]</text>
       </register>
       <register name="0" type="4">
-        <text>node.incoming</text>
+        <text>if (export)
+        exporter.add(dependencyGraph, processGraph, &quot;Clustering - Neighboring inputs&quot;, true)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHByZXR0eU5vZGVzKGV2YWxJZFRvTm9kZXM6IE1hcFtFdmFsSWQsIFNldFt0aGlzR3JhcGguTm9kZVRdXSk6IFN0cmluZyA9IHsKICAgICAgICAgIGV2YWxJZFRvTm9kZXMubWFwIHsgY2FzZSAoZXZhbElkLCBub2RlcykgPT4KICAgICAgICAgICAgcyJJZiBncm91cCB3aXRoIEV2YWxJZCA6ICRldmFsSWRcbiIgKyAiTm9kZShzKSAgOlxuIiArIAogICAgICAgICAgICAgIG5vZGVzLm1hcChub2RlID0+IG5vZGUucHJldHR5KS5ta1N0cmluZygiXG4iKQogICAgICAgICAgfS5ta1N0cmluZygiXG4iKQogICAgICAgIH0=</text>
@@ -438,9 +440,9 @@
       </register>
     </registers>
     <search>
-      <last-search>insert</last-search>
+      <last-search>if [^(]</last-search>
       <last-offset />
-      <last-pattern>insert</last-pattern>
+      <last-pattern>if [^(]</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -448,8 +450,6 @@
     </search>
     <history>
       <history-search>
-        <entry>BodyId</entry>
-        <entry>String</entry>
         <entry>Some(</entry>
         <entry>root</entry>
         <entry>graphv</entry>
@@ -468,6 +468,8 @@
         <entry>cycle</entry>
         <entry>findCy</entry>
         <entry>insert</entry>
+        <entry>if [(]</entry>
+        <entry>if [^(]</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
