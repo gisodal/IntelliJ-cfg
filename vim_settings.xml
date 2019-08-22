@@ -91,7 +91,7 @@
         <mark key="^" line="37" column="7" />
         <mark key="." line="37" column="7" />
       </file>
-      <file name="/sbtShell" timestamp="1566376963606">
+      <file name="/sbtShell" timestamp="1566462023452">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="95" />
         <mark key="^" line="0" column="0" />
@@ -114,13 +114,13 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566394648669">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566395590179">
         <mark key="'" line="285" column="65" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="449" column="60" />
-        <mark key="]" line="449" column="60" />
-        <mark key="." line="449" column="60" />
-        <mark key="^" line="459" column="74" />
+        <mark key="[" line="435" column="34" />
+        <mark key="]" line="435" column="36" />
+        <mark key="." line="435" column="36" />
+        <mark key="^" line="435" column="36" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
@@ -368,7 +368,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;(end if)&quot;</text>
+        <text>Label(state.toString + &quot; (end if)&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>x</text>
@@ -377,7 +377,7 @@
         <text>findCy</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;(end if)&quot;</text>
+        <text>Label(state.toString + &quot; (end if)&quot;)</text>
       </register>
       <register name="1" type="4">
         <text>implicit class RichInnerTestNode(val thisNode: Graph#NodeT) extends AnyVal {
