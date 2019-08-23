@@ -3,12 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1566480681378">
-        <mark key="[" line="62" column="17" />
-        <mark key="]" line="66" column="13" />
-        <mark key="." line="66" column="13" />
-        <mark key="^" line="66" column="13" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
@@ -112,10 +106,6 @@
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1566548031519">
         <mark key="'" line="141" column="79" />
         <mark key="i" line="118" column="75" />
-        <mark key="[" line="530" column="0" />
-        <mark key="]" line="530" column="0" />
-        <mark key="^" line="528" column="32" />
-        <mark key="." line="530" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1565175888617">
         <mark key="[" line="100" column="23" />
