@@ -78,7 +78,7 @@
         <mark key="." line="410" column="3" />
         <mark key="^" line="410" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1566547836034">
+      <file name="/sbtShell" timestamp="1566815170523">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="95" />
         <mark key="^" line="0" column="0" />
@@ -174,7 +174,6 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1566567809461" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="110" column="0" />
