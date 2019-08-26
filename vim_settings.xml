@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566562572656">
-        <mark key="[" line="1063" column="48" />
-        <mark key="]" line="1063" column="47" />
-        <mark key="." line="1063" column="47" />
-        <mark key="^" line="1063" column="47" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566824065788">
+        <mark key="[" line="2018" column="11" />
+        <mark key="]" line="2018" column="9" />
+        <mark key="^" line="2018" column="9" />
+        <mark key="." line="2018" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1565168103134">
         <mark key="[" line="2" column="0" />
@@ -78,7 +78,7 @@
         <mark key="." line="410" column="3" />
         <mark key="^" line="410" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1566815170523">
+      <file name="/sbtShell" timestamp="1566822978524">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="95" />
         <mark key="^" line="0" column="0" />
@@ -355,7 +355,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICB8ZjE6IGZvcm0gez0gJ0lucHV0IGZyb20gVVNSOiBFQTEuYXR0cjEnfQogICAgICAgIHxiMTogYmVoYXZpb3Igez0gJ0NyZWF0ZSBFQTEnIC0+ICdVcGRhdGUgRUExLmF0dHIxJyAtPiAnVXBkYXRlIEVBMS5SQVVOMSd9CiAgICAgICAgfHgxOiBleGNsdXNpdmUgKEVBMS5hdHRyMSA9PSAxKQogICAgICAgIHx4MjogZXhjbHVzaXZlCiAgICAgICAgfGIyOiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMyd9CiAgICAgICAgfGI1OiBiZWhhdmlvciB7PSAnRXZhbCBFQTEuUkFVTjEuYWN0aXZlID09IHRydWUnfQogICAgICAgIHx4MzogZXhjbHVzaXZlIChFQTEuUkFVTjEuYWN0aXZlID09IHRydWUpCiAgICAgICAgfHg0OiBleGNsdXNpdmUKICAgICAgICB8YjM6IGJlaGF2aW9yIHs9ICdVcGRhdGUgRUExLmF0dHIzJ30KICAgICAgICB8YjY6IGJlaGF2aW9yIHs9ICdFdmFsIEVBMS5hdHRyMzEgPT0gZmFsc2UnfQogICAgICAgIHx4NTogZXhjbHVzaXZlIChFQTEuYXR0cjMxID09IGZhbHNlKQogICAgICAgIHxmMjogZm9ybSB7PSAnSW5wdXQgZnJvbSBNR1I6IEVBMS5hdHRyMyd9CiAgICAgICAgfGI0OiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMycgLT4gJ1VwZGF0ZSBFQTEuYXR0cjMxJ30KICAgICAgICB8c3RhcnQgLT4gZjEgLT4gYjEgLT4geDEgLT4odHJ1ZSkgYjIgLT4geDIgLT4gZW5kCiAgICAgICAgfHgxIC0+KGZhbHNlKSB4MyAtPih0cnVlKSBiMyAtPiB4NCAtPiB4MgogICAgICAgIHx4MyAtPihmYWxzZSkgeDUgLT4oZmFsc2UpIHg0CiAgICAgICAgfHg1IC0+KHRydWUpIGYyIC0+IGI0IC0+IHg1</text>
+        <text>Actor dependencies</text>
       </register>
       <register name="-" type="4">
         <text>function</text>
@@ -364,7 +364,7 @@
         <text>if [^(]</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;Process design topology exception&quot;</text>
+        <text>Actor dependencies</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICAgICB8ZjE6IGZvcm0gez0gJ0lucHV0IGZyb20gVVNSOiBFQTEuYXR0cjEnfQogICAgICAgIHxiMTogYmVoYXZpb3Igez0gJ0NyZWF0ZSBFQTEnIC0+ICdVcGRhdGUgRUExLmF0dHIxJyAtPiAnVXBkYXRlIEVBMS5SQVVOMSd9CiAgICAgICAgfHgxOiBleGNsdXNpdmUgKEVBMS5hdHRyMSA9PSAxKQogICAgICAgIHx4MjogZXhjbHVzaXZlCiAgICAgICAgfGIyOiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMyd9CiAgICAgICAgfGI1OiBiZWhhdmlvciB7PSAnRXZhbCBFQTEuUkFVTjEuYWN0aXZlID09IHRydWUnfQogICAgICAgIHx4MzogZXhjbHVzaXZlIChFQTEuUkFVTjEuYWN0aXZlID09IHRydWUpCiAgICAgICAgfHg0OiBleGNsdXNpdmUKICAgICAgICB8YjM6IGJlaGF2aW9yIHs9ICdVcGRhdGUgRUExLmF0dHIzJ30KICAgICAgICB8YjY6IGJlaGF2aW9yIHs9ICdFdmFsIEVBMS5hdHRyMzEgPT0gZmFsc2UnfQogICAgICAgIHx4NTogZXhjbHVzaXZlIChFQTEuYXR0cjMxID09IGZhbHNlKQogICAgICAgIHxmMjogZm9ybSB7PSAnSW5wdXQgZnJvbSBNR1I6IEVBMS5hdHRyMyd9CiAgICAgICAgfGI0OiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMycgLT4gJ1VwZGF0ZSBFQTEuYXR0cjMxJ30KICAgICAgICB8c3RhcnQgLT4gZjEgLT4gYjEgLT4geDEgLT4odHJ1ZSkgYjIgLT4geDIgLT4gZW5kCiAgICAgICAgfHgxIC0+KGZhbHNlKSB4MyAtPih0cnVlKSBiMyAtPiB4NCAtPiB4MgogICAgICAgIHx4MyAtPihmYWxzZSkgeDUgLT4oZmFsc2UpIHg0CiAgICAgICAgfHg1IC0+KHRydWUpIGYyIC0+IGI0IC0+IHg1</text>
