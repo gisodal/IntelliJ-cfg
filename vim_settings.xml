@@ -40,11 +40,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566917537408">
-        <mark key="[" line="272" column="98" />
-        <mark key="]" line="273" column="13" />
-        <mark key="^" line="273" column="13" />
-        <mark key="." line="273" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566917981112">
+        <mark key="[" line="110" column="51" />
+        <mark key="]" line="110" column="43" />
+        <mark key="^" line="110" column="43" />
+        <mark key="." line="110" column="43" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
@@ -323,7 +323,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">LnNvcnRXaXRoIHsgY2FzZSAoYSxiKSA9PiBieU5vZGVPcmRlclR1cGxlMihhLGIpIH0=</text>
+        <text encoding="base64">Lm1hcChub2RlID0+ICh0b05vZGVPcmRlclR1cGxlKG5vZGUpLG5vZGUpKQ==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">KG5vZGU6IEFueU5vZGUpID0+IHRvTm9kZU9yZGVyVChub2RlKQ==</text>
@@ -332,7 +332,7 @@
         <text>byN</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">LnNvcnRXaXRoIHsgY2FzZSAoYSxiKSA9PiBieU5vZGVPcmRlclR1cGxlMihhLGIpIH0=</text>
+        <text encoding="base64">Lm1hcChub2RlID0+ICh0b05vZGVPcmRlclR1cGxlKG5vZGUpLG5vZGUpKQ==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIE5vZGVPcmRlcmluZyA9IE9yZGVyaW5nLmJ5KHRvTm9kZU9yZGVyVHVwbGUpKG5vZGVUdXBsZU9yZGVyaW5nKQogICAgdmFsIGJ5Tm9kZU9yZGVyVHVwbGUgPSAobm9kZTE6IEFueU5vZGUsIG5vZGUyOiBBbnlOb2RlKSA9PiB7CiAgICAgIE5vZGVPcmRlcmluZy5jb21wYXJlKG5vZGUxLCBub2RlMikgIT0gLTEKICAgIH0K</text>
