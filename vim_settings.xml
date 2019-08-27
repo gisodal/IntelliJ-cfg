@@ -40,11 +40,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566903835798">
-        <mark key="[" line="92" column="7" />
-        <mark key="]" line="103" column="6" />
-        <mark key="^" line="103" column="6" />
-        <mark key="." line="103" column="6" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566904497335">
+        <mark key="[" line="103" column="4" />
+        <mark key="]" line="103" column="4" />
+        <mark key="." line="103" column="4" />
+        <mark key="^" line="103" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Traversals.scala" timestamp="1566895883099" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
@@ -325,7 +325,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHRyYXZlcnNhbHMuc29ydFdpdGggeyBjYXNlIChuMSxuMikgPT4gYnlOb2RlT3JkZXJUdXBsZShuMS5oZWFkLG4yLmhlYWQpIH0uaGVhZCA=</text>
+        <text>val sorted = traversals.map(_.head).sorted(NodeOrdering)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHRyYXZlcnNhbHMuc29ydFdpdGggeyBjYXNlIChuMSxuMikgPT4gYnlOb2RlT3JkZXJUdXBsZShuMS5oZWFkLG4yLmhlYWQpIH0uaGVhZCA=</text>
@@ -334,7 +334,7 @@
         <text>if [^(]</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHJhdmVyc2Fscy5zb3J0V2l0aCB7IGNhc2UgKG4xLG4yKSA9PiBieU5vZGVPcmRlclR1cGxlKG4xLmhlYWQsbjIuaGVhZCkgfS5oZWFk</text>
+        <text>val sorted = traversals.map(_.head).sorted(NodeOrdering)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBpZiAoaW50Q29tcGFyaXNvbiAhPSAwKQo=</text>
