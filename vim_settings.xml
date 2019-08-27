@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566894587190">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566919337034">
         <mark key="[" line="1953" column="38" />
         <mark key="]" line="1954" column="5" />
         <mark key="^" line="1954" column="5" />
@@ -40,11 +40,12 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566917981112">
-        <mark key="[" line="110" column="51" />
-        <mark key="]" line="110" column="43" />
-        <mark key="^" line="110" column="43" />
-        <mark key="." line="110" column="43" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566919963752">
+        <mark key="'" line="115" column="29" />
+        <mark key="[" line="271" column="99" />
+        <mark key="]" line="271" column="97" />
+        <mark key="^" line="271" column="97" />
+        <mark key="." line="271" column="97" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
@@ -220,7 +221,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="33" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="52" column="57" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="60" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
@@ -320,6 +320,7 @@
       <jump line="258" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="100" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="107" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
+      <jump line="115" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -329,7 +330,7 @@
         <text encoding="base64">KG5vZGU6IEFueU5vZGUpID0+IHRvTm9kZU9yZGVyVChub2RlKQ==</text>
       </register>
       <register name="/" type="4">
-        <text>byN</text>
+        <text>assert(t</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Lm1hcChub2RlID0+ICh0b05vZGVPcmRlclR1cGxlKG5vZGUpLG5vZGUpKQ==</text>
@@ -376,9 +377,9 @@
       </register>
     </registers>
     <search>
-      <last-search>byN</last-search>
+      <last-search>assert(t</last-search>
       <last-offset />
-      <last-pattern>byN</last-pattern>
+      <last-pattern>assert(t</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -386,7 +387,6 @@
     </search>
     <history>
       <history-search>
-        <entry>root</entry>
         <entry>graphv</entry>
         <entry>mapping</entry>
         <entry>imapping</entry>
@@ -406,6 +406,7 @@
         <entry>if [(]</entry>
         <entry>if [^(]</entry>
         <entry>byN</entry>
+        <entry>assert(t</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
