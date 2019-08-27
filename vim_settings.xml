@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566894587190">
@@ -40,11 +40,11 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566906032293">
-        <mark key="[" line="248" column="0" />
-        <mark key="]" line="248" column="0" />
-        <mark key="^" line="99" column="9" />
-        <mark key="." line="248" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566908598279">
+        <mark key="[" line="90" column="5" />
+        <mark key="]" line="92" column="81" />
+        <mark key="^" line="92" column="81" />
+        <mark key="." line="92" column="81" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Traversals.scala" timestamp="1566895883099" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
@@ -325,7 +325,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIGJ5Tm9kZU9yZGVyVHVwbGUgPSAobm9kZTE6IEFueU5vZGUsIG5vZGUyOiBBbnlOb2RlKSA9PiB7CiAgICAgIE5vZGVUdXBsZU9yZGVyaW5nLmNvbXBhcmUobm9kZVRvT3JkZXJUdXBsZShub2RlMSksbm9kZVRvT3JkZXJUdXBsZShub2RlMikpICE9IC0xCiAgICB9Cg==</text>
+        <text encoding="base64">Y2FzZSBfIGlmIHR1cGxlMS5fMSA8IHR1cGxlMi5fMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiAxCiAgICAgICAgY2FzZSBfIGlmIHR1cGxlMS5fMSA+IHR1cGxlMi5fMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiAtMQogICAgICAgIGNhc2UgXyBpZiB0dXBsZTEuXzIgIT0gdHVwbGUyLl8yICYmIGNvbXBhcmVTdHJpbmcodHVwbGUxLl8yLHR1cGxlMi5fMikgPT4gMQ==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHRyYXZlcnNhbHMuc29ydFdpdGggeyBjYXNlIChuMSxuMikgPT4gYnlOb2RlT3JkZXJUdXBsZShuMS5oZWFkLG4yLmhlYWQpIH0uaGVhZCA=</text>
@@ -334,7 +334,7 @@
         <text>if [^(]</text>
       </register>
       <register name="0" type="4">
-        <text>// custom ordering for design nodes tuples</text>
+        <text encoding="base64">Y2FzZSBfIGlmIHR1cGxlMS5fMSA8IHR1cGxlMi5fMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiAxCiAgICAgICAgY2FzZSBfIGlmIHR1cGxlMS5fMSA+IHR1cGxlMi5fMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiAtMQogICAgICAgIGNhc2UgXyBpZiB0dXBsZTEuXzIgIT0gdHVwbGUyLl8yICYmIGNvbXBhcmVTdHJpbmcodHVwbGUxLl8yLHR1cGxlMi5fMikgPT4gMQ==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGJ5Tm9kZU9yZGVyVHVwbGUgPSAobm9kZTE6IEFueU5vZGUsIG5vZGUyOiBBbnlOb2RlKSA9PiB7CiAgICAgIE5vZGVUdXBsZU9yZGVyaW5nLmNvbXBhcmUobm9kZVRvT3JkZXJUdXBsZShub2RlMSksbm9kZVRvT3JkZXJUdXBsZShub2RlMikpICE9IC0xCiAgICB9Cg==</text>
@@ -513,6 +513,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed OPEN_BRACKET</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
