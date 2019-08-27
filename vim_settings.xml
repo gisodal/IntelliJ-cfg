@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566894587190">
@@ -39,6 +39,12 @@
         <mark key="]" line="7" column="70" />
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566897813280">
+        <mark key="[" line="81" column="69" />
+        <mark key="]" line="81" column="79" />
+        <mark key="." line="81" column="79" />
+        <mark key="^" line="81" column="79" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Traversals.scala" timestamp="1566895883099" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
@@ -319,7 +325,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGRlcGVuZGVuY3lHcmFwaDogRGVwR3JhcGgsIHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFVuaXQgPQogICAgZXhwb3J0KFNvbWUoZGVwZW5kZW5jeUdyYXBoKSwgU29tZShwcm9jZXNzR3JhcGgpLCBkaXJuYW1lLCBuYW1lKQogIGRlZiBhcHBseShkZXBlbmRlbmN5R3JhcGg6IERlcEdyYXBoLCBkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFVuaXQgPQogICAgZXhwb3J0KFNvbWUoZGVwZW5kZW5jeUdyYXBoKSwgTm9uZSwgZGlybmFtZSwgbmFtZSkKICBkZWYgYXBwbHkocHJvY2Vzc0dyYXBoOiBkZXNpZ24uR3JhcGgsIGRpcm5hbWU6IFN0cmluZywgbmFtZTogU3RyaW5nKTogVW5pdCA9CiAgICBleHBvcnQoTm9uZSwgU29tZShwcm9jZXNzR3JhcGgpLCBkaXJuYW1lLCBuYW1lKQoKICBkZWYgZXhwb3J0KGRlcGVuZGVuY3lHcmFwaDogT3B0aW9uW0RlcEdyYXBoXSwgcHJvY2Vzc0dyYXBoOiBPcHRpb25bZGVzaWduLkdyYXBoXSwgZGlybmFtZTogU3RyaW5nLCBuYW1lOiBTdHJpbmcsIGFkZEVudHJpZXNJbkRpcjogQm9vbGVhbiA9IGZhbHNlKTogVW5pdCA9IHsKICAgIGlmIChkZXBlbmRlbmN5R3JhcGguaXNFbXB0eSAmJiBwcm9jZXNzR3JhcGguaXNFbXB0eSkKICAgICAgcmV0dXJuCgogICAgdmFsIGV4cG9ydGVyID0gRXhwb3J0ZXIoZGlybmFtZSkKCiAgICBpZiAoZGVwZW5kZW5jeUdyYXBoLm5vbkVtcHR5KQogICAgICBleHBvcnRlci5hZGQoZGVwZW5kZW5jeUdyYXBoLmdldCwgbmFtZSkKCiAgICBpZiAocHJvY2Vzc0dyYXBoLm5vbkVtcHR5KQogICAgICBleHBvcnRlci5hZGQocHJvY2Vzc0dyYXBoLmdldCwgbmFtZSkKCiAgICBleHBvcnRlci5leHBvcnQoYWRkRW50cmllc0luRGlyKQogIH0=</text>
+        <text>implicit object IntTupleOrd extends math.Ordering[(Int, Int)] {</text>
       </register>
       <register name="-" type="4">
         <text>function</text>
@@ -328,21 +334,34 @@
         <text>if [^(]</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGRlcGVuZGVuY3lHcmFwaDogRGVwR3JhcGgsIHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFVuaXQgPQogICAgZXhwb3J0KFNvbWUoZGVwZW5kZW5jeUdyYXBoKSwgU29tZShwcm9jZXNzR3JhcGgpLCBkaXJuYW1lLCBuYW1lKQogIGRlZiBhcHBseShkZXBlbmRlbmN5R3JhcGg6IERlcEdyYXBoLCBkaXJuYW1lOiBTdHJpbmcsIG5hbWU6IFN0cmluZyk6IFVuaXQgPQogICAgZXhwb3J0KFNvbWUoZGVwZW5kZW5jeUdyYXBoKSwgTm9uZSwgZGlybmFtZSwgbmFtZSkKICBkZWYgYXBwbHkocHJvY2Vzc0dyYXBoOiBkZXNpZ24uR3JhcGgsIGRpcm5hbWU6IFN0cmluZywgbmFtZTogU3RyaW5nKTogVW5pdCA9CiAgICBleHBvcnQoTm9uZSwgU29tZShwcm9jZXNzR3JhcGgpLCBkaXJuYW1lLCBuYW1lKQoKICBkZWYgZXhwb3J0KGRlcGVuZGVuY3lHcmFwaDogT3B0aW9uW0RlcEdyYXBoXSwgcHJvY2Vzc0dyYXBoOiBPcHRpb25bZGVzaWduLkdyYXBoXSwgZGlybmFtZTogU3RyaW5nLCBuYW1lOiBTdHJpbmcsIGFkZEVudHJpZXNJbkRpcjogQm9vbGVhbiA9IGZhbHNlKTogVW5pdCA9IHsKICAgIGlmIChkZXBlbmRlbmN5R3JhcGguaXNFbXB0eSAmJiBwcm9jZXNzR3JhcGguaXNFbXB0eSkKICAgICAgcmV0dXJuCgogICAgdmFsIGV4cG9ydGVyID0gRXhwb3J0ZXIoZGlybmFtZSkKCiAgICBpZiAoZGVwZW5kZW5jeUdyYXBoLm5vbkVtcHR5KQogICAgICBleHBvcnRlci5hZGQoZGVwZW5kZW5jeUdyYXBoLmdldCwgbmFtZSkKCiAgICBpZiAocHJvY2Vzc0dyYXBoLm5vbkVtcHR5KQogICAgICBleHBvcnRlci5hZGQocHJvY2Vzc0dyYXBoLmdldCwgbmFtZSkKCiAgICBleHBvcnRlci5leHBvcnQoYWRkRW50cmllc0luRGlyKQogIH0=</text>
+        <text>implicit object IntTupleOrd extends math.Ordering[(Int, Int)] {</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICB8ZjE6IGZvcm0gez0gJ0lucHV0IGZyb20gVVNSOiBFQTEuYXR0cjEnfQogICAgICAgIHxiMTogYmVoYXZpb3Igez0gJ0NyZWF0ZSBFQTEnIC0+ICdVcGRhdGUgRUExLmF0dHIxJyAtPiAnVXBkYXRlIEVBMS5SQVVOMSd9CiAgICAgICAgfHgxOiBleGNsdXNpdmUgKEVBMS5hdHRyMSA9PSAxKQogICAgICAgIHx4MjogZXhjbHVzaXZlCiAgICAgICAgfGIyOiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMyd9CiAgICAgICAgfGI1OiBiZWhhdmlvciB7PSAnRXZhbCBFQTEuUkFVTjEuYWN0aXZlID09IHRydWUnfQogICAgICAgIHx4MzogZXhjbHVzaXZlIChFQTEuUkFVTjEuYWN0aXZlID09IHRydWUpCiAgICAgICAgfHg0OiBleGNsdXNpdmUKICAgICAgICB8YjM6IGJlaGF2aW9yIHs9ICdVcGRhdGUgRUExLmF0dHIzJ30KICAgICAgICB8YjY6IGJlaGF2aW9yIHs9ICdFdmFsIEVBMS5hdHRyMzEgPT0gZmFsc2UnfQogICAgICAgIHx4NTogZXhjbHVzaXZlIChFQTEuYXR0cjMxID09IGZhbHNlKQogICAgICAgIHxmMjogZm9ybSB7PSAnSW5wdXQgZnJvbSBNR1I6IEVBMS5hdHRyMyd9CiAgICAgICAgfGI0OiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMycgLT4gJ1VwZGF0ZSBFQTEuYXR0cjMxJ30KICAgICAgICB8c3RhcnQgLT4gZjEgLT4gYjEgLT4geDEgLT4odHJ1ZSkgYjIgLT4geDIgLT4gZW5kCiAgICAgICAgfHgxIC0+KGZhbHNlKSB4MyAtPih0cnVlKSBiMyAtPiB4NCAtPiB4MgogICAgICAgIHx4MyAtPihmYWxzZSkgeDUgLT4oZmFsc2UpIHg0CiAgICAgICAgfHg1IC0+KHRydWUpIGYyIC0+IGI0IC0+IHg1</text>
+        <text encoding="base64">aW1wbGljaXQgb2JqZWN0IEludFR1cGxlT3JkIGV4dGVuZHMgbWF0aC5PcmRlcmluZ1soSW50LCBJbnQpXSB7CiAgICAgICAgICBkZWYgY29tcGFyZSh4OiAoSW50LCBJbnQpLCB5OiAoSW50LCBJbnQpKTogSW50ID0gewogICAgICAgICAgICAgICAgIHByaW50bG4ocyJIaSwgSSBhbSBoZXJlIHdpdGggeDogJHgsIHk6ICR5IikKICAgICAgICAgICAgICAgICB2YWwgYSA9IHguXzEqeC5fMgogICAgICAgICAgICAgICAgIHZhbCBiID0geS5fMSp5Ll8yCiAgICAgICAgICAgICBpZihhID4gYikgMSBlbHNlIGlmKGEgPCBiKSAtMSBlbHNlIDAKICAgICAgICAgIH0KICAgICAgICB9</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IHZhbCB0b2tlbnMgPSBsZXhlcihjb2RlKQogICAgdmFsIGFzdCA9IHBhcnNlci50b0FzdChjb2RlLCB0b2tlbnMpCiAgICB2YWwgZ3JhcGggPSBjb21waWxlci5jb21waWxlKGNvZGUsIGFzdCkKICAgIA==</text>
+        <text encoding="base64">ICAgICB8ZjE6IGZvcm0gez0gJ0lucHV0IGZyb20gVVNSOiBFQTEuYXR0cjEnfQogICAgICAgIHxiMTogYmVoYXZpb3Igez0gJ0NyZWF0ZSBFQTEnIC0+ICdVcGRhdGUgRUExLmF0dHIxJyAtPiAnVXBkYXRlIEVBMS5SQVVOMSd9CiAgICAgICAgfHgxOiBleGNsdXNpdmUgKEVBMS5hdHRyMSA9PSAxKQogICAgICAgIHx4MjogZXhjbHVzaXZlCiAgICAgICAgfGIyOiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMyd9CiAgICAgICAgfGI1OiBiZWhhdmlvciB7PSAnRXZhbCBFQTEuUkFVTjEuYWN0aXZlID09IHRydWUnfQogICAgICAgIHx4MzogZXhjbHVzaXZlIChFQTEuUkFVTjEuYWN0aXZlID09IHRydWUpCiAgICAgICAgfHg0OiBleGNsdXNpdmUKICAgICAgICB8YjM6IGJlaGF2aW9yIHs9ICdVcGRhdGUgRUExLmF0dHIzJ30KICAgICAgICB8YjY6IGJlaGF2aW9yIHs9ICdFdmFsIEVBMS5hdHRyMzEgPT0gZmFsc2UnfQogICAgICAgIHx4NTogZXhjbHVzaXZlIChFQTEuYXR0cjMxID09IGZhbHNlKQogICAgICAgIHxmMjogZm9ybSB7PSAnSW5wdXQgZnJvbSBNR1I6IEVBMS5hdHRyMyd9CiAgICAgICAgfGI0OiBiZWhhdmlvciB7PSAnVXBkYXRlIEVBMS5hdHRyMycgLT4gJ1VwZGF0ZSBFQTEuYXR0cjMxJ30KICAgICAgICB8c3RhcnQgLT4gZjEgLT4gYjEgLT4geDEgLT4odHJ1ZSkgYjIgLT4geDIgLT4gZW5kCiAgICAgICAgfHgxIC0+KGZhbHNlKSB4MyAtPih0cnVlKSBiMyAtPiB4NCAtPiB4MgogICAgICAgIHx4MyAtPihmYWxzZSkgeDUgLT4oZmFsc2UpIHg0CiAgICAgICAgfHg1IC0+KHRydWUpIGYyIC0+IGI0IC0+IHg1</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">dmFsIHVudXNlZCA9IHN0YWNrLmdldFVudXNlZAogICAgZXJyb3JzICsrPSB1bnVzZWQubWFwKGlkZW50aWZpZXIgPT4gQ29tcGlsZXJGYWlsdXJlKHMiaWRlbnRpZmllciAke2lkZW50aWZpZXIubmFtZS50b1N0cmluZ30gaXMgbmV2ZXIgdXNlZCIsIGlucHV0LmdldCwgaWRlbnRpZmllci5uYW1lLnBvcykpCg==</text>
+        <text encoding="base64">IHZhbCB0b2tlbnMgPSBsZXhlcihjb2RlKQogICAgdmFsIGFzdCA9IHBhcnNlci50b0FzdChjb2RlLCB0b2tlbnMpCiAgICB2YWwgZ3JhcGggPSBjb21waWxlci5jb21waWxlKGNvZGUsIGFzdCkKICAgIA==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ZGVmIHByZXR0eU5vZGVzKGV2YWxJZFRvTm9kZXM6IE1hcFtFdmFsSWQsIFNldFt0aGlzR3JhcGguTm9kZVRdXSk6IFN0cmluZyA9IHsKICAgICAgICAgIGV2YWxJZFRvTm9kZXMubWFwIHsgY2FzZSAoZXZhbElkLCBub2RlcykgPT4KICAgICAgICAgICAgcyJJZiBncm91cCB3aXRoIEV2YWxJZCA6ICRldmFsSWRcbiIgKyAiTm9kZShzKSAgOlxuIiArIAogICAgICAgICAgICAgIG5vZGVzLm1hcChub2RlID0+IG5vZGUucHJldHR5KS5ta1N0cmluZygiXG4iKQogICAgICAgICAgfS5ta1N0cmluZygiXG4iKQogICAgICAgIH0=</text>
+        <text encoding="base64">dmFsIHVudXNlZCA9IHN0YWNrLmdldFVudXNlZAogICAgZXJyb3JzICsrPSB1bnVzZWQubWFwKGlkZW50aWZpZXIgPT4gQ29tcGlsZXJGYWlsdXJlKHMiaWRlbnRpZmllciAke2lkZW50aWZpZXIubmFtZS50b1N0cmluZ30gaXMgbmV2ZXIgdXNlZCIsIGlucHV0LmdldCwgaWRlbnRpZmllci5uYW1lLnBvcykpCg==</text>
       </register>
       <register name="5" type="4">
+        <text encoding="base64">ZGVmIHByZXR0eU5vZGVzKGV2YWxJZFRvTm9kZXM6IE1hcFtFdmFsSWQsIFNldFt0aGlzR3JhcGguTm9kZVRdXSk6IFN0cmluZyA9IHsKICAgICAgICAgIGV2YWxJZFRvTm9kZXMubWFwIHsgY2FzZSAoZXZhbElkLCBub2RlcykgPT4KICAgICAgICAgICAgcyJJZiBncm91cCB3aXRoIEV2YWxJZCA6ICRldmFsSWRcbiIgKyAiTm9kZShzKSAgOlxuIiArIAogICAgICAgICAgICAgIG5vZGVzLm1hcChub2RlID0+IG5vZGUucHJldHR5KS5ta1N0cmluZygiXG4iKQogICAgICAgICAgfS5ta1N0cmluZygiXG4iKQogICAgICAgIH0=</text>
+      </register>
+      <register name="u" type="4">
+        <keys>
+          <key char="105" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="65535" code="67" mods="130" />
+          <key char="65535" code="81" mods="130" />
+          <key char="65535" code="81" mods="130" />
+          <key char="65535" code="81" mods="130" />
+        </keys>
+      </register>
+      <register name="6" type="4">
         <text>implicit class RichInnerTestNode(val thisNode: Graph#NodeT) extends AnyVal {
     def pretty: String = pretty(indent = 0)
     def pretty(indent: Int): String = {
@@ -362,27 +381,14 @@
     }
   }</text>
       </register>
-      <register name="u" type="4">
-        <keys>
-          <key char="105" code="0" mods="0" />
-          <key char="116" code="0" mods="0" />
-          <key char="65535" code="67" mods="130" />
-          <key char="65535" code="81" mods="130" />
-          <key char="65535" code="81" mods="130" />
-          <key char="65535" code="81" mods="130" />
-        </keys>
-      </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">IGRlZiBjcmVhdGVNZXJnZUdyb3VwcyhpbnB1dEdyYXBoOiBHcmFwaCkgPSB7CiAgICAgICAgICAgIGRlZiB0cmF2ZXJzZShmcm9udGllcjogTGlzdFtpbnB1dEdyYXBoLk5vZGVUXSwgdHJhdmVyc2VkOiBtdXRhYmxlLlNldFtHcmFwaCNOb2RlVF0pOiBMaXN0W0xpc3RbaW5wdXRHcmFwaC5Ob2RlVF1dID0gewogICAgICAgICAgICAgIGlmIChmcm9udGllci5pc0VtcHR5KQogICAgICAgICAgICAgICAgTmlsCiAgICAgICAgICAgICAgZWxzZSB7CiAgICAgICAgICAgICAgICB0cmF2ZXJzZWQgKys9IGZyb250aWVyCiAgICAgICAgICAgICAgICB2YWwgbmV4dEZyb250aWVyID0gZnJvbnRpZXIuZmxhdE1hcChfLmRpU3VjY2Vzc29ycykKICAgICAgICAgICAgICAgICAgLmZpbHRlcihub2RlID0+IG5vZGUuZGlQcmVkZWNlc3NvcnMuZm9yYWxsKHRyYXZlcnNlZC5jb250YWlucykgJiYgIXRyYXZlcnNlZC5jb250YWlucyhub2RlKSkKCiAgICAgICAgICAgICAgICBmcm9udGllciA6OiB0cmF2ZXJzZShuZXh0RnJvbnRpZXIsIHRyYXZlcnNlZCkKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCByb290cyA9IGlucHV0R3JhcGgucm9vdHMudG9MaXN0CiAgICAgICAgICAgIHZhbCB0cmF2ZXJzZWQgPSBtdXRhYmxlLlNldC5lbXB0eVtHcmFwaCNOb2RlVF0KICAgICAgICAgICAgdHJhdmVyc2Uocm9vdHMsIHRyYXZlcnNlZCkKICAgICAgICAgIH0=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgdmFsIG5vZGVzMiA9IHRoaXNHcmFwaC5ub2Rlcy50b091dGVyLm1hcCB7IF8uY2xvbmUgfQo=</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">CiAgICAvLyBGSVhNRSBtb2dlbGlqayBhbHRlcm5hdGllZjoK</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ewogICAgICB2YWwgZXZhbElkOiBFdmFsSWQKICAgICAgdmFsIGxhYmVsOiBMYWJlbAogICAgfSA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
