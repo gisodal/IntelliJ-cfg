@@ -40,11 +40,10 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566897813280">
-        <mark key="[" line="81" column="69" />
-        <mark key="]" line="81" column="79" />
-        <mark key="." line="81" column="79" />
-        <mark key="^" line="81" column="79" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566898640129">
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="0" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Traversals.scala" timestamp="1566895883099" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
@@ -325,7 +324,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>implicit object IntTupleOrd extends math.Ordering[(Int, Int)] {</text>
+        <text>NodeOrderTuple(</text>
       </register>
       <register name="-" type="4">
         <text>function</text>
@@ -334,7 +333,7 @@
         <text>if [^(]</text>
       </register>
       <register name="0" type="4">
-        <text>implicit object IntTupleOrd extends math.Ordering[(Int, Int)] {</text>
+        <text>NodeOrderTuple(</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">aW1wbGljaXQgb2JqZWN0IEludFR1cGxlT3JkIGV4dGVuZHMgbWF0aC5PcmRlcmluZ1soSW50LCBJbnQpXSB7CiAgICAgICAgICBkZWYgY29tcGFyZSh4OiAoSW50LCBJbnQpLCB5OiAoSW50LCBJbnQpKTogSW50ID0gewogICAgICAgICAgICAgICAgIHByaW50bG4ocyJIaSwgSSBhbSBoZXJlIHdpdGggeDogJHgsIHk6ICR5IikKICAgICAgICAgICAgICAgICB2YWwgYSA9IHguXzEqeC5fMgogICAgICAgICAgICAgICAgIHZhbCBiID0geS5fMSp5Ll8yCiAgICAgICAgICAgICBpZihhID4gYikgMSBlbHNlIGlmKGEgPCBiKSAtMSBlbHNlIDAKICAgICAgICAgIH0KICAgICAgICB9</text>
