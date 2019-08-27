@@ -3,6 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566894587190">
+        <mark key="[" line="1953" column="38" />
+        <mark key="]" line="1954" column="5" />
+        <mark key="^" line="1954" column="5" />
+        <mark key="." line="1954" column="5" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1565952152430">
         <mark key="[" line="50" column="25" />
         <mark key="]" line="50" column="25" />
@@ -34,7 +40,6 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1566830602030" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="3" column="50" />
@@ -51,7 +56,7 @@
         <mark key="." line="410" column="3" />
         <mark key="^" line="410" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1566822978524">
+      <file name="/sbtShell" timestamp="1566894198744">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="95" />
         <mark key="^" line="0" column="0" />
