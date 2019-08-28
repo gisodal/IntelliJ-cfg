@@ -154,11 +154,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1566993488178">
-        <mark key="[" line="41" column="28" />
-        <mark key="]" line="41" column="29" />
-        <mark key="^" line="41" column="29" />
-        <mark key="." line="41" column="29" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1566994202066">
+        <mark key="[" line="38" column="85" />
+        <mark key="]" line="38" column="86" />
+        <mark key="^" line="38" column="86" />
+        <mark key="." line="38" column="86" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
@@ -345,16 +345,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIGFkZDEgPSAoaTogSW50KSA9PiBpICsgMQogIHZhbCBkb3VibGUgPSAoaTogSW50KSA9PiBpICogMgogIHZhbCBhZGRUaGVuRG91YmxlID0gYWRkMSBhbmRUaGVuIGRvdWJsZQogIGFkZFRoZW5Eb3VibGUoMSk=</text>
+        <text encoding="base64">KGRlcGVuZGVuY2llczogRGVwZW5kZW5jaWVzKTogRGVwZW5kZW5jaWVzID0gewogICAgdmFsIChzdGVwcywgZGVwcykgPSBkZXBlbmRlbmNpZXMg</text>
       </register>
       <register name="-" type="4">
-        <text>Graph.from(steps, deps).withReplacements(replacements)</text>
+        <text>steps: Set[DStep], deps: Set[Dep]</text>
       </register>
       <register name="/" type="4">
         <text>assert(t</text>
       </register>
       <register name="0" type="4">
-        <text>val dependencyGraph = Graph.from(steps3, deps3)</text>
+        <text encoding="base64">KGRlcGVuZGVuY2llczogRGVwZW5kZW5jaWVzKTogRGVwZW5kZW5jaWVzID0gewogICAgdmFsIChzdGVwcywgZGVwcykgPSBkZXBlbmRlbmNpZXMg</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGFkZDEgPSAoaTogSW50KSA9PiBpICsgMQogIHZhbCBkb3VibGUgPSAoaTogSW50KSA9PiBpICogMgogIHZhbCBhZGRUaGVuRG91YmxlID0gYWRkMSBhbmRUaGVuIGRvdWJsZQogIGFkZFRoZW5Eb3VibGUoMSk=</text>
