@@ -154,6 +154,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1566991518614">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="." line="35" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1562676185309">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="110" column="0" />
@@ -210,6 +215,10 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/DepGraph.scala" timestamp="1566989770356">
+        <mark key="[" line="24" column="6" />
+        <mark key="]" line="27" column="34" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1566561487296">
         <mark key="'" line="323" column="19" />
         <mark key="[" line="323" column="19" />
@@ -232,7 +241,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="52" column="57" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="60" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="47" column="48" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
@@ -332,35 +340,36 @@
       <jump line="100" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="107" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="115" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
+      <jump line="35" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">cHJpdmF0ZSB0eXBlIE5vZGVPcmRlclR1cGxlID0gKEludCwgU3RyaW5nLCBTdHJpbmcpCiAgICAgIHByaXZhdGUgdHlwZSBWaXNpdGVkID0gbXV0YWJsZS5TZXRbT2JqZWN0XQogICAgICBwcml2YXRlIG9iamVjdCBWaXNpdGVkIHsKICAgICAgICBkZWYgZW1wdHk6IFZpc2l0ZWQgPSBtdXRhYmxlLlNldC5lbXB0eVtPYmplY3RdCiAgICAgIH0K</text>
+        <text encoding="base64">KFNldFtEU3RlcF0sU2V0W0RlcF0pID0+IChTZXRbRFN0ZXBdLFNldFtEZXBdKQ==</text>
       </register>
       <register name="-" type="4">
-        <text>/** Works with unclustered graph? */</text>
+        <text>Graph.from(steps, deps).withReplacements(replacements)</text>
       </register>
       <register name="/" type="4">
         <text>assert(t</text>
       </register>
       <register name="0" type="4">
-        <text>/** Sort the nodes in a process design with a custom ordering **/</text>
+        <text encoding="base64">KFNldFtEU3RlcF0sU2V0W0RlcF0pID0+IChTZXRbRFN0ZXBdLFNldFtEZXBdKQ==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">cHJpdmF0ZSB0eXBlIE5vZGVPcmRlclR1cGxlID0gKEludCwgU3RyaW5nLCBTdHJpbmcpCiAgICAgIHByaXZhdGUgdHlwZSBWaXNpdGVkID0gbXV0YWJsZS5TZXRbT2JqZWN0XQogICAgICBwcml2YXRlIG9iamVjdCBWaXNpdGVkIHsKICAgICAgICBkZWYgZW1wdHk6IFZpc2l0ZWQgPSBtdXRhYmxlLlNldC5lbXB0eVtPYmplY3RdCiAgICAgIH0K</text>
+        <text encoding="base64">ZGVmIHJlcGxhY2Uoc3RlcDogRFN0ZXApID0gcmVwbGFjZW1lbnRzLmdldE9yRWxzZShzdGVwLCBzdGVwKQogICAgICB2YWwgbmV3U3RlcHMgPSBzdGVwcy5tYXAocmVwbGFjZSkKICAgICAgdmFsIG5ld0RlcHMgPSBkZXBzLm1hcCAoIGRlcCA9PiBEZXAocmVwbGFjZShkZXAuZnJvbVN0ZXApLCByZXBsYWNlKGRlcC50b1N0ZXApLCBkZXAua2luZCkgKSAgCg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">cHJpdmF0ZSB2YWwgZW5yaWNoID0gbmV3IFJpY2hOb2RlW3Byb2Nlc3NHcmFwaC50eXBlXShwcm9jZXNzR3JhcGgpCiAgICAgIGltcG9ydCBlbnJpY2guUmljaFRoaXNOb2RlCg==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHJlcGxhY2VtZW50cyAKICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text>// precondition: It must be a process design, but it can contain clusters
-        assert(processGraph.isClusteredProcessDesign, &quot;Computing body stacks requires a (clustered) process design&quot;)</text>
+        <text encoding="base64">cHJpdmF0ZSB0eXBlIE5vZGVPcmRlclR1cGxlID0gKEludCwgU3RyaW5nLCBTdHJpbmcpCiAgICAgIHByaXZhdGUgdHlwZSBWaXNpdGVkID0gbXV0YWJsZS5TZXRbT2JqZWN0XQogICAgICBwcml2YXRlIG9iamVjdCBWaXNpdGVkIHsKICAgICAgICBkZWYgZW1wdHk6IFZpc2l0ZWQgPSBtdXRhYmxlLlNldC5lbXB0eVtPYmplY3RdCiAgICAgIH0K</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">cHJpdmF0ZSB0eXBlIFRoaXNOb2RlID0gVGhpc1Byb2Nlc3NHcmFwaCNOb2RlVAogICAgICBwcml2YXRlIHR5cGUgVGhpc0VkZ2UgPSBUaGlzUHJvY2Vzc0dyYXBoI0VkZ2VUCiAgICAgIHByaXZhdGUgdHlwZSBOb2RlT3JkZXJUdXBsZSA9IChJbnQsIFN0cmluZywgU3RyaW5nKQo=</text>
+        <text encoding="base64">cHJpdmF0ZSB2YWwgZW5yaWNoID0gbmV3IFJpY2hOb2RlW3Byb2Nlc3NHcmFwaC50eXBlXShwcm9jZXNzR3JhcGgpCiAgICAgIGltcG9ydCBlbnJpY2guUmljaFRoaXNOb2RlCg==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">cHJpdmF0ZSB0eXBlIEFueU5vZGUgPSBkZXNpZ24uR3JhcGgjTm9kZVQKICBwcml2YXRlIHR5cGUgQW55RWRnZSA9IGRlc2lnbi5HcmFwaCNFZGdlVAogIHByaXZhdGUgdHlwZSBMYWJlbCA9IGRlc2lnbi5HcmFwaC5FZGdlLkxhYmVsCiAgcHJpdmF0ZSB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFtPYmplY3RdCgogIG9iamVjdCBWaXNpdGVkIHsKICAgIGRlZiBlbXB0eTogVmlzaXRlZCA9IG11dGFibGUuU2V0LmVtcHR5W09iamVjdF0KICB9Cg==</text>
+        <text>// precondition: It must be a process design, but it can contain clusters
+        assert(processGraph.isClusteredProcessDesign, &quot;Computing body stacks requires a (clustered) process design&quot;)</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -373,19 +382,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">cHJpdmF0ZSB0eXBlIEFueU5vZGUgPSBkZXNpZ24uR3JhcGgjTm9kZVQKICBwcml2YXRlIHR5cGUgQW55RWRnZSA9IGRlc2lnbi5HcmFwaCNFZGdlVAogIHByaXZhdGUgdHlwZSBMYWJlbCA9IGRlc2lnbi5HcmFwaC5FZGdlLkxhYmVsCiAgcHJpdmF0ZSB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFtPYmplY3RdCg==</text>
+        <text encoding="base64">cHJpdmF0ZSB0eXBlIFRoaXNOb2RlID0gVGhpc1Byb2Nlc3NHcmFwaCNOb2RlVAogICAgICBwcml2YXRlIHR5cGUgVGhpc0VkZ2UgPSBUaGlzUHJvY2Vzc0dyYXBoI0VkZ2VUCiAgICAgIHByaXZhdGUgdHlwZSBOb2RlT3JkZXJUdXBsZSA9IChJbnQsIFN0cmluZywgU3RyaW5nKQo=</text>
       </register>
       <register name="7" type="4">
         <text encoding="base64">cHJpdmF0ZSB0eXBlIEFueU5vZGUgPSBkZXNpZ24uR3JhcGgjTm9kZVQKICBwcml2YXRlIHR5cGUgQW55RWRnZSA9IGRlc2lnbi5HcmFwaCNFZGdlVAogIHByaXZhdGUgdHlwZSBMYWJlbCA9IGRlc2lnbi5HcmFwaC5FZGdlLkxhYmVsCiAgcHJpdmF0ZSB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFtPYmplY3RdCgogIG9iamVjdCBWaXNpdGVkIHsKICAgIGRlZiBlbXB0eTogVmlzaXRlZCA9IG11dGFibGUuU2V0LmVtcHR5W09iamVjdF0KICB9Cg==</text>
       </register>
       <register name="8" type="4">
-        <text>private type AnyNode = design.Graph#NodeT
-  private type AnyEdge = design.Graph#EdgeT
-  private type Label = design.Graph.Edge.Label
-  private type Visited = mutable.Set[Object]</text>
+        <text encoding="base64">cHJpdmF0ZSB0eXBlIEFueU5vZGUgPSBkZXNpZ24uR3JhcGgjTm9kZVQKICBwcml2YXRlIHR5cGUgQW55RWRnZSA9IGRlc2lnbi5HcmFwaCNFZGdlVAogIHByaXZhdGUgdHlwZSBMYWJlbCA9IGRlc2lnbi5HcmFwaC5FZGdlLkxhYmVsCiAgcHJpdmF0ZSB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFtPYmplY3RdCg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Ly8gb3JkZXJpbmcgZm9yIHByb2Nlc3MgZGVzaWduIG5vZGVzCiAgICB0eXBlIE5vZGVPcmRlclR1cGxlID0gKEludCwgU3RyaW5nLCBTdHJpbmcpCgogICAgZGVmIHRvTm9kZU9yZGVyVHVwbGUobm9kZTogQW55Tm9kZSk6IE5vZGVPcmRlclR1cGxlID0gbm9kZSBtYXRjaCB7CiAgICAgIGNhc2Ugbm9kZSA9PiBub2RlLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgIGNhc2UgZGVzaWduLkdyYXBoLk5vZGUuUGFyYWxsZWwoXykgPT4gbm9kZS5kaVN1Y2Nlc3NvcnMudG9MaXN0Lm1hcCh0b05vZGVPcmRlclR1cGxlKS5taW4KICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLkJlaGF2aW9yKF8sIF8sIGJsb2NrKSA9PiBibG9jay5lbGVtZW50cy5tYXAoU3RlcHMuc3RlcE9yZGVyVHVwbGUpLm1pbgogICAgICAgIGNhc2UgZGVzaWduLkdyYXBoLk5vZGUuRm9ybShfLCBfLCBmb3JtKSA9PiBTdGVwcy5zdGVwT3JkZXJUdXBsZShmb3JtKQogICAgICAgIGNhc2UgZGVzaWduLkdyYXBoLk5vZGUuRXhjbHVzaXZlLklmKF8sIGV2YWxJZCwgXykgPT4gU3RlcHMuc3RlcE9yZGVyVHVwbGUoSWYoZXZhbElkLCAiIiwgTmlsU3RlcCwgTmlsU3RlcCkpCiAgICAgICAgY2FzZSBkZXNpZ24uR3JhcGguTm9kZS5FeGNsdXNpdmUuV2hpbGUoXywgZXZhbElkLCBfLCBfKSA9PiBTdGVwcy5zdGVwT3JkZXJUdXBsZShXaGlsZShldmFsSWQsICIiLCB0cnVlLCBOaWxTdGVwLCBOaWxTdGVwKSkKICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLkV4Y2x1c2l2ZS5Gb3JFYWNoKF8sIGV2YWxJZCwgXykgPT4gU3RlcHMuc3RlcE9yZGVyVHVwbGUoRm9yRWFjaChldmFsSWQsICIiLCBOaWxTdGVwKSkKICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLlN0YXJ0KF8pID0+ICgwLCAiIiwgIiIpCiAgICAgICAgY2FzZSBkZXNpZ24uR3JhcGguTm9kZS5FbmQoXykgPT4gKDEwMDAsICIiLCAiIikKICAgICAgICBjYXNlIF86IGRlc2lnbi5HcmFwaC5Ob2RlLkNvZGUgPT4gdGhyb3cgRGVzaWduRXhjZXB0aW9uKHMiTm8gb3JkZXIgdHVwbGUgZGVmaW5lZCBmb3IgJHtub2RlLnRvT3V0ZXJ9IikKICAgICAgICBjYXNlIF8gPT4gdGhyb3cgRGVzaWduRXhjZXB0aW9uKHMiTm8gb3JkZXIgdHVwbGUgZGVmaW5lZCBmb3IgJHtub2RlLnRvT3V0ZXJ9IikKICAgICAgfQogICAgfQoKICAgIC8vIGN1c3RvbSBvcmRlcmluZyBmb3Igc3RyaW5ncyAoYWxwaGFiZXRpY2FsLCBsb3dlciBjYXNlIGZpcnN0KQogICAgdmFsIFN0cmluZ09yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsc3RyMikgPT4gewogICAgICBkZWYgY29tcGFyZVN0cmluZyhzdHIxOiBTdHJpbmcsIHN0cjI6IFN0cmluZyk6IEJvb2xlYW4gPSB7CiAgICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICAgIGNhc2UgKGMxLCBjMikgaWYgYzEgPT0gYzIgPT4gY29tcGFyZVN0cmluZyhzdHIxLnRhaWwsIHN0cjIudGFpbCkKICAgICAgICAgIGNhc2UgKGMxLCBjMikgaWYgYzEudG9Mb3dlciA9PSBjMi50b0xvd2VyID0+IGMyLmlzVXBwZXIKICAgICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgICB9LmdldE9yRWxzZShzdHIxLmxlbmd0aCA8IHN0cjIubGVuZ3RoKQogICAgICB9CiAgICAgIGlmIChzdHIxID09IHN0cjIpIDAgZWxzZSBpZiAoY29tcGFyZVN0cmluZyhzdHIxLCBzdHIyKSkgLTEgZWxzZSAxCiAgICB9CiAgICAKICAgIC8vIGN1c3RvbSBvcmRlcmluZyBmb3IgZGVzaWduIG5vZGVzIHR1cGxlcwogICAgaW1wbGljaXQgdmFsIG5vZGVUdXBsZU9yZGVyaW5nOiBPcmRlcmluZ1tOb2RlT3JkZXJUdXBsZV0gPSBPcmRlcmluZy5jb21wYXJhdG9yVG9PcmRlcmluZygKICAgICAgT3JkZXJpbmcuYnlbTm9kZU9yZGVyVHVwbGUsIEludF0oXy5fMSkgdGhlbkNvbXBhcmluZwogICAgICBPcmRlcmluZy5ieVtOb2RlT3JkZXJUdXBsZSwgU3RyaW5nXShfLl8yKShTdHJpbmdPcmRlcmluZykgdGhlbkNvbXBhcmluZwogICAgICBPcmRlcmluZy5ieVtOb2RlT3JkZXJUdXBsZSwgU3RyaW5nXShfLl8zKShTdHJpbmdPcmRlcmluZykKICAgICkKCiAgICAvLyBjdXN0b20gb3JkZXJpbmcgZm9yIGRlc2lnbiBub2RlcwogICAgdmFsIE5vZGVPcmRlcmluZzogT3JkZXJpbmdbQW55Tm9kZV0gPSBPcmRlcmluZy5ieSh0b05vZGVPcmRlclR1cGxlKShub2RlVHVwbGVPcmRlcmluZykKCiAgICAvLyBzb3J0IG91dGdvaW5nIGVkZ2VzIG9mIGEgcHJvY2VzcyBkZXNpZ24gbm9kZQogICAgZGVmIHNvcnRPdXRnb2luZyhub2RlOiBBbnlOb2RlKTogTGlzdFtBbnlFZGdlXSA9IHsKICAgICAgdmFsIGxhYmVsT3JkZXI6IExhYmVsID0+OiBJbnQgPSBub2RlLnRvT3V0ZXIgbWF0Y2ggewogICAgICAgIGNhc2UgZGVzaWduLkdyYXBoLk5vZGUuRXhjbHVzaXZlLklmKGlkLCBfLCBTb21lKF8pKSA9PiB7CiAgICAgICAgICBjYXNlIFNvbWUoInRydWUiKSA9PiAxCiAgICAgICAgICBjYXNlIFNvbWUoImZhbHNlIikgPT4gMgogICAgICAgICAgY2FzZSBsYWJlbCA9PiB0aHJvdyBEZXNpZ25FeGNlcHRpb24ocyJMYWJlbGVkIGV4Y2x1c2l2ZSBpZiBnYXRlIGhhcyBhbiBvdXRnb2luZyBlZGdlIHdpdGggYSBsYWJlbCAiICsKICAgICAgICAgICAgcyJvdGhlciB0aGFuICd0cnVlJyBvciAnZmFsc2UnOiAkbGFiZWwiKQogICAgICAgIH0KCiAgICAgICAgY2FzZSBkZXNpZ24uR3JhcGguTm9kZS5FeGNsdXNpdmUuV2hpbGUoaWQsIF8sIFNvbWUoXyksIGJyYW5jaCkgPT4KICAgICAgICAgIHZhbCBvcmRlcjogTGFiZWwgPT46IEludCA9IHsKICAgICAgICAgICAgY2FzZSBsYWJlbCBpZiBsYWJlbC5jb250YWlucyhicmFuY2gudG9TdHJpbmcpID0+IDEKICAgICAgICAgICAgY2FzZSBsYWJlbCBpZiBsYWJlbC5jb250YWlucygoIWJyYW5jaCkudG9TdHJpbmcpID0+IDIKICAgICAgICAgICAgY2FzZSBsYWJlbCA9PiB0aHJvdyBEZXNpZ25FeGNlcHRpb24ocyJMYWJlbGVkIGV4Y2x1c2l2ZSB3aGlsZSBnYXRlIGhhcyBhbiBvdXRnb2luZyBlZGdlIHdpdGggYSBsYWJlbCAiICsKICAgICAgICAgICAgICBzIm90aGVyIHRoYW4gJ3RydWUnIG9yICdmYWxzZSc6ICRsYWJlbCIpCiAgICAgICAgICB9CiAgICAgICAgICBvcmRlcgoKICAgICAgICBjYXNlIGRlc2lnbi5HcmFwaC5Ob2RlLkV4Y2x1c2l2ZShpZCwgXywgU29tZShfKSkgPT4KICAgICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIlRyYXZlcnNlciBlbmNvdW50ZXJlZCBhIGxhYmVsZWQgZXhjbHVzaXZlIGdhdGUgd2l0aCBpZCAiICsKICAgICAgICAgICAgcyInJGlkJyB0aGF0IGlzIG5vdCBhbiBJZiBvciBhIFdoaWxlOiAke25vZGUudG9PdXRlci50b1N0cmluZ30iKQoKICAgICAgICBjYXNlIF8gPT4gLy8gYWxsIG90aGVycwogICAgICAgIHsKICAgICAgICAgIGNhc2UgXyA9PiAxCiAgICAgICAgfQogICAgICB9CgogICAgICAvLyBzb3J0IGJ5IGVkZ2UgbGFiZWwKICAgICAgdmFsIGVkZ2VzQnlMYWJlbCA9IG5vZGUub3V0Z29pbmcuZ3JvdXBCeShlID0+IGUubGFiZWwpLnRvTGlzdCAvLyBncm91cCBieSBlZGdlIGxhYmVsCiAgICAgIHZhbCBzb3J0ZWRFZGdlc0J5TGFiZWwgPSBlZGdlc0J5TGFiZWwuc29ydEJ5KF8uXzEpKHNjYWxhLm1hdGguT3JkZXJpbmcuYnkobGFiZWxPcmRlcikpCgogICAgICAvLyB0aGVuIHNvcnQgYnkgTm9kZU9yZGVyVHVwbGUKICAgICAgdmFsIHNvcnRlZEVkZ2VzID0gc29ydGVkRWRnZXNCeUxhYmVsLmZsYXRNYXAgeyBjYXNlIChfLCBlZGdlcykgPT4KICAgICAgICBlZGdlcy50b0xpc3Quc29ydEJ5KF8udG8uYXNJbnN0YW5jZU9mW0FueU5vZGVdKShOb2RlT3JkZXJpbmcpCiAgICAgIH0KICAgICAgc29ydGVkRWRnZXMKICAgIH0K</text>
+        <text encoding="base64">cHJpdmF0ZSB0eXBlIEFueU5vZGUgPSBkZXNpZ24uR3JhcGgjTm9kZVQKICBwcml2YXRlIHR5cGUgQW55RWRnZSA9IGRlc2lnbi5HcmFwaCNFZGdlVAogIHByaXZhdGUgdHlwZSBMYWJlbCA9IGRlc2lnbi5HcmFwaC5FZGdlLkxhYmVsCiAgcHJpdmF0ZSB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFtPYmplY3RdCgogIG9iamVjdCBWaXNpdGVkIHsKICAgIGRlZiBlbXB0eTogVmlzaXRlZCA9IG11dGFibGUuU2V0LmVtcHR5W09iamVjdF0KICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
