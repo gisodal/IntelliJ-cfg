@@ -46,7 +46,6 @@
         <mark key="." line="7" column="3" />
         <mark key="^" line="7" column="3" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Symbols.scala" timestamp="1566998560264" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="3" column="50" />
@@ -63,7 +62,7 @@
         <mark key="." line="410" column="3" />
         <mark key="^" line="410" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1566917435877">
+      <file name="/sbtShell" timestamp="1567002781676">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -149,12 +148,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1566998548489">
-        <mark key="'" line="309" column="65" />
-        <mark key="[" line="311" column="45" />
-        <mark key="]" line="311" column="41" />
-        <mark key="^" line="311" column="41" />
-        <mark key="." line="311" column="41" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567002903542">
+        <mark key="'" line="310" column="65" />
+        <mark key="[" line="312" column="41" />
+        <mark key="]" line="312" column="40" />
+        <mark key="^" line="312" column="40" />
+        <mark key="." line="312" column="40" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1566998476479">
         <mark key="'" line="0" column="0" />
