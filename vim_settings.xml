@@ -9,6 +9,10 @@
         <mark key="^" line="1954" column="5" />
         <mark key="." line="1954" column="5" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1567079113196">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="31" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1565952152430">
         <mark key="[" line="50" column="25" />
         <mark key="]" line="50" column="25" />
@@ -73,6 +77,12 @@
         <mark key="]" line="9" column="50" />
         <mark key="^" line="9" column="50" />
         <mark key="." line="9" column="50" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/DirectedGraph.scala" timestamp="1567079219891">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="4" column="19" />
+        <mark key="^" line="4" column="19" />
+        <mark key="." line="4" column="19" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="28" column="0" />
@@ -148,12 +158,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567075270972">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567078567219">
         <mark key="'" line="315" column="101" />
-        <mark key="[" line="316" column="40" />
-        <mark key="]" line="316" column="45" />
-        <mark key="." line="316" column="45" />
-        <mark key="^" line="316" column="45" />
+        <mark key="[" line="351" column="24" />
+        <mark key="]" line="351" column="35" />
+        <mark key="." line="351" column="35" />
+        <mark key="^" line="351" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -215,6 +225,12 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="5" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/DepGraph.scala" timestamp="1566989770356">
         <mark key="[" line="24" column="6" />
         <mark key="]" line="27" column="34" />
@@ -229,7 +245,7 @@
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1566556199047">
         <mark key="[" line="51" column="43" />
       </file>
-      <file name="/fragment.java" timestamp="1566558874512">
+      <file name="/fragment.java" timestamp="1567079246349">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1565089272844">
@@ -344,16 +360,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>// val dependencyGraph = Graph.from(dependencies.steps, dependencies.deps)</text>
+        <text>import scalax.collection.mutable</text>
       </register>
       <register name="-" type="4">
-        <text>// val dependencyGraph = Graph.from(dependencies.steps, dependencies.deps)</text>
+        <text encoding="base64">IGdyb3VwQnkoXy5fMikubWFwVmFsdWVzKF8ua2V5cyk=</text>
       </register>
       <register name="/" type="4">
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text>an expression of DStep has ActorSymbol,</text>
+        <text>import scalax.collection.mutable</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGdldEFjdG9yU3ltYm9sW1RdKGFyZzogVCk6IE9wdGlvbltBY3RvclN5bWJvbF0gPSBhcmcgbWF0Y2ggewogICAgICAvLyBsb29rIGludG8gRFN0ZXBzCiAgICAgIGNhc2UgaW5wdXQ6IElucHV0U3RlcCAgICAgICAgICA9PiBnZXRBY3RvclN5bWJvbChpbnB1dC5mcm9tKQogICAgICBjYXNlIHVwZGF0ZTogVXBkYXRlU3RlcCAgICAgICAgPT4gZ2V0QWN0b3JTeW1ib2wodXBkYXRlLnZhbHVlKQogICAgICBjYXNlIHdyYXBwZXI6IFdyYXBwZXIgICAgICAgICAgPT4gZ2V0QWN0b3JTeW1ib2wod3JhcHBlci53cmFwcGVkKQoKICAgICAgLy8gbG9vayBpbnRvIHN5bWJvbHMKICAgICAgY2FzZSBzeW1ib2xSZXM6IFN5bWJvbFJlcyAgICAgID0+IGdldEFjdG9yU3ltYm9sKHN5bWJvbFJlcy5zeW1ib2wpCiAgICAgIGNhc2UgYWN0b3JTeW1ib2w6IEFjdG9yU3ltYm9sICA9PiBTb21lKGFjdG9yU3ltYm9sKQoKICAgICAgLy8gbG9vayBpbnRvIGV4cHJlc3Npb25zCiAgICAgIGNhc2UgZXhwcjogSW5wdXRFeHByZXNzaW9uICAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmZyb20pCiAgICAgIGNhc2UgZXhwcjogRmlsdGVyRXhwcmVzc2lvbiAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogU29ydGVkRXhwcmVzc2lvbiAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogQmluYXJ5RXhwcmVzc2lvbiAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogQXR0cmlidXRlRXhwcmVzc2lvbiA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogRXhwcmVzc2lvbiAgICAgICAgICA9PiBsb2dnZXIud2FybihzIkZhaWxlZCB0byBvYnRhaW4gYWN0b3Igc3ltYm9sIGZyb20gZXhwcmVzc2lvbiAnJHtleHByLnRvU3RyaW5nfSciKTsgTm9uZQoKICAgICAgLy8gb3RoZXJ3aXNlIGdpdmUgdXAKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiBOb25lCiAgICB9CiAgICBkZWYgaGFzQWN0b3JTeW1ib2xbVF0oYXJnOiBUKTogQm9vbGVhbiA9IGdldEFjdG9yU3ltYm9sKGFyZykubm9uRW1wdHkK</text>
