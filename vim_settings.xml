@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566996346141">
@@ -31,11 +31,11 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567090704442">
-        <mark key="[" line="25" column="3" />
-        <mark key="]" line="26" column="94" />
-        <mark key="." line="25" column="69" />
-        <mark key="^" line="25" column="69" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567092143986">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="6" column="43" />
+        <mark key="." line="37" column="56" />
+        <mark key="^" line="37" column="56" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -166,12 +166,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567083746119">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567091915994">
         <mark key="'" line="316" column="101" />
-        <mark key="[" line="327" column="26" />
-        <mark key="]" line="327" column="66" />
-        <mark key="^" line="327" column="66" />
-        <mark key="." line="327" column="66" />
+        <mark key="[" line="327" column="29" />
+        <mark key="]" line="327" column="33" />
+        <mark key="^" line="327" column="33" />
+        <mark key="." line="327" column="33" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -368,7 +368,8 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">aW1wbGljaXQgZGVmIGludFRvU3RyaW5nW1RbWF0gPDogVHJhdmVyc2FibGVMaWtlW1gsVFtYXV1dKGlucHV0OiBUW0ludF0pCiAgICAgIChpbXBsaWNpdCBjYmY6IENhbkJ1aWxkRnJvbVtUW0ludF0sU3RyaW5nLFRbU3RyaW5nXV0pOiAgVFtTdHJpbmddID0gaW5wdXQubWFwKF8udG9TdHJpbmcp</text>
+        <text>import scala.collection.TraversableLike
+import scala.collection.generic.CanBuildFrom</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IDogdGhpc0dyYXBoLk5vZGVU</text>
@@ -377,7 +378,8 @@
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aW1wbGljaXQgZGVmIGludFRvU3RyaW5nW1RbWF0gPDogVHJhdmVyc2FibGVMaWtlW1gsVFtYXV1dKGlucHV0OiBUW0ludF0pCiAgICAgIChpbXBsaWNpdCBjYmY6IENhbkJ1aWxkRnJvbVtUW0ludF0sU3RyaW5nLFRbU3RyaW5nXV0pOiAgVFtTdHJpbmddID0gaW5wdXQubWFwKF8udG9TdHJpbmcp</text>
+        <text>import scala.collection.TraversableLike
+import scala.collection.generic.CanBuildFrom</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIG5vZGVzOiBTZXRbZGVwZW5kZSAKICAgIA==</text>
