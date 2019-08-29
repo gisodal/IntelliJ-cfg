@@ -31,11 +31,11 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567086783025">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-        <mark key="^" line="23" column="66" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567090704442">
+        <mark key="[" line="25" column="3" />
+        <mark key="]" line="26" column="94" />
+        <mark key="." line="25" column="69" />
+        <mark key="^" line="25" column="69" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -368,16 +368,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>[thisGraph.NodeT]</text>
+        <text encoding="base64">aW1wbGljaXQgZGVmIGludFRvU3RyaW5nW1RbWF0gPDogVHJhdmVyc2FibGVMaWtlW1gsVFtYXV1dKGlucHV0OiBUW0ludF0pCiAgICAgIChpbXBsaWNpdCBjYmY6IENhbkJ1aWxkRnJvbVtUW0ludF0sU3RyaW5nLFRbU3RyaW5nXV0pOiAgVFtTdHJpbmddID0gaW5wdXQubWFwKF8udG9TdHJpbmcp</text>
       </register>
       <register name="-" type="4">
-        <text>[thisGraph.NodeT]</text>
+        <text encoding="base64">IDogdGhpc0dyYXBoLk5vZGVU</text>
       </register>
       <register name="/" type="4">
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text>ThisGraph#NodeT</text>
+        <text encoding="base64">aW1wbGljaXQgZGVmIGludFRvU3RyaW5nW1RbWF0gPDogVHJhdmVyc2FibGVMaWtlW1gsVFtYXV1dKGlucHV0OiBUW0ludF0pCiAgICAgIChpbXBsaWNpdCBjYmY6IENhbkJ1aWxkRnJvbVtUW0ludF0sU3RyaW5nLFRbU3RyaW5nXV0pOiAgVFtTdHJpbmddID0gaW5wdXQubWFwKF8udG9TdHJpbmcp</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIG5vZGVzOiBTZXRbZGVwZW5kZSAKICAgIA==</text>
