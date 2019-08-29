@@ -31,6 +31,12 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567083093350">
+        <mark key="[" line="10" column="2" />
+        <mark key="]" line="10" column="1" />
+        <mark key="." line="10" column="1" />
+        <mark key="^" line="10" column="1" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
         <mark key="[" line="33" column="14" />
@@ -62,8 +68,10 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1566562391616">
-        <mark key="." line="410" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1567079509703">
+        <mark key="[" line="19" column="2" />
+        <mark key="]" line="20" column="84" />
+        <mark key="." line="480" column="0" />
         <mark key="^" line="410" column="3" />
       </file>
       <file name="/sbtShell" timestamp="1567067547058">
@@ -158,12 +166,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567078567219">
-        <mark key="'" line="315" column="101" />
-        <mark key="[" line="351" column="24" />
-        <mark key="]" line="351" column="35" />
-        <mark key="." line="351" column="35" />
-        <mark key="^" line="351" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567079424138">
+        <mark key="'" line="316" column="101" />
+        <mark key="[" line="323" column="0" />
+        <mark key="]" line="323" column="0" />
+        <mark key="^" line="311" column="3" />
+        <mark key="." line="323" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -360,16 +368,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>import scalax.collection.mutable</text>
+        <text encoding="base64">ZmluYWwgY2xhc3MgRXh0RGlHcmFwaFtUaGlzR3JhcGgsIE4sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdXSh2YWwgZzogR3JhcGhbTiwgRV0pIHsKICAgIGRlZiBhbHdheXNUcnVlID0gdHJ1ZQogIH0=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGdyb3VwQnkoXy5fMikubWFwVmFsdWVzKF8ua2V5cyk=</text>
+        <text>: ExtDiGraph[thisGraph.type]</text>
       </register>
       <register name="/" type="4">
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text>import scalax.collection.mutable</text>
+        <text encoding="base64">ZmluYWwgY2xhc3MgRXh0RGlHcmFwaFtUaGlzR3JhcGgsIE4sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdXSh2YWwgZzogR3JhcGhbTiwgRV0pIHsKICAgIGRlZiBhbHdheXNUcnVlID0gdHJ1ZQogIH0=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGdldEFjdG9yU3ltYm9sW1RdKGFyZzogVCk6IE9wdGlvbltBY3RvclN5bWJvbF0gPSBhcmcgbWF0Y2ggewogICAgICAvLyBsb29rIGludG8gRFN0ZXBzCiAgICAgIGNhc2UgaW5wdXQ6IElucHV0U3RlcCAgICAgICAgICA9PiBnZXRBY3RvclN5bWJvbChpbnB1dC5mcm9tKQogICAgICBjYXNlIHVwZGF0ZTogVXBkYXRlU3RlcCAgICAgICAgPT4gZ2V0QWN0b3JTeW1ib2wodXBkYXRlLnZhbHVlKQogICAgICBjYXNlIHdyYXBwZXI6IFdyYXBwZXIgICAgICAgICAgPT4gZ2V0QWN0b3JTeW1ib2wod3JhcHBlci53cmFwcGVkKQoKICAgICAgLy8gbG9vayBpbnRvIHN5bWJvbHMKICAgICAgY2FzZSBzeW1ib2xSZXM6IFN5bWJvbFJlcyAgICAgID0+IGdldEFjdG9yU3ltYm9sKHN5bWJvbFJlcy5zeW1ib2wpCiAgICAgIGNhc2UgYWN0b3JTeW1ib2w6IEFjdG9yU3ltYm9sICA9PiBTb21lKGFjdG9yU3ltYm9sKQoKICAgICAgLy8gbG9vayBpbnRvIGV4cHJlc3Npb25zCiAgICAgIGNhc2UgZXhwcjogSW5wdXRFeHByZXNzaW9uICAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmZyb20pCiAgICAgIGNhc2UgZXhwcjogRmlsdGVyRXhwcmVzc2lvbiAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogU29ydGVkRXhwcmVzc2lvbiAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogQmluYXJ5RXhwcmVzc2lvbiAgICA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogQXR0cmlidXRlRXhwcmVzc2lvbiA9PiBnZXRBY3RvclN5bWJvbChleHByLmxlZnQpCiAgICAgIGNhc2UgZXhwcjogRXhwcmVzc2lvbiAgICAgICAgICA9PiBsb2dnZXIud2FybihzIkZhaWxlZCB0byBvYnRhaW4gYWN0b3Igc3ltYm9sIGZyb20gZXhwcmVzc2lvbiAnJHtleHByLnRvU3RyaW5nfSciKTsgTm9uZQoKICAgICAgLy8gb3RoZXJ3aXNlIGdpdmUgdXAKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiBOb25lCiAgICB9CiAgICBkZWYgaGFzQWN0b3JTeW1ib2xbVF0oYXJnOiBUKTogQm9vbGVhbiA9IGdldEFjdG9yU3ltYm9sKGFyZykubm9uRW1wdHkK</text>
