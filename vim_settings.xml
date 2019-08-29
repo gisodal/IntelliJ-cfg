@@ -62,7 +62,7 @@
         <mark key="." line="410" column="3" />
         <mark key="^" line="410" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1567002781676">
+      <file name="/sbtShell" timestamp="1567067547058">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -148,12 +148,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567003338004">
-        <mark key="'" line="322" column="41" />
-        <mark key="[" line="309" column="33" />
-        <mark key="]" line="309" column="9" />
-        <mark key="^" line="309" column="9" />
-        <mark key="." line="309" column="9" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567068228727">
+        <mark key="'" line="318" column="41" />
+        <mark key="[" line="310" column="25" />
+        <mark key="]" line="310" column="25" />
+        <mark key="^" line="317" column="99" />
+        <mark key="." line="310" column="25" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1566998476479">
         <mark key="'" line="0" column="0" />
@@ -340,7 +340,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSByZXM6IFN5bWJvbFJlcyA9PiBpc0FjdG9yU3ltYm9sKHJlcyk=</text>
+        <text>(dstep.innermost, dstep)</text>
       </register>
       <register name="-" type="4">
         <text>.toMap</text>
@@ -349,7 +349,7 @@
         <text encoding="base64">XDxpbnB1dFw+</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSByZXM6IFN5bWJvbFJlcyA9PiBpc0FjdG9yU3ltYm9sKHJlcyk=</text>
+        <text>(dstep.innermost, dstep)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGFkZDEgPSAoaTogSW50KSA9PiBpICsgMQogIHZhbCBkb3VibGUgPSAoaTogSW50KSA9PiBpICogMgogIHZhbCBhZGRUaGVuRG91YmxlID0gYWRkMSBhbmRUaGVuIGRvdWJsZQogIGFkZFRoZW5Eb3VibGUoMSk=</text>
