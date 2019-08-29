@@ -31,11 +31,11 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567093288265">
-        <mark key="[" line="26" column="23" />
-        <mark key="]" line="26" column="25" />
-        <mark key="^" line="26" column="25" />
-        <mark key="." line="26" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567094618497">
+        <mark key="[" line="33" column="40" />
+        <mark key="]" line="33" column="44" />
+        <mark key="^" line="33" column="44" />
+        <mark key="." line="33" column="44" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -68,9 +68,9 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1567079509703">
-        <mark key="[" line="19" column="2" />
-        <mark key="]" line="20" column="84" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1567094120698">
+        <mark key="[" line="64" column="4" />
+        <mark key="]" line="71" column="79" />
         <mark key="." line="480" column="0" />
         <mark key="^" line="410" column="3" />
       </file>
@@ -368,7 +368,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>type LocalNodeT = thisGraph.NodeT</text>
+        <text>Graph[N,E]</text>
       </register>
       <register name="-" type="4">
         <text>def toNodeT(nodes: thisGraph.NodeSetT): NodeSetT = nodes.asInstanceOf[NodeSetT]</text>
@@ -377,7 +377,7 @@
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text>type LocalNodeT = thisGraph.NodeT</text>
+        <text>Graph[N,E]</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIG5vZGVzOiBTZXRbZGVwZW5kZSAKICAgIA==</text>
