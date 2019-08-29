@@ -31,12 +31,12 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567105474026">
-        <mark key="y" line="23" column="29" />
-        <mark key="[" line="24" column="4" />
-        <mark key="]" line="24" column="5" />
-        <mark key="." line="24" column="5" />
-        <mark key="^" line="24" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567106288529">
+        <mark key="y" line="22" column="29" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="75" column="11" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -369,7 +369,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">b2JqZWN0IEdyYXBoRW5yaWNobWVudCB7CiAgaW1wbGljaXQgZGVmIFJpY2hEaUdyYXBoW04sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdLCBYXSh0aGlzR3JhcGg6IEdyYXBoW04sIEVdKSA9IG5ldyBSaWNoR3JhcGhbdGhpc0dyYXBoLnR5cGUsIE4sIEVdKHRoaXNHcmFwaCkKICBmaW5hbCBjbGFzcyBSaWNoR3JhcGhbVGhpc0dyYXBoIDw6IEdyYXBoW04sRV0sIE4sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdXSh2YWwgdGhpc0dyYXBoOiBHcmFwaFtOLCBFXSkgIHsKICAgIHR5cGUgTG9jYWxOb2RlVCAgICA9IHRoaXNHcmFwaC5Ob2RlVAogICAgdHlwZSBOb2RlVCAgICAgICAgID0gVGhpc0dyYXBoI05vZGVUCgogICAgaW1wbGljaXQgZGVmIHRvTm9kZVQobm9kZTogTG9jYWxOb2RlVCk6IE5vZGVUID0gbm9kZS5hc0luc3RhbmNlT2ZbTm9kZVRdCiAgICBpbXBsaWNpdCBkZWYgdG9Ob2RlVENvbGxlY3Rpb25bVFtYXSA8OiBUcmF2ZXJzYWJsZUxpa2VbWCxUW1hdXV0obm9kZXM6IFRbTG9jYWxOb2RlVF0pCiAgICAgIChpbXBsaWNpdCBjYmY6IENhbkJ1aWxkRnJvbVtUW0xvY2FsTm9kZVRdLE5vZGVULFRbTm9kZVRdXSk6IFRbTm9kZVRdID0KICAgICAgbm9kZXMubWFwKHRvTm9kZVQpCgogICAgZGVmIG15TG9jYWxOb2RlczogU2V0W0xvY2FsTm9kZVRdID0gdGhpc0dyYXBoLm5vZGVzLnRvU2V0CiAgICBkZWYgbXlOb2RlczE6IFNldFtOb2RlVF0gPSB0b05vZGVUQ29sbGVjdGlvbihteUxvY2FsTm9kZXMpICAgICAgICAgICAvLyB3b3JrcyBhcyBleHBlY3RlZAogICAgZGVmIG15Tm9kZXMyOiBTZXRbTm9kZVRdID0gdG9Ob2RlVENvbGxlY3Rpb24odGhpc0dyYXBoLm5vZGVzLnRvU2V0KSAgLy8gd29ya3MgYXMgZXhwZWN0ZWQKICAgIGRlZiBteU5vZGVzMzogU2V0W05vZGVUXSA9IG15TG9jYWxOb2RlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGltcGxpY2l0IGNvbnZlcnNpb24gd29ya3MKICAgIGRlZiBteU5vZGVzNDogU2V0W05vZGVUXSA9IHRoaXNHcmFwaC5ub2Rlcy50b1NldCAgICAgICAgICAgICAgICAgICAgIC8vIG5vIGltcGxpY2l0IGNvbnZlcnNpb24hIQogIH0KfQo=</text>
+        <text>thisGraph.NodeT</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGRlZiBteU5vZGVzMjogU2V0W05vZGVUXSA9IHRoaXNHcmFwaC5ub2Rlcy50b1NldA==</text>
@@ -378,7 +378,7 @@
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">b2JqZWN0IEdyYXBoRW5yaWNobWVudCB7CiAgaW1wbGljaXQgZGVmIFJpY2hEaUdyYXBoW04sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdLCBYXSh0aGlzR3JhcGg6IEdyYXBoW04sIEVdKSA9IG5ldyBSaWNoR3JhcGhbdGhpc0dyYXBoLnR5cGUsIE4sIEVdKHRoaXNHcmFwaCkKICBmaW5hbCBjbGFzcyBSaWNoR3JhcGhbVGhpc0dyYXBoIDw6IEdyYXBoW04sRV0sIE4sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdXSh2YWwgdGhpc0dyYXBoOiBHcmFwaFtOLCBFXSkgIHsKICAgIHR5cGUgTG9jYWxOb2RlVCAgICA9IHRoaXNHcmFwaC5Ob2RlVAogICAgdHlwZSBOb2RlVCAgICAgICAgID0gVGhpc0dyYXBoI05vZGVUCgogICAgaW1wbGljaXQgZGVmIHRvTm9kZVQobm9kZTogTG9jYWxOb2RlVCk6IE5vZGVUID0gbm9kZS5hc0luc3RhbmNlT2ZbTm9kZVRdCiAgICBpbXBsaWNpdCBkZWYgdG9Ob2RlVENvbGxlY3Rpb25bVFtYXSA8OiBUcmF2ZXJzYWJsZUxpa2VbWCxUW1hdXV0obm9kZXM6IFRbTG9jYWxOb2RlVF0pCiAgICAgIChpbXBsaWNpdCBjYmY6IENhbkJ1aWxkRnJvbVtUW0xvY2FsTm9kZVRdLE5vZGVULFRbTm9kZVRdXSk6IFRbTm9kZVRdID0KICAgICAgbm9kZXMubWFwKHRvTm9kZVQpCgogICAgZGVmIG15TG9jYWxOb2RlczogU2V0W0xvY2FsTm9kZVRdID0gdGhpc0dyYXBoLm5vZGVzLnRvU2V0CiAgICBkZWYgbXlOb2RlczE6IFNldFtOb2RlVF0gPSB0b05vZGVUQ29sbGVjdGlvbihteUxvY2FsTm9kZXMpICAgICAgICAgICAvLyB3b3JrcyBhcyBleHBlY3RlZAogICAgZGVmIG15Tm9kZXMyOiBTZXRbTm9kZVRdID0gdG9Ob2RlVENvbGxlY3Rpb24odGhpc0dyYXBoLm5vZGVzLnRvU2V0KSAgLy8gd29ya3MgYXMgZXhwZWN0ZWQKICAgIGRlZiBteU5vZGVzMzogU2V0W05vZGVUXSA9IG15TG9jYWxOb2RlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGltcGxpY2l0IGNvbnZlcnNpb24gd29ya3MKICAgIGRlZiBteU5vZGVzNDogU2V0W05vZGVUXSA9IHRoaXNHcmFwaC5ub2Rlcy50b1NldCAgICAgICAgICAgICAgICAgICAgIC8vIG5vIGltcGxpY2l0IGNvbnZlcnNpb24hIQogIH0KfQo=</text>
+        <text>thisGraph.NodeT</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZmluYWwgY2xhc3MgUmljaEdyYXBoW1RoaXNHcmFwaCA8OiBHcmFwaFtOLEVdLCBOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odmFsIHRoaXNHcmFwaDogR3JhcGhbTiwgRV0pIGV4dGVuZHMgQW55VmFsIHsKICAgIHR5cGUgTG9jYWxOb2RlVCAgICA9IHRoaXNHcmFwaC5Ob2RlVAogICAgdHlwZSBOb2RlVCAgICAgICAgID0gVGhpc0dyYXBoI05vZGVUCgogICAgaW1wbGljaXQgZGVmIHRvTm9kZVQobm9kZTogTG9jYWxOb2RlVCk6IE5vZGVUID0gbm9kZS5hc0luc3RhbmNlT2ZbTm9kZVRdCiAgICBpbXBsaWNpdCBkZWYgdG9Ob2RlVENvbGxlY3Rpb25bVFtYXSA8OiBUcmF2ZXJzYWJsZUxpa2VbWCxUW1hdXV0obm9kZXM6IFRbXyA+OiBMb2NhbE5vZGVUXSkKICAgICAgKGltcGxpY2l0IGNiZjogQ2FuQnVpbGRGcm9tW1RbTG9jYWxOb2RlVF0sTm9kZVQsVFtOb2RlVF1dKTogVFtOb2RlVF0gPQogICAgICBub2Rlcy5tYXAodG9Ob2RlVCkKCiAgICBkZWYgbXlOb2RlczE6IFNldFtOb2RlVF0gPSB0b05vZGVUQ29sbGVjdGlvbih0aGlzR3JhcGgubm9kZXMudG9TZXQpCiAgICBkZWYgbXlOb2RlczI6IFNldFtOb2RlVF0gPSB0aGlzR3JhcGgubm9kZXMudG9TZXQKICB9Cg==</text>
