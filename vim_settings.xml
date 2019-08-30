@@ -25,11 +25,11 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567161554005">
-        <mark key="[" line="96" column="4" />
-        <mark key="]" line="97" column="3" />
-        <mark key="^" line="97" column="3" />
-        <mark key="." line="97" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567164813469">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="4" />
+        <mark key="^" line="5" column="34" />
+        <mark key="." line="44" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -164,12 +164,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567161104347">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567164669545">
         <mark key="'" line="316" column="101" />
-        <mark key="[" line="326" column="29" />
-        <mark key="]" line="326" column="8" />
-        <mark key="." line="326" column="8" />
-        <mark key="^" line="326" column="8" />
+        <mark key="[" line="331" column="16" />
+        <mark key="]" line="331" column="25" />
+        <mark key="." line="331" column="25" />
+        <mark key="^" line="331" column="25" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -366,16 +366,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.toList</text>
+        <text>implicit val config = thisGraph.config</text>
       </register>
       <register name="-" type="4">
-        <text>.toList</text>
+        <text>D</text>
       </register>
       <register name="/" type="4">
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBTZXEobm9kZTEsIG5vZGUyKSBpZiBub2RlMi5wYXRoVG8obm9kZTEpLm5vbkVtcHR5ID0+IChub2RlMixub2RlMSkgfQ==</text>
+        <text>implicit val config = thisGraph.config</text>
       </register>
       <register name="1" type="4">
         <text>private type LocalNodeT    = thisGraph.NodeT
