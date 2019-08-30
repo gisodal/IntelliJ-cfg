@@ -25,11 +25,11 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567156361890">
-        <mark key="[" line="73" column="4" />
-        <mark key="]" line="73" column="113" />
-        <mark key="." line="93" column="5" />
-        <mark key="^" line="93" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567156901797">
+        <mark key="[" line="48" column="17" />
+        <mark key="]" line="48" column="22" />
+        <mark key="." line="48" column="22" />
+        <mark key="^" line="48" column="22" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -164,12 +164,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567156496288">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567156869974">
         <mark key="'" line="316" column="101" />
-        <mark key="[" line="331" column="72" />
-        <mark key="]" line="331" column="74" />
-        <mark key="^" line="331" column="74" />
-        <mark key="." line="331" column="74" />
+        <mark key="[" line="331" column="75" />
+        <mark key="]" line="331" column="70" />
+        <mark key="." line="331" column="70" />
+        <mark key="^" line="331" column="70" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
