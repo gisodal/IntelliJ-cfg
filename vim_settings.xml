@@ -31,11 +31,11 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567152154002">
-        <mark key="[" line="62" column="34" />
-        <mark key="]" line="62" column="5" />
-        <mark key="^" line="62" column="5" />
-        <mark key="." line="62" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567153134653">
+        <mark key="[" line="51" column="43" />
+        <mark key="]" line="51" column="39" />
+        <mark key="." line="51" column="39" />
+        <mark key="^" line="51" column="39" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -221,7 +221,7 @@
         <mark key="[" line="51" column="17" />
         <mark key="]" line="51" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1566472456781">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1567152196663">
         <mark key="[" line="102" column="82" />
         <mark key="]" line="102" column="74" />
         <mark key="." line="102" column="74" />
