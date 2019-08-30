@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566996346141">
@@ -31,11 +31,11 @@
         <mark key="^" line="147" column="52" />
         <mark key="." line="147" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567154741137">
-        <mark key="[" line="63" column="84" />
-        <mark key="]" line="65" column="3" />
-        <mark key="^" line="65" column="3" />
-        <mark key="." line="65" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567155660213">
+        <mark key="[" line="94" column="33" />
+        <mark key="]" line="94" column="32" />
+        <mark key="." line="94" column="32" />
+        <mark key="^" line="94" column="32" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/bpmn/enrich/ProcessDesign.scala" timestamp="1566386928692">
         <mark key="'" line="5" column="66" />
@@ -79,6 +79,10 @@
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/immutable/Graph.scala" timestamp="1567155038560">
+        <mark key="[" line="30" column="45" />
+        <mark key="]" line="30" column="76" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Exception.scala" timestamp="1565952343780">
         <mark key="[" line="9" column="51" />
@@ -221,9 +225,9 @@
         <mark key="[" line="51" column="17" />
         <mark key="]" line="51" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1567152196663">
-        <mark key="[" line="102" column="82" />
-        <mark key="]" line="102" column="74" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1567155560466">
+        <mark key="[" line="14" column="2" />
+        <mark key="]" line="14" column="49" />
         <mark key="." line="102" column="74" />
         <mark key="^" line="102" column="74" />
       </file>
@@ -367,8 +371,8 @@
       <jump line="315" column="101" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIHZhbCBwYXRoID0gbm9kZXMuaGVhZC5wYXRoVG8obm9kZXMuaGVhZCkK</text>
+      <register name="&quot;" type="4">
+        <text>implicit val edgeFactory: Edge.type = Graph.Edge</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGRlZiBteU5vZGVzMjogU2V0W05vZGVUXSA9IHRoaXNHcmFwaC5ub2Rlcy50b1NldA==</text>
@@ -377,7 +381,7 @@
         <text>left</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZUlucHV0R3JhcGgoaW5wdXRzOiBTZXRbcHJvY2Vzc0dyYXBoLk5vZGVUXSkgPSB7CiAgICAgICAgZGVmIGlucHV0RWRnZXMoaW5wdXRzOiBTZXRbcHJvY2Vzc0dyYXBoLk5vZGVUXSk6IExpc3RbRWRnZV0gPSB7CiAgICAgICAgICAvLyBpZGVudGlmeSB0cmFuc2l0aXZlIGVkZ2VzIGJldHdlZW4gaW5wdXRzCiAgICAgICAgICB2YWwgY29ubmVjdGlvbnMgPSBpbnB1dHMudG9MaXN0LmNvbWJpbmF0aW9ucygyKS50b0xpc3QKICAgICAgICAgIHZhbCBlZGdlc1RvID0gY29ubmVjdGlvbnMuY29sbGVjdCB7IGNhc2UgU2VxKGlucHV0MSwgaW5wdXQyKSBpZiBpbnB1dDEucGF0aFRvKGlucHV0Mikubm9uRW1wdHkgPT4gKGlucHV0MSxpbnB1dDIpIH0KICAgICAgICAgIHZhbCBlZGdlc0Zyb20gPSBjb25uZWN0aW9ucy5jb2xsZWN0IHsgY2FzZSBTZXEoaW5wdXQxLCBpbnB1dDIpIGlmIGlucHV0Mi5wYXRoVG8oaW5wdXQxKS5ub25FbXB0eSA9PiAoaW5wdXQyLGlucHV0MSkgfQogICAgICAgICAgdmFsIGVkZ2VzID0geyBlZGdlc1RvICsrIGVkZ2VzRnJvbSB9Lm1hcCB7IGNhc2UgKGZyb20sdG8pID0+IChmcm9tLnRvT3V0ZXIuZGVlcENvcHksIHRvLnRvT3V0ZXIuZGVlcENvcHkpIH0KCiAgICAgICAgICAvLyBjb252ZXJ0IHRvIGVkZ2VzCiAgICAgICAgICBlZGdlcy5tYXAgeyBjYXNlIChmcm9tLHRvKSA9PiBkZXNpZ24uR3JhcGguRWRnZShmcm9tLCB0bywgTm9uZSkgfQogICAgICAgIH0KCiAgICAgICAgLy8gY3JlYXRlIGlucHV0IGdyYXBoIGJhc2VkIG9uIHRyYW5zaXRpdmUgcmVsYXRpb25zIGJldHdlZW4gaW5wdXRzCiAgICAgICAgdmFsIGlucHV0Tm9kZXMgPSBpbnB1dHMubWFwKF8udG9PdXRlci5kZWVwQ29weSkKICAgICAgICB2YWwgaW5wdXRHcmFwaCA9IGRlc2lnbi5HcmFwaChpbnB1dE5vZGVzLCBpbnB1dEVkZ2VzKGlucHV0cykpCiAgICAgICAgaW5wdXRHcmFwaC50cmFuc2l0aXZlUmVkdWN0aW9uKCkKCiAgICAgICAgYXNzZXJ0KGlucHV0R3JhcGguZmluZEN5Y2xlLmlzRW1wdHksICJUaGVyZSBpcyBhIGN5Y2xlIGluIHRoZSBpbmR1Y2VkIHRyYW5zaXRpdmUgaW5wdXQgZ3JhcGguIikKICAgICAgICBpbnB1dEdyYXBoCiAgICAgIH0=</text>
+        <text>implicit val edgeFactory: Edge.type = Graph.Edge</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIHZhbCBwYXRoID0gbm9kZXMuaGVhZC5wYXRoVG8obm9kZXMuaGVhZCkK</text>
