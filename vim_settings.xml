@@ -115,9 +115,9 @@
         <mark key="." line="86" column="29" />
         <mark key="^" line="86" column="29" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1567413649057">
-        <mark key="[" line="350" column="4" />
-        <mark key="]" line="351" column="29" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1567512491012">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="56" />
         <mark key="^" line="33" column="37" />
         <mark key="." line="33" column="37" />
       </file>
@@ -177,11 +177,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567511437537">
-        <mark key="[" line="398" column="0" />
-        <mark key="]" line="398" column="0" />
-        <mark key="^" line="395" column="3" />
-        <mark key="." line="398" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567512809117">
+        <mark key="[" line="416" column="76" />
+        <mark key="]" line="416" column="93" />
+        <mark key="^" line="416" column="75" />
+        <mark key="." line="416" column="76" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -378,32 +378,32 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.withEdgeFilter(!_.kind.elided)</text>
+        <text>dependencies.deps</text>
       </register>
       <register name="-" type="4">
-        <text>writeNodes.intersect(readNode.ancestors)</text>
+        <text encoding="base64">dmFsIG9yZGVyZWRBY3RvckRlcHMgPSBhY3RvckRlcHMuZ3JvdXBCeShkZXAgPT4gZGVwLmZyb20pLnZhbHVlcy5mbGF0dGVuLnRvTGlzdA==</text>
       </register>
       <register name="/" type="4">
         <text>RichNode</text>
       </register>
       <register name="0" type="4">
-        <text>.withEdgeFilter(!_.kind.elided)</text>
+        <text>dependencies.deps</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">aW1wb3J0IHV0aWwuR3JhcGhFbmhhbmNlbWVudHMuRW5oYW5jZWRHcmFwaAogICAgZGVwZW5kZW5jeUdyYXBoLndpdGhOb2RlRmlsdGVyKCkK</text>
+        <text encoding="base64">ZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPSB7CiAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKICAgIH0K</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">aW1wb3J0IHV0aWwuR3JhcGhFbmhhbmNlbWVudHMuRW5oYW5jZWRHcmFwaAogICAgICBkZXBlbmRlbmN5R3JhcGgud2l0aE5vZGVGaWx0ZXIoKQo=</text>
+        <text encoding="base64">ICAgIHZhbCBvcmRlcmVkQWN0b3JEZXBzID0gYWN0b3JEZXBzLmdyb3VwQnkoZGVwID0+IGRlcC5mcm9tKS52YWx1ZXMuZmxhdHRlbi50b0xpc3QKICAgIAogICAgZGVmIGZpbHRlckFjdG9yRGVwcyhkZXBzOiBMaXN0W0RlcF0pOiBTZXRbRGVwXSA9IGRlcHMgbWF0Y2ggewogICAgICBkZXBzICAgCiAgICB9</text>
       </register>
       <register name="3" type="4">
-        <text>val enrich = com.xlrit.gears.generator.enrich.immutable.DiGraph.RichDiGraph(dependencyGraph)
-          import enrich.RichNode</text>
+        <text encoding="base64">aW1wb3J0IHV0aWwuR3JhcGhFbmhhbmNlbWVudHMuRW5oYW5jZWRHcmFwaAogICAgZGVwZW5kZW5jeUdyYXBoLndpdGhOb2RlRmlsdGVyKCkK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAuZ3JvdXBCeXsgY2FzZSAoZnJvbSx0byxfKSA9PiAoZnJvbSx0bykgfQo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">aW1wb3J0IHV0aWwuR3JhcGhFbmhhbmNlbWVudHMuRW5oYW5jZWRHcmFwaAogICAgICBkZXBlbmRlbmN5R3JhcGgud2l0aE5vZGVGaWx0ZXIoKQo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ZGVmIGdldEZpcnN0V3JpdGVzKGRlcGVuZGVuY3lHcmFwaDogRGVwR3JhcGgsIGRzdGVwczogU2V0W0RTdGVwXSk6IFNldFtEU3RlcF0gPSB7CiAgICAgICAgICAgIHZhbCBhY3RvcldyaXRlTm9kZXMgPSB3cml0ZXMuZmxhdE1hcChkc3RlcCA9PiBkZXBlbmRlbmN5R3JhcGguZmluZChkc3RlcCkpCiAgICAgICAgICAgIHZhbCB3cml0ZUdyYXBoID0gZGVwZW5kZW5jeUdyYXBoLmlzb21vcnBoaWNTdWJncmFwaChhY3RvcldyaXRlTm9kZXMpCiAgICAgICAgICAgIHZhbCBmaXJzdFdyaXRlcyA9IHdyaXRlR3JhcGgucm9vdHMubWFwKF8udG9PdXRlcikKICAgICAgICAgICAgZmlyc3RXcml0ZXMKICAgICAgICAgIH0=</text>
+        <text>val enrich = com.xlrit.gears.generator.enrich.immutable.DiGraph.RichDiGraph(dependencyGraph)
+          import enrich.RichNode</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -415,17 +415,17 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">dmFsIGFjdG9yVG9Xcml0ZXMgPSBnZXRBY3RvclRvRFN0ZXBzKGFjdG9yV3JpdGVzKQogICAgICB2YWwgYWN0b3JUb1JlYWRzID0gZ2V0QWN0b3JUb0RTdGVwcyhhY3RvclJlYWRzKQo=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAuZ3JvdXBCeXsgY2FzZSAoZnJvbSx0byxfKSA9PiAoZnJvbSx0bykgfQo=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">dmFsIGFjdG9yVG9Xcml0ZXMgPSBnZXRBY3RvclRvRFN0ZXBzKGFjdG9yV3JpdGVzKQogICAgdmFsIGFjdG9yVG9SZWFkcyA9IGdldEFjdG9yVG9EU3RlcHMoYWN0b3JSZWFkcykK</text>
+        <text encoding="base64">ZGVmIGdldEZpcnN0V3JpdGVzKGRlcGVuZGVuY3lHcmFwaDogRGVwR3JhcGgsIGRzdGVwczogU2V0W0RTdGVwXSk6IFNldFtEU3RlcF0gPSB7CiAgICAgICAgICAgIHZhbCBhY3RvcldyaXRlTm9kZXMgPSB3cml0ZXMuZmxhdE1hcChkc3RlcCA9PiBkZXBlbmRlbmN5R3JhcGguZmluZChkc3RlcCkpCiAgICAgICAgICAgIHZhbCB3cml0ZUdyYXBoID0gZGVwZW5kZW5jeUdyYXBoLmlzb21vcnBoaWNTdWJncmFwaChhY3RvcldyaXRlTm9kZXMpCiAgICAgICAgICAgIHZhbCBmaXJzdFdyaXRlcyA9IHdyaXRlR3JhcGgucm9vdHMubWFwKF8udG9PdXRlcikKICAgICAgICAgICAgZmlyc3RXcml0ZXMKICAgICAgICAgIH0=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">dmFsIChhY3RvcldyaXRlcywgYWN0b3JSZWFkcykgPSBnZXRBY3RvclJlYWRzQW5kV3JpdGVzCiAgICB2YWwgYWN0b3JUb1dyaXRlcyA9IGdldEFjdG9yVG9EU3RlcHMoYWN0b3JXcml0ZXMpCiAgICB2YWwgYWN0b3JUb1JlYWRzID0gZ2V0QWN0b3JUb0RTdGVwcyhhY3RvclJlYWRzKQo=</text>
+        <text encoding="base64">dmFsIGFjdG9yVG9Xcml0ZXMgPSBnZXRBY3RvclRvRFN0ZXBzKGFjdG9yV3JpdGVzKQogICAgICB2YWwgYWN0b3JUb1JlYWRzID0gZ2V0QWN0b3JUb0RTdGVwcyhhY3RvclJlYWRzKQo=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">YWN0b3JXcml0ZXMubWFwKGFjdG9yV3JpdGUgPT4gKGFjdG9yV3JpdGUsIGdldEFjdG9yU3ltYm9sKGFjdG9yV3JpdGUpLmdldCkpLnRvTWFwCiAgICAgICAgLmdyb3VwQnkoXy5fMikubWFwVmFsdWVzKF8ua2V5cy50b1NldCk=</text>
+        <text encoding="base64">dmFsIGFjdG9yVG9Xcml0ZXMgPSBnZXRBY3RvclRvRFN0ZXBzKGFjdG9yV3JpdGVzKQogICAgdmFsIGFjdG9yVG9SZWFkcyA9IGdldEFjdG9yVG9EU3RlcHMoYWN0b3JSZWFkcykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
