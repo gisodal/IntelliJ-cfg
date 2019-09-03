@@ -35,8 +35,8 @@
         <mark key="]" line="150" column="0" />
         <mark key="." line="150" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1567508621426">
-        <mark key="[" line="11" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1567517115805">
+        <mark key="[" line="96" column="65" />
         <mark key="]" line="11" column="57" />
         <mark key="." line="11" column="57" />
         <mark key="^" line="11" column="57" />
@@ -121,6 +121,10 @@
         <mark key="^" line="33" column="37" />
         <mark key="." line="33" column="37" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/InputTargets.scala" timestamp="1567517178598">
+        <mark key="[" line="20" column="11" />
+        <mark key="]" line="20" column="31" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1566830809425">
         <mark key="'" line="67" column="0" />
         <mark key="[" line="10" column="36" />
@@ -152,12 +156,12 @@
         <mark key="^" line="11" column="76" />
         <mark key="." line="11" column="76" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1565692488236">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1567517215052">
         <mark key="'" line="142" column="100" />
-        <mark key="[" line="140" column="0" />
-        <mark key="]" line="140" column="0" />
-        <mark key="^" line="141" column="14" />
-        <mark key="." line="140" column="0" />
+        <mark key="[" line="30" column="21" />
+        <mark key="]" line="30" column="20" />
+        <mark key="^" line="30" column="20" />
+        <mark key="." line="30" column="20" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1565092237054">
         <mark key="[" line="52" column="40" />
@@ -177,11 +181,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567515806724">
-        <mark key="[" line="353" column="40" />
-        <mark key="]" line="353" column="41" />
-        <mark key="^" line="353" column="41" />
-        <mark key="." line="353" column="41" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567516604862">
+        <mark key="[" line="378" column="58" />
+        <mark key="]" line="379" column="3" />
+        <mark key="^" line="379" column="3" />
+        <mark key="." line="379" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -378,7 +382,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>dependencies.deps</text>
+        <text>AttributeInputTarget(</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dmFsIG9yZGVyZWRBY3RvckRlcHMgPSBhY3RvckRlcHMuZ3JvdXBCeShkZXAgPT4gZGVwLmZyb20pLnZhbHVlcy5mbGF0dGVuLnRvTGlzdA==</text>
@@ -387,7 +391,7 @@
         <text>RichNode</text>
       </register>
       <register name="0" type="4">
-        <text>dependencies.deps</text>
+        <text>AttributeInputTarget(</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPSB7CiAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKICAgIH0K</text>
