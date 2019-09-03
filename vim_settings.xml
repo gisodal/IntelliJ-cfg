@@ -170,11 +170,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567504764872">
-        <mark key="[" line="376" column="44" />
-        <mark key="]" line="361" column="0" />
-        <mark key="." line="361" column="0" />
-        <mark key="^" line="361" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567505346497">
+        <mark key="[" line="370" column="4" />
+        <mark key="]" line="370" column="4" />
+        <mark key="." line="370" column="4" />
+        <mark key="^" line="370" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -371,7 +371,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>private val prettifier = Steps.prettifier()</text>
+        <text encoding="base64">dmFsIGtpbmR0bXAgPSBhY3RvckRlcHMubWFwKGRlcCA9PiAoZGVwLmtpbmQsIGRlcC5mcm9tLCBkZXAudG8pKQ==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ZGVwcy5ncm91cEJ5KGRlcCA9PiAoZGVwLmZyb20sIGRlcC50bykpLmV4aXN0cyhfLl8yLnNpemUgPT0gMSk=</text>
@@ -380,7 +380,7 @@
         <text>RichNode</text>
       </register>
       <register name="0" type="4">
-        <text>private val prettifier = Steps.prettifier()</text>
+        <text encoding="base64">dmFsIGtpbmR0bXAgPSBhY3RvckRlcHMubWFwKGRlcCA9PiAoZGVwLmtpbmQsIGRlcC5mcm9tLCBkZXAudG8pKQ==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAuZ3JvdXBCeXsgY2FzZSAoZnJvbSx0byxfKSA9PiAoZnJvbSx0bykgfQo=</text>
