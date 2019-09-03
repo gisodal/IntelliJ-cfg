@@ -25,12 +25,12 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567418397273">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1567501349634">
         <mark key="'" line="126" column="84" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="^" line="136" column="69" />
-        <mark key="." line="6" column="0" />
+        <mark key="[" line="145" column="0" />
+        <mark key="]" line="145" column="0" />
+        <mark key="^" line="143" column="27" />
+        <mark key="." line="145" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1567500437155">
         <mark key="[" line="300" column="2" />
@@ -169,11 +169,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567500631287">
-        <mark key="[" line="344" column="14" />
-        <mark key="]" line="344" column="13" />
-        <mark key="." line="344" column="13" />
-        <mark key="^" line="344" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567502972775">
+        <mark key="[" line="367" column="63" />
+        <mark key="]" line="367" column="104" />
+        <mark key="." line="367" column="104" />
+        <mark key="^" line="367" column="104" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -370,16 +370,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>DepKind.Step(write.innermost.id)</text>
+        <text encoding="base64">ZGVwcy5ncm91cEJ5KGRlcCA9PiAoZGVwLmZyb20sIGRlcC50bykpLmV4aXN0cyhfLl8yLnNpemUgPT0gMSk=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHZhbCBraW5kOiBEZXBLaW5kID0gRGVwS2luZC5TdGVwKA==</text>
+        <text encoding="base64">ZGVwcy5ncm91cEJ5KGRlcCA9PiAoZGVwLmZyb20sIGRlcC50bykpLmV4aXN0cyhfLl8yLnNpemUgPT0gMSk=</text>
       </register>
       <register name="/" type="4">
         <text>RichNode</text>
       </register>
       <register name="0" type="4">
-        <text>DepKind.Step(write.innermost.id)</text>
+        <text>dependencies.deps ++ actorDeps</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGdldEZpcnN0V3JpdGVzKGRlcGVuZGVuY3lHcmFwaDogRGVwR3JhcGgsIGRzdGVwczogU2V0W0RTdGVwXSk6IFNldFtEU3RlcF0gPSB7CiAgICAgICAgICAgIHZhbCBhY3RvcldyaXRlTm9kZXMgPSB3cml0ZXMuZmxhdE1hcChkc3RlcCA9PiBkZXBlbmRlbmN5R3JhcGguZmluZChkc3RlcCkpCiAgICAgICAgICAgIHZhbCB3cml0ZUdyYXBoID0gZGVwZW5kZW5jeUdyYXBoLmlzb21vcnBoaWNTdWJncmFwaChhY3RvcldyaXRlTm9kZXMpCiAgICAgICAgICAgIHZhbCBmaXJzdFdyaXRlcyA9IHdyaXRlR3JhcGgucm9vdHMubWFwKF8udG9PdXRlcikKICAgICAgICAgICAgZmlyc3RXcml0ZXMKICAgICAgICAgIH0=</text>
