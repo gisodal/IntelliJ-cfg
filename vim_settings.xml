@@ -79,12 +79,17 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567593969044" />
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1567593791771">
-        <mark key="[" line="1677" column="29" />
-        <mark key="]" line="1674" column="25" />
-        <mark key="^" line="1674" column="25" />
-        <mark key="." line="1674" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567595913935">
+        <mark key="[" line="335" column="68" />
+        <mark key="]" line="335" column="73" />
+        <mark key="^" line="335" column="73" />
+        <mark key="." line="335" column="73" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1567594044556">
+        <mark key="[" line="3421" column="47" />
+        <mark key="]" line="3421" column="42" />
+        <mark key="^" line="3421" column="42" />
+        <mark key="." line="3421" column="42" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -398,32 +403,31 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIGRlcGVuZGVuY3lHcmFwaCA9IEdyYXBoLmZyb20oZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQogICAgICB2YWwgZW5yaWNoID0gY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5lbnJpY2guaW1tdXRhYmxlLkRpR3JhcGguUmljaERpR3JhcGgoZGVwZW5kZW5jeUdyYXBoKQogICAgICBpbXBvcnQgZW5yaWNoLlJpY2hOb2RlCg==</text>
+        <text>diff(readNode.ancestors).</text>
       </register>
       <register name="-" type="4">
-        <text>// FIXME: remove toString and pretty</text>
+        <text>diff(readNode.ancestors).</text>
       </register>
       <register name="/" type="4">
         <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">LmZpbHRlcihkZXAgPT4gIWRlcC5raW5kLmVsaWRlZCk=</text>
+        <text encoding="base64">dmFsIGRlcGVuZGVuY3lHcmFwaCA9IEdyYXBoLmZyb20oZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQogICAgICB2YWwgZW5yaWNoID0gUmljaERpR3JhcGgoZGVwZW5kZW5jeUdyYXBoKQogICAgICBpbXBvcnQgZW5yaWNoLlJpY2hOb2RlCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">dmFsIGRlcGVuZGVuY3lHcmFwaCA9IEdyYXBoLmZyb20oZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQogICAgICB2YWwgZW5yaWNoID0gY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5lbnJpY2guaW1tdXRhYmxlLkRpR3JhcGguUmljaERpR3JhcGgoZGVwZW5kZW5jeUdyYXBoKQogICAgICBpbXBvcnQgZW5yaWNoLlJpY2hOb2RlCg==</text>
+        <text encoding="base64">IC8vIHByZWNvbmRpdGlvbjogdGhlIGRlcGVuZGVuY3kgZ3JhcGggZG9lcyBub3QgY29udGFpbiBhIGN5Y2xlIAogICAgICBhc3NlcnQoIWlzQ3ljbGljKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpKQ==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ZGVmIHJlbW92ZUN5Y2xpY0RlcHMoYWN0b3JEZXBzOiBTZXRbRGVwXSk6IFNldFtEZXBdID0gewogICAgICBhc3NlcnQoIWlzQ3ljbGljKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpLAogICAgICAgICJQaGFzZSAxICYgMiBvZiB0aGUgZGVwZW5kZW5jeSByZXNvbHZlciBoYXZlIGNyZWF0ZWQgYSBjeWNsaWMgZGVwZW5kZW5jeS4iKQoKICAgICAgLy8gVE9ETzogcmVtb3ZpbmcgY3ljbGljIGRlcGVuZGVuY2llcyBpcyBub3cgZG9uZSB3aXRob3V0IHByZWZlcmVuY2UsIHNvbWV3aGF0IGF0IHJhbmRvbS4KICAgICAgZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPQogICAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKCiAgICAgIGRlZiBpbXAoZGVwczogTGlzdFtEZXBdKTogU2V0W0RlcF0gPSBkZXBzIG1hdGNoIHsKICAgICAgICBjYXNlIGRlcCA6OiByZXN0ID0+CiAgICAgICAgICB2YWwgYWN5Y2xpY0RlcHMgPSBpbXAocmVzdCkKICAgICAgICAgIGlmICghaXNDeWNsaWMoZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcyArKyBhY3ljbGljRGVwcyArIGRlcCkpIHsKICAgICAgICAgICAgYWN5Y2xpY0RlcHMgKyBkZXAKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxvZ2dlci53YXJuKHMiQSBkZXBlbmRlbmN5IGZyb20gJHtkZXAuZnJvbS5wcmV0dHl9IHRvICR7ZGVwLnRvLnByZXR0eX0gaXMgZHJvcHBlZCwgYXMgaXMgd291bGQgaW50cm9kdWNlIGEgY3ljbGUuIikKICAgICAgICAgICAgYWN5Y2xpY0RlcHMKICAgICAgICAgIH0KICAgICAgICBjYXNlIF8gPT4gU2V0LmVtcHR5W0RlcF0KICAgICAgfQoKICAgICAgdmFsIGRlcHNPcmRlcmVkQnlBY3RvciA9IGFjdG9yRGVwcy50b0xpc3Quc29ydEJ5KGRlcCA9PiBnZXRBY3RvclN5bWJvbChkZXAuZnJvbSkuZ2V0Lm5hbWUpKFN0ZXBzLmFscGhhYmV0aWNhbE9yZGVyaW5nKQogICAgICBpbXAoZGVwc09yZGVyZWRCeUFjdG9yKQogICAgfQo=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgLy8gYWN0b3IgZGVwZW5kZW5jeSBjb21wdXRhdGlvbiBtaWdodCBmYWlsIGlmIHRoZXJlIGlzIGEgY3ljbGUsIHNvIGdpdmUgdXAK</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ZGVmIHJlbW92ZUN5Y2xpY0RlcHMoYWN0b3JEZXBzOiBTZXRbRGVwXSk6IFNldFtEZXBdID0gewogICAgICBhc3NlcnQoIWlzQ3ljbGljKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpLAogICAgICAgICJQaGFzZSAxICYgMiBvZiB0aGUgZGVwZW5kZW5jeSByZXNvbHZlciBoYXZlIGNyZWF0ZWQgYSBjeWNsaWMgZGVwZW5kZW5jeS4iKQoKICAgICAgLy8gVE9ETzogcmVtb3ZpbmcgY3ljbGljIGRlcGVuZGVuY2llcyBpcyBub3cgZG9uZSB3aXRob3V0IHByZWZlcmVuY2UsIHNvbWV3aGF0IGF0IHJhbmRvbS4KICAgICAgZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPQogICAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKCiAgICAgIGRlZiBpbXAoZGVwczogTGlzdFtEZXBdKTogU2V0W0RlcF0gPSBkZXBzIG1hdGNoIHsKICAgICAgICBjYXNlIGRlcCA6OiByZXN0ID0+CiAgICAgICAgICB2YWwgYWN5Y2xpY0RlcHMgPSBpbXAocmVzdCkKICAgICAgICAgIGlmICghaXNDeWNsaWMoZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcyArKyBhY3ljbGljRGVwcyArIGRlcCkpIHsKICAgICAgICAgICAgYWN5Y2xpY0RlcHMgKyBkZXAKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxvZ2dlci53YXJuKHMiQSBkZXBlbmRlbmN5IGZyb20gJHtkZXAuZnJvbS5wcmV0dHl9IHRvICR7ZGVwLnRvLnByZXR0eX0gaXMgZHJvcHBlZCwgYXMgaXMgd291bGQgaW50cm9kdWNlIGEgY3ljbGUuIikKICAgICAgICAgICAgYWN5Y2xpY0RlcHMKICAgICAgICAgIH0KICAgICAgICBjYXNlIF8gPT4gU2V0LmVtcHR5W0RlcF0KICAgICAgfQoKICAgICAgdmFsIGRlcHNPcmRlcmVkQnlBY3RvciA9IGFjdG9yRGVwcy50b0xpc3Quc29ydEJ5KGRlcCA9PiBnZXRBY3RvclN5bWJvbChkZXAuZnJvbSkuZ2V0Lm5hbWUpKFN0ZXBzLmFscGhhYmV0aWNhbE9yZGVyaW5nKQogICAgICBpbXAoZGVwc09yZGVyZWRCeUFjdG9yKQogICAgfQo=</text>
+        <text encoding="base64">ZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPQogICAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWM=</text>
       </register>
       <register name="4" type="4">
-        <text>// ASSUMPTION: an update based on an actor is either directly connected to 1 input, or has missing actor dependencies
-    // ASSUMPTION:</text>
+        <text encoding="base64">dmFsIGFjdG9yVG9SZWFkcyA9IGdldEFjdG9yVG9EU3RlcHMoYWN0b3JSZWFkcykKICAgICAgdmFsIGFjdG9yVG9Xcml0ZXMgPSBnZXRBY3RvclRvRFN0ZXBzKGFjdG9yV3JpdGVzKQo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Ly8gY3VzdG9tIG9yZGVyaW5nIGZvciBzdHJpbmdzIChhbHBoYWJldGljYWwsIGxvd2VyIGNhc2UgZmlyc3QpCiAgdmFsIGFscGhhYmV0aWNhbE9yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsIHN0cjIpID0+IHsKICAgIGRlZiBjb21wYXJlU3RyaW5nKHN0cjE6IFN0cmluZywgc3RyMjogU3RyaW5nKTogQm9vbGVhbiA9IHsKICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICBjYXNlIChjMSwgYzIpIGlmIGMxID09IGMyID0+IGNvbXBhcmVTdHJpbmcoc3RyMS50YWlsLCBzdHIyLnRhaWwpCiAgICAgICAgY2FzZSAoYzEsIGMyKSBpZiBjMS50b0xvd2VyID09IGMyLnRvTG93ZXIgPT4gYzIuaXNVcHBlcgogICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgfS5nZXRPckVsc2Uoc3RyMS5sZW5ndGggPCBzdHIyLmxlbmd0aCkKICAgIH0KCiAgICBpZiAoc3RyMSA9PSBzdHIyKSAwIGVsc2UgaWYgKGNvbXBhcmVTdHJpbmcoc3RyMSwgc3RyMikpIC0xIGVsc2UgMQogIH0K</text>
+        <text encoding="base64">dmFsIGRlcGVuZGVuY3lHcmFwaCA9IEdyYXBoLmZyb20oZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQogICAgICB2YWwgZW5yaWNoID0gY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5lbnJpY2guaW1tdXRhYmxlLkRpR3JhcGguUmljaERpR3JhcGgoZGVwZW5kZW5jeUdyYXBoKQogICAgICBpbXBvcnQgZW5yaWNoLlJpY2hOb2RlCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -436,16 +440,17 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">Ly8gY3VzdG9tIG9yZGVyaW5nIGZvciBzdHJpbmdzIChhbHBoYWJldGljYWwsIGxvd2VyIGNhc2UgZmlyc3QpCiAgdmFsIGFscGhhYmV0aWNhbE9yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsIHN0cjIpID0+IHsKICAgIGRlZiBjb21wYXJlU3RyaW5nKHN0cjE6IFN0cmluZywgc3RyMjogU3RyaW5nKTogQm9vbGVhbiA9IHsKICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICBjYXNlIChjMSwgYzIpIGlmIGMxID09IGMyID0+IGNvbXBhcmVTdHJpbmcoc3RyMS50YWlsLCBzdHIyLnRhaWwpCiAgICAgICAgY2FzZSAoYzEsIGMyKSBpZiBjMS50b0xvd2VyID09IGMyLnRvTG93ZXIgPT4gYzIuaXNVcHBlcgogICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgfS5nZXRPckVsc2Uoc3RyMS5sZW5ndGggPCBzdHIyLmxlbmd0aCkKICAgIH0KCiAgICBpZiAoc3RyMSA9PSBzdHIyKSAwIGVsc2UgaWYgKGNvbXBhcmVTdHJpbmcoc3RyMSwgc3RyMikpIC0xIGVsc2UgMQogIH0K</text>
+        <text encoding="base64">ZGVmIHJlbW92ZUN5Y2xpY0RlcHMoYWN0b3JEZXBzOiBTZXRbRGVwXSk6IFNldFtEZXBdID0gewogICAgICBhc3NlcnQoIWlzQ3ljbGljKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpLAogICAgICAgICJQaGFzZSAxICYgMiBvZiB0aGUgZGVwZW5kZW5jeSByZXNvbHZlciBoYXZlIGNyZWF0ZWQgYSBjeWNsaWMgZGVwZW5kZW5jeS4iKQoKICAgICAgLy8gVE9ETzogcmVtb3ZpbmcgY3ljbGljIGRlcGVuZGVuY2llcyBpcyBub3cgZG9uZSB3aXRob3V0IHByZWZlcmVuY2UsIHNvbWV3aGF0IGF0IHJhbmRvbS4KICAgICAgZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPQogICAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKCiAgICAgIGRlZiBpbXAoZGVwczogTGlzdFtEZXBdKTogU2V0W0RlcF0gPSBkZXBzIG1hdGNoIHsKICAgICAgICBjYXNlIGRlcCA6OiByZXN0ID0+CiAgICAgICAgICB2YWwgYWN5Y2xpY0RlcHMgPSBpbXAocmVzdCkKICAgICAgICAgIGlmICghaXNDeWNsaWMoZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcyArKyBhY3ljbGljRGVwcyArIGRlcCkpIHsKICAgICAgICAgICAgYWN5Y2xpY0RlcHMgKyBkZXAKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxvZ2dlci53YXJuKHMiQSBkZXBlbmRlbmN5IGZyb20gJHtkZXAuZnJvbS5wcmV0dHl9IHRvICR7ZGVwLnRvLnByZXR0eX0gaXMgZHJvcHBlZCwgYXMgaXMgd291bGQgaW50cm9kdWNlIGEgY3ljbGUuIikKICAgICAgICAgICAgYWN5Y2xpY0RlcHMKICAgICAgICAgIH0KICAgICAgICBjYXNlIF8gPT4gU2V0LmVtcHR5W0RlcF0KICAgICAgfQoKICAgICAgdmFsIGRlcHNPcmRlcmVkQnlBY3RvciA9IGFjdG9yRGVwcy50b0xpc3Quc29ydEJ5KGRlcCA9PiBnZXRBY3RvclN5bWJvbChkZXAuZnJvbSkuZ2V0Lm5hbWUpKFN0ZXBzLmFscGhhYmV0aWNhbE9yZGVyaW5nKQogICAgICBpbXAoZGVwc09yZGVyZWRCeUFjdG9yKQogICAgfQo=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">dmFsIHN0ZXBUdXBsZU9yZGVyaW5nOiBPcmRlcmluZ1tTdGVwT3JkZXJUdXBsZV0gPSBPcmRlcmluZy5jb21wYXJhdG9yVG9PcmRlcmluZygKICAgIE9yZGVyaW5nLmJ5W1N0ZXBPcmRlclR1cGxlLCBJbnRdKF8uXzEpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMikoU3RlcHMuYWxwaGFiZXRpY2FsT3JkZXJpbmcpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMykoU3RlcHMuYWxwaGFiZXRpY2FsT3JkZXJpbmcpKQo=</text>
+        <text encoding="base64">ZGVmIHJlbW92ZUN5Y2xpY0RlcHMoYWN0b3JEZXBzOiBTZXRbRGVwXSk6IFNldFtEZXBdID0gewogICAgICBhc3NlcnQoIWlzQ3ljbGljKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpLAogICAgICAgICJQaGFzZSAxICYgMiBvZiB0aGUgZGVwZW5kZW5jeSByZXNvbHZlciBoYXZlIGNyZWF0ZWQgYSBjeWNsaWMgZGVwZW5kZW5jeS4iKQoKICAgICAgLy8gVE9ETzogcmVtb3ZpbmcgY3ljbGljIGRlcGVuZGVuY2llcyBpcyBub3cgZG9uZSB3aXRob3V0IHByZWZlcmVuY2UsIHNvbWV3aGF0IGF0IHJhbmRvbS4KICAgICAgZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPQogICAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKCiAgICAgIGRlZiBpbXAoZGVwczogTGlzdFtEZXBdKTogU2V0W0RlcF0gPSBkZXBzIG1hdGNoIHsKICAgICAgICBjYXNlIGRlcCA6OiByZXN0ID0+CiAgICAgICAgICB2YWwgYWN5Y2xpY0RlcHMgPSBpbXAocmVzdCkKICAgICAgICAgIGlmICghaXNDeWNsaWMoZGVwZW5kZW5jaWVzLnN0ZXBzLCBkZXBlbmRlbmNpZXMuZGVwcyArKyBhY3ljbGljRGVwcyArIGRlcCkpIHsKICAgICAgICAgICAgYWN5Y2xpY0RlcHMgKyBkZXAKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGxvZ2dlci53YXJuKHMiQSBkZXBlbmRlbmN5IGZyb20gJHtkZXAuZnJvbS5wcmV0dHl9IHRvICR7ZGVwLnRvLnByZXR0eX0gaXMgZHJvcHBlZCwgYXMgaXMgd291bGQgaW50cm9kdWNlIGEgY3ljbGUuIikKICAgICAgICAgICAgYWN5Y2xpY0RlcHMKICAgICAgICAgIH0KICAgICAgICBjYXNlIF8gPT4gU2V0LmVtcHR5W0RlcF0KICAgICAgfQoKICAgICAgdmFsIGRlcHNPcmRlcmVkQnlBY3RvciA9IGFjdG9yRGVwcy50b0xpc3Quc29ydEJ5KGRlcCA9PiBnZXRBY3RvclN5bWJvbChkZXAuZnJvbSkuZ2V0Lm5hbWUpKFN0ZXBzLmFscGhhYmV0aWNhbE9yZGVyaW5nKQogICAgICBpbXAoZGVwc09yZGVyZWRCeUFjdG9yKQogICAgfQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">dmFsIChhbGxBY3RvcldyaXRlcywgYWxsQWN0b3JSZWFkcykgPSBnZXRBY3RvcldyaXRlc0FuZFJlYWRzCgogICAgICAvLyBmaWx0ZXIgb3V0IGFjdG9yIHJlYWRzIHRoYXQgYWxyZWFkeSBoYXZlIGFjdG9yIGRlcGVuZGVuY2llcwogICAgICB2YWwgYWN0b3JSZWFkcyA9IGFsbEFjdG9yUmVhZHMuZmlsdGVyIHsgZHN0ZXAgPT4KICAgICAgICBkZXBlbmRlbmNpZXMuZGVwcy5leGlzdHMoIGRlcCA9PiBkZXAuZnJvbSA9PSBkc3RlcCAmJgogICAgICAgICAgZGVwLnRvLmlzSW5wdXQgJiYgZ2V0QWN0b3JTeW1ib2woZGVwLmZyb20pID09IGdldEFjdG9yU3ltYm9sKGRlcC50bykgKQogICAgICB9CiAgICAgIHZhbCBhY3RvcldyaXRlcyA9IGFsbEFjdG9yV3JpdGVz</text>
+        <text>// ASSUMPTION: an update based on an actor is either directly connected to 1 input, or has missing actor dependencies
+    // ASSUMPTION:</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">LmZpbHRlciB7IGRzdGVwID0+CiAgICAgICAgICB2YWwgbm9kZSA9IGRlcGVuZGVuY3lHcmFwaC5nZXQoZHN0ZXApIA==</text>
+        <text encoding="base64">Ly8gY3VzdG9tIG9yZGVyaW5nIGZvciBzdHJpbmdzIChhbHBoYWJldGljYWwsIGxvd2VyIGNhc2UgZmlyc3QpCiAgdmFsIGFscGhhYmV0aWNhbE9yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsIHN0cjIpID0+IHsKICAgIGRlZiBjb21wYXJlU3RyaW5nKHN0cjE6IFN0cmluZywgc3RyMjogU3RyaW5nKTogQm9vbGVhbiA9IHsKICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICBjYXNlIChjMSwgYzIpIGlmIGMxID09IGMyID0+IGNvbXBhcmVTdHJpbmcoc3RyMS50YWlsLCBzdHIyLnRhaWwpCiAgICAgICAgY2FzZSAoYzEsIGMyKSBpZiBjMS50b0xvd2VyID09IGMyLnRvTG93ZXIgPT4gYzIuaXNVcHBlcgogICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgfS5nZXRPckVsc2Uoc3RyMS5sZW5ndGggPCBzdHIyLmxlbmd0aCkKICAgIH0KCiAgICBpZiAoc3RyMSA9PSBzdHIyKSAwIGVsc2UgaWYgKGNvbXBhcmVTdHJpbmcoc3RyMSwgc3RyMikpIC0xIGVsc2UgMQogIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
