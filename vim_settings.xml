@@ -79,11 +79,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567588667725">
-        <mark key="[" line="394" column="6" />
-        <mark key="]" line="380" column="4" />
-        <mark key="^" line="380" column="4" />
-        <mark key="." line="380" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567589703769">
+        <mark key="[" line="343" column="57" />
+        <mark key="]" line="343" column="119" />
+        <mark key="." line="343" column="119" />
+        <mark key="^" line="343" column="119" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -139,7 +139,7 @@
         <mark key="[" line="24" column="6" />
         <mark key="]" line="27" column="34" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1566556199047">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1567589940428">
         <mark key="[" line="51" column="43" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1565089272844">
@@ -149,11 +149,11 @@
         <mark key="." line="79" column="15" />
         <mark key="^" line="84" column="14" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1566996346141">
-        <mark key="[" line="1953" column="38" />
-        <mark key="]" line="1954" column="5" />
-        <mark key="^" line="1954" column="5" />
-        <mark key="." line="1954" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1567589892973">
+        <mark key="[" line="1996" column="98" />
+        <mark key="]" line="1996" column="97" />
+        <mark key="^" line="1996" column="97" />
+        <mark key="." line="1996" column="97" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1567079113196">
         <mark key="[" line="2" column="0" />
@@ -394,7 +394,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>// FIXME: remove toString and pretty</text>
+        <text>readNode.ancestors</text>
       </register>
       <register name="-" type="4">
         <text>// FIXME: remove toString and pretty</text>
@@ -403,22 +403,23 @@
         <text>RichNode</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIHByZXR0eTogU3RyaW5nID0ge3MiJHt0aGlzLmlubmVybW9zdC5pZH06ICIgKyBTdGVwcy5wcmV0dGlmaWVyKCkodGhpcyl9ICA=</text>
+        <text>readNode.ancestors</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">Ly8gY3VzdG9tIG9yZGVyaW5nIGZvciBzdHJpbmdzIChhbHBoYWJldGljYWwsIGxvd2VyIGNhc2UgZmlyc3QpCiAgdmFsIGFscGhhYmV0aWNhbE9yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsIHN0cjIpID0+IHsKICAgIGRlZiBjb21wYXJlU3RyaW5nKHN0cjE6IFN0cmluZywgc3RyMjogU3RyaW5nKTogQm9vbGVhbiA9IHsKICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICBjYXNlIChjMSwgYzIpIGlmIGMxID09IGMyID0+IGNvbXBhcmVTdHJpbmcoc3RyMS50YWlsLCBzdHIyLnRhaWwpCiAgICAgICAgY2FzZSAoYzEsIGMyKSBpZiBjMS50b0xvd2VyID09IGMyLnRvTG93ZXIgPT4gYzIuaXNVcHBlcgogICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgfS5nZXRPckVsc2Uoc3RyMS5sZW5ndGggPCBzdHIyLmxlbmd0aCkKICAgIH0KCiAgICBpZiAoc3RyMSA9PSBzdHIyKSAwIGVsc2UgaWYgKGNvbXBhcmVTdHJpbmcoc3RyMSwgc3RyMikpIC0xIGVsc2UgMQogIH0K</text>
+        <text>// ASSUMPTION: an update based on an actor is either directly connected to 1 input, or has missing actor dependencies
+    // ASSUMPTION:</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">Ly8gY3VzdG9tIG9yZGVyaW5nIGZvciBzdHJpbmdzIChhbHBoYWJldGljYWwsIGxvd2VyIGNhc2UgZmlyc3QpCiAgdmFsIGFscGhhYmV0aWNhbE9yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsIHN0cjIpID0+IHsKICAgIGRlZiBjb21wYXJlU3RyaW5nKHN0cjE6IFN0cmluZywgc3RyMjogU3RyaW5nKTogQm9vbGVhbiA9IHsKICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICBjYXNlIChjMSwgYzIpIGlmIGMxID09IGMyID0+IGNvbXBhcmVTdHJpbmcoc3RyMS50YWlsLCBzdHIyLnRhaWwpCiAgICAgICAgY2FzZSAoYzEsIGMyKSBpZiBjMS50b0xvd2VyID09IGMyLnRvTG93ZXIgPT4gYzIuaXNVcHBlcgogICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgfS5nZXRPckVsc2Uoc3RyMS5sZW5ndGggPCBzdHIyLmxlbmd0aCkKICAgIH0KCiAgICBpZiAoc3RyMSA9PSBzdHIyKSAwIGVsc2UgaWYgKGNvbXBhcmVTdHJpbmcoc3RyMSwgc3RyMikpIC0xIGVsc2UgMQogIH0K</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">dmFsIHN0ZXBUdXBsZU9yZGVyaW5nOiBPcmRlcmluZ1tTdGVwT3JkZXJUdXBsZV0gPSBPcmRlcmluZy5jb21wYXJhdG9yVG9PcmRlcmluZygKICAgIE9yZGVyaW5nLmJ5W1N0ZXBPcmRlclR1cGxlLCBJbnRdKF8uXzEpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMikoU3RlcHMuYWxwaGFiZXRpY2FsT3JkZXJpbmcpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMykoU3RlcHMuYWxwaGFiZXRpY2FsT3JkZXJpbmcpKQo=</text>
+        <text encoding="base64">Ly8gY3VzdG9tIG9yZGVyaW5nIGZvciBzdHJpbmdzIChhbHBoYWJldGljYWwsIGxvd2VyIGNhc2UgZmlyc3QpCiAgdmFsIGFscGhhYmV0aWNhbE9yZGVyaW5nOiBPcmRlcmluZ1tTdHJpbmddID0gKHN0cjEsIHN0cjIpID0+IHsKICAgIGRlZiBjb21wYXJlU3RyaW5nKHN0cjE6IFN0cmluZywgc3RyMjogU3RyaW5nKTogQm9vbGVhbiA9IHsKICAgICAgc3RyMS56aXAoc3RyMikuY29sbGVjdEZpcnN0IHsKICAgICAgICBjYXNlIChjMSwgYzIpIGlmIGMxID09IGMyID0+IGNvbXBhcmVTdHJpbmcoc3RyMS50YWlsLCBzdHIyLnRhaWwpCiAgICAgICAgY2FzZSAoYzEsIGMyKSBpZiBjMS50b0xvd2VyID09IGMyLnRvTG93ZXIgPT4gYzIuaXNVcHBlcgogICAgICAgIGNhc2UgKGMxLCBjMikgPT4gYzEudG9Mb3dlciA8IGMyLnRvTG93ZXIKICAgICAgfS5nZXRPckVsc2Uoc3RyMS5sZW5ndGggPCBzdHIyLmxlbmd0aCkKICAgIH0KCiAgICBpZiAoc3RyMSA9PSBzdHIyKSAwIGVsc2UgaWYgKGNvbXBhcmVTdHJpbmcoc3RyMSwgc3RyMikpIC0xIGVsc2UgMQogIH0K</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">dmFsIChhbGxBY3RvcldyaXRlcywgYWxsQWN0b3JSZWFkcykgPSBnZXRBY3RvcldyaXRlc0FuZFJlYWRzCgogICAgICAvLyBmaWx0ZXIgb3V0IGFjdG9yIHJlYWRzIHRoYXQgYWxyZWFkeSBoYXZlIGFjdG9yIGRlcGVuZGVuY2llcwogICAgICB2YWwgYWN0b3JSZWFkcyA9IGFsbEFjdG9yUmVhZHMuZmlsdGVyIHsgZHN0ZXAgPT4KICAgICAgICBkZXBlbmRlbmNpZXMuZGVwcy5leGlzdHMoIGRlcCA9PiBkZXAuZnJvbSA9PSBkc3RlcCAmJgogICAgICAgICAgZGVwLnRvLmlzSW5wdXQgJiYgZ2V0QWN0b3JTeW1ib2woZGVwLmZyb20pID09IGdldEFjdG9yU3ltYm9sKGRlcC50bykgKQogICAgICB9CiAgICAgIHZhbCBhY3RvcldyaXRlcyA9IGFsbEFjdG9yV3JpdGVz</text>
+        <text encoding="base64">dmFsIHN0ZXBUdXBsZU9yZGVyaW5nOiBPcmRlcmluZ1tTdGVwT3JkZXJUdXBsZV0gPSBPcmRlcmluZy5jb21wYXJhdG9yVG9PcmRlcmluZygKICAgIE9yZGVyaW5nLmJ5W1N0ZXBPcmRlclR1cGxlLCBJbnRdKF8uXzEpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMikoU3RlcHMuYWxwaGFiZXRpY2FsT3JkZXJpbmcpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMykoU3RlcHMuYWxwaGFiZXRpY2FsT3JkZXJpbmcpKQo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">LmZpbHRlciB7IGRzdGVwID0+CiAgICAgICAgICB2YWwgbm9kZSA9IGRlcGVuZGVuY3lHcmFwaC5nZXQoZHN0ZXApIA==</text>
+        <text encoding="base64">dmFsIChhbGxBY3RvcldyaXRlcywgYWxsQWN0b3JSZWFkcykgPSBnZXRBY3RvcldyaXRlc0FuZFJlYWRzCgogICAgICAvLyBmaWx0ZXIgb3V0IGFjdG9yIHJlYWRzIHRoYXQgYWxyZWFkeSBoYXZlIGFjdG9yIGRlcGVuZGVuY2llcwogICAgICB2YWwgYWN0b3JSZWFkcyA9IGFsbEFjdG9yUmVhZHMuZmlsdGVyIHsgZHN0ZXAgPT4KICAgICAgICBkZXBlbmRlbmNpZXMuZGVwcy5leGlzdHMoIGRlcCA9PiBkZXAuZnJvbSA9PSBkc3RlcCAmJgogICAgICAgICAgZGVwLnRvLmlzSW5wdXQgJiYgZ2V0QWN0b3JTeW1ib2woZGVwLmZyb20pID09IGdldEFjdG9yU3ltYm9sKGRlcC50bykgKQogICAgICB9CiAgICAgIHZhbCBhY3RvcldyaXRlcyA9IGFsbEFjdG9yV3JpdGVz</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -431,16 +432,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">LmZpbHRlciB7IGRzdGVwID0+CiAgICAgICAgICB2YWwgbm9kZSA9IGRlcGVuZGVuY3lHcmFwaC5nZXQoZHN0ZXAp</text>
+        <text encoding="base64">LmZpbHRlciB7IGRzdGVwID0+CiAgICAgICAgICB2YWwgbm9kZSA9IGRlcGVuZGVuY3lHcmFwaC5nZXQoZHN0ZXApIA==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">aW5kZXguZ2V0SW5wdXRUYXJnZXQoInQiKSBtYXRjaCB7CiAgICAgICAgY2FzZSBBdHRyaWJ1dGVJbnB1dFRhcmdldChpZCwgYXR0cmlidXRlUGF0aCkgPT4gaWQgKysgYXR0cmlidXRlUGF0aC5ta1N0cmluZygiLiIpCiAgICAgICAgY2FzZSB0ID0+IHQubmFtZQogICAgICB9Cg==</text>
+        <text encoding="base64">LmZpbHRlciB7IGRzdGVwID0+CiAgICAgICAgICB2YWwgbm9kZSA9IGRlcGVuZGVuY3lHcmFwaC5nZXQoZHN0ZXAp</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPSB7CiAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKICAgIH0K</text>
+        <text encoding="base64">aW5kZXguZ2V0SW5wdXRUYXJnZXQoInQiKSBtYXRjaCB7CiAgICAgICAgY2FzZSBBdHRyaWJ1dGVJbnB1dFRhcmdldChpZCwgYXR0cmlidXRlUGF0aCkgPT4gaWQgKysgYXR0cmlidXRlUGF0aC5ta1N0cmluZygiLiIpCiAgICAgICAgY2FzZSB0ID0+IHQubmFtZQogICAgICB9Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ICAgIHZhbCBvcmRlcmVkQWN0b3JEZXBzID0gYWN0b3JEZXBzLmdyb3VwQnkoZGVwID0+IGRlcC5mcm9tKS52YWx1ZXMuZmxhdHRlbi50b0xpc3QKICAgIAogICAgZGVmIGZpbHRlckFjdG9yRGVwcyhkZXBzOiBMaXN0W0RlcF0pOiBTZXRbRGVwXSA9IGRlcHMgbWF0Y2ggewogICAgICBkZXBzICAgCiAgICB9</text>
+        <text encoding="base64">ZGVmIGlzQ3ljbGljKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IEJvb2xlYW4gPSB7CiAgICAgIEdyYXBoLmZyb20oc3RlcHMsIGRlcHMuZmlsdGVyKGRlcCA9PiAhZGVwLmtpbmQuZWxpZGVkKSkuaXNDeWNsaWMKICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
