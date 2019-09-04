@@ -79,11 +79,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567602568594">
-        <mark key="[" line="444" column="66" />
-        <mark key="]" line="445" column="41" />
-        <mark key="." line="445" column="41" />
-        <mark key="^" line="445" column="41" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567603383569">
+        <mark key="[" line="338" column="124" />
+        <mark key="]" line="338" column="122" />
+        <mark key="." line="338" column="122" />
+        <mark key="^" line="338" column="122" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1567594044556">
         <mark key="[" line="3421" column="47" />
@@ -403,7 +403,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>UnaryExpression</text>
+        <text>s&quot;No inputs are found from actor '${actor.name}' that should be read by ${reads.map(_.pretty).mkString(&quot;&quot;&quot;, &quot;&quot;&quot;)}}.&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>logger.warn(s&quot;Actor '${actor.name}' provides an input that is never read.&quot;)</text>
@@ -412,7 +412,7 @@
         <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text>UnaryExpression</text>
+        <text>s&quot;No inputs are found from actor '${actor.name}' that should be read by ${reads.map(_.pretty).mkString(&quot;&quot;&quot;, &quot;&quot;&quot;)}}.&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBpZiAoIWFjdG9yVG9SZWFkcy5jb250YWlucyhhY3RvcikpIHsK</text>
