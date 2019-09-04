@@ -79,11 +79,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567601436912">
-        <mark key="[" line="346" column="23" />
-        <mark key="]" line="346" column="29" />
-        <mark key="^" line="346" column="29" />
-        <mark key="." line="346" column="29" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567602568594">
+        <mark key="[" line="444" column="66" />
+        <mark key="]" line="445" column="41" />
+        <mark key="." line="445" column="41" />
+        <mark key="^" line="445" column="41" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1567594044556">
         <mark key="[" line="3421" column="47" />
@@ -403,16 +403,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">YWN0b3JSZWFkcy5mb3JhbGwocmVhZCA9PiBnZXRBY3RvclN5bWJvbChyZWFkKS5nZXQgPT0gYWN0b3IpICYmIGFjdG8=</text>
+        <text>UnaryExpression</text>
       </register>
       <register name="-" type="4">
-        <text>def createActorDeps(actor: ActorSymbol, actorReads: Set[DStep], actorWrites: Set[DStep]): Set[Dep] = {</text>
+        <text>logger.warn(s&quot;Actor '${actor.name}' provides an input that is never read.&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">YWN0b3JSZWFkcy5mb3JhbGwocmVhZCA9PiBnZXRBY3RvclN5bWJvbChyZWFkKS5nZXQgPT0gYWN0b3IpICYmIGFjdG8=</text>
+        <text>UnaryExpression</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBpZiAoIWFjdG9yVG9SZWFkcy5jb250YWlucyhhY3RvcikpIHsK</text>
