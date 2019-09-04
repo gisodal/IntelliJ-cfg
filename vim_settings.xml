@@ -79,11 +79,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567589703769">
-        <mark key="[" line="343" column="57" />
-        <mark key="]" line="343" column="119" />
-        <mark key="." line="343" column="119" />
-        <mark key="^" line="343" column="119" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567592445144">
+        <mark key="[" line="424" column="65" />
+        <mark key="]" line="424" column="97" />
+        <mark key="." line="424" column="65" />
+        <mark key="^" line="424" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567072998034">
         <mark key="'" line="149" column="30" />
@@ -139,8 +139,11 @@
         <mark key="[" line="24" column="6" />
         <mark key="]" line="27" column="34" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1567589940428">
-        <mark key="[" line="51" column="43" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1567591250711">
+        <mark key="[" line="82" column="30" />
+        <mark key="]" line="82" column="25" />
+        <mark key="^" line="82" column="25" />
+        <mark key="." line="82" column="25" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1565089272844">
         <mark key="'" line="80" column="21" />
@@ -149,11 +152,11 @@
         <mark key="." line="79" column="15" />
         <mark key="^" line="84" column="14" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1567589892973">
-        <mark key="[" line="1996" column="98" />
-        <mark key="]" line="1996" column="97" />
-        <mark key="^" line="1996" column="97" />
-        <mark key="." line="1996" column="97" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1567592015363">
+        <mark key="[" line="1996" column="36" />
+        <mark key="]" line="1899" column="36" />
+        <mark key="^" line="1899" column="36" />
+        <mark key="." line="1899" column="36" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1567079113196">
         <mark key="[" line="2" column="0" />
@@ -291,7 +294,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="148" column="32" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="161" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="215" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
       <jump line="234" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
@@ -391,19 +393,20 @@
       <jump line="349" column="51" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="96" column="27" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" />
       <jump line="385" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="1786" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>readNode.ancestors</text>
+        <text encoding="base64">LmZpbHRlcihkZXAgPT4gIWRlcC5raW5kLmVsaWRlZCk=</text>
       </register>
       <register name="-" type="4">
         <text>// FIXME: remove toString and pretty</text>
       </register>
       <register name="/" type="4">
-        <text>RichNode</text>
+        <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text>readNode.ancestors</text>
+        <text encoding="base64">LmZpbHRlcihkZXAgPT4gIWRlcC5raW5kLmVsaWRlZCk=</text>
       </register>
       <register name="1" type="4">
         <text>// ASSUMPTION: an update based on an actor is either directly connected to 1 input, or has missing actor dependencies
@@ -448,17 +451,16 @@
       </register>
     </registers>
     <search>
-      <last-search>RichNode</last-search>
+      <last-search>Input from</last-search>
       <last-offset />
-      <last-pattern>RichNode</last-pattern>
+      <last-pattern>Input from</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>graphverifier</entry>
         <entry>clustering</entry>
         <entry>FIX</entry>
         <entry>throw</entry>
@@ -478,6 +480,7 @@
         <entry encoding="base64">XDxpbnB1dFw+</entry>
         <entry>left</entry>
         <entry>RichNode</entry>
+        <entry>Input from</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
