@@ -79,11 +79,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567672374469">
-        <mark key="[" line="440" column="86" />
-        <mark key="]" line="440" column="86" />
-        <mark key="^" line="440" column="86" />
-        <mark key="." line="440" column="86" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1567674572660">
+        <mark key="[" line="362" column="13" />
+        <mark key="]" line="362" column="21" />
+        <mark key="^" line="362" column="21" />
+        <mark key="." line="362" column="21" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1567594044556">
         <mark key="[" line="3421" column="47" />
@@ -158,7 +158,7 @@
         <mark key="." line="79" column="15" />
         <mark key="^" line="84" column="14" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1567592015363">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1567674154214">
         <mark key="[" line="1996" column="36" />
         <mark key="]" line="1899" column="36" />
         <mark key="^" line="1899" column="36" />
