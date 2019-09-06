@@ -75,12 +75,12 @@
         <mark key="[" line="20" column="11" />
         <mark key="]" line="20" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567766143159">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567766870044">
         <mark key="'" line="18" column="0" />
-        <mark key="[" line="41" column="8" />
-        <mark key="]" line="41" column="7" />
-        <mark key="^" line="41" column="7" />
-        <mark key="." line="41" column="7" />
+        <mark key="[" line="41" column="80" />
+        <mark key="]" line="41" column="79" />
+        <mark key="^" line="41" column="79" />
+        <mark key="." line="41" column="79" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1567517289018">
         <mark key="'" line="142" column="100" />
@@ -139,11 +139,11 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1567766320451">
-        <mark key="[" line="12" column="57" />
-        <mark key="]" line="12" column="56" />
-        <mark key="." line="12" column="56" />
-        <mark key="^" line="12" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1567767002248">
+        <mark key="[" line="14" column="54" />
+        <mark key="]" line="14" column="14" />
+        <mark key="." line="14" column="14" />
+        <mark key="^" line="14" column="14" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1565090442648">
         <mark key="[" line="33" column="38" />
@@ -425,7 +425,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>s.split(str).map(prefix + _).mkString(str)</text>
+        <text>addPrefix(&quot;   &quot;, Some(&quot;\n&quot;), Some(1))</text>
       </register>
       <register name="-" type="4">
         <text>s.split(str).map(prefix + _).mkString(str)</text>
@@ -434,7 +434,7 @@
         <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text>import com.xlrit.gears.generator.util.StepEnhancements.RichDStep</text>
+        <text>addPrefix(&quot;   &quot;, Some(&quot;\n&quot;), Some(1))</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGFkZFByZWZpeChwcmVmaXg6IFN0cmluZywgc3BsaXQ6IE9wdGlvbltTdHJpbmddID0gTm9uZSk6IFN0cmluZyA9IHNwbGl0IG1hdGNoIHsKICAgIGNhc2UgU29tZShzdHIpID0+IHMuc3BsaXQoc3RyKS5tYXAocHJlZml4ICsgXykubWtTdHJpbmcoc3RyKQogICAgY2FzZSBOb25lID0+IHByZWZpeCArIHMKICB9</text>
