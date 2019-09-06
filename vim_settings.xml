@@ -19,17 +19,22 @@
         <mark key="." line="29" column="40" />
         <mark key="^" line="29" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1567763342156">
-        <mark key="[" line="19" column="77" />
-        <mark key="]" line="19" column="81" />
-        <mark key="^" line="19" column="81" />
-        <mark key="." line="19" column="81" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1567763990941">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1567518778098">
         <mark key="[" line="27" column="32" />
         <mark key="]" line="20" column="4" />
         <mark key="^" line="20" column="4" />
         <mark key="." line="20" column="4" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567764305636">
+        <mark key="[" line="7" column="70" />
+        <mark key="]" line="9" column="1" />
+        <mark key="^" line="9" column="1" />
+        <mark key="." line="9" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1567588228806">
         <mark key="[" line="91" column="87" />
@@ -70,12 +75,12 @@
         <mark key="[" line="20" column="11" />
         <mark key="]" line="20" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567763551889">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567763977802">
         <mark key="'" line="17" column="0" />
-        <mark key="[" line="39" column="66" />
-        <mark key="]" line="39" column="65" />
-        <mark key="." line="39" column="65" />
-        <mark key="^" line="39" column="65" />
+        <mark key="[" line="40" column="19" />
+        <mark key="]" line="34" column="0" />
+        <mark key="^" line="34" column="0" />
+        <mark key="." line="34" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1567517289018">
         <mark key="'" line="142" column="100" />
@@ -102,12 +107,12 @@
         <mark key="^" line="3421" column="42" />
         <mark key="." line="3421" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567763374227">
-        <mark key="'" line="155" column="30" />
-        <mark key="[" line="19" column="40" />
-        <mark key="]" line="19" column="40" />
-        <mark key="." line="19" column="40" />
-        <mark key="^" line="19" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1567764085166">
+        <mark key="'" line="18" column="77" />
+        <mark key="[" line="18" column="95" />
+        <mark key="]" line="18" column="95" />
+        <mark key="^" line="18" column="94" />
+        <mark key="." line="18" column="95" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1565694614004">
         <mark key="[" line="19" column="0" />
@@ -311,7 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="32" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
       <jump line="25" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
       <jump line="42" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
       <jump line="43" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
@@ -411,38 +415,37 @@
       <jump line="38" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" />
       <jump line="17" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" />
       <jump line="18" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
+      <jump line="18" column="77" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>object Origin {
-  def empty: Origin = Origin(&quot;&quot;, &quot;&quot;, NoPosition)
-}</text>
+        <text encoding="base64">SGFzT3JpZ2luIA==</text>
       </register>
       <register name="-" type="4">
-        <text>def empty: Origin = Origin(&quot;&quot;, &quot;&quot;, NoPosition)</text>
+        <text encoding="base64">SGFzT3JpZ2luIA==</text>
       </register>
       <register name="/" type="4">
         <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBjbGFzcyBPcmlnaW4oaWQ6IFN0cmluZywgc291cmNlTmFtZTogU3RyaW5nLCBwb3M6IFBvc2l0aW9uKSB7CiAgZGVmIGNvcHkobmV3SWQ6IFN0cmluZyk6IE9yaWdpbiA9IE9yaWdpbihuZXdJZCwgc291cmNlTmFtZSwgcG9zKQogIGRlZiBjb3B5KHJlbmFtZXI6IFN0cmluZyA9PiBTdHJpbmcpOiBPcmlnaW4gPSBjb3B5KHJlbmFtZXIoaWQpKQogIGRlZiBsb2NhdGlvbiA9IHMiJHNvdXJjZU5hbWU6JHtwb3MubGluZX06JHtwb3MuY29sdW1ufSIKICBkZWYgZW1wdHk6IE9yaWdpbiA9IE9yaWdpbigiIiwgIiIsIE5vUG9zaXRpb24pCn0K</text>
+        <text>val origin: Origin = Origin(&quot;&quot;, &quot;&quot;, NoPosition)</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">b2JqZWN0IE9yaWdpbiB7CiAgZGVmIG5vT3JpZ2luOiBPcmlnaW4gPSBPcmlnaW4oIiIsICIiLCBub1Bvc2l0aW9uKQogIGRlZiBub1Bvc2l0aW9uOiBQb3NpdGlvbiA9IE5vUG9zaXRpb24KfQo=</text>
+      </register>
+      <register name="2" type="4">
         <text>object Origin {
   def empty: Origin = Origin(&quot;&quot;, &quot;&quot;, NoPosition)
 }</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">ZGVmIGNyZWF0ZURlcEdyYXBoKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IERlcEdyYXBoID0KICAgICAgR3JhcGguZnJvbShzdGVwcywgZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ZGVmIGdldEV4cHJlc3Npb25zT2ZUeXBlW1QgPDogRXhwcmVzc2lvbl0gPSBuZXcgVG9TZXRUcmF2ZXJzZXJbVF0gewogICAgb3ZlcnJpZGUgZGVmIHZpc2l0OiBFeHByZXNzaW9uID0+OiBTZXRbVF0gPSB7CiAgICAgIGNhc2UgZXhwcjogVCA9PiBTZXQoZXhwcikKICAgIH0KICB9Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">dmFsIGdldFQgPSBuZXcgVG9TZXRUcmF2ZXJzZXJbVF0gewogICAgICBvdmVycmlkZSBkZWYgdmlzaXQ6IEV4cHJlc3Npb24gPT46IFNldFtUXSA9IHsKICAgICAgICBjYXNlIGV4cHI6IFQgPT4gU2V0KGV4cHIpCiAgICAgIH0KICAgIH0K</text>
-      </register>
       <register name="5" type="4">
-        <text encoding="base64">ZHN0ZXAgbWF0Y2ggewogICAgY2FzZSB3cmFwcGVyOiBXcmFwcGVyICAgPT4gZ2V0QWN0b3JSZWFkU3ltYm9scyh3cmFwcGVyLndyYXBwZWQpCiAgICBjYXNlIGRlbGV0ZTogRGVsZXRlU3RlcCA9PiBnZXRBY3RvclN5bWJvbHNGcm9tRXhwcmVzc2lvbihkZWxldGUub3BlcmFuZCkKICAgIGNhc2UgZXZhbDogRXZhbFN0ZXAgICAgID0+IGdldEFjdG9yU3ltYm9sc0Zyb21FeHByZXNzaW9uKGV2YWwudmFsdWUpCiAgICBjYXNlIHVwZGF0ZTogVXBkYXRlU3RlcCA9PiBnZXRBY3RvclN5bWJvbHNGcm9tRXhwcmVzc2lvbih1cGRhdGUudmFsdWUpICsrIGdldEFjdG9yU3ltYm9sKHVwZGF0ZS5lbGVtZW50KS50b1NldAogICAgY2FzZSBpbnB1dDogSW5wdXRTdGVwICAgPT4KICAgICAgZ2V0QWN0b3JTeW1ib2xzRnJvbUV4cHJlc3Npb24oaW5wdXQuY2hvc2VuRnJvbSkgKysKICAgICAgICBnZXRBY3RvclN5bWJvbHNGcm9tRXhwcmVzc2lvbihpbnB1dC5iYXNlZE9uKSArKwogICAgICAgIGdldEFjdG9yU3ltYm9sc0Zyb21FeHByZXNzaW9uKGlucHV0LmRlZmF1bHQpCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICA9PiBTZXQuZW1wdHlbQWN0b3JTeW1ib2xdCiAgfQ==</text>
+        <text encoding="base64">dmFsIGdldFQgPSBuZXcgVG9TZXRUcmF2ZXJzZXJbVF0gewogICAgICBvdmVycmlkZSBkZWYgdmlzaXQ6IEV4cHJlc3Npb24gPT46IFNldFtUXSA9IHsKICAgICAgICBjYXNlIGV4cHI6IFQgPT4gU2V0KGV4cHIpCiAgICAgIH0KICAgIH0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -455,16 +458,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">cHJpdmF0ZSB2YWwgZ2V0SW5wdXRFeHByZXNzaW9uRnJvbUV4cHJlc3Npb24gPSBuZXcgVG9PcHRpb25UcmF2ZXJzZXJbSW5wdXRFeHByZXNzaW9uXSB7CiAgICBvdmVycmlkZSBkZWYgdmlzaXQ6IEV4cHJlc3Npb24gPT46IE9wdGlvbltJbnB1dEV4cHJlc3Npb25dID0gewogICAgICBjYXNlIGlucHV0OiBJbnB1dEV4cHJlc3Npb24gPT4gU29tZShpbnB1dCkKICAgIH0KICB9Cg==</text>
+        <text encoding="base64">ZHN0ZXAgbWF0Y2ggewogICAgY2FzZSB3cmFwcGVyOiBXcmFwcGVyICAgPT4gZ2V0QWN0b3JSZWFkU3ltYm9scyh3cmFwcGVyLndyYXBwZWQpCiAgICBjYXNlIGRlbGV0ZTogRGVsZXRlU3RlcCA9PiBnZXRBY3RvclN5bWJvbHNGcm9tRXhwcmVzc2lvbihkZWxldGUub3BlcmFuZCkKICAgIGNhc2UgZXZhbDogRXZhbFN0ZXAgICAgID0+IGdldEFjdG9yU3ltYm9sc0Zyb21FeHByZXNzaW9uKGV2YWwudmFsdWUpCiAgICBjYXNlIHVwZGF0ZTogVXBkYXRlU3RlcCA9PiBnZXRBY3RvclN5bWJvbHNGcm9tRXhwcmVzc2lvbih1cGRhdGUudmFsdWUpICsrIGdldEFjdG9yU3ltYm9sKHVwZGF0ZS5lbGVtZW50KS50b1NldAogICAgY2FzZSBpbnB1dDogSW5wdXRTdGVwICAgPT4KICAgICAgZ2V0QWN0b3JTeW1ib2xzRnJvbUV4cHJlc3Npb24oaW5wdXQuY2hvc2VuRnJvbSkgKysKICAgICAgICBnZXRBY3RvclN5bWJvbHNGcm9tRXhwcmVzc2lvbihpbnB1dC5iYXNlZE9uKSArKwogICAgICAgIGdldEFjdG9yU3ltYm9sc0Zyb21FeHByZXNzaW9uKGlucHV0LmRlZmF1bHQpCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICA9PiBTZXQuZW1wdHlbQWN0b3JTeW1ib2xdCiAgfQ==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ZGVmIGNvbnRhaW5JbnB1dEV4cHJlc3Npb24oZXhwcjogRXhwcmVzc2lvbikgPSBnZXRJbnB1dEV4cHJlc3Npb25zRnJvbUV4cHJlc3Npb24oZXhwcikubm9uRW1wdHkKICBwcml2YXRlIHZhbCBnZXRJbnB1dEV4cHJlc3Npb25zRnJvbUV4cHJlc3Npb24gPSBuZXcgVG9PcHRpb25UcmF2ZXJzZXJbSW5wdXRFeHByZXNzaW9uXSB7CiAgICBvdmVycmlkZSBkZWYgdmlzaXQ6IEV4cHJlc3Npb24gPT46IE9wdGlvbltJbnB1dEV4cHJlc3Npb25dID0gewogICAgICBjYXNlIGlucHV0OiBJbnB1dEV4cHJlc3Npb24gPT4gU29tZShpbnB1dCkKICAgIH0KICB9</text>
+        <text encoding="base64">cHJpdmF0ZSB2YWwgZ2V0SW5wdXRFeHByZXNzaW9uRnJvbUV4cHJlc3Npb24gPSBuZXcgVG9PcHRpb25UcmF2ZXJzZXJbSW5wdXRFeHByZXNzaW9uXSB7CiAgICBvdmVycmlkZSBkZWYgdmlzaXQ6IEV4cHJlc3Npb24gPT46IE9wdGlvbltJbnB1dEV4cHJlc3Npb25dID0gewogICAgICBjYXNlIGlucHV0OiBJbnB1dEV4cHJlc3Npb24gPT4gU29tZShpbnB1dCkKICAgIH0KICB9Cg==</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ZGVmIHNlbGVjdEFjdG9yUmVhZHMoYWN0b3JSZWFkczogU2V0W0RTdGVwXSk6IFNldFtEU3RlcF0gPSB7CiAgICAgICAgdmFsIGRlcGVuZGVuY3lHcmFwaCA9IGNyZWF0ZURlcEdyYXBoKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpCiAgICAgICAgYWN0b3JSZWFkcy5maWx0ZXIgeyBkc3RlcCA9PgogICAgICAgICAgIWRlcGVuZGVuY2llcy5kZXBzLmV4aXN0cyhkZXAgPT4gZGVwLmZyb20gPT0gZHN0ZXAgJiYgewogICAgICAgICAgICB2YWwgd3JpdGVzID0gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZGVwLnRvKQogICAgICAgICAgICB2YWwgcmVhZHMgPSBnZXRBY3RvclJlYWRTeW1ib2xzKGRlcC5mcm9tKQoKICAgICAgICAgICAgLy8gd3JpdGVzLm5vbkVtcHR5ICYmIHdyaXRlcy5zdWJzZXRPZihnZXRBY3RvclJlYWRTeW1ib2xzKGRlcC5mcm9tKSkKICAgICAgICAgIH0pCiAgICAgICAgfQogICAgICB9Cg==</text>
+        <text encoding="base64">ZGVmIGNvbnRhaW5JbnB1dEV4cHJlc3Npb24oZXhwcjogRXhwcmVzc2lvbikgPSBnZXRJbnB1dEV4cHJlc3Npb25zRnJvbUV4cHJlc3Npb24oZXhwcikubm9uRW1wdHkKICBwcml2YXRlIHZhbCBnZXRJbnB1dEV4cHJlc3Npb25zRnJvbUV4cHJlc3Npb24gPSBuZXcgVG9PcHRpb25UcmF2ZXJzZXJbSW5wdXRFeHByZXNzaW9uXSB7CiAgICBvdmVycmlkZSBkZWYgdmlzaXQ6IEV4cHJlc3Npb24gPT46IE9wdGlvbltJbnB1dEV4cHJlc3Npb25dID0gewogICAgICBjYXNlIGlucHV0OiBJbnB1dEV4cHJlc3Npb24gPT4gU29tZShpbnB1dCkKICAgIH0KICB9</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">IGFjdG9yUmVhZHMuZmlsdGVyIHsgZHN0ZXAgPT4KICAgICAgICAhZGVwZW5kZW5jaWVzLmRlcHMuZXhpc3RzKGRlcCA9PiBkZXAuZnJvbSA9PSBkc3RlcCAmJiB7CiAgICAgICAgICB2YWwgd3JpdGVzID0gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZGVwLnRvKQogICAgICAgICAgdmFsIHJlYWRzID0gZ2V0QWN0b3JSZWFkU3ltYm9scyhkZXAuZnJvbSkKICAgICAgICAgIAogICAgICAgICAgLy8gd3JpdGVzLm5vbkVtcHR5ICYmIHdyaXRlcy5zdWJzZXRPZihnZXRBY3RvclJlYWRTeW1ib2xzKGRlcC5mcm9tKSkKICAgICAgICB9KQogICAgICB9Cg==</text>
+        <text encoding="base64">ZGVmIHNlbGVjdEFjdG9yUmVhZHMoYWN0b3JSZWFkczogU2V0W0RTdGVwXSk6IFNldFtEU3RlcF0gPSB7CiAgICAgICAgdmFsIGRlcGVuZGVuY3lHcmFwaCA9IGNyZWF0ZURlcEdyYXBoKGRlcGVuZGVuY2llcy5zdGVwcywgZGVwZW5kZW5jaWVzLmRlcHMpCiAgICAgICAgYWN0b3JSZWFkcy5maWx0ZXIgeyBkc3RlcCA9PgogICAgICAgICAgIWRlcGVuZGVuY2llcy5kZXBzLmV4aXN0cyhkZXAgPT4gZGVwLmZyb20gPT0gZHN0ZXAgJiYgewogICAgICAgICAgICB2YWwgd3JpdGVzID0gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZGVwLnRvKQogICAgICAgICAgICB2YWwgcmVhZHMgPSBnZXRBY3RvclJlYWRTeW1ib2xzKGRlcC5mcm9tKQoKICAgICAgICAgICAgLy8gd3JpdGVzLm5vbkVtcHR5ICYmIHdyaXRlcy5zdWJzZXRPZihnZXRBY3RvclJlYWRTeW1ib2xzKGRlcC5mcm9tKSkKICAgICAgICAgIH0pCiAgICAgICAgfQogICAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
