@@ -30,11 +30,11 @@
         <mark key="^" line="20" column="4" />
         <mark key="." line="20" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567764685083">
-        <mark key="[" line="9" column="23" />
-        <mark key="]" line="9" column="84" />
-        <mark key="^" line="9" column="84" />
-        <mark key="." line="9" column="84" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567768417069">
+        <mark key="[" line="11" column="57" />
+        <mark key="]" line="11" column="48" />
+        <mark key="." line="11" column="48" />
+        <mark key="^" line="11" column="48" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1567588228806">
         <mark key="[" line="91" column="87" />
@@ -75,12 +75,12 @@
         <mark key="[" line="20" column="11" />
         <mark key="]" line="20" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567768129993">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567768246078">
         <mark key="'" line="18" column="0" />
-        <mark key="[" line="42" column="0" />
-        <mark key="]" line="42" column="0" />
-        <mark key="^" line="41" column="13" />
-        <mark key="." line="42" column="0" />
+        <mark key="[" line="43" column="6" />
+        <mark key="]" line="45" column="5" />
+        <mark key="^" line="45" column="5" />
+        <mark key="." line="45" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1567517289018">
         <mark key="'" line="142" column="100" />
@@ -425,7 +425,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>node.toOuter.pretty.addPrefix(&quot;   &quot;, Some(&quot;\n&quot;), Some(1))</text>
+        <text>.addPrefix(&quot;    &quot;, Some(&quot;\n&quot;), Some(1))</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">KS5ta1N0cmluZyhzcGxpdE9uKSA=</text>
@@ -434,7 +434,7 @@
         <text>Input from</text>
       </register>
       <register name="0" type="4">
-        <text>node.toOuter.pretty.addPrefix(&quot;   &quot;, Some(&quot;\n&quot;), Some(1))</text>
+        <text>.addPrefix(&quot;    &quot;, Some(&quot;\n&quot;), Some(1))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICBzdHIyCg==</text>
