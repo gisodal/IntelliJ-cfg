@@ -37,9 +37,9 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1567588228806">
-        <mark key="[" line="91" column="87" />
-        <mark key="]" line="91" column="87" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1568034909628">
+        <mark key="[" line="225" column="49" />
+        <mark key="]" line="225" column="91" />
         <mark key="." line="91" column="87" />
         <mark key="^" line="91" column="86" />
       </file>
@@ -90,12 +90,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568025347756">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568034864306">
         <mark key="'" line="352" column="10" />
-        <mark key="[" line="387" column="72" />
-        <mark key="]" line="387" column="71" />
-        <mark key="." line="387" column="71" />
-        <mark key="^" line="387" column="71" />
+        <mark key="[" line="410" column="17" />
+        <mark key="]" line="410" column="17" />
+        <mark key="." line="410" column="17" />
+        <mark key="^" line="410" column="17" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568018872253">
         <mark key="[" line="5005" column="60" />
@@ -215,7 +215,7 @@
         <mark key="." line="45" column="10" />
         <mark key="^" line="45" column="10" />
       </file>
-      <file name="/sbtShell" timestamp="1568016479532">
+      <file name="/sbtShell" timestamp="1568034423913">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -402,7 +402,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">YXNzZXJ0KGFjdG9yUmVhZHMuZm9yYWxsKGRzdGVwID0+IGdldEFjdG9yUmVhZFN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSkgJiYKICAgICAgICBhY3RvcldyaXRlcy5mb3JhbGwoZHN0ZXAgPT4gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSksCiAgICAgICAgIk5vdCBhbGwgYWN0b3IgcmVhZHMgYW5kIHdyaXRlcyBhcmUgb2YgdGhlIHNhbWUgYWN0b3IuIikK</text>
+        <text>nodeToBodyStack(_).endsWith(exclusiveStack)</text>
       </register>
       <register name="-" type="4">
         <text>createActorDepsByScope(actor, actorReads: Set[DStep], actorWrites: Set[DStep]): Set[Dep] = {</text>
@@ -411,7 +411,7 @@
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text>(actor: ActorSymbol, actorReads: Set[DStep], actorWrites: Set[DStep]): Set[Dep] = {</text>
+        <text>nodeToBodyStack(_).endsWith(exclusiveStack)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">YXNzZXJ0KGFjdG9yUmVhZHMuZm9yYWxsKGRzdGVwID0+IGdldEFjdG9yUmVhZFN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSkgJiYKICAgICAgICBhY3RvcldyaXRlcy5mb3JhbGwoZHN0ZXAgPT4gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSksCiAgICAgICAgIk5vdCBhbGwgYWN0b3IgcmVhZHMgYW5kIHdyaXRlcyBhcmUgb2YgdGhlIHNhbWUgYWN0b3IuIikK</text>
