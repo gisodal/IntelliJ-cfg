@@ -76,12 +76,11 @@
         <mark key="[" line="37" column="21" />
         <mark key="]" line="37" column="103" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1567774830344">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568017593382">
         <mark key="'" line="18" column="0" />
-        <mark key="[" line="35" column="4" />
-        <mark key="]" line="35" column="4" />
-        <mark key="^" line="49" column="2" />
-        <mark key="." line="35" column="4" />
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="50" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1567517289018">
         <mark key="'" line="142" column="100" />
@@ -158,8 +157,8 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1567775751145">
-        <mark key="[" line="5" column="65" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568017684741">
+        <mark key="[" line="13" column="72" />
         <mark key="]" line="5" column="78" />
         <mark key="^" line="5" column="78" />
         <mark key="." line="5" column="78" />
@@ -429,7 +428,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>Dependency of update through assignment of actor symbol with extra step</text>
+        <text>cycle.nodes.toList.</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHN1YmplY3Qub3JpZ2luLnByZXR0eUF0</text>
@@ -438,7 +437,7 @@
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text>Dependency of update through assignment of actor symbol with extra step</text>
+        <text>cycle.nodes.toList.</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ewogICAgcHJvYmxlbXMuemlwV2l0aEluZGV4Lm1hcCB7IGNhc2UgKHByb2JsZW0sIGluZGV4KSA9PgogICAgICBzIlByb2JsZW0gJHtpbmRleCsxfSR7cHJvYmxlbS5vcmlnaW4ucHJldHR5QXR9OiBcbiIgKyBwcm9ibGVtLm1lc3NhZ2UuYWRkUHJlZml4KCIgICAgIiwgU29tZSgiXG4iKSkKICAgIH0ubWtTdHJpbmcoIlxuIikuYWRkUHJlZml4KCIgICAgIiwgU29tZSgiXG4iKSkKCiAgfQ==</text>
