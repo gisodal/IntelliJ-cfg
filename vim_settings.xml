@@ -90,12 +90,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568035719513">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568037031522">
         <mark key="'" line="352" column="10" />
-        <mark key="[" line="342" column="0" />
-        <mark key="]" line="342" column="0" />
-        <mark key="." line="342" column="0" />
-        <mark key="^" line="353" column="5" />
+        <mark key="[" line="367" column="35" />
+        <mark key="]" line="367" column="38" />
+        <mark key="." line="367" column="38" />
+        <mark key="^" line="367" column="38" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568018872253">
         <mark key="[" line="5005" column="60" />
@@ -209,11 +209,11 @@
         <mark key="^" line="12" column="5" />
         <mark key="." line="12" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/gears/Test_GenericDM.sn" timestamp="1568018807397">
-        <mark key="[" line="42" column="4" />
-        <mark key="]" line="42" column="21" />
-        <mark key="." line="45" column="10" />
-        <mark key="^" line="45" column="10" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/gears/Test_GenericDM.sn" timestamp="1568037123891">
+        <mark key="[" line="43" column="9" />
+        <mark key="]" line="43" column="9" />
+        <mark key="." line="43" column="9" />
+        <mark key="^" line="43" column="9" />
       </file>
       <file name="/sbtShell" timestamp="1568034423913">
         <mark key="[" line="0" column="0" />
@@ -402,32 +402,35 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val writeActors = actorWrites.map(getActorReadSymbols).reduce(_.intersect(_))</text>
+        <text>RAUN1       : USER</text>
       </register>
       <register name="-" type="4">
-        <text>val writeActors = actorWrites.map(getActorReadSymbols).reduce(_.intersect(_))</text>
+        <text>// check if writes has an actor in common</text>
       </register>
       <register name="/" type="4">
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">YWN0b3JXcml0ZXMuc2l6ZSA+IDEgJiYg</text>
+        <text>RAUN1       : USER</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">dmFsIHdyaXRlQWN0b3JzTGlzdCA9IGFjdG9yUmVhZHMudG9MaXN0Lm1hcChnZXRBY3RvcldyaXRlU3ltYm9scykKICAgICAgdmFsIHdyaXRlQWN0b3JzID0gd3JpdGVBY3RvcnNMaXN0LnRhaWwuZm9sZExlZnQoCiAgICAgICAgd3JpdGVBY3RvcnNMaXN0LmhlYWRPcHRpb24uZ2V0T3JFbHNlKFNldC5lbXB0eVtBY3RvclN5bWJvbF0pKSgKICAgICAgICBfLmludGVyc2VjdChfKSkgCiAgICAgIA==</text>
+      </register>
+      <register name="2" type="4">
+        <text>val readActorsList = actorReads.toList.map(getActorWriteSymbols)
+      val readActors = readActorsList.tail.foldLeft(
+        readActorsList.headOption.getOrElse(Set.empty[ActorSymbol]))(
+        _.intersect(_))</text>
+      </register>
+      <register name="3" type="4">
         <text>def isInScopeOf(dstep1: DStep, dstep2: DStep): Boolean = 
           dstep1.bodyStack.endsWith(dstep2.bodyStack)</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text encoding="base64">YXNzZXJ0KGFjdG9yUmVhZHMuZm9yYWxsKGRzdGVwID0+IGdldEFjdG9yUmVhZFN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSkgJiYKICAgICAgICBhY3RvcldyaXRlcy5mb3JhbGwoZHN0ZXAgPT4gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSksCiAgICAgICAgIk5vdCBhbGwgYWN0b3IgcmVhZHMgYW5kIHdyaXRlcyBhcmUgb2YgdGhlIHNhbWUgYWN0b3IuIikK</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">dmFsIGFjdG9yVG9SZWFkcyA9IGdldEFjdG9yVG9EU3RlcHMoYWN0b3JSZWFkcywgZ2V0QWN0b3JSZWFkU3ltYm9scykKICAgICAgdmFsIGFjdG9yVG9Xcml0ZXMgPSBnZXRBY3RvclRvRFN0ZXBzKGFjdG9yV3JpdGVzLCBnZXRBY3RvcldyaXRlU3ltYm9scykKCiAgICAgIGFjdG9yVG9SZWFkcy5mbGF0TWFwIHsgY2FzZSAoYWN0b3IsIHJlYWRzKSA9PgogICAgICAgIGFzc2VydChhY3RvclRvV3JpdGVzLmNvbnRhaW5zKGFjdG9yKSwKICAgICAgICAgIHMiTm8gaW5wdXRzIGFyZSBmb3VuZCBmcm9tIGFjdG9yICcke2FjdG9yLm5hbWV9JyB0aGF0IHNob3VsZCBiZSByZWFkIGJ5ICR7cmVhZHMubWFwKF8ucHJldHR5KS5ta1N0cmluZygiIiIsICIiIil9LiIpCgogICAgICAgIGFjdG9yVG9Xcml0ZXMuZ2V0KGFjdG9yKS5tYXAod3JpdGVzID0+IGNyZWF0ZUFjdG9yRGVwc0J5QWN0b3IoYWN0b3IsIHJlYWRzLCB3cml0ZXMpKS5nZXQKICAgICAgfS50b1NldA==</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIGdldE1vc3RMZWFmeURTdGVwcyhkc3RlcHM6IFNldFtEU3RlcF0pOiBTZXRbRFN0ZXBdID0gewogICAgICB2YWwgZHN0ZXBOb2RlcyA9IGRzdGVwcy5tYXAoZGVwZW5kZW5jeUdyYXBoLmdldCkKICAgICAgdmFsIG5vZGVzID0gZHN0ZXBOb2Rlcy5mbGF0TWFwKF8uYW5jZXN0b3JzKS50b1NldCArKyBkc3RlcE5vZGVzCiAgICAgIHZhbCBzdWJncmFwaCA9IGRlcGVuZGVuY3lHcmFwaC5zdWJncmFwaChub2RlcykKICAgICAgc3ViZ3JhcGgubGVhdmVzLm1hcChfLnRvT3V0ZXIpCiAgICB9Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Ly9pbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5lbnJpY2guaW1tdXRhYmxlLkRpR3JhcGguXwo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -440,16 +443,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ZGVmIHdpdGhvdXRFbGlkZWQoc3RlcHM6IFNldFtEU3RlcF0sIGRlcHM6IFNldFtEZXBdKTogRGVwR3JhcGggPQogICAgR3JhcGguZnJvbShzdGVwcywgZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQog</text>
+        <text encoding="base64">ZGVmIGdldE1vc3RMZWFmeURTdGVwcyhkc3RlcHM6IFNldFtEU3RlcF0pOiBTZXRbRFN0ZXBdID0gewogICAgICB2YWwgZHN0ZXBOb2RlcyA9IGRzdGVwcy5tYXAoZGVwZW5kZW5jeUdyYXBoLmdldCkKICAgICAgdmFsIG5vZGVzID0gZHN0ZXBOb2Rlcy5mbGF0TWFwKF8uYW5jZXN0b3JzKS50b1NldCArKyBkc3RlcE5vZGVzCiAgICAgIHZhbCBzdWJncmFwaCA9IGRlcGVuZGVuY3lHcmFwaC5zdWJncmFwaChub2RlcykKICAgICAgc3ViZ3JhcGgubGVhdmVzLm1hcChfLnRvT3V0ZXIpCiAgICB9Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ZGVmIHdpdGhvdXRFbGlkZWQoc3RlcHM6IFNldFtEU3RlcF0sIGRlcHM6IFNldFtEZXBdKTogRGVwR3JhcGggPQogICAgICBHcmFwaC5mcm9tKHN0ZXBzLCBkZXBzLmZpbHRlcihkZXAgPT4gIWRlcC5raW5kLmVsaWRlZCkpCg==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Ly9pbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5lbnJpY2guaW1tdXRhYmxlLkRpR3JhcGguXwo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IHByaXZhdGUgZGVmIHdpdGhvdXRFbGlkZWQoc3RlcHM6IFNldFtEU3RlcF0sIGRlcHM6IFNldFtEZXBdKTogRGVwR3JhcGggPQogICAgR3JhcGguZnJvbShzdGVwcywgZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKSAKICA=</text>
+        <text encoding="base64">ZGVmIHdpdGhvdXRFbGlkZWQoc3RlcHM6IFNldFtEU3RlcF0sIGRlcHM6IFNldFtEZXBdKTogRGVwR3JhcGggPQogICAgR3JhcGguZnJvbShzdGVwcywgZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQog</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZURlcEdyYXBoKHN0ZXBzOiBTZXRbRFN0ZXBdLCBkZXBzOiBTZXRbRGVwXSk6IERlcEdyYXBoID0KICAgICAgR3JhcGguZnJvbShzdGVwcywgZGVwcy5maWx0ZXIoZGVwID0+ICFkZXAua2luZC5lbGlkZWQpKQ==</text>
+        <text encoding="base64">ZGVmIHdpdGhvdXRFbGlkZWQoc3RlcHM6IFNldFtEU3RlcF0sIGRlcHM6IFNldFtEZXBdKTogRGVwR3JhcGggPQogICAgICBHcmFwaC5mcm9tKHN0ZXBzLCBkZXBzLmZpbHRlcihkZXAgPT4gIWRlcC5raW5kLmVsaWRlZCkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
