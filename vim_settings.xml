@@ -28,11 +28,10 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1568114385925">
-        <mark key="[" line="31" column="45" />
-        <mark key="]" line="31" column="44" />
-        <mark key="^" line="31" column="44" />
-        <mark key="." line="31" column="44" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1568117607831">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1568109115369">
         <mark key="[" line="3" column="0" />
@@ -56,11 +55,11 @@
         <mark key="[" line="43" column="4" />
         <mark key="]" line="43" column="155" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568117147934">
-        <mark key="[" line="187" column="24" />
-        <mark key="]" line="187" column="24" />
-        <mark key="." line="187" column="24" />
-        <mark key="^" line="187" column="24" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568119722244">
+        <mark key="[" line="189" column="0" />
+        <mark key="]" line="189" column="0" />
+        <mark key="^" line="184" column="43" />
+        <mark key="." line="189" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1568109180162">
         <mark key="'" line="64" column="35" />
@@ -88,11 +87,11 @@
         <mark key="." line="10" column="0" />
         <mark key="^" line="72" column="76" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568114249514">
-        <mark key="[" line="72" column="78" />
-        <mark key="]" line="72" column="77" />
-        <mark key="." line="72" column="77" />
-        <mark key="^" line="72" column="77" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568120310302">
+        <mark key="[" line="70" column="32" />
+        <mark key="]" line="70" column="38" />
+        <mark key="." line="70" column="38" />
+        <mark key="^" line="70" column="38" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1566204338995">
         <mark key="[" line="23" column="0" />
@@ -203,11 +202,11 @@
         <mark key="^" line="1963" column="96" />
         <mark key="." line="1963" column="96" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1568114319631">
-        <mark key="[" line="18" column="77" />
-        <mark key="]" line="18" column="77" />
-        <mark key="^" line="18" column="77" />
-        <mark key="." line="18" column="77" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1568120280662">
+        <mark key="[" line="22" column="36" />
+        <mark key="]" line="22" column="33" />
+        <mark key="^" line="22" column="33" />
+        <mark key="." line="22" column="33" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1568021385851">
         <mark key="[" line="133" column="6" />
@@ -325,7 +324,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="133" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="417" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="83" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -425,19 +423,22 @@
       <jump line="66" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" />
       <jump line="5124" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="5121" column="26" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
+      <jump line="193" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIHN0YXRlVG9Ob2RlcyA9IGJvZHlOb2RlcwogICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBib2R5SWQuZmxhdE1hcChldmFsSWQgPT4gbm9kZS5icmFuY2goZXZhbElkKS5nZXQpKQ==</text>
+        <text>def bodyIds: Set[BodyId] =
+      thisGraph.nodes.flatMap(_.primary.map(_.bodyStack.toSet).getOrElse(Set.empty[BodyId])).toSet</text>
       </register>
       <register name="-" type="4">
-        <text>.wrapperBody.get,w.wrapperBranch.get</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIHN0YXRlVG9Ob2RlcyA9IGJvZHlOb2RlcwogICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBib2R5SWQuZmxhdE1hcChldmFsSWQgPT4gbm9kZS5icmFuY2goZXZhbElkKS5nZXQpKQ==</text>
+        <text>def bodyIds: Set[BodyId] =
+      thisGraph.nodes.flatMap(_.primary.map(_.bodyStack.toSet).getOrElse(Set.empty[BodyId])).toSet</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICB9CiAgICBkZWYgZW1wdHk6IEJyYW5jaElkID0gQnJhbmNoSWQoQm9keUlkLmVtcHR5LCBCcmFuY2guZW1wdHkpCg==</text>
