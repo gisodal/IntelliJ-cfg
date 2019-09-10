@@ -56,11 +56,11 @@
         <mark key="[" line="43" column="4" />
         <mark key="]" line="43" column="155" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568114559454">
-        <mark key="[" line="187" column="71" />
-        <mark key="]" line="187" column="74" />
-        <mark key="." line="187" column="74" />
-        <mark key="^" line="187" column="74" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568117147934">
+        <mark key="[" line="187" column="24" />
+        <mark key="]" line="187" column="24" />
+        <mark key="." line="187" column="24" />
+        <mark key="^" line="187" column="24" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1568109180162">
         <mark key="'" line="64" column="35" />
@@ -428,7 +428,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.wrapperBody.get,w.wrapperBranch.get</text>
+        <text encoding="base64">dmFsIHN0YXRlVG9Ob2RlcyA9IGJvZHlOb2RlcwogICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBib2R5SWQuZmxhdE1hcChldmFsSWQgPT4gbm9kZS5icmFuY2goZXZhbElkKS5nZXQpKQ==</text>
       </register>
       <register name="-" type="4">
         <text>.wrapperBody.get,w.wrapperBranch.get</text>
@@ -437,8 +437,7 @@
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text>def bodyId: BodyId =
-      primaryWrapper.flatMap(_.wrapperBody.getOrElse(None))</text>
+        <text encoding="base64">dmFsIHN0YXRlVG9Ob2RlcyA9IGJvZHlOb2RlcwogICAgICAgICAgLmdyb3VwQnkobm9kZSA9PiBib2R5SWQuZmxhdE1hcChldmFsSWQgPT4gbm9kZS5icmFuY2goZXZhbElkKS5nZXQpKQ==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICB9CiAgICBkZWYgZW1wdHk6IEJyYW5jaElkID0gQnJhbmNoSWQoQm9keUlkLmVtcHR5LCBCcmFuY2guZW1wdHkpCg==</text>
