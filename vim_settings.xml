@@ -73,12 +73,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568208677229">
-        <mark key="'" line="435" column="5" />
-        <mark key="[" line="482" column="6" />
-        <mark key="]" line="480" column="12" />
-        <mark key="^" line="480" column="12" />
-        <mark key="." line="480" column="12" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568209959947">
+        <mark key="'" line="38" column="42" />
+        <mark key="[" line="451" column="0" />
+        <mark key="]" line="451" column="0" />
+        <mark key="^" line="441" column="92" />
+        <mark key="." line="451" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568201843199">
         <mark key="'" line="5122" column="26" />
@@ -298,12 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="140" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="142" column="100" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="67" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
-      <jump line="112" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="517" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="222" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="240" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="218" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="103" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -398,35 +392,40 @@
       <jump line="496" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="396" column="96" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="435" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="412" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="106" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="354" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="55" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="505" column="19" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="38" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">d3JpdGVzLm1hcCh3cml0ZSA9PiBjcmVhdGVBY3RvckRlcChhY3RvciwgYWN0b3JSZWFkLCB3cml0ZSkp</text>
+        <text>actorWrites - actorRead</text>
       </register>
       <register name="-" type="4">
         <text>val writes = actorWrites - actorRead</text>
       </register>
       <register name="/" type="4">
-        <text>elidedBB</text>
+        <text>indent</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">d3JpdGVzLm1hcCh3cml0ZSA9PiBjcmVhdGVBY3RvckRlcChhY3RvciwgYWN0b3JSZWFkLCB3cml0ZSkp</text>
+        <text>actorWrites - actorRead</text>
       </register>
       <register name="1" type="4">
-        <text>logger.warn(s&quot;There are not actor reads found for actor ${actor.name}, while but ${writes.size} write(s) found:\n&quot; +
-              writes.map(_.pretty).addIndex().indent(4).mkString(&quot;\n&quot;))</text>
+        <text encoding="base64">IC8vIGNyZWF0ZSBhIGRlcGVuZGVuY3kgZnJvbSBhY3RvciByZWFkIHRvIGFjdG9yIHdyaXRlKHMpLAogICAgICAvLyB1bmxlc3MgdGhlIHdyaXRlIGlzIGFuIGFuY2VzdG9yIG9mIHRoZSByZWFkIHRvIGF2b2lkIGEgY3ljbGUu</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZUFjdG9yRGVwS2luZChhY3RvcjogQWN0b3JTeW1ib2wsIHJlYWQ6IERTdGVwLCB3cml0ZTogRFN0ZXApID0gewogICAgICB2YWwga2luZCA9IERlcEtpbmQuQWN0b3IoYWN0b3IubmFtZSwgd3JpdGUuaW5uZXJtb3N0LmlkKQogICAgICBpZiAoZGVzaWduLlNjb3BlU3RhY2suaXNJbk9wcG9zaW5nQnJhbmNoKHJlYWQsIHdyaXRlKSkKICAgICAgICBEZXBLaW5kLkVsaWRlZEJCKGtpbmQpCiAgICAgIGVsc2Uga2luZAogICAgfQo=</text>
+        <text encoding="base64">aW1wbGljaXQgY2xhc3MgcmljaERTdGVwU2V0KHZhbCBkc3RlcHM6IFNldFtEU3RlcF0pIGV4dGVuZHMgQW55VmFsIHsKICAgICAgCiAgICB9CiA=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">aW1wb3J0IHV0aWwuU3RyaW5nRW5oYW5jZW1lbnRzLl8KICB2YWwgcHJldHR5Tm9kZXMgPSBkZXBlbmRlbmN5R3JhcGgubm9kZXMudG9MaXN0LnppcFdpdGhJbmRleC5tYXAgeyBjYXNlIChub2RlLGluZGV4KSA9PgogICAgICAgIG5vZGUudG9PdXRlci5wcmV0dHkuYWRkSW5kZW50ZWRQcmVmaXgocyJOb2RlICRpbmRleDogIikKICAgIH0ubWtTdHJpbmcoIlxuIikKCiAgICAgIGxvZ2dlci5lcnJvcigiVGhlIGRlcGVuZGVuY3kgZ3JhcGggaGFzIG5vZGVzOlxuIiArIHByZXR0eU5vZGVzKQoKICA=</text>
+        <text encoding="base64">aW1wbGljaXQgY2xhc3MgcmljaERTdGVwU2V0KHZhbCBkc3RlcHM6IFNldFtEU3RlcF0pIGV4dGVuZHMgQW55VmFsIHsKICAgICAgCiAgICB9CiA=</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">dmFsIHByZXR0eU5vZGVzID0gZGVwZW5kZW5jeUdyYXBoLm5vZGVzLnRvTGlzdC56aXBXaXRoSW5kZXgubWFwIHsgY2FzZSAobm9kZSxpbmRleCkgPT4KICAgICAgICBub2RlLnRvT3V0ZXIucHJldHR5LmFkZEluZGVudGVkUHJlZml4KHMiTm9kZSAkaW5kZXg6ICIpCiAgICB9Lm1rU3RyaW5nKCJcbiIpCgogICAgICBsb2dnZXIuZXJyb3IoIlRoZSBkZXBlbmRlbmN5IGdyYXBoIGhhcyBub2RlczpcbiIgKyBwcmV0dHlOb2RlcykK</text>
+        <text encoding="base64">aW1wbGljaXQgcmljaERTdGVwU2V0KHZhbCBkc3RlcHM6IFNldFtEU3RlcF0pIGV4dGVuZHMgQW55VmFsIHsKICAgICAgCiAgICB9CiAgICA=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIGNhc2UgKHN0cjEsIHN0cjIpID0+Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">ZGVmIGNyZWF0ZUFjdG9yRGVwc1dpdGhOb25BbmNlc3RvcnMoYWN0b3I6IEFjdG9yU3ltYm9sLCBhY3RvclJlYWQ6IERTdGVwLCBhY3RvcldyaXRlczogU2V0W0RTdGVwXSk6IFNldFtEZXBdID0gewoKICAgICAgLy8gZmluZCB0aG9zZSB3cml0ZXMgdGhhdCBhcmUgYW5jZXN0b3JzIG9mIHRoZSByZWFkCiAgICAgIHZhbCBhbmNlc3RvclJlYWRzOiBTZXRbRFN0ZXBdID0gZGVwZW5kZW5jeUdyYXBoLmdldChhY3RvclJlYWQpLmFuY2VzdG9ycy5tYXAoXy50b091dGVyKQogICAgICB2YWwgYW5jZXN0b3JXcml0ZXMgPSBhY3RvcldyaXRlcy5pbnRlcnNlY3QoYW5jZXN0b3JSZWFkcyArIGFjdG9yUmVhZCkKCiAgICAgIC8vIGNyZWF0ZSBhIGRlcGVuZGVuY3kgZnJvbSB0aGUgcmVhZCB0byB0aGUgd3JpdGVzIHRoYXQgYXJlIG5vdCBhbmNlc3RvcnMgb2YgdGhlIHJlYWQKICAgICAgdmFsIHdyaXRlcyA9IGFjdG9yV3JpdGVzLmRpZmYoYW5jZXN0b3JXcml0ZXMpCiAgICAgIGlmICh3cml0ZXMuaXNFbXB0eSkgewogICAgICAgIGxvZ2dlci5lcnJvcihzIlJlYWQgIikKICAgICAgICBjcmVhdGVBY3RvckRlcHMoYWN0b3IsIGFjdG9yUmVhZCwgYWN0b3JXcml0ZXMpCiAgICAgIH0gZWxzZQogICAgICAgIGNyZWF0ZUFjdG9yRGVwcyhhY3RvciwgYWN0b3JSZWFkLCB3cml0ZXMpCiAgICB9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -439,27 +438,26 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ZGVmIGFkZEluZGV4KHNwbGl0OiBPcHRpb25bU3RyaW5nXSA9IE5vbmUpID0KICAgICAgYWRkUHJlZml4KCIgIiAqIHNwYWNlcywgU29tZSgiXG4iKSwgb2Zmc2V0KQoK</text>
+        <text>logger.warn(s&quot;There are not actor reads found for actor ${actor.name}, while but ${writes.size} write(s) found:\n&quot; +
+              writes.map(_.pretty).addIndex().indent(4).mkString(&quot;\n&quot;))</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgZHN0ZXAxLmJvZHlTdGFjay5lbmRzV2l0aChkc3RlcDIuYm9keVN0YWNrKQo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">ZGVmIGNyZWF0ZUFjdG9yRGVwS2luZChhY3RvcjogQWN0b3JTeW1ib2wsIHJlYWQ6IERTdGVwLCB3cml0ZTogRFN0ZXApID0gewogICAgICB2YWwga2luZCA9IERlcEtpbmQuQWN0b3IoYWN0b3IubmFtZSwgd3JpdGUuaW5uZXJtb3N0LmlkKQogICAgICBpZiAoZGVzaWduLlNjb3BlU3RhY2suaXNJbk9wcG9zaW5nQnJhbmNoKHJlYWQsIHdyaXRlKSkKICAgICAgICBEZXBLaW5kLkVsaWRlZEJCKGtpbmQpCiAgICAgIGVsc2Uga2luZAogICAgfQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICB9CiAgICBkZWYgZW1wdHk6IEJyYW5jaElkID0gQnJhbmNoSWQoQm9keUlkLmVtcHR5LCBCcmFuY2guZW1wdHkpCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">aW1wb3J0IHV0aWwuU3RyaW5nRW5oYW5jZW1lbnRzLl8KICB2YWwgcHJldHR5Tm9kZXMgPSBkZXBlbmRlbmN5R3JhcGgubm9kZXMudG9MaXN0LnppcFdpdGhJbmRleC5tYXAgeyBjYXNlIChub2RlLGluZGV4KSA9PgogICAgICAgIG5vZGUudG9PdXRlci5wcmV0dHkuYWRkSW5kZW50ZWRQcmVmaXgocyJOb2RlICRpbmRleDogIikKICAgIH0ubWtTdHJpbmcoIlxuIikKCiAgICAgIGxvZ2dlci5lcnJvcigiVGhlIGRlcGVuZGVuY3kgZ3JhcGggaGFzIG5vZGVzOlxuIiArIHByZXR0eU5vZGVzKQoKICA=</text>
       </register>
       <register name="9" type="4">
-        <text>private[design] type Branch = Option[Boolean]
-  private[design] case class BranchId(bodyId: BodyId, branch: Branch)
-  private[design] type BranchStack = List[BranchId]</text>
+        <text encoding="base64">dmFsIHByZXR0eU5vZGVzID0gZGVwZW5kZW5jeUdyYXBoLm5vZGVzLnRvTGlzdC56aXBXaXRoSW5kZXgubWFwIHsgY2FzZSAobm9kZSxpbmRleCkgPT4KICAgICAgICBub2RlLnRvT3V0ZXIucHJldHR5LmFkZEluZGVudGVkUHJlZml4KHMiTm9kZSAkaW5kZXg6ICIpCiAgICB9Lm1rU3RyaW5nKCJcbiIpCgogICAgICBsb2dnZXIuZXJyb3IoIlRoZSBkZXBlbmRlbmN5IGdyYXBoIGhhcyBub2RlczpcbiIgKyBwcmV0dHlOb2RlcykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>elidedBB</last-search>
+      <last-search>indent</last-search>
       <last-offset />
-      <last-pattern>elidedBB</last-pattern>
+      <last-pattern>indent</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -467,7 +465,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">Y2x1c3RlcnMgPSA=</entry>
         <entry>normalzied</entry>
         <entry>Export</entry>
         <entry encoding="base64">diA=</entry>
@@ -487,6 +484,7 @@
         <entry>condi</entry>
         <entry>actorBB</entry>
         <entry>elidedBB</entry>
+        <entry>indent</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
