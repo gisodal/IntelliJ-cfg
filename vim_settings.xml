@@ -86,12 +86,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568191000351">
-        <mark key="'" line="350" column="10" />
-        <mark key="[" line="422" column="14" />
-        <mark key="]" line="422" column="14" />
-        <mark key="^" line="422" column="14" />
-        <mark key="." line="422" column="14" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568193146568">
+        <mark key="'" line="416" column="5" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="51" />
+        <mark key="^" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568123845840">
         <mark key="'" line="5122" column="26" />
@@ -124,11 +124,11 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1568191162337">
-        <mark key="[" line="37" column="73" />
-        <mark key="]" line="39" column="2" />
-        <mark key="^" line="39" column="2" />
-        <mark key="." line="39" column="2" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1568193077755">
+        <mark key="[" line="41" column="8" />
+        <mark key="]" line="41" column="7" />
+        <mark key="^" line="41" column="7" />
+        <mark key="." line="41" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1565090442648">
         <mark key="[" line="33" column="38" />
@@ -189,9 +189,9 @@
         <mark key="." line="57" column="35" />
         <mark key="^" line="57" column="35" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1568021385851">
-        <mark key="[" line="133" column="6" />
-        <mark key="]" line="133" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1568191279729">
+        <mark key="[" line="35" column="4" />
+        <mark key="]" line="37" column="33" />
         <mark key="^" line="133" column="13" />
         <mark key="." line="133" column="13" />
       </file>
@@ -311,7 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="417" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="83" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="21" column="54" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" />
       <jump line="42" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" />
@@ -411,36 +410,37 @@
       <jump line="5121" column="26" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="193" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="36" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
+      <jump line="416" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>implicit class EnhancedString(val s: String) extends AnyVal {</text>
+        <text>import util.StringEnhancements.richStringCollection</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">c2NvcGUxLmhlYWRPcHRpb24g</text>
+        <text>import util.StringEnhancements.richStringCollection</text>
       </register>
       <register name="/" type="4">
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text>implicit class EnhancedString(val s: String) extends AnyVal {</text>
+        <text>f&quot;$index%d&quot;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgZHN0ZXAxLmJvZHlTdGFjay5lbmRzV2l0aChkc3RlcDIuYm9keVN0YWNrKQo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">ZGVmIGFkZEluZGV4KHNwbGl0OiBPcHRpb25bU3RyaW5nXSA9IE5vbmUpID0KICAgICAgYWRkUHJlZml4KCIgIiAqIHNwYWNlcywgU29tZSgiXG4iKSwgb2Zmc2V0KQoK</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgZHN0ZXAxLmJvZHlTdGFjay5lbmRzV2l0aChkc3RlcDIuYm9keVN0YWNrKQo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICB9CiAgICBkZWYgZW1wdHk6IEJyYW5jaElkID0gQnJhbmNoSWQoQm9keUlkLmVtcHR5LCBCcmFuY2guZW1wdHkpCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>private[design] type Branch = Option[Boolean]
   private[design] case class BranchId(bodyId: BodyId, branch: Branch)
   private[design] type BranchStack = List[BranchId]</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIGNhc2UgaW5wdXQ6IElucHV0RXhwcmVzc2lvbiA9PiA/Pz8gLy9nZXRBY3RvclN5bWJvbChzeW1ib2wpLnRvU2V0IAo=</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIGNhc2UgaW5wdXQ6IElucHV0RXhwcmVzc2lvbiA9PiA/Pz8gLy9nZXRBY3RvclN5bWJvbChzeW1ib2wpLnRvU2V0IAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -452,21 +452,21 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">dmFsIHdyaXRlQWN0b3JzTGlzdCA9IGFjdG9yUmVhZHMudG9MaXN0Lm1hcChnZXRBY3RvcldyaXRlU3ltYm9scykKICAgICAgdmFsIHdyaXRlQWN0b3JzID0gd3JpdGVBY3RvcnNMaXN0LnRhaWwuZm9sZExlZnQoCiAgICAgICAgd3JpdGVBY3RvcnNMaXN0LmhlYWRPcHRpb24uZ2V0T3JFbHNlKFNldC5lbXB0eVtBY3RvclN5bWJvbF0pKSgKICAgICAgICBfLmludGVyc2VjdChfKSkgCiAgICAgIA==</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="4">
+        <text encoding="base64">dmFsIHdyaXRlQWN0b3JzTGlzdCA9IGFjdG9yUmVhZHMudG9MaXN0Lm1hcChnZXRBY3RvcldyaXRlU3ltYm9scykKICAgICAgdmFsIHdyaXRlQWN0b3JzID0gd3JpdGVBY3RvcnNMaXN0LnRhaWwuZm9sZExlZnQoCiAgICAgICAgd3JpdGVBY3RvcnNMaXN0LmhlYWRPcHRpb24uZ2V0T3JFbHNlKFNldC5lbXB0eVtBY3RvclN5bWJvbF0pKSgKICAgICAgICBfLmludGVyc2VjdChfKSkgCiAgICAgIA==</text>
+      </register>
+      <register name="8" type="4">
         <text>val readActorsList = actorReads.toList.map(getActorWriteSymbols)
       val readActors = readActorsList.tail.foldLeft(
         readActorsList.headOption.getOrElse(Set.empty[ActorSymbol]))(
         _.intersect(_))</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>def isInScopeOf(dstep1: DStep, dstep2: DStep): Boolean = 
           dstep1.bodyStack.endsWith(dstep2.bodyStack)</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">YXNzZXJ0KGFjdG9yUmVhZHMuZm9yYWxsKGRzdGVwID0+IGdldEFjdG9yUmVhZFN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSkgJiYKICAgICAgICBhY3RvcldyaXRlcy5mb3JhbGwoZHN0ZXAgPT4gZ2V0QWN0b3JXcml0ZVN5bWJvbHMoZHN0ZXApLmNvbnRhaW5zKGFjdG9yKSksCiAgICAgICAgIk5vdCBhbGwgYWN0b3IgcmVhZHMgYW5kIHdyaXRlcyBhcmUgb2YgdGhlIHNhbWUgYWN0b3IuIikK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
