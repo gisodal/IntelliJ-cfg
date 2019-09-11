@@ -73,12 +73,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568209959947">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568210603539">
         <mark key="'" line="38" column="42" />
-        <mark key="[" line="451" column="0" />
-        <mark key="]" line="451" column="0" />
-        <mark key="^" line="441" column="92" />
-        <mark key="." line="451" column="0" />
+        <mark key="[" line="387" column="6" />
+        <mark key="]" line="388" column="5" />
+        <mark key="^" line="388" column="5" />
+        <mark key="." line="388" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568201843199">
         <mark key="'" line="5122" column="26" />
@@ -401,7 +401,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>actorWrites - actorRead</text>
+        <text encoding="base64">IHZhbCBhY3RvclJlYWRzICA9IGRlcGVuZGVuY2llcy5zdGVwcy5maWx0ZXIoaGFzQWN0b3JSZWFkU3ltYm9scykKICAgICAgdmFsIGFjdG9yV3JpdGVzID0gZGVwZW5kZW5jaWVzLnN0ZXBzLmZpbHRlcihoYXNBY3RvcldyaXRlU3ltYm9scykK</text>
       </register>
       <register name="-" type="4">
         <text>val writes = actorWrites - actorRead</text>
@@ -410,7 +410,7 @@
         <text>indent</text>
       </register>
       <register name="0" type="4">
-        <text>actorWrites - actorRead</text>
+        <text encoding="base64">IHZhbCBhY3RvclJlYWRzICA9IGRlcGVuZGVuY2llcy5zdGVwcy5maWx0ZXIoaGFzQWN0b3JSZWFkU3ltYm9scykKICAgICAgdmFsIGFjdG9yV3JpdGVzID0gZGVwZW5kZW5jaWVzLnN0ZXBzLmZpbHRlcihoYXNBY3RvcldyaXRlU3ltYm9scykK</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IC8vIGNyZWF0ZSBhIGRlcGVuZGVuY3kgZnJvbSBhY3RvciByZWFkIHRvIGFjdG9yIHdyaXRlKHMpLAogICAgICAvLyB1bmxlc3MgdGhlIHdyaXRlIGlzIGFuIGFuY2VzdG9yIG9mIHRoZSByZWFkIHRvIGF2b2lkIGEgY3ljbGUu</text>
