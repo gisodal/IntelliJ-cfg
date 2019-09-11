@@ -8,12 +8,12 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568199923426">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568224773010">
         <mark key="'" line="229" column="13" />
-        <mark key="[" line="328" column="71" />
-        <mark key="]" line="328" column="70" />
-        <mark key="^" line="328" column="70" />
-        <mark key="." line="328" column="70" />
+        <mark key="[" line="334" column="102" />
+        <mark key="]" line="334" column="102" />
+        <mark key="^" line="334" column="102" />
+        <mark key="." line="334" column="102" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -60,12 +60,12 @@
         <mark key="." line="646" column="98" />
         <mark key="^" line="646" column="98" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568196653945">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568224839298">
         <mark key="'" line="18" column="0" />
-        <mark key="[" line="37" column="6" />
-        <mark key="]" line="42" column="96" />
-        <mark key="." line="38" column="63" />
-        <mark key="^" line="38" column="62" />
+        <mark key="[" line="21" column="37" />
+        <mark key="]" line="21" column="37" />
+        <mark key="." line="21" column="37" />
+        <mark key="^" line="21" column="37" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1566204338995">
         <mark key="[" line="23" column="0" />
@@ -73,12 +73,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568216436903">
-        <mark key="'" line="381" column="29" />
-        <mark key="[" line="379" column="22" />
-        <mark key="]" line="379" column="75" />
-        <mark key="." line="379" column="75" />
-        <mark key="^" line="379" column="75" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568224630506">
+        <mark key="'" line="389" column="29" />
+        <mark key="[" line="543" column="11" />
+        <mark key="]" line="543" column="15" />
+        <mark key="^" line="543" column="15" />
+        <mark key="." line="543" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568201843199">
         <mark key="'" line="5122" column="26" />
@@ -401,16 +401,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>logger.warn(s&quot;There exists a dstep with an actor self dependency: ${actorRead.pretty}&quot;)</text>
+        <text>imp(kind)</text>
       </register>
       <register name="-" type="4">
-        <text>val writes = actorWrites - actorRead</text>
+        <text>checkDeps(dependencies, deps)</text>
       </register>
       <register name="/" type="4">
         <text>There ex</text>
       </register>
       <register name="0" type="4">
-        <text>logger.warn(s&quot;There exists a dstep with an actor self dependency: ${actorRead.pretty}&quot;)</text>
+        <text>imp(kind)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IC8vIGNyZWF0ZSBhIGRlcGVuZGVuY3kgZnJvbSBhY3RvciByZWFkIHRvIGFjdG9yIHdyaXRlKHMpLAogICAgICAvLyB1bmxlc3MgdGhlIHdyaXRlIGlzIGFuIGFuY2VzdG9yIG9mIHRoZSByZWFkIHRvIGF2b2lkIGEgY3ljbGUu</text>
