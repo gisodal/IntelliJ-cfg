@@ -65,12 +65,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568304143552">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568304773261">
         <mark key="'" line="617" column="0" />
-        <mark key="[" line="414" column="19" />
-        <mark key="]" line="414" column="57" />
-        <mark key="^" line="414" column="57" />
-        <mark key="." line="414" column="57" />
+        <mark key="[" line="413" column="0" />
+        <mark key="]" line="413" column="0" />
+        <mark key="^" line="397" column="7" />
+        <mark key="." line="413" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568286979394">
         <mark key="'" line="5122" column="26" />
@@ -121,11 +121,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568304355541">
-        <mark key="[" line="40" column="0" />
-        <mark key="]" line="40" column="0" />
-        <mark key="^" line="41" column="9" />
-        <mark key="." line="40" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568304678917">
+        <mark key="[" line="42" column="80" />
+        <mark key="]" line="42" column="72" />
+        <mark key="^" line="42" column="72" />
+        <mark key="." line="42" column="72" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568113517772">
         <mark key="[" line="6" column="0" />
@@ -399,7 +399,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IGZvcm1hdHRlZFR5cGVTdHIgKyBtc2cuaW5kZW50KDQsU29tZSgxKSkgKyAiXG4iICsgU3RlcHMucHJldHRpZmllcihzdWIpLmluZGVudCg0KQ==</text>
+        <text>Steps.prettifier(sub)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGZvcm1hdHRlZFR5cGVTdHIgKyBtc2cuaW5kZW50KDQsU29tZSgxKSkgKyAiXG4iICsgU3RlcHMucHJldHRpZmllcihzdWIpLmluZGVudCg0KQ==</text>
@@ -408,7 +408,7 @@
         <text>There ex</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IHMiU2VsZWN0ZWQgd3JpdGVzIGFyZSBub3QgZGVwZW5kZW50IG9uIGFjdG9yICR7YWN0b3IubmFtZX0=</text>
+        <text>Steps.prettifier(sub)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIHByZXR0eVN1YmplY3RzID0gc3ViamVjdHMubWFwIHsKICAgICAgICAgICBjYXNlIHN1YkAob3JpZ2luOiBIYXNPcmlnaW4pID0+IG9yaWdpbi5wcmV0dHlMb2NhdGlvbi5nZXRPckVsc2UoU3RlcHMucHJldHRpZmllcihzdWIpKQogICAgICAgICAgIGNhc2Ugb3RoZXIgPT4gU3RlcHMucHJldHRpZmllcihvdGhlcikKICAgICAgICAgfS5pbmRlbnQoNCkg</text>
