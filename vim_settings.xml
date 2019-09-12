@@ -8,12 +8,12 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568279720744">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568291400770">
         <mark key="'" line="229" column="13" />
-        <mark key="[" line="328" column="0" />
-        <mark key="]" line="328" column="0" />
-        <mark key="^" line="338" column="23" />
-        <mark key="." line="328" column="0" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="12" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -72,12 +72,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568289482008">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568292146943">
         <mark key="'" line="617" column="0" />
-        <mark key="[" line="15" column="41" />
-        <mark key="]" line="15" column="47" />
-        <mark key="^" line="15" column="47" />
-        <mark key="." line="15" column="47" />
+        <mark key="[" line="39" column="83" />
+        <mark key="]" line="39" column="85" />
+        <mark key="^" line="39" column="85" />
+        <mark key="." line="39" column="85" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568286979394">
         <mark key="'" line="5122" column="26" />
@@ -110,11 +110,11 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1568197724565">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-        <mark key="^" line="38" column="47" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1568292114877">
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="50" column="0" />
+        <mark key="^" line="46" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1565090442648">
         <mark key="[" line="33" column="38" />
@@ -128,11 +128,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568289431835">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568291618907">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
         <mark key="^" line="9" column="1" />
-        <mark key="." line="12" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568113517772">
         <mark key="[" line="6" column="0" />
@@ -400,16 +400,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>def apply(message: String): Problem = Problem(NoOrigin, message)</text>
+        <text>index.toString + sep.getOrElse(&quot;: &quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>def apply(message: String): Problem = Problem(NoOrigin, message)</text>
+        <text encoding="base64">bG9nLmVycm9yKCkgIA==</text>
       </register>
       <register name="/" type="4">
         <text>There ex</text>
       </register>
       <register name="0" type="4">
-        <text>def message(subject: HasOrigin, message: String) = Problem(subject, message).pretty</text>
+        <text>index.toString + sep.getOrElse(&quot;: &quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICBkZWYgcHJldHR5OiBTdHJpbmcgPSBvcmlnaW4ucHJldHR5Cg==</text>
