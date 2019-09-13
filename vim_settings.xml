@@ -77,12 +77,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568379732873">
-        <mark key="'" line="375" column="27" />
-        <mark key="[" line="381" column="65" />
-        <mark key="]" line="429" column="9" />
-        <mark key="." line="429" column="9" />
-        <mark key="^" line="429" column="9" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568381395734">
+        <mark key="'" line="536" column="61" />
+        <mark key="[" line="591" column="0" />
+        <mark key="]" line="591" column="0" />
+        <mark key="." line="591" column="0" />
+        <mark key="^" line="599" column="62" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568286979394">
         <mark key="'" line="5122" column="26" />
@@ -311,8 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
-      <jump line="53" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="215" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="27" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -411,25 +409,21 @@
       <jump line="25" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" />
       <jump line="61" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
       <jump line="97" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
+      <jump line="485" column="75" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
+      <jump line="538" column="61" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>if (export) {
-              val actorDeps = createMultiActorDeps(actor, reads,writes)
-              exportDeps(dependencies.steps, dependencies.deps ++ actorDeps, actorDeps, s&quot;Phase 3: (${actor.name}) By actor&quot;)
-            }</text>
+        <text>Phase 3: Done</text>
       </register>
       <register name="-" type="4">
-        <text>val actorDeps = createMultiActorDeps(actor, reads,writes)</text>
+        <text encoding="base64">aGlnaGxpZ2h0OiBUcmF2ZXJzYWJsZVtBbnldLCA=</text>
       </register>
       <register name="/" type="4">
-        <text>before</text>
+        <text>export</text>
       </register>
       <register name="0" type="4">
-        <text>if (export) {
-              val actorDeps = createMultiActorDeps(actor, reads,writes)
-              exportDeps(dependencies.steps, dependencies.deps ++ actorDeps, actorDeps, s&quot;Phase 3: (${actor.name}) By actor&quot;)
-            }</text>
+        <text>Phase 3: Done</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSBfOiBEU3RlcCA9PiB0cnVlCiAgICAgICAgY2FzZSBfOiBEZXAgPT4gdHJ1ZQ==</text>
@@ -473,9 +467,9 @@
       </register>
     </registers>
     <search>
-      <last-search>before</last-search>
+      <last-search>export</last-search>
       <last-offset />
-      <last-pattern>before</last-pattern>
+      <last-pattern>export</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -483,7 +477,6 @@
     </search>
     <history>
       <history-search>
-        <entry>v</entry>
         <entry>cycle</entry>
         <entry>findCy</entry>
         <entry>insert</entry>
@@ -503,6 +496,7 @@
         <entry>There ex</entry>
         <entry>dependency</entry>
         <entry>before</entry>
+        <entry>export</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
