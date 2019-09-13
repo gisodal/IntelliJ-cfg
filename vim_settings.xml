@@ -16,11 +16,11 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1568279504342">
-        <mark key="[" line="18" column="52" />
-        <mark key="]" line="18" column="48" />
-        <mark key="." line="18" column="44" />
-        <mark key="^" line="27" column="71" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1568374118717">
+        <mark key="[" line="34" column="20" />
+        <mark key="]" line="34" column="21" />
+        <mark key="." line="34" column="21" />
+        <mark key="^" line="34" column="21" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567775359059">
         <mark key="[" line="2" column="0" />
@@ -399,17 +399,17 @@
       <jump line="375" column="27" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgZXhwb3J0ZXIuYWRkKERlcEdyYXBoKGFjdG9yRGVwcy5mbGF0TWFwKGRlcCA9PiBTZXQoZGVwLmZyb20sIGRlcC50bykpLCBhY3RvckRlcHMpLCAiYWRkaW5nIikK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">cmVkdWN0aW9uRWRnZXMuY29udGFpbnMoZWRnZSkg</text>
       </register>
       <register name="-" type="4">
-        <text>diagramExporter.addProcessDesign(ProcessDesign(name, List(name), processGraph))</text>
+        <text>reductionEdges.contains(edge)</text>
       </register>
       <register name="/" type="4">
         <text>before</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZXhwb3J0ZXIuYWRkKERlcEdyYXBoKGFjdG9yRGVwcy5mbGF0TWFwKGRlcCA9PiBTZXQoZGVwLmZyb20sIGRlcC50bykpLCBhY3RvckRlcHMpLCAiYWRkaW5nIik=</text>
+        <text encoding="base64">cmVkdWN0aW9uRWRnZXMuY29udGFpbnMoZWRnZSkg</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgZXhwb3J0ZXIuYWRkKERlcEdyYXBoKGFjdG9yRGVwcy5mbGF0TWFwKGRlcCA9PiBTZXQoZGVwLmZyb20sIGRlcC50bykpLCBhY3RvckRlcHMpLCAiYWRkaW5nIikK</text>
