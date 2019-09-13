@@ -3,13 +3,13 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568377540638">
-        <mark key="[" line="28" column="55" />
-        <mark key="]" line="28" column="55" />
-        <mark key="^" line="39" column="78" />
-        <mark key="." line="28" column="55" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
+        <mark key="[" line="39" column="68" />
+        <mark key="]" line="39" column="66" />
+        <mark key="^" line="39" column="66" />
+        <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568302478448">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568378617404">
         <mark key="'" line="229" column="13" />
         <mark key="[" line="221" column="2" />
         <mark key="]" line="288" column="1" />
@@ -22,11 +22,11 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1568377181985">
-        <mark key="[" line="51" column="43" />
-        <mark key="]" line="51" column="59" />
-        <mark key="." line="51" column="59" />
-        <mark key="^" line="51" column="59" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1568378764255">
+        <mark key="[" line="17" column="36" />
+        <mark key="]" line="17" column="32" />
+        <mark key="." line="17" column="32" />
+        <mark key="^" line="17" column="32" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567775359059">
         <mark key="[" line="2" column="0" />
@@ -77,12 +77,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568377397590">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568379732873">
         <mark key="'" line="375" column="27" />
-        <mark key="[" line="447" column="46" />
-        <mark key="]" line="447" column="46" />
-        <mark key="^" line="447" column="46" />
-        <mark key="." line="447" column="46" />
+        <mark key="[" line="381" column="65" />
+        <mark key="]" line="429" column="9" />
+        <mark key="." line="429" column="9" />
+        <mark key="^" line="429" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568286979394">
         <mark key="'" line="5122" column="26" />
@@ -218,7 +218,7 @@
         <mark key="^" line="37" column="31" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="/sbtShell" timestamp="1568362677146">
+      <file name="/sbtShell" timestamp="1568379370079">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -248,11 +248,12 @@
         <mark key="^" line="220" column="116" />
         <mark key="." line="220" column="116" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1568377588276">
-        <mark key="[" line="80" column="55" />
-        <mark key="]" line="80" column="71" />
-        <mark key="^" line="80" column="71" />
-        <mark key="." line="80" column="71" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1568379359893">
+        <mark key="'" line="94" column="0" />
+        <mark key="[" line="44" column="28" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
+        <mark key="^" line="44" column="0" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -310,8 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
-      <jump line="48" column="41" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="52" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="53" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="215" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -410,19 +409,27 @@
       <jump line="375" column="27" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="73" column="10" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" />
       <jump line="25" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" />
+      <jump line="61" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
+      <jump line="97" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>, actorDeps</text>
+        <text>if (export) {
+              val actorDeps = createMultiActorDeps(actor, reads,writes)
+              exportDeps(dependencies.steps, dependencies.deps ++ actorDeps, actorDeps, s&quot;Phase 3: (${actor.name}) By actor&quot;)
+            }</text>
       </register>
       <register name="-" type="4">
-        <text>, actorDeps</text>
+        <text>val actorDeps = createMultiActorDeps(actor, reads,writes)</text>
       </register>
       <register name="/" type="4">
         <text>before</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIGhpZ2hsaWdodE5vZGVzOiBTZXRbRFN0ZXBdID0gaGlnaGxpZ2h0LmNvbGxlY3QgewogICAgICAgIGNhc2Ugbm9kZTogRGVwR3JhcGgjTm9kZVQgPT4gbm9kZS50b091dGVyCiAgICAgICAgY2FzZSBkc3RlcDogRFN0ZXAgPT4gZHN0ZXAKICAgICAgfQ==</text>
+        <text>if (export) {
+              val actorDeps = createMultiActorDeps(actor, reads,writes)
+              exportDeps(dependencies.steps, dependencies.deps ++ actorDeps, actorDeps, s&quot;Phase 3: (${actor.name}) By actor&quot;)
+            }</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSBfOiBEU3RlcCA9PiB0cnVlCiAgICAgICAgY2FzZSBfOiBEZXAgPT4gdHJ1ZQ==</text>
