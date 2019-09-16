@@ -82,7 +82,7 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568633708520">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568637545663">
         <mark key="'" line="532" column="61" />
         <mark key="[" line="91" column="111" />
         <mark key="]" line="91" column="110" />
@@ -144,11 +144,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568634174477">
-        <mark key="[" line="73" column="9" />
-        <mark key="]" line="73" column="8" />
-        <mark key="." line="73" column="8" />
-        <mark key="^" line="73" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568638055297">
+        <mark key="[" line="77" column="31" />
+        <mark key="]" line="77" column="31" />
+        <mark key="." line="77" column="31" />
+        <mark key="^" line="71" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568366438548">
         <mark key="[" line="2" column="13" />
@@ -162,11 +162,11 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568631597451">
-        <mark key="[" line="4" column="21" />
-        <mark key="]" line="4" column="25" />
-        <mark key="." line="4" column="25" />
-        <mark key="^" line="4" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568638442117">
+        <mark key="[" line="0" column="15" />
+        <mark key="]" line="0" column="15" />
+        <mark key="^" line="0" column="14" />
+        <mark key="." line="0" column="14" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/DepGraph.scala" timestamp="1568279698577">
         <mark key="[" line="33" column="31" />
@@ -191,6 +191,10 @@
         <mark key="]" line="82" column="25" />
         <mark key="^" line="82" column="25" />
         <mark key="." line="82" column="25" />
+      </file>
+      <file name="$USER_HOME$/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.9.0-sources.jar!/com/typesafe/scalalogging/Logger.scala" timestamp="1568637470230">
+        <mark key="[" line="57" column="32" />
+        <mark key="]" line="57" column="60" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1568628388257">
         <mark key="[" line="39" column="60" />
@@ -430,16 +434,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>StrictLogging</text>
+        <text encoding="base64">PGFwcGVuZGVyIG5hbWU9IlNURE9VVCIgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUuQ29uc29sZUFwcGVuZGVyIj4KICAgICAgICA8ZW5jb2Rlcj4KICAgICAgICAgICAgPHBhdHRlcm4+JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSAlbXNnJW48L3BhdHRlcm4+CiAgICAgICAgPC9lbmNvZGVyPgogICAgPC9hcHBlbmRlcj4=</text>
       </register>
       <register name="-" type="4">
-        <text>StrictLogging</text>
+        <text>LoggerFactory.getLogger(&quot;PROBLEM&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>export</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIHdhcm5pbmcobWVzc2FnZTogU3RyaW5nLCBzdWJqZWN0OiBBbnkgPSBOb25lKTogU3RyaW5nID0KICAgIFdhcm5pbmcobWVzc2FnZSwgc3ViamVjdCkucHJldHR5CgogIGRlZiBlcnJvcihtZXNzYWdlOiBTdHJpbmcsIHN1YmplY3Q6IEFueSA9IE5vbmUpOiBTdHJpbmcgPQogICAgRXJyb3IobWVzc2FnZSwgc3ViamVjdCkucHJldHR5CgogIGRlZiBtZXNzYWdlKG1lc3NhZ2U6IFN0cmluZywgc3ViamVjdDogQW55ID0gTm9uZSk6IFN0cmluZyA9CiAgICBQcm9ibGVtKG1lc3NhZ2UsIHN1YmplY3QpLnByZXR0eQo=</text>
+        <text encoding="base64">PGFwcGVuZGVyIG5hbWU9IlNURE9VVCIgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUuQ29uc29sZUFwcGVuZGVyIj4KICAgICAgICA8ZW5jb2Rlcj4KICAgICAgICAgICAgPHBhdHRlcm4+JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSAlbXNnJW48L3BhdHRlcm4+CiAgICAgICAgPC9lbmNvZGVyPgogICAgPC9hcHBlbmRlcj4=</text>
       </register>
       <register name="1" type="4">
         <text>def warningMessage(message: String, subject: Any = None): String =
