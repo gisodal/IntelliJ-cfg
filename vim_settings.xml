@@ -88,12 +88,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568629075446">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568630492009">
         <mark key="'" line="536" column="61" />
-        <mark key="[" line="566" column="7" />
-        <mark key="]" line="566" column="21" />
-        <mark key="." line="566" column="21" />
-        <mark key="^" line="566" column="21" />
+        <mark key="[" line="589" column="25" />
+        <mark key="]" line="589" column="26" />
+        <mark key="." line="589" column="26" />
+        <mark key="^" line="589" column="26" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568286979394">
         <mark key="'" line="5122" column="26" />
@@ -430,16 +430,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IC8vIHByZWNvbmRpdGlvbjogZm9yIGV2ZXJ5IHJlYWQsIHRoZXJlIG11c3QgYmUgYXQgbGVhc3Qgb25lIHdyaXRlIG9mIHRoZSBzYW1lIGFjdG9y</text>
+        <text>s</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IC8vIHByZWNvbmRpdGlvbjogZm9yIGV2ZXJ5IHJlYWQsIHRoZXJlIG11c3QgYmUgYXQgbGVhc3Qgb25lIHdyaXRlIG9mIHRoZSBzYW1lIGFjdG9y</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>export</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIGFjdG9yUmVhZHMgID0gZGVwZW5kZW5jaWVzLnN0ZXBzLmZpbHRlcihoYXNBY3RvclJlYWRTeW1ib2xzKQogICAgICB2YWwgYWN0b3JXcml0ZXMgPSBkZXBlbmRlbmNpZXMuc3RlcHMuZmlsdGVyKGhhc0FjdG9yV3JpdGVTeW1ib2xzKQo=</text>
+        <text>.subsetof(writeActors)</text>
       </register>
       <register name="1" type="4">
         <text>val actorReads  = dependencies.steps.filter(hasActorReadSymbols)
