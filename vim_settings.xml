@@ -133,12 +133,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568624260902">
-        <mark key="'" line="26" column="33" />
-        <mark key="[" line="33" column="115" />
-        <mark key="]" line="35" column="18" />
-        <mark key="^" line="35" column="18" />
-        <mark key="." line="35" column="18" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568624989286">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="20" column="3" />
+        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568366438548">
         <mark key="[" line="2" column="13" />
@@ -248,12 +247,12 @@
         <mark key="^" line="220" column="116" />
         <mark key="." line="220" column="116" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1568379359893">
-        <mark key="'" line="94" column="0" />
-        <mark key="[" line="44" column="28" />
-        <mark key="]" line="47" column="0" />
-        <mark key="." line="47" column="0" />
-        <mark key="^" line="44" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1568625962608">
+        <mark key="'" line="90" column="0" />
+        <mark key="[" line="60" column="4" />
+        <mark key="]" line="61" column="3" />
+        <mark key="^" line="61" column="3" />
+        <mark key="." line="61" column="3" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -414,31 +413,32 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>msgWithPostition</text>
+        <text>name</text>
       </register>
       <register name="-" type="4">
-        <text>val origins = withPosition.map(getOrigin).toSet</text>
+        <text>private val msg = message.stripLineEnd</text>
       </register>
       <register name="/" type="4">
         <text>export</text>
       </register>
       <register name="0" type="4">
-        <text>msgWithPostition</text>
+        <text>name</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIG1hcCB7Cg==</text>
+      <register name="1" type="4">
+        <text>add(dependencyGraph, name)
+      add(processGraph, name)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ZWxzZSB7CiAgICAgICAgICB2YWwgcHJldHR5U3ViamVjdCA9IFN0ZXBzLnByZXR0aWZpZXIoc3ViKQogICAgICAgICAgIG1zZyArICJcbiIgKyBwcmV0dHlTdWJqZWN0LmluZGVudCg0KQogICAgICAgIH0K</text>
+        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9CgogICAgdmFsIHByb2JsZW1Nc2cgICAgICAgID0gcHJvYmxlbVR5cGVTdHIgKyB7IGlmIChwcm9ibGVtVHlwZVN0ci5ub25FbXB0eSkgIjogIiBlbHNlICIiIH0gKyBtZXNzYWdlLnN0cmlwTGluZUVuZC5pbmRlbnQoNCxTb21lKDEpKQ==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAob3JpZ2luLmhhc1Bvc2l0aW9uKQo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">ZGVmIGNyZWF0ZU1zZ1dpdGhQb3NpdGlvbihtc2c6IFN0cmluZywgb3JpZ2luczogVHJhdmVyc2FibGVbT3JpZ2luXSk6IFN0cmluZyA9IHsKICAgICAgb3JpZ2lucy5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDAgPT4KICAgICAgICAgIG1zZwoKICAgICAgICBjYXNlIDEgPT4KICAgICAgICAgIHZhbCBvcmlnaW4gPSBvcmlnaW5zLmhlYWQKICAgICAgICAgIG9yaWdpbi5sb2NhdGlvbiArICI6ICIgKyBtc2cgKyAiXG4iICsgb3JpZ2luLnNvdXJjZS5pbmRlbnQoNCkKCiAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICB2YWwgcHJldHR5U3ViamVjdHMgPSBvcmlnaW5zLm1hcChfLnByZXR0eVBvc2l0aW9uLmdldCkubWtTdHJpbmcoIlxuIikKICAgICAgICAgIG1zZyArICJcbiIgKyBwcmV0dHlTdWJqZWN0cy5pbmRlbnQoNCkKICAgICAgfQogICAgfQo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCiAgICB9IGVsc2Ugewo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9CiA=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Y2FzZSBfOiBEU3RlcCA9PiB0cnVlCiAgICAgICAgY2FzZSBfOiBEZXAgPT4gdHJ1ZQ==</text>
+        <text encoding="base64">IHZhbCBzdWJqZWN0cyA9IGdldFN1YmplY3RzKHN1YmplY3QpCgogICAgdmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -450,17 +450,17 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgZXhwb3J0ZXIuYWRkKERlcEdyYXBoKGFjdG9yRGVwcy5mbGF0TWFwKGRlcCA9PiBTZXQoZGVwLmZyb20sIGRlcC50bykpLCBhY3RvckRlcHMpLCAiYWRkaW5nIikK</text>
+      <register name="6" type="4">
+        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">dmFsIHByZXR0eVN1YmplY3RzID0gc3ViamVjdHMubWFwIHsKICAgICAgICAgICBjYXNlIHN1YkAob3JpZ2luOiBIYXNPcmlnaW4pID0+IG9yaWdpbi5wcmV0dHlMb2NhdGlvbi5nZXRPckVsc2UoU3RlcHMucHJldHRpZmllcihzdWIpKQogICAgICAgICAgIGNhc2Ugb3RoZXIgPT4gU3RlcHMucHJldHRpZmllcihvdGhlcikKICAgICAgICAgfS5pbmRlbnQoNCkg</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZU1zZ1dpdGhQb3NpdGlvbihtc2c6IFN0cmluZywgb3JpZ2luczogVHJhdmVyc2FibGVbT3JpZ2luXSk6IFN0cmluZyA9IHsKICAgICAgb3JpZ2lucy5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDAgPT4KICAgICAgICAgIG1zZwoKICAgICAgICBjYXNlIDEgPT4KICAgICAgICAgIHZhbCBvcmlnaW4gPSBvcmlnaW5zLmhlYWQKICAgICAgICAgIG9yaWdpbi5sb2NhdGlvbiArICI6ICIgKyBtc2cgKyAiXG4iICsgb3JpZ2luLnNvdXJjZS5pbmRlbnQoNCkKCiAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICB2YWwgcHJldHR5U3ViamVjdHMgPSBzdWJqZWN0cy5jb2xsZWN0IHsgY2FzZSBvcmlnaW46IEhhc09yaWdpbiA9PiBvcmlnaW4ucHJldHR5TG9jYXRpb24uZ2V0IH0ubWtTdHJpbmcoIlxuIikKICAgICAgICAgIG1zZyArICJcbiIgKyBwcmV0dHlTdWJqZWN0cy5pbmRlbnQoNCkKICAgICAgfQogICAgfQo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Y2FzZSBvcmlnaW46IEhhc09yaWdpbiA9PiBvcmlnaW4ucHJldHR5TG9jYXRpb24uZ2V0T3JFbHNlKFN0ZXBzLnByZXR0aWZpZXIobykpCiAgICAgIGNhc2Ugb3RoZXIgPT4gU3RlcHMucHJldHRpZmllcihvdGhlcik=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIG1hcCB7Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">ZWxzZSB7CiAgICAgICAgICB2YWwgcHJldHR5U3ViamVjdCA9IFN0ZXBzLnByZXR0aWZpZXIoc3ViKQogICAgICAgICAgIG1zZyArICJcbiIgKyBwcmV0dHlTdWJqZWN0LmluZGVudCg0KQogICAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
