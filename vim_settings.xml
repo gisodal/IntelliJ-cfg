@@ -77,9 +77,9 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568381395734">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568626956361">
         <mark key="'" line="536" column="61" />
-        <mark key="[" line="591" column="0" />
+        <mark key="[" line="91" column="62" />
         <mark key="]" line="591" column="0" />
         <mark key="." line="591" column="0" />
         <mark key="^" line="599" column="62" />
@@ -175,11 +175,11 @@
         <mark key="^" line="82" column="25" />
         <mark key="." line="82" column="25" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1568201545636">
-        <mark key="[" line="57" column="13" />
-        <mark key="]" line="57" column="37" />
-        <mark key="." line="57" column="37" />
-        <mark key="^" line="57" column="37" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1568626935372">
+        <mark key="[" line="46" column="45" />
+        <mark key="]" line="46" column="44" />
+        <mark key="^" line="46" column="44" />
+        <mark key="." line="46" column="44" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1568191279729">
         <mark key="[" line="35" column="4" />
@@ -296,11 +296,11 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1568225198565">
-        <mark key="[" line="82" column="4" />
-        <mark key="]" line="105" column="25" />
-        <mark key="." line="6" column="0" />
-        <mark key="^" line="74" column="50" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1568627477545">
+        <mark key="[" line="56" column="12" />
+        <mark key="]" line="56" column="30" />
+        <mark key="." line="56" column="30" />
+        <mark key="^" line="56" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -413,7 +413,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>name</text>
+        <text>imp(tail1, tail2)</text>
       </register>
       <register name="-" type="4">
         <text>private val msg = message.stripLineEnd</text>
@@ -422,7 +422,7 @@
         <text>export</text>
       </register>
       <register name="0" type="4">
-        <text>name</text>
+        <text>imp(tail1, tail2)</text>
       </register>
       <register name="1" type="4">
         <text>add(dependencyGraph, name)
