@@ -241,10 +241,13 @@
         <mark key="^" line="37" column="31" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/MyLogger.scala" timestamp="1568640862531">
-        <mark key="^" line="31" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/MyLogger.scala" timestamp="1568644242538">
+        <mark key="[" line="21" column="20" />
+        <mark key="]" line="21" column="3" />
+        <mark key="." line="21" column="3" />
+        <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1568638737562">
+      <file name="/sbtShell" timestamp="1568644214539">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -447,7 +450,21 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">JXIgWyV0aHJlYWRdIA==</text>
+        <text>val rootLogger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
+    val loggerContext = rootLogger.getLoggerContext
+    // we are not interested in auto-configuration
+    loggerContext.reset()
+    val encoder = new PatternLayoutEncoder
+    encoder.setContext(loggerContext)
+    encoder.setPattern(&quot;%-5level [%thread]: %message%n&quot;)
+    encoder.start()
+    val appender = new ConsoleAppender[ILoggingEvent]
+    appender.setContext(loggerContext)
+    appender.setEncoder(encoder)
+    appender.start()
+    rootLogger.addAppender(appender)
+    rootLogger.debug(&quot;Message 1&quot;)
+    rootLogger.warn(&quot;Message 2&quot;)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">eyBwcm90ZWN0ZWQgdmFsIGxvZ2dlcjogTG9nZ2VyID0gTG9nZ2VyKCJQUk9CTEVNIikgfSA=</text>
@@ -459,6 +476,23 @@
         <text encoding="base64">JXIgWyV0aHJlYWRdIA==</text>
       </register>
       <register name="1" type="4">
+        <text>val rootLogger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
+    val loggerContext = rootLogger.getLoggerContext
+    // we are not interested in auto-configuration
+    loggerContext.reset()
+    val encoder = new PatternLayoutEncoder
+    encoder.setContext(loggerContext)
+    encoder.setPattern(&quot;%-5level [%thread]: %message%n&quot;)
+    encoder.start()
+    val appender = new ConsoleAppender[ILoggingEvent]
+    appender.setContext(loggerContext)
+    appender.setEncoder(encoder)
+    appender.start()
+    rootLogger.addAppender(appender)
+    rootLogger.debug(&quot;Message 1&quot;)
+    rootLogger.warn(&quot;Message 2&quot;)</text>
+      </register>
+      <register name="2" type="4">
         <text>def warningMessage(message: String, subject: Any = None): String =
     Warning(message, subject).pretty
 
@@ -468,19 +502,16 @@
   def message(message: String, subject: Any = None): String =
     Problem(message, subject).pretty</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>val actorReads  = dependencies.steps.filter(hasActorReadSymbols)
       val actorWrites = dependencies.steps.filter(hasActorWriteSymbols)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">c2VhbGVkIHRyYWl0IEhhc1Njb3BlIHsKICAgICAgdmFsIHNjb3BlOiBTY29wZVN0YWNrICAKICAgIH0KICAgIA==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>add(dependencyGraph, name)
       add(processGraph, name)</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9CgogICAgdmFsIHByb2JsZW1Nc2cgICAgICAgID0gcHJvYmxlbVR5cGVTdHIgKyB7IGlmIChwcm9ibGVtVHlwZVN0ci5ub25FbXB0eSkgIjogIiBlbHNlICIiIH0gKyBtZXNzYWdlLnN0cmlwTGluZUVuZC5pbmRlbnQoNCxTb21lKDEpKQ==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -493,16 +524,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZU1zZ1dpdGhQb3NpdGlvbihtc2c6IFN0cmluZywgb3JpZ2luczogVHJhdmVyc2FibGVbT3JpZ2luXSk6IFN0cmluZyA9IHsKICAgICAgb3JpZ2lucy5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDAgPT4KICAgICAgICAgIG1zZwoKICAgICAgICBjYXNlIDEgPT4KICAgICAgICAgIHZhbCBvcmlnaW4gPSBvcmlnaW5zLmhlYWQKICAgICAgICAgIG9yaWdpbi5sb2NhdGlvbiArICI6ICIgKyBtc2cgKyAiXG4iICsgb3JpZ2luLnNvdXJjZS5pbmRlbnQoNCkKCiAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICB2YWwgcHJldHR5U3ViamVjdHMgPSBvcmlnaW5zLm1hcChfLnByZXR0eVBvc2l0aW9uLmdldCkubWtTdHJpbmcoIlxuIikKICAgICAgICAgIG1zZyArICJcbiIgKyBwcmV0dHlTdWJqZWN0cy5pbmRlbnQoNCkKICAgICAgfQogICAgfQo=</text>
+        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9CgogICAgdmFsIHByb2JsZW1Nc2cgICAgICAgID0gcHJvYmxlbVR5cGVTdHIgKyB7IGlmIChwcm9ibGVtVHlwZVN0ci5ub25FbXB0eSkgIjogIiBlbHNlICIiIH0gKyBtZXNzYWdlLnN0cmlwTGluZUVuZC5pbmRlbnQoNCxTb21lKDEpKQ==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9CiA=</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZU1zZ1dpdGhQb3NpdGlvbihtc2c6IFN0cmluZywgb3JpZ2luczogVHJhdmVyc2FibGVbT3JpZ2luXSk6IFN0cmluZyA9IHsKICAgICAgb3JpZ2lucy5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDAgPT4KICAgICAgICAgIG1zZwoKICAgICAgICBjYXNlIDEgPT4KICAgICAgICAgIHZhbCBvcmlnaW4gPSBvcmlnaW5zLmhlYWQKICAgICAgICAgIG9yaWdpbi5sb2NhdGlvbiArICI6ICIgKyBtc2cgKyAiXG4iICsgb3JpZ2luLnNvdXJjZS5pbmRlbnQoNCkKCiAgICAgICAgY2FzZSBfID0+CiAgICAgICAgICB2YWwgcHJldHR5U3ViamVjdHMgPSBvcmlnaW5zLm1hcChfLnByZXR0eVBvc2l0aW9uLmdldCkubWtTdHJpbmcoIlxuIikKICAgICAgICAgIG1zZyArICJcbiIgKyBwcmV0dHlTdWJqZWN0cy5pbmRlbnQoNCkKICAgICAgfQogICAgfQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IHZhbCBzdWJqZWN0cyA9IGdldFN1YmplY3RzKHN1YmplY3QpCgogICAgdmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9Cg==</text>
+        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9CiA=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">dmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9</text>
+        <text encoding="base64">IHZhbCBzdWJqZWN0cyA9IGdldFN1YmplY3RzKHN1YmplY3QpCgogICAgdmFsIHByb2JsZW1UeXBlU3RyID0gdGhpcyBtYXRjaCB7CiAgICAgIGNhc2UgXzogUHJvYmxlbS5XYXJuaW5nID0+ICJXYXJuaW5nIgogICAgICBjYXNlIF86IFByb2JsZW0uRXJyb3IgICA9PiAiRXJyb3IiCiAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgID0+ICIiCiAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
