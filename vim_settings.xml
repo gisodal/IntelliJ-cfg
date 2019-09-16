@@ -51,6 +51,9 @@
         <mark key="]" line="455" column="0" />
         <mark key="." line="455" column="0" />
       </file>
+      <file name="/Dummy.scala" timestamp="1568638986628">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568375299986">
         <mark key="[" line="17" column="66" />
         <mark key="]" line="17" column="65" />
@@ -82,7 +85,7 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568637545663">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568638950137">
         <mark key="'" line="532" column="61" />
         <mark key="[" line="91" column="111" />
         <mark key="]" line="91" column="110" />
@@ -162,11 +165,11 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568638463838">
-        <mark key="[" line="0" column="50" />
-        <mark key="]" line="0" column="50" />
-        <mark key="^" line="0" column="50" />
-        <mark key="." line="0" column="50" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568638776585">
+        <mark key="[" line="14" column="21" />
+        <mark key="]" line="14" column="56" />
+        <mark key="^" line="22" column="20" />
+        <mark key="." line="14" column="21" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/DepGraph.scala" timestamp="1568279698577">
         <mark key="[" line="33" column="31" />
@@ -238,7 +241,7 @@
         <mark key="^" line="37" column="31" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="/sbtShell" timestamp="1568621800362">
+      <file name="/sbtShell" timestamp="1568638737562">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -434,10 +437,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">PGFwcGVuZGVyIG5hbWU9IlNURE9VVCIgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUuQ29uc29sZUFwcGVuZGVyIj4KICAgICAgICA8ZW5jb2Rlcj4KICAgICAgICAgICAgPHBhdHRlcm4+JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSAlbXNnJW48L3BhdHRlcm4+CiAgICAgICAgPC9lbmNvZGVyPgogICAgPC9hcHBlbmRlcj4=</text>
+        <text encoding="base64">JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSA=</text>
       </register>
       <register name="-" type="4">
-        <text>LoggerFactory.getLogger(&quot;PROBLEM&quot;)</text>
+        <text encoding="base64">JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSA=</text>
       </register>
       <register name="/" type="4">
         <text>export</text>
