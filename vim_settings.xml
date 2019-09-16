@@ -46,10 +46,11 @@
         <mark key="." line="351" column="32" />
         <mark key="^" line="351" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568645606831">
-        <mark key="[" line="455" column="0" />
-        <mark key="]" line="455" column="0" />
-        <mark key="." line="455" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568659625225">
+        <mark key="[" line="565" column="39" />
+        <mark key="]" line="567" column="37" />
+        <mark key="^" line="567" column="37" />
+        <mark key="." line="567" column="37" />
       </file>
       <file name="/Dummy.scala" timestamp="1568638986628">
         <mark key="[" line="0" column="0" />
@@ -333,11 +334,11 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1568645391351">
-        <mark key="[" line="69" column="16" />
-        <mark key="]" line="69" column="73" />
-        <mark key="." line="69" column="73" />
-        <mark key="^" line="69" column="73" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1568659168870">
+        <mark key="[" line="69" column="9" />
+        <mark key="]" line="69" column="8" />
+        <mark key="." line="69" column="8" />
+        <mark key="^" line="69" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -450,7 +451,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSBfICAgICAgICAgICAgICAgICAgPT4gIk5vdGUi</text>
+        <text>${thisNode.getClass.getSimpleName}</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Y2FzZSBjbGFzcyBJbmZvICAob3ZlcnJpZGUgdmFsIG1lc3NhZ2U6IFN0cmluZywgb3ZlcnJpZGUgdmFsIHN1YmplY3Q6IEFueSA9IE5vbmUpIGV4dGVuZHMgUHJvYmxlbShtZXNzYWdlLCBzdWJqZWN0KSA=</text>
@@ -459,7 +460,7 @@
         <text encoding="base64">XDxtc2dcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBfICAgICAgICAgICAgICAgICAgPT4gIk5vdGUi</text>
+        <text>${thisNode.getClass.getSimpleName}</text>
       </register>
       <register name="1" type="4">
         <text>val rootLogger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
