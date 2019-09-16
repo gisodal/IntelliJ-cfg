@@ -147,11 +147,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568638055297">
-        <mark key="[" line="77" column="31" />
-        <mark key="]" line="77" column="31" />
-        <mark key="." line="77" column="31" />
-        <mark key="^" line="71" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568640018882">
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="2" />
+        <mark key="." line="74" column="2" />
+        <mark key="^" line="74" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568366438548">
         <mark key="[" line="2" column="13" />
@@ -165,11 +165,11 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568638776585">
-        <mark key="[" line="14" column="21" />
-        <mark key="]" line="14" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568640310143">
+        <mark key="[" line="8" column="26" />
+        <mark key="]" line="8" column="45" />
         <mark key="^" line="22" column="20" />
-        <mark key="." line="14" column="21" />
+        <mark key="." line="8" column="26" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/DepGraph.scala" timestamp="1568279698577">
         <mark key="[" line="33" column="31" />
@@ -241,6 +241,9 @@
         <mark key="^" line="37" column="31" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/MyLogger.scala" timestamp="1568640862531">
+        <mark key="^" line="31" column="0" />
+      </file>
       <file name="/sbtShell" timestamp="1568638737562">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -296,6 +299,13 @@
         <mark key="^" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" timestamp="1568640655215">
+        <mark key="'" line="13" column="58" />
+        <mark key="[" line="3" column="21" />
+        <mark key="]" line="3" column="21" />
+        <mark key="^" line="3" column="31" />
+        <mark key="." line="3" column="21" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DepGraph.scala" timestamp="1568279401012">
         <mark key="[" line="12" column="32" />
         <mark key="]" line="12" column="47" />
@@ -334,8 +344,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="254" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="27" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="285" column="65" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="247" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="265" column="105" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -434,19 +442,21 @@
       <jump line="485" column="75" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="538" column="61" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="69" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" />
+      <jump line="3" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" />
+      <jump line="13" column="58" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSA=</text>
+        <text encoding="base64">JXIgWyV0aHJlYWRdIA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSA=</text>
+        <text encoding="base64">eyBwcm90ZWN0ZWQgdmFsIGxvZ2dlcjogTG9nZ2VyID0gTG9nZ2VyKCJQUk9CTEVNIikgfSA=</text>
       </register>
       <register name="/" type="4">
-        <text>export</text>
+        <text encoding="base64">XDxtc2dcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">PGFwcGVuZGVyIG5hbWU9IlNURE9VVCIgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUuQ29uc29sZUFwcGVuZGVyIj4KICAgICAgICA8ZW5jb2Rlcj4KICAgICAgICAgICAgPHBhdHRlcm4+JS00cmVsYXRpdmUgJS01bGV2ZWwgJWxvZ2dlcnszNn0gLSAlbXNnJW48L3BhdHRlcm4+CiAgICAgICAgPC9lbmNvZGVyPgogICAgPC9hcHBlbmRlcj4=</text>
+        <text encoding="base64">JXIgWyV0aHJlYWRdIA==</text>
       </register>
       <register name="1" type="4">
         <text>def warningMessage(message: String, subject: Any = None): String =
@@ -499,9 +509,9 @@
       </register>
     </registers>
     <search>
-      <last-search>export</last-search>
+      <last-search encoding="base64">XDxtc2dcPg==</last-search>
       <last-offset />
-      <last-pattern>export</last-pattern>
+      <last-pattern encoding="base64">XDxtc2dcPg==</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -509,7 +519,6 @@
     </search>
     <history>
       <history-search>
-        <entry>cycle</entry>
         <entry>findCy</entry>
         <entry>insert</entry>
         <entry>if [(]</entry>
@@ -529,6 +538,7 @@
         <entry>dependency</entry>
         <entry>before</entry>
         <entry>export</entry>
+        <entry encoding="base64">XDxtc2dcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
