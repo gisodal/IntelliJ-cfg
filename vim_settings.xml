@@ -147,11 +147,11 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568640018882">
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="74" column="2" />
-        <mark key="." line="74" column="2" />
-        <mark key="^" line="74" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568644913607">
+        <mark key="[" line="85" column="11" />
+        <mark key="]" line="85" column="15" />
+        <mark key="." line="85" column="15" />
+        <mark key="^" line="85" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568366438548">
         <mark key="[" line="2" column="13" />
@@ -165,11 +165,11 @@
         <mark key="^" line="533" column="8" />
         <mark key="." line="533" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568640310143">
-        <mark key="[" line="8" column="26" />
-        <mark key="]" line="8" column="45" />
-        <mark key="^" line="22" column="20" />
-        <mark key="." line="8" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/resources/logback.xml" timestamp="1568644432341">
+        <mark key="[" line="8" column="57" />
+        <mark key="]" line="8" column="53" />
+        <mark key="^" line="8" column="53" />
+        <mark key="." line="8" column="53" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/DepGraph.scala" timestamp="1568279698577">
         <mark key="[" line="33" column="31" />
@@ -302,12 +302,12 @@
         <mark key="^" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" timestamp="1568640655215">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" timestamp="1568644485679">
         <mark key="'" line="13" column="58" />
-        <mark key="[" line="3" column="21" />
-        <mark key="]" line="3" column="21" />
-        <mark key="^" line="3" column="31" />
-        <mark key="." line="3" column="21" />
+        <mark key="[" line="7" column="57" />
+        <mark key="]" line="7" column="57" />
+        <mark key="^" line="7" column="57" />
+        <mark key="." line="7" column="57" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DepGraph.scala" timestamp="1568279401012">
         <mark key="[" line="12" column="32" />
@@ -450,30 +450,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val rootLogger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
-    val loggerContext = rootLogger.getLoggerContext
-    // we are not interested in auto-configuration
-    loggerContext.reset()
-    val encoder = new PatternLayoutEncoder
-    encoder.setContext(loggerContext)
-    encoder.setPattern(&quot;%-5level [%thread]: %message%n&quot;)
-    encoder.start()
-    val appender = new ConsoleAppender[ILoggingEvent]
-    appender.setContext(loggerContext)
-    appender.setEncoder(encoder)
-    appender.start()
-    rootLogger.addAppender(appender)
-    rootLogger.debug(&quot;Message 1&quot;)
-    rootLogger.warn(&quot;Message 2&quot;)</text>
+        <text encoding="base64">Y2FzZSBfICAgICAgICAgICAgICAgICAgPT4gIk5vdGUi</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">eyBwcm90ZWN0ZWQgdmFsIGxvZ2dlcjogTG9nZ2VyID0gTG9nZ2VyKCJQUk9CTEVNIikgfSA=</text>
+        <text encoding="base64">Y2FzZSBjbGFzcyBJbmZvICAob3ZlcnJpZGUgdmFsIG1lc3NhZ2U6IFN0cmluZywgb3ZlcnJpZGUgdmFsIHN1YmplY3Q6IEFueSA9IE5vbmUpIGV4dGVuZHMgUHJvYmxlbShtZXNzYWdlLCBzdWJqZWN0KSA=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxtc2dcPg==</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">JXIgWyV0aHJlYWRdIA==</text>
+        <text encoding="base64">Y2FzZSBfICAgICAgICAgICAgICAgICAgPT4gIk5vdGUi</text>
       </register>
       <register name="1" type="4">
         <text>val rootLogger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
