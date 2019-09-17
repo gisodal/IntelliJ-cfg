@@ -97,19 +97,19 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568720400203">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568721889572">
         <mark key="'" line="535" column="61" />
-        <mark key="[" line="475" column="0" />
-        <mark key="]" line="475" column="75" />
-        <mark key="^" line="472" column="17" />
-        <mark key="." line="475" column="0" />
+        <mark key="[" line="102" column="67" />
+        <mark key="]" line="102" column="82" />
+        <mark key="^" line="102" column="82" />
+        <mark key="." line="102" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568716124470">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568721585512">
         <mark key="'" line="5122" column="26" />
-        <mark key="[" line="5333" column="48" />
-        <mark key="]" line="5333" column="48" />
-        <mark key="." line="5333" column="48" />
-        <mark key="^" line="5248" column="26" />
+        <mark key="[" line="5227" column="87" />
+        <mark key="]" line="5227" column="87" />
+        <mark key="." line="5227" column="87" />
+        <mark key="^" line="5227" column="87" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1568304437145">
         <mark key="[" line="27" column="22" />
