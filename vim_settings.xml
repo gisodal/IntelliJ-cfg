@@ -22,11 +22,11 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1568713948648">
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="^" line="61" column="28" />
-        <mark key="." line="64" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1568714356710">
+        <mark key="[" line="55" column="2" />
+        <mark key="]" line="55" column="9" />
+        <mark key="^" line="55" column="9" />
+        <mark key="." line="55" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1568645577341">
         <mark key="[" line="34" column="13" />
@@ -52,11 +52,11 @@
         <mark key="." line="351" column="32" />
         <mark key="^" line="351" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568713248730">
-        <mark key="[" line="565" column="38" />
-        <mark key="]" line="565" column="37" />
-        <mark key="^" line="565" column="37" />
-        <mark key="." line="565" column="37" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568714603009">
+        <mark key="[" line="562" column="69" />
+        <mark key="]" line="562" column="15" />
+        <mark key="^" line="562" column="15" />
+        <mark key="." line="562" column="15" />
       </file>
       <file name="/Dummy.scala" timestamp="1568713986909">
         <mark key="[" line="0" column="0" />
@@ -98,19 +98,19 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568713021894">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568714749643">
         <mark key="'" line="530" column="61" />
-        <mark key="[" line="531" column="45" />
-        <mark key="]" line="531" column="45" />
-        <mark key="^" line="531" column="44" />
-        <mark key="." line="531" column="45" />
+        <mark key="[" line="91" column="64" />
+        <mark key="]" line="91" column="65" />
+        <mark key="^" line="91" column="65" />
+        <mark key="." line="91" column="65" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568286979394">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568714679018">
         <mark key="'" line="5122" column="26" />
-        <mark key="[" line="5121" column="4" />
-        <mark key="]" line="5136" column="4" />
-        <mark key="^" line="5135" column="52" />
-        <mark key="." line="5135" column="52" />
+        <mark key="[" line="5273" column="2" />
+        <mark key="]" line="5273" column="5" />
+        <mark key="^" line="5273" column="5" />
+        <mark key="." line="5273" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1568304437145">
         <mark key="[" line="27" column="22" />
@@ -471,17 +471,17 @@
       <jump line="72" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgY2FzZSBub2RlOiBEZXBHcmFwaCNOb2RlVCA9PiBwcmludGxuKHMiaWxsZWdhbCBtYXRjaCAke25vZGV9Iik7IGdldERTdGVwKG5vZGUudG9PdXRlcikK</text>
+      <register name="&quot;" type="4">
+        <text>thatNode.toOuter.isInstanceOf[design.Graph.Node.Cluster]</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y2FzZSBub2RlOiBEZXBHcmFwaCNOb2RlVCA9PiBwcmludGxuKCJpbGxlZ2FsIG1hdGNoIik7IGdldERTdGVwKG5vZGUudG9PdXRlcik=</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>ScopeId</text>
       </register>
       <register name="0" type="4">
-        <text>.toString</text>
+        <text>thatNode.toOuter.isInstanceOf[design.Graph.Node.Cluster]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgY2FzZSBub2RlOiBEZXBHcmFwaCNOb2RlVCA9PiBwcmludGxuKHMiaWxsZWdhbCBtYXRjaCAke25vZGV9Iik7IGdldERTdGVwKG5vZGUudG9PdXRlcikK</text>
