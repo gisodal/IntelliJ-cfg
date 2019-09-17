@@ -21,7 +21,7 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1568714356710">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1568720521398">
         <mark key="[" line="55" column="2" />
         <mark key="]" line="55" column="9" />
         <mark key="^" line="55" column="9" />
@@ -57,7 +57,7 @@
         <mark key="^" line="562" column="15" />
         <mark key="." line="562" column="15" />
       </file>
-      <file name="/Dummy.scala" timestamp="1568713986909">
+      <file name="/Dummy.scala" timestamp="1568720363785">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568375299986">
@@ -97,12 +97,12 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568716130968">
-        <mark key="'" line="530" column="61" />
-        <mark key="[" line="91" column="66" />
-        <mark key="]" line="91" column="66" />
-        <mark key="^" line="91" column="66" />
-        <mark key="." line="91" column="66" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568720400203">
+        <mark key="'" line="535" column="61" />
+        <mark key="[" line="475" column="0" />
+        <mark key="]" line="475" column="75" />
+        <mark key="^" line="472" column="17" />
+        <mark key="." line="475" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568716124470">
         <mark key="'" line="5122" column="26" />
@@ -471,7 +471,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>EA1.RAUN1</text>
+        <text encoding="base64">dmFsIHggPSBhY3RvcldyaXRlcy5tYXAod3JpdGUgPT4gKHdyaXRlLmlzSW5PcHBvc2luZ0JyYW5jaE9mKHJlYWQpLCB3cml0ZSkp</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -480,7 +480,7 @@
         <text>ScopeId</text>
       </register>
       <register name="0" type="4">
-        <text>EA1.RAUN1</text>
+        <text encoding="base64">dmFsIHggPSBhY3RvcldyaXRlcy5tYXAod3JpdGUgPT4gKHdyaXRlLmlzSW5PcHBvc2luZ0JyYW5jaE9mKHJlYWQpLCB3cml0ZSkp</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgY2FzZSBub2RlOiBEZXBHcmFwaCNOb2RlVCA9PiBwcmludGxuKHMiaWxsZWdhbCBtYXRjaCAke25vZGV9Iik7IGdldERTdGVwKG5vZGUudG9PdXRlcikK</text>
