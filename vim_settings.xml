@@ -22,11 +22,11 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1568711997539">
-        <mark key="[" line="63" column="23" />
-        <mark key="]" line="63" column="24" />
-        <mark key="." line="63" column="24" />
-        <mark key="^" line="63" column="24" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1568712611192">
+        <mark key="[" line="33" column="33" />
+        <mark key="]" line="33" column="42" />
+        <mark key="^" line="33" column="42" />
+        <mark key="." line="33" column="42" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1568645577341">
         <mark key="[" line="34" column="13" />
@@ -469,16 +469,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>class ScopeId(bodyId: BodyId, branchId: BranchId)</text>
+        <text>s</text>
       </register>
       <register name="-" type="4">
-        <text>type BranchId = Option[Boolean]</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>ScopeId</text>
       </register>
       <register name="0" type="4">
-        <text>class ScopeId(bodyId: BodyId, branchId: BranchId)</text>
+        <text>println(&quot;match depnode!!\n&quot;);</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IAogIAogIAogIGNhc2U=</text>
