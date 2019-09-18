@@ -98,11 +98,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568795119401">
-        <mark key="[" line="449" column="33" />
-        <mark key="]" line="449" column="34" />
-        <mark key="." line="449" column="34" />
-        <mark key="^" line="449" column="34" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568795844582">
+        <mark key="[" line="446" column="5" />
+        <mark key="]" line="446" column="49" />
+        <mark key="." line="446" column="5" />
+        <mark key="^" line="452" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568728261944">
         <mark key="'" line="5122" column="26" />
