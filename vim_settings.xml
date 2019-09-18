@@ -79,12 +79,12 @@
         <mark key="." line="25" column="42" />
         <mark key="^" line="25" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568819194589">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568820856070">
         <mark key="'" line="20" column="0" />
-        <mark key="[" line="71" column="28" />
-        <mark key="]" line="71" column="28" />
-        <mark key="^" line="71" column="28" />
-        <mark key="." line="71" column="28" />
+        <mark key="[" line="72" column="11" />
+        <mark key="]" line="72" column="11" />
+        <mark key="^" line="72" column="11" />
+        <mark key="." line="72" column="11" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568722778959">
         <mark key="[" line="79" column="47" />
@@ -261,7 +261,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1568791074036">
+      <file name="/sbtShell" timestamp="1568820753932">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
