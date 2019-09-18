@@ -79,12 +79,12 @@
         <mark key="." line="25" column="42" />
         <mark key="^" line="25" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568815295183">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568819194589">
         <mark key="'" line="20" column="0" />
-        <mark key="[" line="55" column="25" />
-        <mark key="]" line="55" column="24" />
-        <mark key="^" line="55" column="24" />
-        <mark key="." line="55" column="24" />
+        <mark key="[" line="71" column="28" />
+        <mark key="]" line="71" column="28" />
+        <mark key="^" line="71" column="28" />
+        <mark key="." line="71" column="28" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568722778959">
         <mark key="[" line="79" column="47" />
@@ -467,32 +467,36 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>getActorReadSymbols(read).intersect(getActorWriteSymbols(read)).nonEmpty</text>
+        <text>if (selfActors.nonEmpty)
+            Some(Problem.Warning(s&quot;A step has a self dependency based on actor(s): ${selfActors.map(_.name).mkString(&quot;&quot;&quot;, &quot;&quot;&quot;)}&quot;, read))
+          else None</text>
       </register>
       <register name="-" type="4">
-        <text>+ actorRead</text>
+        <text>selfActors.map(ac_</text>
       </register>
       <register name="/" type="4">
         <text>ScopeId</text>
       </register>
       <register name="0" type="4">
-        <text>getActorReadSymbols(read).intersect(getActorWriteSymbols(read)).nonEmpty</text>
+        <text>if (selfActors.nonEmpty)
+            Some(Problem.Warning(s&quot;A step has a self dependency based on actor(s): ${selfActors.map(_.name).mkString(&quot;&quot;&quot;, &quot;&quot;&quot;)}&quot;, read))
+          else None</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">dmFsIGFjdG9yUmVhZHMgPSBkZXBlbmRlbmN5R3JhcGguc3RlcHMuZmlsdGVyKGhhc0FjdG9yUmVhZFN5bWJvbHMpCiAgICAgIGFjdG9yUmVhZHMudG9MaXN0LmZsYXRNYXAgeyByZWFkID0+CiAgICAgICAgdmFsIHNlbGZBY3RvcnMgPSBnZXRBY3RvclJlYWRTeW1ib2xzKHJlYWQpLmludGVyc2VjdChnZXRBY3RvcldyaXRlU3ltYm9scyhyZWFkKSkKICAgICAgICBpZiAoc2VsZkFjdG9ycy5ub25FbXB0eSkKICAgICAgICAgIFNvbWUoUHJvYmxlbS5XYXJuaW5nKHMiQSBzdGVwIGhhcyBhIHNlbGYgZGVwZW5kZW5jeSBiYXNlZCBvbiBhY3RvcihzKTogJHtzZWxmQWN0b3JzLm1hcChfLm5hbWUpLm1rU3RyaW5nKCIiIiwgIiIiKX0iLCByZWFkKSkKICAgICAgICBlbHNlIE5vbmUKICAgICAgfQ==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHZhbCB1bm1hdGNoZWRSZWFkcyA9IGFjdG9yUmVhZHMgLS0gYWN0b3JSZWFkcy5pbnRlcnNlY3QoYWN0b3JEZXBzLm1hcChfLmZyb20pKQo=</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">dmFsIGFjdG9yRGVwcyAgID0gZGVwZW5kZW5jeUdyYXBoLmRlcHMuZmlsdGVyKGlzQWN0b3JEZXApCiAgICB2YWwgYWN0b3JSZWFkcyAgPSBkZXBlbmRlbmN5R3JhcGguc3RlcHMuZmlsdGVyKGhhc0FjdG9yUmVhZFN5bWJvbHMpCg==</text>
+      </register>
+      <register name="4" type="4">
         <text>if (selfWrites.nonEmpty)
         warning(s&quot;There exists a dstep with an actor self dependency&quot;, actorRead)</text>
       </register>
-      <register name="2" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ZGVmIGNoZWNrTWF0Y2goYWN0b3JSZWFkczogU2V0W0RTdGVwXSwgYWN0b3JXcml0ZXM6IFNldFtEU3RlcF0pOiBVbml0ID0gewogICAgICAoYWN0b3JSZWFkcy5pc0VtcHR5LCBhY3RvcldyaXRlcy5pc0VtcHR5KSBtYXRjaCB7CiAgICAgICAgY2FzZSAodHJ1ZSwgZmFsc2UpID0+IGluZm8ocyJObyBhY3RvciByZWFkcyBhcmUgZm91bmQgZm9yICR7YWN0b3JXcml0ZXMuc2l6ZX0gYWN0b3Igd3JpdGUocykiLCBhY3RvcldyaXRlcykKICAgICAgICBjYXNlIChmYWxzZSwgdHJ1ZSkgPT4gZXJyb3IocyJObyBhY3RvciB3cml0ZXMgYXJlIGZvdW5kIGZvciAke2FjdG9yUmVhZHMuc2l6ZX0gYWN0b3IgcmVhZChzKSIsIGFjdG9yUmVhZHMpCiAgICAgICAgY2FzZSAoXywgXykgPT4KICAgICAgfQogICAgfQo=</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">IGRlZiBjcmVhdGVNdWx0aUFjdG9yRGVwcyhhY3RvcjogQWN0b3JTeW1ib2wsIGFjdG9yUmVhZHM6IFNldFtEU3RlcF0sIGFjdG9yV3JpdGVzOiBTZXRbRFN0ZXBdLCBraW5kTmFtZTogU3RyaW5nID0gIiIpOiBTZXRbRGVwXSA9IHsKICAgICAgYWN0b3JSZWFkcy5mbGF0TWFwKHJlYWQgPT4gY3JlYXRlQWN0b3JEZXBzKGFjdG9yLCByZWFkLCBhY3RvcldyaXRlcywga2luZE5hbWUpKQogICAgfQo=</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZUFjdG9yRGVwcyhhY3RvcjogQWN0b3JTeW1ib2wsIGFjdG9yUmVhZDogRFN0ZXAsIGFjdG9yV3JpdGVzOiBTZXRbRFN0ZXBdLCBraW5kTmFtZTogU3RyaW5nID0gIiIpOiBTZXRbRGVwXSA9IHsKICAgICAgdmVyaWZ5Q29tbW9uQWN0b3IoYWN0b3IsIFNldChhY3RvclJlYWQpLCBhY3RvcldyaXRlcykKICAgICAgYWN0b3JXcml0ZXMubWFwKHdyaXRlID0+IGNyZWF0ZUFjdG9yRGVwKGFjdG9yLCBhY3RvclJlYWQsIHdyaXRlLCBraW5kTmFtZSkpCiAgICB9Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CiAgICAgIAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -505,18 +509,18 @@
         </keys>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">IGRlZiBjcmVhdGVNdWx0aUFjdG9yRGVwcyhhY3RvcjogQWN0b3JTeW1ib2wsIGFjdG9yUmVhZHM6IFNldFtEU3RlcF0sIGFjdG9yV3JpdGVzOiBTZXRbRFN0ZXBdLCBraW5kTmFtZTogU3RyaW5nID0gIiIpOiBTZXRbRGVwXSA9IHsKICAgICAgYWN0b3JSZWFkcy5mbGF0TWFwKHJlYWQgPT4gY3JlYXRlQWN0b3JEZXBzKGFjdG9yLCByZWFkLCBhY3RvcldyaXRlcywga2luZE5hbWUpKQogICAgfQo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ZGVmIGNyZWF0ZUFjdG9yRGVwcyhhY3RvcjogQWN0b3JTeW1ib2wsIGFjdG9yUmVhZDogRFN0ZXAsIGFjdG9yV3JpdGVzOiBTZXRbRFN0ZXBdLCBraW5kTmFtZTogU3RyaW5nID0gIiIpOiBTZXRbRGVwXSA9IHsKICAgICAgdmVyaWZ5Q29tbW9uQWN0b3IoYWN0b3IsIFNldChhY3RvclJlYWQpLCBhY3RvcldyaXRlcykKICAgICAgYWN0b3JXcml0ZXMubWFwKHdyaXRlID0+IGNyZWF0ZUFjdG9yRGVwKGFjdG9yLCBhY3RvclJlYWQsIHdyaXRlLCBraW5kTmFtZSkpCiAgICB9Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CiAgICAgIAo=</text>
+      </register>
+      <register name="9" type="4">
         <text>if (kindName.nonEmpty)
             DepKind.Wrap(actorInnerKind, kindName)
           else actorInnerKind</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgaWYgKG5vblNlbGZXcml0ZXMubm9uRW1wdHkpIHsKICAgICAgICBjcmVhdGVBY3RvckRlcHNXaXRoTm9uQW5jZXN0b3JzKGFjdG9yLCBhY3RvclJlYWQsIG5vblNlbGZXcml0ZXMpCiAgICAgIH0gZWxzZQogICAgICAgIFNldC5lbXB0eVtEZXBd</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">bWF0Y2ggewogICAgICAgICAgY2FzZSAiRWxpZGVkQkUiID0+IAogICAgICAgICAgY2FzZSBTb21lKF8pID0+IFdyYXAoYWN0b3JLaW5kKQogICAgICAgICAgY2FzZSBOb25lID0+IGFjdG9yS2luZA==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgdmFsIGFjdG9yS2luZCA9IERlcEtpbmQuQWN0b3IoYWN0b3IubmFtZSwgd3JpdGUuaW5uZXJtb3N0LmlkKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
