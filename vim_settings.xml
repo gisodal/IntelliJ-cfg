@@ -9,12 +9,12 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568824124192">
-        <mark key="'" line="229" column="13" />
-        <mark key="[" line="326" column="26" />
-        <mark key="]" line="326" column="36" />
-        <mark key="." line="326" column="36" />
-        <mark key="^" line="326" column="36" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568882318106">
+        <mark key="'" line="228" column="13" />
+        <mark key="[" line="229" column="115" />
+        <mark key="]" line="229" column="120" />
+        <mark key="^" line="229" column="120" />
+        <mark key="." line="229" column="120" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -454,10 +454,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIHJlcG9ydChwcm9ibGVtOiBQcm9ibGVtKTogVW5pdCA9IHByb2JsZW0gbWF0Y2ggewogICAgY2FzZSBlcnI6IFByb2JsZW0uRXJyb3IgICAgPT4gbG9nZ2VyLmVycm9yKGVyci5wcmV0dHkpCiAgICBjYXNlIHdhcm46IFByb2JsZW0uV2FybmluZyA9PiBsb2dnZXIud2Fybih3YXJuLnByZXR0eSkKICAgIGNhc2UgaW5mbzogUHJvYmxlbS5JbmZvICAgID0+IGxvZ2dlci5pbmZvKGluZm8ucHJldHR5KQogICAgY2FzZSBwcm9iOiBQcm9ibGVtICAgICAgICAgID0+IGxvZ2dlci5pbmZvKHByb2IucHJldHR5KQogIH0K</text>
+        <text>SN.getLabel(from)</text>
       </register>
       <register name="-" type="4">
-        <text>Note: for debugging, add 'export = true'</text>
+        <text>SN.getLabel(from)</text>
       </register>
       <register name="/" type="4">
         <text>.name</text>
