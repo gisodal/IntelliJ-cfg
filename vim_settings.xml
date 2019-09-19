@@ -98,11 +98,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568824432554">
-        <mark key="[" line="432" column="46" />
-        <mark key="]" line="432" column="26" />
-        <mark key="." line="432" column="26" />
-        <mark key="^" line="432" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568876104638">
+        <mark key="[" line="438" column="92" />
+        <mark key="]" line="438" column="89" />
+        <mark key="." line="438" column="89" />
+        <mark key="^" line="438" column="89" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568728261944">
         <mark key="'" line="5122" column="26" />
@@ -261,7 +261,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1568820753932">
+      <file name="/sbtShell" timestamp="1568875373358">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -467,7 +467,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIHdyaXRlQWN0b3JOYW1lcyA9IGVsaWRlZFNlbGZEZXBzLmZsYXRNYXAoZGVwID0+IGdldEFjdG9yRGVwKGRlcC5raW5kKSkubWFwKF8ubmFtZSk=</text>
+        <text>(!read.isInOpposingBranchOf(write) || actorKind.isInstanceOf[DepKind.ElidedBB]</text>
       </register>
       <register name="-" type="4">
         <text>val selfActors = getActorReadSymbols(read).intersect(getActorWriteSymbols(read))</text>
@@ -476,7 +476,7 @@
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIHdyaXRlQWN0b3JOYW1lcyA9IGVsaWRlZFNlbGZEZXBzLmZsYXRNYXAoZGVwID0+IGdldEFjdG9yRGVwKGRlcC5raW5kKSkubWFwKF8ubmFtZSk=</text>
+        <text>(!read.isInOpposingBranchOf(write) || actorKind.isInstanceOf[DepKind.ElidedBB]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgd3NlbGZXcml0ZUFjdG9ycyA9IHJlYWRBY3RvcnMuaW50ZXJzZWN0KGdldEFjdG9yV3JpdGVTeW1ib2xzKHJlYWQpKQo=</text>
