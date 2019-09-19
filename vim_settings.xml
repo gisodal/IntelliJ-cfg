@@ -323,11 +323,11 @@
         <mark key="." line="5" column="68" />
         <mark key="^" line="5" column="73" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1568914413078">
-        <mark key="[" line="69" column="11" />
-        <mark key="]" line="93" column="8" />
-        <mark key="^" line="93" column="8" />
-        <mark key="." line="93" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1568916792284">
+        <mark key="[" line="69" column="3" />
+        <mark key="]" line="69" column="3" />
+        <mark key="^" line="69" column="3" />
+        <mark key="." line="69" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1564006863058">
         <mark key="[" line="213" column="27" />
@@ -457,7 +457,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Wy1+PD5d</text>
+        <text>arrow.count(_ ==  '-') == 1</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGNhc2UgXzogVG9rZW4uU1RFUCAgICAgICAgICAgICAgICAgPT4gInN0ZXAi</text>
@@ -466,7 +466,7 @@
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Wy1+PD5d</text>
+        <text>arrow.count(_ ==  '-') == 1</text>
       </register>
       <register name="1" type="4">
         <text>{
