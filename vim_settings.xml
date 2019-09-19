@@ -81,10 +81,11 @@
         <mark key="^" line="79" column="61" />
         <mark key="." line="79" column="61" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1568908291049">
-        <mark key="[" line="6" column="7" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1568918430595">
+        <mark key="[" line="20" column="15" />
+        <mark key="]" line="20" column="15" />
+        <mark key="." line="20" column="15" />
+        <mark key="^" line="7" column="6" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568895564855">
         <mark key="[" line="290" column="62" />
@@ -141,11 +142,11 @@
         <mark key="^" line="16" column="46" />
         <mark key="." line="16" column="46" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1568906850355">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1568917616090">
         <mark key="[" line="82" column="4" />
-        <mark key="]" line="7" column="19" />
-        <mark key="^" line="104" column="3" />
-        <mark key="." line="7" column="19" />
+        <mark key="]" line="82" column="14" />
+        <mark key="^" line="82" column="14" />
+        <mark key="." line="82" column="14" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -220,11 +221,11 @@
         <mark key="." line="36" column="5" />
         <mark key="^" line="36" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/ProcessLexer.scala" timestamp="1568912478852">
-        <mark key="[" line="55" column="41" />
-        <mark key="]" line="55" column="40" />
-        <mark key="^" line="55" column="40" />
-        <mark key="." line="55" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/ProcessLexer.scala" timestamp="1568918463862">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="2" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1566209161009">
         <mark key="[" line="7" column="12" />
@@ -323,11 +324,12 @@
         <mark key="." line="5" column="68" />
         <mark key="^" line="5" column="73" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1568916792284">
-        <mark key="[" line="69" column="3" />
-        <mark key="]" line="69" column="3" />
-        <mark key="^" line="69" column="3" />
-        <mark key="." line="69" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1568918088308">
+        <mark key="'" line="72" column="22" />
+        <mark key="[" line="69" column="4" />
+        <mark key="]" line="70" column="46" />
+        <mark key="^" line="94" column="32" />
+        <mark key="." line="97" column="32" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1564006863058">
         <mark key="[" line="213" column="27" />
@@ -354,7 +356,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="503" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="575" column="53" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="615" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="632" column="67" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -454,37 +455,35 @@
       <jump line="19" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="75" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
+      <jump line="72" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>arrow.count(_ ==  '-') == 1</text>
+        <text encoding="base64">Y2xhc3MgRGVwZW5kZW5jeUxleGVyIGV4dGVuZHMgTGV4ZXIgewogIGltcG9ydCBUb2tlbi5fCgogIC8vIG5vZGVzCiAgZGVmIHN0ZXA6IFBhcnNlcltTVEVQXSA9ICIiInN0ZXAiIiIuciBeXiAoXyA9PiBTVEVQKCkpCgogIC8vZWRnZXMKICBkZWYgZWRnZTogUGFyc2VyW0VkZ2VdICAgICAgICAgICAgID0gIlstXS1bQklGRFhdPiIuciAgXl4gKGFycm93ID0+IEVkZ2UoYXJyb3cpKSB8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICI8W0JJRkRYXS1bLV0iLnIgIF5eIChhcnJvdyA9PiBFZGdlKGFycm93KSkKCiAgb3ZlcnJpZGUgZGVmIHRva2VuaXplOiBQYXJzZXJbTGlzdFtUb2tlbl1dID0gewogICAgcGhyYXNlKHJlcDEocG9zaXRpb25lZChzY29wZSB8IGFzc2lnbiB8IGV4YWN0IHwKICAgICAgc3RlcCB8IGVkZ2UgfCBsYWJlbCB8IGxpdGVyYWwgfCBpZGVudGlmaWVyICkpKQogIH0KfQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGNhc2UgXzogVG9rZW4uU1RFUCAgICAgICAgICAgICAgICAgPT4gInN0ZXAi</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text>arrow.count(_ ==  '-') == 1</text>
+        <text encoding="base64">aW1wb3J0IHNjYWxhLnV0aWwubWF0Y2hpbmcuUmVnZXgKaW1wb3J0IHNjYWxhLnV0aWwucGFyc2luZy5jb21iaW5hdG9yLlJlZ2V4UGFyc2VycwppbXBvcnQgc2NhbGEudXRpbC5wYXJzaW5nLmlucHV0Lk5vUG9zaXRpb24K</text>
       </register>
       <register name="1" type="4">
-        <text>{
-    def normalized: String = arrow.replaceAll(&quot;~&quot;,&quot;-&quot;)
-  }</text>
+        <text encoding="base64">Y2xhc3MgRGVwZW5kZW5jeUxleGVyIGV4dGVuZHMgTGV4ZXIgewogIGltcG9ydCBUb2tlbi5fCgogIC8vIG5vZGVzCiAgZGVmIHN0ZXA6IFBhcnNlcltTVEVQXSA9ICIiInN0ZXAiIiIuciBeXiAoXyA9PiBTVEVQKCkpCgogIC8vZWRnZXMKICBkZWYgZWRnZTogUGFyc2VyW0VkZ2VdICAgICAgICAgICAgID0gIlstXS1bQklGRFhdPiIuciAgXl4gKGFycm93ID0+IEVkZ2UoYXJyb3cpKSB8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICI8W0JJRkRYXS1bLV0iLnIgIF5eIChhcnJvdyA9PiBFZGdlKGFycm93KSkKCiAgb3ZlcnJpZGUgZGVmIHRva2VuaXplOiBQYXJzZXJbTGlzdFtUb2tlbl1dID0gewogICAgcGhyYXNlKHJlcDEocG9zaXRpb25lZChzY29wZSB8IGFzc2lnbiB8IGV4YWN0IHwKICAgICAgc3RlcCB8IGVkZ2UgfCBsYWJlbCB8IGxpdGVyYWwgfCBpZGVudGlmaWVyICkpKQogIH0KfQo=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">YXNzZXJ0KG5vcm1hbGl6ZWQgbWF0Y2ggewogICAgICBjYXNlICItPiIgfCAiPC0iIHwgIi0tPiIgfCAiPC0tIiB8CiAgICAgIAogICAgICAgICAgICItQj4iIHwgIi1FPiIgfCAiLT4iID0+IHRydWUKICAgICAgY2FzZSBfID0+IGZhbHNlCiAgICB9LCBzIlVuc3VwcG9ydGVkIHRva2VuIGVkZ2U6ICckYXJyb3cnIik=</text>
+        <text encoding="base64">b2JqZWN0IFByb2Nlc3NMZXhlciB7CiAgaW1wb3J0IHNjYWxhLnV0aWwucGFyc2luZy5pbnB1dAoKICBjbGFzcyBUb2tlblJlYWRlcih0b2tlbnM6IFNlcVtUb2tlbl0pIGV4dGVuZHMgaW5wdXQuUmVhZGVyW1Rva2VuXSB7CiAgICBvdmVycmlkZSBkZWYgZmlyc3Q6IFRva2VuID0gdG9rZW5zLmhlYWQKICAgIG92ZXJyaWRlIGRlZiBhdEVuZDogQm9vbGVhbiA9IHRva2Vucy5pc0VtcHR5CiAgICBvdmVycmlkZSBkZWYgcG9zOiBpbnB1dC5Qb3NpdGlvbiA9IGlmIChhdEVuZCkgTm9Qb3NpdGlvbiBlbHNlIGZpcnN0LnBvcwogICAgb3ZlcnJpZGUgZGVmIHJlc3Q6IGlucHV0LlJlYWRlcltUb2tlbl0gPSBuZXcgVG9rZW5SZWFkZXIodG9rZW5zLnRhaWwpCiAgfQp9Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>val dependencyGraph: DepGraph = toDependencyGraph(specStr)
-    val testGraph = toTestGraph(verificationStr)</text>
+      <register name="3" type="2">
+        <text encoding="base64">cHJpdmF0ZSB2YWwgZm9yd2FyZEVkZ2UgPSAiWy1dLVtCSUZEWF0+Ii5yCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgd3NlbGZXcml0ZUFjdG9ycyA9IHJlYWRBY3RvcnMuaW50ZXJzZWN0KGdldEFjdG9yV3JpdGVTeW1ib2xzKHJlYWQpKQo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">YXJyb3cgbWF0Y2ggeyAKICAgICAgY2FzZSBmb3J3YXJkRWRnZSgpID0+IHRydWUKICAgICAgY2FzZSBiYWNrd2FyZEVkZ2UoKSA9PiB0cnVlCiAgICAgIGNhc2UgXyA9PiBmYWxzZQogICAgfQ==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">dmFsIGFjdG9yUmVhZHMgPSBkZXBlbmRlbmN5R3JhcGguc3RlcHMuZmlsdGVyKGhhc0FjdG9yUmVhZFN5bWJvbHMpCiAgICAgIGFjdG9yUmVhZHMudG9MaXN0LmZsYXRNYXAgeyByZWFkID0+CiAgICAgICAgdmFsIHNlbGZBY3RvcnMgPSBnZXRBY3RvclJlYWRTeW1ib2xzKHJlYWQpLmludGVyc2VjdChnZXRBY3RvcldyaXRlU3ltYm9scyhyZWFkKSkKICAgICAgICBpZiAoc2VsZkFjdG9ycy5ub25FbXB0eSkKICAgICAgICAgIFNvbWUoUHJvYmxlbS5XYXJuaW5nKHMiQSBzdGVwIGhhcyBhIHNlbGYgZGVwZW5kZW5jeSBiYXNlZCBvbiBhY3RvcihzKTogJHtzZWxmQWN0b3JzLm1hcChfLm5hbWUpLm1rU3RyaW5nKCIiIiwgIiIiKX0iLCByZWFkKSkKICAgICAgICBlbHNlIE5vbmUKICAgICAgfQ==</text>
+        <text encoding="base64">YXJyb3cgbWF0Y2ggeyAKICAgICAgY2FzZSBmb3J3YXJkRWRnZSgpID0+IHRydWUKICAgICAgY2FzZSBiYWNrd2FyZEVkZ2UoKSA9PiB0cnVlCiAgICAgIGNhc2UgXyA9PiBmYWxzZQogICAgfQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -496,18 +495,20 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHZhbCB1bm1hdGNoZWRSZWFkcyA9IGFjdG9yUmVhZHMgLS0gYWN0b3JSZWFkcy5pbnRlcnNlY3QoYWN0b3JEZXBzLm1hcChfLmZyb20pKQo=</text>
+      <register name="6" type="4">
+        <text>{
+    def normalized: String = arrow.replaceAll(&quot;~&quot;,&quot;-&quot;)
+  }</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">dmFsIGFjdG9yRGVwcyAgID0gZGVwZW5kZW5jeUdyYXBoLmRlcHMuZmlsdGVyKGlzQWN0b3JEZXApCiAgICB2YWwgYWN0b3JSZWFkcyAgPSBkZXBlbmRlbmN5R3JhcGguc3RlcHMuZmlsdGVyKGhhc0FjdG9yUmVhZFN5bWJvbHMpCg==</text>
+        <text encoding="base64">YXNzZXJ0KG5vcm1hbGl6ZWQgbWF0Y2ggewogICAgICBjYXNlICItPiIgfCAiPC0iIHwgIi0tPiIgfCAiPC0tIiB8CiAgICAgIAogICAgICAgICAgICItQj4iIHwgIi1FPiIgfCAiLT4iID0+IHRydWUKICAgICAgY2FzZSBfID0+IGZhbHNlCiAgICB9LCBzIlVuc3VwcG9ydGVkIHRva2VuIGVkZ2U6ICckYXJyb3cnIik=</text>
       </register>
       <register name="8" type="4">
-        <text>if (selfWrites.nonEmpty)
-        warning(s&quot;There exists a dstep with an actor self dependency&quot;, actorRead)</text>
+        <text>val dependencyGraph: DepGraph = toDependencyGraph(specStr)
+    val testGraph = toTestGraph(verificationStr)</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZGVmIGNoZWNrTWF0Y2goYWN0b3JSZWFkczogU2V0W0RTdGVwXSwgYWN0b3JXcml0ZXM6IFNldFtEU3RlcF0pOiBVbml0ID0gewogICAgICAoYWN0b3JSZWFkcy5pc0VtcHR5LCBhY3RvcldyaXRlcy5pc0VtcHR5KSBtYXRjaCB7CiAgICAgICAgY2FzZSAodHJ1ZSwgZmFsc2UpID0+IGluZm8ocyJObyBhY3RvciByZWFkcyBhcmUgZm91bmQgZm9yICR7YWN0b3JXcml0ZXMuc2l6ZX0gYWN0b3Igd3JpdGUocykiLCBhY3RvcldyaXRlcykKICAgICAgICBjYXNlIChmYWxzZSwgdHJ1ZSkgPT4gZXJyb3IocyJObyBhY3RvciB3cml0ZXMgYXJlIGZvdW5kIGZvciAke2FjdG9yUmVhZHMuc2l6ZX0gYWN0b3IgcmVhZChzKSIsIGFjdG9yUmVhZHMpCiAgICAgICAgY2FzZSAoXywgXykgPT4KICAgICAgfQogICAgfQo=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgd3NlbGZXcml0ZUFjdG9ycyA9IHJlYWRBY3RvcnMuaW50ZXJzZWN0KGdldEFjdG9yV3JpdGVTeW1ib2xzKHJlYWQpKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
