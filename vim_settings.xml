@@ -98,11 +98,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568876104638">
-        <mark key="[" line="438" column="92" />
-        <mark key="]" line="438" column="89" />
-        <mark key="." line="438" column="89" />
-        <mark key="^" line="438" column="89" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568877125813">
+        <mark key="[" line="409" column="34" />
+        <mark key="]" line="409" column="7" />
+        <mark key="." line="409" column="7" />
+        <mark key="^" line="409" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568728261944">
         <mark key="'" line="5122" column="26" />
@@ -467,7 +467,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>(!read.isInOpposingBranchOf(write) || actorKind.isInstanceOf[DepKind.ElidedBB]</text>
+        <text>createActorDepsByMostLeafy(actor, actorRead, writes)</text>
       </register>
       <register name="-" type="4">
         <text>val selfActors = getActorReadSymbols(read).intersect(getActorWriteSymbols(read))</text>
@@ -476,7 +476,7 @@
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text>(!read.isInOpposingBranchOf(write) || actorKind.isInstanceOf[DepKind.ElidedBB]</text>
+        <text>createActorDepsByMostLeafy(actor, actorRead, writes)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgd3NlbGZXcml0ZUFjdG9ycyA9IHJlYWRBY3RvcnMuaW50ZXJzZWN0KGdldEFjdG9yV3JpdGVTeW1ib2xzKHJlYWQpKQo=</text>
