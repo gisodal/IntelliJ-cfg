@@ -9,11 +9,11 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568895913591">
-        <mark key="[" line="267" column="79" />
-        <mark key="]" line="267" column="78" />
-        <mark key="^" line="267" column="78" />
-        <mark key="." line="267" column="78" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1568906063137">
+        <mark key="[" line="327" column="2" />
+        <mark key="]" line="327" column="1" />
+        <mark key="^" line="324" column="50" />
+        <mark key="." line="324" column="50" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -193,7 +193,12 @@
         <mark key="^" line="82" column="25" />
         <mark key="." line="82" column="25" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1568883683829" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1568904619237">
+        <mark key="'" line="75" column="0" />
+        <mark key="[" line="39" column="6" />
+        <mark key="]" line="66" column="4" />
+        <mark key="." line="5" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1568903084342">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="2213" column="2" />
@@ -201,12 +206,11 @@
         <mark key="^" line="1763" column="112" />
         <mark key="." line="1763" column="112" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1568711779956">
-        <mark key="'" line="13" column="1" />
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
-        <mark key="^" line="12" column="1" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/depends/DepGraph.scala" timestamp="1568905498550">
+        <mark key="[" line="28" column="57" />
+        <mark key="]" line="28" column="57" />
+        <mark key="." line="28" column="57" />
+        <mark key="^" line="28" column="57" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1568191279729">
         <mark key="[" line="35" column="4" />
@@ -305,13 +309,6 @@
         <mark key="^" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" timestamp="1568644485679">
-        <mark key="'" line="13" column="58" />
-        <mark key="[" line="7" column="57" />
-        <mark key="]" line="7" column="57" />
-        <mark key="^" line="7" column="57" />
-        <mark key="." line="7" column="57" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DepGraph.scala" timestamp="1568279401012">
         <mark key="[" line="12" column="32" />
         <mark key="]" line="12" column="47" />
@@ -353,7 +350,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="217" column="73" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="503" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="575" column="53" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="615" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -453,20 +449,20 @@
       <jump line="2" column="26" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="19" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
+      <jump line="75" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val dependencyGraph: DepGraph = toDependencyGraph(specStr)
-    val testGraph = toTestGraph(verificationStr)</text>
+        <text encoding="base64">ZGVmIHRvQXJyb3cobmFtZTogU3RyaW5nKTogU3RyaW5nID0gbmFtZSBtYXRjaCB7CiAgICBjYXNlICJEYXRhIiB8ICJTdGVwIiB8ICJBY3RvciIgfCAiV3JhcHBlciIgPT4gIn4+IgogICAgY2FzZSAiRWxpZGVkQkUiID0+ICJ+WD4iCiAgICBjYXNlICJFbGlkZWRCQiIgPT4gIn5CPiIKICAgIGNhc2UgIkVsaWRlZElmIiA9PiAifkk+IgogICAgY2FzZSAiRWxpZGVkRm9yIiA9PiAifkY+IgogICAgY2FzZSAiRWxpZGVkRGVsZXRlIiA9PiAifkQ+IgogIH0KICA=</text>
       </register>
       <register name="-" type="4">
-        <text>.stripMargin</text>
+        <text encoding="base64">In5CPiI=</text>
       </register>
       <register name="/" type="4">
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9UZXN0R3JhcGgodGVzdDogU3RyaW5nKTogZ3JhcGh2ZXJpZmllci5UZXN0ID0gewogICAgdmFsIGNvbXBpbGVyID0gbmV3IGdyYXBodmVyaWZpZXIuQ29tcGlsZXIKICAgIGNvbXBpbGVyLmNvbXBpbGUodGVzdCkKICB9Cg==</text>
+        <text encoding="base64">ZGVmIHRvQXJyb3cobmFtZTogU3RyaW5nKTogU3RyaW5nID0gbmFtZSBtYXRjaCB7CiAgICBjYXNlICJEYXRhIiB8ICJTdGVwIiB8ICJBY3RvciIgfCAiV3JhcHBlciIgPT4gIn4+IgogICAgY2FzZSAiRWxpZGVkQkUiID0+ICJ+WD4iCiAgICBjYXNlICJFbGlkZWRCQiIgPT4gIn5CPiIKICAgIGNhc2UgIkVsaWRlZElmIiA9PiAifkk+IgogICAgY2FzZSAiRWxpZGVkRm9yIiA9PiAifkY+IgogICAgY2FzZSAiRWxpZGVkRGVsZXRlIiA9PiAifkQ+IgogIH0KICA=</text>
       </register>
       <register name="1" type="4">
         <text>val dependencyGraph: DepGraph = toDependencyGraph(specStr)
