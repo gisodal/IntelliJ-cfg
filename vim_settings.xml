@@ -79,12 +79,12 @@
         <mark key="." line="25" column="42" />
         <mark key="^" line="25" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568824388336">
-        <mark key="'" line="84" column="96" />
-        <mark key="[" line="62" column="47" />
-        <mark key="]" line="62" column="47" />
-        <mark key="^" line="60" column="95" />
-        <mark key="." line="62" column="47" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1568879088292">
+        <mark key="'" line="88" column="96" />
+        <mark key="[" line="66" column="25" />
+        <mark key="]" line="89" column="15" />
+        <mark key="." line="89" column="15" />
+        <mark key="^" line="89" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568722778959">
         <mark key="[" line="79" column="47" />
@@ -98,11 +98,11 @@
         <mark key="^" line="25" column="3" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568877125813">
-        <mark key="[" line="409" column="34" />
-        <mark key="]" line="409" column="7" />
-        <mark key="." line="409" column="7" />
-        <mark key="^" line="409" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568879286728">
+        <mark key="[" line="492" column="0" />
+        <mark key="]" line="493" column="46" />
+        <mark key="." line="493" column="46" />
+        <mark key="^" line="493" column="46" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1568728261944">
         <mark key="'" line="5122" column="26" />
@@ -159,11 +159,10 @@
         <mark key="^" line="104" column="3" />
         <mark key="." line="7" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568644913607">
-        <mark key="[" line="85" column="11" />
-        <mark key="]" line="85" column="15" />
-        <mark key="." line="85" column="15" />
-        <mark key="^" line="85" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1568878417178">
+        <mark key="]" line="90" column="8" />
+        <mark key="^" line="90" column="8" />
+        <mark key="." line="90" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -329,11 +328,11 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1568021818116">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
-        <mark key="^" line="5" column="70" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1568877640636">
+        <mark key="[" line="12" column="68" />
+        <mark key="]" line="12" column="116" />
+        <mark key="." line="12" column="68" />
+        <mark key="^" line="12" column="73" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1565092237054">
         <mark key="[" line="52" column="40" />
@@ -467,16 +466,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>createActorDepsByMostLeafy(actor, actorRead, writes)</text>
+        <text encoding="base64">ZGVmIHJlcG9ydChwcm9ibGVtOiBQcm9ibGVtKTogVW5pdCA9IHByb2JsZW0gbWF0Y2ggewogICAgY2FzZSBlcnI6IFByb2JsZW0uRXJyb3IgICAgPT4gbG9nZ2VyLmVycm9yKGVyci5wcmV0dHkpCiAgICBjYXNlIHdhcm46IFByb2JsZW0uV2FybmluZyA9PiBsb2dnZXIud2Fybih3YXJuLnByZXR0eSkKICAgIGNhc2UgaW5mbzogUHJvYmxlbS5JbmZvICAgID0+IGxvZ2dlci5pbmZvKGluZm8ucHJldHR5KQogICAgY2FzZSBwcm9iOiBQcm9ibGVtICAgICAgICAgID0+IGxvZ2dlci5pbmZvKHByb2IucHJldHR5KQogIH0K</text>
       </register>
       <register name="-" type="4">
-        <text>val selfActors = getActorReadSymbols(read).intersect(getActorWriteSymbols(read))</text>
+        <text>Note: for debugging, add 'export = true'</text>
       </register>
       <register name="/" type="4">
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text>createActorDepsByMostLeafy(actor, actorRead, writes)</text>
+        <text encoding="base64">ZGVmIHJlcG9ydChwcm9ibGVtOiBQcm9ibGVtKTogVW5pdCA9IHByb2JsZW0gbWF0Y2ggewogICAgY2FzZSBlcnI6IFByb2JsZW0uRXJyb3IgICAgPT4gbG9nZ2VyLmVycm9yKGVyci5wcmV0dHkpCiAgICBjYXNlIHdhcm46IFByb2JsZW0uV2FybmluZyA9PiBsb2dnZXIud2Fybih3YXJuLnByZXR0eSkKICAgIGNhc2UgaW5mbzogUHJvYmxlbS5JbmZvICAgID0+IGxvZ2dlci5pbmZvKGluZm8ucHJldHR5KQogICAgY2FzZSBwcm9iOiBQcm9ibGVtICAgICAgICAgID0+IGxvZ2dlci5pbmZvKHByb2IucHJldHR5KQogIH0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgd3NlbGZXcml0ZUFjdG9ycyA9IHJlYWRBY3RvcnMuaW50ZXJzZWN0KGdldEFjdG9yV3JpdGVTeW1ib2xzKHJlYWQpKQo=</text>
