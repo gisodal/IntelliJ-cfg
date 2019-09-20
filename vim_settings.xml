@@ -70,11 +70,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1568974448971">
-        <mark key="[" line="177" column="4" />
-        <mark key="]" line="177" column="4" />
-        <mark key="." line="177" column="4" />
-        <mark key="^" line="177" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1568983354185">
+        <mark key="[" line="175" column="28" />
+        <mark key="]" line="175" column="28" />
+        <mark key="." line="175" column="28" />
+        <mark key="^" line="175" column="28" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1568633768709">
         <mark key="[" line="25" column="23" />
@@ -88,9 +88,11 @@
         <mark key="^" line="7" column="23" />
         <mark key="." line="7" column="23" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" timestamp="1568980924526">
-        <mark key="[" line="5" column="2" />
-        <mark key="]" line="17" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" timestamp="1568981930972">
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="63" column="0" />
+        <mark key="^" line="62" column="75" />
+        <mark key="." line="63" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568722778959">
         <mark key="[" line="79" column="47" />
@@ -346,11 +348,12 @@
         <mark key="." line="5" column="68" />
         <mark key="^" line="5" column="73" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1568981442556">
-        <mark key="'" line="70" column="43" />
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="75" column="0" />
-        <mark key="." line="75" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1568983328963">
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="78" column="0" />
+        <mark key="]" line="78" column="4" />
+        <mark key="." line="78" column="4" />
+        <mark key="^" line="78" column="52" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1564006863058">
         <mark key="[" line="213" column="27" />
@@ -370,19 +373,16 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1568968746715">
-        <mark key="[" line="12" column="43" />
-        <mark key="]" line="12" column="35" />
-        <mark key="." line="12" column="35" />
-        <mark key="^" line="12" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1568983408431">
+        <mark key="[" line="65" column="0" />
+        <mark key="]" line="65" column="0" />
+        <mark key="." line="65" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1568968489237">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
-      <jump line="1113" column="61" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" />
       <jump line="323" column="19" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" />
       <jump line="56" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="69" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" />
@@ -481,19 +481,21 @@
       <jump line="34" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" />
       <jump line="71" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" />
       <jump line="70" column="43" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
+      <jump line="77" column="31" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
+      <jump line="18" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>com.xlrit.gears.generator.util.Arrow.</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHdpdGggQXJyb3c=</text>
+        <text>import Arrow._</text>
       </register>
       <register name="/" type="4">
         <text>.name</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dHlwZSBBbm5vdGF0aW9uID0gT3B0aW9uW1N0cmluZ10KCiAgc2VhbGVkIHRyYWl0IEtpbmQKICBvYmplY3QgS2luZCB7CiAgICBjYXNlIG9iamVjdCBEaXJlY3QgZXh0ZW5kcyBLaW5kCiAgICBjYXNlIG9iamVjdCBJbmRpcmVjdCBleHRlbmRzIEtpbmQKICB9CgogIHNlYWxlZCB0cmFpdCBEaXJlY3Rpb24KICBvYmplY3QgRGlyZWN0aW9uIHsKICAgIGNhc2Ugb2JqZWN0IEZvcndhcmQgZXh0ZW5kcyBEaXJlY3Rpb24KICAgIGNhc2Ugb2JqZWN0IEJhY2t3YXJkIGV4dGVuZHMgRGlyZWN0aW9uCiAgfQo=</text>
+        <text>com.xlrit.gears.generator.util.Arrow.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -580,6 +582,7 @@
         <entry>w:w</entry>
         <entry>216</entry>
         <entry>228</entry>
+        <entry>Fw</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
