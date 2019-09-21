@@ -168,11 +168,11 @@
         <mark key="^" line="7" column="42" />
         <mark key="." line="7" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569072049331">
-        <mark key="[" line="47" column="23" />
-        <mark key="]" line="47" column="26" />
-        <mark key="." line="47" column="26" />
-        <mark key="^" line="47" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569078239222">
+        <mark key="[" line="46" column="66" />
+        <mark key="]" line="46" column="72" />
+        <mark key="." line="46" column="72" />
+        <mark key="^" line="46" column="72" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1568995243159">
         <mark key="[" line="18" column="13" />
@@ -222,11 +222,17 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1569076861537">
-        <mark key="[" line="314" column="38" />
-        <mark key="]" line="314" column="57" />
-        <mark key="^" line="314" column="57" />
-        <mark key="." line="314" column="57" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1569077344186">
+        <mark key="[" line="286" column="98" />
+        <mark key="]" line="286" column="55" />
+        <mark key="^" line="286" column="55" />
+        <mark key="." line="286" column="55" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1569078249713">
+        <mark key="[" line="46" column="119" />
+        <mark key="]" line="46" column="119" />
+        <mark key="^" line="46" column="124" />
+        <mark key="." line="46" column="119" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1568978017632">
         <mark key="'" line="0" column="0" />
@@ -494,7 +500,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">bWF0Y2ggewogICAgICAgICAgICAgICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgICAgICAgICAgICAgY2FzZSBsYWJlbCA9PiBsYWJlbAogICAgICAgICAgICAgICAgICB9</text>
+        <text encoding="base64">IGRlZiBub3JtYWxpemVMYWJlbChsYWJlbDogTGFiZWwpOiBMYWJlbCA9IGxhYmVsIG1hdGNoIHsKICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgIGNhc2Ugb3RoZXIgPT4gb3RoZXIKICAgICAgfQo=</text>
       </register>
       <register name="-" type="4">
         <text>'Update EA1.attr1'</text>
@@ -503,23 +509,22 @@
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>matchingLabel(thisEdge, thatEdge)</text>
+        <text>normalizeLabel</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">bWF0Y2ggewogICAgICAgICAgICAgICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgICAgICAgICAgICAgY2FzZSBsYWJlbCA9PiBsYWJlbAogICAgICAgICAgICAgICAgICB9</text>
+        <text encoding="base64">IGRlZiBub3JtYWxpemVMYWJlbChsYWJlbDogTGFiZWwpOiBMYWJlbCA9IGxhYmVsIG1hdGNoIHsKICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgIGNhc2Ugb3RoZXIgPT4gb3RoZXIKICAgICAgfQo=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ZW50aXRpZXMuaGVhZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIF86IE5vZGVBc3QgPT4gTm9uZQogICAgICAgICAgY2FzZSBfID0+IFNvbWUoQ29tcGlsZXJGYWlsdXJlKCJTdGVwIG5vZGVzIG11c3QgaGF2ZSBwcmVjaXNlbHkgb25lIGxpdGVyYWwiLCBpbnB1dC5nZXQsIG5vZGVBU1Qua2luZC5wb3MpKSAgIAogICAgICAgIH0=</text>
+        <text encoding="base64">ZGVmIG5vcm1hbGl6ZUxhYmVsKGxhYmVsOiBMYWJlbCk6IExhYmVsID0gbGFiZWwgbWF0Y2ggewogICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgY2FzZSBvdGhlciA9PiBvdGhlcgogICAgICB9CiAgICAgIA==</text>
       </register>
       <register name="3" type="4">
-        <text>// create actual edge
-    assert(edge.kind != Arrow.Kind.Indirect, &quot;Indirect edges are not supported in the graph verification compiler.&quot;)</text>
+        <text encoding="base64">IG1hdGNoIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgICAgICAgICAgICAgIGNhc2UgbGFiZWwgPT4gbGFiZWwKICAgICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ZGVmIGdldEVkZ2VMYWJlbChlZGdlOiBUb2tlbi5FREdFLCBsYWJlbDogT3B0aW9uW1Rva2VuLkxBQkVMXSk6IExhYmVsID0gewogICAgICAvLyB2ZXJpZnkgZWRnZSBsYWJlbGluZwogICAgICAoZWRnZS5hbm5vdGF0aW9uLm5vbkVtcHR5LCBsYWJlbC5ub25FbXB0eSkgbWF0Y2ggewogICAgICAgIGNhc2UgKHRydWUsIHRydWUpID0+CiAgICAgICAgICB2YWwgY29udmVydGVkQW5ub3RhdGlvbiA9IGVkZ2UuYW5ub3RhdGlvbi5tYXAoRGVwS2luZC50b05hbWUpCiAgICAgICAgICBpZiAoY29udmVydGVkQW5ub3RhdGlvbiAhPSBsYWJlbC5tYXAoXy52YWx1ZSkpCiAgICAgICAgICAgIHRocm93IENvbXBpbGVyRXJyb3IocyJUaGUgZWRnZSBsYWJlbCBpcyBpbmNvbnNpc3RlbnQgd2l0aCB0aGUgYW5ub3RhdGlvbi4gVGhlIGxhYmVsIGNhbiBiZSByZW1vdmVkLCBidXQgYXQgbGVhc3QgaGFzIHRvIGJlIGVxdWFsIHRvOiAnJHtjb252ZXJ0ZWRBbm5vdGF0aW9uLmdldH0nIikKCiAgICAgICAgICBsYWJlbC5tYXAoXy52YWx1ZSkKCiAgICAgICAgY2FzZSAodHJ1ZSwgZmFsc2UpID0+IGVkZ2UuYW5ub3RhdGlvbi5tYXAoRGVwS2luZC50b05hbWUpCiAgICAgICAgY2FzZSAoZmFsc2UsIHRydWUpID0+IGxhYmVsLm1hcChfLnZhbHVlKQogICAgICAgIGNhc2UgXyA9PiBOb25lCiAgICAgIH0KICAgIH0=</text>
+        <text encoding="base64">bWF0Y2ggewogICAgICAgICAgICAgICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgICAgICAgICAgICAgY2FzZSBsYWJlbCA9PiBsYWJlbAogICAgICAgICAgICAgICAgICB9</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGNhc2UgV3JhcHBlciAgICAgICAgID0+ICJXcmFwcGVyIgo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">ZW50aXRpZXMuaGVhZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIF86IE5vZGVBc3QgPT4gTm9uZQogICAgICAgICAgY2FzZSBfID0+IFNvbWUoQ29tcGlsZXJGYWlsdXJlKCJTdGVwIG5vZGVzIG11c3QgaGF2ZSBwcmVjaXNlbHkgb25lIGxpdGVyYWwiLCBpbnB1dC5nZXQsIG5vZGVBU1Qua2luZC5wb3MpKSAgIAogICAgICAgIH0=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -531,17 +536,18 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
+      <register name="6" type="4">
+        <text>// create actual edge
+    assert(edge.kind != Arrow.Kind.Indirect, &quot;Indirect edges are not supported in the graph verification compiler.&quot;)</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ZGVmIGdldEVkZ2VMYWJlbChlZGdlOiBUb2tlbi5FREdFLCBsYWJlbDogT3B0aW9uW1Rva2VuLkxBQkVMXSk6IExhYmVsID0gewogICAgICAvLyB2ZXJpZnkgZWRnZSBsYWJlbGluZwogICAgICAoZWRnZS5hbm5vdGF0aW9uLm5vbkVtcHR5LCBsYWJlbC5ub25FbXB0eSkgbWF0Y2ggewogICAgICAgIGNhc2UgKHRydWUsIHRydWUpID0+CiAgICAgICAgICB2YWwgY29udmVydGVkQW5ub3RhdGlvbiA9IGVkZ2UuYW5ub3RhdGlvbi5tYXAoRGVwS2luZC50b05hbWUpCiAgICAgICAgICBpZiAoY29udmVydGVkQW5ub3RhdGlvbiAhPSBsYWJlbC5tYXAoXy52YWx1ZSkpCiAgICAgICAgICAgIHRocm93IENvbXBpbGVyRXJyb3IocyJUaGUgZWRnZSBsYWJlbCBpcyBpbmNvbnNpc3RlbnQgd2l0aCB0aGUgYW5ub3RhdGlvbi4gVGhlIGxhYmVsIGNhbiBiZSByZW1vdmVkLCBidXQgYXQgbGVhc3QgaGFzIHRvIGJlIGVxdWFsIHRvOiAnJHtjb252ZXJ0ZWRBbm5vdGF0aW9uLmdldH0nIikKCiAgICAgICAgICBsYWJlbC5tYXAoXy52YWx1ZSkKCiAgICAgICAgY2FzZSAodHJ1ZSwgZmFsc2UpID0+IGVkZ2UuYW5ub3RhdGlvbi5tYXAoRGVwS2luZC50b05hbWUpCiAgICAgICAgY2FzZSAoZmFsc2UsIHRydWUpID0+IGxhYmVsLm1hcChfLnZhbHVlKQogICAgICAgIGNhc2UgXyA9PiBOb25lCiAgICAgIH0KICAgIH0=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGNhc2UgV3JhcHBlciAgICAgICAgID0+ICJXcmFwcGVyIgo=</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CiAgICAgIGNhc2UgXyA9PiBmYWxzZQo=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">YXNzZXJ0KHsKICAgIHZhbCBhbGxvd2VkID0gIltCSUZEWEVdIi5yCiAgICBhbm5vdGF0aW9uLmZvcmFsbChhbm4gPT4gYWxsb3dlZC5wYXR0ZXJuLm1hdGNoZXIoYW5uKS5tYXRjaGVzKCkpCiAgfSwgcyJBbm5vdGF0aW9uIG5vdCBhbGxvd2VkOiAkYW5ub3RhdGlvbiIpCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">aW1wb3J0IEFycm93Ll8KCiAgYXNzZXJ0KHsKICAgIHZhbCBhbGxvd2VkID0gIltCSUZEWEVdIi5yCiAgICBhbm5vdGF0aW9uLmZvcmFsbChhbm4gPT4gYWxsb3dlZC5wYXR0ZXJuLm1hdGNoZXIoYW5uKS5tYXRjaGVzKCkpCiAgfSwgcyJBbm5vdGF0aW9uIG5vdCBhbGxvd2VkOiAkYW5ub3RhdGlvbiIpCgogIHByaXZhdGUgZGVmIGFycm93S2luZDogU3RyaW5nID0ga2luZCBtYXRjaCB7CiAgICBjYXNlIEtpbmQuRGlyZWN0ICAgPT4gIi0iCiAgICBjYXNlIEtpbmQuSW5kaXJlY3QgPT4gIi0tIgogIH0KCiAgcHJpdmF0ZSBkZWYgYXJyb3dBbm5vdGF0aW9uOiBTdHJpbmcgPQogICAgYW5ub3RhdGlvbi5tYXAoXyArICIiKS5nZXRPckVsc2UoIiIpCgogIGRlZiBwcmV0dHk6IFN0cmluZyA9IGRpcmVjdGlvbiBtYXRjaCB7CiAgICBjYXNlIERpcmVjdGlvbi5Gb3J3YXJkICA9PiBhcnJvd0tpbmQgKyBhcnJvd0Fubm90YXRpb24gKyAiPiIKICAgIGNhc2UgRGlyZWN0aW9uLkJhY2t3YXJkID0+ICI8IiArIGFycm93QW5ub3RhdGlvbiArIGFycm93S2luZAogIH0KCiAgb3ZlcnJpZGUgZGVmIHRvU3RyaW5nOiBTdHJpbmcgPSBwcmV0dHkucmVwbGFjZSgiLSIsIn4iKSAvLyBUT0RPOiByZW1vdmUgcmVwbGFjZW1lbnQgd2hlbiBkZXBlbmRzIHRlc3RzIGFyZSBjb252ZXJ0ZWQ=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
