@@ -3,6 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1569072606641">
+        <mark key="[" line="221" column="37" />
+        <mark key="]" line="221" column="36" />
+        <mark key="^" line="221" column="36" />
+        <mark key="." line="221" column="36" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
         <mark key="]" line="39" column="66" />
@@ -119,12 +125,12 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569071966330">
-        <mark key="'" line="6025" column="82" />
-        <mark key="[" line="5993" column="18" />
-        <mark key="]" line="5993" column="61" />
-        <mark key="^" line="5993" column="18" />
-        <mark key="." line="5993" column="18" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569073735398">
+        <mark key="'" line="6026" column="82" />
+        <mark key="[" line="5992" column="47" />
+        <mark key="]" line="5992" column="46" />
+        <mark key="^" line="5992" column="46" />
+        <mark key="." line="5992" column="46" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1568304437145">
         <mark key="[" line="27" column="22" />
@@ -229,8 +235,8 @@
         <mark key="^" line="2215" column="47" />
         <mark key="." line="2215" column="47" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/depends/DepGraph.scala" timestamp="1569072321969">
-        <mark key="[" line="18" column="64" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/depends/DepGraph.scala" timestamp="1569073443658">
+        <mark key="[" line="18" column="74" />
         <mark key="]" line="18" column="64" />
         <mark key="^" line="18" column="64" />
         <mark key="." line="18" column="64" />
@@ -350,12 +356,12 @@
         <mark key="." line="5" column="68" />
         <mark key="^" line="5" column="73" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1569072243399">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" timestamp="1569073438399">
         <mark key="'" line="18" column="0" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="^" line="25" column="52" />
-        <mark key="." line="26" column="0" />
+        <mark key="[" line="57" column="33" />
+        <mark key="]" line="57" column="33" />
+        <mark key="^" line="57" column="14" />
+        <mark key="." line="57" column="33" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1564006863058">
         <mark key="[" line="213" column="27" />
@@ -488,16 +494,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">U29tZShTVEVQLnRvU3RyaW5nKSwg</text>
+        <text>'Eval EA1'</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">U29tZShTVEVQLnRvU3RyaW5nKSwg</text>
+        <text>'Update EA1.attr2'</text>
       </register>
       <register name="/" type="4">
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>Some(CompilerFailure(&quot;Step nodes must have precisely one literal&quot;, input.get, nodeAST.kind.pos))</text>
+        <text>'Eval EA1'</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZW50aXRpZXMuaGVhZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIF86IE5vZGVBc3QgPT4gTm9uZQogICAgICAgICAgY2FzZSBfID0+IFNvbWUoQ29tcGlsZXJGYWlsdXJlKCJTdGVwIG5vZGVzIG11c3QgaGF2ZSBwcmVjaXNlbHkgb25lIGxpdGVyYWwiLCBpbnB1dC5nZXQsIG5vZGVBU1Qua2luZC5wb3MpKSAgIAogICAgICAgIH0=</text>
