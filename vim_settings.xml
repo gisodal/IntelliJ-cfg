@@ -125,12 +125,12 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569087370740">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569087760059">
         <mark key="'" line="5138" column="2" />
-        <mark key="[" line="6018" column="31" />
-        <mark key="]" line="6018" column="29" />
-        <mark key="^" line="6018" column="29" />
-        <mark key="." line="6018" column="29" />
+        <mark key="[" line="6023" column="14" />
+        <mark key="]" line="6008" column="17" />
+        <mark key="." line="6008" column="17" />
+        <mark key="^" line="6008" column="17" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1568304437145">
         <mark key="[" line="27" column="22" />
@@ -297,7 +297,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1569085137099">
+      <file name="/sbtShell" timestamp="1569230422358">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
