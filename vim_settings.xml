@@ -249,8 +249,8 @@
         <mark key="^" line="36" column="75" />
         <mark key="." line="36" column="75" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1568191279729">
-        <mark key="[" line="35" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1569315812901">
+        <mark key="[" line="33" column="4" />
         <mark key="]" line="37" column="33" />
         <mark key="^" line="133" column="13" />
         <mark key="." line="133" column="13" />
@@ -346,11 +346,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569313903361">
-        <mark key="[" line="63" column="10" />
-        <mark key="]" line="63" column="9" />
-        <mark key="^" line="63" column="9" />
-        <mark key="." line="63" column="9" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569316719346">
+        <mark key="[" line="93" column="3" />
+        <mark key="]" line="93" column="0" />
+        <mark key="^" line="94" column="3" />
+        <mark key="." line="93" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -401,9 +401,6 @@
         <mark key="]" line="69" column="42" />
         <mark key="." line="69" column="42" />
         <mark key="^" line="69" column="42" />
-      </file>
-      <file name="/fragment.java" timestamp="1568968489237">
-        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -510,31 +507,32 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>import Test.Graph.Edge.Label</text>
+        <text encoding="base64">dmFsIHRoaXNUb1RoYXQgPSB0aGlzTm9kZXMubWFwIHsgdGhpc05vZGUgPT4KICAgICAgdmFsIGNvZGUgPSB0aGlzTm9kZS50b0NvZGVMaW5lcwogICAgICB2YWwgbWFwTm9kZXMgPSBjb2RlVG9UaGF0Tm9kZXMuZ2V0T3JFbHNlKGNvZGUsIHsKICAgICAgICAvLyBmaW5kIHBvc3NpYmxlIG1hcHBpbmcgdG8gc3VnZ2VzdAoKICAgICAgICBkZWYgY3JlYXRlTXNnOiBTdHJpbmcgPSB7CiAgICAgICAgICB2YWwgY29kZUxpbmVzID0gY29kZS5zcGxpdCgiXG4iKS5tYXAoXy50cmltKCkpCiAgICAgICAgICB2YWwgcG9zc2libGVNYXRjaGVzID0gY29kZVRvVGhhdE5vZGVzLmZpbHRlcihtID0+IGNvZGVMaW5lcy5mb3JhbGwobGluZSA9PiBtLl8xLmNvbnRhaW5zKGxpbmUpKSkuZmxhdE1hcChfLl8yKS50b1NldAoKICAgICAgICAgIHMiQ291bGQgbm90IG1hdGNoIGxhYmVsZWQgbm9kZTpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgICBzIiAgICBQb3NzaWJsZSBtYXRjaGluZyBjYW5kaWRhdGUocyk6XG4iICsgewogICAgICAgICAgICBpZiAocG9zc2libGVNYXRjaGVzLm5vbkVtcHR5KQogICAgICAgICAgICAgIHBvc3NpYmxlTWF0Y2hlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRocm93IFRlc3RGYWlsdXJlKGNyZWF0ZU1zZykKICAgICAgfSkKICAgICAgdGhpc05vZGUgLT4gbWFwTm9kZXMudG9MaXN0CiAgICB9LnRvTWFwCg==</text>
       </register>
       <register name="-" type="4">
-        <text>import Test.Graph.Edge.Label</text>
+        <text>private type Label = Graph.Edge.Label</text>
       </register>
       <register name="/" type="4">
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIG5vcm1hbGl6ZUxhYmVsKGxhYmVsOiBMYWJlbCk6IExhYmVsID0gbGFiZWwgbWF0Y2ggewogICAgY2FzZSBTb21lKCJEYXRhIikgfCBTb21lKCJTdGVwIikgfCBTb21lKCJBY3RvciIpIHwgU29tZSgiV3JhcHBlciIpID0+IE5vbmUKICAgIGNhc2Ugb3RoZXIgPT4gb3RoZXIKICB9</text>
+        <text encoding="base64">dmFsIHRoaXNUb1RoYXQgPSB0aGlzTm9kZXMubWFwIHsgdGhpc05vZGUgPT4KICAgICAgdmFsIGNvZGUgPSB0aGlzTm9kZS50b0NvZGVMaW5lcwogICAgICB2YWwgbWFwTm9kZXMgPSBjb2RlVG9UaGF0Tm9kZXMuZ2V0T3JFbHNlKGNvZGUsIHsKICAgICAgICAvLyBmaW5kIHBvc3NpYmxlIG1hcHBpbmcgdG8gc3VnZ2VzdAoKICAgICAgICBkZWYgY3JlYXRlTXNnOiBTdHJpbmcgPSB7CiAgICAgICAgICB2YWwgY29kZUxpbmVzID0gY29kZS5zcGxpdCgiXG4iKS5tYXAoXy50cmltKCkpCiAgICAgICAgICB2YWwgcG9zc2libGVNYXRjaGVzID0gY29kZVRvVGhhdE5vZGVzLmZpbHRlcihtID0+IGNvZGVMaW5lcy5mb3JhbGwobGluZSA9PiBtLl8xLmNvbnRhaW5zKGxpbmUpKSkuZmxhdE1hcChfLl8yKS50b1NldAoKICAgICAgICAgIHMiQ291bGQgbm90IG1hdGNoIGxhYmVsZWQgbm9kZTpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgICBzIiAgICBQb3NzaWJsZSBtYXRjaGluZyBjYW5kaWRhdGUocyk6XG4iICsgewogICAgICAgICAgICBpZiAocG9zc2libGVNYXRjaGVzLm5vbkVtcHR5KQogICAgICAgICAgICAgIHBvc3NpYmxlTWF0Y2hlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRocm93IFRlc3RGYWlsdXJlKGNyZWF0ZU1zZykKICAgICAgfSkKICAgICAgdGhpc05vZGUgLT4gbWFwTm9kZXMudG9MaXN0CiAgICB9LnRvTWFwCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">cGFyc2VyLnRvQXN0V2l0aChwYXJzZXIubm9kZVBhaXIsICJ4IC0+KEIpIHkiKSBzaG91bGQgZXF1YWwgKAogICAgICBUb3BvbG9neUFzdChMaXN0KElERU5USUZJRVIoIngiKSxFREdFKERpcmVjdGlvbi5Gb3J3YXJkLCBLaW5kLkRpcmVjdCwgU29tZSgiQiIpKSxJREVOVElGSUVSKCJ5IikpKSkK</text>
+        <text>val allThisNodes = thisGraph.graph.nodes.toSet.asInstanceOf[Set[NodeT]]
+    val allThatNodes = graph.graph.nodes.toSet.asInstanceOf[Set[NodeT]]</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">dmFsIGRpcmVjdGlvbjogRGlyZWN0aW9uLAogICAgb3ZlcnJpZGUgdmFsIGtpbmQ6IEtpbmQsCiAgICBvdmVycmlkZSB2YWwgYW5ub3RhdGlvbjogQW5ub3RhdGlvbiA9IE5vbmUg</text>
+        <text encoding="base64">ZGVmIG1hcExhYmVsZWROb2RlcygpOiBNYXBwaW5nID0gewogICAgICAvLyBnZXQgYWxsIHRoaXNOb2RlcyBhbmQgdGhhdE5vZGVzIHRoYXQgYXJlIGxhYmVsZWQuCiAgICAgIHZhbCB0aGF0Tm9kZXMgPSBhbGxUaGF0Tm9kZXMuZmlsdGVyKG5vZGUgPT4gbm9kZS50b091dGVyLnRlc3Qubm9uRW1wdHkgfHwgbm9kZS50b091dGVyLmxhYmVsLm5vbkVtcHR5KQogICAgICB2YWwgdGhpc05vZGVzID0gYWxsVGhpc05vZGVzLmZpbHRlcihub2RlID0+IG5vZGUudG9PdXRlci50ZXN0Lm5vbkVtcHR5IHx8IG5vZGUudG9PdXRlci5sYWJlbC5ub25FbXB0eSkKCiAgICAgIC8vIGZpbmQgYSBtYXBwaW5nIGZyb20gdGhpc05vZGVzIHRvIHRoYXROb2RlcyB1c2luZyB0aGUgY29kZSB0aGV5IGFyZSBsYWJlbGVkIHdpdGgKICAgICAgdmFsIGNvZGVUb1RoYXROb2RlcyA9IHRoYXROb2Rlcy5tYXAobm9kZSA9PiAobm9kZSwgbm9kZS50b0NvZGVMaW5lcykpLnRvTWFwLmdyb3VwQnkoXy5fMikubWFwVmFsdWVzKF8ua2V5cykKICAgICAgdmFsIHRoaXNUb1RoYXQgPSB0aGlzTm9kZXMubWFwIHsgdGhpc05vZGUgPT4KICAgICAgICB2YWwgY29kZSA9IHRoaXNOb2RlLnRvQ29kZUxpbmVzCiAgICAgICAgdmFsIG1hcE5vZGVzID0gY29kZVRvVGhhdE5vZGVzLmdldE9yRWxzZShjb2RlLCB7CiAgICAgICAgICAvLyBmaW5kIHBvc3NpYmxlIG1hcHBpbmcgdG8gc3VnZ2VzdAoKICAgICAgICAgIGRlZiBjcmVhdGVNc2c6IFN0cmluZyA9IHsKICAgICAgICAgICAgdmFsIGNvZGVMaW5lcyA9IGNvZGUuc3BsaXQoIlxuIikubWFwKF8udHJpbSgpKQogICAgICAgICAgICB2YWwgcG9zc2libGVNYXRjaGVzID0gY29kZVRvVGhhdE5vZGVzLmZpbHRlcihtID0+IGNvZGVMaW5lcy5mb3JhbGwobGluZSA9PiBtLl8xLmNvbnRhaW5zKGxpbmUpKSkuZmxhdE1hcChfLl8yKS50b1NldAoKICAgICAgICAgICAgcyJDb3VsZCBub3QgbWF0Y2ggbGFiZWxlZCBub2RlOlxuIiArIHRoaXNOb2RlLnByZXR0eSgxKSArICJcblxuIiArCiAgICAgICAgICAgICAgcyIgICAgUG9zc2libGUgbWF0Y2hpbmcgY2FuZGlkYXRlKHMpOlxuIiArIHsKICAgICAgICAgICAgICBpZiAocG9zc2libGVNYXRjaGVzLm5vbkVtcHR5KQogICAgICAgICAgICAgICAgcG9zc2libGVNYXRjaGVzLm1hcChub2RlID0+IG5vZGUucHJldHR5KDIpKS5ta1N0cmluZygiIiwgIlxuXG4iLCAiXG4iKQogICAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgICAgfQogICAgICAgICAgfQoKICAgICAgICAgIHRocm93IFRlc3RGYWlsdXJlKGNyZWF0ZU1zZykKICAgICAgICB9KQogICAgICAgIHRoaXNOb2RlIC0+IG1hcE5vZGVzLnRvTGlzdAogICAgICB9LnRvTWFwCgogICAgICBkZWYgdmVyaWZ5UmVtYWluaW5nTm9kZXMobWFwcGluZzogTWFwcGluZyk6IFVuaXQgPSB7CiAgICAgICAgdmFsIHVubWFwcGVkVGhhdE5vZGVzID0gdGhhdE5vZGVzLmRpZmYodGhpc1RvVGhhdC5mbGF0TWFwKF8uXzIpLnRvU2V0KQogICAgICAgIGlmICh1bm1hcHBlZFRoYXROb2Rlcy5ub25FbXB0eSkKICAgICAgICAgIHRocm93IFRlc3RGYWlsdXJlKHMiVW5leHBlY3RlZCBsYWJlbGVkIG5vZGVzIHJlbWFpbjpcbiIgKwogICAgICAgICAgICB1bm1hcHBlZFRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgxKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikpCgogICAgICB9CgogICAgICB2ZXJpZnlSZW1haW5pbmdOb2Rlcyh0aGlzVG9UaGF0KQoKICAgICAgdGhpc1RvVGhhdAogICAgfQ==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">IGRlZiBub3JtYWxpemVMYWJlbChsYWJlbDogTGFiZWwpOiBMYWJlbCA9IGxhYmVsIG1hdGNoIHsKICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgIGNhc2Ugb3RoZXIgPT4gb3RoZXIKICAgICAgfQo=</text>
+        <text encoding="base64">cGFyc2VyLnRvQXN0V2l0aChwYXJzZXIubm9kZVBhaXIsICJ4IC0+KEIpIHkiKSBzaG91bGQgZXF1YWwgKAogICAgICBUb3BvbG9neUFzdChMaXN0KElERU5USUZJRVIoIngiKSxFREdFKERpcmVjdGlvbi5Gb3J3YXJkLCBLaW5kLkRpcmVjdCwgU29tZSgiQiIpKSxJREVOVElGSUVSKCJ5IikpKSkK</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ZGVmIG5vcm1hbGl6ZUxhYmVsKGxhYmVsOiBMYWJlbCk6IExhYmVsID0gbGFiZWwgbWF0Y2ggewogICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgY2FzZSBvdGhlciA9PiBvdGhlcgogICAgICB9CiAgICAgIA==</text>
+        <text encoding="base64">dmFsIGRpcmVjdGlvbjogRGlyZWN0aW9uLAogICAgb3ZlcnJpZGUgdmFsIGtpbmQ6IEtpbmQsCiAgICBvdmVycmlkZSB2YWwgYW5ub3RhdGlvbjogQW5ub3RhdGlvbiA9IE5vbmUg</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">IG1hdGNoIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgICAgICAgICAgICAgIGNhc2UgbGFiZWwgPT4gbGFiZWwKICAgICAgICAgICAgICAgICAgfQ==</text>
+        <text encoding="base64">IGRlZiBub3JtYWxpemVMYWJlbChsYWJlbDogTGFiZWwpOiBMYWJlbCA9IGxhYmVsIG1hdGNoIHsKICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgIGNhc2Ugb3RoZXIgPT4gb3RoZXIKICAgICAgfQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -547,17 +545,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">bWF0Y2ggewogICAgICAgICAgICAgICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgICAgICAgICAgICAgY2FzZSBsYWJlbCA9PiBsYWJlbAogICAgICAgICAgICAgICAgICB9</text>
+        <text encoding="base64">ZGVmIG5vcm1hbGl6ZUxhYmVsKGxhYmVsOiBMYWJlbCk6IExhYmVsID0gbGFiZWwgbWF0Y2ggewogICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgY2FzZSBvdGhlciA9PiBvdGhlcgogICAgICB9CiAgICAgIA==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ZW50aXRpZXMuaGVhZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIF86IE5vZGVBc3QgPT4gTm9uZQogICAgICAgICAgY2FzZSBfID0+IFNvbWUoQ29tcGlsZXJGYWlsdXJlKCJTdGVwIG5vZGVzIG11c3QgaGF2ZSBwcmVjaXNlbHkgb25lIGxpdGVyYWwiLCBpbnB1dC5nZXQsIG5vZGVBU1Qua2luZC5wb3MpKSAgIAogICAgICAgIH0=</text>
+        <text encoding="base64">IG1hdGNoIHsKICAgICAgICAgICAgICAgICAgICBjYXNlIFNvbWUoIkRhdGEiKSB8IFNvbWUoIlN0ZXAiKSB8IFNvbWUoIkFjdG9yIikgfCBTb21lKCJXcmFwcGVyIikgPT4gTm9uZQogICAgICAgICAgICAgICAgICAgIGNhc2UgbGFiZWwgPT4gbGFiZWwKICAgICAgICAgICAgICAgICAgfQ==</text>
       </register>
       <register name="8" type="4">
-        <text>// create actual edge
-    assert(edge.kind != Arrow.Kind.Indirect, &quot;Indirect edges are not supported in the graph verification compiler.&quot;)</text>
+        <text encoding="base64">bWF0Y2ggewogICAgICAgICAgICAgICAgICAgIGNhc2UgU29tZSgiRGF0YSIpIHwgU29tZSgiU3RlcCIpIHwgU29tZSgiQWN0b3IiKSB8IFNvbWUoIldyYXBwZXIiKSA9PiBOb25lCiAgICAgICAgICAgICAgICAgICAgY2FzZSBsYWJlbCA9PiBsYWJlbAogICAgICAgICAgICAgICAgICB9</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ZGVmIGdldEVkZ2VMYWJlbChlZGdlOiBUb2tlbi5FREdFLCBsYWJlbDogT3B0aW9uW1Rva2VuLkxBQkVMXSk6IExhYmVsID0gewogICAgICAvLyB2ZXJpZnkgZWRnZSBsYWJlbGluZwogICAgICAoZWRnZS5hbm5vdGF0aW9uLm5vbkVtcHR5LCBsYWJlbC5ub25FbXB0eSkgbWF0Y2ggewogICAgICAgIGNhc2UgKHRydWUsIHRydWUpID0+CiAgICAgICAgICB2YWwgY29udmVydGVkQW5ub3RhdGlvbiA9IGVkZ2UuYW5ub3RhdGlvbi5tYXAoRGVwS2luZC50b05hbWUpCiAgICAgICAgICBpZiAoY29udmVydGVkQW5ub3RhdGlvbiAhPSBsYWJlbC5tYXAoXy52YWx1ZSkpCiAgICAgICAgICAgIHRocm93IENvbXBpbGVyRXJyb3IocyJUaGUgZWRnZSBsYWJlbCBpcyBpbmNvbnNpc3RlbnQgd2l0aCB0aGUgYW5ub3RhdGlvbi4gVGhlIGxhYmVsIGNhbiBiZSByZW1vdmVkLCBidXQgYXQgbGVhc3QgaGFzIHRvIGJlIGVxdWFsIHRvOiAnJHtjb252ZXJ0ZWRBbm5vdGF0aW9uLmdldH0nIikKCiAgICAgICAgICBsYWJlbC5tYXAoXy52YWx1ZSkKCiAgICAgICAgY2FzZSAodHJ1ZSwgZmFsc2UpID0+IGVkZ2UuYW5ub3RhdGlvbi5tYXAoRGVwS2luZC50b05hbWUpCiAgICAgICAgY2FzZSAoZmFsc2UsIHRydWUpID0+IGxhYmVsLm1hcChfLnZhbHVlKQogICAgICAgIGNhc2UgXyA9PiBOb25lCiAgICAgIH0KICAgIH0=</text>
+        <text encoding="base64">ZW50aXRpZXMuaGVhZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIF86IE5vZGVBc3QgPT4gTm9uZQogICAgICAgICAgY2FzZSBfID0+IFNvbWUoQ29tcGlsZXJGYWlsdXJlKCJTdGVwIG5vZGVzIG11c3QgaGF2ZSBwcmVjaXNlbHkgb25lIGxpdGVyYWwiLCBpbnB1dC5nZXQsIG5vZGVBU1Qua2luZC5wb3MpKSAgIAogICAgICAgIH0=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
