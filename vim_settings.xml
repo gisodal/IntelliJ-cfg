@@ -346,11 +346,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569316719346">
-        <mark key="[" line="93" column="3" />
-        <mark key="]" line="93" column="0" />
-        <mark key="^" line="94" column="3" />
-        <mark key="." line="93" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569318276625">
+        <mark key="[" line="106" column="14" />
+        <mark key="]" line="106" column="19" />
+        <mark key="^" line="106" column="19" />
+        <mark key="." line="106" column="19" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -507,16 +507,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIHRoaXNUb1RoYXQgPSB0aGlzTm9kZXMubWFwIHsgdGhpc05vZGUgPT4KICAgICAgdmFsIGNvZGUgPSB0aGlzTm9kZS50b0NvZGVMaW5lcwogICAgICB2YWwgbWFwTm9kZXMgPSBjb2RlVG9UaGF0Tm9kZXMuZ2V0T3JFbHNlKGNvZGUsIHsKICAgICAgICAvLyBmaW5kIHBvc3NpYmxlIG1hcHBpbmcgdG8gc3VnZ2VzdAoKICAgICAgICBkZWYgY3JlYXRlTXNnOiBTdHJpbmcgPSB7CiAgICAgICAgICB2YWwgY29kZUxpbmVzID0gY29kZS5zcGxpdCgiXG4iKS5tYXAoXy50cmltKCkpCiAgICAgICAgICB2YWwgcG9zc2libGVNYXRjaGVzID0gY29kZVRvVGhhdE5vZGVzLmZpbHRlcihtID0+IGNvZGVMaW5lcy5mb3JhbGwobGluZSA9PiBtLl8xLmNvbnRhaW5zKGxpbmUpKSkuZmxhdE1hcChfLl8yKS50b1NldAoKICAgICAgICAgIHMiQ291bGQgbm90IG1hdGNoIGxhYmVsZWQgbm9kZTpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgICBzIiAgICBQb3NzaWJsZSBtYXRjaGluZyBjYW5kaWRhdGUocyk6XG4iICsgewogICAgICAgICAgICBpZiAocG9zc2libGVNYXRjaGVzLm5vbkVtcHR5KQogICAgICAgICAgICAgIHBvc3NpYmxlTWF0Y2hlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRocm93IFRlc3RGYWlsdXJlKGNyZWF0ZU1zZykKICAgICAgfSkKICAgICAgdGhpc05vZGUgLT4gbWFwTm9kZXMudG9MaXN0CiAgICB9LnRvTWFwCg==</text>
+        <text encoding="base64">LnNwbGl0KCJcbiIpLm1hcChfLnRyaW0oKSkudG9MaXN0ICAg</text>
       </register>
       <register name="-" type="4">
-        <text>private type Label = Graph.Edge.Label</text>
+        <text encoding="base64">LnNwbGl0KCJcbiIpLm1hcChfLnRyaW0oKSkudG9MaXN0ICAg</text>
       </register>
       <register name="/" type="4">
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIHRoaXNUb1RoYXQgPSB0aGlzTm9kZXMubWFwIHsgdGhpc05vZGUgPT4KICAgICAgdmFsIGNvZGUgPSB0aGlzTm9kZS50b0NvZGVMaW5lcwogICAgICB2YWwgbWFwTm9kZXMgPSBjb2RlVG9UaGF0Tm9kZXMuZ2V0T3JFbHNlKGNvZGUsIHsKICAgICAgICAvLyBmaW5kIHBvc3NpYmxlIG1hcHBpbmcgdG8gc3VnZ2VzdAoKICAgICAgICBkZWYgY3JlYXRlTXNnOiBTdHJpbmcgPSB7CiAgICAgICAgICB2YWwgY29kZUxpbmVzID0gY29kZS5zcGxpdCgiXG4iKS5tYXAoXy50cmltKCkpCiAgICAgICAgICB2YWwgcG9zc2libGVNYXRjaGVzID0gY29kZVRvVGhhdE5vZGVzLmZpbHRlcihtID0+IGNvZGVMaW5lcy5mb3JhbGwobGluZSA9PiBtLl8xLmNvbnRhaW5zKGxpbmUpKSkuZmxhdE1hcChfLl8yKS50b1NldAoKICAgICAgICAgIHMiQ291bGQgbm90IG1hdGNoIGxhYmVsZWQgbm9kZTpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgICBzIiAgICBQb3NzaWJsZSBtYXRjaGluZyBjYW5kaWRhdGUocyk6XG4iICsgewogICAgICAgICAgICBpZiAocG9zc2libGVNYXRjaGVzLm5vbkVtcHR5KQogICAgICAgICAgICAgIHBvc3NpYmxlTWF0Y2hlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuIikKICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRocm93IFRlc3RGYWlsdXJlKGNyZWF0ZU1zZykKICAgICAgfSkKICAgICAgdGhpc05vZGUgLT4gbWFwTm9kZXMudG9MaXN0CiAgICB9LnRvTWFwCg==</text>
+        <text>.split(&quot;\n&quot;).map(_.trim()).toList</text>
       </register>
       <register name="1" type="4">
         <text>val allThisNodes = thisGraph.graph.nodes.toSet.asInstanceOf[Set[NodeT]]
