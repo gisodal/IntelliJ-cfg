@@ -297,7 +297,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1569230422358">
+      <file name="/sbtShell" timestamp="1569313021801">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -345,6 +345,12 @@
         <mark key="]" line="41" column="66" />
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569313903361">
+        <mark key="[" line="63" column="10" />
+        <mark key="]" line="63" column="9" />
+        <mark key="^" line="63" column="9" />
+        <mark key="." line="63" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
