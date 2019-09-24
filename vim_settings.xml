@@ -125,12 +125,12 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569087760059">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569330127451">
         <mark key="'" line="5138" column="2" />
-        <mark key="[" line="6023" column="14" />
-        <mark key="]" line="6008" column="17" />
-        <mark key="." line="6008" column="17" />
-        <mark key="^" line="6008" column="17" />
+        <mark key="[" line="6049" column="0" />
+        <mark key="]" line="6049" column="0" />
+        <mark key="^" line="6032" column="11" />
+        <mark key="." line="6049" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1568304437145">
         <mark key="[" line="27" column="22" />
@@ -228,7 +228,7 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1569087005033">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" timestamp="1569330280661">
         <mark key="'" line="303" column="14" />
         <mark key="[" line="38" column="79" />
         <mark key="]" line="38" column="79" />
@@ -352,12 +352,12 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569329957458">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569330990559">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="332" column="0" />
-        <mark key="]" line="332" column="0" />
-        <mark key="." line="332" column="0" />
-        <mark key="^" line="332" column="3" />
+        <mark key="[" line="302" column="3" />
+        <mark key="]" line="302" column="19" />
+        <mark key="." line="302" column="3" />
+        <mark key="^" line="303" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -514,7 +514,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.filterKeys(!commonLabels.contains)</text>
+        <text>, exact: Boolean</text>
       </register>
       <register name="-" type="4">
         <text>.filterKeys(!commonLabels.contains)</text>
@@ -523,7 +523,7 @@
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">LmZpbHRlcktleXMoa2V5ID0+ICFjb21tb25MYWJlbHMuY29udGFpbnMoa2V5KSk=</text>
+        <text>, exact: Boolean</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8gVE9ETzogbm90IGFsbCBtYXBwaW5ncyBhcmUgZ3VhcmFudGVlZCB0byBiZSBwZXJmZWN0LiBUaGVyZSBzdGlsbCBtaWdodCBiZSB0aGlzTm9kZXMKICAgICAgLy8gdGhhdCBhcmUgbWFwcGVkIHRvIG11bHRpcGxlIHRoYXROb2Rlcy4gVGhpcyBjYW4gYmUgc29sdmVkIGJ5IGNvbWJpbmF0b3JpYWwgb3B0aW1pemF0aW9uLgo=</text>
