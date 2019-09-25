@@ -15,10 +15,10 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1569324440413">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1569404470887">
         <mark key="'" line="254" column="5" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="58" />
+        <mark key="[" line="171" column="6" />
+        <mark key="]" line="171" column="25" />
         <mark key="^" line="254" column="5" />
         <mark key="." line="2" column="0" />
       </file>
@@ -174,11 +174,11 @@
         <mark key="^" line="7" column="42" />
         <mark key="." line="7" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569404248324">
-        <mark key="[" line="70" column="19" />
-        <mark key="]" line="70" column="26" />
-        <mark key="." line="70" column="26" />
-        <mark key="^" line="70" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569404303033">
+        <mark key="[" line="71" column="21" />
+        <mark key="]" line="71" column="25" />
+        <mark key="." line="71" column="25" />
+        <mark key="^" line="71" column="25" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1569080495251">
         <mark key="[" line="18" column="13" />
@@ -352,11 +352,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569403911655">
-        <mark key="[" line="227" column="89" />
-        <mark key="]" line="227" column="104" />
-        <mark key="^" line="227" column="104" />
-        <mark key="." line="227" column="104" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569405268262">
+        <mark key="[" line="225" column="0" />
+        <mark key="]" line="225" column="0" />
+        <mark key="^" line="237" column="13" />
+        <mark key="." line="225" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -513,44 +513,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>type Edge = GEdge[Node]
-  object Edge {
-    type Label = Option[String]
-    object Label {
-      def apply(label: String): Label = Option.apply[String](label)
-      def apply(branch: Boolean): Label = Option.apply[String](branch.toString)
-      val True:  Label = Some(&quot;true&quot;)
-      val False: Label = Some(&quot;false&quot;)
-    }
-
-    def apply(source: Node, target: Node, label: Label): Edge = GEdge(source, target, label)
-    def apply(source: Node, target: Graph#NodeT, label: Label): Edge = apply(source, target.toOuter, label)
-    def apply(source: Graph#NodeT, target: Node, label: Label): Edge = apply(source.toOuter, target, label)
-    def apply(source: Graph#NodeT, target: Graph#NodeT, label: Label): Edge = apply(source.toOuter, target.toOuter, label)
-  }</text>
+        <text>verifyNoUnmappedLocal(thisNode, thatNodes, filtered)</text>
       </register>
       <register name="-" type="4">
-        <text>???</text>
+        <text>.map(_.label)</text>
       </register>
       <register name="/" type="4">
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>type Edge = GEdge[Node]
-  object Edge {
-    type Label = Option[String]
-    object Label {
-      def apply(label: String): Label = Option.apply[String](label)
-      def apply(branch: Boolean): Label = Option.apply[String](branch.toString)
-      val True:  Label = Some(&quot;true&quot;)
-      val False: Label = Some(&quot;false&quot;)
-    }
-
-    def apply(source: Node, target: Node, label: Label): Edge = GEdge(source, target, label)
-    def apply(source: Node, target: Graph#NodeT, label: Label): Edge = apply(source, target.toOuter, label)
-    def apply(source: Graph#NodeT, target: Node, label: Label): Edge = apply(source.toOuter, target, label)
-    def apply(source: Graph#NodeT, target: Graph#NodeT, label: Label): Edge = apply(source.toOuter, target.toOuter, label)
-  }</text>
+        <text>verifyNoUnmappedLocal(thisNode, thatNodes, filtered)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIG1hdGNoZWRJbmNvbWluZyA9IHRoaXNOb2RlLmluY29taW5nLmZpbHRlcihlZGdlID0+IG1hcHBpbmcuZ2V0KGVkZ2UuZnJvbSkuZXhpc3RzKF8uc2l6ZSA9PSAxKSkKICAgIHZhbCBtYXRjaGVkT3V0Z29pbmcgPSB0aGlzTm9kZS5vdXRnb2luZy5maWx0ZXIoZWRnZSA9PiBtYXBwaW5nLmdldChlZGdlLnRvKS5leGlzdHMoXy5zaXplID09IDEpKQog</text>
