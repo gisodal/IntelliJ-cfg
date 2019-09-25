@@ -192,11 +192,11 @@
         <mark key="." line="2" column="14" />
         <mark key="^" line="2" column="14" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1569406348708">
-        <mark key="[" line="92" column="0" />
-        <mark key="]" line="92" column="0" />
-        <mark key="." line="92" column="0" />
-        <mark key="^" line="2" column="32" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1569412759914">
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="0" />
+        <mark key="^" line="74" column="19" />
+        <mark key="." line="74" column="0" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -414,6 +414,10 @@
         <mark key="^" line="117" column="18" />
         <mark key="." line="117" column="18" />
       </file>
+      <file name="$USER_HOME$/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.9.0-sources.jar!/com/typesafe/scalalogging/Logging.scala" timestamp="1569412742217">
+        <mark key="[" line="37" column="2" />
+        <mark key="]" line="38" column="52" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="5" column="0" />
@@ -535,7 +539,8 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>filterByAlreadyMatched</text>
+        <text>protected val logger: Logger =
+    Logger(LoggerFactory.getLogger(getClass.getName))</text>
       </register>
       <register name="-" type="4">
         <text>def filterByAlreadyMatched(mapping: Mapping): Mapping = {</text>
@@ -544,7 +549,8 @@
         <text>matching</text>
       </register>
       <register name="0" type="4">
-        <text>filterByAlreadyMatched</text>
+        <text>protected val logger: Logger =
+    Logger(LoggerFactory.getLogger(getClass.getName))</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8ga2VlcCByZS1hcHBseWluZyB0aGUgZmlsdGVyIGZvciBhcyBsb25nIGFzIGl0IGhhcyBlZmZlY3QKICAgIGZpbHRlcmVkTWFwcGluZyBtYXRjaCB7CiAgICAgIGNhc2UgYG1hcHBpbmdgID0+IG1hcHBpbmcKICAgICAgY2FzZSBmaWx0ZXJlZCAgPT4gZmlsdGVyQnlDb25uZWN0aXZpdHkoZmlsdGVyZWQpCiAgICB9</text>
