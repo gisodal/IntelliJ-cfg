@@ -352,11 +352,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569400143345">
-        <mark key="[" line="196" column="51" />
-        <mark key="]" line="196" column="51" />
-        <mark key="^" line="203" column="89" />
-        <mark key="." line="196" column="51" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569401412053">
+        <mark key="[" line="223" column="0" />
+        <mark key="]" line="223" column="0" />
+        <mark key="^" line="219" column="52" />
+        <mark key="." line="223" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -513,7 +513,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val filtered = g</text>
+        <text>val filtered = getMatchingNodes(mapping, thisNode, thatNodes)</text>
       </register>
       <register name="-" type="4">
         <text>???</text>
@@ -522,23 +522,23 @@
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>val filtered = g</text>
+        <text>val filtered = getMatchingNodes(mapping, thisNode, thatNodes)</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ZGVmIG1hdGNoaW5nTGFiZWwodGhpc0VkZ2U6IEVkZ2VULCB0aGF0RWRnZTogRWRnZVQpOiBCb29sZWFuID0gewogICAgICAgICAgICAgIHZhbCB0aGlzTGFiZWw6IExhYmVsID0gdGhpc0VkZ2UudG9PdXRlci5sYWJlbC5hc0luc3RhbmNlT2ZbTGFiZWxdCiAgICAgICAgICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgICAgICAgICAgdGhpc0xhYmVsID09IHRoYXRMYWJlbAogICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">Ly8gZ2V0IHRoaXNOb2RlcyBmb3Igd2hpY2ggYW4gZXhhY3QgbWF0Y2ggaGFzIGFscmVhZHkgYmVlbiBlc3RhYmxpc2hlZAogICAgICAgIHZhbCBtYXRjaGVkSW5jb21pbmcgPSB0aGlzTm9kZS5pbmNvbWluZy5maWx0ZXIoZWRnZSA9PiBtYXBwaW5nLmdldChlZGdlLmZyb20pLmV4aXN0cyhfLnNpemUgPT0gMSkpCiAgICAgICAgdmFsIG1hdGNoZWRPdXRnb2luZyA9IHRoaXNOb2RlLm91dGdvaW5nLmZpbHRlcihlZGdlID0+IG1hcHBpbmcuZ2V0KGVkZ2UudG8pLmV4aXN0cyhfLnNpemUgPT0gMSkpCgogICAgICAgIC8vIGZpbHRlciB0aGF0Tm9kZXMgYmFzZWQgb24gY29ubmVjdGl2aXR5LCBnaXZlbiBhbHJlYWR5IGVzdGFibGlzaGVkIGV4YWN0IG1hdGNoZXMKICAgICAgICB2YWwgZmlsdGVyZWQgPSB0aGF0Tm9kZXMuZmlsdGVyIHsgdGhhdE5vZGUgPT4KICAgICAgICAgIHZhbCBoYXNFcXVhbEluY29taW5nOiBCb29sZWFuID0gbWF0Y2hlZEluY29taW5nLmZvcmFsbCh0aGlzRWRnZSA9PgogICAgICAgICAgICB0aGF0Tm9kZS5pbmNvbWluZy5leGlzdHModGhhdEVkZ2UgPT4gdGhhdEVkZ2UuZnJvbSA9PSBtYXBwaW5nKHRoaXNFZGdlLmZyb20pLmhlYWQgKSkKCiAgICAgICAgICB2YWwgaGFzRXF1YWxPdXRnb2luZzogQm9vbGVhbiA9IG1hdGNoZWRPdXRnb2luZy5mb3JhbGwodGhpc0VkZ2UgPT4KICAgICAgICAgICAgdGhhdE5vZGUub3V0Z29pbmcuZXhpc3RzKHRoYXRFZGdlID0+IHRoYXRFZGdlLnRvID09IG1hcHBpbmcodGhpc0VkZ2UudG8pLmhlYWQpKQoKICAgICAgICAgIGhhc0VxdWFsSW5jb21pbmcgJiYgaGFzRXF1YWxPdXRnb2luZwogICAgICAgIH0=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">CiAgICAgIHZhbCBmaWx0ZXJlZCA9IHRoYXROb2Rlcy5maWx0ZXIodGhhdE5vZGUgPT4K</text>
+      <register name="2" type="4">
+        <text encoding="base64">cHJpdmF0ZSBkZWYgZmlsdGVyQnlFZGdlTGFiZWwobWFwcGluZzogTWFwcGluZywgZXhhY3Q6IEJvb2xlYW4pOiBNYXBwaW5nID0gewoKICAgIGRlZiBtYXRjaGluZ0xhYmVsKHRoaXNFZGdlOiBFZGdlVCwgdGhhdEVkZ2U6IEVkZ2VUKTogQm9vbGVhbiA9IHsKICAgICAgdmFsIHRoaXNMYWJlbDogTGFiZWwgPSB0aGlzRWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgIHRoaXNMYWJlbCA9PSB0aGF0TGFiZWwKICAgIH0KICAgID8/PwogIH0K</text>
       </register>
       <register name="3" type="4">
-        <text>// TODO: not all mappings are guaranteed to be perfect. There still might be thisNodes
-      // that are mapped to multiple thatNodes. This can be solved by combinatorial optimization.</text>
+        <text encoding="base64">ZGVmIG1hdGNoaW5nTGFiZWwodGhpc0VkZ2U6IEVkZ2VULCB0aGF0RWRnZTogRWRnZVQpOiBCb29sZWFuID0gewogICAgICAgICAgICAgIHZhbCB0aGlzTGFiZWw6IExhYmVsID0gdGhpc0VkZ2UudG9PdXRlci5sYWJlbC5hc0luc3RhbmNlT2ZbTGFiZWxdCiAgICAgICAgICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgICAgICAgICAgdGhpc0xhYmVsID09IHRoYXRMYWJlbAogICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">aWYgKG1hcHBpbmcuZXhpc3RzKF8uXzIuc2l6ZSA+IDEpKSB7CiAgICAgIHZhbCBtc2cgPSBtYXBwaW5nLmNvbGxlY3QgeyBjYXNlICh0aGlzTm9kZSwgdGhhdE5vZGVzKSBpZiB0aGF0Tm9kZXMuc2l6ZSA+IDEgPT4KICAgICAgICBzIlRoZSBmb2xsb3dpbmcgbm9kZSBzdGlsbCBoYXMgbXVsdGlwbGUgbWF0Y2hpbmcgY2FuZGlkYXRlczpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgcyIgICAgJHt0aGF0Tm9kZXMuc2l6ZX0gcG9zc2libGUgbWF0Y2hpbmcgY2FuZGlkYXRlKHMpOlxuIiArCiAgICAgICAgICB0aGF0Tm9kZXMubWFwKF8ucHJldHR5KDIpKS5ta1N0cmluZygiIiwgIlxuXG4iLCAiXG4iKQogICAgICB9Lm1rU3RyaW5nKCJcbiIpCgogICAgICAvLyBUT0RPOiBub3QgYWxsIG1hcHBpbmdzIGFyZSBndWFyYW50ZWVkIHRvIGJlIHBlcmZlY3QuIFRoZXJlIHN0aWxsIG1pZ2h0IGJlIHRoaXNOb2RlcwogICAgICAvLyB0aGF0IGFyZSBtYXBwZWQgdG8gbXVsdGlwbGUgdGhhdE5vZGVzLiBUaGlzIGNhbiBiZSBzb2x2ZWQgYnkgY29tYmluYXRvcmlhbCBvcHRpbWl6YXRpb24uCgogICAgICBsb2dnZXIud2Fybihtc2cpCiAgICB9</text>
+      <register name="4" type="2">
+        <text encoding="base64">CiAgICAgIHZhbCBmaWx0ZXJlZCA9IHRoYXROb2Rlcy5maWx0ZXIodGhhdE5vZGUgPT4K</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ZGVmIG1hdGNoZXMgKHRoaXNEZWdyZWU6IEludCwgdGhhdERlZ3JlZTogSW50KTogQm9vbGVhbiA9IHsKICAgICAgICAgIGlmIChleGFjdCkKICAgICAgICAgICAgdGhpc0RlZ3JlZSA9PSB0aGF0RGVncmVlCiAgICAgICAgICBlbHNlIAogICAgICAgICAgICB0aGlzRGVncmVlIDw9IHRoYXREZWdyZWUKICAgICAgICB9</text>
+        <text>// TODO: not all mappings are guaranteed to be perfect. There still might be thisNodes
+      // that are mapped to multiple thatNodes. This can be solved by combinatorial optimization.</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -551,20 +551,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">Ly8gVE9ETzogbm90IGFsbCBtYXBwaW5ncyBhcmUgZ3VhcmFudGVlZCB0byBiZSBwZXJmZWN0LiBUaGVyZSBzdGlsbCBtaWdodCBiZSB0aGlzTm9kZXMKICAgICAgLy8gdGhhdCBhcmUgbWFwcGVkIHRvIG11bHRpcGxlIHRoYXROb2Rlcy4gVGhpcyBjYW4gYmUgc29sdmVkIGJ5IGNvbWJpbmF0b3JpYWwgb3B0aW1pemF0aW9uLgo=</text>
+        <text encoding="base64">aWYgKG1hcHBpbmcuZXhpc3RzKF8uXzIuc2l6ZSA+IDEpKSB7CiAgICAgIHZhbCBtc2cgPSBtYXBwaW5nLmNvbGxlY3QgeyBjYXNlICh0aGlzTm9kZSwgdGhhdE5vZGVzKSBpZiB0aGF0Tm9kZXMuc2l6ZSA+IDEgPT4KICAgICAgICBzIlRoZSBmb2xsb3dpbmcgbm9kZSBzdGlsbCBoYXMgbXVsdGlwbGUgbWF0Y2hpbmcgY2FuZGlkYXRlczpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgcyIgICAgJHt0aGF0Tm9kZXMuc2l6ZX0gcG9zc2libGUgbWF0Y2hpbmcgY2FuZGlkYXRlKHMpOlxuIiArCiAgICAgICAgICB0aGF0Tm9kZXMubWFwKF8ucHJldHR5KDIpKS5ta1N0cmluZygiIiwgIlxuXG4iLCAiXG4iKQogICAgICB9Lm1rU3RyaW5nKCJcbiIpCgogICAgICAvLyBUT0RPOiBub3QgYWxsIG1hcHBpbmdzIGFyZSBndWFyYW50ZWVkIHRvIGJlIHBlcmZlY3QuIFRoZXJlIHN0aWxsIG1pZ2h0IGJlIHRoaXNOb2RlcwogICAgICAvLyB0aGF0IGFyZSBtYXBwZWQgdG8gbXVsdGlwbGUgdGhhdE5vZGVzLiBUaGlzIGNhbiBiZSBzb2x2ZWQgYnkgY29tYmluYXRvcmlhbCBvcHRpbWl6YXRpb24uCgogICAgICBsb2dnZXIud2Fybihtc2cpCiAgICB9</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgVGVzdEZhaWx1cmUocyJFeHBlY3RlZCAke3RoaXNFZGdlcy5zaXplfSBlZGdlcyBsYWJlbGVkIGJ5ICRsYWJlbCwgYnV0IGZvdW5kIHplcm8iKQo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">ZGVmIG1hdGNoZXMgKHRoaXNEZWdyZWU6IEludCwgdGhhdERlZ3JlZTogSW50KTogQm9vbGVhbiA9IHsKICAgICAgICAgIGlmIChleGFjdCkKICAgICAgICAgICAgdGhpc0RlZ3JlZSA9PSB0aGF0RGVncmVlCiAgICAgICAgICBlbHNlIAogICAgICAgICAgICB0aGlzRGVncmVlIDw9IHRoYXREZWdyZWUKICAgICAgICB9</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ZGVmIGlzSXNvbW9ycGhpY1RvKGdyYXBoOiBHcmFwaCk6IEJvb2xlYW4gPQogICAgdHJ5SXNvbW9ycGhpY1RvKGdyYXBoKS5pc1N1Y2Nlc3MKCiAgZGVmIHRyeUlzb21vcnBoaWNUbyh0ZXN0OiBHcmFwaCk6IFRyeVtVbml0XSA9IFRyeSB7CiAgICB2ZXJpZnlJc29tb3JwaGlzbSh0ZXN0KQogIH0K</text>
+        <text encoding="base64">Ly8gVE9ETzogbm90IGFsbCBtYXBwaW5ncyBhcmUgZ3VhcmFudGVlZCB0byBiZSBwZXJmZWN0LiBUaGVyZSBzdGlsbCBtaWdodCBiZSB0aGlzTm9kZXMKICAgICAgLy8gdGhhdCBhcmUgbWFwcGVkIHRvIG11bHRpcGxlIHRoYXROb2Rlcy4gVGhpcyBjYW4gYmUgc29sdmVkIGJ5IGNvbWJpbmF0b3JpYWwgb3B0aW1pemF0aW9uLgo=</text>
       </register>
-      <register name="9" type="4">
-        <text>// final verification check
-    verifyNoEmptyTransformation(finalMapping)
-    verifyNoUnmapped(graph, finalMapping)
-    hasEqualProperties(graph)
-    verifyPerfectMapping(graph, finalMapping)</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBjYXNlIE5vbmUgPT4gdGhyb3cgVGVzdEZhaWx1cmUocyJFeHBlY3RlZCAke3RoaXNFZGdlcy5zaXplfSBlZGdlcyBsYWJlbGVkIGJ5ICRsYWJlbCwgYnV0IGZvdW5kIHplcm8iKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
