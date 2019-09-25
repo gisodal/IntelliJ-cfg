@@ -352,11 +352,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569405268262">
-        <mark key="[" line="225" column="0" />
-        <mark key="]" line="225" column="0" />
-        <mark key="^" line="237" column="13" />
-        <mark key="." line="225" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569405629895">
+        <mark key="[" line="297" column="5" />
+        <mark key="]" line="297" column="5" />
+        <mark key="^" line="297" column="5" />
+        <mark key="." line="297" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -513,7 +513,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>verifyNoUnmappedLocal(thisNode, thatNodes, filtered)</text>
+        <text>.andThen(filterByConnectivity)</text>
       </register>
       <register name="-" type="4">
         <text>.map(_.label)</text>
@@ -522,7 +522,7 @@
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>verifyNoUnmappedLocal(thisNode, thatNodes, filtered)</text>
+        <text>.andThen(filterByConnectivity)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIG1hdGNoZWRJbmNvbWluZyA9IHRoaXNOb2RlLmluY29taW5nLmZpbHRlcihlZGdlID0+IG1hcHBpbmcuZ2V0KGVkZ2UuZnJvbSkuZXhpc3RzKF8uc2l6ZSA9PSAxKSkKICAgIHZhbCBtYXRjaGVkT3V0Z29pbmcgPSB0aGlzTm9kZS5vdXRnb2luZy5maWx0ZXIoZWRnZSA9PiBtYXBwaW5nLmdldChlZGdlLnRvKS5leGlzdHMoXy5zaXplID09IDEpKQog</text>
