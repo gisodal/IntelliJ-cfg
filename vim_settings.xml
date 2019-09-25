@@ -352,11 +352,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569399122325">
-        <mark key="[" line="161" column="27" />
-        <mark key="]" line="205" column="30" />
-        <mark key="^" line="195" column="3" />
-        <mark key="." line="205" column="30" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569400143345">
+        <mark key="[" line="196" column="51" />
+        <mark key="]" line="196" column="51" />
+        <mark key="^" line="203" column="89" />
+        <mark key="." line="196" column="51" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -513,7 +513,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>???</text>
+        <text>val filtered = g</text>
       </register>
       <register name="-" type="4">
         <text>???</text>
@@ -522,7 +522,7 @@
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>thatEdge.to == mapping(thisEdge.to).head</text>
+        <text>val filtered = g</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIG1hdGNoaW5nTGFiZWwodGhpc0VkZ2U6IEVkZ2VULCB0aGF0RWRnZTogRWRnZVQpOiBCb29sZWFuID0gewogICAgICAgICAgICAgIHZhbCB0aGlzTGFiZWw6IExhYmVsID0gdGhpc0VkZ2UudG9PdXRlci5sYWJlbC5hc0luc3RhbmNlT2ZbTGFiZWxdCiAgICAgICAgICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgICAgICAgICAgdGhpc0xhYmVsID09IHRoYXRMYWJlbAogICAgICAgICAgICB9Cg==</text>
