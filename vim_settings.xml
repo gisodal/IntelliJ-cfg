@@ -82,12 +82,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1569410464692">
-        <mark key="'" line="293" column="68" />
-        <mark key="[" line="7" column="34" />
-        <mark key="]" line="7" column="32" />
-        <mark key="^" line="7" column="32" />
-        <mark key="." line="7" column="32" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1569417906506">
+        <mark key="'" line="141" column="6" />
+        <mark key="[" line="78" column="0" />
+        <mark key="]" line="78" column="0" />
+        <mark key="^" line="141" column="35" />
+        <mark key="." line="78" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1568633768709">
         <mark key="[" line="25" column="23" />
@@ -131,9 +131,9 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569410404587">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569417660810">
         <mark key="'" line="5138" column="2" />
-        <mark key="[" line="6048" column="23" />
+        <mark key="[" line="6048" column="59" />
         <mark key="]" line="6048" column="58" />
         <mark key="^" line="6048" column="23" />
         <mark key="." line="6048" column="23" />
@@ -185,6 +185,13 @@
         <mark key="]" line="72" column="35" />
         <mark key="." line="72" column="35" />
         <mark key="^" line="72" column="35" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1569417550423">
+        <mark key="'" line="103" column="10" />
+        <mark key="[" line="81" column="8" />
+        <mark key="]" line="81" column="19" />
+        <mark key="^" line="81" column="28" />
+        <mark key="." line="81" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -239,6 +246,12 @@
         <mark key="]" line="46" column="119" />
         <mark key="^" line="46" column="124" />
         <mark key="." line="46" column="119" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1569418148042">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="293" column="0" />
+        <mark key="]" line="293" column="0" />
+        <mark key="." line="293" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1569407383976">
         <mark key="[" line="5" column="51" />
@@ -400,8 +413,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="317" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
-      <jump line="504" column="31" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" />
       <jump line="38" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" />
       <jump line="17" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" />
       <jump line="18" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
@@ -500,19 +511,21 @@
       <jump line="114" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="184" column="41" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="191" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
+      <jump line="101" column="10" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" />
+      <jump line="142" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIG5vdEdyb3VwOiBQYXJzZXJbR3JhcGhBc3RdID0gTk9UKCkgfiBncmFwaCBeXiB7CiAgICAKICB9CiAg</text>
+        <text encoding="base64">J0V2YWwgdGhlIGZpcnN0IEVBUy5hdHRyMSA+IDAnIC0+IHgxIC0+KHRydWUpIGIxIC0+IHgy</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">b3B0KE5PVCgpKSB+PiEg</text>
+        <text encoding="base64">bm90R3JvdXAgfCA=</text>
       </register>
       <register name="/" type="4">
         <text>matching</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIG5vdEdyb3VwOiBQYXJzZXJbR3JhcGhBc3RdID0gTk9UKCkgfiBncmFwaCBeXiB7CiAgICAKICB9CiAg</text>
+        <text encoding="base64">J0V2YWwgdGhlIGZpcnN0IEVBUy5hdHRyMSA+IDAnIC0+IHgxIC0+KHRydWUpIGIxIC0+IHgy</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8ga2VlcCByZS1hcHBseWluZyB0aGUgZmlsdGVyIGZvciBhcyBsb25nIGFzIGl0IGhhcyBlZmZlY3QKICAgIGZpbHRlcmVkTWFwcGluZyBtYXRjaCB7CiAgICAgIGNhc2UgYG1hcHBpbmdgID0+IG1hcHBpbmcKICAgICAgY2FzZSBmaWx0ZXJlZCAgPT4gZmlsdGVyQnlDb25uZWN0aXZpdHkoZmlsdGVyZWQpCiAgICB9</text>
