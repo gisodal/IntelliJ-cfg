@@ -303,7 +303,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1569339302644">
+      <file name="/sbtShell" timestamp="1569399074226">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -352,11 +352,11 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569340117590">
-        <mark key="[" line="204" column="30" />
-        <mark key="]" line="204" column="30" />
-        <mark key="^" line="194" column="3" />
-        <mark key="." line="204" column="30" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569399122325">
+        <mark key="[" line="161" column="27" />
+        <mark key="]" line="205" column="30" />
+        <mark key="^" line="195" column="3" />
+        <mark key="." line="205" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
