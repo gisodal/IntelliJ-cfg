@@ -64,11 +64,11 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1568714603009">
-        <mark key="[" line="562" column="69" />
-        <mark key="]" line="562" column="15" />
-        <mark key="^" line="562" column="15" />
-        <mark key="." line="562" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1569407430825">
+        <mark key="[" line="132" column="122" />
+        <mark key="]" line="132" column="137" />
+        <mark key="^" line="132" column="137" />
+        <mark key="." line="132" column="137" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
@@ -174,11 +174,11 @@
         <mark key="^" line="7" column="42" />
         <mark key="." line="7" column="42" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569406521404">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-        <mark key="^" line="70" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569407651367">
+        <mark key="[" line="72" column="19" />
+        <mark key="]" line="72" column="35" />
+        <mark key="." line="72" column="35" />
+        <mark key="^" line="72" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1569080495251">
         <mark key="[" line="18" column="13" />
@@ -261,6 +261,12 @@
         <mark key="^" line="36" column="75" />
         <mark key="." line="36" column="75" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1569407383976">
+        <mark key="[" line="5" column="51" />
+        <mark key="]" line="5" column="56" />
+        <mark key="^" line="5" column="56" />
+        <mark key="." line="5" column="56" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1569315812901">
         <mark key="[" line="33" column="4" />
         <mark key="]" line="37" column="33" />
@@ -272,6 +278,12 @@
         <mark key="]" line="6" column="89" />
         <mark key="." line="36" column="5" />
         <mark key="^" line="36" column="5" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/LabeledEdge.scala" timestamp="1569406870815">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="7" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/ProcessLexer.scala" timestamp="1568918463862">
         <mark key="[" line="2" column="0" />
@@ -395,11 +407,11 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1569406559603">
-        <mark key="[" line="117" column="2" />
-        <mark key="]" line="117" column="1" />
-        <mark key="^" line="117" column="1" />
-        <mark key="." line="117" column="1" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1569407533665">
+        <mark key="[" line="117" column="15" />
+        <mark key="]" line="117" column="18" />
+        <mark key="^" line="117" column="18" />
+        <mark key="." line="117" column="18" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -414,7 +426,7 @@
         <mark key="." line="69" column="42" />
         <mark key="^" line="69" column="42" />
       </file>
-      <file name="/fragment.java" timestamp="1569406676341">
+      <file name="/fragment.java" timestamp="1569406730115">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -521,32 +533,49 @@
       <jump line="223" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBvYmplY3QgcHJvYmxlbSBleHRlbmRzIFN0cmljdExvZ2dpbmcgewo=</text>
+      <register name="&quot;" type="4">
+        <text>LabeledEdge</text>
       </register>
       <register name="-" type="4">
-        <text>.map(_.label)</text>
+        <text>import LabeledEdge.Label</text>
       </register>
       <register name="/" type="4">
         <text>The</text>
       </register>
       <register name="0" type="4">
-        <text>problem</text>
+        <text>LabeledEdge</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>case class LabeledEdge[+N](_source: N, _target: N, override val label: Label)
+    extends LkDiEdge[N](NodeProduct(_source, _target))
+      with EdgeCopy[LabeledEdge]
+      with OuterEdge[N,LabeledEdge]
+  {
+    type L1 = Label
+    private def this(nodes: Product, label: Label) {
+      this(
+        nodes.productElement(0).asInstanceOf[N],
+        nodes.productElement(1).asInstanceOf[N],
+        label
+      )
+    }
+    override def copy[NN](newNodes: Product) = {
+      assert(nodes.productArity == 2)
+      new LabeledEdge(newNodes, label)
+    }
+  }</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICBvYmplY3QgcHJvYmxlbSBleHRlbmRzIFN0cmljdExvZ2dpbmcgewo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">dmFsIG1hdGNoZWRJbmNvbWluZyA9IHRoaXNOb2RlLmluY29taW5nLmZpbHRlcihlZGdlID0+IG1hcHBpbmcuZ2V0KGVkZ2UuZnJvbSkuZXhpc3RzKF8uc2l6ZSA9PSAxKSkKICAgIHZhbCBtYXRjaGVkT3V0Z29pbmcgPSB0aGlzTm9kZS5vdXRnb2luZy5maWx0ZXIoZWRnZSA9PiBtYXBwaW5nLmdldChlZGdlLnRvKS5leGlzdHMoXy5zaXplID09IDEpKQog</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">cHJpdmF0ZSBkZWYgdGhpc05vZGVUb1RoYXROb2RlKG1hcHBpbmc6IE1hcHBpbmcsIHRoaXNOb2RlOiBOb2RlVCk6IE9wdGlvbltOb2RlVF0gPQogICAgbWFwcGluZy5nZXQodGhpc05vZGUpLmZpbHRlcihfLnNpemUgPT0gMSkubWFwKF8uaGVhZCkKCiAgcHJpdmF0ZSBkZWYgdGhpc0VkZ2VUb1RoYXRFZGdlKG1hcHBpbmc6IE1hcHBpbmcsIHRoaXNFZGdlOiBFZGdlVCwgdGhhdEVkZ2U6IEVkZ2VUKSA9IHsKICAgIHZhbCB0aGlzTm9kZSA9IHRoaXNFZGdlLmZyb20KCiAgICB2YWwgdGhhdE5vZGUgPSB0aGlzTm9kZVRvVGhhdE5vZGUobWFwcGluZywgdGhpc05vZGUpCgogIH0K</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">Ly8gZ2V0IHRoaXNOb2RlcyBmb3Igd2hpY2ggYW4gZXhhY3QgbWF0Y2ggaGFzIGFscmVhZHkgYmVlbiBlc3RhYmxpc2hlZAogICAgICAgIHZhbCBtYXRjaGVkSW5jb21pbmcgPSB0aGlzTm9kZS5pbmNvbWluZy5maWx0ZXIoZWRnZSA9PiBtYXBwaW5nLmdldChlZGdlLmZyb20pLmV4aXN0cyhfLnNpemUgPT0gMSkpCiAgICAgICAgdmFsIG1hdGNoZWRPdXRnb2luZyA9IHRoaXNOb2RlLm91dGdvaW5nLmZpbHRlcihlZGdlID0+IG1hcHBpbmcuZ2V0KGVkZ2UudG8pLmV4aXN0cyhfLnNpemUgPT0gMSkpCgogICAgICAgIC8vIGZpbHRlciB0aGF0Tm9kZXMgYmFzZWQgb24gY29ubmVjdGl2aXR5LCBnaXZlbiBhbHJlYWR5IGVzdGFibGlzaGVkIGV4YWN0IG1hdGNoZXMKICAgICAgICB2YWwgZmlsdGVyZWQgPSB0aGF0Tm9kZXMuZmlsdGVyIHsgdGhhdE5vZGUgPT4KICAgICAgICAgIHZhbCBoYXNFcXVhbEluY29taW5nOiBCb29sZWFuID0gbWF0Y2hlZEluY29taW5nLmZvcmFsbCh0aGlzRWRnZSA9PgogICAgICAgICAgICB0aGF0Tm9kZS5pbmNvbWluZy5leGlzdHModGhhdEVkZ2UgPT4gdGhhdEVkZ2UuZnJvbSA9PSBtYXBwaW5nKHRoaXNFZGdlLmZyb20pLmhlYWQgKSkKCiAgICAgICAgICB2YWwgaGFzRXF1YWxPdXRnb2luZzogQm9vbGVhbiA9IG1hdGNoZWRPdXRnb2luZy5mb3JhbGwodGhpc0VkZ2UgPT4KICAgICAgICAgICAgdGhhdE5vZGUub3V0Z29pbmcuZXhpc3RzKHRoYXRFZGdlID0+IHRoYXRFZGdlLnRvID09IG1hcHBpbmcodGhpc0VkZ2UudG8pLmhlYWQpKQoKICAgICAgICAgIGhhc0VxdWFsSW5jb21pbmcgJiYgaGFzRXF1YWxPdXRnb2luZwogICAgICAgIH0=</text>
-      </register>
       <register name="5" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgZmlsdGVyQnlFZGdlTGFiZWwobWFwcGluZzogTWFwcGluZywgZXhhY3Q6IEJvb2xlYW4pOiBNYXBwaW5nID0gewoKICAgIGRlZiBtYXRjaGluZ0xhYmVsKHRoaXNFZGdlOiBFZGdlVCwgdGhhdEVkZ2U6IEVkZ2VUKTogQm9vbGVhbiA9IHsKICAgICAgdmFsIHRoaXNMYWJlbDogTGFiZWwgPSB0aGlzRWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgIHRoaXNMYWJlbCA9PSB0aGF0TGFiZWwKICAgIH0KICAgID8/PwogIH0K</text>
+        <text encoding="base64">Ly8gZ2V0IHRoaXNOb2RlcyBmb3Igd2hpY2ggYW4gZXhhY3QgbWF0Y2ggaGFzIGFscmVhZHkgYmVlbiBlc3RhYmxpc2hlZAogICAgICAgIHZhbCBtYXRjaGVkSW5jb21pbmcgPSB0aGlzTm9kZS5pbmNvbWluZy5maWx0ZXIoZWRnZSA9PiBtYXBwaW5nLmdldChlZGdlLmZyb20pLmV4aXN0cyhfLnNpemUgPT0gMSkpCiAgICAgICAgdmFsIG1hdGNoZWRPdXRnb2luZyA9IHRoaXNOb2RlLm91dGdvaW5nLmZpbHRlcihlZGdlID0+IG1hcHBpbmcuZ2V0KGVkZ2UudG8pLmV4aXN0cyhfLnNpemUgPT0gMSkpCgogICAgICAgIC8vIGZpbHRlciB0aGF0Tm9kZXMgYmFzZWQgb24gY29ubmVjdGl2aXR5LCBnaXZlbiBhbHJlYWR5IGVzdGFibGlzaGVkIGV4YWN0IG1hdGNoZXMKICAgICAgICB2YWwgZmlsdGVyZWQgPSB0aGF0Tm9kZXMuZmlsdGVyIHsgdGhhdE5vZGUgPT4KICAgICAgICAgIHZhbCBoYXNFcXVhbEluY29taW5nOiBCb29sZWFuID0gbWF0Y2hlZEluY29taW5nLmZvcmFsbCh0aGlzRWRnZSA9PgogICAgICAgICAgICB0aGF0Tm9kZS5pbmNvbWluZy5leGlzdHModGhhdEVkZ2UgPT4gdGhhdEVkZ2UuZnJvbSA9PSBtYXBwaW5nKHRoaXNFZGdlLmZyb20pLmhlYWQgKSkKCiAgICAgICAgICB2YWwgaGFzRXF1YWxPdXRnb2luZzogQm9vbGVhbiA9IG1hdGNoZWRPdXRnb2luZy5mb3JhbGwodGhpc0VkZ2UgPT4KICAgICAgICAgICAgdGhhdE5vZGUub3V0Z29pbmcuZXhpc3RzKHRoYXRFZGdlID0+IHRoYXRFZGdlLnRvID09IG1hcHBpbmcodGhpc0VkZ2UudG8pLmhlYWQpKQoKICAgICAgICAgIGhhc0VxdWFsSW5jb21pbmcgJiYgaGFzRXF1YWxPdXRnb2luZwogICAgICAgIH0=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -559,17 +588,17 @@
         </keys>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">cHJpdmF0ZSBkZWYgZmlsdGVyQnlFZGdlTGFiZWwobWFwcGluZzogTWFwcGluZywgZXhhY3Q6IEJvb2xlYW4pOiBNYXBwaW5nID0gewoKICAgIGRlZiBtYXRjaGluZ0xhYmVsKHRoaXNFZGdlOiBFZGdlVCwgdGhhdEVkZ2U6IEVkZ2VUKTogQm9vbGVhbiA9IHsKICAgICAgdmFsIHRoaXNMYWJlbDogTGFiZWwgPSB0aGlzRWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgIHRoaXNMYWJlbCA9PSB0aGF0TGFiZWwKICAgIH0KICAgID8/PwogIH0K</text>
+      </register>
+      <register name="7" type="4">
         <text encoding="base64">ZGVmIG1hdGNoaW5nTGFiZWwodGhpc0VkZ2U6IEVkZ2VULCB0aGF0RWRnZTogRWRnZVQpOiBCb29sZWFuID0gewogICAgICAgICAgICAgIHZhbCB0aGlzTGFiZWw6IExhYmVsID0gdGhpc0VkZ2UudG9PdXRlci5sYWJlbC5hc0luc3RhbmNlT2ZbTGFiZWxdCiAgICAgICAgICAgICAgdmFsIHRoYXRMYWJlbDogTGFiZWwgPSB0aGF0RWRnZS50b091dGVyLmxhYmVsLmFzSW5zdGFuY2VPZltMYWJlbF0KCiAgICAgICAgICAgICAgdGhpc0xhYmVsID09IHRoYXRMYWJlbAogICAgICAgICAgICB9Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">CiAgICAgIHZhbCBmaWx0ZXJlZCA9IHRoYXROb2Rlcy5maWx0ZXIodGhhdE5vZGUgPT4K</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>// TODO: not all mappings are guaranteed to be perfect. There still might be thisNodes
       // that are mapped to multiple thatNodes. This can be solved by combinatorial optimization.</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">aWYgKG1hcHBpbmcuZXhpc3RzKF8uXzIuc2l6ZSA+IDEpKSB7CiAgICAgIHZhbCBtc2cgPSBtYXBwaW5nLmNvbGxlY3QgeyBjYXNlICh0aGlzTm9kZSwgdGhhdE5vZGVzKSBpZiB0aGF0Tm9kZXMuc2l6ZSA+IDEgPT4KICAgICAgICBzIlRoZSBmb2xsb3dpbmcgbm9kZSBzdGlsbCBoYXMgbXVsdGlwbGUgbWF0Y2hpbmcgY2FuZGlkYXRlczpcbiIgKyB0aGlzTm9kZS5wcmV0dHkoMSkgKyAiXG5cbiIgKwogICAgICAgICAgcyIgICAgJHt0aGF0Tm9kZXMuc2l6ZX0gcG9zc2libGUgbWF0Y2hpbmcgY2FuZGlkYXRlKHMpOlxuIiArCiAgICAgICAgICB0aGF0Tm9kZXMubWFwKF8ucHJldHR5KDIpKS5ta1N0cmluZygiIiwgIlxuXG4iLCAiXG4iKQogICAgICB9Lm1rU3RyaW5nKCJcbiIpCgogICAgICAvLyBUT0RPOiBub3QgYWxsIG1hcHBpbmdzIGFyZSBndWFyYW50ZWVkIHRvIGJlIHBlcmZlY3QuIFRoZXJlIHN0aWxsIG1pZ2h0IGJlIHRoaXNOb2RlcwogICAgICAvLyB0aGF0IGFyZSBtYXBwZWQgdG8gbXVsdGlwbGUgdGhhdE5vZGVzLiBUaGlzIGNhbiBiZSBzb2x2ZWQgYnkgY29tYmluYXRvcmlhbCBvcHRpbWl6YXRpb24uCgogICAgICBsb2dnZXIud2Fybihtc2cpCiAgICB9</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
