@@ -186,12 +186,6 @@
         <mark key="." line="72" column="35" />
         <mark key="^" line="72" column="35" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1569415942604">
-        <mark key="[" line="92" column="90" />
-        <mark key="]" line="92" column="60" />
-        <mark key="^" line="92" column="60" />
-        <mark key="." line="92" column="60" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
         <mark key="]" line="2" column="14" />
@@ -509,7 +503,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">b3B0KE5PVCgpKSB+PiEg</text>
+        <text encoding="base64">ZGVmIG5vdEdyb3VwOiBQYXJzZXJbR3JhcGhBc3RdID0gTk9UKCkgfiBncmFwaCBeXiB7CiAgICAKICB9CiAg</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">b3B0KE5PVCgpKSB+PiEg</text>
@@ -518,7 +512,7 @@
         <text>matching</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBub3QgfiBfIH4gZXhhY3QgfiBzcGVjIH4gXyA9PiBHcmFwaEFzdChleGFjdC5ub25FbXB0eSwgc3BlYywgbm90Lm5vbkVtdHB5KQ==</text>
+        <text encoding="base64">ZGVmIG5vdEdyb3VwOiBQYXJzZXJbR3JhcGhBc3RdID0gTk9UKCkgfiBncmFwaCBeXiB7CiAgICAKICB9CiAg</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8ga2VlcCByZS1hcHBseWluZyB0aGUgZmlsdGVyIGZvciBhcyBsb25nIGFzIGl0IGhhcyBlZmZlY3QKICAgIGZpbHRlcmVkTWFwcGluZyBtYXRjaCB7CiAgICAgIGNhc2UgYG1hcHBpbmdgID0+IG1hcHBpbmcKICAgICAgY2FzZSBmaWx0ZXJlZCAgPT4gZmlsdGVyQnlDb25uZWN0aXZpdHkoZmlsdGVyZWQpCiAgICB9</text>
