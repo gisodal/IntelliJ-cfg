@@ -82,10 +82,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1569505271197">
-        <mark key="[" line="41" column="0" />
-        <mark key="]" line="41" column="0" />
-        <mark key="." line="41" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1569506187195">
+        <mark key="[" line="57" column="6" />
+        <mark key="]" line="57" column="10" />
+        <mark key="." line="57" column="10" />
+        <mark key="^" line="57" column="10" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1568633768709">
         <mark key="[" line="25" column="23" />
@@ -243,9 +244,9 @@
         <mark key="^" line="46" column="124" />
         <mark key="." line="46" column="119" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1569418148042">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1569505735815">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="293" column="0" />
+        <mark key="[" line="15" column="22" />
         <mark key="]" line="293" column="0" />
         <mark key="." line="293" column="0" />
       </file>
@@ -515,16 +516,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">LnZpZXcuZmxhdE1hcChzY29wZSA9PiBzY29wZS5nZXQoaWQpKS5oZWFkT3B0aW9u</text>
+        <text>lscope</text>
       </register>
       <register name="-" type="4">
-        <text>stack.get(start.value)</text>
+        <text>lscope</text>
       </register>
       <register name="/" type="4">
         <text>start</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">LnZpZXcuZmxhdE1hcChzY29wZSA9PiBzY29wZS5nZXQoaWQpKS5oZWFkT3B0aW9u</text>
+        <text>stack.head.contains(id)</text>
       </register>
       <register name="1" type="4">
         <text>val start = IDENTIFIER(&quot;start&quot;)
