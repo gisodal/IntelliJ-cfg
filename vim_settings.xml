@@ -22,12 +22,12 @@
         <mark key="^" line="254" column="5" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569529012929">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569572616996">
         <mark key="'" line="57" column="0" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="^" line="7" column="38" />
-        <mark key="." line="3" column="0" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="9" column="1" />
+        <mark key="^" line="9" column="1" />
+        <mark key="." line="9" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -137,9 +137,9 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569511858964">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569572673261">
         <mark key="'" line="5138" column="2" />
-        <mark key="[" line="6049" column="21" />
+        <mark key="[" line="6049" column="17" />
         <mark key="]" line="6049" column="21" />
         <mark key="^" line="6048" column="23" />
         <mark key="." line="6049" column="21" />
@@ -361,12 +361,12 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569572028355">
-        <mark key="'" line="32" column="0" />
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="^" line="10" column="66" />
-        <mark key="." line="13" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569572781453">
+        <mark key="'" line="40" column="0" />
+        <mark key="[" line="20" column="9" />
+        <mark key="]" line="20" column="9" />
+        <mark key="^" line="20" column="9" />
+        <mark key="." line="20" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -525,7 +525,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5lbnJpY2guTm9kZS57UmljaE5vZGUgPT4gUmljaENvZGVOb2RlfQ==</text>
+        <text encoding="base64">dGhpc0dyYXBoLmVkZ2VzLmdyb3VwQnkoZWRnZSA9PiAoZWRnZS5mcm9tLGVkZ2UudG8sZWRnZS5sYWJlbC5ub3JtYWxpemVkKSk=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">cHJpdmF0ZVtJc29tb3JwaGlzbV0g</text>
@@ -534,7 +534,7 @@
         <text>Incoming</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5lbnJpY2guTm9kZS57UmljaE5vZGUgPT4gUmljaENvZGVOb2RlfQ==</text>
+        <text encoding="base64">dGhpc0dyYXBoLmVkZ2VzLmdyb3VwQnkoZWRnZSA9PiAoZWRnZS5mcm9tLGVkZ2UudG8sZWRnZS5sYWJlbC5ub3JtYWxpemVkKSk=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">b2JqZWN0IElzb21vcnBoaXNtIHsKICBwcml2YXRlIHR5cGUgRWRnZVQgPSBHcmFwaCNFZGdlVAogIHByaXZhdGUgdHlwZSBOb2RlVCA9IEdyYXBoI05vZGVUCgogIHByaXZhdGVbSXNvbW9ycGhpc21dIGltcGxpY2l0IGNsYXNzIFJpY2hMYWJlbCh2YWwgdGhpc0xhYmVsOiBMYWJlbCkgZXh0ZW5kcyBBbnlWYWwgewogICAgZGVmIGlzTmVnYXRpdmU6IEJvb2xlYW4gPQogICAgICB0aGlzTGFiZWwuZXhpc3RzKHN0ciA9PiAiIiIhLioiIiIuci5wYXR0ZXJuLm1hdGNoZXIoc3RyKS5tYXRjaGVzKCkpCgogICAgZGVmIG5vcm1hbGl6ZWQ6IExhYmVsID0KICAgICAgdGhpc0xhYmVsLm1hcChzdHIgPT4gIiIiISguKikiIiIuci5maW5kRmlyc3RJbihzdHIpLmdldE9yRWxzZShzdHIpKSBtYXRjaCB7CiAgICAgICAgY2FzZSBTb21lKCIiKSA9PiBOb25lCiAgICAgICAgY2FzZSBvdGhlciA9PiBvdGhlcgogICAgICB9CiAgfQoKICBpbXBsaWNpdCBmaW5hbCBjbGFzcyBSaWNoSXNvbW9ycGhpc21UaGlzRWRnZSh0aGlzRWRnZTogRWRnZVQpIHsKICAgIGRlZiBpc05lZ2F0aXZlOiBCb29sZWFuID0KICAgICAgdGhpc0VkZ2UubGFiZWwuaXNOZWdhdGl2ZQoKICB9CgogIGltcGxpY2l0IGZpbmFsIGNsYXNzIFJpY2hJc29tb3JwaGlzbU5vZGUodmFsIHRoaXNOb2RlOiBHcmFwaCNOb2RlVCkgZXh0ZW5kcyBBbnlWYWwgewogICAgdHlwZSBOb2RlVCA9IEdyYXBoI05vZGVUCiAgICB0eXBlIEVkZ2VUID0gR3JhcGgjRWRnZVQKCiAgICBkZWYgcG9zT3V0Z29pbmc6IFNldFtFZGdlVF0gPQogICAgICB0aGlzTm9kZS5vdXRnb2luZy5maWx0ZXIoIV8ubGFiZWwuaXNOZWdhdGl2ZSkudG9TZXQKCiAgICBkZWYgbmVnT3V0Z29pbmc6IFNldFtFZGdlVF0gPQogICAgICB0aGlzTm9kZS5vdXRnb2luZy5maWx0ZXIoXy5sYWJlbC5pc05lZ2F0aXZlKS50b1NldAoKICAgIGRlZiBwb3NJbmNvbWluZzogU2V0W0VkZ2VUXSA9CiAgICAgIHRoaXNOb2RlLmluY29taW5nLmZpbHRlcighXy5sYWJlbC5pc05lZ2F0aXZlKS50b1NldAoKICAgIGRlZiBuZWdJbmNvbWluZzogU2V0W0VkZ2VUXSA9CiAgICAgIHRoaXNOb2RlLmluY29taW5nLmZpbHRlcihfLmxhYmVsLmlzTmVnYXRpdmUpLnRvU2V0CgogICAgZGVmIHBvc091dERlZ3JlZTogSW50ID0KICAgICAgcG9zT3V0Z29pbmcuc2l6ZQoKICAgIGRlZiBuZWdPdXREZWdyZWU6IEludCA9CiAgICAgIG5lZ091dGdvaW5nLnNpemUKCiAgICBkZWYgcG9zSW5EZWdyZWU6IEludCA9CiAgICAgIHBvc0luY29taW5nLnNpemUKCiAgICBkZWYgbmVnSW5EZWdyZWU6IEludCA9CiAgICAgIG5lZ0luY29taW5nLnNpemUKCiAgfQoKfQo=</text>
