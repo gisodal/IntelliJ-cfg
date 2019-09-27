@@ -357,12 +357,9 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569584310337">
-        <mark key="'" line="312" column="4" />
-        <mark key="[" line="118" column="57" />
-        <mark key="]" line="118" column="57" />
-        <mark key="^" line="118" column="57" />
-        <mark key="." line="118" column="57" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569586214932">
+        <mark key="'" line="334" column="4" />
+        <mark key="^" line="237" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -527,7 +524,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>+ &quot;\n&quot;</text>
+        <text>val filtered</text>
       </register>
       <register name="-" type="4">
         <text>+ &quot;\n&quot;</text>
@@ -536,7 +533,7 @@
         <text>verifyNof</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZWRnZXMuZXhpc3RzKF8uaXNOZWdhdGl2ZSkgJiYgZWRnZXMuZXhpc3RzKCFfLmlzTmVnYXRpdmUp</text>
+        <text>val filtered</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHZlcmlmeU5vQ29udHJhZGljdGlvbihncmFwaDogR3JhcGgpIHsKICAgIC8vIGlkZW50aWZ5IGNvbnRyYWRpY3RvcnkgZWRnZXMKICAgIGdyYXBoLmVkZ2VzCiAgICAgIC8vIGdyb3VwIGJ5IGxhYmVsIGFuZCBlbmRwb2ludHMKICAgICAgLmdyb3VwQnkoZWRnZSA9PiAoZWRnZS5mcm9tLGVkZ2UudG8sZWRnZS5sYWJlbC5ub3JtYWxpemVkKSkKICAgICAgLy8gZ2V0IGVxdWFsbHkgbGFiZWxlZCBlZGdlcwogICAgICAuZmlsdGVyKF8uXzIuc2l6ZSA+IDEpLnZhbHVlcwogICAgICAvLyBnZXQgdGhvc2UgdGhlIGFyZSBjb250cmFkaWN0b3J5CiAgICAgIC5maWx0ZXIoZWRnZXMgPT4gZWRnZXMuZXhpc3RzKF8uaXNOZWdhdGl2ZSkgJiYgZWRnZXMuZXhpc3RzKCFfLmlzTmVnYXRpdmUpKQogICAgICAvLyB0aHJvdyBpZiBjb250cmFkaWN0aW9uIGV4aXN0cwogICAgICAuZm9yZWFjaChlZGdlcyA9PiBlcnJvcihzIlRoZXJlIGlzIGEgY29udHJhZGljdGlvbiBpbiB0aGUgZWRnZShzKTogXG4iICsKICAgICAgICBlZGdlcy5tYXAoXy5wcmV0dHkpLm1rU3RyaW5nKCJcbiIsICJcblxuIiwgIlxuIikpKQogIH0KICA=</text>
