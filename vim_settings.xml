@@ -22,12 +22,12 @@
         <mark key="^" line="254" column="5" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569577976016">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569578162666">
         <mark key="'" line="62" column="0" />
-        <mark key="[" line="14" column="27" />
-        <mark key="]" line="14" column="27" />
-        <mark key="^" line="14" column="27" />
-        <mark key="." line="14" column="27" />
+        <mark key="[" line="14" column="125" />
+        <mark key="]" line="14" column="125" />
+        <mark key="^" line="14" column="125" />
+        <mark key="." line="14" column="125" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
