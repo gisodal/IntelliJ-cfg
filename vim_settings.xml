@@ -143,11 +143,11 @@
         <mark key="]" line="6047" column="0" />
         <mark key="." line="6047" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1569511240619">
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
-        <mark key="^" line="25" column="43" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1569589102577">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="^" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1565694614004">
         <mark key="[" line="19" column="0" />
@@ -200,7 +200,7 @@
         <mark key="." line="2" column="14" />
         <mark key="^" line="2" column="14" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1569511509110">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1569588142145">
         <mark key="[" line="21" column="11" />
         <mark key="]" line="21" column="25" />
         <mark key="^" line="21" column="25" />
@@ -524,7 +524,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val filtered</text>
+        <text>def pos: Position = origin.pos</text>
       </register>
       <register name="-" type="4">
         <text>+ &quot;\n&quot;</text>
@@ -533,7 +533,7 @@
         <text>verifyNof</text>
       </register>
       <register name="0" type="4">
-        <text>val filtered</text>
+        <text>def pos: Position = origin.pos</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHZlcmlmeU5vQ29udHJhZGljdGlvbihncmFwaDogR3JhcGgpIHsKICAgIC8vIGlkZW50aWZ5IGNvbnRyYWRpY3RvcnkgZWRnZXMKICAgIGdyYXBoLmVkZ2VzCiAgICAgIC8vIGdyb3VwIGJ5IGxhYmVsIGFuZCBlbmRwb2ludHMKICAgICAgLmdyb3VwQnkoZWRnZSA9PiAoZWRnZS5mcm9tLGVkZ2UudG8sZWRnZS5sYWJlbC5ub3JtYWxpemVkKSkKICAgICAgLy8gZ2V0IGVxdWFsbHkgbGFiZWxlZCBlZGdlcwogICAgICAuZmlsdGVyKF8uXzIuc2l6ZSA+IDEpLnZhbHVlcwogICAgICAvLyBnZXQgdGhvc2UgdGhlIGFyZSBjb250cmFkaWN0b3J5CiAgICAgIC5maWx0ZXIoZWRnZXMgPT4gZWRnZXMuZXhpc3RzKF8uaXNOZWdhdGl2ZSkgJiYgZWRnZXMuZXhpc3RzKCFfLmlzTmVnYXRpdmUpKQogICAgICAvLyB0aHJvdyBpZiBjb250cmFkaWN0aW9uIGV4aXN0cwogICAgICAuZm9yZWFjaChlZGdlcyA9PiBlcnJvcihzIlRoZXJlIGlzIGEgY29udHJhZGljdGlvbiBpbiB0aGUgZWRnZShzKTogXG4iICsKICAgICAgICBlZGdlcy5tYXAoXy5wcmV0dHkpLm1rU3RyaW5nKCJcbiIsICJcblxuIiwgIlxuIikpKQogIH0KICA=</text>
