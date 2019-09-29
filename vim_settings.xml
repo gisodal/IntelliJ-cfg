@@ -138,9 +138,10 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569790909914">
-        <mark key="." line="6048" column="0" />
-        <mark key="^" line="6046" column="20" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569795580021">
+        <mark key="'" line="167" column="12" />
+        <mark key="." line="5522" column="0" />
+        <mark key="^" line="5520" column="20" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1569589822266">
         <mark key="[" line="31" column="13" />
@@ -423,7 +424,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5976" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="2" column="26" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="19" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
@@ -523,6 +523,7 @@
       <jump line="268" column="54" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="151" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="134" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
+      <jump line="167" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -532,7 +533,7 @@
         <text>.filter(_.nonEmpty)</text>
       </register>
       <register name="/" type="4">
-        <text>outgoing</text>
+        <text encoding="base64">Z3JhcGggPSA=</text>
       </register>
       <register name="0" type="4">
         <text>val graph = resolveDepsForResult(</text>
@@ -579,9 +580,9 @@
       </register>
     </registers>
     <search>
-      <last-search>outgoing</last-search>
+      <last-search encoding="base64">Z3JhcGggPSA=</last-search>
       <last-offset />
-      <last-pattern>outgoing</last-pattern>
+      <last-pattern encoding="base64">Z3JhcGggPSA=</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -589,7 +590,6 @@
     </search>
     <history>
       <history-search>
-        <entry>export</entry>
         <entry encoding="base64">XDxtc2dcPg==</entry>
         <entry>ScopeId</entry>
         <entry>actor</entry>
@@ -609,6 +609,7 @@
         <entry encoding="base64">Q291bGQgbm90IG1hdGNoIA==</entry>
         <entry>out</entry>
         <entry>outgoing</entry>
+        <entry encoding="base64">Z3JhcGggPSA=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
