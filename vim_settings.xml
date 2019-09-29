@@ -138,10 +138,7 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569599519179">
-        <mark key="'" line="5138" column="2" />
-        <mark key="[" line="6048" column="0" />
-        <mark key="]" line="6048" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569790909914">
         <mark key="." line="6048" column="0" />
         <mark key="^" line="6046" column="20" />
       </file>
@@ -317,7 +314,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1569597414097">
+      <file name="/sbtShell" timestamp="1569790465342">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -529,7 +526,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>_.nonEmpty)</text>
+        <text>val graph = resolveDepsForResult(</text>
       </register>
       <register name="-" type="4">
         <text>.filter(_.nonEmpty)</text>
@@ -538,7 +535,7 @@
         <text>outgoing</text>
       </register>
       <register name="0" type="4">
-        <text>_.nonEmpty)</text>
+        <text>val graph = resolveDepsForResult(</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB8YyAtPihFbGlkZWRCQikgJ0lmVCBFQTEuYXR0cjEgPiAwOiBJbnB1dCBmcm9tIFVTUicK</text>
