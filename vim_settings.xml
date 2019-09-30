@@ -138,6 +138,12 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569848711813">
+        <mark key="[" line="5571" column="0" />
+        <mark key="]" line="5571" column="0" />
+        <mark key="^" line="5571" column="7" />
+        <mark key="." line="5571" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1569589822266">
         <mark key="[" line="31" column="13" />
         <mark key="]" line="31" column="6" />
@@ -522,16 +528,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val graph = resolveDepsForResult(</text>
+        <text>specStr)}&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>.filter(_.nonEmpty)</text>
+        <text>.stripMargin</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">Z3JhcGggPSA=</text>
       </register>
       <register name="0" type="4">
-        <text>val graph = resolveDepsForResult(</text>
+        <text>specStr)}&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB8YyAtPihFbGlkZWRCQikgJ0lmVCBFQTEuYXR0cjEgPiAwOiBJbnB1dCBmcm9tIFVTUicK</text>
