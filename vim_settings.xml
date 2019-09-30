@@ -127,11 +127,11 @@
         <mark key="^" line="79" column="61" />
         <mark key="." line="79" column="61" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569850569956">
-        <mark key="[" line="44" column="82" />
-        <mark key="]" line="44" column="87" />
-        <mark key="^" line="44" column="87" />
-        <mark key="." line="44" column="87" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569850861739">
+        <mark key="[" line="38" column="8" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="42" column="87" />
+        <mark key="." line="38" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1568895564855">
         <mark key="[" line="290" column="62" />
@@ -139,11 +139,11 @@
         <mark key="^" line="290" column="51" />
         <mark key="." line="290" column="51" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569850234386">
-        <mark key="[" line="5495" column="11" />
-        <mark key="]" line="5571" column="0" />
-        <mark key="^" line="5571" column="7" />
-        <mark key="." line="5571" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1569851490606">
+        <mark key="[" line="4988" column="37" />
+        <mark key="]" line="4988" column="37" />
+        <mark key="^" line="3484" column="6" />
+        <mark key="." line="4988" column="37" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Constructs.scala" timestamp="1569589822266">
         <mark key="[" line="31" column="13" />
@@ -317,7 +317,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1569827367456">
+      <file name="/sbtShell" timestamp="1569853731967">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -359,12 +359,12 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569598786439">
-        <mark key="'" line="222" column="0" />
-        <mark key="[" line="226" column="5" />
-        <mark key="]" line="226" column="5" />
-        <mark key="^" line="226" column="5" />
-        <mark key="." line="226" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569854806066">
+        <mark key="'" line="166" column="72" />
+        <mark key="[" line="134" column="24" />
+        <mark key="]" line="134" column="34" />
+        <mark key="^" line="134" column="34" />
+        <mark key="." line="134" column="34" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1568112939938">
         <mark key="[" line="9" column="54" />
@@ -426,7 +426,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="26" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="19" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="75" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
@@ -526,19 +525,20 @@
       <jump line="151" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="134" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="167" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
+      <jump line="163" column="72" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIHJlbW92ZUNvbW1lbnQodG9rZW5zOiBTZXFbVG9rZW5dKTogU2VxW1Rva2VuXSA9IHRva2VucyBtYXRjaCB7CiAgICAgICAgY2FzZSAoXzpUb2tlbi5DT01NRU5UKSA6OiB0YWlsID0+IHJlbW92ZUNvbW1lbnQodGFpbCkKICAgICAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgICAgICAgPT4gdG9rZW5zCiAgICAgIH0=</text>
+        <text encoding="base64">cyIgICAgUG9zc2libGUgbWF0Y2hpbmcgY2FuZGlkYXRlKHMpOlxuIiArCiAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuXG4iKQ==</text>
       </register>
       <register name="-" type="4">
-        <text>case class COMMENT() extends Token</text>
+        <text>warnIfAmbiguous(mapping)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">Z3JhcGggPSA=</text>
+        <text>warn</text>
       </register>
       <register name="0" type="4">
-        <text>Token.COMMENT</text>
+        <text encoding="base64">cyIgICAgUG9zc2libGUgbWF0Y2hpbmcgY2FuZGlkYXRlKHMpOlxuIiArCiAgICAgIHRoYXROb2Rlcy5tYXAobm9kZSA9PiBub2RlLnByZXR0eSgyKSkubWtTdHJpbmcoIiIsICJcblxuIiwgIlxuXG4iKQ==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHJlbW92ZUNvbW1lbnQodG9rZW5zOiBTZXFbVG9rZW5dKTogU2VxW1Rva2VuXSA9IHRva2VucyBtYXRjaCB7CiAgICAgICAgY2FzZSAoXzpUb2tlbi5DT01NRU5UKSA6OiB0YWlsID0+IHJlbW92ZUNvbW1lbnQodGFpbCkKICAgICAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgICAgICAgPT4gdG9rZW5zCiAgICAgIH0=</text>
@@ -582,9 +582,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">Z3JhcGggPSA=</last-search>
+      <last-search>warn</last-search>
       <last-offset />
-      <last-pattern encoding="base64">Z3JhcGggPSA=</last-pattern>
+      <last-pattern>warn</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -592,7 +592,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxtc2dcPg==</entry>
         <entry>ScopeId</entry>
         <entry>actor</entry>
         <entry>.name</entry>
@@ -612,6 +611,7 @@
         <entry>out</entry>
         <entry>outgoing</entry>
         <entry encoding="base64">Z3JhcGggPSA=</entry>
+        <entry>warn</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
