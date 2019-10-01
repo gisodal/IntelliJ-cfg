@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1569598288082">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1569942982363">
         <mark key="'" line="132" column="30" />
-        <mark key="[" line="266" column="50" />
-        <mark key="]" line="266" column="53" />
-        <mark key="." line="266" column="53" />
-        <mark key="^" line="266" column="53" />
+        <mark key="[" line="228" column="99" />
+        <mark key="]" line="228" column="55" />
+        <mark key="^" line="228" column="55" />
+        <mark key="." line="228" column="55" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/diagram-viewer/src/processDesign.renderer.ts" timestamp="1569928511483">
         <mark key="[" line="87" column="53" />
@@ -260,12 +260,12 @@
         <mark key="^" line="46" column="124" />
         <mark key="." line="46" column="119" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1569511791117">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1569942056006">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="15" column="35" />
-        <mark key="]" line="15" column="63" />
-        <mark key="." line="15" column="63" />
-        <mark key="^" line="15" column="63" />
+        <mark key="[" line="195" column="71" />
+        <mark key="]" line="195" column="70" />
+        <mark key="." line="195" column="70" />
+        <mark key="^" line="195" column="70" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1569407383976">
         <mark key="[" line="5" column="51" />
@@ -369,12 +369,12 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569867070882">
-        <mark key="'" line="183" column="72" />
-        <mark key="[" line="133" column="25" />
-        <mark key="]" line="161" column="13" />
-        <mark key="." line="161" column="13" />
-        <mark key="^" line="161" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1569942164774">
+        <mark key="'" line="351" column="0" />
+        <mark key="[" line="99" column="0" />
+        <mark key="]" line="99" column="0" />
+        <mark key="^" line="153" column="13" />
+        <mark key="." line="99" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/package.scala" timestamp="1569923311603">
         <mark key="[" line="24" column="76" />
@@ -439,7 +439,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
       <jump line="72" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
       <jump line="6027" column="82" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="51" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" />
@@ -539,19 +538,20 @@
       <jump line="163" column="72" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="67" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="172" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="359" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>case 'userTask':         return this.createUserTask(node)</text>
+        <text>variable</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
       </register>
       <register name="/" type="4">
-        <text>warn</text>
+        <text>verifyNoForeach</text>
       </register>
       <register name="0" type="4">
-        <text>case 'userTask':         return this.createUserTask(node)</text>
+        <text>variable</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IEBpbmxpbmUgZGVmIHBvczogUG9zaXRpb24gPSBsb2NhdGlvbi5wb3MKICAgIEBpbmxpbmUgZGVmIHNvdXJjZU5hbWU6IFN0cmluZyA9IGxvY2F0aW9uLnNvdXJjZU5hbWU=</text>
@@ -596,9 +596,9 @@
       </register>
     </registers>
     <search>
-      <last-search>warn</last-search>
+      <last-search>verifyNoForeach</last-search>
       <last-offset />
-      <last-pattern>warn</last-pattern>
+      <last-pattern>verifyNoForeach</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -606,7 +606,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ScopeId</entry>
         <entry>actor</entry>
         <entry>.name</entry>
         <entry>Problem.</entry>
@@ -626,6 +625,7 @@
         <entry>outgoing</entry>
         <entry encoding="base64">Z3JhcGggPSA=</entry>
         <entry>warn</entry>
+        <entry>verifyNoForeach</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
