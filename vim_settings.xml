@@ -72,16 +72,15 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1569576967018">
-        <mark key="[" line="167" column="0" />
-        <mark key="]" line="167" column="0" />
-        <mark key="." line="167" column="0" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
         <mark key="]" line="15" column="36" />
         <mark key="^" line="15" column="36" />
         <mark key="." line="15" column="36" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/IterableEnhancements.scala" timestamp="1569922354108">
+        <mark key="[" line="5" column="7" />
+        <mark key="]" line="5" column="26" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
@@ -127,11 +126,11 @@
         <mark key="^" line="79" column="61" />
         <mark key="." line="79" column="61" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921336092">
-        <mark key="[" line="42" column="83" />
-        <mark key="]" line="42" column="81" />
-        <mark key="^" line="42" column="81" />
-        <mark key="." line="42" column="81" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
+        <mark key="[" line="20" column="66" />
+        <mark key="]" line="20" column="71" />
+        <mark key="^" line="20" column="71" />
+        <mark key="." line="20" column="71" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1569920540023">
         <mark key="[" line="37" column="28" />
@@ -168,19 +167,12 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1568645348845">
-        <mark key="[" line="17" column="6" />
-        <mark key="]" line="17" column="5" />
-        <mark key="." line="17" column="5" />
-        <mark key="^" line="17" column="5" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1569579335873">
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="0" />
-        <mark key="." line="39" column="0" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1569580347354">
-        <mark key="^" line="43" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1569922438028">
+        <mark key="'" line="67" column="7" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="0" />
+        <mark key="^" line="9" column="33" />
+        <mark key="." line="69" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1569502200964">
         <mark key="'" line="107" column="10" />
@@ -194,6 +186,12 @@
         <mark key="]" line="2" column="14" />
         <mark key="." line="2" column="14" />
         <mark key="^" line="2" column="14" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Problems.scala" timestamp="1569922484821">
+        <mark key="[" line="26" column="39" />
+        <mark key="]" line="26" column="39" />
+        <mark key="^" line="26" column="37" />
+        <mark key="." line="26" column="39" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -416,7 +414,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="75" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
       <jump line="72" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
@@ -516,10 +513,11 @@
       <jump line="134" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="167" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="163" column="72" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
+      <jump line="67" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>s&quot;Eval ${apply(value)}&quot;</text>
+        <text encoding="base64">LnRvU2V0TXVsdGlNYXAg</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -528,7 +526,7 @@
         <text>warn</text>
       </register>
       <register name="0" type="4">
-        <text>s&quot;Eval ${apply(value)}&quot;</text>
+        <text encoding="base64">LnRvU2V0TXVsdGlNYXAg</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IEBpbmxpbmUgZGVmIHBvczogUG9zaXRpb24gPSBsb2NhdGlvbi5wb3MKICAgIEBpbmxpbmUgZGVmIHNvdXJjZU5hbWU6IFN0cmluZyA9IGxvY2F0aW9uLnNvdXJjZU5hbWU=</text>
