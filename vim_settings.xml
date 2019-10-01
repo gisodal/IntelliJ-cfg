@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1569942982363">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1569944060396">
         <mark key="'" line="132" column="30" />
-        <mark key="[" line="228" column="99" />
-        <mark key="]" line="228" column="55" />
-        <mark key="^" line="228" column="55" />
-        <mark key="." line="228" column="55" />
+        <mark key="[" line="125" column="59" />
+        <mark key="]" line="125" column="60" />
+        <mark key="^" line="125" column="60" />
+        <mark key="." line="125" column="60" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/diagram-viewer/src/processDesign.renderer.ts" timestamp="1569928511483">
         <mark key="[" line="87" column="53" />
@@ -101,12 +101,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1569583230052">
-        <mark key="'" line="116" column="0" />
-        <mark key="[" line="207" column="56" />
-        <mark key="]" line="207" column="55" />
-        <mark key="^" line="207" column="55" />
-        <mark key="." line="207" column="55" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" timestamp="1569944731535">
+        <mark key="'" line="214" column="60" />
+        <mark key="[" line="315" column="96" />
+        <mark key="]" line="315" column="105" />
+        <mark key="." line="315" column="105" />
+        <mark key="^" line="315" column="105" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1569577035440">
         <mark key="'" line="372" column="60" />
@@ -439,7 +439,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
       <jump line="6027" column="82" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="51" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" />
       <jump line="4" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" />
@@ -539,34 +538,35 @@
       <jump line="67" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" />
       <jump line="172" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="359" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
+      <jump line="214" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>variable</text>
+        <text>nodeAST.kind.pos)</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>exact</text>
       </register>
       <register name="/" type="4">
-        <text>verifyNoForeach</text>
+        <text>Foreach</text>
       </register>
       <register name="0" type="4">
-        <text>variable</text>
+        <text>nodeAST.kind.pos)</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgfSBlbHNlIE5vbmUK</text>
+      </register>
+      <register name="2" type="4">
         <text encoding="base64">IEBpbmxpbmUgZGVmIHBvczogUG9zaXRpb24gPSBsb2NhdGlvbi5wb3MKICAgIEBpbmxpbmUgZGVmIHNvdXJjZU5hbWU6IFN0cmluZyA9IGxvY2F0aW9uLnNvdXJjZU5hbWU=</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAvL3ZhbCBOb09yaWdpbiA9IE9yaWdpbigiIiwgIiIsIE5vUG9zaXRpb24pCg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAvLyAgQGlubGluZSBkZWYgcHJldHR5UG9zaXRpb246IE9wdGlvbltTdHJpbmddID0gb3JpZ2luLnByZXR0eVBvc2l0aW9uCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICB2YWwgaWQ6IFN0cmluZyA9IG9yaWdpbi5pZAo=</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBvdiAgQGlubGluZSBkZWYgcHJldHR5UG9zaXRpb246IE9wdGlvbltTdHJpbmddID0gb3JpZ2luLnByZXR0eVBvc2l0aW9uIAo=</text>
+        <text encoding="base64">ICB2YWwgaWQ6IFN0cmluZyA9IG9yaWdpbi5pZAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -578,27 +578,27 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">ICBvdiAgQGlubGluZSBkZWYgcHJldHR5UG9zaXRpb246IE9wdGlvbltTdHJpbmddID0gb3JpZ2luLnByZXR0eVBvc2l0aW9uIAo=</text>
+      </register>
+      <register name="7" type="4">
         <text>import util.StringEnhancements.EnhancedString
   import scala.util.parsing.input.{NoPosition, Position}</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">aW1wb3J0IHNjYWxhLnV0aWwucGFyc2luZy5pbnB1dC57Tm9Qb3NpdGlvbiwgUG9zaXRpb259Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vIGdldCB1bm1hcHBlZCBub2Rlcwo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHZhbCB0aGF0Tm9kZXMgPSBncmFwaC5ub2Rlcy5tYXAobiA9PiBuLmFzSW5zdGFuY2VPZltOb2RlVF0pLnRvU2V0Cg==</text>
+        <text encoding="base64">ICAgIC8vIGdldCB1bm1hcHBlZCBub2Rlcwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>verifyNoForeach</last-search>
+      <last-search>Foreach</last-search>
       <last-offset />
-      <last-pattern>verifyNoForeach</last-pattern>
+      <last-pattern>Foreach</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -606,8 +606,6 @@
     </search>
     <history>
       <history-search>
-        <entry>actor</entry>
-        <entry>.name</entry>
         <entry>Problem.</entry>
         <entry>The</entry>
         <entry>match</entry>
@@ -626,6 +624,8 @@
         <entry encoding="base64">Z3JhcGggPSA=</entry>
         <entry>warn</entry>
         <entry>verifyNoForeach</entry>
+        <entry>foreach</entry>
+        <entry>Foreach</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
