@@ -10,6 +10,12 @@
         <mark key="." line="266" column="53" />
         <mark key="^" line="266" column="53" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/diagram-viewer/src/processDesign.renderer.ts" timestamp="1569928511483">
+        <mark key="[" line="87" column="53" />
+        <mark key="]" line="87" column="55" />
+        <mark key="^" line="87" column="55" />
+        <mark key="." line="87" column="55" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
         <mark key="]" line="39" column="66" />
@@ -321,7 +327,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1569914149838">
+      <file name="/sbtShell" timestamp="1569928207539">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -536,7 +542,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ignore</text>
+        <text>case 'userTask':         return this.createUserTask(node)</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -545,7 +551,7 @@
         <text>warn</text>
       </register>
       <register name="0" type="4">
-        <text>ignore</text>
+        <text>case 'userTask':         return this.createUserTask(node)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IEBpbmxpbmUgZGVmIHBvczogUG9zaXRpb24gPSBsb2NhdGlvbi5wb3MKICAgIEBpbmxpbmUgZGVmIHNvdXJjZU5hbWU6IFN0cmluZyA9IGxvY2F0aW9uLnNvdXJjZU5hbWU=</text>
