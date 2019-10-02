@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570012552542">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570014596895">
         <mark key="'" line="220" column="6" />
         <mark key="[" line="226" column="4" />
         <mark key="]" line="237" column="4" />
@@ -16,12 +16,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570013577237">
-        <mark key="'" line="51" column="112" />
-        <mark key="[" line="12" column="5" />
-        <mark key="]" line="12" column="5" />
-        <mark key="^" line="12" column="5" />
-        <mark key="." line="12" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570014792473">
+        <mark key="'" line="17" column="48" />
+        <mark key="[" line="7" column="61" />
+        <mark key="]" line="7" column="59" />
+        <mark key="." line="7" column="59" />
+        <mark key="^" line="7" column="59" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -29,7 +29,7 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570013286896">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570014979687">
         <mark key="'" line="255" column="5" />
         <mark key="[" line="145" column="2" />
         <mark key="]" line="179" column="70" />
@@ -73,10 +73,10 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1570011098114">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1570013622398">
         <mark key="'" line="99" column="42" />
-        <mark key="[" line="74" column="6" />
-        <mark key="]" line="176" column="7" />
+        <mark key="[" line="75" column="34" />
+        <mark key="]" line="75" column="81" />
         <mark key="." line="76" column="34" />
         <mark key="^" line="76" column="34" />
       </file>
@@ -177,11 +177,11 @@
         <mark key="." line="55" column="16" />
         <mark key="^" line="55" column="16" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/OptionEnhancements.scala" timestamp="1569324346757">
-        <mark key="[" line="3" column="17" />
-        <mark key="]" line="3" column="26" />
-        <mark key="." line="3" column="26" />
-        <mark key="^" line="3" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/OptionEnhancements.scala" timestamp="1570014524958">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="7" column="26" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Trace.scala" timestamp="1562765573188">
         <mark key="[" line="2" column="5" />
@@ -196,11 +196,11 @@
         <mark key="^" line="9" column="33" />
         <mark key="." line="69" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1570011683382">
-        <mark key="[" line="47" column="39" />
-        <mark key="]" line="47" column="52" />
-        <mark key="^" line="48" column="27" />
-        <mark key="." line="47" column="39" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/StringEnhancements.scala" timestamp="1570014409491">
+        <mark key="[" line="11" column="2" />
+        <mark key="]" line="11" column="68" />
+        <mark key="^" line="45" column="78" />
+        <mark key="." line="45" column="78" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Parser.scala" timestamp="1569502200964">
         <mark key="'" line="107" column="10" />
@@ -446,7 +446,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Arrow.scala" />
       <jump line="70" column="43" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
       <jump line="77" column="31" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
       <jump line="18" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Token.scala" />
@@ -546,44 +545,35 @@
       <jump line="99" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
       <jump line="48" column="112" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="220" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
+      <jump line="17" column="48" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>case class Node(
-      id: String,
-      kind: Option[String],
-      test: Option[graphverifier.Test],
-      label: Option[String],
-      variable: Option[String] = Option.empty[String])</text>
+        <text>import com.xlrit.gears.generator.graphverifier.Test.Graph.Node</text>
       </register>
       <register name="-" type="4">
-        <text>: String =</text>
+        <text>Node(&quot;&quot;,&quot;NONE&quot;, )</text>
       </register>
       <register name="/" type="4">
         <text>ldi</text>
       </register>
       <register name="0" type="4">
-        <text>case class Node(
-      id: String,
-      kind: Option[String],
-      test: Option[graphverifier.Test],
-      label: Option[String],
-      variable: Option[String] = Option.empty[String])</text>
+        <text>import com.xlrit.gears.generator.graphverifier.Test.Graph.Node</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text encoding="base64">Y2FzZSBHcmFwaC5Ob2RlKF8sIFNvbWUoImV4Y2x1c2l2ZSIpLCBfLCBTb21lKGxhYmVsKSwgXykgaWYgaXNXaGlsZSA9PiBTb21lKHMiV2hpbGUgJGxhYmVsIikKICAgICAgY2FzZSBHcmFwaC5Ob2RlKF8sIFNvbWUoImV4Y2x1c2l2ZSIpLCBfLCBTb21lKGxhYmVsKSwgXykgaWYgaXNJZiAgICA9PiBTb21lKHMiSWYgJGxhYmVsIikKICAgICAgY2FzZSBHcmFwaC5Ob2RlKF8sIFNvbWUoImZvcmVhY2giKSwgXywgU29tZShsYWJlbCksIFNvbWUodmFyaWFibGUpKSA9PiBTb21lKHMiRm9yZWFjaCAkbGFiZWwgaW4gJHZhcmlhYmxlIikKICAgICAgY2FzZSBHcmFwaC5Ob2RlKF8sIE5vbmUsIF8sIFNvbWUobGFiZWwpLCBfKSAgICAgICAgICAgICAgICAgICAgICAgICA9PiBTb21lKGxhYmVsKQogICAgICBjYXNlIEdyYXBoLk5vZGUoXywgU29tZSgic3RlcCIpLCBfLCBTb21lKGxhYmVsKSwgXykgICAgICAgICAgICAgICAgID0+IFNvbWUobGFiZWwpCiAgICAgIGNhc2UgR3JhcGguTm9kZShfLCBTb21lKCJmb3JlYWNoIiksIF8sIF8sIF8pICAgICAgICAgICAgICAgICAgICAgICAgPT4KICAgICAgICB0aHJvdyBUZXN0RXJyb3IocyJGb3JlYWNoIHJlcXVpcmVzIGEgdmFyaWFibGUsIGxhYmVsIGFuZCBncmFwaCBzcGVjaWZpY2F0aW9uIGZvciBjb252ZXJzaW9uIHRvIGNvZGUgbGluZXMiKQogICAgICBjYXNlIEdyYXBoLk5vZGUoXywga2luZCwgXywgU29tZShfKSwgXykgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+CiAgICAgICAgdGhyb3cgVGVzdEVycm9yKHMiVW5leHBlY3RlZCBub24tZW1wdHkgbGFiZWwgZm91bmQgd2l0aCBub2RlIG9mIHR5cGUgJHtraW5kLnRvU3RyaW5nfSB3aGlsZSBjb252ZXJ0aW5nIHRvIGNvZGUgbGluZXMiKQogICAgICBjYXNlIF8gPT4gTm9uZQogICAgfSAKICAgICAgIA==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgfSBlbHNlIE5vbmUK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">IEBpbmxpbmUgZGVmIHBvczogUG9zaXRpb24gPSBsb2NhdGlvbi5wb3MKICAgIEBpbmxpbmUgZGVmIHNvdXJjZU5hbWU6IFN0cmluZyA9IGxvY2F0aW9uLnNvdXJjZU5hbWU=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAvL3ZhbCBOb09yaWdpbiA9IE9yaWdpbigiIiwgIiIsIE5vUG9zaXRpb24pCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAvLyAgQGlubGluZSBkZWYgcHJldHR5UG9zaXRpb246IE9wdGlvbltTdHJpbmddID0gb3JpZ2luLnByZXR0eVBvc2l0aW9uCg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICB2YWwgaWQ6IFN0cmluZyA9IG9yaWdpbi5pZAo=</text>
+        <text encoding="base64">ICAvLyAgQGlubGluZSBkZWYgcHJldHR5UG9zaXRpb246IE9wdGlvbltTdHJpbmddID0gb3JpZ2luLnByZXR0eVBvc2l0aW9uCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -596,17 +586,17 @@
         </keys>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICB2YWwgaWQ6IFN0cmluZyA9IG9yaWdpbi5pZAo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICBvdiAgQGlubGluZSBkZWYgcHJldHR5UG9zaXRpb246IE9wdGlvbltTdHJpbmddID0gb3JpZ2luLnByZXR0eVBvc2l0aW9uIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>import util.StringEnhancements.EnhancedString
   import scala.util.parsing.input.{NoPosition, Position}</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHNjYWxhLnV0aWwucGFyc2luZy5pbnB1dC57Tm9Qb3NpdGlvbiwgUG9zaXRpb259Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vIGdldCB1bm1hcHBlZCBub2Rlcwo=</text>
+        <text encoding="base64">aW1wb3J0IHNjYWxhLnV0aWwucGFyc2luZy5pbnB1dC57Tm9Qb3NpdGlvbiwgUG9zaXRpb259Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
