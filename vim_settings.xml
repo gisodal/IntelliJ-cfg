@@ -16,12 +16,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570088899330">
-        <mark key="'" line="116" column="85" />
-        <mark key="[" line="118" column="35" />
-        <mark key="]" line="118" column="43" />
-        <mark key="." line="118" column="43" />
-        <mark key="^" line="118" column="43" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570095959836">
+        <mark key="'" line="117" column="85" />
+        <mark key="[" line="104" column="64" />
+        <mark key="]" line="105" column="12" />
+        <mark key="." line="105" column="12" />
+        <mark key="^" line="105" column="12" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
