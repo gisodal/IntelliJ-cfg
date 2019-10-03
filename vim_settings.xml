@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570108671131">
-        <mark key="[" line="48" column="39" />
-        <mark key="]" line="50" column="56" />
-        <mark key="^" line="50" column="56" />
-        <mark key="." line="50" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570133176915">
+        <mark key="[" line="48" column="38" />
+        <mark key="]" line="48" column="37" />
+        <mark key="^" line="48" column="37" />
+        <mark key="." line="48" column="37" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/diagram-viewer/src/processDesign.renderer.ts" timestamp="1569928511483">
         <mark key="[" line="87" column="53" />
@@ -15,12 +15,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570110673267">
-        <mark key="'" line="100" column="17" />
-        <mark key="[" line="95" column="29" />
-        <mark key="]" line="95" column="48" />
-        <mark key="." line="95" column="48" />
-        <mark key="^" line="95" column="48" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570133147306">
+        <mark key="'" line="99" column="30" />
+        <mark key="[" line="112" column="48" />
+        <mark key="]" line="112" column="47" />
+        <mark key="^" line="112" column="47" />
+        <mark key="." line="112" column="47" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="208" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
-      <jump line="308" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="309" column="39" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="106" column="76" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="114" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
@@ -545,19 +543,21 @@
       <jump line="52" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="90" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="102" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
+      <jump line="113" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
+      <jump line="99" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>codes.toList</text>
+        <text>toInnerCodeLines(edge.from).map(_.tab(innerLevelShift(edge.from)))</text>
       </register>
       <register name="-" type="4">
         <text>val test = 1</text>
       </register>
       <register name="/" type="4">
-        <text>combine</text>
+        <text>test</text>
       </register>
       <register name="0" type="4">
-        <text>codes.toList</text>
+        <text>toInnerCodeLines(edge.from).map(_.tab(innerLevelShift(edge.from)))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIH0KCg==</text>
@@ -602,17 +602,16 @@
       </register>
     </registers>
     <search>
-      <last-search>combine</last-search>
+      <last-search>test</last-search>
       <last-offset />
-      <last-pattern>combine</last-pattern>
+      <last-pattern>test</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>start</entry>
         <entry>indegree</entry>
         <entry>in</entry>
         <entry>degree</entry>
@@ -632,6 +631,7 @@
         <entry>ldi</entry>
         <entry>reco</entry>
         <entry>combine</entry>
+        <entry>test</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
