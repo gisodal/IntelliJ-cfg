@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570086360999">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570088193802">
         <mark key="'" line="220" column="6" />
-        <mark key="[" line="226" column="4" />
-        <mark key="]" line="237" column="4" />
-        <mark key="^" line="340" column="4" />
-        <mark key="." line="340" column="4" />
+        <mark key="[" line="340" column="0" />
+        <mark key="]" line="340" column="0" />
+        <mark key="^" line="333" column="3" />
+        <mark key="." line="340" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/diagram-viewer/src/processDesign.renderer.ts" timestamp="1569928511483">
         <mark key="[" line="87" column="53" />
@@ -16,11 +16,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570087862414">
-        <mark key="[" line="103" column="3" />
-        <mark key="]" line="104" column="105" />
-        <mark key="." line="104" column="105" />
-        <mark key="^" line="104" column="105" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570088899330">
+        <mark key="'" line="116" column="85" />
+        <mark key="[" line="118" column="35" />
+        <mark key="]" line="118" column="43" />
+        <mark key="." line="118" column="43" />
+        <mark key="^" line="118" column="43" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -333,7 +334,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1570085505411">
+      <file name="/sbtShell" timestamp="1570094482024">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -445,7 +446,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="172" column="34" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="296" column="68" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="45" column="1" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" />
       <jump line="308" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Test.scala" />
@@ -545,35 +545,36 @@
       <jump line="77" column="41" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="75" column="88" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="81" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
+      <jump line="116" column="85" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val nodeOrdering:       Ordering[NodeT] = Ordering.by[NodeT, String](toNodeString)(alphabeticalOrdering)</text>
+        <text encoding="base64">Y2FzZSBfIGlmIG5vZGUuaXNDb250cm9sID0+ID8/Pw==</text>
       </register>
       <register name="-" type="4">
-        <text>val nodeOrdering:       Ordering[NodeT] = Ordering.by[NodeT, String](toNodeString)(alphabeticalOrdering)</text>
+        <text encoding="base64">Y2FzZSBfIGlmIG5vZGUuaXNJZiA9PiA/Pz8=</text>
       </register>
       <register name="/" type="4">
         <text>ldi</text>
       </register>
       <register name="0" type="4">
-        <text>def toCodeLine: Option[String] = thisNode.toOuter match {</text>
+        <text encoding="base64">Y2FzZSBfIGlmIG5vZGUuaXNDb250cm9sID0+ID8/Pw==</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text encoding="base64">Y2FzZSBfIGlmIG5vZGUuaXNJZiA9PiA/Pz8KICAgICAgICAg</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ZGVmIGlzQ29udHJvbDogQm9vbGVhbiA9IHRoaXNOb2RlLnRvT3V0ZXIgbWF0Y2ggewogICAgICBjYXNlIEdyYXBoLk5vZGUoXywgU29tZSgiZXhjbHVzaXZlIiksIF8sIFNvbWUoXyksIF8pID0+IHRydWUKICAgICAgY2FzZSBHcmFwaC5Ob2RlKF8sIFNvbWUoImZvcmVhY2giKSwgXywgXywgXykgPT4gdHJ1ZQogICAgICBjYXNlIF8gPT4gZmFsc2UKICAgIH0K</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdG9Db2RlTGluZXMoCg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGh2ZXJpZmllci5FeGNlcHRpb24uVGVzdEVycm9yCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>val True: Label  = Some(&quot;true&quot;)
   val False: Label = Some(&quot;false&quot;)</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIHRvU3RyaW5nKG5vZGU6IE5vZGVUKTogU3RyaW5nID0gbm9kZQogICAgLnRvQ29kZUxpbmUKICAgIC5nZXRPckVsc2UoCiAgICAgIG5vZGUub3V0Z29pbmcudG9MaXN0CiAgICAgICAgLm1hcChlZGdlID0+IHRvU3RyaW5nKGVkZ2UudG8pKQogICAgICAgIC5maWx0ZXIoXyAhPSAiIikKICAgICAgICAuc29ydGVkKGFscGhhYmV0aWNhbE9yZGVyaW5nKS5oZWFkT3B0aW9uCiAgICAgICAgLmdldE9yRWxzZSgiIikKICAgICkK</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">IHByaXZhdGUgZGVmIHRvU3RyaW5nKGVkZ2U6IEVkZ2VUKTogU3RyaW5nID0gZWRnZS50byBtYXRjaCB7CiAgICAgID8/PwogIH0=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -586,16 +587,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">OiBMYWJlbCA9PjogTGFiZWxPcmRlclR1cGxlID0gewogICAgY2FzZSBUcnVlICAgICAgPT4gKDEsIFRydWUuZ2V0KQogICAgY2FzZSBGYWxzZSAgICAgPT4gKDIsIEZhbHNlLmdldCkKICAgIGNhc2UgU29tZShzdHIpID0+ICgzLCBzdHIpCiAgICBjYXNlIE5vbmUgICAgICA9PiAoNCwgIiIpCiAgfQo=</text>
+        <text encoding="base64">ZGVmIHRvU3RyaW5nKG5vZGU6IE5vZGVUKTogU3RyaW5nID0gbm9kZQogICAgLnRvQ29kZUxpbmUKICAgIC5nZXRPckVsc2UoCiAgICAgIG5vZGUub3V0Z29pbmcudG9MaXN0CiAgICAgICAgLm1hcChlZGdlID0+IHRvU3RyaW5nKGVkZ2UudG8pKQogICAgICAgIC5maWx0ZXIoXyAhPSAiIikKICAgICAgICAuc29ydGVkKGFscGhhYmV0aWNhbE9yZGVyaW5nKS5oZWFkT3B0aW9uCiAgICAgICAgLmdldE9yRWxzZSgiIikKICAgICkK</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">dmFsIFRydWU6ICBMYWJlbCA9IFNvbWUoInRydWUiKQogIHZhbCBGYWxzZTogTGFiZWwgPSBTb21lKCJmYWxzZSIpCg==</text>
+        <text encoding="base64">IHByaXZhdGUgZGVmIHRvU3RyaW5nKGVkZ2U6IEVkZ2VUKTogU3RyaW5nID0gZWRnZS50byBtYXRjaCB7CiAgICAgID8/PwogIH0=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">dmFsIHN0ZXBUdXBsZU9yZGVyaW5nOiBPcmRlcmluZ1tTdGVwT3JkZXJUdXBsZV0gPSBPcmRlcmluZy5jb21wYXJhdG9yVG9PcmRlcmluZygKICAgIE9yZGVyaW5nLmJ5W1N0ZXBPcmRlclR1cGxlLCBJbnRdKF8uXzEpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMikoYWxwaGFiZXRpY2FsT3JkZXJpbmcpIHRoZW5Db21wYXJpbmcKICAgICAgT3JkZXJpbmcuYnlbU3RlcE9yZGVyVHVwbGUsIFN0cmluZ10oXy5fMykoYWxwaGFiZXRpY2FsT3JkZXJpbmcpKQo=</text>
+        <text encoding="base64">OiBMYWJlbCA9PjogTGFiZWxPcmRlclR1cGxlID0gewogICAgY2FzZSBUcnVlICAgICAgPT4gKDEsIFRydWUuZ2V0KQogICAgY2FzZSBGYWxzZSAgICAgPT4gKDIsIEZhbHNlLmdldCkKICAgIGNhc2UgU29tZShzdHIpID0+ICgzLCBzdHIpCiAgICBjYXNlIE5vbmUgICAgICA9PiAoNCwgIiIpCiAgfQo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIH0KCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">dmFsIFRydWU6ICBMYWJlbCA9IFNvbWUoInRydWUiKQogIHZhbCBGYWxzZTogTGFiZWwgPSBTb21lKCJmYWxzZSIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
