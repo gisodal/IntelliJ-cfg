@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570133176915">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570135206358">
         <mark key="[" line="48" column="38" />
         <mark key="]" line="48" column="37" />
         <mark key="^" line="48" column="37" />
@@ -15,12 +15,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570133147306">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570135565759">
         <mark key="'" line="99" column="30" />
-        <mark key="[" line="112" column="48" />
-        <mark key="]" line="112" column="47" />
-        <mark key="^" line="112" column="47" />
-        <mark key="." line="112" column="47" />
+        <mark key="[" line="115" column="68" />
+        <mark key="]" line="115" column="68" />
+        <mark key="^" line="115" column="68" />
+        <mark key="." line="115" column="68" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -333,7 +333,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1570131419248">
+      <file name="/sbtShell" timestamp="1570177525919">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -375,7 +375,7 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1570134988060">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1570135154267">
         <mark key="'" line="351" column="0" />
         <mark key="[" line="89" column="37" />
         <mark key="]" line="89" column="50" />
@@ -548,7 +548,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>toInnerCodeLines(edge.from).map(_.tab(innerLevelShift(edge.from)))</text>
+        <text>toInnerCodeLines(node).map(_.tab(innerLevelShift(node))</text>
       </register>
       <register name="-" type="4">
         <text>val test = 1</text>
@@ -557,7 +557,7 @@
         <text>test</text>
       </register>
       <register name="0" type="4">
-        <text>toInnerCodeLines(edge.from).map(_.tab(innerLevelShift(edge.from)))</text>
+        <text>toInnerCodeLines(node).map(_.tab(innerLevelShift(node))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIH0KCg==</text>
