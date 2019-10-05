@@ -28,12 +28,12 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570190975934">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570195645312">
         <mark key="'" line="146" column="67" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="37" />
-        <mark key="." line="18" column="37" />
-        <mark key="^" line="18" column="37" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
+        <mark key="^" line="15" column="20" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569599401727">
         <mark key="'" line="59" column="0" />
@@ -102,6 +102,12 @@
         <mark key="[" line="5" column="7" />
         <mark key="]" line="5" column="26" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1570195714745">
+        <mark key="[" line="86" column="9" />
+        <mark key="]" line="86" column="13" />
+        <mark key="^" line="86" column="13" />
+        <mark key="." line="86" column="13" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
         <mark key="]" line="17" column="54" />
@@ -139,6 +145,12 @@
         <mark key="]" line="5" column="16" />
         <mark key="^" line="62" column="75" />
         <mark key="." line="63" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1570195777491">
+        <mark key="[" line="9" column="15" />
+        <mark key="]" line="9" column="32" />
+        <mark key="." line="8" column="3" />
+        <mark key="^" line="8" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1568722778959">
         <mark key="[" line="79" column="47" />
@@ -302,6 +314,12 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1570195864710">
+        <mark key="[" line="45" column="24" />
+        <mark key="]" line="45" column="30" />
+        <mark key="^" line="45" column="30" />
+        <mark key="." line="45" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1566209161009">
         <mark key="[" line="7" column="12" />
@@ -546,7 +564,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>StepId</text>
+        <text>blockifyRec(pstep)</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -555,7 +573,7 @@
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>StepId</text>
+        <text>blockifyRec(pstep)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dHlwZSBTdGVwSWQgPSBTdHJpbmcKdHlwZSBFdmFsSWQgPSBTdGVwSWQK</text>
