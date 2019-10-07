@@ -28,12 +28,12 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570439445000">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570456388109">
         <mark key="'" line="146" column="67" />
-        <mark key="[" line="101" column="0" />
-        <mark key="]" line="106" column="65" />
-        <mark key="." line="15" column="0" />
-        <mark key="^" line="15" column="20" />
+        <mark key="[" line="221" column="32" />
+        <mark key="]" line="221" column="32" />
+        <mark key="." line="221" column="32" />
+        <mark key="^" line="187" column="63" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569599401727">
         <mark key="'" line="59" column="0" />
@@ -97,10 +97,6 @@
         <mark key="]" line="15" column="36" />
         <mark key="^" line="15" column="36" />
         <mark key="." line="15" column="36" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/IterableEnhancements.scala" timestamp="1569922354108">
-        <mark key="[" line="5" column="7" />
-        <mark key="]" line="5" column="26" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1570195714745">
         <mark key="[" line="86" column="9" />
@@ -182,11 +178,11 @@
         <mark key="^" line="19" column="19" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/JavaBehaviorTranslator.scala" timestamp="1565694671848">
-        <mark key="[" line="55" column="11" />
-        <mark key="]" line="55" column="16" />
-        <mark key="." line="55" column="16" />
-        <mark key="^" line="55" column="16" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/JavaBehaviorTranslator.scala" timestamp="1570456419435">
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="50" column="0" />
+        <mark key="^" line="54" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/OptionEnhancements.scala" timestamp="1570014524958">
         <mark key="[" line="11" column="0" />
@@ -219,10 +215,6 @@
         <mark key="]" line="93" column="25" />
         <mark key="." line="93" column="25" />
         <mark key="^" line="20" column="39" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1570013416902">
-        <mark key="[" line="38" column="4" />
-        <mark key="]" line="43" column="53" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -381,6 +373,11 @@
         <mark key="^" line="220" column="116" />
         <mark key="." line="220" column="116" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/JavaStepTranslator.scala" timestamp="1570456426175">
+        <mark key="[" line="227" column="56" />
+        <mark key="]" line="227" column="56" />
+        <mark key="." line="227" column="56" />
+      </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
         <mark key="]" line="123" column="118" />
@@ -442,12 +439,12 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570455836381">
-        <mark key="'" line="143" column="20" />
-        <mark key="[" line="75" column="3" />
-        <mark key="]" line="75" column="5" />
-        <mark key="^" line="75" column="5" />
-        <mark key="." line="75" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570456521273">
+        <mark key="'" line="128" column="4" />
+        <mark key="[" line="19" column="65" />
+        <mark key="]" line="19" column="75" />
+        <mark key="." line="19" column="75" />
+        <mark key="^" line="19" column="75" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570191513366">
         <mark key="[" line="18" column="0" />
@@ -468,7 +465,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="67" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="243" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="248" column="36" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="250" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
@@ -568,19 +564,20 @@
       <jump line="45" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
       <jump line="48" column="46" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
       <jump line="102" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
+      <jump line="127" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSAoQ29tYmluZUtleS5JZihldmFsSWQsIGNvbmRpdGlvbiksIGlmcykgPT4KICAgICAgICB2YWwgKHRydWVCb2RpZXMsIGZhbHNlQm9kaWVzKSA9IGlmcy5tYXAgeyBjYXNlIElmKF8sIF8sIHRydWVCb2R5LCBmYWxzZUJvZHkpID0+ICh0cnVlQm9keSwgZmFsc2VCb2R5KSB9LnVuemlwCiAgICAgICAgSWYoZXZhbElkLCBjb25kaXRpb24sIGNvbWJpbmUodHJ1ZUJvZGllcyksIGNvbWJpbmUoZmFsc2VCb2RpZXMpKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuV2hpbGUoZXZhbElkLCBjb25kaXRpb24sIGJyYW5jaCksIHdoaWxlcykgPT4KICAgICAgICB2YWwgKHdoaWxlQm9kaWVzLCBhZnRlckJvZGllcykgPSB3aGlsZXMubWFwIHsgY2FzZSBXaGlsZShfLCBfLCBfLCB3aGlsZUJvZHksIGFmdGVyQm9keSkgPT4gKHdoaWxlQm9keSwgYWZ0ZXJCb2R5KSB9LnVuemlwCiAgICAgICAgV2hpbGUoZXZhbElkLCBjb25kaXRpb24sIGJyYW5jaCwgY29tYmluZSh3aGlsZUJvZGllcyksIGNvbWJpbmUoYWZ0ZXJCb2RpZXMpKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuRm9yRWFjaChldmFsSWQsIGVsZW1lbnROYW1lKSwgZm9yRWFjaGVzKSA9PgogICAgICAgIHZhbCBib2RpZXMgPSBmb3JFYWNoZXMubWFwIHsgY2FzZSBGb3JFYWNoKF8sIF8sIGJvZHkpID0+IGJvZHkgfQogICAgICAgIEZvckVhY2goZXZhbElkLCBlbGVtZW50TmFtZSwgY29tYmluZShib2RpZXMpKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuRm9ybShmcm9tKSwgZm9ybXMpID0+CiAgICAgICAgdmFsIGFsbEl0ZW1zID0gZm9ybXMuZmxhdE1hcCB7IGNhc2UgRm9ybShfLCBpdGVtcykgPT4gaXRlbXMgfS5zb3J0ZWQKICAgICAgICBGb3JtKGZyb20sIGFsbEl0ZW1zKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuQ29kZSwgY29kZVN0ZXBzKSA9PgogICAgICAgIEJsb2NrKGNvZGVTdGVwcykgOjogTmlsCgogICAgICBjYXNlIChDb21iaW5lS2V5Lk90aGVyLCBvdGhlclN0ZXBzKSA9PgogICAgICAgIG90aGVyU3RlcHM=</text>
+        <text>throw new GenerateException(s&quot;Cannot convert dstep of type ${other.getClass.getSimpleName} to codestep&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y2FzZSBpbnB1dFN0ZXA6IElucHV0U3RlcCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gRm9ybShpbnB1dFN0ZXAuZnJvbSwgTGlzdChpbnB1dFN0ZXBUb0Zvcm1JdGVtKGlucHV0U3RlcCkpKQ==</text>
+        <text encoding="base64">Y2FzZSBCcmFuY2hXcmFwcGVyKF8sIGV2YWxJZCwgY29uZCwgYnJhbmNoLCBDb250cm9sS2luZC5BZnRlciwgd3JhcHBlZCkgPT4gV2hpbGUoZXZhbElkLCBjb25kLCAhYnJhbmNoLCBOaWxTdGVwLCB0b0NvZGVTdGVwKHdyYXBwZWQpKQ==</text>
       </register>
       <register name="/" type="4">
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSAoQ29tYmluZUtleS5JZihldmFsSWQsIGNvbmRpdGlvbiksIGlmcykgPT4KICAgICAgICB2YWwgKHRydWVCb2RpZXMsIGZhbHNlQm9kaWVzKSA9IGlmcy5tYXAgeyBjYXNlIElmKF8sIF8sIHRydWVCb2R5LCBmYWxzZUJvZHkpID0+ICh0cnVlQm9keSwgZmFsc2VCb2R5KSB9LnVuemlwCiAgICAgICAgSWYoZXZhbElkLCBjb25kaXRpb24sIGNvbWJpbmUodHJ1ZUJvZGllcyksIGNvbWJpbmUoZmFsc2VCb2RpZXMpKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuV2hpbGUoZXZhbElkLCBjb25kaXRpb24sIGJyYW5jaCksIHdoaWxlcykgPT4KICAgICAgICB2YWwgKHdoaWxlQm9kaWVzLCBhZnRlckJvZGllcykgPSB3aGlsZXMubWFwIHsgY2FzZSBXaGlsZShfLCBfLCBfLCB3aGlsZUJvZHksIGFmdGVyQm9keSkgPT4gKHdoaWxlQm9keSwgYWZ0ZXJCb2R5KSB9LnVuemlwCiAgICAgICAgV2hpbGUoZXZhbElkLCBjb25kaXRpb24sIGJyYW5jaCwgY29tYmluZSh3aGlsZUJvZGllcyksIGNvbWJpbmUoYWZ0ZXJCb2RpZXMpKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuRm9yRWFjaChldmFsSWQsIGVsZW1lbnROYW1lKSwgZm9yRWFjaGVzKSA9PgogICAgICAgIHZhbCBib2RpZXMgPSBmb3JFYWNoZXMubWFwIHsgY2FzZSBGb3JFYWNoKF8sIF8sIGJvZHkpID0+IGJvZHkgfQogICAgICAgIEZvckVhY2goZXZhbElkLCBlbGVtZW50TmFtZSwgY29tYmluZShib2RpZXMpKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuRm9ybShmcm9tKSwgZm9ybXMpID0+CiAgICAgICAgdmFsIGFsbEl0ZW1zID0gZm9ybXMuZmxhdE1hcCB7IGNhc2UgRm9ybShfLCBpdGVtcykgPT4gaXRlbXMgfS5zb3J0ZWQKICAgICAgICBGb3JtKGZyb20sIGFsbEl0ZW1zKSA6OiBOaWwKCiAgICAgIGNhc2UgKENvbWJpbmVLZXkuQ29kZSwgY29kZVN0ZXBzKSA9PgogICAgICAgIEJsb2NrKGNvZGVTdGVwcykgOjogTmlsCgogICAgICBjYXNlIChDb21iaW5lS2V5Lk90aGVyLCBvdGhlclN0ZXBzKSA9PgogICAgICAgIG90aGVyU3RlcHM=</text>
+        <text>throw new GenerateException(s&quot;Cannot convert dstep of type ${other.getClass.getSimpleName} to codestep&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGNsdXN0ZXJUb05vZGUoY2x1c3RlcjogQ2x1c3Rlcik6IGRlc2lnbi5HcmFwaC5Ob2RlID0gewogICAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5kZXNpZ24uZW5yaWNoLkNsdXN0ZXIuXwoKICAgICAgLy8gb3JkZXIgRGVwR3JhcGggbm9kZXMKICAgICAgdmFsIHN1YkRlcEdyYXBoID0gY2x1c3Rlci5ncmFwaAogICAgICB2YWwgc29ydGVkTm9kZXMgPSBzdWJEZXBHcmFwaC5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDEgPT4gc3ViRGVwR3JhcGgubm9kZXMudG9MaXN0CiAgICAgICAgY2FzZSBfID0+IGRlc2lnbi5UcmF2ZXJzZXIoc3ViRGVwR3JhcGgpLnNvcnRlZAogICAgICB9CiAgICAgIHZhbCBzb3J0ZWREc3RlcHMgPSBzb3J0ZWROb2Rlcy5tYXAoXy50b091dGVyKSAKCiAgICAgIENvbnZlcnRlci5kc3RlcHNUb1Byb2Nlc3NOb2RlKGNsdXN0ZXIuaWQsIGNsdXN0ZXIuYm9keUlkLCBzb3J0ZWREc3RlcHMpIAogICAgfQo=</text>
