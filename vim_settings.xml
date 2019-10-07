@@ -439,12 +439,12 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570456521273">
-        <mark key="'" line="128" column="4" />
-        <mark key="[" line="19" column="65" />
-        <mark key="]" line="19" column="75" />
-        <mark key="." line="19" column="75" />
-        <mark key="^" line="19" column="75" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570459921388">
+        <mark key="'" line="116" column="4" />
+        <mark key="[" line="100" column="0" />
+        <mark key="]" line="100" column="0" />
+        <mark key="^" line="99" column="49" />
+        <mark key="." line="100" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570191513366">
         <mark key="[" line="18" column="0" />
@@ -568,7 +568,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>throw new GenerateException(s&quot;Cannot convert dstep of type ${other.getClass.getSimpleName} to codestep&quot;)</text>
+        <text encoding="base64">dmFsIGNvbXBvc2l0ZXMgPSBjb21iaW5lZC5jb2xsZWN0IHsgY2FzZSBjOiBDb21wb3NpdGUgPT4gYyB9</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Y2FzZSBCcmFuY2hXcmFwcGVyKF8sIGV2YWxJZCwgY29uZCwgYnJhbmNoLCBDb250cm9sS2luZC5BZnRlciwgd3JhcHBlZCkgPT4gV2hpbGUoZXZhbElkLCBjb25kLCAhYnJhbmNoLCBOaWxTdGVwLCB0b0NvZGVTdGVwKHdyYXBwZWQpKQ==</text>
@@ -577,27 +577,22 @@
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>throw new GenerateException(s&quot;Cannot convert dstep of type ${other.getClass.getSimpleName} to codestep&quot;)</text>
+        <text encoding="base64">dmFsIGNvbXBvc2l0ZXMgPSBjb21iaW5lZC5jb2xsZWN0IHsgY2FzZSBjOiBDb21wb3NpdGUgPT4gYyB9</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ZGVmIGNsdXN0ZXJUb05vZGUoY2x1c3RlcjogQ2x1c3Rlcik6IGRlc2lnbi5HcmFwaC5Ob2RlID0gewogICAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5kZXNpZ24uZW5yaWNoLkNsdXN0ZXIuXwoKICAgICAgLy8gb3JkZXIgRGVwR3JhcGggbm9kZXMKICAgICAgdmFsIHN1YkRlcEdyYXBoID0gY2x1c3Rlci5ncmFwaAogICAgICB2YWwgc29ydGVkTm9kZXMgPSBzdWJEZXBHcmFwaC5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDEgPT4gc3ViRGVwR3JhcGgubm9kZXMudG9MaXN0CiAgICAgICAgY2FzZSBfID0+IGRlc2lnbi5UcmF2ZXJzZXIoc3ViRGVwR3JhcGgpLnNvcnRlZAogICAgICB9CiAgICAgIHZhbCBzb3J0ZWREc3RlcHMgPSBzb3J0ZWROb2Rlcy5tYXAoXy50b091dGVyKSAKCiAgICAgIENvbnZlcnRlci5kc3RlcHNUb1Byb2Nlc3NOb2RlKGNsdXN0ZXIuaWQsIGNsdXN0ZXIuYm9keUlkLCBzb3J0ZWREc3RlcHMpIAogICAgfQo=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwga2V5ID0gY29tYmluZUtleSh4KQo=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">Ly8gY29udmVydCBzdWJEZXBHcmFwaCB0byBiZWhhdmlvciBvciBmb3JtCiAgICAgIGlmIChjbHVzdGVyLmNvbnRhaW5zSW5wdXQpIHsKICAgICAgICBhc3NlcnQoY2x1c3Rlci5ub2Rlcy5mb3JhbGwoXy50b091dGVyLmlzSW5wdXQpKQogICAgICAgIHZhbCBpbnB1dFN0ZXBzID0gc29ydGVkTm9kZXMubWFwKF8udG9PdXRlci5pbm5lcm1vc3QpLmNvbGxlY3R7IGNhc2UgaW5wdXQ6IElucHV0U3RlcCA9PiBpbnB1dCB9Lm1hcChfLmlubmVybW9zdC5hc0luc3RhbmNlT2ZbSW5wdXRTdGVwXSkKICAgICAgICB2YWwgZm9ybSA9IENvbnZlcnRlci5pbnB1dFN0ZXBzVG9Gb3JtKGlucHV0U3RlcHMpCiAgICAgICAgTm9kZS5Gb3JtKGNsdXN0ZXIuaWQsIFVuYXNzaWduZWROciwgZm9ybSkKICAgICAgfSBlbHNlIHsKICAgICAgICBhc3NlcnQoIWNsdXN0ZXIubm9kZXMuZXhpc3RzKF8udG9PdXRlci5pc0lucHV0KSkKICAgICAgICAvLyBjb252ZXJ0IHRvIGJlaGF2aW9yCiAgICAgICAgdmFsIGRzdGVwcyA9IHNvcnRlZE5vZGVzLm1hcChfLnRvT3V0ZXIpCiAgICAgICAgdmFsIGNvZGVTdGVwcyA9IGRzdGVwcy5tYXAoXy53aXRob3V0QWZ0ZXIpLm1hcChfLnVud3JhcChjbHVzdGVyLmJvZHlJZCkpCiAgICAgICAgdmFsIGJsb2NrID0gQ29udmVydGVyLmNvZGVTdGVwc1RvQmxvY2soY29kZVN0ZXBzKQogICAgICAgIE5vZGUuQmVoYXZpb3IoY2x1c3Rlci5pZCwgVW5hc3NpZ25lZE5yLCBibG9jaykKICAgICAgfQ==</text>
+        <text encoding="base64">ZGVmIGNsdXN0ZXJUb05vZGUoY2x1c3RlcjogQ2x1c3Rlcik6IGRlc2lnbi5HcmFwaC5Ob2RlID0gewogICAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5kZXNpZ24uZW5yaWNoLkNsdXN0ZXIuXwoKICAgICAgLy8gb3JkZXIgRGVwR3JhcGggbm9kZXMKICAgICAgdmFsIHN1YkRlcEdyYXBoID0gY2x1c3Rlci5ncmFwaAogICAgICB2YWwgc29ydGVkTm9kZXMgPSBzdWJEZXBHcmFwaC5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDEgPT4gc3ViRGVwR3JhcGgubm9kZXMudG9MaXN0CiAgICAgICAgY2FzZSBfID0+IGRlc2lnbi5UcmF2ZXJzZXIoc3ViRGVwR3JhcGgpLnNvcnRlZAogICAgICB9CiAgICAgIHZhbCBzb3J0ZWREc3RlcHMgPSBzb3J0ZWROb2Rlcy5tYXAoXy50b091dGVyKSAKCiAgICAgIENvbnZlcnRlci5kc3RlcHNUb1Byb2Nlc3NOb2RlKGNsdXN0ZXIuaWQsIGNsdXN0ZXIuYm9keUlkLCBzb3J0ZWREc3RlcHMpIAogICAgfQo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">dHlwZSBTdGVwSWQgPSBTdHJpbmcKdHlwZSBFdmFsSWQgPSBTdGVwSWQK</text>
+        <text encoding="base64">Ly8gY29udmVydCBzdWJEZXBHcmFwaCB0byBiZWhhdmlvciBvciBmb3JtCiAgICAgIGlmIChjbHVzdGVyLmNvbnRhaW5zSW5wdXQpIHsKICAgICAgICBhc3NlcnQoY2x1c3Rlci5ub2Rlcy5mb3JhbGwoXy50b091dGVyLmlzSW5wdXQpKQogICAgICAgIHZhbCBpbnB1dFN0ZXBzID0gc29ydGVkTm9kZXMubWFwKF8udG9PdXRlci5pbm5lcm1vc3QpLmNvbGxlY3R7IGNhc2UgaW5wdXQ6IElucHV0U3RlcCA9PiBpbnB1dCB9Lm1hcChfLmlubmVybW9zdC5hc0luc3RhbmNlT2ZbSW5wdXRTdGVwXSkKICAgICAgICB2YWwgZm9ybSA9IENvbnZlcnRlci5pbnB1dFN0ZXBzVG9Gb3JtKGlucHV0U3RlcHMpCiAgICAgICAgTm9kZS5Gb3JtKGNsdXN0ZXIuaWQsIFVuYXNzaWduZWROciwgZm9ybSkKICAgICAgfSBlbHNlIHsKICAgICAgICBhc3NlcnQoIWNsdXN0ZXIubm9kZXMuZXhpc3RzKF8udG9PdXRlci5pc0lucHV0KSkKICAgICAgICAvLyBjb252ZXJ0IHRvIGJlaGF2aW9yCiAgICAgICAgdmFsIGRzdGVwcyA9IHNvcnRlZE5vZGVzLm1hcChfLnRvT3V0ZXIpCiAgICAgICAgdmFsIGNvZGVTdGVwcyA9IGRzdGVwcy5tYXAoXy53aXRob3V0QWZ0ZXIpLm1hcChfLnVud3JhcChjbHVzdGVyLmJvZHlJZCkpCiAgICAgICAgdmFsIGJsb2NrID0gQ29udmVydGVyLmNvZGVTdGVwc1RvQmxvY2soY29kZVN0ZXBzKQogICAgICAgIE5vZGUuQmVoYXZpb3IoY2x1c3Rlci5pZCwgVW5hc3NpZ25lZE5yLCBibG9jaykKICAgICAgfQ==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">cHJpdmF0ZVtkZXNpZ25dIHR5cGUgU3RlcElkID0gU3RyaW5nCiAgcHJpdmF0ZVtkZXNpZ25dIHR5cGUgRXZhbElkID0gU3RlcElkCg==</text>
+        <text encoding="base64">dHlwZSBTdGVwSWQgPSBTdHJpbmcKdHlwZSBFdmFsSWQgPSBTdGVwSWQK</text>
       </register>
       <register name="5" type="4">
-        <text>// TODO is dit wel een Exclusive of uberhaupt Gateway?
-      case class ForEach(
-        override val id     : NodeId,
-        override val evalId : EvalId,
-        override val label  : Label,
-      ) extends Exclusive</text>
+        <text encoding="base64">cHJpdmF0ZVtkZXNpZ25dIHR5cGUgU3RlcElkID0gU3RyaW5nCiAgcHJpdmF0ZVtkZXNpZ25dIHR5cGUgRXZhbElkID0gU3RlcElkCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -609,17 +604,22 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
+      <register name="6" type="4">
+        <text>// TODO is dit wel een Exclusive of uberhaupt Gateway?
+      case class ForEach(
+        override val id     : NodeId,
+        override val evalId : EvalId,
+        override val label  : Label,
+      ) extends Exclusive</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIH0KCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ZGVmIGZsYXR0ZW4oeHM6IExpc3RbQW55XSk6IExpc3RbQW55XSA9IHhzIG1hdGNoIHsKICAgIGNhc2UgTmlsID0+IE5pbAogICAgY2FzZSAoaGVhZDogTGlzdFtfXSkgOjogdGFpbCA9PiBmbGF0dGVuKGhlYWQpICsrIGZsYXR0ZW4odGFpbCkKICAgIGNhc2UgaGVhZCA6OiB0YWlsID0+IGhlYWQgOjogZmxhdHRlbih0YWlsKQogIH0K</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IHByaXZhdGUgZGVmIGlubmVyTGV2ZWxTaGlmdChub2RlOiBOb2RlVCk6IEludCA9IG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICBjYXNlIEdyYXBoLk5vZGUoXywgU29tZSgiZm9yZWFjaCIpLCBfLCBfLCBfKSA9PiAxCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9CgogIHByaXZhdGUgZGVmIGxldmVsU2hpZnQobm9kZTogTm9kZVQpOiBJbnQgPSBub2RlIG1hdGNoIHsKICAgIGNhc2UgbiBpZiBuLmlzQ29udHJvbCAgICA9PiAgMQogICAgY2FzZSBuIGlmIG4uaXNDb250cm9sRW5kID0+IC0xCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9Cg==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">ZGVmIHRvQ29kZUxpbmUobm9kZTogTm9kZVQpOiBPcHRpb25bU3RyaW5nXSA9CiAgICBjb21iaW5lKHRvQ29udHJvbExpbmUobm9kZSksIHRvU3RlcExpbmUobm9kZSksIHRvSW5uZXJDb2RlTGluZXMobm9kZSkubWFwKF8udGFiKDEpKSkK</text>
+        <text encoding="base64">IHByaXZhdGUgZGVmIGlubmVyTGV2ZWxTaGlmdChub2RlOiBOb2RlVCk6IEludCA9IG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICBjYXNlIEdyYXBoLk5vZGUoXywgU29tZSgiZm9yZWFjaCIpLCBfLCBfLCBfKSA9PiAxCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9CgogIHByaXZhdGUgZGVmIGxldmVsU2hpZnQobm9kZTogTm9kZVQpOiBJbnQgPSBub2RlIG1hdGNoIHsKICAgIGNhc2UgbiBpZiBuLmlzQ29udHJvbCAgICA9PiAgMQogICAgY2FzZSBuIGlmIG4uaXNDb250cm9sRW5kID0+IC0xCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
