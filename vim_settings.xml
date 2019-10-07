@@ -28,10 +28,10 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570433940789">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570438417800">
         <mark key="'" line="146" column="67" />
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
+        <mark key="[" line="101" column="0" />
+        <mark key="]" line="106" column="65" />
         <mark key="." line="15" column="0" />
         <mark key="^" line="15" column="20" />
       </file>
@@ -54,11 +54,11 @@
         <mark key="^" line="14" column="69" />
         <mark key="." line="14" column="69" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1570192451061">
-        <mark key="[" line="36" column="20" />
-        <mark key="]" line="36" column="19" />
-        <mark key="^" line="36" column="19" />
-        <mark key="." line="36" column="19" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1570434874983">
+        <mark key="[" line="33" column="34" />
+        <mark key="]" line="34" column="47" />
+        <mark key="^" line="34" column="47" />
+        <mark key="." line="34" column="47" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1569410122948">
         <mark key="[" line="40" column="74" />
@@ -121,12 +121,12 @@
         <mark key="." line="315" column="105" />
         <mark key="^" line="315" column="105" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1570189559577">
-        <mark key="'" line="372" column="60" />
-        <mark key="[" line="767" column="27" />
-        <mark key="]" line="767" column="36" />
-        <mark key="^" line="767" column="36" />
-        <mark key="." line="767" column="36" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1570436665473">
+        <mark key="'" line="370" column="60" />
+        <mark key="[" line="703" column="14" />
+        <mark key="]" line="703" column="19" />
+        <mark key="." line="703" column="19" />
+        <mark key="^" line="703" column="19" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -315,9 +315,9 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1570433739816">
-        <mark key="[" line="45" column="24" />
-        <mark key="]" line="45" column="30" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1570438529085">
+        <mark key="[" line="23" column="2" />
+        <mark key="]" line="59" column="3" />
         <mark key="^" line="45" column="30" />
         <mark key="." line="45" column="30" />
       </file>
@@ -442,6 +442,13 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570438816928">
+        <mark key="'" line="48" column="46" />
+        <mark key="[" line="29" column="4" />
+        <mark key="]" line="29" column="66" />
+        <mark key="^" line="79" column="45" />
+        <mark key="." line="79" column="45" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570191513366">
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="0" />
@@ -461,8 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="194" column="27" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
-      <jump line="17" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="246" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="67" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="243" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
@@ -561,39 +566,41 @@
       <jump line="308" column="18" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="146" column="67" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
+      <jump line="45" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
+      <jump line="48" column="46" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>blockifyRec(pstep)</text>
+        <text>Form(inputSteps.head.from, inputSteps.map(inputStepToFormItem))</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>assert(!dsteps.exists(_.isInput), &quot;A list of dsteps cannot be converted to a behavior if it contains an input&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>blockifyRec(pstep)</text>
+        <text>Form(inputSteps.head.from, inputSteps.map(inputStepToFormItem))</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">dHlwZSBTdGVwSWQgPSBTdHJpbmcKdHlwZSBFdmFsSWQgPSBTdGVwSWQK</text>
+        <text encoding="base64">ZGVmIGNsdXN0ZXJUb05vZGUoY2x1c3RlcjogQ2x1c3Rlcik6IGRlc2lnbi5HcmFwaC5Ob2RlID0gewogICAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5kZXNpZ24uZW5yaWNoLkNsdXN0ZXIuXwoKICAgICAgLy8gb3JkZXIgRGVwR3JhcGggbm9kZXMKICAgICAgdmFsIHN1YkRlcEdyYXBoID0gY2x1c3Rlci5ncmFwaAogICAgICB2YWwgc29ydGVkTm9kZXMgPSBzdWJEZXBHcmFwaC5zaXplIG1hdGNoIHsKICAgICAgICBjYXNlIDEgPT4gc3ViRGVwR3JhcGgubm9kZXMudG9MaXN0CiAgICAgICAgY2FzZSBfID0+IGRlc2lnbi5UcmF2ZXJzZXIoc3ViRGVwR3JhcGgpLnNvcnRlZAogICAgICB9CiAgICAgIHZhbCBzb3J0ZWREc3RlcHMgPSBzb3J0ZWROb2Rlcy5tYXAoXy50b091dGVyKSAKCiAgICAgIENvbnZlcnRlci5kc3RlcHNUb1Byb2Nlc3NOb2RlKGNsdXN0ZXIuaWQsIGNsdXN0ZXIuYm9keUlkLCBzb3J0ZWREc3RlcHMpIAogICAgfQo=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">cHJpdmF0ZVtkZXNpZ25dIHR5cGUgU3RlcElkID0gU3RyaW5nCiAgcHJpdmF0ZVtkZXNpZ25dIHR5cGUgRXZhbElkID0gU3RlcElkCg==</text>
+        <text encoding="base64">Ly8gY29udmVydCBzdWJEZXBHcmFwaCB0byBiZWhhdmlvciBvciBmb3JtCiAgICAgIGlmIChjbHVzdGVyLmNvbnRhaW5zSW5wdXQpIHsKICAgICAgICBhc3NlcnQoY2x1c3Rlci5ub2Rlcy5mb3JhbGwoXy50b091dGVyLmlzSW5wdXQpKQogICAgICAgIHZhbCBpbnB1dFN0ZXBzID0gc29ydGVkTm9kZXMubWFwKF8udG9PdXRlci5pbm5lcm1vc3QpLmNvbGxlY3R7IGNhc2UgaW5wdXQ6IElucHV0U3RlcCA9PiBpbnB1dCB9Lm1hcChfLmlubmVybW9zdC5hc0luc3RhbmNlT2ZbSW5wdXRTdGVwXSkKICAgICAgICB2YWwgZm9ybSA9IENvbnZlcnRlci5pbnB1dFN0ZXBzVG9Gb3JtKGlucHV0U3RlcHMpCiAgICAgICAgTm9kZS5Gb3JtKGNsdXN0ZXIuaWQsIFVuYXNzaWduZWROciwgZm9ybSkKICAgICAgfSBlbHNlIHsKICAgICAgICBhc3NlcnQoIWNsdXN0ZXIubm9kZXMuZXhpc3RzKF8udG9PdXRlci5pc0lucHV0KSkKICAgICAgICAvLyBjb252ZXJ0IHRvIGJlaGF2aW9yCiAgICAgICAgdmFsIGRzdGVwcyA9IHNvcnRlZE5vZGVzLm1hcChfLnRvT3V0ZXIpCiAgICAgICAgdmFsIGNvZGVTdGVwcyA9IGRzdGVwcy5tYXAoXy53aXRob3V0QWZ0ZXIpLm1hcChfLnVud3JhcChjbHVzdGVyLmJvZHlJZCkpCiAgICAgICAgdmFsIGJsb2NrID0gQ29udmVydGVyLmNvZGVTdGVwc1RvQmxvY2soY29kZVN0ZXBzKQogICAgICAgIE5vZGUuQmVoYXZpb3IoY2x1c3Rlci5pZCwgVW5hc3NpZ25lZE5yLCBibG9jaykKICAgICAgfQ==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">dHlwZSBTdGVwSWQgPSBTdHJpbmcKdHlwZSBFdmFsSWQgPSBTdGVwSWQK</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">cHJpdmF0ZVtkZXNpZ25dIHR5cGUgU3RlcElkID0gU3RyaW5nCiAgcHJpdmF0ZVtkZXNpZ25dIHR5cGUgRXZhbElkID0gU3RlcElkCg==</text>
+      </register>
+      <register name="5" type="4">
         <text>// TODO is dit wel een Exclusive of uberhaupt Gateway?
       case class ForEach(
         override val id     : NodeId,
         override val evalId : EvalId,
         override val label  : Label,
       ) extends Exclusive</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIH0KCg==</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZGVmIGZsYXR0ZW4oeHM6IExpc3RbQW55XSk6IExpc3RbQW55XSA9IHhzIG1hdGNoIHsKICAgIGNhc2UgTmlsID0+IE5pbAogICAgY2FzZSAoaGVhZDogTGlzdFtfXSkgOjogdGFpbCA9PiBmbGF0dGVuKGhlYWQpICsrIGZsYXR0ZW4odGFpbCkKICAgIGNhc2UgaGVhZCA6OiB0YWlsID0+IGhlYWQgOjogZmxhdHRlbih0YWlsKQogIH0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -605,17 +612,17 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">IHByaXZhdGUgZGVmIGlubmVyTGV2ZWxTaGlmdChub2RlOiBOb2RlVCk6IEludCA9IG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICBjYXNlIEdyYXBoLk5vZGUoXywgU29tZSgiZm9yZWFjaCIpLCBfLCBfLCBfKSA9PiAxCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9CgogIHByaXZhdGUgZGVmIGxldmVsU2hpZnQobm9kZTogTm9kZVQpOiBJbnQgPSBub2RlIG1hdGNoIHsKICAgIGNhc2UgbiBpZiBuLmlzQ29udHJvbCAgICA9PiAgMQogICAgY2FzZSBuIGlmIG4uaXNDb250cm9sRW5kID0+IC0xCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9Cg==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIH0KCg==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ZGVmIHRvQ29kZUxpbmUobm9kZTogTm9kZVQpOiBPcHRpb25bU3RyaW5nXSA9CiAgICBjb21iaW5lKHRvQ29udHJvbExpbmUobm9kZSksIHRvU3RlcExpbmUobm9kZSksIHRvSW5uZXJDb2RlTGluZXMobm9kZSkubWFwKF8udGFiKDEpKSkK</text>
+        <text encoding="base64">ZGVmIGZsYXR0ZW4oeHM6IExpc3RbQW55XSk6IExpc3RbQW55XSA9IHhzIG1hdGNoIHsKICAgIGNhc2UgTmlsID0+IE5pbAogICAgY2FzZSAoaGVhZDogTGlzdFtfXSkgOjogdGFpbCA9PiBmbGF0dGVuKGhlYWQpICsrIGZsYXR0ZW4odGFpbCkKICAgIGNhc2UgaGVhZCA6OiB0YWlsID0+IGhlYWQgOjogZmxhdHRlbih0YWlsKQogIH0K</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">Y2FzZSBHcmFwaC5Ob2RlKF8sIFNvbWUoImZvcmVhY2giKSwgXywgU29tZShsYWJlbCksIFNvbWUodmFyaWFibGUpKSAgICAgID0+IFNvbWUocyJGb3JlYWNoICRsYWJlbCBpbiAkdmFyaWFibGUiKQogICAgY2FzZSBHcmFwaC5Ob2RlKF8sIFNvbWUoImZvcmVhY2giKSwgXywgXywgXykgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+CiAgICAgIHRocm93IFRlc3RFcnJvcihzIkZvcmVhY2ggcmVxdWlyZXMgYSB2YXJpYWJsZSwgbGFiZWwgYW5kIGdyYXBoIHNwZWNpZmljYXRpb24gZm9yIGNvbnZlcnNpb24gdG8gY29kZSBsaW5lcyIp</text>
+        <text encoding="base64">IHByaXZhdGUgZGVmIGlubmVyTGV2ZWxTaGlmdChub2RlOiBOb2RlVCk6IEludCA9IG5vZGUudG9PdXRlciBtYXRjaCB7CiAgICBjYXNlIEdyYXBoLk5vZGUoXywgU29tZSgiZm9yZWFjaCIpLCBfLCBfLCBfKSA9PiAxCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9CgogIHByaXZhdGUgZGVmIGxldmVsU2hpZnQobm9kZTogTm9kZVQpOiBJbnQgPSBub2RlIG1hdGNoIHsKICAgIGNhc2UgbiBpZiBuLmlzQ29udHJvbCAgICA9PiAgMQogICAgY2FzZSBuIGlmIG4uaXNDb250cm9sRW5kID0+IC0xCiAgICBjYXNlIF8gICAgICAgICAgICAgICAgICAgPT4gIDAKICB9Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ZGVmIHRlc3RFZGdlTGFiZWxzKG5vZGU6IE5vZGVUKTogVW5pdCA9IHsKICAgIGlmICghbm9kZS5oYXNPbmx5Qm9vbGVhbkVkZ2VzKQogICAgICB0aHJvdyBUZXN0RXJyb3IocyJBbGwgb3V0Z29pbmcgZWRnZXMgb2Ygbm9kZSBbJHtub2RlLnRvT3V0ZXIuaWR9XSBtdXN0IGJlIGxhYmVsZWQgYnkgZWl0aGVyICd0cnVlJyBvciAnZmFsc2UnIikKICB9Cg==</text>
+        <text encoding="base64">ZGVmIHRvQ29kZUxpbmUobm9kZTogTm9kZVQpOiBPcHRpb25bU3RyaW5nXSA9CiAgICBjb21iaW5lKHRvQ29udHJvbExpbmUobm9kZSksIHRvU3RlcExpbmUobm9kZSksIHRvSW5uZXJDb2RlTGluZXMobm9kZSkubWFwKF8udGFiKDEpKSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
