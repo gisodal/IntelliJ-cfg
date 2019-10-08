@@ -28,11 +28,11 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570529077563">
-        <mark key="[" line="89" column="15" />
-        <mark key="]" line="89" column="39" />
-        <mark key="^" line="28" column="58" />
-        <mark key="." line="89" column="39" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570530677609">
+        <mark key="[" line="118" column="32" />
+        <mark key="]" line="118" column="59" />
+        <mark key="." line="118" column="59" />
+        <mark key="^" line="118" column="59" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569599401727">
         <mark key="'" line="59" column="0" />
@@ -71,12 +71,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1570474065331">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1570530945130">
         <mark key="'" line="99" column="42" />
-        <mark key="[" line="82" column="116" />
-        <mark key="]" line="82" column="124" />
-        <mark key="." line="82" column="124" />
-        <mark key="^" line="82" column="124" />
+        <mark key="[" line="78" column="75" />
+        <mark key="]" line="78" column="43" />
+        <mark key="." line="78" column="43" />
+        <mark key="^" line="78" column="43" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/DependencyLexer.scala" timestamp="1568922343007">
         <mark key="[" line="10" column="39" />
@@ -430,17 +430,18 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570478743950">
-        <mark key="[" line="17" column="76" />
-        <mark key="]" line="17" column="76" />
-        <mark key="^" line="16" column="84" />
-        <mark key="." line="17" column="76" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570531098143">
+        <mark key="i" line="57" column="11" />
+        <mark key="[" line="57" column="11" />
+        <mark key="]" line="74" column="70" />
+        <mark key="." line="74" column="70" />
+        <mark key="^" line="74" column="70" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570473936986">
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="." line="64" column="0" />
-        <mark key="^" line="62" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570530992479">
+        <mark key="[" line="59" column="62" />
+        <mark key="]" line="59" column="66" />
+        <mark key="." line="59" column="66" />
+        <mark key="^" line="59" column="66" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -559,7 +560,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ElementaryCodeStep</text>
+        <text>def unapply(arg: Behavior): Option[(NodeId, Long, CodeStep, Block)] = Some(arg.id, arg.nr, arg.codeStep, design.Converter.toBlock(arg.codeStep))</text>
       </register>
       <register name="-" type="4">
         <text>case object NoTags extends { val tags = Tags.fromOrigin(NoOrigin.origin) } with HasTags</text>
@@ -568,7 +569,7 @@
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>ElementaryCodeStep</text>
+        <text>def unapply(arg: Behavior): Option[(NodeId, Long, CodeStep, Block)] = Some(arg.id, arg.nr, arg.codeStep, design.Converter.toBlock(arg.codeStep))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEBpbmxpbmUgZGVmIGlkOiBTdHJpbmcgPSBvcmlnaW4uaWQK</text>
