@@ -28,11 +28,11 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570478778527">
-        <mark key="[" line="136" column="17" />
-        <mark key="]" line="136" column="17" />
-        <mark key="^" line="115" column="59" />
-        <mark key="." line="136" column="17" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570524924064">
+        <mark key="[" line="30" column="37" />
+        <mark key="]" line="30" column="37" />
+        <mark key="^" line="28" column="58" />
+        <mark key="." line="30" column="37" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569599401727">
         <mark key="'" line="59" column="0" />
@@ -333,7 +333,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1570470033112">
+      <file name="/sbtShell" timestamp="1570523385811">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -387,7 +387,7 @@
         <mark key="^" line="89" column="50" />
         <mark key="." line="89" column="50" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/package.scala" timestamp="1570478027982">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/package.scala" timestamp="1570524466298">
         <mark key="[" line="66" column="32" />
         <mark key="]" line="67" column="2" />
         <mark key="^" line="67" column="2" />
@@ -559,7 +559,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>_</text>
+        <text>ElementaryCodeStep</text>
       </register>
       <register name="-" type="4">
         <text>case object NoTags extends { val tags = Tags.fromOrigin(NoOrigin.origin) } with HasTags</text>
@@ -568,7 +568,7 @@
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>_</text>
+        <text>ElementaryCodeStep</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEBpbmxpbmUgZGVmIGlkOiBTdHJpbmcgPSBvcmlnaW4uaWQK</text>
