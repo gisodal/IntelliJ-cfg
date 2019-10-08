@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570135206358">
-        <mark key="[" line="48" column="38" />
-        <mark key="]" line="48" column="37" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1570533421598">
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="0" />
         <mark key="^" line="48" column="37" />
-        <mark key="." line="48" column="37" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/diagram-viewer/src/processDesign.renderer.ts" timestamp="1569928511483">
         <mark key="[" line="87" column="53" />
@@ -436,13 +436,11 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570533231121">
-        <mark key="'" line="71" column="62" />
-        <mark key="i" line="52" column="11" />
-        <mark key="[" line="67" column="103" />
-        <mark key="]" line="73" column="7" />
-        <mark key="." line="73" column="7" />
-        <mark key="^" line="73" column="7" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570534420173">
+        <mark key="'" line="78" column="62" />
+        <mark key="i" line="60" column="11" />
+        <mark key="[" line="27" column="4" />
+        <mark key="^" line="27" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570532949285">
         <mark key="[" line="58" column="0" />
@@ -567,16 +565,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIHRvQmxvY2soY29kZVN0ZXA6IENvZGVTdGVwKTogQmxvY2sgPSBjb2RlU3RlcCBtYXRjaCB7CiAgICBjYXNlIGJsb2NrOiBCbG9jayA9PiBibG9jawogICAgY2FzZSBvdGhlciAgICAgICAgPT4gQmxvY2sob3RoZXIpCiAgfQo=</text>
+        <text>throw new GenerateException(&quot;a codestep that is not a form contains an input&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>Lines = Steps.toCodeLines(this)</text>
+        <text>throw new GenerateException(&quot;a codestep that is not a form contains an input&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>Steps.toCodeLines(this)</text>
+        <text encoding="base64">PT4gTm9kZS5CZWhhdmlvcihjbHVzdGVyLmlkLCBVbmFzc2lnbmVkTnIsIGNvZGVTdGVwKQ==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHRvQmxvY2soY29kZVN0ZXA6IENvZGVTdGVwKTogQmxvY2sgPSBjb2RlU3RlcCBtYXRjaCB7CiAgICBjYXNlIGJsb2NrOiBCbG9jayA9PiBibG9jawogICAgY2FzZSBvdGhlciAgICAgICAgPT4gQmxvY2sob3RoZXIpCiAgfQo=</text>
