@@ -28,11 +28,11 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570530677609">
-        <mark key="[" line="118" column="32" />
-        <mark key="]" line="118" column="59" />
-        <mark key="." line="118" column="59" />
-        <mark key="^" line="118" column="59" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570532009657">
+        <mark key="[" line="128" column="0" />
+        <mark key="]" line="128" column="0" />
+        <mark key="^" line="128" column="29" />
+        <mark key="." line="128" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Isomorphism.scala" timestamp="1569599401727">
         <mark key="'" line="59" column="0" />
@@ -97,11 +97,11 @@
         <mark key="^" line="15" column="36" />
         <mark key="." line="15" column="36" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1570473975482">
-        <mark key="[" line="90" column="40" />
-        <mark key="]" line="90" column="40" />
-        <mark key="^" line="90" column="39" />
-        <mark key="." line="90" column="40" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1570532286313">
+        <mark key="[" line="35" column="39" />
+        <mark key="]" line="35" column="38" />
+        <mark key="^" line="35" column="38" />
+        <mark key="." line="35" column="38" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Tags.scala" timestamp="1570476985122">
         <mark key="[" line="8" column="6" />
@@ -430,12 +430,12 @@
         <mark key="^" line="213" column="82" />
         <mark key="." line="213" column="82" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570531098143">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1570532252096">
+        <mark key="'" line="76" column="62" />
         <mark key="i" line="57" column="11" />
-        <mark key="[" line="57" column="11" />
-        <mark key="]" line="74" column="70" />
-        <mark key="." line="74" column="70" />
-        <mark key="^" line="74" column="70" />
+        <mark key="[" line="77" column="0" />
+        <mark key="]" line="77" column="0" />
+        <mark key="." line="77" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1570530992479">
         <mark key="[" line="59" column="62" />
@@ -457,8 +457,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="250" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
-      <jump line="288" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="292" column="38" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="300" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="43" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
@@ -557,19 +555,21 @@
       <jump line="127" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
       <jump line="108" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="115" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
+      <jump line="128" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
+      <jump line="74" column="62" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>def unapply(arg: Behavior): Option[(NodeId, Long, CodeStep, Block)] = Some(arg.id, arg.nr, arg.codeStep, design.Converter.toBlock(arg.codeStep))</text>
+        <text>throw new GenerateException(&quot;Cannot convert composite to node&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>case object NoTags extends { val tags = Tags.fromOrigin(NoOrigin.origin) } with HasTags</text>
+        <text encoding="base64">Y2FzZSBfOiBGb3JtICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gZmFsc2U=</text>
       </register>
       <register name="/" type="4">
         <text>id</text>
       </register>
       <register name="0" type="4">
-        <text>def unapply(arg: Behavior): Option[(NodeId, Long, CodeStep, Block)] = Some(arg.id, arg.nr, arg.codeStep, design.Converter.toBlock(arg.codeStep))</text>
+        <text>throw new GenerateException(&quot;Cannot convert composite to node&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEBpbmxpbmUgZGVmIGlkOiBTdHJpbmcgPSBvcmlnaW4uaWQK</text>
