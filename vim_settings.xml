@@ -3,9 +3,8 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1571642122344">
-        <mark key="'" line="46" column="48" />
-        <mark key="[" line="31" column="46" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1571645268280">
+        <mark key="[" line="31" column="19" />
         <mark key="]" line="31" column="46" />
         <mark key="^" line="31" column="46" />
         <mark key="." line="31" column="46" />
@@ -16,12 +15,11 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1570627371455">
-        <mark key="'" line="99" column="30" />
-        <mark key="[" line="231" column="44" />
-        <mark key="]" line="231" column="0" />
-        <mark key="^" line="231" column="0" />
-        <mark key="." line="231" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571645405231">
+        <mark key="[" line="98" column="19" />
+        <mark key="]" line="98" column="16" />
+        <mark key="^" line="98" column="16" />
+        <mark key="." line="98" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -29,12 +27,11 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1570622874730">
-        <mark key="'" line="173" column="1" />
-        <mark key="[" line="173" column="0" />
-        <mark key="]" line="173" column="0" />
-        <mark key="^" line="11" column="0" />
-        <mark key="." line="173" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1571645305984">
+        <mark key="[" line="29" column="17" />
+        <mark key="]" line="29" column="11" />
+        <mark key="^" line="29" column="11" />
+        <mark key="." line="29" column="11" />
       </file>
       <file name="/a.dummy" timestamp="1570613269614">
         <mark key="[" line="0" column="0" />
@@ -194,11 +191,11 @@
         <mark key="^" line="98" column="18" />
         <mark key="." line="86" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1570625859960">
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="^" line="22" column="20" />
-        <mark key="." line="26" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1571645148028">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="9" column="9" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -376,6 +373,7 @@
         <mark key="^" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" timestamp="1571645746677" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/package.scala" timestamp="1570524466298">
         <mark key="[" line="66" column="32" />
         <mark key="]" line="67" column="2" />
@@ -435,15 +433,15 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1569502935567">
-        <mark key="[" line="92" column="25" />
-        <mark key="]" line="92" column="35" />
-        <mark key="^" line="92" column="35" />
-        <mark key="." line="92" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1571644850618">
+        <mark key="'" line="102" column="56" />
+        <mark key="[" line="1004" column="27" />
+        <mark key="]" line="1004" column="24" />
+        <mark key="." line="1004" column="24" />
+        <mark key="^" line="1004" column="24" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="290" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="297" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="298" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
       <jump line="69" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Isomorphism.scala" />
@@ -543,19 +541,20 @@
       <jump line="174" column="1" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="29" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" />
       <jump line="43" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" />
+      <jump line="102" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      <register name="&quot;" type="4">
+        <text>Test(false, Test.Graph.empty)</text>
       </register>
       <register name="-" type="4">
-        <text>EB1</text>
+        <text>,Some(Test.empty)</text>
       </register>
       <register name="/" type="4">
-        <text>variable</text>
+        <text>foo1</text>
       </register>
       <register name="0" type="4">
-        <text>Test.Graph.Edge.Label</text>
+        <text>Test(false, Test.Graph.empty)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB9Cg==</text>
@@ -599,9 +598,9 @@
       </register>
     </registers>
     <search>
-      <last-search>variable</last-search>
+      <last-search>foo1</last-search>
       <last-offset />
-      <last-pattern>variable</last-pattern>
+      <last-pattern>foo1</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -609,7 +608,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">Q291bGQgbm90IG1hdGNoIA==</entry>
         <entry>out</entry>
         <entry>outgoing</entry>
         <entry encoding="base64">Z3JhcGggPSA=</entry>
@@ -629,6 +627,7 @@
         <entry>id</entry>
         <entry>x</entry>
         <entry>variable</entry>
+        <entry>foo1</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
