@@ -15,12 +15,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571750047097">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571751232301">
         <mark key="'" line="206" column="46" />
-        <mark key="[" line="193" column="5" />
-        <mark key="]" line="193" column="19" />
-        <mark key="^" line="193" column="19" />
-        <mark key="." line="193" column="19" />
+        <mark key="[" line="126" column="70" />
+        <mark key="]" line="126" column="89" />
+        <mark key="^" line="126" column="89" />
+        <mark key="." line="126" column="89" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -564,16 +564,17 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val ifStatementAndBodyNodes = getIfStatementAndBodyNodes(node)</text>
+        <text>whileToCode(node, level, visited)</text>
       </register>
       <register name="-" type="4">
-        <text>val ifStatementAndBodyNodes = getIfStatementAndBodyNodes(node)</text>
+        <text>whileToCode(node, level, visited)</text>
       </register>
       <register name="/" type="4">
         <text>fla</text>
       </register>
       <register name="0" type="4">
-        <text>val successors = bodyNodes.flatMap(_.diSuccessors).diff(nodes).toList</text>
+        <text>val (ifCode, successors) = ifToCode(node, level, visited)
+            combine(ifCode.toOption, graphNodesToCode(successors, level, visited))</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">cHJpdmF0ZSBkZWYgbm9kZXNUb0NvZGUobm9kZXM6IFNldFtOb2RlVF0sIGxldmVsOiBJbnQsIHZpc2l0ZWQ6IFZpc2l0ZWQpOiBPcHRpb25bU3RyaW5nXSA9CiAgICBjb21iaW5lKG5vZGVzLnRvTGlzdC5zb3J0ZWQobm9kZU9yZGVyaW5nKS5mbGF0TWFwKG5vZGUgPT4gZ3JhcGhUb0NvZGUobm9kZSwgMCwgVmlzaXRlZC5lbXB0eSkpKQo=</text>
