@@ -15,12 +15,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571742524418">
-        <mark key="'" line="165" column="50" />
-        <mark key="[" line="171" column="0" />
-        <mark key="]" line="171" column="0" />
-        <mark key="^" line="163" column="5" />
-        <mark key="." line="171" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571745175882">
+        <mark key="'" line="178" column="4" />
+        <mark key="[" line="182" column="0" />
+        <mark key="]" line="182" column="0" />
+        <mark key="^" line="182" column="0" />
+        <mark key="." line="182" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -461,7 +461,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="149" column="29" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="157" column="50" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
       <jump line="153" column="28" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" />
@@ -561,10 +560,11 @@
       <jump line="154" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/mutable/DiGraph.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="165" column="50" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
+      <jump line="169" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgbm9kZUZpbHRlcihub2Rlcy5tYXAoXy50b091dGVyKS50b1NldCkKICAgICAgdGhpc0dyYXBoLmhhdmluZyhub2RlID0gb3V0ZXJOb2Rlcy5jb250YWlucyhfKSkK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IChpZlN0YXRlbWVudExpbmUsIHJvb3RzKSA=</text>
       </register>
       <register name="-" type="4">
         <text>nodeFilter(nodes.map(_.toOuter).toSet)</text>
@@ -573,7 +573,7 @@
         <text>foo1</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IG5vZGVGaWx0ZXI=</text>
+        <text encoding="base64">IChpZlN0YXRlbWVudExpbmUsIHJvb3RzKSA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgbm9kZUZpbHRlcihub2Rlcy5tYXAoXy50b091dGVyKS50b1NldCkKICAgICAgdGhpc0dyYXBoLmhhdmluZyhub2RlID0gb3V0ZXJOb2Rlcy5jb250YWlucyhfKSkK</text>
