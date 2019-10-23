@@ -15,12 +15,12 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571824135689">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1571826288605">
         <mark key="'" line="218" column="46" />
-        <mark key="[" line="112" column="42" />
-        <mark key="]" line="112" column="39" />
-        <mark key="^" line="112" column="39" />
-        <mark key="." line="112" column="39" />
+        <mark key="[" line="182" column="0" />
+        <mark key="]" line="182" column="0" />
+        <mark key="^" line="183" column="88" />
+        <mark key="." line="182" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
@@ -174,11 +174,11 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="54" column="16" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/mutable/DiGraph.scala" timestamp="1571819023453">
-        <mark key="[" line="22" column="85" />
-        <mark key="]" line="22" column="130" />
-        <mark key="^" line="114" column="28" />
-        <mark key="." line="116" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/mutable/DiGraph.scala" timestamp="1571825978950">
+        <mark key="[" line="155" column="48" />
+        <mark key="]" line="155" column="48" />
+        <mark key="^" line="155" column="48" />
+        <mark key="." line="155" column="48" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/OptionEnhancements.scala" timestamp="1570014524958">
         <mark key="[" line="11" column="0" />
