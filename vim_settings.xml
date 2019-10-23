@@ -113,7 +113,12 @@
         <mark key="^" line="174" column="44" />
         <mark key="." line="174" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1571819105193" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1571834316810">
+        <mark key="[" line="55" column="31" />
+        <mark key="]" line="56" column="3" />
+        <mark key="." line="56" column="3" />
+        <mark key="^" line="56" column="3" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
         <mark key="]" line="24" column="10" />
@@ -551,7 +556,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIGRlc2NlbmRhbnRzOiBTZXRbTm9kZVRdID0gewogICAgICAgIGRlZiBkZXNjZW5kYW50cyhub2RlOiBOb2RlVCwgdHJhdmVyc2VkOiBtdXRhYmxlLlNldFtOb2RlVF0pOiBVbml0ID0gewogICAgICAgICAgaWYgKCF0cmF2ZXJzZWQuY29udGFpbnMobm9kZSkpIHsKICAgICAgICAgICAgdHJhdmVyc2VkICs9IG5vZGUKICAgICAgICAgICAgbm9kZS5kaVN1Y2Nlc3NvcnMuZm9yZWFjaChzdWNjID0+IGRlc2NlbmRhbnRzKHN1Y2MsIHRyYXZlcnNlZCkpCiAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YWwgdHJhdmVyc2VkID0gbXV0YWJsZS5TZXQuZW1wdHlbTm9kZVRdCiAgICAgICAgZGVzY2VuZGFudHModGhpc05vZGUsIHRyYXZlcnNlZCkKICAgICAgICB0cmF2ZXJzZWQgLT0gdGhpc05vZGUKICAgICAgICB0cmF2ZXJzZWQudG9TZXQKICAgICAgfQo=</text>
+        <text>createNodeMap(processGraph)</text>
       </register>
       <register name="-" type="4">
         <text>val whileClause = false</text>
@@ -560,7 +565,7 @@
         <text>TODO</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGRlc2NlbmRhbnRzOiBTZXRbTm9kZVRdID0gewogICAgICAgIGRlZiBkZXNjZW5kYW50cyhub2RlOiBOb2RlVCwgdHJhdmVyc2VkOiBtdXRhYmxlLlNldFtOb2RlVF0pOiBVbml0ID0gewogICAgICAgICAgaWYgKCF0cmF2ZXJzZWQuY29udGFpbnMobm9kZSkpIHsKICAgICAgICAgICAgdHJhdmVyc2VkICs9IG5vZGUKICAgICAgICAgICAgbm9kZS5kaVN1Y2Nlc3NvcnMuZm9yZWFjaChzdWNjID0+IGRlc2NlbmRhbnRzKHN1Y2MsIHRyYXZlcnNlZCkpCiAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YWwgdHJhdmVyc2VkID0gbXV0YWJsZS5TZXQuZW1wdHlbTm9kZVRdCiAgICAgICAgZGVzY2VuZGFudHModGhpc05vZGUsIHRyYXZlcnNlZCkKICAgICAgICB0cmF2ZXJzZWQgLT0gdGhpc05vZGUKICAgICAgICB0cmF2ZXJzZWQudG9TZXQKICAgICAgfQo=</text>
+        <text>createNodeMap(processGraph)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGVucmljaG1lbnQgPSBSaWNoRGlHcmFwaChncmFwaFdpdGhvdXRXaGlsZSkKICAgIGltcG9ydCBlbnJpY2htZW50LlJpY2hOb2RlCg==</text>
