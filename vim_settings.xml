@@ -73,12 +73,12 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1571839750051">
-        <mark key="'" line="210" column="10" />
-        <mark key="[" line="181" column="0" />
-        <mark key="]" line="181" column="0" />
-        <mark key="." line="181" column="0" />
-        <mark key="^" line="181" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1571996310948">
+        <mark key="'" line="189" column="10" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="186" column="23" />
+        <mark key="." line="186" column="23" />
+        <mark key="^" line="186" column="23" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -120,12 +120,12 @@
         <mark key="^" line="174" column="44" />
         <mark key="." line="174" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1571837791972">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1571996141544">
         <mark key="'" line="114" column="0" />
-        <mark key="[" line="118" column="33" />
-        <mark key="]" line="118" column="37" />
-        <mark key="." line="118" column="37" />
-        <mark key="^" line="118" column="37" />
+        <mark key="[" line="147" column="6" />
+        <mark key="]" line="148" column="57" />
+        <mark key="^" line="122" column="3" />
+        <mark key="." line="122" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -150,6 +150,12 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="41" column="0" />
         <mark key="^" line="8" column="3" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1571844193574">
+        <mark key="[" line="163" column="0" />
+        <mark key="]" line="163" column="0" />
+        <mark key="^" line="166" column="4" />
+        <mark key="." line="163" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
         <mark key="[" line="20" column="66" />
@@ -342,7 +348,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1571823654301">
+      <file name="/sbtShell" timestamp="1571991893385">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -396,9 +402,9 @@
         <mark key="^" line="67" column="2" />
         <mark key="." line="67" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1571839526001">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1571844494732">
+        <mark key="[" line="19" column="4" />
+        <mark key="]" line="19" column="115" />
         <mark key="." line="23" column="0" />
         <mark key="^" line="22" column="15" />
       </file>
@@ -565,32 +571,34 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZU5vZGVzKGJvZHlUb05vZGU6IE1hcFtCb2R5SWQsIEJvZHlJZC5HcmFwaC5Ob2RlXSk6IFNldFtCb2R5SWQuR3JhcGguTm9kZV0gPQogICAgICAgIGJvZHlUb05vZGUudmFsdWVzLnRvU2V0CgogICAgICBkZWYgY3JlYXRlRWRnZXMoYm9keVRvTm9kZTogTWFwW0JvZHlJZCwgQm9keUlkLkdyYXBoLk5vZGVdKTogU2V0W0JvZHlJZC5HcmFwaC5FZGdlXSA9IHsKICAgICAgICB2YWwgYm9keVN0YWNrcyAgPSB0aGlzR3JhcGguYm9keVN0YWNrcwogICAgICAgIHZhbCBlZGdlQ29ubmVjdGlvbnMgPSBib2R5U3RhY2tzLmZsYXRNYXAoYm9keVN0YWNrID0+IGJvZHlTdGFjay56aXAoYm9keVN0YWNrLnRhaWwpLm1hcChfLnN3YXApKQogICAgICAgIGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgICB2YWwgZnJvbSA9IGJvZHlUb05vZGUoZWRnZS5fMSkKICAgICAgICAgIHZhbCB0byA9IGJvZHlUb05vZGUoZWRnZS5fMikKICAgICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDaGlsZCBib2R5IHNlZW1zIG5vdCB0byBiZSBhIHN1Y2Nlc3NvciBpbiBib2R5IGdyYXBoIikpCiAgICAgICAgICB2YWwgbGFiZWwgPSBsYWJlbFRvTm9kZXMuXzEKCiAgICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICAgIH0KICAgICAgfQoKICAgICAgdmFsIGJvZHlUb05vZGUgPSBnZXRCb2R5SWRUb05vZGVzCiAgICAgIHZhbCBub2RlcyA9IGNyZWF0ZU5vZGVzKGJvZHlUb05vZGUpCiAgICAgIHZhbCBlZGdlcyA9IGNyZWF0ZUVkZ2VzKGJvZHlUb05vZGUpCg==</text>
+        <text>val bodyGraph = processGraph.toBodyGraph
+      val bodyNodes = bodyGraph.topologicalSort.getOrElse(</text>
       </register>
       <register name="-" type="4">
-        <text>val bodyToNode = getBodyIdToNodes</text>
+        <text>createEdges(bodyToNode)</text>
       </register>
       <register name="/" type="4">
         <text>TODO</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZU5vZGVzKGJvZHlUb05vZGU6IE1hcFtCb2R5SWQsIEJvZHlJZC5HcmFwaC5Ob2RlXSk6IFNldFtCb2R5SWQuR3JhcGguTm9kZV0gPQogICAgICAgIGJvZHlUb05vZGUudmFsdWVzLnRvU2V0CgogICAgICBkZWYgY3JlYXRlRWRnZXMoYm9keVRvTm9kZTogTWFwW0JvZHlJZCwgQm9keUlkLkdyYXBoLk5vZGVdKTogU2V0W0JvZHlJZC5HcmFwaC5FZGdlXSA9IHsKICAgICAgICB2YWwgYm9keVN0YWNrcyAgPSB0aGlzR3JhcGguYm9keVN0YWNrcwogICAgICAgIHZhbCBlZGdlQ29ubmVjdGlvbnMgPSBib2R5U3RhY2tzLmZsYXRNYXAoYm9keVN0YWNrID0+IGJvZHlTdGFjay56aXAoYm9keVN0YWNrLnRhaWwpLm1hcChfLnN3YXApKQogICAgICAgIGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgICB2YWwgZnJvbSA9IGJvZHlUb05vZGUoZWRnZS5fMSkKICAgICAgICAgIHZhbCB0byA9IGJvZHlUb05vZGUoZWRnZS5fMikKICAgICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDaGlsZCBib2R5IHNlZW1zIG5vdCB0byBiZSBhIHN1Y2Nlc3NvciBpbiBib2R5IGdyYXBoIikpCiAgICAgICAgICB2YWwgbGFiZWwgPSBsYWJlbFRvTm9kZXMuXzEKCiAgICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICAgIH0KICAgICAgfQoKICAgICAgdmFsIGJvZHlUb05vZGUgPSBnZXRCb2R5SWRUb05vZGVzCiAgICAgIHZhbCBub2RlcyA9IGNyZWF0ZU5vZGVzKGJvZHlUb05vZGUpCiAgICAgIHZhbCBlZGdlcyA9IGNyZWF0ZUVkZ2VzKGJvZHlUb05vZGUpCg==</text>
+        <text>val bodyGraph = processGraph.toBodyGraph
+      val bodyNodes = bodyGraph.topologicalSort.getOrElse(</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZU5vZGVzKGJvZHlUb05vZGU6IE1hcFtCb2R5SWQsIEJvZHlJZC5HcmFwaC5Ob2RlXSk6IFNldFtCb2R5SWQuR3JhcGguTm9kZV0gPQogICAgICAgIGJvZHlUb05vZGUudmFsdWVzLnRvU2V0CgogICAgICBkZWYgY3JlYXRlRWRnZXMoYm9keVRvTm9kZTogTWFwW0JvZHlJZCwgQm9keUlkLkdyYXBoLk5vZGVdKTogU2V0W0JvZHlJZC5HcmFwaC5FZGdlXSA9IHsKICAgICAgICB2YWwgYm9keVN0YWNrcyAgPSB0aGlzR3JhcGguYm9keVN0YWNrcwogICAgICAgIHZhbCBlZGdlQ29ubmVjdGlvbnMgPSBib2R5U3RhY2tzLmZsYXRNYXAoYm9keVN0YWNrID0+IGJvZHlTdGFjay56aXAoYm9keVN0YWNrLnRhaWwpLm1hcChfLnN3YXApKQogICAgICAgIGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgICB2YWwgZnJvbSA9IGJvZHlUb05vZGUoZWRnZS5fMSkKICAgICAgICAgIHZhbCB0byA9IGJvZHlUb05vZGUoZWRnZS5fMikKICAgICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDaGlsZCBib2R5IHNlZW1zIG5vdCB0byBiZSBhIHN1Y2Nlc3NvciBpbiBib2R5IGdyYXBoIikpCiAgICAgICAgICB2YWwgbGFiZWwgPSBsYWJlbFRvTm9kZXMuXzEKCiAgICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICAgIH0KICAgICAgfQo=</text>
+        <text encoding="base64">dmFsIGJyYW5jaEdyYXBoID0gcHJvY2Vzc0dyYXBoLnN1YmdyYXBoKGJyYW5jaE5vZGVzKQogICAgICAgIHZhbCBicmFuY2hFbnJpY2ggPSBuZXcgUmljaE5vZGVbYnJhbmNoR3JhcGgudHlwZV0oYnJhbmNoR3JhcGgpCiAgICAgICAgaW1wb3J0IGJyYW5jaEVucmljaC57UmljaFRoaXNOb2RlID0+IFJpY2hCcmFuY2hOb2RlfQoKICAgICAgICAvLyBzZWFyY2ggYXQgZWFjaCBicmFuY2ggbm9kZSBmb3IgdGhlIGVkZ2VzIHRoYXQgb3JpZ2luYXRlIGZyb20gb3V0c2lkZSBvZiB0aGUgYnJhbmNoCiAgICAgICAgYnJhbmNoTm9kZXMuZm9yZWFjaCB7IGJyYW5jaE5vZGUgPT4KICAgICAgICAgIHZhbCBhbmNlc3RvckdyYXBoID0gYnJhbmNoR3JhcGguc3ViZ3JhcGgoYnJhbmNoR3JhcGguZ2V0KGJyYW5jaE5vZGUudG9PdXRlcikuYW5jZXN0b3JzKQogICAgICAgICAgaWYgKGFuY2VzdG9yR3JhcGgubm9uRW1wdHkpIHsKICAgICAgICAgICAgdmFsIGV4dGVybmFsRWRnZXMgPSBicmFuY2hOb2RlLmluY29taW5nLnRvTGlzdC5jb2xsZWN0IHsgY2FzZSBlZGdlIGlmICFicmFuY2hOb2Rlcy5jb250YWlucyhlZGdlLmZyb20pID0+IGVkZ2UgfQogICAgICAgICAgICB2YWwgYnJhbmNoUm9vdHMgPSBhbmNlc3RvckdyYXBoLnJvb3RzCiAgICAgICAgICAgIHZhbCBleHRlcm5hbFRvUm9vdEVkZ2VzID0gYnJhbmNoUm9vdHMuZmxhdE1hcCB7IHJvb3QgPT4KICAgICAgICAgICAgICBleHRlcm5hbEVkZ2VzLm1hcCB7IGVkZ2UgPT4KICAgICAgICAgICAgICAgIGRlc2lnbi5HcmFwaC5FZGdlKGVkZ2UuZnJvbS50b091dGVyLCByb290LnRvT3V0ZXIsIGVkZ2UubGFiZWwuYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaC5FZGdlLkxhYmVsXSkKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHByb2Nlc3NHcmFwaCAtLT0gZXh0ZXJuYWxFZGdlcwogICAgICAgICAgICBwcm9jZXNzR3JhcGggKys9IGV4dGVybmFsVG9Sb290RWRnZXMKICAgICAgICAgIH0KICAgICAgICB9</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">dmFsIGJvZHlTdGFja3MgID0gdGhpc0dyYXBoLmJvZHlTdGFja3MKICAgICAgdmFsIGVkZ2VDb25uZWN0aW9ucyA9IGJvZHlTdGFja3MuZmxhdE1hcChib2R5U3RhY2sgPT4gYm9keVN0YWNrLnppcChib2R5U3RhY2sudGFpbCkubWFwKF8uc3dhcCkpCiAgICAgIHZhbCBlZGdlcyA9IGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgdmFsIGZyb20gPSBib2R5VG9Ob2RlKGVkZ2UuXzEpCiAgICAgICAgdmFsIHRvID0gYm9keVRvTm9kZShlZGdlLl8yKQogICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IERlc2lnbkV4Y2VwdGlvbigiQ2hpbGQgYm9keSBzZWVtcyBub3QgdG8gYmUgYSBzdWNjZXNzb3IgaW4gYm9keSBncmFwaCIpKQogICAgICAgIHZhbCBsYWJlbCA9IGxhYmVsVG9Ob2Rlcy5fMQoKICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICB9Cg==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgIEJvZHlJZC5HcmFwaC5Ob2RlKEJvZHlJZChldmFsSWQpLCBfLCBfLCBfKSB7IAo=</text>
       </register>
       <register name="3" type="4">
-        <text>def empty: Graph =
-      scalax.collection.immutable.Graph.empty[Node,LDiEdge]</text>
+        <text encoding="base64">dmFsIGJvZHlUb05vZGUgPSBnZXRCb2R5SWRUb05vZGVzCiAgICAgIHZhbCBub2RlcyA9IGNyZWF0ZU5vZGVzKGJvZHlUb05vZGUpCiAgICAgIHZhbCBlZGdlcyA9IGNyZWF0ZUVkZ2VzKGJvZHlUb05vZGUpCg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">dmFsIGJvZHlHcmFwaCAgID0gQm9keUlkLkdyYXBoLmVtcHR5CgogICAgICB2YWwgbm9kZXMgPSBib2R5VG9Ob2RlLnZhbHVlcy50b0xpc3QKICAgICAgYm9keUdyYXBoICsrPSBub2Rlcwo=</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZU5vZGVzKGJvZHlUb05vZGU6IE1hcFtCb2R5SWQsIEJvZHlJZC5HcmFwaC5Ob2RlXSk6IFNldFtCb2R5SWQuR3JhcGguTm9kZV0gPQogICAgICAgIGJvZHlUb05vZGUudmFsdWVzLnRvU2V0CgogICAgICBkZWYgY3JlYXRlRWRnZXMoYm9keVRvTm9kZTogTWFwW0JvZHlJZCwgQm9keUlkLkdyYXBoLk5vZGVdKTogU2V0W0JvZHlJZC5HcmFwaC5FZGdlXSA9IHsKICAgICAgICB2YWwgYm9keVN0YWNrcyAgPSB0aGlzR3JhcGguYm9keVN0YWNrcwogICAgICAgIHZhbCBlZGdlQ29ubmVjdGlvbnMgPSBib2R5U3RhY2tzLmZsYXRNYXAoYm9keVN0YWNrID0+IGJvZHlTdGFjay56aXAoYm9keVN0YWNrLnRhaWwpLm1hcChfLnN3YXApKQogICAgICAgIGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgICB2YWwgZnJvbSA9IGJvZHlUb05vZGUoZWRnZS5fMSkKICAgICAgICAgIHZhbCB0byA9IGJvZHlUb05vZGUoZWRnZS5fMikKICAgICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDaGlsZCBib2R5IHNlZW1zIG5vdCB0byBiZSBhIHN1Y2Nlc3NvciBpbiBib2R5IGdyYXBoIikpCiAgICAgICAgICB2YWwgbGFiZWwgPSBsYWJlbFRvTm9kZXMuXzEKCiAgICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICAgIH0KICAgICAgfQo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">dmFsIGJvZHlTdGFja3MgID0gdGhpc0dyYXBoLmJvZHlTdGFja3MKICAgICAgdmFsIGJvZHlHcmFwaCAgID0gQm9keUlkLkdyYXBoLmVtcHR5Cg==</text>
+        <text>def createNodes(bodyToNode: Map[BodyId, BodyId.Graph.Node]): Set[BodyId.Graph.Node] =
+        bodyToNode.values.toSet</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -603,17 +611,17 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgY2x1c3RlckZvcmVhY2goZ3JhcGg6IEdyYXBoKTogVW5pdCA9IHsKCiAgICBncmFwaAogIH0K</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZU5vZGVzKGJvZHlUb05vZGU6IE1hcFtCb2R5SWQsIEJvZHlJZC5HcmFwaC5Ob2RlXSk6IFNldFtCb2R5SWQuR3JhcGguTm9kZV0gPQogICAgICAgIGJvZHlUb05vZGUudmFsdWVzLnRvU2V0Cg==</text>
       </register>
       <register name="7" type="4">
-        <text>clusterForeach(processGraph)
-    createNodeMap(processGraph)</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZU5vZGVzKGJvZHlUb05vZGU6IE1hcFtCb2R5SWQsIEJvZHlJZC5HcmFwaC5Ob2RlXSk6IFNldFtCb2R5SWQuR3JhcGguTm9kZV0gPQogICAgICAgIGJvZHlUb05vZGUudmFsdWVzLnRvU2V0CgogICAgICBkZWYgY3JlYXRlRWRnZXMoYm9keVRvTm9kZTogTWFwW0JvZHlJZCwgQm9keUlkLkdyYXBoLk5vZGVdKTogU2V0W0JvZHlJZC5HcmFwaC5FZGdlXSA9IHsKICAgICAgICB2YWwgYm9keVN0YWNrcyAgPSB0aGlzR3JhcGguYm9keVN0YWNrcwogICAgICAgIHZhbCBlZGdlQ29ubmVjdGlvbnMgPSBib2R5U3RhY2tzLmZsYXRNYXAoYm9keVN0YWNrID0+IGJvZHlTdGFjay56aXAoYm9keVN0YWNrLnRhaWwpLm1hcChfLnN3YXApKQogICAgICAgIGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgICB2YWwgZnJvbSA9IGJvZHlUb05vZGUoZWRnZS5fMSkKICAgICAgICAgIHZhbCB0byA9IGJvZHlUb05vZGUoZWRnZS5fMikKICAgICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDaGlsZCBib2R5IHNlZW1zIG5vdCB0byBiZSBhIHN1Y2Nlc3NvciBpbiBib2R5IGdyYXBoIikpCiAgICAgICAgICB2YWwgbGFiZWwgPSBsYWJlbFRvTm9kZXMuXzEKCiAgICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICAgIH0KICAgICAgfQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">dmFsIGVucmljaG1lbnQgPSBSaWNoRGlHcmFwaChncmFwaFdpdGhvdXRXaGlsZSkKICAgIGltcG9ydCBlbnJpY2htZW50LlJpY2hOb2RlCg==</text>
+        <text encoding="base64">dmFsIGJvZHlTdGFja3MgID0gdGhpc0dyYXBoLmJvZHlTdGFja3MKICAgICAgdmFsIGVkZ2VDb25uZWN0aW9ucyA9IGJvZHlTdGFja3MuZmxhdE1hcChib2R5U3RhY2sgPT4gYm9keVN0YWNrLnppcChib2R5U3RhY2sudGFpbCkubWFwKF8uc3dhcCkpCiAgICAgIHZhbCBlZGdlcyA9IGVkZ2VDb25uZWN0aW9ucy5tYXAgeyBlZGdlID0+CiAgICAgICAgdmFsIGZyb20gPSBib2R5VG9Ob2RlKGVkZ2UuXzEpCiAgICAgICAgdmFsIHRvID0gYm9keVRvTm9kZShlZGdlLl8yKQogICAgICAgIHZhbCBsYWJlbFRvTm9kZXMgPSBmcm9tLmNvbnRhaW5zLmZpbmQoYnJhbmNoID0+IHRvLm5vZGVzLnN1YnNldE9mKGJyYW5jaC5fMikpCiAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IERlc2lnbkV4Y2VwdGlvbigiQ2hpbGQgYm9keSBzZWVtcyBub3QgdG8gYmUgYSBzdWNjZXNzb3IgaW4gYm9keSBncmFwaCIpKQogICAgICAgIHZhbCBsYWJlbCA9IGxhYmVsVG9Ob2Rlcy5fMQoKICAgICAgICBMRGlFZGdlKGZyb20sdG8pKGxhYmVsKQogICAgICB9Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ZGVmIG5vcm1hbGl6ZWQoc3RlcHM6IExpc3RbQ29kZVN0ZXBdKTogQ29kZVN0ZXAgPSB7CiAgICAgIGlmIChzdGVwcy5leGlzdHMoXyAhPSBOaWxTdGVwKSkKICAgICAgICBzdGVwcy5maWx0ZXIoXyAhPSBOaWxTdGVwKQogICAgICBlbHNlIGlmIChzdGVwcy5jb250YWlucyhOaWxTdGVwKSkKICAgICAgICBMaXN0W05pbFN0ZXBdCiAgICB9Cg==</text>
+        <text>def empty: Graph =
+      scalax.collection.immutable.Graph.empty[Node,LDiEdge]</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
