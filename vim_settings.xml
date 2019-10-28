@@ -73,12 +73,11 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572277114879">
-        <mark key="'" line="175" column="10" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="^" line="34" column="31" />
-        <mark key="." line="11" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572286137688">
+        <mark key="[" line="464" column="6" />
+        <mark key="]" line="464" column="5" />
+        <mark key="^" line="464" column="5" />
+        <mark key="." line="464" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -120,12 +119,12 @@
         <mark key="^" line="174" column="44" />
         <mark key="." line="174" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572278270796">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572285981219">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="773" column="29" />
-        <mark key="]" line="774" column="15" />
-        <mark key="^" line="774" column="15" />
-        <mark key="." line="774" column="15" />
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="^" line="35" column="35" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -465,7 +464,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="1" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="148" column="1" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="1" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="163" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
@@ -565,19 +563,20 @@
       <jump line="342" column="25" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="39" column="36" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="1" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="455" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>processGraph += convertedNode</text>
+        <text>mutable.Set.empty[DepNode]</text>
       </register>
       <register name="-" type="4">
-        <text>processGraph += convertedNode</text>
+        <text encoding="base64">Y2FzZSA=</text>
       </register>
       <register name="/" type="4">
         <text>clust</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">bm9kZS5vdXRnb2luZy5tYXAoZSA9PiBkZXNpZ24uR3JhcGguRWRnZShjb252ZXJ0ZWROb2RlLCBlLnRvLCBlLmxhYmVsLmFzSW5zdGFuY2VPZltHcmFwaC5FZGdlLkxhYmVsXSkp</text>
+        <text>mutable.Set.empty[DepNode]</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSBjbGFzcyBGb3JtKGlkOiBOb2RlSWQsIG5yOiBMb25nLCBmb3JtOiBnZW5lcmF0b3IuRm9ybSkgZXh0ZW5kcyBTdGVwTGlrZSB7CiAgICAgIG92ZXJyaWRlIGRlZiBwcmV0dHlDb250ZW50czogU3RyaW5nID0gU3RlcHMudG9Db2RlKGZvcm0pCiAgICB9Cg==</text>
