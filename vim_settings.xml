@@ -120,12 +120,12 @@
         <mark key="^" line="174" column="44" />
         <mark key="." line="174" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572191361579">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572192238460">
         <mark key="'" line="343" column="25" />
-        <mark key="[" line="350" column="89" />
-        <mark key="]" line="350" column="96" />
-        <mark key="." line="350" column="96" />
-        <mark key="^" line="350" column="96" />
+        <mark key="[" line="353" column="84" />
+        <mark key="]" line="355" column="7" />
+        <mark key="." line="355" column="7" />
+        <mark key="^" line="355" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -444,9 +444,9 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="152" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572190826369">
-        <mark key="[" line="61" column="4" />
-        <mark key="]" line="67" column="22" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572191885123">
+        <mark key="[" line="62" column="6" />
+        <mark key="]" line="66" column="23" />
         <mark key="^" line="72" column="54" />
         <mark key="." line="72" column="54" />
       </file>
@@ -570,8 +570,12 @@
       <jump line="342" column="25" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBtZXJnZSBhbGwgZm9yZWFjaCBub2RlcyBpbnRvIG9uZSBjbHVzdGVyCg==</text>
+      <register name="&quot;" type="4">
+        <text>id         : NodeId,
+      nr         : Long,
+      evalId     : Id,
+      elementName: String,
+      body       : Graph</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dmFsIGJsb2NrTm9kZXMgPT4g</text>
@@ -580,7 +584,11 @@
         <text>convertr</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBjbGFzcyBGb3JFYWNoKAogICAgICBpZCAgICAgICAgIDogTm9kZUlkLAogICAgICBuciAgICAgICAgIDogTG9uZywKICAgICAgZXZhbElkICAgICA6IElkLAogICAgICBlbGVtZW50TmFtZTogU3RyaW5nLAogICAgICBib2R5ICAgICAgIDogR3JhcGgKICAgICkgZXh0ZW5kcyBTdGVwTGlrZQo=</text>
+        <text>id         : NodeId,
+      nr         : Long,
+      evalId     : Id,
+      elementName: String,
+      body       : Graph</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAvLyBtZXJnZSBhbGwgZm9yZWFjaCBub2RlcyBpbnRvIG9uZSBjbHVzdGVyCg==</text>
