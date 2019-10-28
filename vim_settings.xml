@@ -440,11 +440,11 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="152" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572277228693">
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="0" />
-        <mark key="^" line="63" column="3" />
-        <mark key="." line="77" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572288100122">
+        <mark key="[" line="80" column="5" />
+        <mark key="]" line="80" column="5" />
+        <mark key="." line="80" column="5" />
+        <mark key="^" line="80" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -567,7 +567,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>mutable.Set.empty[DepNode]</text>
+        <text encoding="base64">KAogICAgICB2YWwgZGVwTm9kZXM6IHNjYWxhLmNvbGxlY3Rpb24ubXV0YWJsZS5TZXRbRGVwTm9kZV0sCiAgICAgIHZhciByZXByZXNlbnRhdGl2ZTogRFN0ZXAKICAgICkgZXh0ZW5kcyBTdGVwTGlrZSB7CiAgICAgIG92ZXJyaWRlIGRlZiBkZWVwQ29weTogQ2x1c3RlciA9IENsdXN0ZXIoaWQpKGRlcE5vZGVzLmNsb25lKCksIHJlcHJlc2VudGF0aXZlKQogICAgICBvdmVycmlkZSBkZWYgcHJldHR5Q29udGVudHM6IFN0cmluZyA9IHsKICAgICAgICB2YWwgZHN0ZXBzID0gZGVwTm9kZXMubWFwKF8udG9PdXRlcikKICAgICAgICBkc3RlcHMubWFwKGRzdGVwID0+IGRzdGVwLnByZXR0eSkubWtTdHJpbmcoInsgIiwgIixcbiAgIiwgIiB9XG4iKQogICAgICB9CiAgICB9</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Y2FzZSA=</text>
@@ -576,7 +576,7 @@
         <text>clust</text>
       </register>
       <register name="0" type="4">
-        <text>mutable.Set.empty[DepNode]</text>
+        <text encoding="base64">KAogICAgICB2YWwgZGVwTm9kZXM6IHNjYWxhLmNvbGxlY3Rpb24ubXV0YWJsZS5TZXRbRGVwTm9kZV0sCiAgICAgIHZhciByZXByZXNlbnRhdGl2ZTogRFN0ZXAKICAgICkgZXh0ZW5kcyBTdGVwTGlrZSB7CiAgICAgIG92ZXJyaWRlIGRlZiBkZWVwQ29weTogQ2x1c3RlciA9IENsdXN0ZXIoaWQpKGRlcE5vZGVzLmNsb25lKCksIHJlcHJlc2VudGF0aXZlKQogICAgICBvdmVycmlkZSBkZWYgcHJldHR5Q29udGVudHM6IFN0cmluZyA9IHsKICAgICAgICB2YWwgZHN0ZXBzID0gZGVwTm9kZXMubWFwKF8udG9PdXRlcikKICAgICAgICBkc3RlcHMubWFwKGRzdGVwID0+IGRzdGVwLnByZXR0eSkubWtTdHJpbmcoInsgIiwgIixcbiAgIiwgIiB9XG4iKQogICAgICB9CiAgICB9</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSBjbGFzcyBGb3JtKGlkOiBOb2RlSWQsIG5yOiBMb25nLCBmb3JtOiBnZW5lcmF0b3IuRm9ybSkgZXh0ZW5kcyBTdGVwTGlrZSB7CiAgICAgIG92ZXJyaWRlIGRlZiBwcmV0dHlDb250ZW50czogU3RyaW5nID0gU3RlcHMudG9Db2RlKGZvcm0pCiAgICB9Cg==</text>
