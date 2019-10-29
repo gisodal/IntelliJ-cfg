@@ -120,12 +120,12 @@
         <mark key="^" line="174" column="44" />
         <mark key="." line="174" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572354561830">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="26" column="56" />
-        <mark key="]" line="26" column="61" />
-        <mark key="." line="26" column="61" />
-        <mark key="^" line="26" column="61" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572356644548">
+        <mark key="'" line="757" column="12" />
+        <mark key="[" line="55" column="75" />
+        <mark key="]" line="783" column="0" />
+        <mark key="^" line="781" column="10" />
+        <mark key="." line="783" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -278,7 +278,7 @@
         <mark key="]" line="48" column="0" />
         <mark key="." line="48" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1571838377299">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1572356783849">
         <mark key="[" line="242" column="91" />
         <mark key="]" line="243" column="14" />
         <mark key="." line="243" column="14" />
@@ -477,8 +477,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="163" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
-      <jump line="131" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="52" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="90" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="102" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
@@ -577,35 +575,36 @@
       <jump line="455" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="140" column="61" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="72" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" />
+      <jump line="744" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="765" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSAoU29tZShkZXBlbmRlbmN5R3JhcGgpLCBTb21lKHByb2Nlc3NHcmFwaCkpID0+IGV4cG9ydGVyLmFkZChkZXBlbmRlbmN5R3JhcGgsIHByb2Nlc3NHcmFwaCwgbmFtZSwgZmFsc2Up</text>
+        <text encoding="base64">ZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUgIA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">dmFsIGlkID0gaWQubmV4dCgpIA==</text>
+        <text encoding="base64">IGlmIChsZXZlbCA9PSAwKSB7IA==</text>
       </register>
       <register name="/" type="4">
-        <text>clust</text>
+        <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSAoU29tZShkZXBlbmRlbmN5R3JhcGgpLCBTb21lKHByb2Nlc3NHcmFwaCkpID0+IGV4cG9ydGVyLmFkZChkZXBlbmRlbmN5R3JhcGgsIHByb2Nlc3NHcmFwaCwgbmFtZSwgZmFsc2Up</text>
+        <text encoding="base64">ZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUgIA==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ZGVmIGFkZChwcm9jZXNzR3JhcGg6IGRlc2lnbi5HcmFwaCwgbmFtZTogU3RyaW5nLCBmbHVzaDogQm9vbGVhbik6IFVuaXQgPSB7CiAgICAgIHZlcmlmeVBhdGhOYW1lKG5hbWUpCiAgICAgIGRpYWdyYW1FeHBvcnRlci5hZGRQcm9jZXNzRGVzaWduKFByb2Nlc3NEZXNpZ24obm9ybWFsaXplKG5hbWUpLCBMaXN0KG5hbWUpLCBwcm9jZXNzR3JhcGgpKQoKICAgICAgaWYgKGZsdXNoKQogICAgICAgIGV4cG9ydCgpCiAgICB9Cg==</text>
+        <text encoding="base64">IC8vIGNoYW5nZSBjbHVzdGVyIGdyYXBoIGludG8gZm9yZWFjaAogICAgICAgICAgICBwcm9jZXNzR3JhcGgucmVwbGFjZShub2RlLCBmb3JlYWNoTm9kZSkKCiAgICAgICAgICAgIGlmIChsZXZlbCA9PSAwKSB7CiAgICAgICAgICAgICAgdmFsIGZvcmVhY2hJbm5lck5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldChmb3JlYWNoTm9kZSkKICAgICAgICAgICAgICBkZXBlbmRlbmN5Tm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gZm9yZWFjaElubmVyTm9kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTm9uZQ==</text>
       </register>
       <register name="2" type="4">
-        <text>def verifyPathName(name: String): Unit =
-      assert(!name.contains(&quot;:&quot;), s&quot;A path name is chosen that contains character ':', which is unsupported by Windows: '$name'&quot;)</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBjbHVzdGVyR3JhcGguY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgdmFsIHN0ZXBzID0gY2x1c3Rlci5ncmFwaC50b3BvbG9naWNhbFNvcnQuZ2V0T3JFbHNlKE5pbCkubWFwKF8udG9PdXRlcikudG9MaXN0Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3RlckdyYXBoLmNsdXN0ZXIuY2x1c3Rlck5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUpIA==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ZGVmIGV4Y2hhbmdlQWxsKG9sZE5vZGVzOiBTZXRbZGVzaWduLkdyYXBoI05vZGVUXSwgbmV3Tm9kZTogZGVzaWduLkdyYXBoLk5vZGUpID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZSAKICAgICAgCiAgICAgIHZhbCBpbmNvbWluZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UuZnJvbSkpCiAgICAgIHZhbCBvdXRnb2luZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5vdXRnb2luZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UudG8pKQogICAgICAgIGluY29taW5nLm1hcChlZGdlID0+IGRlc2lnbi5HcmFwaC5FZGdlKGVkZ2UuZnJvbSwgbmV3Tm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBkZXNpZ24uR3JhcGguRWRnZShuZXdOb2RlLCBlZGdlLnRvLCBlZGdlLmxhYmVsKSkKICAgICAgfSAgCiAgICAgIAogICAgfQogICAgZGVmIGV4Y2hhbmdlKG9sZE5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLCBuZXdOb2RlOiBkZXNpZ24uR3JhcGguTm9kZSkgPSB7CiAgICAgIGFzc2VydCh0aGlzR3JhcGguY29udGFpbnMob2xkTm9kZSksICJkZXNpZ24gZ3JhcGggZG9lcyBub3QgY29udGFpbiB0aGUgbm9kZSB3ZSB3YW50IHRvIGV4Y2hhbmdlLiIpCiAgICAgIAogICAgICAKICAgICAgCiAgICAgIAogICAgICAKICAgIH0KICAgIA==</text>
+        <text encoding="base64">ZGVmIGFkZChwcm9jZXNzR3JhcGg6IGRlc2lnbi5HcmFwaCwgbmFtZTogU3RyaW5nLCBmbHVzaDogQm9vbGVhbik6IFVuaXQgPSB7CiAgICAgIHZlcmlmeVBhdGhOYW1lKG5hbWUpCiAgICAgIGRpYWdyYW1FeHBvcnRlci5hZGRQcm9jZXNzRGVzaWduKFByb2Nlc3NEZXNpZ24obm9ybWFsaXplKG5hbWUpLCBMaXN0KG5hbWUpLCBwcm9jZXNzR3JhcGgpKQoKICAgICAgaWYgKGZsdXNoKQogICAgICAgIGV4cG9ydCgpCiAgICB9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -618,25 +617,26 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgICAgZGVmIGNyZWF0ZUVkZ2VzKGZvcmVhY2hOb2RlczogU2V0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0sIGZvcmVhY2hDbHVzdGVyTm9kZTogTm9kZS5DbHVzdGVyR3JhcGgpOiBTZXRbRWRnZV0gPSB7CiAgICAgICAgdmFsIGluY29taW5nID0gZm9yZWFjaE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIWZvcmVhY2hOb2Rlcy5jb250YWlucyhlZGdlLmZyb20pKQogICAgICAgIHZhbCBvdXRnb2luZyA9IGZvcmVhY2hOb2Rlcy5mbGF0TWFwKF8ub3V0Z29pbmcpLmZpbHRlcihlZGdlID0+ICFmb3JlYWNoTm9kZXMuY29udGFpbnMoZWRnZS50bykpCiAgICAgICAgaW5jb21pbmcubWFwKGVkZ2UgPT4gR3JhcGguRWRnZShlZGdlLmZyb20sIGZvcmVhY2hDbHVzdGVyTm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBHcmFwaC5FZGdlKGZvcmVhY2hDbHVzdGVyTm9kZSwgZWRnZS50bywgZWRnZS5sYWJlbCkpCiAgICAgIH0=</text>
+        <text>def verifyPathName(name: String): Unit =
+      assert(!name.contains(&quot;:&quot;), s&quot;A path name is chosen that contains character ':', which is unsupported by Windows: '$name'&quot;)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gdGhpc0dyYXBoLm5vZGVzLnRvT3V0ZXIK</text>
+      <register name="7" type="4">
+        <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAuY29sbGVjdCB7IGNhc2UgY2x1c3RlcjogQ2x1c3RlciA9PiBjbHVzdGVyIH0K</text>
+        <text encoding="base64">ICAgICAgdmFsIHN0ZXBzID0gY2x1c3Rlci5ncmFwaC50b3BvbG9naWNhbFNvcnQuZ2V0T3JFbHNlKE5pbCkubWFwKF8udG9PdXRlcikudG9MaXN0Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Ly92YWwgZm9yZWFjaFdyYXBwZXI6IEZvckVhY2hXcmFwcGVyID0gZm9yZWFjaE5vZGVzLmhlYWRPcHRpb24ubWFwKF8udG9PdXRlcikKICAgICAgICAvLyAgLmNvbGxlY3QgeyBjYXNlIGNsdXN0ZXI6IENsdXN0ZXIgPT4gY2x1c3RlciB9CiAgICAgICAgLy8gIC5mbGF0TWFwKF8ucmVwcmVzZW50YXRpdmUud3JhcHBlcihib2R5SWQuZ2V0KSkKICAgICAgICAvLyAgLmNvbGxlY3QgeyBjYXNlIHdyYXBwZXI6IEZvckVhY2hXcmFwcGVyID0+IHdyYXBwZXIgfS5nZXQ=</text>
+        <text encoding="base64">ZGVmIGV4Y2hhbmdlQWxsKG9sZE5vZGVzOiBTZXRbZGVzaWduLkdyYXBoI05vZGVUXSwgbmV3Tm9kZTogZGVzaWduLkdyYXBoLk5vZGUpID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZSAKICAgICAgCiAgICAgIHZhbCBpbmNvbWluZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UuZnJvbSkpCiAgICAgIHZhbCBvdXRnb2luZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5vdXRnb2luZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UudG8pKQogICAgICAgIGluY29taW5nLm1hcChlZGdlID0+IGRlc2lnbi5HcmFwaC5FZGdlKGVkZ2UuZnJvbSwgbmV3Tm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBkZXNpZ24uR3JhcGguRWRnZShuZXdOb2RlLCBlZGdlLnRvLCBlZGdlLmxhYmVsKSkKICAgICAgfSAgCiAgICAgIAogICAgfQogICAgZGVmIGV4Y2hhbmdlKG9sZE5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLCBuZXdOb2RlOiBkZXNpZ24uR3JhcGguTm9kZSkgPSB7CiAgICAgIGFzc2VydCh0aGlzR3JhcGguY29udGFpbnMob2xkTm9kZSksICJkZXNpZ24gZ3JhcGggZG9lcyBub3QgY29udGFpbiB0aGUgbm9kZSB3ZSB3YW50IHRvIGV4Y2hhbmdlLiIpCiAgICAgIAogICAgICAKICAgICAgCiAgICAgIAogICAgICAKICAgIH0KICAgIA==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>clust</last-search>
+      <last-search>imp</last-search>
       <last-offset />
-      <last-pattern>clust</last-pattern>
+      <last-pattern>imp</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -644,7 +644,6 @@
     </search>
     <history>
       <history-search>
-        <entry>al</entry>
         <entry>ldi</entry>
         <entry>reco</entry>
         <entry>combine</entry>
@@ -664,6 +663,7 @@
         <entry>conver</entry>
         <entry>convertr</entry>
         <entry>clust</entry>
+        <entry>imp</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
