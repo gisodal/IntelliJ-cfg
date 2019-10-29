@@ -278,12 +278,6 @@
         <mark key="]" line="48" column="0" />
         <mark key="." line="48" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1572356783849">
-        <mark key="[" line="242" column="91" />
-        <mark key="]" line="243" column="14" />
-        <mark key="." line="243" column="14" />
-        <mark key="^" line="243" column="14" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1572348333637">
         <mark key="i" line="7" column="8" />
         <mark key="[" line="7" column="2" />
@@ -580,7 +574,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUgIA==</text>
+        <text encoding="base64">J0V2YWwgRUExJyAtPg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGlmIChsZXZlbCA9PSAwKSB7IA==</text>
@@ -589,7 +583,7 @@
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUgIA==</text>
+        <text encoding="base64">J0V2YWwgRUExJyAtPg==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IC8vIGNoYW5nZSBjbHVzdGVyIGdyYXBoIGludG8gZm9yZWFjaAogICAgICAgICAgICBwcm9jZXNzR3JhcGgucmVwbGFjZShub2RlLCBmb3JlYWNoTm9kZSkKCiAgICAgICAgICAgIGlmIChsZXZlbCA9PSAwKSB7CiAgICAgICAgICAgICAgdmFsIGZvcmVhY2hJbm5lck5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldChmb3JlYWNoTm9kZSkKICAgICAgICAgICAgICBkZXBlbmRlbmN5Tm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gZm9yZWFjaElubmVyTm9kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTm9uZQ==</text>
