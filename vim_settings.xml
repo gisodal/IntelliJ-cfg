@@ -278,10 +278,11 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1572361130559">
-        <mark key="[" line="1552" column="9" />
-        <mark key="]" line="1552" column="9" />
-        <mark key="." line="1552" column="9" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1572365383117">
+        <mark key="[" line="1555" column="0" />
+        <mark key="]" line="1555" column="0" />
+        <mark key="." line="1555" column="0" />
+        <mark key="^" line="1555" column="106" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1572348333637">
         <mark key="i" line="7" column="8" />
@@ -427,8 +428,8 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1572350241416">
-        <mark key="[" line="12" column="44" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1572365577076">
+        <mark key="[" line="12" column="59" />
         <mark key="]" line="5" column="116" />
         <mark key="." line="5" column="68" />
         <mark key="^" line="5" column="73" />
@@ -579,16 +580,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">J0V2YWwgRUIxJyAtPiBmZTE=</text>
+        <text>'Update EC1.attr2'</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGlmIChsZXZlbCA9PSAwKSB7IA==</text>
+        <text>'Create EC1'</text>
       </register>
       <register name="/" type="4">
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">J0V2YWwgRUIxJyAtPiBmZTE=</text>
+        <text>'Update EC1.attr2'</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IC8vIGNoYW5nZSBjbHVzdGVyIGdyYXBoIGludG8gZm9yZWFjaAogICAgICAgICAgICBwcm9jZXNzR3JhcGgucmVwbGFjZShub2RlLCBmb3JlYWNoTm9kZSkKCiAgICAgICAgICAgIGlmIChsZXZlbCA9PSAwKSB7CiAgICAgICAgICAgICAgdmFsIGZvcmVhY2hJbm5lck5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldChmb3JlYWNoTm9kZSkKICAgICAgICAgICAgICBkZXBlbmRlbmN5Tm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gZm9yZWFjaElubmVyTm9kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTm9uZQ==</text>
