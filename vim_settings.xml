@@ -392,11 +392,11 @@
         <mark key="^" line="220" column="116" />
         <mark key="." line="220" column="116" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1572352468538">
-        <mark key="[" line="41" column="4" />
-        <mark key="]" line="42" column="3" />
-        <mark key="^" line="42" column="3" />
-        <mark key="." line="42" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1572353986725">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="^" line="34" column="4" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -580,31 +580,32 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>IdGenerator</text>
+        <text encoding="base64">Y2FzZSAoU29tZShkZXBlbmRlbmN5R3JhcGgpLCBTb21lKHByb2Nlc3NHcmFwaCkpID0+IGV4cG9ydGVyLmFkZChkZXBlbmRlbmN5R3JhcGgsIHByb2Nlc3NHcmFwaCwgbmFtZSwgZmFsc2Up</text>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text encoding="base64">dmFsIGlkID0gaWQubmV4dCgpIA==</text>
       </register>
       <register name="/" type="4">
         <text>clust</text>
       </register>
       <register name="0" type="4">
-        <text>IdGenerator</text>
+        <text encoding="base64">Y2FzZSAoU29tZShkZXBlbmRlbmN5R3JhcGgpLCBTb21lKHByb2Nlc3NHcmFwaCkpID0+IGV4cG9ydGVyLmFkZChkZXBlbmRlbmN5R3JhcGgsIHByb2Nlc3NHcmFwaCwgbmFtZSwgZmFsc2Up</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
+        <text encoding="base64">ZGVmIGFkZChwcm9jZXNzR3JhcGg6IGRlc2lnbi5HcmFwaCwgbmFtZTogU3RyaW5nLCBmbHVzaDogQm9vbGVhbik6IFVuaXQgPSB7CiAgICAgIHZlcmlmeVBhdGhOYW1lKG5hbWUpCiAgICAgIGRpYWdyYW1FeHBvcnRlci5hZGRQcm9jZXNzRGVzaWduKFByb2Nlc3NEZXNpZ24obm9ybWFsaXplKG5hbWUpLCBMaXN0KG5hbWUpLCBwcm9jZXNzR3JhcGgpKQoKICAgICAgaWYgKGZsdXNoKQogICAgICAgIGV4cG9ydCgpCiAgICB9Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgdmFsIHN0ZXBzID0gY2x1c3Rlci5ncmFwaC50b3BvbG9naWNhbFNvcnQuZ2V0T3JFbHNlKE5pbCkubWFwKF8udG9PdXRlcikudG9MaXN0Cg==</text>
+      <register name="2" type="4">
+        <text>def verifyPathName(name: String): Unit =
+      assert(!name.contains(&quot;:&quot;), s&quot;A path name is chosen that contains character ':', which is unsupported by Windows: '$name'&quot;)</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgdmFsIHN0ZXBzID0gY2x1c3Rlci5ncmFwaC50b3BvbG9naWNhbFNvcnQuZ2V0T3JFbHNlKE5pbCkubWFwKF8udG9PdXRlcikudG9MaXN0Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text encoding="base64">ZGVmIGV4Y2hhbmdlQWxsKG9sZE5vZGVzOiBTZXRbZGVzaWduLkdyYXBoI05vZGVUXSwgbmV3Tm9kZTogZGVzaWduLkdyYXBoLk5vZGUpID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZSAKICAgICAgCiAgICAgIHZhbCBpbmNvbWluZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UuZnJvbSkpCiAgICAgIHZhbCBvdXRnb2luZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5vdXRnb2luZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UudG8pKQogICAgICAgIGluY29taW5nLm1hcChlZGdlID0+IGRlc2lnbi5HcmFwaC5FZGdlKGVkZ2UuZnJvbSwgbmV3Tm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBkZXNpZ24uR3JhcGguRWRnZShuZXdOb2RlLCBlZGdlLnRvLCBlZGdlLmxhYmVsKSkKICAgICAgfSAgCiAgICAgIAogICAgfQogICAgZGVmIGV4Y2hhbmdlKG9sZE5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLCBuZXdOb2RlOiBkZXNpZ24uR3JhcGguTm9kZSkgPSB7CiAgICAgIGFzc2VydCh0aGlzR3JhcGguY29udGFpbnMob2xkTm9kZSksICJkZXNpZ24gZ3JhcGggZG9lcyBub3QgY29udGFpbiB0aGUgbm9kZSB3ZSB3YW50IHRvIGV4Y2hhbmdlLiIpCiAgICAgIAogICAgICAKICAgICAgCiAgICAgIAogICAgICAKICAgIH0KICAgIA==</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgZGVmIGNyZWF0ZUVkZ2VzKGZvcmVhY2hOb2RlczogU2V0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0sIGZvcmVhY2hDbHVzdGVyTm9kZTogTm9kZS5DbHVzdGVyR3JhcGgpOiBTZXRbRWRnZV0gPSB7CiAgICAgICAgdmFsIGluY29taW5nID0gZm9yZWFjaE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIWZvcmVhY2hOb2Rlcy5jb250YWlucyhlZGdlLmZyb20pKQogICAgICAgIHZhbCBvdXRnb2luZyA9IGZvcmVhY2hOb2Rlcy5mbGF0TWFwKF8ub3V0Z29pbmcpLmZpbHRlcihlZGdlID0+ICFmb3JlYWNoTm9kZXMuY29udGFpbnMoZWRnZS50bykpCiAgICAgICAgaW5jb21pbmcubWFwKGVkZ2UgPT4gR3JhcGguRWRnZShlZGdlLmZyb20sIGZvcmVhY2hDbHVzdGVyTm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBHcmFwaC5FZGdlKGZvcmVhY2hDbHVzdGVyTm9kZSwgZWRnZS50bywgZWRnZS5sYWJlbCkpCiAgICAgIH0=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gdGhpc0dyYXBoLm5vZGVzLnRvT3V0ZXIK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -616,17 +617,17 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAuY29sbGVjdCB7IGNhc2UgY2x1c3RlcjogQ2x1c3RlciA9PiBjbHVzdGVyIH0K</text>
+      <register name="6" type="4">
+        <text encoding="base64">ICAgICAgZGVmIGNyZWF0ZUVkZ2VzKGZvcmVhY2hOb2RlczogU2V0W3Byb2Nlc3NHcmFwaC5Ob2RlVF0sIGZvcmVhY2hDbHVzdGVyTm9kZTogTm9kZS5DbHVzdGVyR3JhcGgpOiBTZXRbRWRnZV0gPSB7CiAgICAgICAgdmFsIGluY29taW5nID0gZm9yZWFjaE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIWZvcmVhY2hOb2Rlcy5jb250YWlucyhlZGdlLmZyb20pKQogICAgICAgIHZhbCBvdXRnb2luZyA9IGZvcmVhY2hOb2Rlcy5mbGF0TWFwKF8ub3V0Z29pbmcpLmZpbHRlcihlZGdlID0+ICFmb3JlYWNoTm9kZXMuY29udGFpbnMoZWRnZS50bykpCiAgICAgICAgaW5jb21pbmcubWFwKGVkZ2UgPT4gR3JhcGguRWRnZShlZGdlLmZyb20sIGZvcmVhY2hDbHVzdGVyTm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBHcmFwaC5FZGdlKGZvcmVhY2hDbHVzdGVyTm9kZSwgZWRnZS50bywgZWRnZS5sYWJlbCkpCiAgICAgIH0=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly92YWwgZm9yZWFjaFdyYXBwZXI6IEZvckVhY2hXcmFwcGVyID0gZm9yZWFjaE5vZGVzLmhlYWRPcHRpb24ubWFwKF8udG9PdXRlcikKICAgICAgICAvLyAgLmNvbGxlY3QgeyBjYXNlIGNsdXN0ZXI6IENsdXN0ZXIgPT4gY2x1c3RlciB9CiAgICAgICAgLy8gIC5mbGF0TWFwKF8ucmVwcmVzZW50YXRpdmUud3JhcHBlcihib2R5SWQuZ2V0KSkKICAgICAgICAvLyAgLmNvbGxlY3QgeyBjYXNlIHdyYXBwZXI6IEZvckVhY2hXcmFwcGVyID0+IHdyYXBwZXIgfS5nZXQ=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gdGhpc0dyYXBoLm5vZGVzLnRvT3V0ZXIK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBkZXBOb2RlczogU2V0W0RlcE5vZGVdID0gdGhpc05vZGUudG9PdXRlciBtYXRjaCB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAuY29sbGVjdCB7IGNhc2UgY2x1c3RlcjogQ2x1c3RlciA9PiBjbHVzdGVyIH0K</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Y2FzZSBjbGFzcyBGb3JtKGlkOiBOb2RlSWQsIG5yOiBMb25nLCBmb3JtOiBnZW5lcmF0b3IuRm9ybSkgZXh0ZW5kcyBTdGVwTGlrZSB7CiAgICAgIG92ZXJyaWRlIGRlZiBwcmV0dHlDb250ZW50czogU3RyaW5nID0gU3RlcHMudG9Db2RlKGZvcm0pCiAgICB9Cg==</text>
+        <text encoding="base64">Ly92YWwgZm9yZWFjaFdyYXBwZXI6IEZvckVhY2hXcmFwcGVyID0gZm9yZWFjaE5vZGVzLmhlYWRPcHRpb24ubWFwKF8udG9PdXRlcikKICAgICAgICAvLyAgLmNvbGxlY3QgeyBjYXNlIGNsdXN0ZXI6IENsdXN0ZXIgPT4gY2x1c3RlciB9CiAgICAgICAgLy8gIC5mbGF0TWFwKF8ucmVwcmVzZW50YXRpdmUud3JhcHBlcihib2R5SWQuZ2V0KSkKICAgICAgICAvLyAgLmNvbGxlY3QgeyBjYXNlIHdyYXBwZXI6IEZvckVhY2hXcmFwcGVyID0+IHdyYXBwZXIgfS5nZXQ=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
