@@ -120,12 +120,12 @@
         <mark key="^" line="174" column="44" />
         <mark key="." line="174" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572351757531">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572352478939">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="404" column="57" />
-        <mark key="]" line="404" column="37" />
-        <mark key="." line="404" column="37" />
-        <mark key="^" line="404" column="37" />
+        <mark key="[" line="26" column="56" />
+        <mark key="]" line="26" column="61" />
+        <mark key="." line="26" column="61" />
+        <mark key="^" line="26" column="61" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -382,11 +382,21 @@
         <mark key="^" line="90" column="89" />
         <mark key="." line="90" column="89" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/IdGenerator.scala" timestamp="1572352159178">
+        <mark key="[" line="4" column="6" />
+        <mark key="]" line="4" column="16" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/parser/GearsScanner.scala" timestamp="1568123097561">
         <mark key="[" line="220" column="117" />
         <mark key="]" line="220" column="116" />
         <mark key="^" line="220" column="116" />
         <mark key="." line="220" column="116" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1572352468538">
+        <mark key="[" line="41" column="4" />
+        <mark key="]" line="42" column="3" />
+        <mark key="^" line="42" column="3" />
+        <mark key="." line="42" column="3" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -570,7 +580,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
+        <text>IdGenerator</text>
       </register>
       <register name="-" type="4">
         <text>_</text>
@@ -579,7 +589,7 @@
         <text>clust</text>
       </register>
       <register name="0" type="4">
-        <text>.map(_.pretty).mkString(&quot;\n&quot;)</text>
+        <text>IdGenerator</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
