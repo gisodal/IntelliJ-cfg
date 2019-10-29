@@ -49,11 +49,11 @@
         <mark key="^" line="28" column="56" />
         <mark key="." line="28" column="56" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1572278536968">
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="^" line="33" column="32" />
-        <mark key="." line="35" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1572350905264">
+        <mark key="[" line="63" column="25" />
+        <mark key="]" line="63" column="3" />
+        <mark key="^" line="63" column="3" />
+        <mark key="." line="63" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1569410122948">
         <mark key="[" line="40" column="74" />
@@ -100,11 +100,11 @@
         <mark key="." line="18" column="11" />
         <mark key="^" line="18" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1570542412301">
-        <mark key="[" line="40" column="47" />
-        <mark key="]" line="55" column="44" />
-        <mark key="^" line="40" column="43" />
-        <mark key="." line="55" column="44" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1572350889356">
+        <mark key="[" line="42" column="4" />
+        <mark key="]" line="43" column="3" />
+        <mark key="^" line="43" column="3" />
+        <mark key="." line="43" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
@@ -441,9 +441,9 @@
         <mark key="^" line="48" column="3" />
         <mark key="." line="47" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572348768090">
-        <mark key="[" line="72" column="19" />
-        <mark key="]" line="72" column="18" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572350487942">
+        <mark key="[" line="85" column="27" />
+        <mark key="]" line="85" column="120" />
         <mark key="^" line="72" column="18" />
         <mark key="." line="72" column="18" />
       </file>
@@ -568,7 +568,14 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>clustering: Boolean = true,</text>
+        <text>def unapply(cluster: Cluster): Option[(String,List[DStep])] = {
+      if (!Cluster.RichCluster(cluster).containsInput) {
+        val steps = cluster.graph.topologicalSort.getOrElse(Nil).map(_.toOuter).toList
+        Some((cluster.id, steps))
+      }
+      else
+        None
+    }</text>
       </register>
       <register name="-" type="4">
         <text>_</text>
@@ -577,7 +584,14 @@
         <text>clust</text>
       </register>
       <register name="0" type="4">
-        <text>clustering: Boolean = true,</text>
+        <text>def unapply(cluster: Cluster): Option[(String,List[DStep])] = {
+      if (!Cluster.RichCluster(cluster).containsInput) {
+        val steps = cluster.graph.topologicalSort.getOrElse(Nil).map(_.toOuter).toList
+        Some((cluster.id, steps))
+      }
+      else
+        None
+    }</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGV4Y2hhbmdlQWxsKG9sZE5vZGVzOiBTZXRbZGVzaWduLkdyYXBoI05vZGVUXSwgbmV3Tm9kZTogZGVzaWduLkdyYXBoLk5vZGUpID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZSAKICAgICAgCiAgICAgIHZhbCBpbmNvbWluZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5pbmNvbWluZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UuZnJvbSkpCiAgICAgIHZhbCBvdXRnb2luZyA9IG9sZE5vZGVzLmZsYXRNYXAoXy5vdXRnb2luZykuZmlsdGVyKGVkZ2UgPT4gIW9sZE5vZGVzLmNvbnRhaW5zKGVkZ2UudG8pKQogICAgICAgIGluY29taW5nLm1hcChlZGdlID0+IGRlc2lnbi5HcmFwaC5FZGdlKGVkZ2UuZnJvbSwgbmV3Tm9kZSwgZWRnZS5sYWJlbCkpICsrCiAgICAgICAgICBvdXRnb2luZy5tYXAoZWRnZSA9PiBkZXNpZ24uR3JhcGguRWRnZShuZXdOb2RlLCBlZGdlLnRvLCBlZGdlLmxhYmVsKSkKICAgICAgfSAgCiAgICAgIAogICAgfQogICAgZGVmIGV4Y2hhbmdlKG9sZE5vZGU6IGRlc2lnbi5HcmFwaC5Ob2RlLCBuZXdOb2RlOiBkZXNpZ24uR3JhcGguTm9kZSkgPSB7CiAgICAgIGFzc2VydCh0aGlzR3JhcGguY29udGFpbnMob2xkTm9kZSksICJkZXNpZ24gZ3JhcGggZG9lcyBub3QgY29udGFpbiB0aGUgbm9kZSB3ZSB3YW50IHRvIGV4Y2hhbmdlLiIpCiAgICAgIAogICAgICAKICAgICAgCiAgICAgIAogICAgICAKICAgIH0KICAgIA==</text>
