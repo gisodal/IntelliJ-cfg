@@ -80,8 +80,8 @@
         <mark key="^" line="104" column="52" />
         <mark key="." line="104" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572433258933">
-        <mark key="[" line="54" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572434954568">
+        <mark key="[" line="47" column="20" />
         <mark key="]" line="54" column="0" />
         <mark key="^" line="53" column="35" />
         <mark key="." line="54" column="0" />
@@ -381,11 +381,12 @@
         <mark key="^" line="27" column="43" />
         <mark key="." line="27" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/BpmnConverter.scala" timestamp="1572431351925">
-        <mark key="[" line="92" column="68" />
-        <mark key="]" line="92" column="67" />
-        <mark key="^" line="92" column="67" />
-        <mark key="." line="92" column="67" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/BpmnConverter.scala" timestamp="1572436443556">
+        <mark key="'" line="92" column="6" />
+        <mark key="[" line="35" column="32" />
+        <mark key="]" line="35" column="32" />
+        <mark key="^" line="35" column="32" />
+        <mark key="." line="35" column="32" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/IdGenerator.scala" timestamp="1572352159178">
         <mark key="[" line="4" column="6" />
@@ -427,6 +428,12 @@
         <mark key="." line="23" column="0" />
         <mark key="^" line="22" column="15" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/resources/logback-test.xml" timestamp="1572435942000">
+        <mark key="[" line="30" column="60" />
+        <mark key="]" line="30" column="17" />
+        <mark key="^" line="30" column="17" />
+        <mark key="." line="30" column="17" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DepGraph.scala" timestamp="1568279401012">
         <mark key="[" line="12" column="32" />
         <mark key="]" line="12" column="47" />
@@ -445,11 +452,11 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1564006863058">
-        <mark key="[" line="213" column="27" />
-        <mark key="]" line="213" column="82" />
-        <mark key="^" line="213" column="82" />
-        <mark key="." line="213" column="82" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1572435608057">
+        <mark key="[" line="706" column="52" />
+        <mark key="]" line="706" column="51" />
+        <mark key="^" line="706" column="51" />
+        <mark key="." line="706" column="51" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1571828844299">
         <mark key="i" line="55" column="11" />
@@ -482,7 +489,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="90" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="102" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="113" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
@@ -582,10 +588,11 @@
       <jump line="72" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" />
       <jump line="744" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="765" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="92" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/BpmnConverter.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSIgCiAgICAgICAgICAgIGNhbXVuZGE6Y29sbGVjdGlvbj17Y29sbGVjdGlvbn0gY2FtdW5kYTplbGVtZW50VmFyaWFibGU9e2VsZW1lbnROYW1lfSA+CiAgICAgICAgPC9tdWx0aUluc3RhbmNlTG9vcENoYXJhY3RlcmlzdGljcz4=</text>
+        <text>prefix + &quot;.&quot; +</text>
       </register>
       <register name="-" type="4">
         <text>'Create EC1'</text>
@@ -594,7 +601,7 @@
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSI=</text>
+        <text>prefix + &quot;.&quot; +</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSIgCiAgICAgICAgICAgIGNhbXVuZGE6Y29sbGVjdGlvbj17Y29sbGVjdGlvbn0gY2FtdW5kYTplbGVtZW50VmFyaWFibGU9e2VsZW1lbnROYW1lfSA+CiAgICAgICAgPC9tdWx0aUluc3RhbmNlTG9vcENoYXJhY3RlcmlzdGljcz4=</text>
