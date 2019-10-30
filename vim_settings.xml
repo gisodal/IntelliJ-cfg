@@ -80,11 +80,11 @@
         <mark key="^" line="104" column="52" />
         <mark key="." line="104" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572431577952">
-        <mark key="[" line="49" column="5" />
-        <mark key="]" line="49" column="16" />
-        <mark key="^" line="49" column="5" />
-        <mark key="." line="49" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572433258933">
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="0" />
+        <mark key="^" line="53" column="35" />
+        <mark key="." line="54" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572359603804">
         <mark key="[" line="427" column="125" />
@@ -585,7 +585,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>elementName</text>
+        <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSIgCiAgICAgICAgICAgIGNhbXVuZGE6Y29sbGVjdGlvbj17Y29sbGVjdGlvbn0gY2FtdW5kYTplbGVtZW50VmFyaWFibGU9e2VsZW1lbnROYW1lfSA+CiAgICAgICAgPC9tdWx0aUluc3RhbmNlTG9vcENoYXJhY3RlcmlzdGljcz4=</text>
       </register>
       <register name="-" type="4">
         <text>'Create EC1'</text>
@@ -594,22 +594,22 @@
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text>elementName</text>
+        <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSI=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgXywgbnIsIGZvcm0pICAgICAgPT4gQnBtbi5Vc2VyVGFzayhicG1uSWQsIGZvcm0uZnJvbVN0ciwgZm9ybVJlZihmb3JtLCBucikpCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSIgCiAgICAgICAgICAgIGNhbXVuZGE6Y29sbGVjdGlvbj17Y29sbGVjdGlvbn0gY2FtdW5kYTplbGVtZW50VmFyaWFibGU9e2VsZW1lbnROYW1lfSA+CiAgICAgICAgPC9tdWx0aUluc3RhbmNlTG9vcENoYXJhY3RlcmlzdGljcz4=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgXywgbnIsIGZvcm0pICAgICAgPT4gQnBtbi5Vc2VyVGFzayhicG1uSWQsIGZvcm0uZnJvbVN0ciwgZm9ybVJlZihmb3JtLCBucikpCg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICB8ICAgICdFdmFsIEVCMScgLT4gZmUxCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">IC8vIGNoYW5nZSBjbHVzdGVyIGdyYXBoIGludG8gZm9yZWFjaAogICAgICAgICAgICBwcm9jZXNzR3JhcGgucmVwbGFjZShub2RlLCBmb3JlYWNoTm9kZSkKCiAgICAgICAgICAgIGlmIChsZXZlbCA9PSAwKSB7CiAgICAgICAgICAgICAgdmFsIGZvcmVhY2hJbm5lck5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldChmb3JlYWNoTm9kZSkKICAgICAgICAgICAgICBkZXBlbmRlbmN5Tm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gZm9yZWFjaElubmVyTm9kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTm9uZQ==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
-      </register>
       <register name="5" type="4">
-        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBjbHVzdGVyR3JhcGguY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -622,17 +622,17 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3RlckdyYXBoLmNsdXN0ZXIuY2x1c3Rlck5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUpIA==</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBjbHVzdGVyR3JhcGguY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ZGVmIGFkZChwcm9jZXNzR3JhcGg6IGRlc2lnbi5HcmFwaCwgbmFtZTogU3RyaW5nLCBmbHVzaDogQm9vbGVhbik6IFVuaXQgPSB7CiAgICAgIHZlcmlmeVBhdGhOYW1lKG5hbWUpCiAgICAgIGRpYWdyYW1FeHBvcnRlci5hZGRQcm9jZXNzRGVzaWduKFByb2Nlc3NEZXNpZ24obm9ybWFsaXplKG5hbWUpLCBMaXN0KG5hbWUpLCBwcm9jZXNzR3JhcGgpKQoKICAgICAgaWYgKGZsdXNoKQogICAgICAgIGV4cG9ydCgpCiAgICB9Cg==</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3RlckdyYXBoLmNsdXN0ZXIuY2x1c3Rlck5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUpIA==</text>
       </register>
       <register name="8" type="4">
-        <text>def verifyPathName(name: String): Unit =
-      assert(!name.contains(&quot;:&quot;), s&quot;A path name is chosen that contains character ':', which is unsupported by Windows: '$name'&quot;)</text>
+        <text encoding="base64">ZGVmIGFkZChwcm9jZXNzR3JhcGg6IGRlc2lnbi5HcmFwaCwgbmFtZTogU3RyaW5nLCBmbHVzaDogQm9vbGVhbik6IFVuaXQgPSB7CiAgICAgIHZlcmlmeVBhdGhOYW1lKG5hbWUpCiAgICAgIGRpYWdyYW1FeHBvcnRlci5hZGRQcm9jZXNzRGVzaWduKFByb2Nlc3NEZXNpZ24obm9ybWFsaXplKG5hbWUpLCBMaXN0KG5hbWUpLCBwcm9jZXNzR3JhcGgpKQoKICAgICAgaWYgKGZsdXNoKQogICAgICAgIGV4cG9ydCgpCiAgICB9Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Y2FzZSBOb2RlLkZvcm0oaWQsIG5yLCBmb3JtKSA9PgogICAgICBKc09iamVjdCgKICAgICAgICAiaWQiICAgIC0+IEpzU3RyaW5nKGlkKSwKICAgICAgICAidHlwZSIgIC0+IEpzU3RyaW5nKCJ1c2VyVGFzayIpLAogICAgICAgICJuYW1lIiAgLT4gSnNTdHJpbmcoIkZvcm0iICsgbnIpLAogICAgICAgICJsYWJlbCIgLT4gSnNTdHJpbmcoZm9ybS50b0NvZGUpLAogICAgICAgICJmcm9tIiAgLT4gSnNTdHJpbmcoZm9ybS5mcm9tU3RyKSwKICAgICAgKQ==</text>
+        <text>def verifyPathName(name: String): Unit =
+      assert(!name.contains(&quot;:&quot;), s&quot;A path name is chosen that contains character ':', which is unsupported by Windows: '$name'&quot;)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
