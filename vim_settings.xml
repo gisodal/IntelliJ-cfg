@@ -95,12 +95,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572599660949">
-        <mark key="'" line="359" column="71" />
-        <mark key="[" line="360" column="40" />
-        <mark key="]" line="360" column="42" />
-        <mark key="^" line="360" column="42" />
-        <mark key="." line="360" column="42" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572600675287">
+        <mark key="'" line="360" column="71" />
+        <mark key="[" line="367" column="0" />
+        <mark key="]" line="367" column="0" />
+        <mark key="." line="367" column="0" />
+        <mark key="^" line="365" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -511,11 +511,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>// create foreach node
-          val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
-
-          // exchange foreachNodes with foreach cluster
-          processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
+        <text>.forall(_.isEmpty)</text>
       </register>
       <register name="-" type="4">
         <text>.getOrElse(throw DesignException(&quot;Each node in a task graph should have a representative&quot;))</text>
@@ -524,11 +520,7 @@
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text>// create foreach node
-          val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
-
-          // exchange foreachNodes with foreach cluster
-          processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
+        <text>.forall(_.isEmpty)</text>
       </register>
       <register name="1" type="4">
         <text>// create foreach node
