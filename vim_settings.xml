@@ -95,6 +95,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572599660949">
+        <mark key="'" line="359" column="71" />
+        <mark key="[" line="360" column="40" />
+        <mark key="]" line="360" column="42" />
+        <mark key="^" line="360" column="42" />
+        <mark key="." line="360" column="42" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
         <mark key="]" line="24" column="10" />
@@ -291,7 +298,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1572529986392">
+      <file name="/sbtShell" timestamp="1572539478283">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -401,7 +408,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="113" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="99" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="11" column="32" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
@@ -501,34 +507,47 @@
       <jump line="765" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="92" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/BpmnConverter.scala" />
       <jump line="1283" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
+      <jump line="359" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBmZWF0dXJlLWRlcGVuZGVuY3ktdGVzdAo=</text>
+      <register name="&quot;" type="4">
+        <text>// create foreach node
+          val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
+
+          // exchange foreachNodes with foreach cluster
+          processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PGxvZ2dlciBuYW1lPSJjb20ueGxyaXQuZ2VhcnMuZ2VuZXJhdG9yLmVtaXQuQnBtbkNvbnZlcnRlclRlc3QiIGxldmVsPSJERUJVRyIgLz4=</text>
+        <text>.getOrElse(throw DesignException(&quot;Each node in a task graph should have a representative&quot;))</text>
       </register>
       <register name="/" type="4">
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">VE9ETzog</text>
+        <text>// create foreach node
+          val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
+
+          // exchange foreachNodes with foreach cluster
+          processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBmZWF0dXJlLWRlcGVuZGVuY3ktdGVzdAo=</text>
+      <register name="1" type="4">
+        <text>// create foreach node
+        val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
+
+        // exchange foreachNodes with foreach cluster
+        processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Pj4+Pj4+PiBmZWF0dXJlLWRlcGVuZGVuY3ktdGVzdAo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgbnIgICAgICAgICA6IExvbmcsCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSIgCiAgICAgICAgICAgIGNhbXVuZGE6Y29sbGVjdGlvbj17Y29sbGVjdGlvbn0gY2FtdW5kYTplbGVtZW50VmFyaWFibGU9e2VsZW1lbnROYW1lfSA+CiAgICAgICAgPC9tdWx0aUluc3RhbmNlTG9vcENoYXJhY3RlcmlzdGljcz4=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgXywgbnIsIGZvcm0pICAgICAgPT4gQnBtbi5Vc2VyVGFzayhicG1uSWQsIGZvcm0uZnJvbVN0ciwgZm9ybVJlZihmb3JtLCBucikpCg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB8ICAgICdFdmFsIEVCMScgLT4gZmUxCg==</text>
+        <text encoding="base64">ICAgICAgXywgbnIsIGZvcm0pICAgICAgPT4gQnBtbi5Vc2VyVGFzayhicG1uSWQsIGZvcm0uZnJvbVN0ciwgZm9ybVJlZihmb3JtLCBucikpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -540,17 +559,17 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">IC8vIGNoYW5nZSBjbHVzdGVyIGdyYXBoIGludG8gZm9yZWFjaAogICAgICAgICAgICBwcm9jZXNzR3JhcGgucmVwbGFjZShub2RlLCBmb3JlYWNoTm9kZSkKCiAgICAgICAgICAgIGlmIChsZXZlbCA9PSAwKSB7CiAgICAgICAgICAgICAgdmFsIGZvcmVhY2hJbm5lck5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldChmb3JlYWNoTm9kZSkKICAgICAgICAgICAgICBkZXBlbmRlbmN5Tm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gZm9yZWFjaElubmVyTm9kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTm9uZQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICB8ICAgICdFdmFsIEVCMScgLT4gZmUxCg==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
+        <text encoding="base64">IC8vIGNoYW5nZSBjbHVzdGVyIGdyYXBoIGludG8gZm9yZWFjaAogICAgICAgICAgICBwcm9jZXNzR3JhcGgucmVwbGFjZShub2RlLCBmb3JlYWNoTm9kZSkKCiAgICAgICAgICAgIGlmIChsZXZlbCA9PSAwKSB7CiAgICAgICAgICAgICAgdmFsIGZvcmVhY2hJbm5lck5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldChmb3JlYWNoTm9kZSkKICAgICAgICAgICAgICBkZXBlbmRlbmN5Tm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gZm9yZWFjaElubmVyTm9kZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgTm9uZQ==</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBjbHVzdGVyR3JhcGguY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgY2x1c3RlckdyYXBoLmNsdXN0ZXIuY2x1c3Rlck5vZGVzLmZvcmVhY2gobm9kZSA9PiBkZXBOb2RlVG9Qcm9jZXNzTm9kZSArPSBub2RlIC0+IHByb2Nlc3NJbm5lck5vZGUpIA==</text>
+        <text encoding="base64">aWYgKGxldmVsID09IDApCiAgICAgICAgICAgICAgZGVwZW5kZW5jeU5vZGVzLmZvcmVhY2gobm9kZSA9PiBjbHVzdGVyR3JhcGguY2x1c3Rlci5jbHVzdGVyTm9kZXMuZm9yZWFjaChub2RlID0+IGRlcE5vZGVUb1Byb2Nlc3NOb2RlICs9IG5vZGUgLT4gcHJvY2Vzc0lubmVyTm9kZSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
