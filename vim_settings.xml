@@ -27,17 +27,20 @@
         <mark key="^" line="110" column="52" />
         <mark key="." line="110" column="52" />
       </file>
+      <file name="/a.dummy" timestamp="1570613269614">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
         <mark key="]" line="9" column="19" />
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1572618214900">
-        <mark key="[" line="45" column="15" />
-        <mark key="]" line="45" column="16" />
-        <mark key="." line="45" column="16" />
-        <mark key="^" line="45" column="16" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1572619210474">
+        <mark key="[" line="47" column="51" />
+        <mark key="]" line="47" column="16" />
+        <mark key="^" line="47" column="16" />
+        <mark key="." line="47" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1572614684981">
         <mark key="]" line="32" column="3" />
@@ -67,6 +70,9 @@
         <mark key="^" line="6" column="52" />
         <mark key="." line="6" column="52" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572434954568">
+        <mark key="[" line="47" column="20" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572610179645">
         <mark key="[" line="149" column="75" />
         <mark key="]" line="149" column="85" />
@@ -85,6 +91,9 @@
         <mark key="^" line="32" column="57" />
         <mark key="." line="31" column="0" />
       </file>
+      <file name="/Dummy.scala" timestamp="1572619182189">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/DiGraph.scala" timestamp="1571740186833">
         <mark key="[" line="11" column="2" />
         <mark key="]" line="30" column="5" />
@@ -97,7 +106,7 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572614433914">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572619023942">
         <mark key="[" line="768" column="0" />
         <mark key="]" line="768" column="0" />
         <mark key="." line="768" column="0" />
@@ -131,6 +140,12 @@
         <mark key="]" line="57" column="11" />
         <mark key="^" line="57" column="11" />
         <mark key="." line="57" column="11" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1572618755518">
+        <mark key="[" line="130" column="72" />
+        <mark key="]" line="130" column="75" />
+        <mark key="." line="130" column="75" />
+        <mark key="^" line="130" column="75" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest_BACKUP_24899.scala" timestamp="1572534430959">
         <mark key="[" line="1410" column="0" />
@@ -395,6 +410,9 @@
         <mark key="^" line="5" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1572610464731" />
+      <file name="/fragment.java" timestamp="1571739861724">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="113" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
@@ -500,7 +518,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>type Branch = Boolean</text>
+        <text>s&quot;Could not find branch in a dstep wrapper: ${wrapper.toString}&quot;))</text>
       </register>
       <register name="-" type="4">
         <text>type Branch = Boolean</text>
@@ -509,7 +527,7 @@
         <text>imp</text>
       </register>
       <register name="0" type="4">
-        <text>SeveralFormItem(inner: InputFormItem)</text>
+        <text>s&quot;Could not find branch in a dstep wrapper: ${wrapper.toString}&quot;))</text>
       </register>
       <register name="1" type="4">
         <text>// create foreach node
