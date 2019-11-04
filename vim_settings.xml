@@ -27,7 +27,7 @@
         <mark key="^" line="110" column="52" />
         <mark key="." line="110" column="52" />
       </file>
-      <file name="/a.dummy" timestamp="1570613269614">
+      <file name="/a.dummy" timestamp="1572858593670">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
@@ -128,6 +128,12 @@
         <mark key="]" line="5" column="16" />
         <mark key="^" line="62" column="75" />
         <mark key="." line="63" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572858581767">
+        <mark key="[" line="18" column="13" />
+        <mark key="]" line="18" column="16" />
+        <mark key="^" line="18" column="16" />
+        <mark key="." line="18" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1570434505655">
         <mark key="[" line="41" column="0" />
@@ -385,11 +391,8 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/EvalScope.scala" timestamp="1572857767918">
-        <mark key="[" line="46" column="18" />
-        <mark key="]" line="46" column="17" />
-        <mark key="^" line="46" column="17" />
-        <mark key="." line="46" column="17" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/EvalScope.scala" timestamp="1572858478075">
+        <mark key="[" line="8" column="11" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1572615696530">
         <mark key="[" line="66" column="66" />
