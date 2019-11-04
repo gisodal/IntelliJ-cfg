@@ -36,11 +36,11 @@
         <mark key="^" line="9" column="19" />
         <mark key="." line="9" column="26" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1572619210474">
-        <mark key="[" line="47" column="51" />
-        <mark key="]" line="47" column="16" />
-        <mark key="^" line="47" column="16" />
-        <mark key="." line="47" column="16" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Scope.scala" timestamp="1572856924187">
+        <mark key="[" line="8" column="11" />
+        <mark key="]" line="8" column="14" />
+        <mark key="^" line="8" column="14" />
+        <mark key="." line="8" column="14" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1572614684981">
         <mark key="]" line="32" column="3" />
@@ -242,7 +242,6 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1572613944038" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1569315812901">
         <mark key="[" line="33" column="4" />
         <mark key="]" line="37" column="33" />
@@ -297,7 +296,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1572605952976">
+      <file name="/sbtShell" timestamp="1572856649530">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -386,7 +385,12 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/emit/BpmnConverterTest.scala" timestamp="1572614157536" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/EvalScope.scala" timestamp="1572857767918">
+        <mark key="[" line="46" column="18" />
+        <mark key="]" line="46" column="17" />
+        <mark key="^" line="46" column="17" />
+        <mark key="." line="46" column="17" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1572615696530">
         <mark key="[" line="66" column="66" />
         <mark key="]" line="67" column="29" />
@@ -409,14 +413,11 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" timestamp="1572610464731" />
       <file name="/fragment.java" timestamp="1571739861724">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
-      <jump line="99" column="30" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="11" column="32" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="109" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="124" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
@@ -515,19 +516,21 @@
       <jump line="92" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/BpmnConverter.scala" />
       <jump line="1283" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" />
       <jump line="359" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="10" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/EvalScope.scala" />
+      <jump line="19" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/EvalScope.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>s&quot;Could not find branch in a dstep wrapper: ${wrapper.toString}&quot;))</text>
+        <text>evalId: Id, branch: BranchId, kind: ControlKind)</text>
       </register>
       <register name="-" type="4">
         <text>type Branch = Boolean</text>
       </register>
       <register name="/" type="4">
-        <text>imp</text>
+        <text>BlockId</text>
       </register>
       <register name="0" type="4">
-        <text>s&quot;Could not find branch in a dstep wrapper: ${wrapper.toString}&quot;))</text>
+        <text>evalId: Id, branch: BranchId, kind: ControlKind)</text>
       </register>
       <register name="1" type="4">
         <text>// create foreach node
@@ -579,9 +582,9 @@
       </register>
     </registers>
     <search>
-      <last-search>imp</last-search>
+      <last-search>BlockId</last-search>
       <last-offset />
-      <last-pattern>imp</last-pattern>
+      <last-pattern>BlockId</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -589,7 +592,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ldi</entry>
         <entry>reco</entry>
         <entry>combine</entry>
         <entry>test</entry>
@@ -609,6 +611,7 @@
         <entry>convertr</entry>
         <entry>clust</entry>
         <entry>imp</entry>
+        <entry>BlockId</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
