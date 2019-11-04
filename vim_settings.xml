@@ -69,7 +69,7 @@
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572434954568">
         <mark key="[" line="47" column="20" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572865884884">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572876847756">
         <mark key="[" line="498" column="0" />
         <mark key="]" line="498" column="0" />
         <mark key="." line="498" column="0" />
@@ -104,11 +104,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572866860519">
-        <mark key="[" line="365" column="15" />
-        <mark key="]" line="365" column="24" />
-        <mark key="." line="365" column="24" />
-        <mark key="^" line="365" column="24" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572875495149">
+        <mark key="[" line="367" column="31" />
+        <mark key="]" line="367" column="31" />
+        <mark key="." line="367" column="31" />
+        <mark key="^" line="367" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -128,11 +128,11 @@
         <mark key="^" line="62" column="75" />
         <mark key="." line="63" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572867445754">
-        <mark key="[" line="14" column="32" />
-        <mark key="]" line="14" column="34" />
-        <mark key="." line="14" column="34" />
-        <mark key="^" line="14" column="34" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572876601297">
+        <mark key="[" line="75" column="24" />
+        <mark key="]" line="75" column="30" />
+        <mark key="^" line="75" column="30" />
+        <mark key="." line="75" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1570434505655">
         <mark key="[" line="41" column="0" />
@@ -146,11 +146,11 @@
         <mark key="^" line="57" column="11" />
         <mark key="." line="57" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1572866468120">
-        <mark key="[" line="51" column="51" />
-        <mark key="]" line="51" column="63" />
-        <mark key="." line="51" column="63" />
-        <mark key="^" line="51" column="63" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1572877041428">
+        <mark key="[" line="47" column="92" />
+        <mark key="]" line="47" column="97" />
+        <mark key="." line="47" column="97" />
+        <mark key="^" line="47" column="97" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
         <mark key="[" line="20" column="66" />
@@ -509,39 +509,35 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>type BlockStack = List[BlockId]</text>
+        <text>.getOrElse(throw new GenerateException(s&quot;The following DStep does not contain evalid $evalId: ${thisStep.toString}&quot;))</text>
       </register>
       <register name="-" type="4">
-        <text>inputGraph.roots</text>
+        <text>.getOrElse(throw new GenerateException(s&quot;The following DStep does not contain evalid $evalId: ${thisStep.toString}&quot;))</text>
       </register>
       <register name="/" type="4">
         <text>BlockId</text>
       </register>
       <register name="0" type="4">
-        <text>type BlockStack = List[BlockId]</text>
+        <text>.getOrElse(throw new GenerateException(s&quot;The following DStep does not contain evalid $evalId: ${thisStep.toString}&quot;))</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9CbG9ja1N0YWNrKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSB7CiAgICBkZWYgaW1wKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSBkc3RlcCBtYXRjaCB7CiAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGltcCh3LndyYXBwZWQpCiAgICAgIGNhc2UgdzogV3JhcHBlciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+IEJsb2NrSWQodykgOjogaW1wKHcud3JhcHBlZCkKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gTmlsCiAgICB9CiAgICAoQmxvY2tJZC5yb290IDo6IGltcChkc3RlcCkpLnJldmVyc2UKICB9Cg==</text>
+      </register>
+      <register name="2" type="4">
         <text encoding="base64">Y2FzZSBTb21lKGV2YWxJZCkgPT4gd3JhcHBlcihldmFsSWQpCiAgICAgICAgLm1hcCh3cmFwcGVyID0+IEJsb2NrU2NvcGUuQmxvY2tJZCh3cmFwcGVyLmV2YWxJZCwgd3JhcHBlci53cmFwcGVyQnJhbmNoSWQsIHdyYXBwZXIud3JhcHBlcktpbmQpKQogICAgICAgIC5nZXRPckVsc2UodGhyb3cgbmV3IEdlbmVyYXRlRXhjZXB0aW9uKHMiVGhlIGZvbGxvd2luZyBEU3RlcCBkb2VzIG5vdCBjb250YWluIGV2YWxpZCAke2V2YWxJZH06ICR7dGhpc1N0ZXAudG9TdHJpbmd9Iikp</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgZGVmIGJvZHlTdGFjayhzOiBEU3RlcCk6IEJvZHlTdGFjayA9IHMgbWF0Y2ggewogICAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGJvZHlTdGFjayh3LndyYXBwZWQpCg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAoaGVhZDEuYnJhbmNoSWQgIT0gaGVhZDIuYnJhbmNoSWQpIHx8IGltcCh0YWlsMSwgdGFpbDIpCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>// create foreach node
           val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
 
           // exchange foreachNodes with foreach cluster
           processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
-      </register>
-      <register name="5" type="4">
-        <text>// create foreach node
-        val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
-
-        // exchange foreachNodes with foreach cluster
-        processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -553,17 +549,21 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBmZWF0dXJlLWRlcGVuZGVuY3ktdGVzdAo=</text>
+      <register name="6" type="4">
+        <text>// create foreach node
+        val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
+
+        // exchange foreachNodes with foreach cluster
+        processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Pj4+Pj4+PiBmZWF0dXJlLWRlcGVuZGVuY3ktdGVzdAo=</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgbnIgICAgICAgICA6IExvbmcsCg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">PG11bHRpSW5zdGFuY2VMb29wQ2hhcmFjdGVyaXN0aWNzIGlzU2VxdWVudGlhbD0idHJ1ZSIgCiAgICAgICAgICAgIGNhbXVuZGE6Y29sbGVjdGlvbj17Y29sbGVjdGlvbn0gY2FtdW5kYTplbGVtZW50VmFyaWFibGU9e2VsZW1lbnROYW1lfSA+CiAgICAgICAgPC9tdWx0aUluc3RhbmNlTG9vcENoYXJhY3RlcmlzdGljcz4=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgXywgbnIsIGZvcm0pICAgICAgPT4gQnBtbi5Vc2VyVGFzayhicG1uSWQsIGZvcm0uZnJvbVN0ciwgZm9ybVJlZihmb3JtLCBucikpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
