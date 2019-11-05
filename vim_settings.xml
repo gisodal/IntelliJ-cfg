@@ -104,12 +104,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572946877131">
-        <mark key="'" line="293" column="8" />
-        <mark key="[" line="206" column="0" />
-        <mark key="]" line="209" column="8" />
-        <mark key="." line="209" column="8" />
-        <mark key="^" line="209" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1572947518078">
+        <mark key="'" line="292" column="8" />
+        <mark key="[" line="202" column="58" />
+        <mark key="]" line="202" column="48" />
+        <mark key="^" line="202" column="48" />
+        <mark key="." line="202" column="48" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -510,10 +510,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIHdpdGhvdXRGb3JlYWNoOiBCbG9ja1Njb3BlID0gQmxvY2tTY29wZShibG9ja1N0YWNrLmZpbHRlciB7CiAgICBjYXNlIEJsb2NrSWQuQmxvY2tJdGVtKF8sIF8sIENvbnRyb2xLaW5kLkZvckVhY2gpID0+IGZhbHNlCiAgICBjYXNlIF8gPT4gdHJ1ZQogIH0pCg==</text>
+        <text encoding="base64">LmZvcmFsbChfLmNvbnRhaW5zT25seUlucHV0KSA9PiBib2R5SWQ=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Ly8gc2VsZWN0IHRob3NlIGJvZHlJZHMgdGhhdCBiZWxvbmcgdG8gYSBmb3JlYWNoIGFuZCBjb250YWluIG9ubHkgaW5wdXRzIA==</text>
+        <text encoding="base64">LmZvcmFsbChfLmNvbnRhaW5zT25seUlucHV0KSA9PiBib2R5SWQ=</text>
       </register>
       <register name="/" type="4">
         <text>clusterByInput</text>
@@ -521,20 +521,21 @@
       <register name="0" type="4">
         <text encoding="base64">ZGVmIHdpdGhvdXRGb3JlYWNoOiBCbG9ja1Njb3BlID0gQmxvY2tTY29wZShibG9ja1N0YWNrLmZpbHRlciB7CiAgICBjYXNlIEJsb2NrSWQuQmxvY2tJdGVtKF8sIF8sIENvbnRyb2xLaW5kLkZvckVhY2gpID0+IGZhbHNlCiAgICBjYXNlIF8gPT4gdHJ1ZQogIH0pCg==</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>// inputs are allowed to be merge if they are from the same user and have the same bodyId.
+        // bodyId X of an input reverts to the parent bodyId Y iff X belongs to a foreach, and that foreach contains only inputs</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAvL3ZhbCBvcHRpbWl6ZUZvcmVhY2ggPQo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">ICBkZWYgYXBwbHkoYm9keUlkOiBCb2R5SWQsIGJyYW5jaDogQnJhbmNoSWQsIGtpbmQ6IENvbnRyb2xLaW5kKTogQmxvY2tJZCA9IEJsb2NrSXRlbShib2R5SWQsIGJyYW5jaCwga2luZCkKICAgIGRlZiBhcHBseSh3cmFwcGVyOiBXcmFwcGVyKTogQmxvY2tJZCA9IEJsb2NrSWQod3JhcHBlci53cmFwcGVyQm9keUlkLCB3cmFwcGVyLndyYXBwZXJCcmFuY2hJZCwgd3JhcHBlci53cmFwcGVyS2luZCkKICAgIGRlZiByb290OiBCbG9ja0lkID0gUm9vdEJsb2Nr</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">cHJpdmF0ZSBkZWYgdG9CbG9ja1N0YWNrKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSB7CiAgICBkZWYgaW1wKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSBkc3RlcCBtYXRjaCB7CiAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGltcCh3LndyYXBwZWQpCiAgICAgIGNhc2UgdzogV3JhcHBlciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+IEJsb2NrSWQodykgOjogaW1wKHcud3JhcHBlZCkKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gTmlsCiAgICB9CiAgICAoQmxvY2tJZC5yb290IDo6IGltcChkc3RlcCkpLnJldmVyc2UKICB9Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">Y2FzZSBTb21lKGV2YWxJZCkgPT4gd3JhcHBlcihldmFsSWQpCiAgICAgICAgLm1hcCh3cmFwcGVyID0+IEJsb2NrU2NvcGUuQmxvY2tJZCh3cmFwcGVyLmV2YWxJZCwgd3JhcHBlci53cmFwcGVyQnJhbmNoSWQsIHdyYXBwZXIud3JhcHBlcktpbmQpKQogICAgICAgIC5nZXRPckVsc2UodGhyb3cgbmV3IEdlbmVyYXRlRXhjZXB0aW9uKHMiVGhlIGZvbGxvd2luZyBEU3RlcCBkb2VzIG5vdCBjb250YWluIGV2YWxpZCAke2V2YWxJZH06ICR7dGhpc1N0ZXAudG9TdHJpbmd9Iikp</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZGVmIGJvZHlTdGFjayhzOiBEU3RlcCk6IEJvZHlTdGFjayA9IHMgbWF0Y2ggewogICAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGJvZHlTdGFjayh3LndyYXBwZWQpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -547,24 +548,24 @@
         </keys>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgZGVmIGJvZHlTdGFjayhzOiBEU3RlcCk6IEJvZHlTdGFjayA9IHMgbWF0Y2ggewogICAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGJvZHlTdGFjayh3LndyYXBwZWQpCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAoaGVhZDEuYnJhbmNoSWQgIT0gaGVhZDIuYnJhbmNoSWQpIHx8IGltcCh0YWlsMSwgdGFpbDIpCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>// create foreach node
           val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
 
           // exchange foreachNodes with foreach cluster
           processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>// create foreach node
         val foreachClusterGraph = createClusterGraph(foreachNodes, bodyId)
 
         // exchange foreachNodes with foreach cluster
         processGraph.replaceAll(foreachNodes, foreachClusterGraph)</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBmZWF0dXJlLWRlcGVuZGVuY3ktdGVzdAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
