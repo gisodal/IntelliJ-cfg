@@ -21,6 +21,12 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1572963417578">
+        <mark key="[" line="101" column="12" />
+        <mark key="]" line="101" column="14" />
+        <mark key="^" line="101" column="14" />
+        <mark key="." line="101" column="14" />
+      </file>
       <file name="/a.dummy" timestamp="1572858593670">
         <mark key="[" line="0" column="0" />
       </file>
@@ -56,6 +62,10 @@
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572434954568">
         <mark key="[" line="47" column="20" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1572962985126">
+        <mark key="[" line="332" column="6" />
+        <mark key="]" line="401" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1572954991636">
         <mark key="[" line="201" column="28" />
@@ -113,11 +123,11 @@
         <mark key="^" line="62" column="75" />
         <mark key="." line="63" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572962124340">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="5" />
-        <mark key="^" line="11" column="5" />
-        <mark key="." line="11" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572963439287">
+        <mark key="[" line="16" column="1" />
+        <mark key="]" line="16" column="1" />
+        <mark key="." line="16" column="1" />
+        <mark key="^" line="16" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1570434505655">
         <mark key="[" line="41" column="0" />
@@ -374,6 +384,9 @@
         <mark key="^" line="67" column="29" />
         <mark key="." line="67" column="29" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1572962961622">
+        <mark key="[" line="11" column="16" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="5" column="0" />
@@ -488,18 +501,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>def get(stepId: Id): Option[thisGraph.NodeT] =
-      thisGraph.nodes.find(_.toOuter.innermost.id == stepId)</text>
+        <text>case object EmptyRef extends EvalRef</text>
       </register>
       <register name="-" type="4">
-        <text>elementName</text>
+        <text>case object EmptyRef extends EvalRef</text>
       </register>
       <register name="/" type="4">
         <text>clusterByInput</text>
       </register>
       <register name="0" type="4">
-        <text>def get(stepId: Id): Option[thisGraph.NodeT] =
-      thisGraph.nodes.find(_.toOuter.innermost.id == stepId)</text>
+        <text>sealed trait EvalRef</text>
       </register>
       <register name="1" type="4">
         <text>// inputs are allowed to be merge if they are from the same user and have the same bodyId.
