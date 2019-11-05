@@ -21,12 +21,6 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1572617179708">
-        <mark key="[" line="110" column="70" />
-        <mark key="]" line="110" column="52" />
-        <mark key="^" line="110" column="52" />
-        <mark key="." line="110" column="52" />
-      </file>
       <file name="/a.dummy" timestamp="1572858593670">
         <mark key="[" line="0" column="0" />
       </file>
@@ -119,11 +113,11 @@
         <mark key="^" line="62" column="75" />
         <mark key="." line="63" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572946567944">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="^" line="21" column="43" />
-        <mark key="." line="22" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" timestamp="1572956911486">
+        <mark key="[" line="32" column="12" />
+        <mark key="]" line="32" column="16" />
+        <mark key="^" line="32" column="16" />
+        <mark key="." line="32" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Blockifier.scala" timestamp="1570434505655">
         <mark key="[" line="41" column="0" />
@@ -136,12 +130,6 @@
         <mark key="]" line="57" column="11" />
         <mark key="^" line="57" column="11" />
         <mark key="." line="57" column="11" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1572955092758">
-        <mark key="[" line="153" column="4" />
-        <mark key="]" line="154" column="3" />
-        <mark key="." line="154" column="3" />
-        <mark key="^" line="154" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
         <mark key="[" line="20" column="66" />
@@ -185,11 +173,11 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1572862603770">
-        <mark key="[" line="58" column="39" />
-        <mark key="]" line="58" column="39" />
-        <mark key="." line="58" column="39" />
-        <mark key="^" line="58" column="39" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1572956814625">
+        <mark key="[" line="81" column="76" />
+        <mark key="]" line="81" column="77" />
+        <mark key="^" line="81" column="77" />
+        <mark key="." line="81" column="77" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -238,12 +226,6 @@
         <mark key="]" line="103" column="0" />
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1572954820145">
-        <mark key="[" line="32" column="24" />
-        <mark key="]" line="32" column="24" />
-        <mark key="^" line="32" column="24" />
-        <mark key="." line="32" column="24" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/Graph.scala" timestamp="1569315812901">
         <mark key="[" line="33" column="4" />
@@ -506,16 +488,18 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>nodesByBranch</text>
+        <text>def get(stepId: Id): Option[thisGraph.NodeT] =
+      thisGraph.nodes.find(_.toOuter.innermost.id == stepId)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LmZvcmFsbChfLmNvbnRhaW5zT25seUlucHV0KSA9PiBib2R5SWQ=</text>
+        <text>elementName</text>
       </register>
       <register name="/" type="4">
         <text>clusterByInput</text>
       </register>
       <register name="0" type="4">
-        <text>nodesByBranch</text>
+        <text>def get(stepId: Id): Option[thisGraph.NodeT] =
+      thisGraph.nodes.find(_.toOuter.innermost.id == stepId)</text>
       </register>
       <register name="1" type="4">
         <text>// inputs are allowed to be merge if they are from the same user and have the same bodyId.
