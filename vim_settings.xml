@@ -21,14 +21,11 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1572971105315">
-        <mark key="[" line="99" column="21" />
-        <mark key="]" line="99" column="21" />
-        <mark key="^" line="99" column="0" />
-        <mark key="." line="99" column="21" />
-      </file>
-      <file name="/a.dummy" timestamp="1572858593670">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1573041254564">
+        <mark key="[" line="271" column="20" />
+        <mark key="]" line="271" column="23" />
+        <mark key="^" line="271" column="23" />
+        <mark key="." line="271" column="23" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -60,9 +57,6 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/Bpmn.scala" timestamp="1572434954568">
-        <mark key="[" line="47" column="20" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1573033296631">
         <mark key="[" line="352" column="39" />
         <mark key="]" line="352" column="31" />
@@ -91,11 +85,11 @@
         <mark key="." line="28" column="11" />
         <mark key="^" line="28" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1573036466981">
-        <mark key="[" line="12" column="27" />
-        <mark key="]" line="12" column="26" />
-        <mark key="." line="12" column="26" />
-        <mark key="^" line="12" column="26" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1573040361929">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="^" line="10" column="33" />
+        <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
@@ -103,11 +97,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573039155782">
-        <mark key="[" line="506" column="5" />
-        <mark key="]" line="507" column="73" />
-        <mark key="^" line="508" column="5" />
-        <mark key="." line="506" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573040605152">
+        <mark key="'" line="450" column="24" />
+        <mark key="[" line="536" column="44" />
+        <mark key="]" line="536" column="37" />
+        <mark key="^" line="536" column="37" />
+        <mark key="." line="536" column="37" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -158,11 +153,11 @@
         <mark key="^" line="20" column="71" />
         <mark key="." line="20" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1572606011102">
-        <mark key="[" line="13" column="57" />
-        <mark key="]" line="13" column="57" />
-        <mark key="^" line="13" column="57" />
-        <mark key="." line="13" column="57" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1573041330888">
+        <mark key="[" line="532" column="24" />
+        <mark key="]" line="532" column="30" />
+        <mark key="^" line="532" column="30" />
+        <mark key="." line="532" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1565694614004">
         <mark key="[" line="19" column="0" />
@@ -401,20 +396,17 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/EvalScope.scala" timestamp="1572858478075">
-        <mark key="[" line="8" column="11" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1572615696530">
         <mark key="[" line="66" column="66" />
         <mark key="]" line="67" column="29" />
         <mark key="^" line="67" column="29" />
         <mark key="." line="67" column="29" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1573038934888">
-        <mark key="[" line="78" column="80" />
-        <mark key="]" line="78" column="77" />
-        <mark key="^" line="78" column="77" />
-        <mark key="." line="78" column="77" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1573039336741">
+        <mark key="[" line="139" column="45" />
+        <mark key="]" line="139" column="52" />
+        <mark key="^" line="139" column="52" />
+        <mark key="." line="139" column="52" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -422,12 +414,8 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="5" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1571739861724">
-        <mark key="[" line="0" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="140" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="141" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="142" column="60" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="17" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
@@ -527,37 +515,36 @@
       <jump line="277" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="86" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" />
       <jump line="38" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BlockScope.scala" />
+      <jump line="450" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>assert(evalRef.isInstanceOf[ConditionRef])
-      val conditionRef: ConditionRef = evalRef.asInstanceOf[ConditionRef]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBkZWYgZXZhbFJlZiA9IGNvbGxlY3Rpb25SZWYK</text>
       </register>
       <register name="-" type="4">
         <text>import util.CollectionEnhancements._</text>
       </register>
       <register name="/" type="4">
-        <text>clusterByInput</text>
+        <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text>assert(evalRef.isInstanceOf[ConditionRef])
-      val conditionRef: ConditionRef = evalRef.asInstanceOf[ConditionRef]</text>
+        <text>id: Id, expression: Expression)</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICBkZWYgZXZhbFJlZiA9IGNvbGxlY3Rpb25SZWYK</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">a2luZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLldoaWxlICAgPT4gaW5zZXJ0V2hpbGVHYXRlKGV2YWxSZWYpCiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLklmICAgICAgPT4gaW5zZXJ0SWZHYXRlKGV2YWxSZWYpCiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLkZvckVhY2ggPT4gLy8gZG8gbm90aGluZwogICAgICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgID0+IHRocm93IERlc2lnbkV4Y2VwdGlvbihzIldoaWxlIGluc2VydGluZyBFeGNsdXNpdmUgZ2F0ZXM6IHVuc3BlY2lmaWVkIGNvbnRyb2wga2luZCBgJGtpbmRgIGluIHRhc2sgZ3JhcGgiKQogICAgICAgIH0=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICBkZWYgd2l0aG91dChldmFsUmVmczogSXRlcmFibGVbU3RlcFJlZl0pOiBCbG9ja1Njb3BlID0gQmxvY2tTY29wZShibG9ja1N0YWNrLmZpbHRlciB7Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBkZWYgYm9keVN0YWNrcyhub2RlOiBMb2NhbE5vZGUsIGJvZHlTdGFjazogU3RlcFJlZlN0YWNrLCBtYXBwaW5nOiBtdXRhYmxlLk1hcFtMb2NhbE5vZGUsIFN0ZXBSZWZTdGFja10pOiBVbml0ID0gewo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>// inputs are allowed to be merge if they are from the same user and have the same bodyId.
         // bodyId X of an input reverts to the parent bodyId Y iff X belongs to a foreach, and that foreach contains only inputs</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvL3ZhbCBvcHRpbWl6ZUZvcmVhY2ggPQo=</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICBkZWYgYXBwbHkoYm9keUlkOiBCb2R5SWQsIGJyYW5jaDogQnJhbmNoSWQsIGtpbmQ6IENvbnRyb2xLaW5kKTogQmxvY2tJZCA9IEJsb2NrSXRlbShib2R5SWQsIGJyYW5jaCwga2luZCkKICAgIGRlZiBhcHBseSh3cmFwcGVyOiBXcmFwcGVyKTogQmxvY2tJZCA9IEJsb2NrSWQod3JhcHBlci53cmFwcGVyQm9keUlkLCB3cmFwcGVyLndyYXBwZXJCcmFuY2hJZCwgd3JhcHBlci53cmFwcGVyS2luZCkKICAgIGRlZiByb290OiBCbG9ja0lkID0gUm9vdEJsb2Nr</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -569,26 +556,26 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9CbG9ja1N0YWNrKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSB7CiAgICBkZWYgaW1wKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSBkc3RlcCBtYXRjaCB7CiAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGltcCh3LndyYXBwZWQpCiAgICAgIGNhc2UgdzogV3JhcHBlciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+IEJsb2NrSWQodykgOjogaW1wKHcud3JhcHBlZCkKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gTmlsCiAgICB9CiAgICAoQmxvY2tJZC5yb290IDo6IGltcChkc3RlcCkpLnJldmVyc2UKICB9Cg==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAvL3ZhbCBvcHRpbWl6ZUZvcmVhY2ggPQo=</text>
       </register>
       <register name="7" type="4">
+        <text encoding="base64">ICBkZWYgYXBwbHkoYm9keUlkOiBCb2R5SWQsIGJyYW5jaDogQnJhbmNoSWQsIGtpbmQ6IENvbnRyb2xLaW5kKTogQmxvY2tJZCA9IEJsb2NrSXRlbShib2R5SWQsIGJyYW5jaCwga2luZCkKICAgIGRlZiBhcHBseSh3cmFwcGVyOiBXcmFwcGVyKTogQmxvY2tJZCA9IEJsb2NrSWQod3JhcHBlci53cmFwcGVyQm9keUlkLCB3cmFwcGVyLndyYXBwZXJCcmFuY2hJZCwgd3JhcHBlci53cmFwcGVyS2luZCkKICAgIGRlZiByb290OiBCbG9ja0lkID0gUm9vdEJsb2Nr</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9CbG9ja1N0YWNrKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSB7CiAgICBkZWYgaW1wKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSBkc3RlcCBtYXRjaCB7CiAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGltcCh3LndyYXBwZWQpCiAgICAgIGNhc2UgdzogV3JhcHBlciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+IEJsb2NrSWQodykgOjogaW1wKHcud3JhcHBlZCkKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gTmlsCiAgICB9CiAgICAoQmxvY2tJZC5yb290IDo6IGltcChkc3RlcCkpLnJldmVyc2UKICB9Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text encoding="base64">Y2FzZSBTb21lKGV2YWxJZCkgPT4gd3JhcHBlcihldmFsSWQpCiAgICAgICAgLm1hcCh3cmFwcGVyID0+IEJsb2NrU2NvcGUuQmxvY2tJZCh3cmFwcGVyLmV2YWxJZCwgd3JhcHBlci53cmFwcGVyQnJhbmNoSWQsIHdyYXBwZXIud3JhcHBlcktpbmQpKQogICAgICAgIC5nZXRPckVsc2UodGhyb3cgbmV3IEdlbmVyYXRlRXhjZXB0aW9uKHMiVGhlIGZvbGxvd2luZyBEU3RlcCBkb2VzIG5vdCBjb250YWluIGV2YWxpZCAke2V2YWxJZH06ICR7dGhpc1N0ZXAudG9TdHJpbmd9Iikp</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZGVmIGJvZHlTdGFjayhzOiBEU3RlcCk6IEJvZHlTdGFjayA9IHMgbWF0Y2ggewogICAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGJvZHlTdGFjayh3LndyYXBwZWQpCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAoaGVhZDEuYnJhbmNoSWQgIT0gaGVhZDIuYnJhbmNoSWQpIHx8IGltcCh0YWlsMSwgdGFpbDIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>clusterByInput</last-search>
+      <last-search>condi</last-search>
       <last-offset />
-      <last-pattern>clusterByInput</last-pattern>
+      <last-pattern>condi</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -596,7 +583,6 @@
     </search>
     <history>
       <history-search>
-        <entry>test</entry>
         <entry>EvalId</entry>
         <entry>evalId</entry>
         <entry>stepId</entry>
@@ -616,6 +602,7 @@
         <entry>BlockId</entry>
         <entry>clusterInput</entry>
         <entry>clusterByInput</entry>
+        <entry>condi</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
