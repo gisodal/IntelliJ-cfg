@@ -39,6 +39,12 @@
         <mark key="^" line="8" column="14" />
         <mark key="." line="8" column="14" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1573042044554">
+        <mark key="[" line="30" column="8" />
+        <mark key="]" line="30" column="14" />
+        <mark key="^" line="30" column="14" />
+        <mark key="." line="30" column="14" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/DepGraph.scala" timestamp="1569410122948">
         <mark key="[" line="40" column="74" />
         <mark key="]" line="40" column="29" />
@@ -62,6 +68,12 @@
         <mark key="]" line="352" column="31" />
         <mark key="^" line="352" column="31" />
         <mark key="." line="352" column="31" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573043782192">
+        <mark key="[" line="193" column="36" />
+        <mark key="]" line="192" column="49" />
+        <mark key="." line="192" column="49" />
+        <mark key="^" line="192" column="49" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -141,11 +153,11 @@
         <mark key="^" line="57" column="11" />
         <mark key="." line="57" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1573035306184">
-        <mark key="[" line="52" column="93" />
-        <mark key="]" line="52" column="92" />
-        <mark key="." line="52" column="92" />
-        <mark key="^" line="52" column="92" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1573042350364">
+        <mark key="[" line="13" column="62" />
+        <mark key="]" line="14" column="3" />
+        <mark key="." line="14" column="3" />
+        <mark key="^" line="14" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
         <mark key="[" line="20" column="66" />
@@ -518,33 +530,32 @@
       <jump line="450" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBkZWYgZXZhbFJlZiA9IGNvbGxlY3Rpb25SZWYK</text>
+      <register name="&quot;" type="4">
+        <text>thisGraph.stepRefStacks</text>
       </register>
       <register name="-" type="4">
-        <text>import util.CollectionEnhancements._</text>
+        <text>b</text>
       </register>
       <register name="/" type="4">
         <text>condi</text>
       </register>
       <register name="0" type="4">
-        <text>id: Id, expression: Expression)</text>
+        <text>thisGraph.stepRefStacks</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBkZWYgZXZhbFJlZiA9IGNvbGxlY3Rpb25SZWYK</text>
+        <text encoding="base64">ICAgIGRlZiB0b0JvZHlTdGFjazogU3RlcFJlZlN0YWNrID0K</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">a2luZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLldoaWxlICAgPT4gaW5zZXJ0V2hpbGVHYXRlKGV2YWxSZWYpCiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLklmICAgICAgPT4gaW5zZXJ0SWZHYXRlKGV2YWxSZWYpCiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLkZvckVhY2ggPT4gLy8gZG8gbm90aGluZwogICAgICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgID0+IHRocm93IERlc2lnbkV4Y2VwdGlvbihzIldoaWxlIGluc2VydGluZyBFeGNsdXNpdmUgZ2F0ZXM6IHVuc3BlY2lmaWVkIGNvbnRyb2wga2luZCBgJGtpbmRgIGluIHRhc2sgZ3JhcGgiKQogICAgICAgIH0=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgd3JhcHBlcihldmFsUmVmKWV2YWxSZWYuZmxhdE1hcChldmFsUmVmID0+IHRoaXNTdGVwLmtpbmQoZXZhbFJlZi5pZCkpCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICBkZWYgZXZhbFJlZiA9IGNvbGxlY3Rpb25SZWYK</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">a2luZCBtYXRjaCB7CiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLldoaWxlICAgPT4gaW5zZXJ0V2hpbGVHYXRlKGV2YWxSZWYpCiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLklmICAgICAgPT4gaW5zZXJ0SWZHYXRlKGV2YWxSZWYpCiAgICAgICAgICBjYXNlIENvbnRyb2xLaW5kLkZvckVhY2ggPT4gLy8gZG8gbm90aGluZwogICAgICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgID0+IHRocm93IERlc2lnbkV4Y2VwdGlvbihzIldoaWxlIGluc2VydGluZyBFeGNsdXNpdmUgZ2F0ZXM6IHVuc3BlY2lmaWVkIGNvbnRyb2wga2luZCBgJGtpbmRgIGluIHRhc2sgZ3JhcGgiKQogICAgICAgIH0=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICBkZWYgd2l0aG91dChldmFsUmVmczogSXRlcmFibGVbU3RlcFJlZl0pOiBCbG9ja1Njb3BlID0gQmxvY2tTY29wZShibG9ja1N0YWNrLmZpbHRlciB7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgYm9keVN0YWNrcyhub2RlOiBMb2NhbE5vZGUsIGJvZHlTdGFjazogU3RlcFJlZlN0YWNrLCBtYXBwaW5nOiBtdXRhYmxlLk1hcFtMb2NhbE5vZGUsIFN0ZXBSZWZTdGFja10pOiBVbml0ID0gewo=</text>
-      </register>
-      <register name="5" type="4">
-        <text>// inputs are allowed to be merge if they are from the same user and have the same bodyId.
-        // bodyId X of an input reverts to the parent bodyId Y iff X belongs to a foreach, and that foreach contains only inputs</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -557,16 +568,17 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvL3ZhbCBvcHRpbWl6ZUZvcmVhY2ggPQo=</text>
+        <text encoding="base64">ICAgICAgICBkZWYgYm9keVN0YWNrcyhub2RlOiBMb2NhbE5vZGUsIGJvZHlTdGFjazogU3RlcFJlZlN0YWNrLCBtYXBwaW5nOiBtdXRhYmxlLk1hcFtMb2NhbE5vZGUsIFN0ZXBSZWZTdGFja10pOiBVbml0ID0gewo=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ICBkZWYgYXBwbHkoYm9keUlkOiBCb2R5SWQsIGJyYW5jaDogQnJhbmNoSWQsIGtpbmQ6IENvbnRyb2xLaW5kKTogQmxvY2tJZCA9IEJsb2NrSXRlbShib2R5SWQsIGJyYW5jaCwga2luZCkKICAgIGRlZiBhcHBseSh3cmFwcGVyOiBXcmFwcGVyKTogQmxvY2tJZCA9IEJsb2NrSWQod3JhcHBlci53cmFwcGVyQm9keUlkLCB3cmFwcGVyLndyYXBwZXJCcmFuY2hJZCwgd3JhcHBlci53cmFwcGVyS2luZCkKICAgIGRlZiByb290OiBCbG9ja0lkID0gUm9vdEJsb2Nr</text>
+        <text>// inputs are allowed to be merge if they are from the same user and have the same bodyId.
+        // bodyId X of an input reverts to the parent bodyId Y iff X belongs to a foreach, and that foreach contains only inputs</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9CbG9ja1N0YWNrKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSB7CiAgICBkZWYgaW1wKGRzdGVwOiBEU3RlcCk6IEJsb2NrU3RhY2sgPSBkc3RlcCBtYXRjaCB7CiAgICAgIGNhc2UgdzogV3JhcHBlciBpZiB3LndyYXBwZXJLaW5kID09IENvbnRyb2xLaW5kLkFmdGVyID0+IGltcCh3LndyYXBwZWQpCiAgICAgIGNhc2UgdzogV3JhcHBlciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID0+IEJsb2NrSWQodykgOjogaW1wKHcud3JhcHBlZCkKICAgICAgY2FzZSBfICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gTmlsCiAgICB9CiAgICAoQmxvY2tJZC5yb290IDo6IGltcChkc3RlcCkpLnJldmVyc2UKICB9Cg==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAvL3ZhbCBvcHRpbWl6ZUZvcmVhY2ggPQo=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">Y2FzZSBTb21lKGV2YWxJZCkgPT4gd3JhcHBlcihldmFsSWQpCiAgICAgICAgLm1hcCh3cmFwcGVyID0+IEJsb2NrU2NvcGUuQmxvY2tJZCh3cmFwcGVyLmV2YWxJZCwgd3JhcHBlci53cmFwcGVyQnJhbmNoSWQsIHdyYXBwZXIud3JhcHBlcktpbmQpKQogICAgICAgIC5nZXRPckVsc2UodGhyb3cgbmV3IEdlbmVyYXRlRXhjZXB0aW9uKHMiVGhlIGZvbGxvd2luZyBEU3RlcCBkb2VzIG5vdCBjb250YWluIGV2YWxpZCAke2V2YWxJZH06ICR7dGhpc1N0ZXAudG9TdHJpbmd9Iikp</text>
+        <text encoding="base64">ICBkZWYgYXBwbHkoYm9keUlkOiBCb2R5SWQsIGJyYW5jaDogQnJhbmNoSWQsIGtpbmQ6IENvbnRyb2xLaW5kKTogQmxvY2tJZCA9IEJsb2NrSXRlbShib2R5SWQsIGJyYW5jaCwga2luZCkKICAgIGRlZiBhcHBseSh3cmFwcGVyOiBXcmFwcGVyKTogQmxvY2tJZCA9IEJsb2NrSWQod3JhcHBlci53cmFwcGVyQm9keUlkLCB3cmFwcGVyLndyYXBwZXJCcmFuY2hJZCwgd3JhcHBlci53cmFwcGVyS2luZCkKICAgIGRlZiByb290OiBCbG9ja0lkID0gUm9vdEJsb2Nr</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
