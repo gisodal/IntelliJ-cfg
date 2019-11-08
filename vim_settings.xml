@@ -142,12 +142,12 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" timestamp="1573138472120">
-        <mark key="'" line="85" column="13" />
-        <mark key="[" line="95" column="0" />
-        <mark key="]" line="95" column="0" />
-        <mark key="^" line="89" column="3" />
-        <mark key="." line="95" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" timestamp="1573206353417">
+        <mark key="'" line="48" column="0" />
+        <mark key="[" line="11" column="65" />
+        <mark key="]" line="12" column="22" />
+        <mark key="^" line="12" column="22" />
+        <mark key="." line="12" column="22" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
         <mark key="[" line="20" column="66" />
@@ -445,7 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="176" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="207" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="269" column="36" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
@@ -545,10 +544,11 @@
       <jump line="485" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="64" column="21" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
       <jump line="75" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
+      <jump line="47" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>case object NoBranch extends BranchId</text>
+        <text>com.xlrit.gears.generator.design.Graph.Node.Clustering</text>
       </register>
       <register name="-" type="4">
         <text>case object NoBranch extends BranchId</text>
@@ -557,7 +557,7 @@
         <text>StepRefSt</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGRzdGVwOiBEU3RlcCkgPSBkc3RlcC5nZXRXcmFwcGVyCiAgICAgIC5tYXAod3JhcHBlciA9PiAod3JhcHBlci53cmFwcGVyS2luZCwgd3JhcHBlcikpCiAgICAgIC5tYXAgewogICAgICAgIGNhc2UgKENvbnRyb2xLaW5kLkZvckVhY2gsIF8pICAgICA9PiBGb3JFYWNoCiAgICAgICAgY2FzZSAoQ29udHJvbEtpbmQuSWYsIHdyYXBwZXIpICAgID0+IElmKHdyYXBwZXIud3JhcHBlckJyYW5jaCkKICAgICAgICBjYXNlIChDb250cm9sS2luZC5XaGlsZSwgd3JhcHBlcikgPT4gV2hpbGUod3JhcHBlci53cmFwcGVyQnJhbmNoKQogICAgICAgIGNhc2UgKG90aGVyLCBfKSA9PgogICAgICAgICAgdGhyb3cgRGVzaWduRXhjZXB0aW9uKHMiQnJhbmNoSWQgY2Fubm90IGJlIGNyZWF0ZWQgZm9yIHR5cGU6ICR7b3RoZXIuZ2V0Q2xhc3MuZ2V0U2ltcGxlTmFtZX0iKQogICAgICB9CiAgICAgIC5nZXRPckVsc2UoTm9CcmFuY2gp</text>
+        <text>com.xlrit.gears.generator.design.Graph.Node.Clustering</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIH0K</text>
