@@ -100,11 +100,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573210186627">
-        <mark key="[" line="4" column="2" />
-        <mark key="]" line="11" column="25" />
-        <mark key="." line="11" column="25" />
-        <mark key="^" line="11" column="25" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573211010412">
+        <mark key="[" line="3" column="12" />
+        <mark key="]" line="3" column="10" />
+        <mark key="^" line="3" column="10" />
+        <mark key="." line="3" column="10" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -148,12 +148,12 @@
         <mark key="]" line="132" column="0" />
         <mark key="." line="132" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" timestamp="1573210090053">
-        <mark key="'" line="51" column="0" />
-        <mark key="[" line="17" column="19" />
-        <mark key="]" line="17" column="19" />
-        <mark key="^" line="17" column="19" />
-        <mark key="." line="17" column="19" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" timestamp="1573211345140">
+        <mark key="'" line="48" column="0" />
+        <mark key="[" line="87" column="35" />
+        <mark key="]" line="87" column="28" />
+        <mark key="^" line="87" column="28" />
+        <mark key="." line="87" column="28" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Lexer.scala" timestamp="1569921931901">
         <mark key="[" line="20" column="66" />
