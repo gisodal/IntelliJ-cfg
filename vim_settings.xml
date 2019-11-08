@@ -100,11 +100,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573219921786">
-        <mark key="[" line="23" column="6" />
-        <mark key="]" line="23" column="5" />
-        <mark key="^" line="24" column="13" />
-        <mark key="." line="23" column="6" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573220881267">
+        <mark key="'" line="39" column="9" />
+        <mark key="[" line="39" column="10" />
+        <mark key="]" line="39" column="21" />
+        <mark key="." line="39" column="21" />
+        <mark key="^" line="39" column="21" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -347,11 +348,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/EvalScope.scala" timestamp="1573218163256">
-        <mark key="[" line="2" column="58" />
-        <mark key="]" line="2" column="47" />
-        <mark key="." line="2" column="47" />
-        <mark key="^" line="2" column="47" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/EvalScope.scala" timestamp="1573220333598">
+        <mark key="[" line="9" column="2" />
+        <mark key="]" line="9" column="3" />
+        <mark key="." line="9" column="3" />
+        <mark key="^" line="9" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1573058654111">
         <mark key="[" line="17" column="0" />
@@ -451,7 +452,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="269" column="36" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="288" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="289" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
       <jump line="302" column="54" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
@@ -551,19 +551,20 @@
       <jump line="26" column="43" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/package.scala" />
       <jump line="16" column="63" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
       <jump line="64" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
+      <jump line="39" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Ly9kZWYgd2l0aG91dChzdGVwUmVmczogSXRlcmFibGVbU3RlcFJlZl0pOiBXcmFwcGVyU2NvcGUgPSB7CiAgLy8gIHZhbCBldmFsUmVmcyA9IHN0ZXBSZWZzLmNvbGxlY3RUeXBlW0V2YWxSZWZdLnRvU2V0CiAgLy8gIFdyYXBwZXJTY29wZSh3cmFwcGVyU3RhY2suZmlsdGVyIHsKICAvLyAgICBjYXNlIFdyYXBwZXJJZC5XcmFwcGVySXRlbShldmFsUmVmLCBfLCBfKSA9PiAhZXZhbFJlZnMuY29udGFpbnMoZXZhbFJlZikKICAvLyAgICBjYXNlIF8gPT4gdHJ1ZQogIC8vICB9KQogIC8vfQ==</text>
+        <text encoding="base64">W0EgPDogU2NvcGVJZCxCIDw6IFNjb3BlW0EsQl1dIA==</text>
       </register>
       <register name="-" type="4">
-        <text>assert(stack.endsWith(WrapperStack.root), &quot;A block stack must always be part of the root scope&quot;)</text>
+        <text>match {</text>
       </register>
       <register name="/" type="4">
         <text>StepRefSt</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgZXZhbFN0YWNrOiBFdmFsU2NvcGUuRXZhbFN0YWNrID0gc3RhY2subWFwIHsgCiAgICBjYXNlIE5vV3JhcHBlciAgID0+IE5pbFJlZgogICAgY2FzZSB3cmFwcGVyOiBXcmFwcGVySXRlbSA9PiB3cmFwcGVyLmV2YWxSZWYgCiAgfSAgCiAg</text>
+        <text encoding="base64">W0EgPDogU2NvcGVJZCxCIDw6IFNjb3BlW0EsQl1dIA==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly9kZWYgd2l0aG91dChzdGVwUmVmczogSXRlcmFibGVbU3RlcFJlZl0pOiBXcmFwcGVyU2NvcGUgPSB7CiAgLy8gIHZhbCBldmFsUmVmcyA9IHN0ZXBSZWZzLmNvbGxlY3RUeXBlW0V2YWxSZWZdLnRvU2V0CiAgLy8gIFdyYXBwZXJTY29wZSh3cmFwcGVyU3RhY2suZmlsdGVyIHsKICAvLyAgICBjYXNlIFdyYXBwZXJJZC5XcmFwcGVySXRlbShldmFsUmVmLCBfLCBfKSA9PiAhZXZhbFJlZnMuY29udGFpbnMoZXZhbFJlZikKICAvLyAgICBjYXNlIF8gPT4gdHJ1ZQogIC8vICB9KQogIC8vfQ==</text>
