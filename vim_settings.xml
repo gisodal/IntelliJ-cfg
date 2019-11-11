@@ -64,11 +64,11 @@
         <mark key="^" line="352" column="31" />
         <mark key="." line="352" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573483935628">
-        <mark key="[" line="214" column="42" />
-        <mark key="]" line="214" column="42" />
-        <mark key="^" line="214" column="42" />
-        <mark key="." line="214" column="42" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573488887467">
+        <mark key="[" line="199" column="0" />
+        <mark key="]" line="199" column="0" />
+        <mark key="^" line="195" column="31" />
+        <mark key="." line="199" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -82,11 +82,11 @@
         <mark key="." line="28" column="11" />
         <mark key="^" line="28" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1573462791834">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="^" line="18" column="18" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1573488019040">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="^" line="10" column="33" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
@@ -136,7 +136,7 @@
         <mark key="^" line="57" column="11" />
         <mark key="." line="57" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1573468402564">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1573488440936">
         <mark key="'" line="99" column="3" />
         <mark key="[" line="103" column="0" />
         <mark key="]" line="103" column="0" />
@@ -257,7 +257,7 @@
         <mark key="^" line="385" column="27" />
         <mark key="." line="385" column="27" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573463453806">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573486383058">
         <mark key="[" line="12" column="17" />
         <mark key="]" line="12" column="17" />
         <mark key="." line="12" column="17" />
@@ -323,7 +323,9 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1573462776505">
+      <file name="/sbtShell" timestamp="1573486955097">
+        <mark key="a" line="0" column="0" />
+        <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -341,11 +343,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/EvalScope.scala" timestamp="1573234390055">
-        <mark key="[" line="16" column="52" />
-        <mark key="]" line="16" column="51" />
-        <mark key="^" line="16" column="51" />
-        <mark key="." line="16" column="51" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/EvalScope.scala" timestamp="1573487116108">
+        <mark key="[" line="29" column="24" />
+        <mark key="]" line="29" column="24" />
+        <mark key="^" line="29" column="24" />
+        <mark key="." line="29" column="24" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1573224224367">
         <mark key="[" line="2" column="0" />
@@ -376,6 +378,12 @@
         <mark key="]" line="220" column="116" />
         <mark key="^" line="220" column="116" />
         <mark key="." line="220" column="116" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/Export.scala" timestamp="1573487204157">
+        <mark key="[" line="34" column="58" />
+        <mark key="]" line="34" column="58" />
+        <mark key="^" line="34" column="54" />
+        <mark key="." line="34" column="58" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.5-sources.jar!/org/scalactic/Prettifier.scala" timestamp="1551442087409">
         <mark key="[" line="123" column="119" />
@@ -536,16 +544,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>bodyStack.zip(bodyStack.tail).map(_.swap)</text>
+        <text>BodyGraph.Node(StepScope.StepId.NoStep, branchToNodes)</text>
       </register>
       <register name="-" type="4">
-        <text>.getOrElse(NilRef)</text>
+        <text>.toSet</text>
       </register>
       <register name="/" type="4">
         <text>stepRef</text>
       </register>
       <register name="0" type="4">
-        <text>bodyStack.zip(bodyStack.tail).map(_.swap)</text>
+        <text>BodyGraph.Node(StepScope.StepId.NoStep, branchToNodes)</text>
       </register>
       <register name="1" type="4">
         <text>case object NoBranch extends BranchId
