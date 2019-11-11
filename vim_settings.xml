@@ -64,11 +64,11 @@
         <mark key="^" line="352" column="31" />
         <mark key="." line="352" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573468018363">
-        <mark key="[" line="207" column="40" />
-        <mark key="]" line="207" column="39" />
-        <mark key="^" line="207" column="39" />
-        <mark key="." line="207" column="39" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573483935628">
+        <mark key="[" line="214" column="42" />
+        <mark key="]" line="214" column="42" />
+        <mark key="^" line="214" column="42" />
+        <mark key="." line="214" column="42" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -94,11 +94,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573483039340">
-        <mark key="[" line="357" column="39" />
-        <mark key="]" line="357" column="88" />
-        <mark key="^" line="357" column="48" />
-        <mark key="." line="357" column="39" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573483282773">
+        <mark key="[" line="507" column="72" />
+        <mark key="]" line="507" column="67" />
+        <mark key="^" line="507" column="67" />
+        <mark key="." line="507" column="67" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573222735264">
         <mark key="[" line="9" column="37" />
@@ -536,8 +536,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>case object NoBranch extends BranchId
-    case class BranchItem(kind: ControlKind, branchOpt: Option[Branch]) extends BranchId</text>
+        <text>bodyStack.zip(bodyStack.tail).map(_.swap)</text>
       </register>
       <register name="-" type="4">
         <text>.getOrElse(NilRef)</text>
@@ -546,7 +545,7 @@
         <text>stepRef</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGdldEtpbmQ6IE9wdGlvbltDb250cm9sS2luZF0gPSB0aGlzIG1hdGNoIHsKICAgICAgY2FzZSBCcmFuY2hJZC5CcmFuY2hJdGVtKGtpbmQsIF8pID0+IFNvbWUoa2luZCkKICAgICAgY2FzZSBfID0+IE5vbmUKICAgIH0=</text>
+        <text>bodyStack.zip(bodyStack.tail).map(_.swap)</text>
       </register>
       <register name="1" type="4">
         <text>case object NoBranch extends BranchId
