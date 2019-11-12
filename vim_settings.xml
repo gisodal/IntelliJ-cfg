@@ -67,11 +67,11 @@
         <mark key="^" line="352" column="31" />
         <mark key="." line="352" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573567582722">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573567835076">
         <mark key="[" line="186" column="102" />
-        <mark key="]" line="187" column="5" />
-        <mark key="." line="187" column="5" />
-        <mark key="^" line="187" column="5" />
+        <mark key="]" line="186" column="5" />
+        <mark key="." line="186" column="5" />
+        <mark key="^" line="186" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -97,11 +97,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573567156596">
-        <mark key="[" line="312" column="0" />
-        <mark key="]" line="312" column="0" />
-        <mark key="^" line="312" column="0" />
-        <mark key="." line="312" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573568199744">
+        <mark key="[" line="315" column="0" />
+        <mark key="]" line="319" column="7" />
+        <mark key="^" line="319" column="7" />
+        <mark key="." line="319" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573560163258">
         <mark key="[" line="26" column="34" />
