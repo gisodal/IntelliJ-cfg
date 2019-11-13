@@ -262,12 +262,12 @@
         <mark key="^" line="385" column="27" />
         <mark key="." line="385" column="27" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573637645079">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573638982475">
         <mark key="'" line="47" column="42" />
-        <mark key="[" line="59" column="5" />
-        <mark key="]" line="59" column="5" />
-        <mark key="." line="59" column="5" />
-        <mark key="^" line="59" column="5" />
+        <mark key="[" line="66" column="69" />
+        <mark key="]" line="66" column="70" />
+        <mark key="." line="66" column="70" />
+        <mark key="^" line="66" column="70" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Clustering.scala" timestamp="1573132778185">
         <mark key="[" line="24" column="28" />
@@ -552,7 +552,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dHlwZSBNU2V0W1RdID0gc2NhbGEuY29sbGVjdGlvbi5tdXRhYmxlLlNldFtUXSA=</text>
+        <text>[processGraph.NodeT]</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dHlwZSBNU2V0W1RdID0gc2NhbGEuY29sbGVjdGlvbi5tdXRhYmxlLlNldFtUXSA=</text>
@@ -561,7 +561,7 @@
         <text>stepRef</text>
       </register>
       <register name="0" type="4">
-        <text>scala.collection.mutable.Map[design.Graph#NodeT, Int]</text>
+        <text>[processGraph.NodeT]</text>
       </register>
       <register name="1" type="4">
         <text>apply(processGraph: design.Graph, stepScope: StepScope) = {
