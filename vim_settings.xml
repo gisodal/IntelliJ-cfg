@@ -67,11 +67,10 @@
         <mark key="^" line="352" column="31" />
         <mark key="." line="352" column="31" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573567835076">
-        <mark key="[" line="186" column="102" />
-        <mark key="]" line="186" column="5" />
-        <mark key="." line="186" column="5" />
-        <mark key="^" line="186" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1573576698173">
+        <mark key="[" line="183" column="0" />
+        <mark key="]" line="183" column="0" />
+        <mark key="." line="183" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -79,11 +78,11 @@
         <mark key="^" line="15" column="36" />
         <mark key="." line="15" column="36" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/DiGraph.scala" timestamp="1573560543121">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-        <mark key="^" line="24" column="14" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/DiGraph.scala" timestamp="1573576603625">
+        <mark key="[" line="56" column="4" />
+        <mark key="]" line="68" column="5" />
+        <mark key="." line="66" column="0" />
+        <mark key="^" line="66" column="17" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1573488019040">
         <mark key="[" line="15" column="0" />
@@ -170,11 +169,11 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="54" column="16" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/mutable/DiGraph.scala" timestamp="1572878621513">
-        <mark key="[" line="149" column="36" />
-        <mark key="]" line="149" column="35" />
-        <mark key="^" line="149" column="35" />
-        <mark key="." line="149" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/mutable/DiGraph.scala" timestamp="1573576793591">
+        <mark key="[" line="22" column="14" />
+        <mark key="]" line="24" column="15" />
+        <mark key="^" line="24" column="15" />
+        <mark key="." line="24" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/OptionEnhancements.scala" timestamp="1570014524958">
         <mark key="[" line="11" column="0" />
@@ -263,12 +262,12 @@
         <mark key="^" line="385" column="27" />
         <mark key="." line="385" column="27" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573575771655">
-        <mark key="'" line="53" column="15" />
-        <mark key="[" line="54" column="84" />
-        <mark key="]" line="54" column="87" />
-        <mark key="." line="54" column="87" />
-        <mark key="^" line="54" column="87" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573577347582">
+        <mark key="'" line="47" column="42" />
+        <mark key="[" line="58" column="100" />
+        <mark key="]" line="59" column="10" />
+        <mark key="." line="59" column="10" />
+        <mark key="^" line="59" column="10" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Clustering.scala" timestamp="1573132778185">
         <mark key="[" line="24" column="28" />
@@ -330,7 +329,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1573549110552">
+      <file name="/sbtShell" timestamp="1573636263797">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -450,7 +449,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="179" column="69" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="183" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="190" column="49" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Compiler.scala" />
       <jump line="246" column="93" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" />
@@ -550,19 +548,20 @@
       <jump line="48" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="3" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="54" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
+      <jump line="47" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val currentIndex = map(</text>
+        <text>import graph.enrich.mutable.DiGraph._</text>
       </register>
       <register name="-" type="4">
-        <text>val currentIndex = map(</text>
+        <text>import graph.enrich.mutable.DiGraph._</text>
       </register>
       <register name="/" type="4">
         <text>stepRef</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">bm9kZXMuemlwV2l0aEluZGV4LmZsYXRNYXAgeyBjYXNlIChub2RlLCBpbmRleCkgPT4gbm9kZS5ub2Rlcy5tYXAoXyAtPiBpbmRleCkgfS50b01hcA==</text>
+        <text encoding="base64">ZGVmIGFuY2VzdG9yc09mKG5vZGVzOiBJdGVyYWJsZVt0aGlzR3JhcGguTm9kZVRdKTogU2V0W05vZGVUXSA9IHsKICAgICAgZGVmIGFuY2VzdG9ycyhub2RlOiBOb2RlVCwgdHJhdmVyc2VkOiBtdXRhYmxlLlNldFtOb2RlVF0pOiBVbml0ID0gewogICAgICAgIGlmICghdHJhdmVyc2VkLmNvbnRhaW5zKG5vZGUpKSB7CiAgICAgICAgICB0cmF2ZXJzZWQgKz0gbm9kZQogICAgICAgICAgbm9kZS5kaVByZWRlY2Vzc29ycy5mb3JlYWNoKHByZWQgPT4gYW5jZXN0b3JzKHByZWQsIHRyYXZlcnNlZCkpCiAgICAgICAgfQogICAgICB9CgogICAgICB2YWwgdHJhdmVyc2VkID0gbXV0YWJsZS5TZXQuZW1wdHlbTm9kZVRdCiAgICAgIG5vZGVzLmZvcmVhY2ggeyBub2RlID0+IGFuY2VzdG9ycyhub2RlLCB0cmF2ZXJzZWQpIH0KICAgICAgdHJhdmVyc2VkIC0tPSBub2RlcwogICAgICB0cmF2ZXJzZWQudG9TZXQKICAgIH0K</text>
       </register>
       <register name="1" type="4">
         <text>apply(processGraph: design.Graph, stepScope: StepScope) = {
