@@ -99,11 +99,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573654616860">
-        <mark key="[" line="314" column="8" />
-        <mark key="]" line="314" column="58" />
-        <mark key="." line="306" column="49" />
-        <mark key="^" line="306" column="49" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573656786454">
+        <mark key="[" line="315" column="10" />
+        <mark key="]" line="315" column="62" />
+        <mark key="^" line="315" column="61" />
+        <mark key="." line="315" column="61" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573560163258">
         <mark key="[" line="26" column="34" />
@@ -556,31 +556,33 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val containsInterruptor = blockGraph.edges.nonEmpty</text>
+        <text>nodesInScope.map(_.getRepresentative.get.toStepScope)</text>
       </register>
       <register name="-" type="4">
-        <text>graph</text>
+        <text encoding="base64">YmxvY2suY29tcG9uZW50R3JhcGgg</text>
       </register>
       <register name="/" type="4">
         <text>stepRef</text>
       </register>
       <register name="0" type="4">
-        <text>val containsInterruptor = blockGraph.edges.nonEmpty</text>
+        <text>nodesInScope.map(_.getRepresentative.get.toStepScope)</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">IGxhenkgdmFsIGNvbnRhaW5pbmdHcmFwaDogZGVzaWduLkdyYXBoID0gbm9kZXMuaGVhZE9wdGlvbgogICAgICAgIC5tYXAoXy5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCg==</text>
+        <text>val blockGraph = block.componentGraph
+          val containsInterruptor = blockGraph.edges.nonEmpty</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgYXNzZXJ0KG5vZGVzLm5vbkVtcHR5KQo=</text>
+      <register name="2" type="4">
+        <text>val blockGraph = block.componentGraph
+        val containsInterruptor = blockGraph.edges.nonEmpty</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">dmFsIGVkZ2VzID0gYmxvY2tzLmZpbHRlcihfLm5vZGVzLm5vbkVtcHR5KS5mbGF0TWFwIHsgYmxvY2sgPT4KICAgICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaAogICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAgIChibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgICAgICB9CgogICAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrcywgZWRnZXMp</text>
+        <text encoding="base64">IGxhenkgdmFsIGNvbnRhaW5pbmdHcmFwaDogZGVzaWduLkdyYXBoID0gbm9kZXMuaGVhZE9wdGlvbgogICAgICAgIC5tYXAoXy5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBub2RlczogSXRlcmFibGVbZGVzaWduLkdyYXBoI05vZGVUXSk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgbm9kZXNQZXJCbG9jayA9CiAgICAgICAgLy8gY3JlYXRlIGEgc3ViZ3JhcGggZnJvbSBub2RlcyBpbiBzY29wZQogICAgICAgUmljaEdyYXBoKFJpY2hHcmFwaChwcm9jZXNzR3JhcGgpLnN1YmdyYXBoKG5vZGVzKSkKICAgICAgICAvLyB0aGUgY29ubmVjdGVkIGNvbXBvbmVudHMgb2YgdGhlIHN1YmdyYXBoIGZvcm0gYSBibG9jawogICAgICAgIC5jb25uZWN0ZWRTdWJncmFwaHMudG9MaXN0CiAgICAgICAgLy8gY29udmVydCBjb21wb25lbnQgbm9kZXMgYmFjayB0byBwcm9jZXNzR3JhcGggbm9kZXMKICAgICAgICAubWFwKF8ubm9kZXMubWFwKG5vZGUgPT4gcHJvY2Vzc0dyYXBoLmdldChub2RlLnRvT3V0ZXIpKS50b1NldCkudG9TZXQKCiAgICAgIC8vIGNyZWF0ZSBub2RlcwogICAgICB2YWwgYmxvY2tzID0gbm9kZXNQZXJCbG9jay5tYXAoYmxvY2sgPT4gQmxvY2soYmxvY2subWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pKSkKCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBCbG9ja0dyYXBoKGJsb2NrcykKICAgIH0KCiAgICBkZWYgYXBwbHkoYmxvY2tzOiBTZXRbQmxvY2tdKTogQmxvY2tHcmFwaCA9IHsKICAgICAgLy8gY3JlYXRlIGVkZ2VzCiAgICAgIHZhbCBlZGdlcyA9IGJsb2Nrcy5maWx0ZXIoXy5ub2Rlcy5ub25FbXB0eSkuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoID0gYmxvY2suZ3JhcGgKICAgICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKGJsb2NrLm5vZGVzLm1hcChfLmFzSW5zdGFuY2VPZltncmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAoYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja3MsIGVkZ2VzKQogICAgfQo=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgYXNzZXJ0KG5vZGVzLm5vbkVtcHR5KQo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrXSk6IEJsb2NrR3JhcGggPSB7CiAgICAgIC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBibG9ja3MuZmlsdGVyKF8ubm9kZXMubm9uRW1wdHkpLmZsYXRNYXAgeyBibG9jayA9PgogICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmdyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbZGVzaWduLkdyYXBoI05vZGVUXSkKCiAgICAgICAgKGJsb2NrcyAtIGJsb2NrKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBibG9jaykgfQogICAgICB9CgogICAgICAvLyBjcmVhdGUgZ3JhcGgKICAgICAgc2NhbGF4LmNvbGxlY3Rpb24uaW1tdXRhYmxlLkdyYXBoLmZyb20oYmxvY2tzLCBlZGdlcykKICAgIH0K</text>
+        <text encoding="base64">dmFsIGVkZ2VzID0gYmxvY2tzLmZpbHRlcihfLm5vZGVzLm5vbkVtcHR5KS5mbGF0TWFwIHsgYmxvY2sgPT4KICAgICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaAogICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAgIChibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgICAgICB9CgogICAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrcywgZWRnZXMp</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -593,18 +595,17 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">IC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBub2Rlcy5mbGF0TWFwIHsgbm9kZSA9PgogICAgICAgIHZhbCBhbmNlc3RvcnMgPSBwcm9jZXNzR3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKG5vZGUubm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW3Byb2Nlc3NHcmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAobm9kZXMgLSBub2RlKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBub2RlKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShub2RlcyxlZGdlcyk=</text>
+        <text encoding="base64">ZGVmIGFwcGx5KHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBub2RlczogSXRlcmFibGVbZGVzaWduLkdyYXBoI05vZGVUXSk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgbm9kZXNQZXJCbG9jayA9CiAgICAgICAgLy8gY3JlYXRlIGEgc3ViZ3JhcGggZnJvbSBub2RlcyBpbiBzY29wZQogICAgICAgUmljaEdyYXBoKFJpY2hHcmFwaChwcm9jZXNzR3JhcGgpLnN1YmdyYXBoKG5vZGVzKSkKICAgICAgICAvLyB0aGUgY29ubmVjdGVkIGNvbXBvbmVudHMgb2YgdGhlIHN1YmdyYXBoIGZvcm0gYSBibG9jawogICAgICAgIC5jb25uZWN0ZWRTdWJncmFwaHMudG9MaXN0CiAgICAgICAgLy8gY29udmVydCBjb21wb25lbnQgbm9kZXMgYmFjayB0byBwcm9jZXNzR3JhcGggbm9kZXMKICAgICAgICAubWFwKF8ubm9kZXMubWFwKG5vZGUgPT4gcHJvY2Vzc0dyYXBoLmdldChub2RlLnRvT3V0ZXIpKS50b1NldCkudG9TZXQKCiAgICAgIC8vIGNyZWF0ZSBub2RlcwogICAgICB2YWwgYmxvY2tzID0gbm9kZXNQZXJCbG9jay5tYXAoYmxvY2sgPT4gQmxvY2soYmxvY2subWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pKSkKCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBCbG9ja0dyYXBoKGJsb2NrcykKICAgIH0KCiAgICBkZWYgYXBwbHkoYmxvY2tzOiBTZXRbQmxvY2tdKTogQmxvY2tHcmFwaCA9IHsKICAgICAgLy8gY3JlYXRlIGVkZ2VzCiAgICAgIHZhbCBlZGdlcyA9IGJsb2Nrcy5maWx0ZXIoXy5ub2Rlcy5ub25FbXB0eSkuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoID0gYmxvY2suZ3JhcGgKICAgICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKGJsb2NrLm5vZGVzLm1hcChfLmFzSW5zdGFuY2VPZltncmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAoYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja3MsIGVkZ2VzKQogICAgfQo=</text>
       </register>
       <register name="7" type="4">
-        <text>import design.enrich.Graph._
-import scalax.collection.GraphEdge.DiEdge</text>
+        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrXSk6IEJsb2NrR3JhcGggPSB7CiAgICAgIC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBibG9ja3MuZmlsdGVyKF8ubm9kZXMubm9uRW1wdHkpLmZsYXRNYXAgeyBibG9jayA9PgogICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmdyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbZGVzaWduLkdyYXBoI05vZGVUXSkKCiAgICAgICAgKGJsb2NrcyAtIGJsb2NrKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBibG9jaykgfQogICAgICB9CgogICAgICAvLyBjcmVhdGUgZ3JhcGgKICAgICAgc2NhbGF4LmNvbGxlY3Rpb24uaW1tdXRhYmxlLkdyYXBoLmZyb20oYmxvY2tzLCBlZGdlcykKICAgIH0K</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">dHlwZSBCbG9ja0dyYXBoID0gaW1tdXRhYmxlLkdyYXBoW0Jsb2NrR3JhcGguQmxvY2ssIERpRWRnZV0KICBvYmplY3QgQmxvY2tHcmFwaCB7CiAgICBjYXNlIGNsYXNzIEJsb2NrKHN0ZXBTY29wZTogU3RlcFNjb3BlLCBub2RlczogU2V0W2Rlc2lnbi5HcmFwaCNOb2RlVF0pIHsKICAgICAgZGVmIGNvbnRhaW5zSW5wdXQ6IEJvb2xlYW4gPSBub2Rlcy5leGlzdHMoXy5jb250YWluc0lucHV0KQogICAgfQoKICAgIHR5cGUgRWRnZSA9IERpRWRnZVtCbG9ja10gLy8gdGhlIG91dGVyIGVkZ2UgdHlwZQogICAgb2JqZWN0IEVkZ2UgewogICAgICBkZWYgYXBwbHkoc291cmNlOiBCbG9jaywgdGFyZ2V0OiBCbG9jayk6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogICAgfQoKICAgIGRlZiBhcHBseShwcm9jZXNzR3JhcGg6IGRlc2lnbi5HcmFwaCwgc3RlcFNjb3BlOiBTdGVwU2NvcGUpOiBCbG9ja0dyYXBoID0gewogICAgICB2YWwgbm9kZXNJblNjb3BlID0gUmljaEdyYXBoKHByb2Nlc3NHcmFwaCkuZ2V0QWxsSW5TdWJTY29wZU9mKHN0ZXBTY29wZSkKICAgICAgdmFsIG5vZGVzUGVyQmxvY2sgPQogICAgICAgIC8vIGNyZWF0ZSBhIHN1YmdyYXBoIGZyb20gbm9kZXMgaW4gc2NvcGUKICAgICAgIFJpY2hHcmFwaChSaWNoR3JhcGgocHJvY2Vzc0dyYXBoKS5zdWJncmFwaChub2Rlc0luU2NvcGUpKQogICAgICAgIC8vIHRoZSBjb25uZWN0ZWQgY29tcG9uZW50cyBvZiB0aGUgc3ViZ3JhcGggZm9ybSBhIGJsb2NrCiAgICAgICAgLmNvbm5lY3RlZFN1YmdyYXBocy50b0xpc3QKICAgICAgICAvLyBjb252ZXJ0IGNvbXBvbmVudCBub2RlcyBiYWNrIHRvIHByb2Nlc3NHcmFwaCBub2RlcwogICAgICAgIC5tYXAoXy5ub2Rlcy5tYXAobm9kZSA9PiBwcm9jZXNzR3JhcGguZ2V0KG5vZGUudG9PdXRlcikpLnRvU2V0KS50b1NldAoKICAgICAgLy8gY3JlYXRlIG5vZGVzCiAgICAgIHZhbCBub2RlcyA9IG5vZGVzUGVyQmxvY2subWFwKGJsb2NrID0+IEJsb2NrKHN0ZXBTY29wZSwgYmxvY2subWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pKSkKCiAgICAgIC8vIGNyZWF0ZSBlZGdlcwogICAgICBpbXBvcnQgZ3JhcGguZW5yaWNoLm11dGFibGUuRGlHcmFwaC5fCiAgICAgIHZhbCBlZGdlcyA9IG5vZGVzLmZsYXRNYXAgeyBub2RlID0+CiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IHByb2Nlc3NHcmFwaAogICAgICAgICAgLy8gZ2V0IGFuY2VzdG9ycyBvZiBhIGdyb3VwIG9mIG5vZGVzCiAgICAgICAgICAuYW5jZXN0b3JzT2Yobm9kZS5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbcHJvY2Vzc0dyYXBoLk5vZGVUXSkpCiAgICAgICAgICAvLyBjb252ZXJ0IHRvIGdlbmVyaWMgZGVzaWduIG5vZGVzCiAgICAgICAgICAubWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pCgogICAgICAgIChub2RlcyAtIG5vZGUpLmNvbGxlY3QgeyBjYXNlIG90aGVyTm9kZSBpZiBvdGhlck5vZGUubm9kZXMuZXhpc3RzKGFuY2VzdG9ycy5jb250YWlucykgPT4gRWRnZShvdGhlck5vZGUsIG5vZGUpIH0KICAgICAgfQoKICAgICAgLy8gY3JlYXRlIGdyYXBoCiAgICAgIGltbXV0YWJsZS5HcmFwaC5mcm9tKG5vZGVzLGVkZ2VzKQogICAgfQoKICB9Cg==</text>
+        <text encoding="base64">IC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBub2Rlcy5mbGF0TWFwIHsgbm9kZSA9PgogICAgICAgIHZhbCBhbmNlc3RvcnMgPSBwcm9jZXNzR3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKG5vZGUubm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW3Byb2Nlc3NHcmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAobm9kZXMgLSBub2RlKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBub2RlKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShub2RlcyxlZGdlcyk=</text>
       </register>
       <register name="9" type="4">
-        <text>apply(processGraph: design.Graph, stepScope: StepScope) = {
-      import design.enrich.Graph._</text>
+        <text>import design.enrich.Graph._
+import scalax.collection.GraphEdge.DiEdge</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
