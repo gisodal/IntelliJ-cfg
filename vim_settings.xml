@@ -99,11 +99,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573734223322">
-        <mark key="[" line="307" column="76" />
-        <mark key="]" line="307" column="91" />
-        <mark key="^" line="307" column="81" />
-        <mark key="." line="307" column="81" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573734807118">
+        <mark key="[" line="317" column="38" />
+        <mark key="]" line="317" column="12" />
+        <mark key="." line="317" column="12" />
+        <mark key="^" line="317" column="12" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573734382015">
         <mark key="[" line="23" column="11" />
@@ -556,16 +556,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IGRlZiBpc0VxT3JTdXBlclNjb3BlT2YodGhhdDogQik6IEJvb2xlYW4gPQogICAgaXNTdXBlclNjb3BlT2YodGhhdCkgfHwgdGhhdC5zdGFjayA9PSBzdGFjawo=</text>
+        <text encoding="base64">aWYgKGJsb2NrLmNvbnRhaW5zSW5wdXQgKSB7CiAgICAgICAgICBub2Rlc0luU2NvcGUubWFwKF8uZ2V0UmVwcmVzZW50YXRpdmUuZ2V0LnRvU3RlcFNjb3BlKQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">YmxvY2suY29tcG9uZW50R3JhcGgg</text>
+        <text>assert(stepScope != StepScope.rootStepScope || nodes == nodesInScope)</text>
       </register>
       <register name="/" type="4">
         <text>stepRef</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IGRlZiBpc0VxT3JTdXBlclNjb3BlT2YodGhhdDogQik6IEJvb2xlYW4gPQogICAgaXNTdXBlclNjb3BlT2YodGhhdCkgfHwgdGhhdC5zdGFjayA9PSBzdGFjawo=</text>
+        <text encoding="base64">aWYgKGJsb2NrLmNvbnRhaW5zSW5wdXQgKSB7CiAgICAgICAgICBub2Rlc0luU2NvcGUubWFwKF8uZ2V0UmVwcmVzZW50YXRpdmUuZ2V0LnRvU3RlcFNjb3BlKQo=</text>
       </register>
       <register name="1" type="4">
         <text>val blockGraph = block.componentGraph
