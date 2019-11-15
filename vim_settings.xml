@@ -100,11 +100,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573817891938">
-        <mark key="[" line="317" column="8" />
-        <mark key="]" line="317" column="9" />
-        <mark key="." line="317" column="9" />
-        <mark key="^" line="317" column="9" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573825309209">
+        <mark key="[" line="898" column="59" />
+        <mark key="]" line="898" column="15" />
+        <mark key="." line="898" column="15" />
+        <mark key="^" line="898" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573734382015">
         <mark key="[" line="23" column="11" />
@@ -254,18 +254,18 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1573819817731">
-        <mark key="'" line="4" column="51" />
-        <mark key="[" line="129" column="82" />
-        <mark key="]" line="129" column="87" />
-        <mark key="^" line="129" column="87" />
-        <mark key="." line="129" column="87" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1573821153197">
+        <mark key="'" line="133" column="54" />
+        <mark key="[" line="119" column="24" />
+        <mark key="]" line="119" column="24" />
+        <mark key="^" line="119" column="24" />
+        <mark key="." line="119" column="24" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573133406268">
-        <mark key="[" line="385" column="24" />
-        <mark key="]" line="385" column="27" />
-        <mark key="^" line="385" column="27" />
-        <mark key="." line="385" column="27" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573825230006">
+        <mark key="[" line="496" column="37" />
+        <mark key="]" line="496" column="35" />
+        <mark key="^" line="496" column="35" />
+        <mark key="." line="496" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573645218168">
         <mark key="'" line="20" column="0" />
@@ -455,7 +455,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/graphverifier/TestParserTest.scala" />
       <jump line="49" column="16" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="243" column="1" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
       <jump line="136" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" />
@@ -553,38 +552,39 @@
       <jump line="118" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="121" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="130" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="4" column="51" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
+      <jump line="138" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
+      <jump line="130" column="54" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">KysgcHJvY2Vzc0Rlc2lnbi5ub2Rlcy5tYXAobm9kZSA9PiBub2RlIC0+IE1TZXQuZW1wdHkpLnRvTWFw</text>
+        <text encoding="base64">IHsgaWYgKHN1Y2MudG9TdGVwU2NvcGUuaXNTdXBlclNjb3BlT2Yoc3RlcFNjb3BlKSkgU2V0KHN0ZXBTY29wZSkgZWxzZSBTZXQuZW1wdHkgfSA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">KysgcHJvY2Vzc0Rlc2lnbi5ub2Rlcy5tYXAobm9kZSA9PiBub2RlIC0+IE1TZXQuZW1wdHkpLnRvTWFw</text>
+        <text>import util.IterableEnhancements._</text>
       </register>
       <register name="/" type="4">
         <text>mut</text>
       </register>
       <register name="0" type="4">
-        <text>[processDesign.NodeT, MSet[StepScope]]</text>
+        <text encoding="base64">IHsgaWYgKHN1Y2MudG9TdGVwU2NvcGUuaXNTdXBlclNjb3BlT2Yoc3RlcFNjb3BlKSkgU2V0KHN0ZXBTY29wZSkgZWxzZSBTZXQuZW1wdHkgfSA=</text>
       </register>
-      <register name="1" type="4">
-        <text>val blockGraph = block.componentGraph
-          val containsInterruptor = blockGraph.edges.nonEmpty</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgZGVmIHNlZW5TY29wZShzdGVwU2NvcGU6IFN0ZXBTY29wZSwgbmV4dFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbU3RlcFNjb3BlXSA9IHsK</text>
       </register>
       <register name="2" type="4">
         <text>val blockGraph = block.componentGraph
-        val containsInterruptor = blockGraph.edges.nonEmpty</text>
+          val containsInterruptor = blockGraph.edges.nonEmpty</text>
       </register>
       <register name="3" type="4">
+        <text>val blockGraph = block.componentGraph
+        val containsInterruptor = blockGraph.edges.nonEmpty</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">IGxhenkgdmFsIGNvbnRhaW5pbmdHcmFwaDogZGVzaWduLkdyYXBoID0gbm9kZXMuaGVhZE9wdGlvbgogICAgICAgIC5tYXAoXy5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgYXNzZXJ0KG5vZGVzLm5vbkVtcHR5KQo=</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">dmFsIGVkZ2VzID0gYmxvY2tzLmZpbHRlcihfLm5vZGVzLm5vbkVtcHR5KS5mbGF0TWFwIHsgYmxvY2sgPT4KICAgICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaAogICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAgIChibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgICAgICB9CgogICAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrcywgZWRnZXMp</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -597,17 +597,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBub2RlczogSXRlcmFibGVbZGVzaWduLkdyYXBoI05vZGVUXSk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgbm9kZXNQZXJCbG9jayA9CiAgICAgICAgLy8gY3JlYXRlIGEgc3ViZ3JhcGggZnJvbSBub2RlcyBpbiBzY29wZQogICAgICAgUmljaEdyYXBoKFJpY2hHcmFwaChwcm9jZXNzR3JhcGgpLnN1YmdyYXBoKG5vZGVzKSkKICAgICAgICAvLyB0aGUgY29ubmVjdGVkIGNvbXBvbmVudHMgb2YgdGhlIHN1YmdyYXBoIGZvcm0gYSBibG9jawogICAgICAgIC5jb25uZWN0ZWRTdWJncmFwaHMudG9MaXN0CiAgICAgICAgLy8gY29udmVydCBjb21wb25lbnQgbm9kZXMgYmFjayB0byBwcm9jZXNzR3JhcGggbm9kZXMKICAgICAgICAubWFwKF8ubm9kZXMubWFwKG5vZGUgPT4gcHJvY2Vzc0dyYXBoLmdldChub2RlLnRvT3V0ZXIpKS50b1NldCkudG9TZXQKCiAgICAgIC8vIGNyZWF0ZSBub2RlcwogICAgICB2YWwgYmxvY2tzID0gbm9kZXNQZXJCbG9jay5tYXAoYmxvY2sgPT4gQmxvY2soYmxvY2subWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pKSkKCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBCbG9ja0dyYXBoKGJsb2NrcykKICAgIH0KCiAgICBkZWYgYXBwbHkoYmxvY2tzOiBTZXRbQmxvY2tdKTogQmxvY2tHcmFwaCA9IHsKICAgICAgLy8gY3JlYXRlIGVkZ2VzCiAgICAgIHZhbCBlZGdlcyA9IGJsb2Nrcy5maWx0ZXIoXy5ub2Rlcy5ub25FbXB0eSkuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoID0gYmxvY2suZ3JhcGgKICAgICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKGJsb2NrLm5vZGVzLm1hcChfLmFzSW5zdGFuY2VPZltncmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAoYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja3MsIGVkZ2VzKQogICAgfQo=</text>
+        <text encoding="base64">dmFsIGVkZ2VzID0gYmxvY2tzLmZpbHRlcihfLm5vZGVzLm5vbkVtcHR5KS5mbGF0TWFwIHsgYmxvY2sgPT4KICAgICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaAogICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAgIChibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgICAgICB9CgogICAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrcywgZWRnZXMp</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrXSk6IEJsb2NrR3JhcGggPSB7CiAgICAgIC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBibG9ja3MuZmlsdGVyKF8ubm9kZXMubm9uRW1wdHkpLmZsYXRNYXAgeyBibG9jayA9PgogICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmdyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbZGVzaWduLkdyYXBoI05vZGVUXSkKCiAgICAgICAgKGJsb2NrcyAtIGJsb2NrKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBibG9jaykgfQogICAgICB9CgogICAgICAvLyBjcmVhdGUgZ3JhcGgKICAgICAgc2NhbGF4LmNvbGxlY3Rpb24uaW1tdXRhYmxlLkdyYXBoLmZyb20oYmxvY2tzLCBlZGdlcykKICAgIH0K</text>
+        <text encoding="base64">ZGVmIGFwcGx5KHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBub2RlczogSXRlcmFibGVbZGVzaWduLkdyYXBoI05vZGVUXSk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgbm9kZXNQZXJCbG9jayA9CiAgICAgICAgLy8gY3JlYXRlIGEgc3ViZ3JhcGggZnJvbSBub2RlcyBpbiBzY29wZQogICAgICAgUmljaEdyYXBoKFJpY2hHcmFwaChwcm9jZXNzR3JhcGgpLnN1YmdyYXBoKG5vZGVzKSkKICAgICAgICAvLyB0aGUgY29ubmVjdGVkIGNvbXBvbmVudHMgb2YgdGhlIHN1YmdyYXBoIGZvcm0gYSBibG9jawogICAgICAgIC5jb25uZWN0ZWRTdWJncmFwaHMudG9MaXN0CiAgICAgICAgLy8gY29udmVydCBjb21wb25lbnQgbm9kZXMgYmFjayB0byBwcm9jZXNzR3JhcGggbm9kZXMKICAgICAgICAubWFwKF8ubm9kZXMubWFwKG5vZGUgPT4gcHJvY2Vzc0dyYXBoLmdldChub2RlLnRvT3V0ZXIpKS50b1NldCkudG9TZXQKCiAgICAgIC8vIGNyZWF0ZSBub2RlcwogICAgICB2YWwgYmxvY2tzID0gbm9kZXNQZXJCbG9jay5tYXAoYmxvY2sgPT4gQmxvY2soYmxvY2subWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pKSkKCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBCbG9ja0dyYXBoKGJsb2NrcykKICAgIH0KCiAgICBkZWYgYXBwbHkoYmxvY2tzOiBTZXRbQmxvY2tdKTogQmxvY2tHcmFwaCA9IHsKICAgICAgLy8gY3JlYXRlIGVkZ2VzCiAgICAgIHZhbCBlZGdlcyA9IGJsb2Nrcy5maWx0ZXIoXy5ub2Rlcy5ub25FbXB0eSkuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoID0gYmxvY2suZ3JhcGgKICAgICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKGJsb2NrLm5vZGVzLm1hcChfLmFzSW5zdGFuY2VPZltncmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAoYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja3MsIGVkZ2VzKQogICAgfQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBub2Rlcy5mbGF0TWFwIHsgbm9kZSA9PgogICAgICAgIHZhbCBhbmNlc3RvcnMgPSBwcm9jZXNzR3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKG5vZGUubm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW3Byb2Nlc3NHcmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAobm9kZXMgLSBub2RlKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBub2RlKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShub2RlcyxlZGdlcyk=</text>
+        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrXSk6IEJsb2NrR3JhcGggPSB7CiAgICAgIC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBibG9ja3MuZmlsdGVyKF8ubm9kZXMubm9uRW1wdHkpLmZsYXRNYXAgeyBibG9jayA9PgogICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmdyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbZGVzaWduLkdyYXBoI05vZGVUXSkKCiAgICAgICAgKGJsb2NrcyAtIGJsb2NrKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBibG9jaykgfQogICAgICB9CgogICAgICAvLyBjcmVhdGUgZ3JhcGgKICAgICAgc2NhbGF4LmNvbGxlY3Rpb24uaW1tdXRhYmxlLkdyYXBoLmZyb20oYmxvY2tzLCBlZGdlcykKICAgIH0K</text>
       </register>
       <register name="9" type="4">
-        <text>import design.enrich.Graph._
-import scalax.collection.GraphEdge.DiEdge</text>
+        <text encoding="base64">IC8vIGNyZWF0ZSBlZGdlcwogICAgICB2YWwgZWRnZXMgPSBub2Rlcy5mbGF0TWFwIHsgbm9kZSA9PgogICAgICAgIHZhbCBhbmNlc3RvcnMgPSBwcm9jZXNzR3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKG5vZGUubm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW3Byb2Nlc3NHcmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAobm9kZXMgLSBub2RlKS5jb2xsZWN0IHsgY2FzZSBvdGhlck5vZGUgaWYgb3RoZXJOb2RlLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJOb2RlLCBub2RlKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShub2RlcyxlZGdlcyk=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
