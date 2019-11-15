@@ -100,11 +100,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573825309209">
-        <mark key="[" line="898" column="59" />
-        <mark key="]" line="898" column="15" />
-        <mark key="." line="898" column="15" />
-        <mark key="^" line="898" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573826244579">
+        <mark key="[" line="45" column="66" />
+        <mark key="]" line="45" column="66" />
+        <mark key="." line="45" column="66" />
+        <mark key="^" line="46" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573734382015">
         <mark key="[" line="23" column="11" />
@@ -254,18 +254,18 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1573821153197">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1573825996776">
         <mark key="'" line="133" column="54" />
-        <mark key="[" line="119" column="24" />
-        <mark key="]" line="119" column="24" />
+        <mark key="[" line="119" column="2" />
+        <mark key="]" line="139" column="3" />
         <mark key="^" line="119" column="24" />
         <mark key="." line="119" column="24" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573825230006">
-        <mark key="[" line="496" column="37" />
-        <mark key="]" line="496" column="35" />
-        <mark key="^" line="496" column="35" />
-        <mark key="." line="496" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573826174237">
+        <mark key="[" line="608" column="59" />
+        <mark key="]" line="608" column="59" />
+        <mark key="^" line="608" column="59" />
+        <mark key="." line="608" column="59" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573645218168">
         <mark key="'" line="20" column="0" />
@@ -558,7 +558,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHsgaWYgKHN1Y2MudG9TdGVwU2NvcGUuaXNTdXBlclNjb3BlT2Yoc3RlcFNjb3BlKSkgU2V0KHN0ZXBTY29wZSkgZWxzZSBTZXQuZW1wdHkgfSA=</text>
+        <text>StepScope.interruptorToScopes(processGraph).nonEmpty</text>
       </register>
       <register name="-" type="4">
         <text>import util.IterableEnhancements._</text>
@@ -567,7 +567,7 @@
         <text>mut</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">IHsgaWYgKHN1Y2MudG9TdGVwU2NvcGUuaXNTdXBlclNjb3BlT2Yoc3RlcFNjb3BlKSkgU2V0KHN0ZXBTY29wZSkgZWxzZSBTZXQuZW1wdHkgfSA=</text>
+        <text>StepScope.interruptorToScopes(processGraph).nonEmpty</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgZGVmIHNlZW5TY29wZShzdGVwU2NvcGU6IFN0ZXBTY29wZSwgbmV4dFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbU3RlcFNjb3BlXSA9IHsK</text>
