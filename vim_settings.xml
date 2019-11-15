@@ -100,11 +100,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573826244579">
-        <mark key="[" line="45" column="66" />
-        <mark key="]" line="45" column="66" />
-        <mark key="." line="45" column="66" />
-        <mark key="^" line="46" column="15" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1573827177403">
+        <mark key="[" line="46" column="5" />
+        <mark key="]" line="46" column="4" />
+        <mark key="." line="46" column="4" />
+        <mark key="^" line="46" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573734382015">
         <mark key="[" line="23" column="11" />
@@ -261,11 +261,11 @@
         <mark key="^" line="119" column="24" />
         <mark key="." line="119" column="24" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573826174237">
-        <mark key="[" line="608" column="59" />
-        <mark key="]" line="608" column="59" />
-        <mark key="^" line="608" column="59" />
-        <mark key="." line="608" column="59" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
+        <mark key="[" line="646" column="66" />
+        <mark key="]" line="646" column="65" />
+        <mark key="^" line="646" column="65" />
+        <mark key="." line="646" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1573645218168">
         <mark key="'" line="20" column="0" />
