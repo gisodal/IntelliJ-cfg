@@ -94,6 +94,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574170698291">
+        <mark key="'" line="301" column="6" />
+        <mark key="[" line="303" column="25" />
+        <mark key="]" line="303" column="25" />
+        <mark key="^" line="303" column="25" />
+        <mark key="." line="303" column="25" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573734382015">
         <mark key="[" line="23" column="11" />
         <mark key="]" line="23" column="8" />
@@ -243,12 +250,12 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574168716566">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574170518593">
         <mark key="'" line="135" column="54" />
-        <mark key="[" line="73" column="30" />
-        <mark key="]" line="72" column="81" />
-        <mark key="." line="72" column="81" />
-        <mark key="^" line="73" column="15" />
+        <mark key="[" line="121" column="6" />
+        <mark key="]" line="121" column="24" />
+        <mark key="." line="121" column="7" />
+        <mark key="^" line="121" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
         <mark key="[" line="496" column="66" />
@@ -446,7 +453,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="654" column="68" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="1211" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="1234" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="1259" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
@@ -546,19 +552,20 @@
       <jump line="21" column="121" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="23" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="3" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
+      <jump line="301" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9HW0dHIDw6IEdlbkdyYXBoW04sIEVdXShncmFwaDogR0cpOiBHID0gZ3JhcGguYXNJbnN0YW5jZU9mW0dd</text>
+        <text encoding="base64">cHJvY2Vzc0dyYXBoLm5vZGVzLm1hcChub2RlID0+IG5vZGUgLT4gbm9kZS5nZXRTdGVwU2NvcGUudG9TZXQpICA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cHJpdmF0ZSBkZWYgdG9HW0dHIDw6IEdlbkdyYXBoW04sIEVdXShncmFwaDogR0cpOiBHID0gZ3JhcGguYXNJbnN0YW5jZU9mW0dd</text>
+        <text encoding="base64">cHJvY2Vzc0dyYXBoLm5vZGVzLm1hcChub2RlID0+IG5vZGUgLT4gbm9kZS5nZXRTdGVwU2NvcGUudG9TZXQpICA=</text>
       </register>
       <register name="/" type="4">
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>val graph: StepGraph = scalax.collection.immutable.Graph.from(nodes, edges).transitiveReduction</text>
+        <text>interruptorToScopes</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGludGVycnVwdG9ycyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkKICAgIHZhbCB0ZXN0ID0gMQogICAgaWYgKFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkubm9uRW1wdHkpCiAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbigiVGhlIHByb2Nlc3MgZGVzaWduIGNvbnRhaW5zIGFuIGludGVycnVwdG9yLiBUaG9zZSBjYW5ub3QgeWV0IGJlIGhhbmRsZWQgcHJvcGVybHkuIikK</text>
