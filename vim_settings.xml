@@ -82,10 +82,10 @@
       <file name="/Dummy.scala" timestamp="1573650250230">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/DiGraph.scala" timestamp="1573576603625">
-        <mark key="[" line="56" column="4" />
-        <mark key="]" line="68" column="5" />
-        <mark key="." line="66" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/DiGraph.scala" timestamp="1574159034773">
+        <mark key="[" line="130" column="0" />
+        <mark key="]" line="130" column="8" />
+        <mark key="." line="130" column="8" />
         <mark key="^" line="66" column="17" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1573488019040">
