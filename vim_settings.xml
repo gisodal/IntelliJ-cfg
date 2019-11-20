@@ -94,12 +94,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574174960119">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574243739569">
         <mark key="'" line="301" column="6" />
-        <mark key="[" line="312" column="10" />
-        <mark key="]" line="312" column="9" />
-        <mark key="^" line="312" column="9" />
-        <mark key="." line="312" column="9" />
+        <mark key="[" line="311" column="7" />
+        <mark key="]" line="311" column="70" />
+        <mark key="." line="311" column="7" />
+        <mark key="^" line="311" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574241738520">
         <mark key="[" line="28" column="39" />
@@ -347,12 +347,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574240712791">
-        <mark key="'" line="3" column="0" />
-        <mark key="[" line="20" column="6" />
-        <mark key="]" line="20" column="31" />
-        <mark key="^" line="20" column="31" />
-        <mark key="." line="20" column="31" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574243407281">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="0" />
+        <mark key="^" line="27" column="33" />
+        <mark key="." line="29" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -451,7 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1211" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="1234" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="1259" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
       <jump line="1326" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" />
@@ -551,19 +549,20 @@
       <jump line="23" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="3" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="301" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="28" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>assert(isEqOrSubScopeOf(that), &quot;Cannot perform keep operation on scopes that of not related&quot;)</text>
+        <text encoding="base64">bm9kZXMubWFwKG5vZGUgPT4gaW50ZXJydXB0b3JUb1Njb3Blcy5nZXQobm9kZSkubWFwKChub2RlLF8pKSkg</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">dmFsIGNvbXBvbmVudHMgPSBibG9jay5jb21wb25lbnRCbG9ja3Mg</text>
+        <text encoding="base64">bm9kZXMubWFwKG5vZGUgPT4gaW50ZXJydXB0b3JUb1Njb3Blcy5nZXQobm9kZSkubWFwKChub2RlLF8pKSkg</text>
       </register>
       <register name="/" type="4">
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>assert(isEqOrSubScopeOf(that), &quot;Cannot perform keep operation on scopes that of not related&quot;)</text>
+        <text encoding="base64">dmFsIGNvbXBvbmVudHMgPSBibG9jay5ub2Rlcy5tYXAobm9kZSA9PiBpbnRlcnJ1cHRvclRvU2NvcGVzLmdldChub2RlKS5tYXAoKG5vZGUsXykpKQ==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGludGVycnVwdG9ycyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkKICAgIHZhbCB0ZXN0ID0gMQogICAgaWYgKFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkubm9uRW1wdHkpCiAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbigiVGhlIHByb2Nlc3MgZGVzaWduIGNvbnRhaW5zIGFuIGludGVycnVwdG9yLiBUaG9zZSBjYW5ub3QgeWV0IGJlIGhhbmRsZWQgcHJvcGVybHkuIikK</text>
