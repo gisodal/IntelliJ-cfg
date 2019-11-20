@@ -99,12 +99,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574245969871">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574268357516">
         <mark key="'" line="301" column="6" />
-        <mark key="[" line="313" column="58" />
-        <mark key="]" line="313" column="81" />
-        <mark key="^" line="313" column="81" />
-        <mark key="." line="313" column="81" />
+        <mark key="[" line="317" column="83" />
+        <mark key="]" line="317" column="82" />
+        <mark key="." line="317" column="82" />
+        <mark key="^" line="317" column="82" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574241738520">
         <mark key="[" line="28" column="39" />
@@ -557,34 +557,40 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>RichGraph(containingGraph).subgraph(nodes)</text>
+        <text>List(block.nodes.toSet -- interruptors, interruptors)     
+          if (interruptors != block.nodes) {
+            interruptors.groupBy(interruptorToScopes).values.map(BlockGraph.Block(_)) ++ Blo
+
+          }</text>
       </register>
       <register name="-" type="4">
-        <text>block.blocksBySubScope(currentScope)</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>RichGraph(containingGraph).subgraph(nodes)</text>
+        <text>.groupBy(interruptorToScopes)</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">dmFsIGludGVycnVwdG9ycyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkKICAgIHZhbCB0ZXN0ID0gMQogICAgaWYgKFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkubm9uRW1wdHkpCiAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbigiVGhlIHByb2Nlc3MgZGVzaWduIGNvbnRhaW5zIGFuIGludGVycnVwdG9yLiBUaG9zZSBjYW5ub3QgeWV0IGJlIGhhbmRsZWQgcHJvcGVybHkuIikK</text>
+        <text>List(block.nodes.toSet -- interruptors, interruptors)     
+          if (interruptors != block.nodes) {
+            interruptors.groupBy(interruptorToScopes).values.map(BlockGraph.Block(_)) ++ Blo
+
+          }</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">aW50ZXJydXB0b3JzLmdyb3VwQnkoaW50ZXJydXB0b3JUb1Njb3BlcykudmFsdWVzLm1hcChCbG9ja0dyYXBoLkJsb2NrKF8pKQogICAgICAgICAgXy50b1N0ZXBTY29wZSA9PSBjdXJyZW50U2NvcGUgKSAKICAgICAgICAgIA==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">dmFsIGludGVycnVwdG9ycyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkKICAgIHZhbCB0ZXN0ID0gMQogICAgaWYgKFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkubm9uRW1wdHkpCiAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbigiVGhlIHByb2Nlc3MgZGVzaWduIGNvbnRhaW5zIGFuIGludGVycnVwdG9yLiBUaG9zZSBjYW5ub3QgeWV0IGJlIGhhbmRsZWQgcHJvcGVybHkuIikK</text>
+      </register>
+      <register name="4" type="4">
         <text>val interruptors = StepScope.interruptorToScopes(processGraph)
     val test = 1</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgZGVmIHNlZW5TY29wZShzdGVwU2NvcGU6IFN0ZXBTY29wZSwgbmV4dFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbU3RlcFNjb3BlXSA9IHsK</text>
-      </register>
-      <register name="4" type="4">
-        <text>val blockGraph = block.componentGraph
-          val containsInterruptor = blockGraph.edges.nonEmpty</text>
-      </register>
-      <register name="5" type="4">
-        <text>val blockGraph = block.componentGraph
-        val containsInterruptor = blockGraph.edges.nonEmpty</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -597,16 +603,18 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">IGxhenkgdmFsIGNvbnRhaW5pbmdHcmFwaDogZGVzaWduLkdyYXBoID0gbm9kZXMuaGVhZE9wdGlvbgogICAgICAgIC5tYXAoXy5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCg==</text>
+        <text>val blockGraph = block.componentGraph
+          val containsInterruptor = blockGraph.edges.nonEmpty</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgYXNzZXJ0KG5vZGVzLm5vbkVtcHR5KQo=</text>
+      <register name="7" type="4">
+        <text>val blockGraph = block.componentGraph
+        val containsInterruptor = blockGraph.edges.nonEmpty</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">dmFsIGVkZ2VzID0gYmxvY2tzLmZpbHRlcihfLm5vZGVzLm5vbkVtcHR5KS5mbGF0TWFwIHsgYmxvY2sgPT4KICAgICAgICAgIHZhbCBncmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaAogICAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAgIChibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgICAgICB9CgogICAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrcywgZWRnZXMp</text>
+        <text encoding="base64">IGxhenkgdmFsIGNvbnRhaW5pbmdHcmFwaDogZGVzaWduLkdyYXBoID0gbm9kZXMuaGVhZE9wdGlvbgogICAgICAgIC5tYXAoXy5jb250YWluaW5nR3JhcGguYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KHByb2Nlc3NHcmFwaDogZGVzaWduLkdyYXBoLCBub2RlczogSXRlcmFibGVbZGVzaWduLkdyYXBoI05vZGVUXSk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgbm9kZXNQZXJCbG9jayA9CiAgICAgICAgLy8gY3JlYXRlIGEgc3ViZ3JhcGggZnJvbSBub2RlcyBpbiBzY29wZQogICAgICAgUmljaEdyYXBoKFJpY2hHcmFwaChwcm9jZXNzR3JhcGgpLnN1YmdyYXBoKG5vZGVzKSkKICAgICAgICAvLyB0aGUgY29ubmVjdGVkIGNvbXBvbmVudHMgb2YgdGhlIHN1YmdyYXBoIGZvcm0gYSBibG9jawogICAgICAgIC5jb25uZWN0ZWRTdWJncmFwaHMudG9MaXN0CiAgICAgICAgLy8gY29udmVydCBjb21wb25lbnQgbm9kZXMgYmFjayB0byBwcm9jZXNzR3JhcGggbm9kZXMKICAgICAgICAubWFwKF8ubm9kZXMubWFwKG5vZGUgPT4gcHJvY2Vzc0dyYXBoLmdldChub2RlLnRvT3V0ZXIpKS50b1NldCkudG9TZXQKCiAgICAgIC8vIGNyZWF0ZSBub2RlcwogICAgICB2YWwgYmxvY2tzID0gbm9kZXNQZXJCbG9jay5tYXAoYmxvY2sgPT4gQmxvY2soYmxvY2subWFwKF8uYXNJbnN0YW5jZU9mW2Rlc2lnbi5HcmFwaCNOb2RlVF0pKSkKCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBCbG9ja0dyYXBoKGJsb2NrcykKICAgIH0KCiAgICBkZWYgYXBwbHkoYmxvY2tzOiBTZXRbQmxvY2tdKTogQmxvY2tHcmFwaCA9IHsKICAgICAgLy8gY3JlYXRlIGVkZ2VzCiAgICAgIHZhbCBlZGdlcyA9IGJsb2Nrcy5maWx0ZXIoXy5ub2Rlcy5ub25FbXB0eSkuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoID0gYmxvY2suZ3JhcGgKICAgICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAgIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgICAgLmFuY2VzdG9yc09mKGJsb2NrLm5vZGVzLm1hcChfLmFzSW5zdGFuY2VPZltncmFwaC5Ob2RlVF0pKQogICAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgICAgLm1hcChfLmFzSW5zdGFuY2VPZltkZXNpZ24uR3JhcGgjTm9kZVRdKQoKICAgICAgICAoYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja3MsIGVkZ2VzKQogICAgfQo=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgYXNzZXJ0KG5vZGVzLm5vbkVtcHR5KQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
