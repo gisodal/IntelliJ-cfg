@@ -101,11 +101,11 @@
         <mark key="^" line="312" column="9" />
         <mark key="." line="312" column="9" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1573734382015">
-        <mark key="[" line="23" column="11" />
-        <mark key="]" line="23" column="8" />
-        <mark key="^" line="23" column="8" />
-        <mark key="." line="23" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574241738520">
+        <mark key="[" line="28" column="39" />
+        <mark key="]" line="28" column="39" />
+        <mark key="^" line="28" column="39" />
+        <mark key="." line="28" column="39" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -213,7 +213,6 @@
         <mark key="^" line="26" column="37" />
         <mark key="." line="26" column="39" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps_BACKUP_19116.scala" timestamp="1574164655984" />
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
         <mark key="]" line="533" column="8" />
@@ -250,11 +249,11 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574173850558">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="^" line="140" column="6" />
-        <mark key="." line="14" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574241034865">
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="0" />
+        <mark key="^" line="57" column="0" />
+        <mark key="." line="57" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
         <mark key="[" line="496" column="66" />
@@ -328,7 +327,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1574066988143">
+      <file name="/sbtShell" timestamp="1574239441406">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -348,12 +347,12 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574174664359">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574240712791">
         <mark key="'" line="3" column="0" />
-        <mark key="[" line="11" column="70" />
-        <mark key="]" line="11" column="70" />
-        <mark key="^" line="11" column="70" />
-        <mark key="." line="11" column="70" />
+        <mark key="[" line="20" column="6" />
+        <mark key="]" line="20" column="31" />
+        <mark key="^" line="20" column="31" />
+        <mark key="." line="20" column="31" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -555,7 +554,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>interruptorToScopes.get(node)</text>
+        <text>assert(isEqOrSubScopeOf(that), &quot;Cannot perform keep operation on scopes that of not related&quot;)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dmFsIGNvbXBvbmVudHMgPSBibG9jay5jb21wb25lbnRCbG9ja3Mg</text>
@@ -564,7 +563,7 @@
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>interruptorToScopes.get(node)</text>
+        <text>assert(isEqOrSubScopeOf(that), &quot;Cannot perform keep operation on scopes that of not related&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGludGVycnVwdG9ycyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkKICAgIHZhbCB0ZXN0ID0gMQogICAgaWYgKFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkubm9uRW1wdHkpCiAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbigiVGhlIHByb2Nlc3MgZGVzaWduIGNvbnRhaW5zIGFuIGludGVycnVwdG9yLiBUaG9zZSBjYW5ub3QgeWV0IGJlIGhhbmRsZWQgcHJvcGVybHkuIikK</text>
