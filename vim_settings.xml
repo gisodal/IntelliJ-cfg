@@ -67,6 +67,11 @@
         <mark key="^" line="352" column="31" />
         <mark key="." line="352" column="31" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1574245638737">
+        <mark key="[" line="69" column="4" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
         <mark key="]" line="15" column="36" />
@@ -94,12 +99,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574243739569">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574245969871">
         <mark key="'" line="301" column="6" />
-        <mark key="[" line="311" column="7" />
-        <mark key="]" line="311" column="70" />
-        <mark key="." line="311" column="7" />
-        <mark key="^" line="311" column="7" />
+        <mark key="[" line="313" column="58" />
+        <mark key="]" line="313" column="81" />
+        <mark key="^" line="313" column="81" />
+        <mark key="." line="313" column="81" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574241738520">
         <mark key="[" line="28" column="39" />
@@ -347,11 +352,10 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574243407281">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="^" line="27" column="33" />
-        <mark key="." line="29" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574246061312">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -553,16 +557,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">bm9kZXMubWFwKG5vZGUgPT4gaW50ZXJydXB0b3JUb1Njb3Blcy5nZXQobm9kZSkubWFwKChub2RlLF8pKSkg</text>
+        <text>RichGraph(containingGraph).subgraph(nodes)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bm9kZXMubWFwKG5vZGUgPT4gaW50ZXJydXB0b3JUb1Njb3Blcy5nZXQobm9kZSkubWFwKChub2RlLF8pKSkg</text>
+        <text>block.blocksBySubScope(currentScope)</text>
       </register>
       <register name="/" type="4">
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIGNvbXBvbmVudHMgPSBibG9jay5ub2Rlcy5tYXAobm9kZSA9PiBpbnRlcnJ1cHRvclRvU2NvcGVzLmdldChub2RlKS5tYXAoKG5vZGUsXykpKQ==</text>
+        <text>RichGraph(containingGraph).subgraph(nodes)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGludGVycnVwdG9ycyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkKICAgIHZhbCB0ZXN0ID0gMQogICAgaWYgKFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkubm9uRW1wdHkpCiAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbigiVGhlIHByb2Nlc3MgZGVzaWduIGNvbnRhaW5zIGFuIGludGVycnVwdG9yLiBUaG9zZSBjYW5ub3QgeWV0IGJlIGhhbmRsZWQgcHJvcGVybHkuIikK</text>
