@@ -93,6 +93,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574356345182">
+        <mark key="p" line="310" column="43" />
+        <mark key="[" line="310" column="8" />
+        <mark key="]" line="310" column="8" />
+        <mark key="^" line="310" column="8" />
+        <mark key="." line="310" column="8" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574338508472">
         <mark key="[" line="58" column="2" />
         <mark key="]" line="63" column="1" />
@@ -147,11 +154,11 @@
         <mark key="^" line="231" column="35" />
         <mark key="." line="260" column="44" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CustomOrdering.scala" timestamp="1574341831904">
-        <mark key="[" line="5" column="4" />
-        <mark key="]" line="13" column="68" />
-        <mark key="^" line="16" column="1" />
-        <mark key="." line="27" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CustomOrdering.scala" timestamp="1574356546065">
+        <mark key="[" line="24" column="25" />
+        <mark key="]" line="24" column="24" />
+        <mark key="." line="24" column="24" />
+        <mark key="^" line="24" column="24" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1565694614004">
         <mark key="[" line="19" column="0" />
@@ -246,12 +253,12 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574342775558">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574344949123">
         <mark key="'" line="116" column="0" />
         <mark key="[" line="165" column="92" />
-        <mark key="]" line="165" column="5" />
-        <mark key="." line="165" column="5" />
-        <mark key="^" line="165" column="5" />
+        <mark key="]" line="157" column="35" />
+        <mark key="." line="157" column="35" />
+        <mark key="^" line="157" column="35" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
         <mark key="[" line="496" column="66" />
@@ -345,11 +352,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574342637875">
-        <mark key="[" line="31" column="57" />
-        <mark key="]" line="31" column="67" />
-        <mark key="^" line="31" column="67" />
-        <mark key="." line="31" column="67" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574346520373">
+        <mark key="[" line="29" column="66" />
+        <mark key="]" line="29" column="71" />
+        <mark key="^" line="29" column="71" />
+        <mark key="." line="29" column="71" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -550,7 +557,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>Ordering.by[StepScopeItem, String](_.evalRef.id)(alphabeticalOrdering) thenComparing</text>
+        <text>.filter(_.toStepScope == currentScope)</text>
       </register>
       <register name="-" type="4">
         <text>Ordering.by[StepScopeItem, String](_.evalRef.id)(alphabeticalOrdering) thenComparing</text>
@@ -559,7 +566,7 @@
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSAoaDE6OnQxLCBoMjo6dDIpIGlmIGgxID09IGgyID0+IGNvbXBhcmVSZXZlcnNlZFN0YWNrKHQxLHQyKQ==</text>
+        <text>.filter(_.toStepScope == currentScope)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSAoaDE6OnQxLCBoMjo6dDIpID0+CiAgICAgICAgdmFsIGlkT3JkZXIgPSBzdGVwU2NvcGVJZE9yZGVyaW5nLmNvbXBhcmUoaDEsaDIpCiAgICAgICAgaWYgKGlkT3JkZXIgIT0gMCkKICAgICAgICAgIGlkT3JkZXIKICAgICAgICBlbHNlIGNvbXBhcmVSZXZlcnNlZFN0YWNrKHQxLHQyKQo=</text>
