@@ -99,10 +99,10 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574268357516">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574329576925">
         <mark key="'" line="301" column="6" />
-        <mark key="[" line="317" column="83" />
-        <mark key="]" line="317" column="82" />
+        <mark key="[" line="317" column="12" />
+        <mark key="]" line="319" column="93" />
         <mark key="." line="317" column="82" />
         <mark key="^" line="317" column="82" />
       </file>
@@ -352,10 +352,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574246061312">
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574329944775">
+        <mark key="[" line="42" column="78" />
+        <mark key="]" line="42" column="78" />
+        <mark key="." line="42" column="78" />
+        <mark key="^" line="42" column="77" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -557,11 +558,9 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>List(block.nodes.toSet -- interruptors, interruptors)     
-          if (interruptors != block.nodes) {
-            interruptors.groupBy(interruptorToScopes).values.map(BlockGraph.Block(_)) ++ Blo
-
-          }</text>
+        <text>List(block.nodes.toSet -- interruptors, interruptors).filter(_.isEmpty)
+            if (interruptors != block.nodes) {
+              interruptors.groupBy(interruptorToScopes).values.map(BlockGraph.Block(_)) ++ Blo</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -570,7 +569,9 @@
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>.groupBy(interruptorToScopes)</text>
+        <text>List(block.nodes.toSet -- interruptors, interruptors).filter(_.isEmpty)
+            if (interruptors != block.nodes) {
+              interruptors.groupBy(interruptorToScopes).values.map(BlockGraph.Block(_)) ++ Blo</text>
       </register>
       <register name="1" type="4">
         <text>List(block.nodes.toSet -- interruptors, interruptors)     
