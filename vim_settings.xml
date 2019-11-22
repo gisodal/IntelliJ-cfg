@@ -93,12 +93,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574356345182">
-        <mark key="p" line="310" column="43" />
-        <mark key="[" line="310" column="8" />
-        <mark key="]" line="310" column="8" />
-        <mark key="^" line="310" column="8" />
-        <mark key="." line="310" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574414474006">
+        <mark key="p" line="351" column="43" />
+        <mark key="[" line="311" column="34" />
+        <mark key="]" line="311" column="58" />
+        <mark key="^" line="311" column="58" />
+        <mark key="." line="311" column="58" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574338508472">
         <mark key="[" line="58" column="2" />
@@ -332,7 +332,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1574328607404">
+      <file name="/sbtShell" timestamp="1574413743144">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -557,16 +557,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.filter(_.toStepScope == currentScope)</text>
+        <text>// separate interruptors and put them in a seperate block</text>
       </register>
       <register name="-" type="4">
-        <text>Ordering.by[StepScopeItem, String](_.evalRef.id)(alphabeticalOrdering) thenComparing</text>
+        <text>// separate interruptors and put them in a seperate block</text>
       </register>
       <register name="/" type="4">
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>.filter(_.toStepScope == currentScope)</text>
+        <text>// separate interruptors and put them in a seperate block</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Y2FzZSAoaDE6OnQxLCBoMjo6dDIpID0+CiAgICAgICAgdmFsIGlkT3JkZXIgPSBzdGVwU2NvcGVJZE9yZGVyaW5nLmNvbXBhcmUoaDEsaDIpCiAgICAgICAgaWYgKGlkT3JkZXIgIT0gMCkKICAgICAgICAgIGlkT3JkZXIKICAgICAgICBlbHNlIGNvbXBhcmVSZXZlcnNlZFN0YWNrKHQxLHQyKQo=</text>
