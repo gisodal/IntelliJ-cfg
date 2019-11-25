@@ -98,12 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574676934183">
-        <mark key="'" line="321" column="0" />
-        <mark key="[" line="323" column="19" />
-        <mark key="]" line="324" column="13" />
-        <mark key="." line="324" column="13" />
-        <mark key="^" line="324" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574678277150">
+        <mark key="'" line="319" column="0" />
+        <mark key="[" line="328" column="0" />
+        <mark key="]" line="328" column="0" />
+        <mark key="." line="328" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -569,16 +568,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>interruptorToScopes</text>
+        <text encoding="base64">Ly8gQU5EIHRoZSBpbnRlcnJ1cHRlZCBzY29wZSBpcyBpbiB0aGUg</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGltcG9ydCB1dGlsLkNvbGxlY3Rpb25FbmhhbmNlbWVudHMuXw==</text>
+        <text>// the interruptor is in the subscope of a decomposable scope</text>
       </register>
       <register name="/" type="4">
         <text>def.*match</text>
       </register>
       <register name="0" type="4">
-        <text>interruptorToScopes</text>
+        <text encoding="base64">Ly8gQU5EIHRoZSBpbnRlcnJ1cHRlZCBzY29wZSBpcyBpbiB0aGUg</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIHdoaWxlQ2hhbmdlZERvKHVwZGF0ZTogVFtBXSA9PiBUW0FdKTogVFtBXSA9IHVwZGF0ZShjb2xsZWN0aW9uKSBtYXRjaCB7CiAgICAgIGNhc2UgYGNvbGxlY3Rpb25gID0+IGNvbGxlY3Rpb24KICAgICAgY2FzZSB1cGRhdGVkICAgICAgPT4gdXBkYXRlZC53aGlsZUNoYW5nZWREbyh1cGRhdGUpCiAgICB9</text>
