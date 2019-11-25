@@ -98,11 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574691947522">
-        <mark key="[" line="328" column="38" />
-        <mark key="]" line="328" column="36" />
-        <mark key="^" line="328" column="36" />
-        <mark key="." line="328" column="36" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574698418428">
+        <mark key="[" line="333" column="133" />
+        <mark key="]" line="334" column="9" />
+        <mark key="^" line="334" column="9" />
+        <mark key="." line="334" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -568,16 +568,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>blockScope.toControlScope.isEqOrSuperScopeOf(</text>
+        <text>// select interruptors that interrupt a decomposable scope</text>
       </register>
       <register name="-" type="4">
-        <text>assert(block.nodes.forall(_.toStepScope.isEqOrSubScopeOf(StepScope.rootStepScope)), &quot;Not all nodes in this block appear to be part of the same scope&quot;)</text>
+        <text>// select interruptors that interrupt a decomposable scope</text>
       </register>
       <register name="/" type="4">
         <text>def.*match</text>
       </register>
-      <register name="0" type="4">
-        <text>blockScope.toControlScope.isEqOrSuperScopeOf(</text>
+      <register name="0" type="8">
+        <text encoding="base64">IC8vIGlkZW50aWZ5IGludGVycnVwdG9yIGluIHRoaXMgYmxvY2s=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIGNsdXN0ZXJCeVN0ZXBTY29wZTMoYmxvY2s6IEJsb2NrR3JhcGguQmxvY2ssIGN1cnJlbnRTY29wZTogU3RlcFNjb3BlLCBpbnRlcnJ1cHRvclRvU2NvcGVzOiBNYXBbZGVzaWduLkdyYXBoI05vZGVULCBTZXRbU3RlcFNjb3BlXV0pOiBTZXRbQmxvY2tHcmFwaC5CbG9ja10gPSB7CiAgICAgICAgYXNzZXJ0KGJsb2NrLm5vZGVzLmZvcmFsbChfLnRvU3RlcFNjb3BlLmlzRXFPclN1YlNjb3BlT2YoU3RlcFNjb3BlLnJvb3RTdGVwU2NvcGUpKSwgIk5vdCBhbGwgbm9kZXMgaW4gdGhpcyBibG9jayBhcHBlYXIgdG8gYmUgcGFydCBvZiB0aGUgc2FtZSBzY29wZSIpCgogICAgICAgIGRlZiBkZWNvbXBvc2UoYmxvY2s6IEJsb2NrR3JhcGguQmxvY2spOiBTZXRbQmxvY2tHcmFwaC5CbG9ja10gPSB7CiAgICAgICAgICBkZWYgc2VwYXJhdGVJbnRlcnJ1cHRvcnMoYmxvY2s6IEJsb2NrR3JhcGguQmxvY2spOiBTZXRbQmxvY2tHcmFwaC5CbG9ja10gPSB7CiAgICAgICAgICAgIC8vIGlkZW50aWZ5IGludGVycnVwdG9yIGluIHRoaXMgYmxvY2sKICAgICAgICAgICAgdmFsIGludGVycnVwdG9ycyA9IGJsb2NrLm5vZGVzLnRvU2V0CiAgICAgICAgICAgICAgLy8gZ2V0IGludGVycnVwdG9ycyBpbiB0aGlzIGJsb2NrCiAgICAgICAgICAgICAgLmludGVyc2VjdChpbnRlcnJ1cHRvclRvU2NvcGVzLmtleVNldCkKICAgICAgICAgICAgICAvLyBzZWxlY3QgaW50ZXJydXB0b3JzIHRoYXQgYXJlIGluIHRoaXMgc2NvcGUKICAgICAgICAgICAgICAuZmlsdGVyKF8udG9TdGVwU2NvcGUgPT0gY3VycmVudFNjb3BlKQoKICAgICAgICAgICAgLy8gc2VwYXJhdGUgaW50ZXJydXB0b3JzIGFuZCBwdXQgdGhlbSBpbiBhIHNlcGFyYXRlIGJsb2NrCiAgICAgICAgICAgIGJsb2NrLnBhcnRpdGlvbkJsb2NrKGludGVycnVwdG9ycykKICAgICAgICAgIH0KCiAgICAgICAgICBkZWYgc2VwYXJhdGVJbnB1dHMoYmxvY2s6IEJsb2NrR3JhcGguQmxvY2spOiBTZXRbQmxvY2tHcmFwaC5CbG9ja10gPSB7CiAgICAgICAgICAgIHZhbCBpbnB1dE5vZGVzID0gYmxvY2subm9kZXMKICAgICAgICAgICAgICAvLyBnZXQgaW5wdXRzIGluIHRoaXMgYmxvY2sKICAgICAgICAgICAgICAuZmlsdGVyKF8uY29udGFpbnNJbnB1dCkKICAgICAgICAgICAgICAvLyBzZWxlY3QgaW5wdXQgdGhhdCBhcmUgaW4gdGhpcyBzY29wZQogICAgICAgICAgICAgIC5maWx0ZXIoXy50b1N0ZXBTY29wZSA9PSBjdXJyZW50U2NvcGUpCgogICAgICAgICAgICAvLyBzZXBhcmF0ZSBpbnB1dHMgYW5kIHB1dCBlYWNoIGluZGl2aWR1YWwgaW5wdXQgaW4gYSBzZXBhcmF0ZSBibG9jawogICAgICAgICAgICB2YWwgaW5wdXRCbG9ja3M6IFNldFtCbG9ja0dyYXBoLkJsb2NrXSA9IGlucHV0Tm9kZXMubWFwKGlucHV0ID0+IEJsb2NrR3JhcGguQmxvY2soU2V0KGlucHV0KSkpLnRvU2V0CiAgICAgICAgICAgIGlucHV0QmxvY2tzICsgQmxvY2tHcmFwaC5CbG9jayhibG9jay5ub2Rlcy50b1NldCAtLSBpbnB1dE5vZGVzKQogICAgICAgICAgfQoKICAgICAgICAgIHNlcGFyYXRlSW50ZXJydXB0b3JzKGJsb2NrKS5mbGF0TWFwKHNlcGFyYXRlSW5wdXRzKS5mbGF0TWFwKF8uY29tcG9uZW50QmxvY2tzKQogICAgICAgIH0KCiAgICAgICAgLy9kZWNvbXBvc2UoYmxvY2spLmZsYXRNYXAgeyBibG9jayA9PgogICAgICAgIC8vICBpZiAoYmxvY2suY29udGFpbnNJbnB1dCAmJiAhYmxvY2suY29udGFpbnNPbmx5SW5wdXRzKSB7CiAgICAgICAgLy8gIH0KICAgICAgICAvL30KCgoKCgoKCgoKCgogICAgICAgID8/PwogICAgICB9Cg==</text>
