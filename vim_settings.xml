@@ -99,11 +99,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574440065477">
-        <mark key="[" line="559" column="0" />
-        <mark key="]" line="559" column="8" />
-        <mark key="^" line="351" column="8" />
-        <mark key="." line="559" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574672038612">
+        <mark key="[" line="315" column="36" />
+        <mark key="]" line="316" column="7" />
+        <mark key="^" line="316" column="7" />
+        <mark key="." line="316" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -344,7 +344,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1574413743144">
+      <file name="/sbtShell" timestamp="1574670577123">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -569,7 +569,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>BranchItem(wrapper.kind, wrapper.getBranch)</text>
+        <text>processGraph.nodes.filter(_.containsInput)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IC8vIHB1dCBlYWNoIGlucHV0IGluIGEgYmxvY2s=</text>
@@ -578,7 +578,7 @@
         <text>GenGraph</text>
       </register>
       <register name="0" type="4">
-        <text>BranchItem(wrapper.kind, wrapper.getBranch)</text>
+        <text>processGraph.nodes.filter(_.containsInput)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICYmCiAgICAgICAgICAgICAgaW50ZXJydXB0b3JUb1Njb3BlcyhpbnRlcnJ1cHRvcikuZXhpc3RzKF8udG9Db250cm9sU2NvcGUuaGFzQ29tbW9uU3ViU2NvcGVXaXRoKGlucHV0Q29udHJvbFNjb3BlKSk=</text>
