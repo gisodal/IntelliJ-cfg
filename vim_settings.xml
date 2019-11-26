@@ -98,11 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574767521069">
-        <mark key="[" line="122" column="73" />
-        <mark key="]" line="122" column="72" />
-        <mark key="^" line="122" column="72" />
-        <mark key="." line="122" column="72" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574768240468">
+        <mark key="[" line="370" column="12" />
+        <mark key="]" line="370" column="16" />
+        <mark key="^" line="370" column="16" />
+        <mark key="." line="370" column="16" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -575,7 +575,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>/** decompose graph into connected induced subgraphs **/</text>
+        <text>decomposableScopes.exists(_.isEqOrSuperScopeOf(controlScope)))</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">aW1wb3J0IHV0aWwuSXRlcmFibGVFbmhhbmNlbWVudHMuXyA=</text>
@@ -584,7 +584,7 @@
         <text>Trav</text>
       </register>
       <register name="0" type="4">
-        <text>/** decompose graph into connected induced subgraphs **/</text>
+        <text>decomposableScopes.exists(_.isEqOrSuperScopeOf(controlScope)))</text>
       </register>
       <register name="1" type="4">
         <text>def containsInput: Boolean =
