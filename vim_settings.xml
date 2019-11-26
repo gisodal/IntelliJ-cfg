@@ -98,11 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574762890999">
-        <mark key="[" line="368" column="100" />
-        <mark key="]" line="368" column="117" />
-        <mark key="^" line="368" column="117" />
-        <mark key="." line="368" column="117" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574763444182">
+        <mark key="[" line="207" column="17" />
+        <mark key="]" line="206" column="15" />
+        <mark key="^" line="206" column="15" />
+        <mark key="." line="206" column="15" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -363,10 +363,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574762705368">
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="0" />
-        <mark key="." line="39" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574764047692">
+        <mark key="[" line="59" column="36" />
+        <mark key="]" line="59" column="49" />
+        <mark key="." line="59" column="49" />
+        <mark key="^" line="59" column="49" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -567,7 +568,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">aW1wb3J0IHV0aWwuSXRlcmFibGVFbmhhbmNlbWVudHMuXyA=</text>
+        <text>block.containingGraph</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">aW1wb3J0IHV0aWwuSXRlcmFibGVFbmhhbmNlbWVudHMuXyA=</text>
@@ -576,7 +577,7 @@
         <text>def.*match</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">bm9kZXMKICAgICAgICAgIC5tYXAobm9kZSA9PiBub2RlLnRvU3RlcFNjb3BlLmtlZXAoc3RlcFNjb3BlLCAxKSAtPiBub2RlICkKICAgICAgICAgIC50b1NldE11bHRpTWFwCiAgICAgICAgICAubWFwVmFsdWVzKG5vZGVzID0+IEJsb2NrR3JhcGguQmxvY2sobm9kZXMpKQ==</text>
+        <text>block.containingGraph</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIGJsb2NrU2NvcGUgPSBibG9jay5zdGVwU2NvcGUudG9Db250cm9sU2NvcGUKICAgICAgICBpZiAoZGVjb21wb3NhYmxlU2NvcGVzLmV4aXN0cyhzY29wZSA9PiBibG9ja1Njb3BlLmlzRXFPclN1cGVyU2NvcGVPZihzY29wZSkpKSB7CgogICAgICAgIH0K</text>
