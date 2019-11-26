@@ -98,11 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574777006006">
-        <mark key="[" line="383" column="56" />
-        <mark key="]" line="383" column="55" />
-        <mark key="^" line="383" column="55" />
-        <mark key="." line="383" column="55" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574780342276">
+        <mark key="[" line="387" column="34" />
+        <mark key="]" line="387" column="34" />
+        <mark key="^" line="387" column="34" />
+        <mark key="." line="387" column="34" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -369,11 +369,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574774685251">
-        <mark key="[" line="72" column="88" />
-        <mark key="]" line="72" column="81" />
-        <mark key="." line="72" column="81" />
-        <mark key="^" line="72" column="81" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574779976155">
+        <mark key="[" line="76" column="48" />
+        <mark key="]" line="76" column="51" />
+        <mark key="." line="76" column="51" />
+        <mark key="^" line="76" column="51" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -575,16 +575,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>o</text>
+        <text>merge.flatMap(_.nodes)</text>
       </register>
       <register name="-" type="4">
-        <text>o</text>
+        <text>merge</text>
       </register>
       <register name="/" type="4">
         <text>Trav</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ICsgb3RoZXJCbG9jaykuZmlsdGVyKCFfLmlzRW1wdHkp</text>
+        <text>merge.flatMap(_.nodes)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8gaWRlbnRpZnkgaW50ZXJydXB0b3JzIHRoYXQgaW50ZXJydXB0IGEgZGVjb21wb3NhYmxlIHNjb3BlCiAgICAgICAgdmFsIGFjdGl2ZUludGVycnVwdG9ycyA9IGludGVycnVwdG9yVG9TY29wZXMKICAgICAgICAgIC5maWx0ZXIoXy5fMi5leGlzdHMoc2NvcGUgPT4gZGVjb21wb3NhYmxlU2NvcGVzLmNvbnRhaW5zKHNjb3BlLnRvQ29udHJvbFNjb3BlKSkpLmtleVNldAo=</text>
