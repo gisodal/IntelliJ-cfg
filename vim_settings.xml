@@ -98,11 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574780342276">
-        <mark key="[" line="387" column="34" />
-        <mark key="]" line="387" column="34" />
-        <mark key="^" line="387" column="34" />
-        <mark key="." line="387" column="34" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574848083213">
+        <mark key="[" line="400" column="5" />
+        <mark key="]" line="400" column="5" />
+        <mark key="." line="400" column="5" />
+        <mark key="^" line="400" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -369,11 +369,10 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574779976155">
-        <mark key="[" line="76" column="48" />
-        <mark key="]" line="76" column="51" />
-        <mark key="." line="76" column="51" />
-        <mark key="^" line="76" column="51" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1574847940650">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -575,16 +574,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>merge.flatMap(_.nodes)</text>
+        <text>assert(blocks.flatMap(_.nodes).asInstanceOf[Set[processGraph.NodeT]] == processGraph.nodes.toSet, &quot;block do no cover all nodes in the process graph&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>merge</text>
+        <text>merged</text>
       </register>
       <register name="/" type="4">
         <text>Trav</text>
       </register>
       <register name="0" type="4">
-        <text>merge.flatMap(_.nodes)</text>
+        <text>assert(blocks.flatMap(_.nodes).asInstanceOf[Set[processGraph.NodeT]] == processGraph.nodes.toSet, &quot;block do no cover all nodes in the process graph&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">Ly8gaWRlbnRpZnkgaW50ZXJydXB0b3JzIHRoYXQgaW50ZXJydXB0IGEgZGVjb21wb3NhYmxlIHNjb3BlCiAgICAgICAgdmFsIGFjdGl2ZUludGVycnVwdG9ycyA9IGludGVycnVwdG9yVG9TY29wZXMKICAgICAgICAgIC5maWx0ZXIoXy5fMi5leGlzdHMoc2NvcGUgPT4gZGVjb21wb3NhYmxlU2NvcGVzLmNvbnRhaW5zKHNjb3BlLnRvQ29udHJvbFNjb3BlKSkpLmtleVNldAo=</text>
