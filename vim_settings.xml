@@ -98,11 +98,11 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574848083213">
-        <mark key="[" line="400" column="5" />
-        <mark key="]" line="400" column="5" />
-        <mark key="." line="400" column="5" />
-        <mark key="^" line="400" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574857254321">
+        <mark key="[" line="452" column="26" />
+        <mark key="]" line="452" column="84" />
+        <mark key="." line="452" column="84" />
+        <mark key="^" line="452" column="84" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574438386135">
         <mark key="[" line="14" column="9" />
@@ -574,10 +574,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>assert(blocks.flatMap(_.nodes).asInstanceOf[Set[processGraph.NodeT]] == processGraph.nodes.toSet, &quot;block do no cover all nodes in the process graph&quot;)</text>
+        <text>.asInstanceOf[Set[processGraph.NodeT]]</text>
       </register>
       <register name="-" type="4">
-        <text>merged</text>
+        <text>.asInstanceOf[Set[processGraph.NodeT]]</text>
       </register>
       <register name="/" type="4">
         <text>Trav</text>
