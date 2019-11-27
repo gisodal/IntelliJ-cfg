@@ -98,18 +98,18 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574859011111">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574866483194">
         <mark key="'" line="845" column="14" />
-        <mark key="[" line="542" column="0" />
-        <mark key="]" line="542" column="0" />
-        <mark key="^" line="544" column="54" />
-        <mark key="." line="542" column="0" />
+        <mark key="[" line="453" column="59" />
+        <mark key="]" line="453" column="68" />
+        <mark key="^" line="453" column="68" />
+        <mark key="." line="453" column="68" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574861097772">
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="0" />
-        <mark key="." line="77" column="0" />
-        <mark key="^" line="83" column="56" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574866712571">
+        <mark key="[" line="96" column="59" />
+        <mark key="]" line="96" column="62" />
+        <mark key="." line="96" column="62" />
+        <mark key="^" line="96" column="62" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -223,11 +223,11 @@
         <mark key="^" line="26" column="37" />
         <mark key="." line="26" column="39" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/ControlScope.scala" timestamp="1574439655098">
-        <mark key="[" line="13" column="28" />
-        <mark key="]" line="13" column="29" />
-        <mark key="^" line="13" column="29" />
-        <mark key="." line="13" column="29" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/ControlScope.scala" timestamp="1574862497915">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="^" line="23" column="33" />
+        <mark key="." line="24" column="0" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -271,12 +271,12 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574860498137">
-        <mark key="'" line="87" column="0" />
-        <mark key="[" line="54" column="2" />
-        <mark key="]" line="54" column="1" />
-        <mark key="." line="54" column="1" />
-        <mark key="^" line="54" column="1" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1574862697946">
+        <mark key="'" line="52" column="46" />
+        <mark key="[" line="95" column="36" />
+        <mark key="]" line="95" column="95" />
+        <mark key="^" line="95" column="95" />
+        <mark key="." line="95" column="95" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
         <mark key="[" line="496" column="66" />
@@ -472,7 +472,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="485" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
       <jump line="75" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
       <jump line="47" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
       <jump line="26" column="43" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/package.scala" />
@@ -572,19 +571,20 @@
       <jump line="38" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="91" column="25" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="845" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="54" column="46" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5W04gPDogU2NvcGVJZF0=</text>
+        <text>scalax.collection.immutable.Graph[Node, DiEdge]</text>
       </register>
       <register name="-" type="4">
-        <text>import com.xlrit.gears.generator.graph.enrich.DiGraph._</text>
+        <text>type Edge  = DiEdge[Node]</text>
       </register>
       <register name="/" type="4">
         <text>Trav</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5W04gPDogU2NvcGVJZF0=</text>
+        <text>scalax.collection.immutable.Graph[Node, DiEdge]</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dHlwZSBTdGVwR3JhcGggPSBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGhbU3RlcEdyYXBoLk5vZGUsIERpRWRnZV0KCiAgb2JqZWN0IFN0ZXBHcmFwaCB7CiAgICBkZWYgYXBwbHkobm9kZXM6IEl0ZXJhYmxlW05vZGVdLCBlZGdlczogSXRlcmFibGVbKE5vZGUsTm9kZSldKTogU3RlcEdyYXBoID0gewogICAgICBpbXBvcnQgY29tLnhscml0LmdlYXJzLmdlbmVyYXRvci5ncmFwaC5lbnJpY2guRGlHcmFwaC5fCiAgICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKG5vZGVzLCBlZGdlcy5tYXAgeyBjYXNlIChzb3VyY2UsIHRhcmdldCkgPT4gRWRnZShzb3VyY2UsIHRhcmdldCkgfS50b1NldCkudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgfQoKICAgIHR5cGUgTm9kZSA9IFN0ZXBTY29wZUlkCiAgICB0eXBlIEVkZ2UgPSBEaUVkZ2VbTm9kZV0KICAgIG9iamVjdCBFZGdlIHsKICAgICAgZGVmIGFwcGx5KHNvdXJjZTogTm9kZSwgdGFyZ2V0OiBOb2RlKTogRWRnZSA9IG5ldyBEaUVkZ2Uoc291cmNlLCB0YXJnZXQpCiAgICB9CgogICAgZGVmIGFwcGx5KHN0ZXBTY29wZXM6IEl0ZXJhYmxlW1N0ZXBTY29wZV0pOiBTdGVwR3JhcGggPSB7CiAgICAgIHZhbCBlZGdlcyA9IHN0ZXBTY29wZXMubWFwKF8uc3RhY2spCiAgICAgICAgLy8gY3JlYXRlIFN0ZXBTY29wZUlkIGVkZ2UgcGFpcnMKICAgICAgICAuZmxhdE1hcChzdGVwSWRzID0+IHN0ZXBJZHMuemlwKHN0ZXBJZHMuZHJvcCgxKSkpCiAgICAgICAgLy8gcmV2ZXJzZSBwYWlycwogICAgICAgIC5tYXAoXy5zd2FwKQoKICAgICAgdmFsIG5vZGVzID0gZWRnZXMuZmxhdE1hcCB7IGVkZ2UgPT4gU2V0KGVkZ2UuXzEsIGVkZ2UuXzIpIH0KICAgICAgdmFsIGdyYXBoID0gU3RlcEdyYXBoKG5vZGVzLCBlZGdlcykKCiAgICAgIC8vIHBvc3Rjb25kaXRpb25zCiAgICAgIGFzc2VydChncmFwaC5ub25FbXB0eSB8fCBzdGVwU2NvcGVzLmlzRW1wdHksICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiVGhlIFN0ZXBHcmFwaCBpcyBlbXB0eSB1bmV4cGVjdGVkbHkiKQogICAgICBhc3NlcnQoZ3JhcGguaXNDb25uZWN0ZWQsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRoZSBTdGVwR3JhcGggc2hvdWxkIGFsd2F5cyBiZSBjb25uZWN0ZWQiKQogICAgICBhc3NlcnQoZ3JhcGguaXNBY3ljbGljLCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRoZSBTdGVwR3JhcGggaGFzIGEgY3ljbGUiKQogICAgICBhc3NlcnQoZ3JhcGgubm9kZXMuZm9yYWxsKG5vZGUgPT4gbm9kZS5kaVByZWRlY2Vzc29ycy5zaXplIDw9IDEpLCAgICAgICAgICAgICAgICAgIkluIHRoZSBTdGVwR3JhcGgsIGFsbCB0YXJnZXRzIGNhbiBvbmx5IGhhdmUgMSBzb3VyY2UiICkKICAgICAgYXNzZXJ0KGdyYXBoLm5vbkVtcHR5IHx8IGdyYXBoLm5vZGVzLmNvdW50KCFfLmhhc1ByZWRlY2Vzc29ycykgPT0gMSwgICAgICAgICAgICAgICJUaGUgU3RlcEdyYXBoIHNob3VsZCBhbHdheXMgaGF2ZSAxIHJvb3QiKQogICAgICBhc3NlcnQoZ3JhcGgubm9uRW1wdHkgfHwgZ3JhcGgubm9kZXMuZmluZCghXy5oYXNQcmVkZWNlc3NvcnMpLmdldCA9PSBOb1N0ZXBTY29wZSwgIlRoZSBTdGVwR3JhcGggZG9lcyBub3QgaGF2ZSBhIGNvcnJlY3Qgcm9vdCIpCgogICAgICBncmFwaAogICAgfQ==</text>
