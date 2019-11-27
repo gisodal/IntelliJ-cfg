@@ -67,10 +67,10 @@
         <mark key="^" line="10" column="52" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1574766258606">
-        <mark key="[" line="247" column="45" />
-        <mark key="]" line="248" column="3" />
-        <mark key="." line="248" column="3" />
-        <mark key="^" line="248" column="3" />
+        <mark key="[" line="248" column="45" />
+        <mark key="]" line="249" column="3" />
+        <mark key="." line="249" column="3" />
+        <mark key="^" line="249" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -349,7 +349,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1574759588848">
+      <file name="/sbtShell" timestamp="1574846224531">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
