@@ -66,11 +66,11 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1574938189320">
-        <mark key="[" line="169" column="3" />
-        <mark key="]" line="170" column="2" />
-        <mark key="." line="170" column="2" />
-        <mark key="^" line="170" column="2" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1574939463953">
+        <mark key="[" line="35" column="44" />
+        <mark key="]" line="35" column="65" />
+        <mark key="." line="35" column="65" />
+        <mark key="^" line="35" column="65" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -98,7 +98,7 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574938872821">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1574939339156">
         <mark key="'" line="844" column="14" />
         <mark key="i" line="201" column="134" />
         <mark key="[" line="563" column="0" />
@@ -577,7 +577,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>insertControl(evalRef, kind)</text>
+        <text encoding="base64">ZGVmIGdldEFsbEluRXFPclN1YlNjb3BlT2Yoc3RlcFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbRGVzaWduR3JhcGgjTm9kZVRdID0KICAgICAgdGhpc0dyYXBoLm5vZGVzLmZpbHRlcihfLmdldFN0ZXBTY29wZS5leGlzdHMobm9kZVNjb3BlID0+IHN0ZXBTY29wZS5pc0VxT3JTdXBlclNjb3BlT2Yobm9kZVNjb3BlKSkpLnRvU2V0</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Q29udHJvbFNjb3BlLkNvbnRyb2xJZC5Db250cm9sSXRlbShldmFsUmVmOiBFdmFsUmVmLCBraW5kOiBDb250cm9sS2luZCkgIA==</text>
@@ -586,7 +586,7 @@
         <text>Trav</text>
       </register>
       <register name="0" type="4">
-        <text>insertControl(evalRef, kind)</text>
+        <text encoding="base64">ZGVmIGdldEFsbEluRXFPclN1YlNjb3BlT2Yoc3RlcFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbRGVzaWduR3JhcGgjTm9kZVRdID0KICAgICAgdGhpc0dyYXBoLm5vZGVzLmZpbHRlcihfLmdldFN0ZXBTY29wZS5leGlzdHMobm9kZVNjb3BlID0+IHN0ZXBTY29wZS5pc0VxT3JTdXBlclNjb3BlT2Yobm9kZVNjb3BlKSkpLnRvU2V0</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdmFsIGV2YWxSZWZUb0tpbmQgPSBwcm9jZXNzR3JhcGgubm9kZXMubWFwIHsgbm9kZSA9Pgo=</text>
