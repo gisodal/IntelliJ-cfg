@@ -25,10 +25,6 @@
         <mark key="^" line="39" column="66" />
         <mark key="." line="39" column="66" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/PathRels.scala" timestamp="1573557135274">
-        <mark key="[" line="217" column="23" />
-        <mark key="]" line="217" column="41" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1574341076360">
         <mark key="'" line="246" column="47" />
         <mark key="[" line="117" column="51" />
@@ -66,11 +62,12 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1574939463953">
-        <mark key="[" line="35" column="44" />
-        <mark key="]" line="35" column="65" />
-        <mark key="." line="35" column="65" />
-        <mark key="^" line="35" column="65" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575029666580">
+        <mark key="'" line="101" column="64" />
+        <mark key="[" line="639" column="2" />
+        <mark key="]" line="642" column="2" />
+        <mark key="." line="113" column="53" />
+        <mark key="^" line="113" column="52" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -87,11 +84,11 @@
         <mark key="." line="130" column="8" />
         <mark key="^" line="66" column="17" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1575019088912">
-        <mark key="[" line="19" column="3" />
-        <mark key="]" line="19" column="2" />
-        <mark key="." line="19" column="3" />
-        <mark key="^" line="19" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" timestamp="1575027452722">
+        <mark key="[" line="15" column="33" />
+        <mark key="]" line="15" column="36" />
+        <mark key="." line="21" column="71" />
+        <mark key="^" line="21" column="71" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
@@ -99,13 +96,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575018787347">
-        <mark key="'" line="844" column="14" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575029128040">
+        <mark key="'" line="128" column="37" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="329" column="13" />
-        <mark key="]" line="329" column="23" />
-        <mark key="^" line="329" column="23" />
-        <mark key="." line="329" column="23" />
+        <mark key="[" line="827" column="48" />
+        <mark key="]" line="827" column="72" />
+        <mark key="^" line="438" column="88" />
+        <mark key="." line="827" column="48" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574937583920">
         <mark key="'" line="16" column="20" />
@@ -137,6 +134,12 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="41" column="0" />
         <mark key="^" line="8" column="3" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsChecker.scala" timestamp="1575029163840">
+        <mark key="[" line="116" column="40" />
+        <mark key="]" line="116" column="39" />
+        <mark key="^" line="116" column="39" />
+        <mark key="." line="116" column="39" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/emit/CodeEmitter.scala" timestamp="1572895937266">
         <mark key="[" line="57" column="32" />
@@ -181,10 +184,6 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="54" column="16" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/mutable/DiGraph.scala" timestamp="1574167583740">
-        <mark key="[" line="64" column="4" />
-        <mark key="]" line="87" column="4" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/OptionEnhancements.scala" timestamp="1570014524958">
         <mark key="[" line="11" column="0" />
         <mark key="]" line="11" column="0" />
@@ -209,10 +208,6 @@
         <mark key="]" line="80" column="4" />
         <mark key="^" line="80" column="4" />
         <mark key="." line="80" column="4" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Test.scala" timestamp="1573551037465">
-        <mark key="[" line="87" column="4" />
-        <mark key="]" line="87" column="30" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Branch.scala" timestamp="1568710816903">
         <mark key="[" line="2" column="13" />
@@ -373,11 +368,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1575018831511">
-        <mark key="[" line="85" column="49" />
-        <mark key="]" line="43" column="28" />
-        <mark key="." line="43" column="28" />
-        <mark key="^" line="95" column="64" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1575029611392">
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="10" />
+        <mark key="." line="64" column="10" />
+        <mark key="^" line="64" column="34" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -451,22 +446,18 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" timestamp="1574767111330">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" timestamp="1575029489466">
         <mark key="'" line="91" column="25" />
-        <mark key="[" line="96" column="28" />
-        <mark key="]" line="97" column="5" />
-        <mark key="^" line="97" column="5" />
-        <mark key="." line="97" column="5" />
+        <mark key="[" line="80" column="40" />
+        <mark key="]" line="80" column="49" />
+        <mark key="^" line="80" column="49" />
+        <mark key="." line="80" column="49" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1573130426126">
         <mark key="[" line="6" column="53" />
         <mark key="]" line="6" column="54" />
         <mark key="^" line="6" column="0" />
         <mark key="." line="6" column="0" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1573552782232">
-        <mark key="[" line="125" column="2" />
-        <mark key="]" line="127" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -476,28 +467,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
-      <jump line="26" column="43" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/package.scala" />
-      <jump line="16" column="63" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
-      <jump line="64" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
-      <jump line="39" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" />
-      <jump line="19" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/WrapperScope.scala" />
-      <jump line="21" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="80" column="17" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="56" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="45" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="498" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
-      <jump line="102" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="72" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="75" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="81" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="103" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="132" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="24" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CollectionEnhancements.scala" />
-      <jump line="95" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="98" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="99" column="3" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" />
-      <jump line="46" column="52" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="48" column="5" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="3" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="54" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
@@ -542,15 +511,12 @@
       <jump line="153" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="116" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="316" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="589" column="50" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="593" column="46" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="596" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="600" column="87" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="601" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="603" column="97" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="607" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="610" column="39" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="614" column="15" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="157" column="83" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="605" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="616" column="38" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -576,34 +542,61 @@
       <jump line="845" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="54" column="46" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
       <jump line="13" column="20" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" />
+      <jump line="86" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
+      <jump line="624" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="25" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="575" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="589" column="57" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="600" column="63" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="614" column="54" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="644" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="654" column="9" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="808" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="138" column="48" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="141" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="280" column="92" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="424" column="91" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="438" column="88" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="827" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="928" column="49" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="87" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="123" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="124" column="73" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="125" column="62" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="128" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="26" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="27" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
+      <jump line="101" column="64" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZmluYWwgY2xhc3MgUmljaEJsb2NrR3JhcGgodmFsIGdyYXBoOiBCbG9ja0dyYXBoKSBleHRlbmRzIEFueVZhbCB7CgogIH0KICA=</text>
+        <text encoding="base64">cHJpdmF0ZVtkZXNpZ25dIGltcGxpY2l0IGZpbmFsIGNsYXNzIFJpY2hOb2Rlc1tUW0FdIDw6IEl0ZXJhYmxlTGlrZVtBLCBUW0FdXSwgQSA8OiBHcmFwaCNOb2RlVF0odmFsIG5vZGVzOiBUW0FdKSB7CiAgICBkZWYgYXNOb2Rlc09mKGdyYXBoOiBHcmFwaCk6IFRbZ3JhcGgudHlwZSNOb2RlVF0gPSBub2Rlcy5hc0luc3RhbmNlT2ZbVFtncmFwaC50eXBlI05vZGVUXV0KICAgIGRlZiB0b05vZGVzT2YoZ3JhcGg6IEdyYXBoKTogVFtncmFwaC50eXBlI05vZGVUXSA9IG5vZGVzLm1hcChub2RlID0+IGdyYXBoLmdldChub2RlLnRvT3V0ZXIpKS5hc0luc3RhbmNlT2ZbVFtncmFwaC50eXBlI05vZGVUXV0KICB9</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Lm1hcChjb250cm9sU2NvcGUgPT4gY29udHJvbFNjb3BlLnRvcCBtYXRjaCB7IGNhc2UgQ29udHJvbFNjb3BlLkNvbnRyb2xJZC5Db250cm9sSXRlbShfLCBraW5kKSA9PiBjb250cm9sU2NvcGUgLT4ga2luZCB9KQ==</text>
+        <text encoding="base64">Lm1hcChub2RlID0+IHByb2Nlc3NHcmFwaC5nZXQobm9kZS50b091dGVyKSk=</text>
       </register>
       <register name="/" type="4">
-        <text>Trav</text>
+        <text>.get(</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y29udHJvbFNjb3BlLnRvcCBtYXRjaCB7CiAgICAgICAgY2FzZSBDb250cm9sU2NvcGUuQ29udHJvbElkLkNvbnRyb2xJdGVtKF8sIENvbnRyb2xLaW5kLldoaWxlKSA9PiBpbnNlcnRXaGlsZUdhdGVzKGNvbnRyb2xTY29wZSkKICAgICAgICBjYXNlIENvbnRyb2xTY29wZS5Db250cm9sSWQuQ29udHJvbEl0ZW0oXywgQ29udHJvbEtpbmQuSWYpICAgID0+IGluc2VydElmR2F0ZXMoY29udHJvbFNjb3BlKQogICAgICAgIGNhc2UgXyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT4gLy8gZG8gbm90IGluc2VydCBnYXRlcwogICAgICB9</text>
+        <text encoding="base64">cHJpdmF0ZVtkZXNpZ25dIGltcGxpY2l0IGZpbmFsIGNsYXNzIFJpY2hOb2Rlc1tUW0FdIDw6IEl0ZXJhYmxlTGlrZVtBLCBUW0FdXSwgQSA8OiBHcmFwaCNOb2RlVF0odmFsIG5vZGVzOiBUW0FdKSB7CiAgICBkZWYgYXNOb2Rlc09mKGdyYXBoOiBHcmFwaCk6IFRbZ3JhcGgudHlwZSNOb2RlVF0gPSBub2Rlcy5hc0luc3RhbmNlT2ZbVFtncmFwaC50eXBlI05vZGVUXV0KICAgIGRlZiB0b05vZGVzT2YoZ3JhcGg6IEdyYXBoKTogVFtncmFwaC50eXBlI05vZGVUXSA9IG5vZGVzLm1hcChub2RlID0+IGdyYXBoLmdldChub2RlLnRvT3V0ZXIpKS5hc0luc3RhbmNlT2ZbVFtncmFwaC50eXBlI05vZGVUXV0KICB9</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ZmluYWwgY2xhc3MgUmljaEJsb2NrR3JhcGgodmFsIGdyYXBoOiBCbG9ja0dyYXBoKSBleHRlbmRzIEFueVZhbCB7CgogIH0KICA=</text>
+        <text encoding="base64">ZGVmIGRlY29tcG9zZShibG9jazogQmxvY2tTY29wZS5CbG9jaywgY3VycmVudFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbQmxvY2tTY29wZS5CbG9ja10gPSB7CiAgICAgICAgICBhc3NlcnQoYmxvY2subm9kZXMuZm9yYWxsKF8udG9TdGVwU2NvcGUuaXNFcU9yU3ViU2NvcGVPZihjdXJyZW50U2NvcGUpKSwgIkEgYmxvY2sgY29udGFpbnMgbm9kZXMgd2l0aCBhIGNvbmZsaWN0aW5nIHNjb3BlIikKICAgICAgICAgIGFzc2VydCghYmxvY2suaXNFbXB0eSkKCiAgICAgICAgICBkZWYgc2VwYXJhdGVJbnRlcnJ1cHRvcnMoYmxvY2s6IEJsb2NrU2NvcGUuQmxvY2spOiBTZXRbQmxvY2tTY29wZS5CbG9ja10gPSB7CiAgICAgICAgICAgIC8vIGlkZW50aWZ5IGludGVycnVwdG9ycyB0aGF0IGludGVycnVwdCBhIGRlY29tcG9zYWJsZSBzY29wZQogICAgICAgICAgICB2YWwgYWN0aXZlSW50ZXJydXB0b3JzID0gaW50ZXJydXB0b3JUb1Njb3BlcwogICAgICAgICAgICAgIC5maWx0ZXIoXy5fMi5leGlzdHMoc2NvcGUgPT4gZGVjb21wb3NhYmxlU2NvcGVzLmNvbnRhaW5zKHNjb3BlLnRvQ29udHJvbFNjb3BlKSkpLmtleVNldAoKICAgICAgICAgICAgLy8gaWRlbnRpZnkgKGFjdGl2ZSkgaW50ZXJydXB0b3JzIGluIHRoaXMgYmxvY2sKICAgICAgICAgICAgdmFsIGJsb2NrSW50ZXJydXB0b3JzID0gYmxvY2subm9kZXMudG9TZXQKICAgICAgICAgICAgICAvLyBnZXQgaW50ZXJydXB0b3JzIGluIHRoaXMgYmxvY2sKICAgICAgICAgICAgICAuaW50ZXJzZWN0KGFjdGl2ZUludGVycnVwdG9ycykKICAgICAgICAgICAgICAvLyBzZWxlY3QgaW50ZXJydXB0b3JzIHRoYXQgYXJlIGluIHRoaXMgc2NvcGUKICAgICAgICAgICAgICAuZmlsdGVyKF8udG9TdGVwU2NvcGUgPT0gY3VycmVudFNjb3BlKQoKICAgICAgICAgICAgLy8gc2VwYXJhdGUgaW50ZXJydXB0b3JzIGFuZCBwdXQgdGhlbSBpbiBhIHNlcGFyYXRlIGJsb2NrIGJhc2Ugb24gdGhlaXIgc2NvcGUKICAgICAgICAgICAgdmFsIGludGVycnVwdG9yQmxvY2tzID0gYmxvY2tJbnRlcnJ1cHRvcnMuZ3JvdXBCeShpbnRlcnJ1cHRvclRvU2NvcGVzKS52YWx1ZXMubWFwKEJsb2NrU2NvcGUuQmxvY2soXywgQmxvY2tTY29wZS5CbG9jay5LaW5kLkludGVycnVwdG9yKSkudG9TZXQKICAgICAgICAgICAgdmFsIG90aGVyQmxvY2sgPSBCbG9ja1Njb3BlLkJsb2NrKGJsb2NrLm5vZGVzLnRvU2V0LmRpZmYoaW50ZXJydXB0b3JCbG9ja3MuZmxhdE1hcChfLm5vZGVzKSksIGJsb2NrLmtpbmQpCiAgICAgICAgICAgIChpbnRlcnJ1cHRvckJsb2NrcyArIG90aGVyQmxvY2spLmZpbHRlcighXy5pc0VtcHR5KQogICAgICAgICAgfQoKICAgICAgICAgIGRlZiBzZXBhcmF0ZUlucHV0cyhibG9jazogQmxvY2tTY29wZS5CbG9jayk6IFNldFtCbG9ja1Njb3BlLkJsb2NrXSA9IHsKICAgICAgICAgICAgdmFsIGlucHV0Tm9kZXMgPSBibG9jay5ub2RlcwogICAgICAgICAgICAgIC8vIGdldCBpbnB1dHMgaW4gdGhpcyBibG9jawogICAgICAgICAgICAgIC5maWx0ZXIoXy5jb250YWluc0lucHV0KQogICAgICAgICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgdGhhdCBhcmUgaW4gdGhpcyBzY29wZQogICAgICAgICAgICAgIC5maWx0ZXIoXy50b1N0ZXBTY29wZSA9PSBjdXJyZW50U2NvcGUpCgogICAgICAgICAgICAvLyBzZXBhcmF0ZSBpbnB1dHMgYW5kIHB1dCBlYWNoIGluZGl2aWR1YWwgaW5wdXQgKGNsdXN0ZXIpIGluIGEgc2VwYXJhdGUgYmxvY2sKICAgICAgICAgICAgdmFsIGlucHV0QmxvY2tzID0gaW5wdXROb2Rlcy5tYXAoaW5wdXQgPT4gQmxvY2tTY29wZS5CbG9jayhTZXQoaW5wdXQpLCBCbG9ja1Njb3BlLkJsb2NrLktpbmQuSW5wdXQpKS50b1NldAogICAgICAgICAgICB2YWwgb3RoZXJCbG9jayA9IEJsb2NrU2NvcGUuQmxvY2soYmxvY2subm9kZXMudG9TZXQgLS0gaW5wdXROb2RlcywgYmxvY2sua2luZCkKICAgICAgICAgICAgKGlucHV0QmxvY2tzICsgb3RoZXJCbG9jaykuZmlsdGVyKCFfLmlzRW1wdHkpCiAgICAgICAgICB9CgogICAgICAgICAgc2VwYXJhdGVJbnRlcnJ1cHRvcnMoYmxvY2spLmZsYXRNYXAoc2VwYXJhdGVJbnB1dHMpLmZsYXRNYXAoXy5jb21wb25lbnRCbG9ja3MpCiAgICAgICAgfQo=</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">b2JqZWN0IEJsb2NrIHsKICAgIHNlYWxlZCB0cmFpdCBLaW5kCiAgICBvYmplY3QgS2luZCB7CiAgICAgIGNhc2Ugb2JqZWN0IElucHV0IGV4dGVuZHMgS2luZAogICAgICBjYXNlIG9iamVjdCBJbnRlcnJ1cHRvciBleHRlbmRzIEtpbmQKICAgICAgY2FzZSBvYmplY3QgTm9ybWFsIGV4dGVuZHMgS2luZAogICAgfQogIH0KIA==</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">dHlwZSBCbG9ja0dyYXBoID0gc2NhbGF4LmNvbGxlY3Rpb24uaW1tdXRhYmxlLkdyYXBoW0Jsb2NrR3JhcGguQmxvY2ssIERpRWRnZV0KICBmaW5hbCBjbGFzcyBSaWNoQmxvY2tHcmFwaCh2YWwgZ3JhcGg6IEJsb2NrR3JhcGgpIGV4dGVuZHMgQW55VmFsIHsKCiAgfQo=</text>
+        <text>object BlockSet {
+    def apply(blocks: Set[Block]): BlockSet = new BlockSet(blocks.filter(!_.isEmpty))
+  }</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">b2JqZWN0IEJsb2NrIHsKICAgICAgc2VhbGVkIHRyYWl0IEtpbmQKICAgICAgb2JqZWN0IEtpbmQgewogICAgICAgIGNhc2Ugb2JqZWN0IElucHV0IGV4dGVuZHMgS2luZAogICAgICAgIGNhc2Ugb2JqZWN0IEludGVycnVwdG9yIGV4dGVuZHMgS2luZAogICAgICAgIGNhc2Ugb2JqZWN0IE5vcm1hbCBleHRlbmRzIEtpbmQKICAgICAgfQogICAgfQo=</text>
+        <text encoding="base64">ZmluYWwgY2xhc3MgUmljaEJsb2NrR3JhcGgodmFsIGdyYXBoOiBCbG9ja0dyYXBoKSBleHRlbmRzIEFueVZhbCB7CgogIH0KICA=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Y2FzZSBjbGFzcyBCbG9jayhub2RlczogSXRlcmFibGVbR3JhcGgjTm9kZVRdLCBraW5kOiBCbG9jay5LaW5kKSB7CiAgICAgIGRlZiBjb250YWluaW5nR3JhcGg6IGRlc2lnbi5HcmFwaCA9IG5vZGVzLmhlYWRPcHRpb24KICAgICAgICAubWFwKF8uY29udGFpbmluZ0dyYXBoLmFzSW5zdGFuY2VPZltHcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCgogICAgICBkZWYgZ3JhcGg6IGRlc2lnbi5HcmFwaCA9IGNvbnRhaW5pbmdHcmFwaC5zdWJncmFwaChub2RlcykKCiAgICAgIGRlZiBkc3RlcHM6IFNldFtEU3RlcF0gPSBub2Rlcy5tYXAoXy50b091dGVyKS5jb2xsZWN0IHsgY2FzZSBjbHVzdGVyaW5nOiBDbHVzdGVyaW5nID0+IGNsdXN0ZXJpbmcuZHN0ZXBzIH0uZmxhdHRlbi50b1NldAoKICAgICAgZGVmIGlzRW1wdHk6IEJvb2xlYW4gPSBub2Rlcy5pc0VtcHR5CgogICAgICBkZWYgc2NvcGVzOiBTZXRbU3RlcFNjb3BlXSA9IG5vZGVzLm1hcChfLnRvU3RlcFNjb3BlKS50b1NldAoKICAgICAgZGVmIGNvbnRhaW5zSW5wdXQ6IEJvb2xlYW4gPSBub2Rlcy5leGlzdHMoXy5jb250YWluc0lucHV0KQoKICAgICAgZGVmIGNvbnRhaW5zT25seUlucHV0czogQm9vbGVhbiA9IG5vZGVzLmZvcmFsbChfLmNvbnRhaW5zSW5wdXQpCgogICAgICBkZWYgaW5wdXRzOiBTZXRbR3JhcGgjTm9kZVRdID0gbm9kZXMuZmlsdGVyKF8uY29udGFpbnNJbnB1dCkudG9TZXQKCiAgICAgIGRlZiBjb21wb25lbnRHcmFwaDogQmxvY2tHcmFwaCA9IEJsb2NrR3JhcGgoY29tcG9uZW50QmxvY2tzKQoKICAgICAgZGVmIHN0ZXBTY29wZTogU3RlcFNjb3BlID0gbm9kZXMubWFwKF8udG9TdGVwU2NvcGUpLnRvTGlzdC5taW4oU3RlcFNjb3BlLnN0ZXBTY29wZU9yZGVyaW5nKQoKICAgICAgZGVmIGlzTXVsdGlTY29wZTogQm9vbGVhbiA9CiAgICAgICAgbm9kZXMuaGVhZE9wdGlvbi5tYXAoXy50b1N0ZXBTY29wZSkuZXhpc3RzKHNjb3BlID0+IG5vZGVzLmV4aXN0cyhfLnRvU3RlcFNjb3BlICE9IHNjb3BlKSkKCiAgICAgIGRlZiBibG9ja3NCeVN1YlNjb3BlKHN0ZXBTY29wZTogU3RlcFNjb3BlKTogTWFwW1N0ZXBTY29wZSxCbG9ja10gPSB7CiAgICAgICAgbm9kZXMKICAgICAgICAgIC5tYXAobm9kZSA9PiBub2RlLnRvU3RlcFNjb3BlLmtlZXAoc3RlcFNjb3BlLCAxKSAtPiBub2RlICkKICAgICAgICAgIC50b1NldE11bHRpTWFwCiAgICAgICAgICAubWFwVmFsdWVzKG5vZGVzID0+IEJsb2NrR3JhcGguQmxvY2sobm9kZXMsIGtpbmQpKQogICAgICB9CgogICAgICBkZWYgcGFydGl0aW9uQmxvY2sobm9kZXM6IEl0ZXJhYmxlW0dyYXBoI05vZGVUXSk6IFNldFtCbG9ja10gPSB7CiAgICAgICAgZGVmIHRvTGlzdFtUXSh0dXBsZTogKFQsVCkpOiBMaXN0W1RdID0gTGlzdCh0dXBsZS5fMSx0dXBsZS5fMikKCiAgICAgICAgdmFsIG5vZGVTZXQgPSBub2Rlcy50b1NldAogICAgICAgIHRvTGlzdCh0aGlzLm5vZGVzLnBhcnRpdGlvbihub2RlU2V0LmNvbnRhaW5zKSkuZmlsdGVyKF8ubm9uRW1wdHkpLm1hcChCbG9jayhfLCBraW5kKSkudG9TZXQKICAgICAgfQoKICAgICAgZGVmIGNvbXBvbmVudEJsb2NrczogU2V0W0Jsb2NrXSA9IHsKICAgICAgICB2YWwgcGFyZW50R3JhcGg6IGRlc2lnbi5HcmFwaCA9IGNvbnRhaW5pbmdHcmFwaAogICAgICAgIHZhbCBub2Rlc1BlckJsb2NrID0KICAgICAgICAgIC8vIGNyZWF0ZSBhIHN1YmdyYXBoIGZyb20gbm9kZXMgaW4gc2NvcGUKICAgICAgICAgIGdyYXBoCiAgICAgICAgICAgIC8vIHRoZSBjb25uZWN0ZWQgY29tcG9uZW50cyBvZiB0aGUgc3ViZ3JhcGggZm9ybSBhIGJsb2NrCiAgICAgICAgICAgIC5jb25uZWN0ZWROb2RlU2V0cwogICAgICAgICAgICAvLyBjb252ZXJ0IGNvbXBvbmVudCBub2RlcyBiYWNrIHRvIHByb2Nlc3NHcmFwaCBub2RlcwogICAgICAgICAgICAubWFwKF8ubWFwKG5vZGUgPT4gcGFyZW50R3JhcGguZ2V0KG5vZGUudG9PdXRlcikpLnRvU2V0KS50b1NldAoKICAgICAgICAvLyBjcmVhdGUgYmxvY2sKICAgICAgICBub2Rlc1BlckJsb2NrLm1hcChub2RlcyA9PiBCbG9jayhub2Rlcywga2luZCkpCiAgICAgIH0KCiAgICB9Cg==</text>
+        <text encoding="base64">b2JqZWN0IEJsb2NrIHsKICAgIHNlYWxlZCB0cmFpdCBLaW5kCiAgICBvYmplY3QgS2luZCB7CiAgICAgIGNhc2Ugb2JqZWN0IElucHV0IGV4dGVuZHMgS2luZAogICAgICBjYXNlIG9iamVjdCBJbnRlcnJ1cHRvciBleHRlbmRzIEtpbmQKICAgICAgY2FzZSBvYmplY3QgTm9ybWFsIGV4dGVuZHMgS2luZAogICAgfQogIH0KIA==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -616,26 +609,26 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text>if (export)
-        exporter.add(dependencyGraph, processGraph, s&quot;Convert - exclusive $evalRef&quot;, true)</text>
+        <text encoding="base64">dHlwZSBCbG9ja0dyYXBoID0gc2NhbGF4LmNvbGxlY3Rpb24uaW1tdXRhYmxlLkdyYXBoW0Jsb2NrR3JhcGguQmxvY2ssIERpRWRnZV0KICBmaW5hbCBjbGFzcyBSaWNoQmxvY2tHcmFwaCh2YWwgZ3JhcGg6IEJsb2NrR3JhcGgpIGV4dGVuZHMgQW55VmFsIHsKCiAgfQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgdmFsIGV2YWxSZWZUb0tpbmQgPSBwcm9jZXNzR3JhcGgubm9kZXMubWFwIHsgbm9kZSA9Pgo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">b2JqZWN0IEJsb2NrIHsKICAgICAgc2VhbGVkIHRyYWl0IEtpbmQKICAgICAgb2JqZWN0IEtpbmQgewogICAgICAgIGNhc2Ugb2JqZWN0IElucHV0IGV4dGVuZHMgS2luZAogICAgICAgIGNhc2Ugb2JqZWN0IEludGVycnVwdG9yIGV4dGVuZHMgS2luZAogICAgICAgIGNhc2Ugb2JqZWN0IE5vcm1hbCBleHRlbmRzIEtpbmQKICAgICAgfQogICAgfQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBGSVhNRQo=</text>
+      <register name="8" type="4">
+        <text encoding="base64">Y2FzZSBjbGFzcyBCbG9jayhub2RlczogSXRlcmFibGVbR3JhcGgjTm9kZVRdLCBraW5kOiBCbG9jay5LaW5kKSB7CiAgICAgIGRlZiBjb250YWluaW5nR3JhcGg6IGRlc2lnbi5HcmFwaCA9IG5vZGVzLmhlYWRPcHRpb24KICAgICAgICAubWFwKF8uY29udGFpbmluZ0dyYXBoLmFzSW5zdGFuY2VPZltHcmFwaF0pCiAgICAgICAgLmdldE9yRWxzZSh0aHJvdyBEZXNpZ25FeGNlcHRpb24oIkFuIGVtcHR5IGJsb2NrIGRvZXMgbm90IGhhdmUgYSBjb250YWluaW5nIGdyYXBoIikpCgogICAgICBkZWYgZ3JhcGg6IGRlc2lnbi5HcmFwaCA9IGNvbnRhaW5pbmdHcmFwaC5zdWJncmFwaChub2RlcykKCiAgICAgIGRlZiBkc3RlcHM6IFNldFtEU3RlcF0gPSBub2Rlcy5tYXAoXy50b091dGVyKS5jb2xsZWN0IHsgY2FzZSBjbHVzdGVyaW5nOiBDbHVzdGVyaW5nID0+IGNsdXN0ZXJpbmcuZHN0ZXBzIH0uZmxhdHRlbi50b1NldAoKICAgICAgZGVmIGlzRW1wdHk6IEJvb2xlYW4gPSBub2Rlcy5pc0VtcHR5CgogICAgICBkZWYgc2NvcGVzOiBTZXRbU3RlcFNjb3BlXSA9IG5vZGVzLm1hcChfLnRvU3RlcFNjb3BlKS50b1NldAoKICAgICAgZGVmIGNvbnRhaW5zSW5wdXQ6IEJvb2xlYW4gPSBub2Rlcy5leGlzdHMoXy5jb250YWluc0lucHV0KQoKICAgICAgZGVmIGNvbnRhaW5zT25seUlucHV0czogQm9vbGVhbiA9IG5vZGVzLmZvcmFsbChfLmNvbnRhaW5zSW5wdXQpCgogICAgICBkZWYgaW5wdXRzOiBTZXRbR3JhcGgjTm9kZVRdID0gbm9kZXMuZmlsdGVyKF8uY29udGFpbnNJbnB1dCkudG9TZXQKCiAgICAgIGRlZiBjb21wb25lbnRHcmFwaDogQmxvY2tHcmFwaCA9IEJsb2NrR3JhcGgoY29tcG9uZW50QmxvY2tzKQoKICAgICAgZGVmIHN0ZXBTY29wZTogU3RlcFNjb3BlID0gbm9kZXMubWFwKF8udG9TdGVwU2NvcGUpLnRvTGlzdC5taW4oU3RlcFNjb3BlLnN0ZXBTY29wZU9yZGVyaW5nKQoKICAgICAgZGVmIGlzTXVsdGlTY29wZTogQm9vbGVhbiA9CiAgICAgICAgbm9kZXMuaGVhZE9wdGlvbi5tYXAoXy50b1N0ZXBTY29wZSkuZXhpc3RzKHNjb3BlID0+IG5vZGVzLmV4aXN0cyhfLnRvU3RlcFNjb3BlICE9IHNjb3BlKSkKCiAgICAgIGRlZiBibG9ja3NCeVN1YlNjb3BlKHN0ZXBTY29wZTogU3RlcFNjb3BlKTogTWFwW1N0ZXBTY29wZSxCbG9ja10gPSB7CiAgICAgICAgbm9kZXMKICAgICAgICAgIC5tYXAobm9kZSA9PiBub2RlLnRvU3RlcFNjb3BlLmtlZXAoc3RlcFNjb3BlLCAxKSAtPiBub2RlICkKICAgICAgICAgIC50b1NldE11bHRpTWFwCiAgICAgICAgICAubWFwVmFsdWVzKG5vZGVzID0+IEJsb2NrR3JhcGguQmxvY2sobm9kZXMsIGtpbmQpKQogICAgICB9CgogICAgICBkZWYgcGFydGl0aW9uQmxvY2sobm9kZXM6IEl0ZXJhYmxlW0dyYXBoI05vZGVUXSk6IFNldFtCbG9ja10gPSB7CiAgICAgICAgZGVmIHRvTGlzdFtUXSh0dXBsZTogKFQsVCkpOiBMaXN0W1RdID0gTGlzdCh0dXBsZS5fMSx0dXBsZS5fMikKCiAgICAgICAgdmFsIG5vZGVTZXQgPSBub2Rlcy50b1NldAogICAgICAgIHRvTGlzdCh0aGlzLm5vZGVzLnBhcnRpdGlvbihub2RlU2V0LmNvbnRhaW5zKSkuZmlsdGVyKF8ubm9uRW1wdHkpLm1hcChCbG9jayhfLCBraW5kKSkudG9TZXQKICAgICAgfQoKICAgICAgZGVmIGNvbXBvbmVudEJsb2NrczogU2V0W0Jsb2NrXSA9IHsKICAgICAgICB2YWwgcGFyZW50R3JhcGg6IGRlc2lnbi5HcmFwaCA9IGNvbnRhaW5pbmdHcmFwaAogICAgICAgIHZhbCBub2Rlc1BlckJsb2NrID0KICAgICAgICAgIC8vIGNyZWF0ZSBhIHN1YmdyYXBoIGZyb20gbm9kZXMgaW4gc2NvcGUKICAgICAgICAgIGdyYXBoCiAgICAgICAgICAgIC8vIHRoZSBjb25uZWN0ZWQgY29tcG9uZW50cyBvZiB0aGUgc3ViZ3JhcGggZm9ybSBhIGJsb2NrCiAgICAgICAgICAgIC5jb25uZWN0ZWROb2RlU2V0cwogICAgICAgICAgICAvLyBjb252ZXJ0IGNvbXBvbmVudCBub2RlcyBiYWNrIHRvIHByb2Nlc3NHcmFwaCBub2RlcwogICAgICAgICAgICAubWFwKF8ubWFwKG5vZGUgPT4gcGFyZW50R3JhcGguZ2V0KG5vZGUudG9PdXRlcikpLnRvU2V0KS50b1NldAoKICAgICAgICAvLyBjcmVhdGUgYmxvY2sKICAgICAgICBub2Rlc1BlckJsb2NrLm1hcChub2RlcyA9PiBCbG9jayhub2Rlcywga2luZCkpCiAgICAgIH0KCiAgICB9Cg==</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">aW1wbGljaXQgZmluYWwgY2xhc3MgUmljaFN0ZXBHcmFwaE5vZGUodmFsIHRoaXNOb2RlOiBHcmFwaCNOb2RlVCkgZXh0ZW5kcyBBbnlWYWwgewogICAgICBwcml2YXRlW1JpY2hTdGVwR3JhcGhOb2RlXSBkZWYgdG9TdGVwU3RhY2s6IFN0ZXBTdGFjayA9IHRoaXNOb2RlLnRvT3V0ZXIgOjogdGhpc05vZGUuZGlQcmVkZWNlc3NvcnMuaGVhZE9wdGlvbi5tYXAoXy50b1N0ZXBTdGFjaykuZ2V0T3JFbHNlKE5pbCkKICAgICAgZGVmIHRvU3RlcFNjb3BlOiBTdGVwU2NvcGUgPSBTdGVwU2NvcGUodG9TdGVwU3RhY2spCiAgICB9Cgo=</text>
+        <text>if (export)
+        exporter.add(dependencyGraph, processGraph, s&quot;Convert - exclusive $evalRef&quot;, true)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Trav</last-search>
+      <last-search>.get(</last-search>
       <last-offset />
-      <last-pattern>Trav</last-pattern>
+      <last-pattern>.get(</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -643,8 +636,6 @@
     </search>
     <history>
       <history-search>
-        <entry>clusterInput</entry>
-        <entry>clusterByInput</entry>
         <entry>condi</entry>
         <entry>Block</entry>
         <entry>block</entry>
@@ -663,6 +654,8 @@
         <entry>def.*match</entry>
         <entry>asG</entry>
         <entry>Trav</entry>
+        <entry>.get</entry>
+        <entry>.get(</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
