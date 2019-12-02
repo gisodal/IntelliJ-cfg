@@ -96,7 +96,7 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575038199232">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575302638433">
         <mark key="'" line="677" column="42" />
         <mark key="i" line="201" column="134" />
         <mark key="[" line="662" column="41" />
@@ -354,10 +354,10 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1575036912566">
+      <file name="/sbtShell" timestamp="1575302388779">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
-        <mark key="[" line="0" column="4" />
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
