@@ -96,13 +96,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575302638433">
-        <mark key="'" line="677" column="42" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575305512536">
+        <mark key="'" line="671" column="42" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="662" column="41" />
-        <mark key="]" line="662" column="47" />
-        <mark key="^" line="662" column="47" />
-        <mark key="." line="662" column="47" />
+        <mark key="[" line="587" column="58" />
+        <mark key="]" line="584" column="77" />
+        <mark key="^" line="584" column="77" />
+        <mark key="." line="584" column="77" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574937583920">
         <mark key="'" line="16" column="20" />
@@ -465,6 +465,9 @@
         <mark key="^" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1575305430869">
+        <mark key="[" line="139" column="33" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="5" column="0" />
@@ -576,16 +579,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>blocks.toList.flatMap(_.nodes.toList).duplicates.nonEmpty</text>
+        <text encoding="base64">dmFsIHJvb3RzICAgICAgICA9IHJvb3RzMi5tYXAobm9kZSA9PiBwcm9jZXNzR3JhcGguZ2V0KG5vZGUudG9PdXRlcikp</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LmZvcmVhY2ggeyBibG9jayA9PiBpbnNlcnRXaGlsZUdhdGUoY29udHJvbFNjb3BlLCBibG9jay5ibG9ja3Nub2RlcykgfQ==</text>
+        <text>val toCloseGate   = leaves.map(Edge(_, closeGate, Label.Other(branch.toString + &quot; (end if)&quot;)))</text>
       </register>
       <register name="/" type="4">
         <text>insertWhile</text>
       </register>
       <register name="0" type="4">
-        <text>blocks.toList.flatMap(_.nodes.toList).duplicates.nonEmpty</text>
+        <text encoding="base64">dmFsIHJvb3RzICAgICAgICA9IHJvb3RzMi5tYXAobm9kZSA9PiBwcm9jZXNzR3JhcGguZ2V0KG5vZGUudG9PdXRlcikp</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQo=</text>
