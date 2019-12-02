@@ -16,9 +16,6 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1574334707138">
-        <mark key="'" line="13" column="0" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/DiagramExporter.scala" timestamp="1568378742744">
         <mark key="[" line="39" column="68" />
         <mark key="]" line="39" column="66" />
@@ -90,14 +87,20 @@
         <mark key="." line="21" column="71" />
         <mark key="^" line="21" column="71" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1575306398526">
+        <mark key="[" line="107" column="28" />
+        <mark key="]" line="107" column="27" />
+        <mark key="." line="107" column="27" />
+        <mark key="^" line="107" column="27" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/build.sbt" timestamp="1568895628753">
         <mark key="[" line="17" column="55" />
         <mark key="]" line="17" column="54" />
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575305512536">
-        <mark key="'" line="671" column="42" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575306322767">
+        <mark key="'" line="611" column="35" />
         <mark key="i" line="201" column="134" />
         <mark key="[" line="587" column="58" />
         <mark key="]" line="584" column="77" />
@@ -476,7 +479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="22" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" />
       <jump line="45" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
       <jump line="12" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
@@ -576,19 +578,20 @@
       <jump line="676" column="50" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="551" column="73" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="674" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="611" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIHJvb3RzICAgICAgICA9IHJvb3RzMi5tYXAobm9kZSA9PiBwcm9jZXNzR3JhcGguZ2V0KG5vZGUudG9PdXRlcikp</text>
+        <text>JsString(b.toString)</text>
       </register>
       <register name="-" type="4">
         <text>val toCloseGate   = leaves.map(Edge(_, closeGate, Label.Other(branch.toString + &quot; (end if)&quot;)))</text>
       </register>
       <register name="/" type="4">
-        <text>insertWhile</text>
+        <text>removeA</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIHJvb3RzICAgICAgICA9IHJvb3RzMi5tYXAobm9kZSA9PiBwcm9jZXNzR3JhcGguZ2V0KG5vZGUudG9PdXRlcikp</text>
+        <text>JsString(b.toString)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQo=</text>
@@ -634,9 +637,9 @@
       </register>
     </registers>
     <search>
-      <last-search>insertWhile</last-search>
+      <last-search>removeA</last-search>
       <last-offset />
-      <last-pattern>insertWhile</last-pattern>
+      <last-pattern>removeA</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -644,7 +647,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Block</entry>
         <entry>block</entry>
         <entry>StepRefSt</entry>
         <entry>stepRef</entry>
@@ -664,6 +666,7 @@
         <entry>.get</entry>
         <entry>.get(</entry>
         <entry>insertWhile</entry>
+        <entry>removeA</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
