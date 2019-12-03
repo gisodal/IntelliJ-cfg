@@ -59,17 +59,17 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1575361974642">
-        <mark key="[" line="172" column="0" />
-        <mark key="]" line="172" column="0" />
-        <mark key="." line="172" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1575362003721">
+        <mark key="[" line="388" column="0" />
+        <mark key="]" line="388" column="0" />
+        <mark key="." line="388" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575361945362">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575362361610">
         <mark key="'" line="101" column="64" />
-        <mark key="[" line="286" column="0" />
-        <mark key="]" line="286" column="0" />
-        <mark key="^" line="288" column="103" />
-        <mark key="." line="286" column="0" />
+        <mark key="[" line="441" column="5" />
+        <mark key="]" line="441" column="5" />
+        <mark key="." line="441" column="5" />
+        <mark key="^" line="441" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -112,12 +112,12 @@
         <mark key="." line="639" column="71" />
         <mark key="^" line="639" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575359704231">
-        <mark key="'" line="16" column="20" />
-        <mark key="[" line="102" column="8" />
-        <mark key="]" line="108" column="109" />
-        <mark key="." line="98" column="0" />
-        <mark key="^" line="98" column="31" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575362531175">
+        <mark key="'" line="17" column="20" />
+        <mark key="[" line="7" column="27" />
+        <mark key="]" line="7" column="25" />
+        <mark key="." line="7" column="25" />
+        <mark key="^" line="7" column="25" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -277,12 +277,11 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1575037106209">
-        <mark key="'" line="61" column="46" />
-        <mark key="[" line="33" column="73" />
-        <mark key="]" line="73" column="29" />
-        <mark key="." line="73" column="29" />
-        <mark key="^" line="73" column="29" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1575362489642">
+        <mark key="'" line="59" column="46" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
         <mark key="[" line="496" column="66" />
@@ -586,11 +585,12 @@
       <jump line="611" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9jZXNzR3JhcGgudmVyaWZ5Cg==</text>
+      <register name="&quot;" type="4">
+        <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
+  assert(stack.endsWith(List(NoStepScope)), &quot;A scope stack must always be part of the root scope&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>val test = 1</text>
+        <text encoding="base64">dGhpc0dyYXBoLm5vZGVzLnRvT3V0ZXIuY29sbGVjdCB7IGNhc2UgYzogQ2x1c3RlckdyYXBoID0+IGMuZ3JhcGggfS5mb3JlYWNoKF8udmVyaWZ5VG9wb2xvZ3koKSk=</text>
       </register>
       <register name="/" type="4">
         <text>removeA</text>
@@ -598,20 +598,21 @@
       <register name="0" type="4">
         <text>nodes.count(_.label.nonEmpty)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9jZXNzR3JhcGgudmVyaWZ5Cg==</text>
+      <register name="1" type="4">
+        <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
+  assert(stack.endsWith(List(NoStepScope)), &quot;A scope stack must always be part of the root scope&quot;)</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBjaGVjayBiYWxhbmNpbmcgb2YgaWYgZ2F0ZXMK</text>
+        <text encoding="base64">ICAgICAgICBwcm9jZXNzR3JhcGgudmVyaWZ5Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQo=</text>
+        <text encoding="base64">ICAgICAgICAvLyBjaGVjayBiYWxhbmNpbmcgb2YgaWYgZ2F0ZXMK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGV4dGVuZHMgQ29udHJvbElkICAgCg==</text>
+        <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZGVmIGluc2VydElmR2F0ZTIoZXZhbFJlZjogRXZhbFJlZik6IFVuaXQgPSB7CiAgICAgIGRlZiB3cmFwQm9keShib2R5R3JhcGg6IEdyYXBoLCBvcGVuR2F0ZTogcHJvY2Vzc0dyYXBoLk5vZGVULCBjbG9zZUdhdGU6IHByb2Nlc3NHcmFwaC5Ob2RlVCwgYnJhbmNoOiBCb29sZWFuKTogVW5pdCA9IHsKICAgICAgICBib2R5R3JhcGgucm9vdHMKICAgICAgICAgIC50b05vZGVzT2YocHJvY2Vzc0dyYXBoKQogICAgICAgICAgLmZvcmVhY2ggeyByb290ID0+CiAgICAgICAgICAgIHJvb3QuaW5jb21pbmcudG9MaXN0LmZvcmVhY2ggeyBlZGdlID0+CiAgICAgICAgICAgICAgcHJvY2Vzc0dyYXBoICs9IEVkZ2UoZWRnZS5mcm9tLCBvcGVuR2F0ZSwgZWRnZS5sYWJlbCkKICAgICAgICAgICAgICBwcm9jZXNzR3JhcGggLT0gZWRnZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHByb2Nlc3NHcmFwaCArPSBFZGdlKG9wZW5HYXRlLCByb290LCBMYWJlbC5CcmFuY2goYnJhbmNoLCBldmFsUmVmKSkKICAgICAgICAgIH0KCiAgICAgICAgYm9keUdyYXBoLmxlYXZlcwogICAgICAgICAgLnRvTm9kZXNPZihwcm9jZXNzR3JhcGgpCiAgICAgICAgICAuZm9yZWFjaCB7IGxlYWYgPT4KICAgICAgICAgICAgbGVhZi5vdXRnb2luZy50b0xpc3QuZm9yZWFjaCB7IGVkZ2UgPT4KICAgICAgICAgICAgICBwcm9jZXNzR3JhcGggKz0gRWRnZShjbG9zZUdhdGUsIGVkZ2UudG8sIGVkZ2UubGFiZWwpCiAgICAgICAgICAgICAgcHJvY2Vzc0dyYXBoIC09IGVkZ2UKICAgICAgICAgICAgfQogICAgICAgICAgICBwcm9jZXNzR3JhcGggKz0gRWRnZShsZWFmLCBjbG9zZUdhdGUsIExhYmVsLk90aGVyKGJyYW5jaC50b1N0cmluZyArICIgKGVuZCBpZikiKSkKICAgICAgICAgIH0KICAgICAgfQoKICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQogICAgICB2YWwgYnJhbmNoVG9Ob2RlcyA9IG5vZGVzLmdyb3VwQnkobm9kZSA9PiBub2RlLmdldFJlcHJlc2VudGF0aXZlLmZsYXRNYXAoXy5nZXRXcmFwcGVyKGV2YWxSZWYuaWQpLm1hcChfLmdldEJyYW5jaCkpLmdldCkKCiAgICAgIHZhbCB0cnVlQnJhbmNoR3JhcGggPSBwcm9jZXNzR3JhcGguc3ViZ3JhcGgoYnJhbmNoVG9Ob2Rlcy5nZXRPckVsc2UoU29tZSh0cnVlKSwgU2V0LmVtcHR5KSkKICAgICAgdmFsIGZhbHNlQnJhbmNoR3JhcGggPSBwcm9jZXNzR3JhcGguc3ViZ3JhcGgoYnJhbmNoVG9Ob2Rlcy5nZXRPckVsc2UoU29tZShmYWxzZSksIFNldC5lbXB0eSkpCgogICAgICB2YWwgY29uZGl0aW9uU3RyID0gU04uZ2V0TGFiZWwoZXZhbFJlZi5leHByZXNzaW9uKQogICAgICB2YWwgb3BlbkdhdGUgID0gcHJvY2Vzc0dyYXBoLmFkZEFuZEdldChFeGNsdXNpdmUuSWYoIklmXyIgKyBpZHMubmV4dCgpLCBldmFsUmVmLCBTb21lKGNvbmRpdGlvblN0cikpKQogICAgICB2YWwgY2xvc2VHYXRlID0gcHJvY2Vzc0dyYXBoLmFkZEFuZEdldChFeGNsdXNpdmUuSWYoIklmXyIgKyBpZHMubmV4dCgpLCBldmFsUmVmLCBOb25lKSkKCiAgICAgIHdyYXBCb2R5KHRydWVCcmFuY2hHcmFwaCwgb3BlbkdhdGUsIGNsb3NlR2F0ZSwgdHJ1ZSkKICAgICAgd3JhcEJvZHkoZmFsc2VCcmFuY2hHcmFwaCwgb3BlbkdhdGUsIGNsb3NlR2F0ZSwgZmFsc2UpCgogICAgICAvLyBhZGQgZWRnZSBpbiBjYXNlIG9mIGFuIGVtcHR5IGJyYW5jaAogICAgICBpZiAodHJ1ZUJyYW5jaEdyYXBoLmlzRW1wdHkpIHsKICAgICAgICBwcm9jZXNzR3JhcGggKz0gR3JhcGguRWRnZShvcGVuR2F0ZSwgY2xvc2VHYXRlLCBMYWJlbC5CcmFuY2godHJ1ZSwgZXZhbFJlZikpCiAgICAgIH0KCiAgICAgIGlmIChmYWxzZUJyYW5jaEdyYXBoLmlzRW1wdHkpIHsKICAgICAgICBwcm9jZXNzR3JhcGggKz0gR3JhcGguRWRnZShvcGVuR2F0ZSwgY2xvc2VHYXRlLCBMYWJlbC5CcmFuY2goZmFsc2UsIGV2YWxSZWYpKQogICAgICB9CiAgICB9</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGV4dGVuZHMgQ29udHJvbElkICAgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -624,18 +625,18 @@
         </keys>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">ZGVmIGluc2VydElmR2F0ZTIoZXZhbFJlZjogRXZhbFJlZik6IFVuaXQgPSB7CiAgICAgIGRlZiB3cmFwQm9keShib2R5R3JhcGg6IEdyYXBoLCBvcGVuR2F0ZTogcHJvY2Vzc0dyYXBoLk5vZGVULCBjbG9zZUdhdGU6IHByb2Nlc3NHcmFwaC5Ob2RlVCwgYnJhbmNoOiBCb29sZWFuKTogVW5pdCA9IHsKICAgICAgICBib2R5R3JhcGgucm9vdHMKICAgICAgICAgIC50b05vZGVzT2YocHJvY2Vzc0dyYXBoKQogICAgICAgICAgLmZvcmVhY2ggeyByb290ID0+CiAgICAgICAgICAgIHJvb3QuaW5jb21pbmcudG9MaXN0LmZvcmVhY2ggeyBlZGdlID0+CiAgICAgICAgICAgICAgcHJvY2Vzc0dyYXBoICs9IEVkZ2UoZWRnZS5mcm9tLCBvcGVuR2F0ZSwgZWRnZS5sYWJlbCkKICAgICAgICAgICAgICBwcm9jZXNzR3JhcGggLT0gZWRnZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHByb2Nlc3NHcmFwaCArPSBFZGdlKG9wZW5HYXRlLCByb290LCBMYWJlbC5CcmFuY2goYnJhbmNoLCBldmFsUmVmKSkKICAgICAgICAgIH0KCiAgICAgICAgYm9keUdyYXBoLmxlYXZlcwogICAgICAgICAgLnRvTm9kZXNPZihwcm9jZXNzR3JhcGgpCiAgICAgICAgICAuZm9yZWFjaCB7IGxlYWYgPT4KICAgICAgICAgICAgbGVhZi5vdXRnb2luZy50b0xpc3QuZm9yZWFjaCB7IGVkZ2UgPT4KICAgICAgICAgICAgICBwcm9jZXNzR3JhcGggKz0gRWRnZShjbG9zZUdhdGUsIGVkZ2UudG8sIGVkZ2UubGFiZWwpCiAgICAgICAgICAgICAgcHJvY2Vzc0dyYXBoIC09IGVkZ2UKICAgICAgICAgICAgfQogICAgICAgICAgICBwcm9jZXNzR3JhcGggKz0gRWRnZShsZWFmLCBjbG9zZUdhdGUsIExhYmVsLk90aGVyKGJyYW5jaC50b1N0cmluZyArICIgKGVuZCBpZikiKSkKICAgICAgICAgIH0KICAgICAgfQoKICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQogICAgICB2YWwgYnJhbmNoVG9Ob2RlcyA9IG5vZGVzLmdyb3VwQnkobm9kZSA9PiBub2RlLmdldFJlcHJlc2VudGF0aXZlLmZsYXRNYXAoXy5nZXRXcmFwcGVyKGV2YWxSZWYuaWQpLm1hcChfLmdldEJyYW5jaCkpLmdldCkKCiAgICAgIHZhbCB0cnVlQnJhbmNoR3JhcGggPSBwcm9jZXNzR3JhcGguc3ViZ3JhcGgoYnJhbmNoVG9Ob2Rlcy5nZXRPckVsc2UoU29tZSh0cnVlKSwgU2V0LmVtcHR5KSkKICAgICAgdmFsIGZhbHNlQnJhbmNoR3JhcGggPSBwcm9jZXNzR3JhcGguc3ViZ3JhcGgoYnJhbmNoVG9Ob2Rlcy5nZXRPckVsc2UoU29tZShmYWxzZSksIFNldC5lbXB0eSkpCgogICAgICB2YWwgY29uZGl0aW9uU3RyID0gU04uZ2V0TGFiZWwoZXZhbFJlZi5leHByZXNzaW9uKQogICAgICB2YWwgb3BlbkdhdGUgID0gcHJvY2Vzc0dyYXBoLmFkZEFuZEdldChFeGNsdXNpdmUuSWYoIklmXyIgKyBpZHMubmV4dCgpLCBldmFsUmVmLCBTb21lKGNvbmRpdGlvblN0cikpKQogICAgICB2YWwgY2xvc2VHYXRlID0gcHJvY2Vzc0dyYXBoLmFkZEFuZEdldChFeGNsdXNpdmUuSWYoIklmXyIgKyBpZHMubmV4dCgpLCBldmFsUmVmLCBOb25lKSkKCiAgICAgIHdyYXBCb2R5KHRydWVCcmFuY2hHcmFwaCwgb3BlbkdhdGUsIGNsb3NlR2F0ZSwgdHJ1ZSkKICAgICAgd3JhcEJvZHkoZmFsc2VCcmFuY2hHcmFwaCwgb3BlbkdhdGUsIGNsb3NlR2F0ZSwgZmFsc2UpCgogICAgICAvLyBhZGQgZWRnZSBpbiBjYXNlIG9mIGFuIGVtcHR5IGJyYW5jaAogICAgICBpZiAodHJ1ZUJyYW5jaEdyYXBoLmlzRW1wdHkpIHsKICAgICAgICBwcm9jZXNzR3JhcGggKz0gR3JhcGguRWRnZShvcGVuR2F0ZSwgY2xvc2VHYXRlLCBMYWJlbC5CcmFuY2godHJ1ZSwgZXZhbFJlZikpCiAgICAgIH0KCiAgICAgIGlmIChmYWxzZUJyYW5jaEdyYXBoLmlzRW1wdHkpIHsKICAgICAgICBwcm9jZXNzR3JhcGggKz0gR3JhcGguRWRnZShvcGVuR2F0ZSwgY2xvc2VHYXRlLCBMYWJlbC5CcmFuY2goZmFsc2UsIGV2YWxSZWYpKQogICAgICB9CiAgICB9</text>
+      </register>
+      <register name="7" type="4">
         <text encoding="base64">ZGVmIGRlY29tcG9zZShibG9jazogQmxvY2tTY29wZS5CbG9jaywgY3VycmVudFNjb3BlOiBTdGVwU2NvcGUpOiBTZXRbQmxvY2tTY29wZS5CbG9ja10gPSB7CiAgICAgICAgICBhc3NlcnQoYmxvY2subm9kZXMuZm9yYWxsKF8udG9TdGVwU2NvcGUuaXNFcU9yU3ViU2NvcGVPZihjdXJyZW50U2NvcGUpKSwgIkEgYmxvY2sgY29udGFpbnMgbm9kZXMgd2l0aCBhIGNvbmZsaWN0aW5nIHNjb3BlIikKICAgICAgICAgIGFzc2VydCghYmxvY2suaXNFbXB0eSkKCiAgICAgICAgICBkZWYgc2VwYXJhdGVJbnRlcnJ1cHRvcnMoYmxvY2s6IEJsb2NrU2NvcGUuQmxvY2spOiBTZXRbQmxvY2tTY29wZS5CbG9ja10gPSB7CiAgICAgICAgICAgIC8vIGlkZW50aWZ5IGludGVycnVwdG9ycyB0aGF0IGludGVycnVwdCBhIGRlY29tcG9zYWJsZSBzY29wZQogICAgICAgICAgICB2YWwgYWN0aXZlSW50ZXJydXB0b3JzID0gaW50ZXJydXB0b3JUb1Njb3BlcwogICAgICAgICAgICAgIC5maWx0ZXIoXy5fMi5leGlzdHMoc2NvcGUgPT4gZGVjb21wb3NhYmxlU2NvcGVzLmNvbnRhaW5zKHNjb3BlLnRvQ29udHJvbFNjb3BlKSkpLmtleVNldAoKICAgICAgICAgICAgLy8gaWRlbnRpZnkgKGFjdGl2ZSkgaW50ZXJydXB0b3JzIGluIHRoaXMgYmxvY2sKICAgICAgICAgICAgdmFsIGJsb2NrSW50ZXJydXB0b3JzID0gYmxvY2subm9kZXMudG9TZXQKICAgICAgICAgICAgICAvLyBnZXQgaW50ZXJydXB0b3JzIGluIHRoaXMgYmxvY2sKICAgICAgICAgICAgICAuaW50ZXJzZWN0KGFjdGl2ZUludGVycnVwdG9ycykKICAgICAgICAgICAgICAvLyBzZWxlY3QgaW50ZXJydXB0b3JzIHRoYXQgYXJlIGluIHRoaXMgc2NvcGUKICAgICAgICAgICAgICAuZmlsdGVyKF8udG9TdGVwU2NvcGUgPT0gY3VycmVudFNjb3BlKQoKICAgICAgICAgICAgLy8gc2VwYXJhdGUgaW50ZXJydXB0b3JzIGFuZCBwdXQgdGhlbSBpbiBhIHNlcGFyYXRlIGJsb2NrIGJhc2Ugb24gdGhlaXIgc2NvcGUKICAgICAgICAgICAgdmFsIGludGVycnVwdG9yQmxvY2tzID0gYmxvY2tJbnRlcnJ1cHRvcnMuZ3JvdXBCeShpbnRlcnJ1cHRvclRvU2NvcGVzKS52YWx1ZXMubWFwKEJsb2NrU2NvcGUuQmxvY2soXywgQmxvY2tTY29wZS5CbG9jay5LaW5kLkludGVycnVwdG9yKSkudG9TZXQKICAgICAgICAgICAgdmFsIG90aGVyQmxvY2sgPSBCbG9ja1Njb3BlLkJsb2NrKGJsb2NrLm5vZGVzLnRvU2V0LmRpZmYoaW50ZXJydXB0b3JCbG9ja3MuZmxhdE1hcChfLm5vZGVzKSksIGJsb2NrLmtpbmQpCiAgICAgICAgICAgIChpbnRlcnJ1cHRvckJsb2NrcyArIG90aGVyQmxvY2spLmZpbHRlcighXy5pc0VtcHR5KQogICAgICAgICAgfQoKICAgICAgICAgIGRlZiBzZXBhcmF0ZUlucHV0cyhibG9jazogQmxvY2tTY29wZS5CbG9jayk6IFNldFtCbG9ja1Njb3BlLkJsb2NrXSA9IHsKICAgICAgICAgICAgdmFsIGlucHV0Tm9kZXMgPSBibG9jay5ub2RlcwogICAgICAgICAgICAgIC8vIGdldCBpbnB1dHMgaW4gdGhpcyBibG9jawogICAgICAgICAgICAgIC5maWx0ZXIoXy5jb250YWluc0lucHV0KQogICAgICAgICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgdGhhdCBhcmUgaW4gdGhpcyBzY29wZQogICAgICAgICAgICAgIC5maWx0ZXIoXy50b1N0ZXBTY29wZSA9PSBjdXJyZW50U2NvcGUpCgogICAgICAgICAgICAvLyBzZXBhcmF0ZSBpbnB1dHMgYW5kIHB1dCBlYWNoIGluZGl2aWR1YWwgaW5wdXQgKGNsdXN0ZXIpIGluIGEgc2VwYXJhdGUgYmxvY2sKICAgICAgICAgICAgdmFsIGlucHV0QmxvY2tzID0gaW5wdXROb2Rlcy5tYXAoaW5wdXQgPT4gQmxvY2tTY29wZS5CbG9jayhTZXQoaW5wdXQpLCBCbG9ja1Njb3BlLkJsb2NrLktpbmQuSW5wdXQpKS50b1NldAogICAgICAgICAgICB2YWwgb3RoZXJCbG9jayA9IEJsb2NrU2NvcGUuQmxvY2soYmxvY2subm9kZXMudG9TZXQgLS0gaW5wdXROb2RlcywgYmxvY2sua2luZCkKICAgICAgICAgICAgKGlucHV0QmxvY2tzICsgb3RoZXJCbG9jaykuZmlsdGVyKCFfLmlzRW1wdHkpCiAgICAgICAgICB9CgogICAgICAgICAgc2VwYXJhdGVJbnRlcnJ1cHRvcnMoYmxvY2spLmZsYXRNYXAoc2VwYXJhdGVJbnB1dHMpLmZsYXRNYXAoXy5jb21wb25lbnRCbG9ja3MpCiAgICAgICAgfQo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>object BlockSet {
     def apply(blocks: Set[Block]): BlockSet = new BlockSet(blocks.filter(!_.isEmpty))
   }</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZmluYWwgY2xhc3MgUmljaEJsb2NrR3JhcGgodmFsIGdyYXBoOiBCbG9ja0dyYXBoKSBleHRlbmRzIEFueVZhbCB7CgogIH0KICA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
