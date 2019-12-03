@@ -64,12 +64,12 @@
         <mark key="]" line="388" column="0" />
         <mark key="." line="388" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575362361610">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575387755837">
         <mark key="'" line="101" column="64" />
-        <mark key="[" line="441" column="5" />
-        <mark key="]" line="441" column="5" />
-        <mark key="." line="441" column="5" />
-        <mark key="^" line="441" column="5" />
+        <mark key="[" line="578" column="11" />
+        <mark key="]" line="578" column="23" />
+        <mark key="." line="578" column="23" />
+        <mark key="^" line="578" column="23" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -104,15 +104,15 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575360506372">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575387575487">
         <mark key="'" line="611" column="35" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="639" column="69" />
-        <mark key="]" line="639" column="71" />
-        <mark key="." line="639" column="71" />
-        <mark key="^" line="639" column="71" />
+        <mark key="[" line="975" column="68" />
+        <mark key="]" line="975" column="67" />
+        <mark key="." line="975" column="67" />
+        <mark key="^" line="975" column="67" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575382722724">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575383259475">
         <mark key="'" line="37" column="4" />
         <mark key="[" line="39" column="19" />
         <mark key="]" line="39" column="24" />
@@ -277,12 +277,11 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1575382974228">
-        <mark key="'" line="68" column="46" />
-        <mark key="[" line="33" column="4" />
-        <mark key="]" line="34" column="3" />
-        <mark key="." line="34" column="3" />
-        <mark key="^" line="34" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1575383202827">
+        <mark key="'" line="59" column="46" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
         <mark key="[" line="496" column="66" />
@@ -482,6 +481,9 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="5" column="0" />
       </file>
+      <file name="/fragment.java" timestamp="1575383390287">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="45" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
@@ -587,7 +589,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>: $stack</text>
+        <text>toControlScope.keep(that, 0).stack.map(toStepScopeid)</text>
       </register>
       <register name="-" type="4">
         <text>: $stack</text>
@@ -596,7 +598,7 @@
         <text>removeA</text>
       </register>
       <register name="0" type="4">
-        <text>nodes.count(_.label.nonEmpty)</text>
+        <text>toControlScope.keep(that, 0).stack.map(toStepScopeid)</text>
       </register>
       <register name="1" type="4">
         <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
