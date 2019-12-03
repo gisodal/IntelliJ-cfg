@@ -106,12 +106,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575402276819">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575405786316">
         <mark key="'" line="807" column="28" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="556" column="0" />
-        <mark key="]" line="556" column="0" />
-        <mark key="." line="556" column="0" />
+        <mark key="[" line="152" column="52" />
+        <mark key="]" line="152" column="58" />
+        <mark key="." line="152" column="58" />
+        <mark key="^" line="152" column="58" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575383259475">
         <mark key="'" line="37" column="4" />
@@ -590,16 +591,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>val test2</text>
+        <text>util.Export(processGraph, &quot;normalize&quot;, &quot;before2&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>val test2 = test1.</text>
+        <text>util.Export(processGraph, &quot;normalize&quot;, &quot;before2&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>topological</text>
       </register>
       <register name="0" type="4">
-        <text>val test2</text>
+        <text encoding="base64">dG1wZXhwb3J0ZXIuYWRkKGRlcGVuZGVuY3lHcmFwaCwgcHJvY2Vzc0dyYXBoLCAiIiwgdHJ1ZSkg</text>
       </register>
       <register name="1" type="4">
         <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
