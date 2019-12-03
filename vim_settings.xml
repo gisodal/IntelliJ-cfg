@@ -59,12 +59,12 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575029666580">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575317719469">
         <mark key="'" line="101" column="64" />
-        <mark key="[" line="639" column="2" />
-        <mark key="]" line="642" column="2" />
-        <mark key="." line="113" column="53" />
-        <mark key="^" line="113" column="52" />
+        <mark key="[" line="203" column="0" />
+        <mark key="]" line="203" column="0" />
+        <mark key="^" line="209" column="21" />
+        <mark key="." line="203" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -99,20 +99,20 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575306322767">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575315513247">
         <mark key="'" line="611" column="35" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="587" column="58" />
-        <mark key="]" line="584" column="77" />
-        <mark key="^" line="584" column="77" />
-        <mark key="." line="584" column="77" />
+        <mark key="[" line="646" column="34" />
+        <mark key="]" line="646" column="40" />
+        <mark key="." line="646" column="40" />
+        <mark key="^" line="646" column="40" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1574937583920">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575359656376">
         <mark key="'" line="16" column="20" />
-        <mark key="[" line="5" column="60" />
-        <mark key="]" line="6" column="23" />
-        <mark key="." line="6" column="23" />
-        <mark key="^" line="6" column="23" />
+        <mark key="[" line="98" column="0" />
+        <mark key="]" line="98" column="0" />
+        <mark key="." line="98" column="0" />
+        <mark key="^" line="98" column="31" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -224,11 +224,11 @@
         <mark key="^" line="26" column="37" />
         <mark key="." line="26" column="39" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/ControlScope.scala" timestamp="1575034762483">
-        <mark key="[" line="32" column="4" />
-        <mark key="]" line="32" column="52" />
-        <mark key="^" line="35" column="3" />
-        <mark key="." line="36" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/ControlScope.scala" timestamp="1575317374393">
+        <mark key="[" line="32" column="69" />
+        <mark key="]" line="32" column="69" />
+        <mark key="^" line="32" column="67" />
+        <mark key="." line="32" column="69" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -357,7 +357,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1575302388779">
+      <file name="/sbtShell" timestamp="1575359559499">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -582,16 +582,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>JsString(b.toString)</text>
+        <text>scopes.head.stack.last</text>
       </register>
       <register name="-" type="4">
-        <text>val toCloseGate   = leaves.map(Edge(_, closeGate, Label.Other(branch.toString + &quot; (end if)&quot;)))</text>
+        <text>scopes.head.stack.last</text>
       </register>
       <register name="/" type="4">
         <text>removeA</text>
       </register>
       <register name="0" type="4">
-        <text>JsString(b.toString)</text>
+        <text>// get the unique pairs and swap</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQo=</text>
