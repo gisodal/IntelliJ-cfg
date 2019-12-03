@@ -59,17 +59,19 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1575362003721">
-        <mark key="[" line="388" column="0" />
-        <mark key="]" line="388" column="0" />
-        <mark key="." line="388" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1575388743031">
+        <mark key="'" line="388" column="8" />
+        <mark key="[" line="389" column="124" />
+        <mark key="]" line="389" column="137" />
+        <mark key="." line="389" column="137" />
+        <mark key="^" line="389" column="137" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575387755837">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575389358344">
         <mark key="'" line="101" column="64" />
-        <mark key="[" line="578" column="11" />
-        <mark key="]" line="578" column="23" />
-        <mark key="." line="578" column="23" />
-        <mark key="^" line="578" column="23" />
+        <mark key="[" line="579" column="0" />
+        <mark key="]" line="579" column="0" />
+        <mark key="." line="579" column="0" />
+        <mark key="^" line="579" column="12" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -104,13 +106,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575387575487">
-        <mark key="'" line="611" column="35" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575391767700">
+        <mark key="'" line="620" column="35" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="975" column="68" />
-        <mark key="]" line="975" column="67" />
-        <mark key="." line="975" column="67" />
-        <mark key="^" line="975" column="67" />
+        <mark key="[" line="643" column="8" />
+        <mark key="]" line="643" column="9" />
+        <mark key="." line="643" column="9" />
+        <mark key="^" line="643" column="9" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575383259475">
         <mark key="'" line="37" column="4" />
@@ -331,11 +333,11 @@
         <mark key="^" line="45" column="30" />
         <mark key="." line="45" column="30" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1566209161009">
-        <mark key="[" line="7" column="12" />
-        <mark key="]" line="7" column="70" />
-        <mark key="." line="7" column="3" />
-        <mark key="^" line="7" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Exception.scala" timestamp="1575388662292">
+        <mark key="[" line="15" column="6" />
+        <mark key="]" line="15" column="5" />
+        <mark key="." line="15" column="5" />
+        <mark key="^" line="15" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/verify/enrich/ProcessDesign.scala" timestamp="1565694759214">
         <mark key="[" line="2" column="0" />
@@ -486,7 +488,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
       <jump line="12" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
       <jump line="43" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
       <jump line="5" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" />
@@ -586,19 +587,20 @@
       <jump line="674" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="611" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="37" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" />
+      <jump line="388" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>toControlScope.keep(that, 0).stack.map(toStepScopeid)</text>
+        <text>val test2</text>
       </register>
       <register name="-" type="4">
-        <text>: $stack</text>
+        <text>val test2 = test1.</text>
       </register>
       <register name="/" type="4">
         <text>removeA</text>
       </register>
       <register name="0" type="4">
-        <text>toControlScope.keep(that, 0).stack.map(toStepScopeid)</text>
+        <text>val test2</text>
       </register>
       <register name="1" type="4">
         <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
@@ -694,6 +696,7 @@
         <entry>w'</entry>
         <entry>50</entry>
         <entry>2</entry>
+        <entry>392</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
