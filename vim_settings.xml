@@ -59,12 +59,18 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575317719469">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1575360854597">
+        <mark key="[" line="385" column="0" />
+        <mark key="]" line="386" column="15" />
+        <mark key="^" line="386" column="15" />
+        <mark key="." line="386" column="15" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1575359927774">
         <mark key="'" line="101" column="64" />
-        <mark key="[" line="203" column="0" />
-        <mark key="]" line="203" column="0" />
-        <mark key="^" line="209" column="21" />
-        <mark key="." line="203" column="0" />
+        <mark key="[" line="236" column="0" />
+        <mark key="]" line="236" column="0" />
+        <mark key="^" line="234" column="7" />
+        <mark key="." line="236" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -99,18 +105,18 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575315513247">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575360506372">
         <mark key="'" line="611" column="35" />
         <mark key="i" line="201" column="134" />
-        <mark key="[" line="646" column="34" />
-        <mark key="]" line="646" column="40" />
-        <mark key="." line="646" column="40" />
-        <mark key="^" line="646" column="40" />
+        <mark key="[" line="639" column="69" />
+        <mark key="]" line="639" column="71" />
+        <mark key="." line="639" column="71" />
+        <mark key="^" line="639" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575359656376">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575359704231">
         <mark key="'" line="16" column="20" />
-        <mark key="[" line="98" column="0" />
-        <mark key="]" line="98" column="0" />
+        <mark key="[" line="102" column="8" />
+        <mark key="]" line="108" column="109" />
         <mark key="." line="98" column="0" />
         <mark key="^" line="98" column="31" />
       </file>
@@ -443,10 +449,10 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1574930679978">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1575360739363">
         <mark key="[" line="12" column="44" />
-        <mark key="]" line="12" column="49" />
-        <mark key="." line="12" column="49" />
+        <mark key="]" line="12" column="44" />
+        <mark key="." line="12" column="44" />
         <mark key="^" line="12" column="49" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Edge.scala" timestamp="1569583330112">
@@ -582,16 +588,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>scopes.head.stack.last</text>
+        <text>val test = 1</text>
       </register>
       <register name="-" type="4">
-        <text>scopes.head.stack.last</text>
+        <text>val test = 1</text>
       </register>
       <register name="/" type="4">
         <text>removeA</text>
       </register>
       <register name="0" type="4">
-        <text>// get the unique pairs and swap</text>
+        <text>processGraph.isClusteredProcessDesign</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdmFsIG5vZGVzID0gcHJvY2Vzc0dyYXBoLmdldEFsbChldmFsUmVmKQo=</text>
