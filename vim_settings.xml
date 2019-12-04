@@ -165,12 +165,12 @@
         <mark key="^" line="20" column="71" />
         <mark key="." line="20" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575460069551">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575462925323">
         <mark key="'" line="229" column="33" />
-        <mark key="[" line="37" column="58" />
-        <mark key="]" line="37" column="64" />
-        <mark key="^" line="37" column="64" />
-        <mark key="." line="37" column="64" />
+        <mark key="[" line="495" column="100" />
+        <mark key="]" line="495" column="100" />
+        <mark key="^" line="495" column="100" />
+        <mark key="." line="495" column="100" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CustomOrdering.scala" timestamp="1574356546065">
         <mark key="[" line="24" column="25" />
@@ -590,16 +590,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>!_.kind.isElided</text>
+        <text encoding="base64">QnJhbmNoV3JhcHBlcihpZCwgZXZhbFJlZiwgYnJhbmNoLCBDb250cm9sS2luZC5JZiwgd3JhcHBlZCkgPT4=</text>
       </register>
       <register name="-" type="4">
-        <text>util.Export(processGraph, &quot;normalize&quot;, &quot;before2&quot;)</text>
+        <text encoding="base64">IHdoaWxlcml6YXRpb25zLmdldCg=</text>
       </register>
       <register name="/" type="4">
         <text>topological</text>
       </register>
       <register name="0" type="4">
-        <text>!_.kind.isElided</text>
+        <text encoding="base64">QnJhbmNoV3JhcHBlcihpZCwgZXZhbFJlZiwgYnJhbmNoLCBDb250cm9sS2luZC5JZiwgd3JhcHBlZCkgPT4=</text>
       </register>
       <register name="1" type="4">
         <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
