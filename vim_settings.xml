@@ -165,12 +165,12 @@
         <mark key="^" line="20" column="71" />
         <mark key="." line="20" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575466725281">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575468097004">
         <mark key="'" line="229" column="33" />
-        <mark key="[" line="496" column="5" />
-        <mark key="]" line="492" column="0" />
-        <mark key="." line="492" column="0" />
-        <mark key="^" line="497" column="5" />
+        <mark key="[" line="449" column="8" />
+        <mark key="]" line="449" column="7" />
+        <mark key="^" line="449" column="7" />
+        <mark key="." line="449" column="7" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CustomOrdering.scala" timestamp="1574356546065">
         <mark key="[" line="24" column="25" />
@@ -590,16 +590,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIGFmdGVyU3RlcHM6IFNldFtEU3RlcF0gPSBicmFuY2hUb1N0ZXBzLmdldE9yRWxzZSh3aGlsZUJyYW5jaCxTZXQuZW1wdHkpIA==</text>
+        <text>ControlKind.While</text>
       </register>
       <register name="-" type="4">
-        <text>.contains(branch)</text>
+        <text>ControlKind.While</text>
       </register>
       <register name="/" type="4">
         <text>topological</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIGFmdGVyU3RlcHM6IFNldFtEU3RlcF0gPSBicmFuY2hUb1N0ZXBzLmdldE9yRWxzZSh3aGlsZUJyYW5jaCxTZXQuZW1wdHkpIA==</text>
+        <text>BranchWrapper(id, evalRef, branch, ControlKind.If, getReplacement(wrapped, whilerizations))</text>
       </register>
       <register name="1" type="4">
         <text>s
