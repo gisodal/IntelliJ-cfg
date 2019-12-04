@@ -166,12 +166,12 @@
         <mark key="^" line="20" column="71" />
         <mark key="." line="20" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575470374288">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575470725862">
         <mark key="'" line="229" column="33" />
-        <mark key="[" line="466" column="92" />
-        <mark key="]" line="446" column="88" />
-        <mark key="." line="446" column="88" />
-        <mark key="^" line="446" column="88" />
+        <mark key="[" line="529" column="106" />
+        <mark key="]" line="529" column="4" />
+        <mark key="." line="529" column="4" />
+        <mark key="^" line="529" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CustomOrdering.scala" timestamp="1574356546065">
         <mark key="[" line="24" column="25" />
@@ -590,7 +590,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">dmFsIHdoaWxlRXZhbElkVG9CcmFuY2g6IE1hcFtTdHJpbmcsIEJvb2xlYW5dID0gZXZhbFRvV2hpbGVCcmFuY2gubWFwKHggPT4geC5fMS5pZCAtPiB4Ll8yKS50b01hcA==</text>
+        <text>val newDependencies = (dependencies ++ createAfterToWhileDeps(evalToWhileBranch)).withReplacements(replacements)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dmFsIHdoaWxlRXZhbElkVG9CcmFuY2g6IE1hcFtTdHJpbmcsIEJvb2xlYW5dID0gZXZhbFRvV2hpbGVCcmFuY2gubWFwKHggPT4geC5fMS5pZCAtPiB4Ll8yKS50b01hcA==</text>
@@ -599,7 +599,7 @@
         <text>afterEval</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dmFsIHdoaWxlRXZhbElkVG9CcmFuY2g6IE1hcFtTdHJpbmcsIEJvb2xlYW5dID0gZXZhbFRvV2hpbGVCcmFuY2gubWFwKHggPT4geC5fMS5pZCAtPiB4Ll8yKS50b01hcA==</text>
+        <text>val newDependencies = (dependencies ++ createAfterToWhileDeps(evalToWhileBranch)).withReplacements(replacements)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dmFsIHdoaWxlRXZhbElkVG9CcmFuY2g6IE1hcFtTdHJpbmcsIEJvb2xlYW5dID0gZXZhbFRvV2hpbGVCcmFuY2gubWFwKHggPT4geC5fMS5pZCAtPiB4Ll8yKS50b01hcAogICAgdmFsIGFmdGVyVG9XaGlsZURlcHMgPSBhZnRlclRvV2hpbGVEZXBzKHdoaWxlRXZhbElkVG9CcmFuY2gpCg==</text>
