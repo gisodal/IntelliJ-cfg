@@ -165,12 +165,12 @@
         <mark key="^" line="20" column="71" />
         <mark key="." line="20" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1574168309594">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575460069551">
         <mark key="'" line="229" column="33" />
-        <mark key="[" line="260" column="44" />
-        <mark key="]" line="260" column="44" />
-        <mark key="^" line="231" column="35" />
-        <mark key="." line="260" column="44" />
+        <mark key="[" line="37" column="58" />
+        <mark key="]" line="37" column="64" />
+        <mark key="^" line="37" column="64" />
+        <mark key="." line="37" column="64" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/util/CustomOrdering.scala" timestamp="1574356546065">
         <mark key="[" line="24" column="25" />
@@ -445,11 +445,10 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1575382952065">
-        <mark key="[" line="12" column="44" />
-        <mark key="]" line="12" column="58" />
-        <mark key="." line="12" column="58" />
-        <mark key="^" line="12" column="58" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/ProcessDesigner.scala" timestamp="1575458844620">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Edge.scala" timestamp="1569583330112">
         <mark key="[" line="20" column="14" />
@@ -469,6 +468,10 @@
         <mark key="]" line="6" column="54" />
         <mark key="^" line="6" column="0" />
         <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/RichDepGraph.scala" timestamp="1575459172489">
+        <mark key="[" line="26" column="23" />
+        <mark key="]" line="26" column="38" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1575305430869">
         <mark key="[" line="139" column="33" />
@@ -587,7 +590,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>util.Export(processGraph, &quot;normalize&quot;, &quot;before2&quot;)</text>
+        <text>!_.kind.isElided</text>
       </register>
       <register name="-" type="4">
         <text>util.Export(processGraph, &quot;normalize&quot;, &quot;before2&quot;)</text>
@@ -596,7 +599,7 @@
         <text>topological</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">dG1wZXhwb3J0ZXIuYWRkKGRlcGVuZGVuY3lHcmFwaCwgcHJvY2Vzc0dyYXBoLCAiIiwgdHJ1ZSkg</text>
+        <text>!_.kind.isElided</text>
       </register>
       <register name="1" type="4">
         <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
