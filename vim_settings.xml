@@ -178,6 +178,7 @@
         <mark key="." line="24" column="24" />
         <mark key="^" line="24" column="24" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/depends/DependsResolverTest.scala" timestamp="1575538831363" />
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Normalizer.scala" timestamp="1565694614004">
         <mark key="[" line="19" column="0" />
         <mark key="]" line="19" column="0" />
