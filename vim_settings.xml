@@ -102,20 +102,20 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575546463374">
-        <mark key="'" line="771" column="28" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575550946939">
+        <mark key="'" line="769" column="28" />
         <mark key="i" line="162" column="134" />
-        <mark key="[" line="365" column="42" />
-        <mark key="]" line="365" column="42" />
+        <mark key="[" line="421" column="0" />
+        <mark key="]" line="421" column="0" />
         <mark key="^" line="342" column="25" />
-        <mark key="." line="365" column="42" />
+        <mark key="." line="421" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575383259475">
-        <mark key="'" line="37" column="4" />
-        <mark key="[" line="39" column="19" />
-        <mark key="]" line="39" column="24" />
-        <mark key="." line="39" column="24" />
-        <mark key="^" line="39" column="24" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575550151539">
+        <mark key="'" line="39" column="4" />
+        <mark key="[" line="9" column="72" />
+        <mark key="]" line="10" column="1" />
+        <mark key="." line="10" column="1" />
+        <mark key="^" line="10" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -227,11 +227,11 @@
         <mark key="^" line="26" column="37" />
         <mark key="." line="26" column="39" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/ControlScope.scala" timestamp="1575317374393">
-        <mark key="[" line="32" column="69" />
-        <mark key="]" line="32" column="69" />
-        <mark key="^" line="32" column="67" />
-        <mark key="." line="32" column="69" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/ControlScope.scala" timestamp="1575550390761">
+        <mark key="[" line="41" column="53" />
+        <mark key="]" line="41" column="71" />
+        <mark key="^" line="41" column="71" />
+        <mark key="." line="41" column="71" />
       </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
@@ -275,11 +275,12 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1575469663158">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1575550068532">
         <mark key="'" line="59" column="46" />
-        <mark key="[" line="107" column="41" />
-        <mark key="]" line="35" column="0" />
-        <mark key="." line="35" column="0" />
+        <mark key="[" line="78" column="122" />
+        <mark key="]" line="78" column="121" />
+        <mark key="^" line="78" column="121" />
+        <mark key="." line="78" column="121" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1574765486335">
         <mark key="[" line="8" column="66" />
@@ -588,7 +589,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>decomposableScopes.exists(_.isEqOrSuperScopeOf(stepScope.toControlScope))</text>
+        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRvU3RyaW5nOiBTdHJpbmcgPSBraW5kLnByZWZpeCArIGJyYW5jaE9wdC5tYXAoYiA9PiAiOiIgKyB7aWYgKGIpICJUIiBlbHNlICJGIn0pIA==</text>
       </register>
       <register name="-" type="4">
         <text>${id}</text>
@@ -597,24 +598,22 @@
         <text>afterEval</text>
       </register>
       <register name="0" type="4">
-        <text>decomposableScopes.exists(_.isEqOrSuperScopeOf(stepScope.toControlScope))</text>
+        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRvU3RyaW5nOiBTdHJpbmcgPSBraW5kLnByZWZpeCArIGJyYW5jaE9wdC5tYXAoYiA9PiAiOiIgKyB7aWYgKGIpICJUIiBlbHNlICJGIn0pIA==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgY2FzZSBGb3JtKGZyb20sIGl0ZW1zKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiBzIkZyb20gJHthcHBseShmcm9tKX06ICR7cHJldHR5Rm9ybUl0ZW1zKGl0ZW1zKX0iCg==</text>
+        <text encoding="base64">ICAgIGdldEl0ZW0ubWFwKGl0ZW0gPT4gaXRlbS5raW5kLnByZWZpeCArIGl0ZW0uYnJhbmNoT3B0Lm1hcChiID0+ICIoIisge2lmIChiKSAiVCIgZWxzZSAiRiJ9ICsgIikiKSkuZ2V0T3JFbHNlKCJOb25lIikgCg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgY2FzZSBGb3JtKGZyb20sIGl0ZW1zKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiBzIkZyb20gJHthcHBseShmcm9tKX06ICR7cHJldHR5Rm9ybUl0ZW1zKGl0ZW1zKX0iCg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgLy92YWwgaW50ZXJydXB0b3JUb1Njb3BlcyA9IFN0ZXBTY29wZS5pbnRlcnJ1cHRvclRvU2NvcGVzKHByb2Nlc3NHcmFwaCkK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">dmFsIHdoaWxlRXZhbElkVG9CcmFuY2g6IE1hcFtTdHJpbmcsIEJvb2xlYW5dID0gZXZhbFRvV2hpbGVCcmFuY2gubWFwKHggPT4geC5fMS5pZCAtPiB4Ll8yKS50b01hcAogICAgdmFsIGFmdGVyVG9XaGlsZURlcHMgPSBhZnRlclRvV2hpbGVEZXBzKHdoaWxlRXZhbElkVG9CcmFuY2gpCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIGNyZWF0ZUFmdGVyVG9XaGlsZURlcHMod2hpbGVFdmFsSWRUb0JyYW5jaDogTWFwW1N0cmluZywgQm9vbGVhbl0pOiBTZXRbRGVwXSA9IHsKICAgICAgdmFsIHdoaWxlU3RlcHNCeUV2YWxJZEJ5QnJhbmNoID0gZGVwZW5kZW5jaWVzLm5vZGVzLnRvT3V0ZXIuZmxhdE1hcChkc3RlcCA9PgogICAgICAgIGRzdGVwLndyYXBwZXJzLmNvbGxlY3QgewogICAgICAgICAgY2FzZSBCcmFuY2hXcmFwcGVyKF8sIGV2YWxSZWYsIGJyYW5jaCwgQ29udHJvbEtpbmQuSWYsIF8pIGlmIHdoaWxlRXZhbElkVG9CcmFuY2guZ2V0T3JFbHNlKGV2YWxSZWYuaWQsIGZhbHNlKSA9PgogICAgICAgICAgICBldmFsUmVmIC0+IChicmFuY2gsIGRzdGVwKQogICAgICAgIH0KICAgICAgKS50b1NldE11bHRpTWFwLm1hcFZhbHVlcyhfLnRvU2V0TXVsdGlNYXApCgogICAgICB3aGlsZVN0ZXBzQnlFdmFsSWRCeUJyYW5jaC50b0xpc3QuZmxhdE1hcCB7IGNhc2UgKGV2YWxSZWYsIGJyYW5jaFRvU3RlcHMpID0+CiAgICAgICAgdmFsIHdoaWxlQnJhbmNoID0gd2hpbGVFdmFsSWRUb0JyYW5jaChldmFsUmVmLmlkKQogICAgICAgIHZhbCB3aGlsZVN0ZXBzOiBTZXRbRFN0ZXBdID0gYnJhbmNoVG9TdGVwcy5nZXRPckVsc2Uod2hpbGVCcmFuY2gsIFNldC5lbXB0eSkKICAgICAgICB2YWwgYWZ0ZXJTdGVwczogU2V0W0RTdGVwXSA9IGJyYW5jaFRvU3RlcHMuZ2V0T3JFbHNlKCF3aGlsZUJyYW5jaCwgU2V0LmVtcHR5KQoKICAgICAgICBmb3IgKGFmdGVyU3RlcCA8LSBhZnRlclN0ZXBzOyB3aGlsZVN0ZXAgPC0gd2hpbGVTdGVwcykKICAgICAgICAgIHlpZWxkIERlcChhZnRlclN0ZXAsIHdoaWxlU3RlcCwgRGVwS2luZC5TdGVwKHdoaWxlU3RlcC5pZCkpCiAgICAgIH0udG9TZXQKICAgIH0K</text>
-      </register>
       <register name="5" type="4">
-        <text>s
-    
-    whileSteps</text>
+        <text encoding="base64">ZGVmIGNyZWF0ZUFmdGVyVG9XaGlsZURlcHMod2hpbGVFdmFsSWRUb0JyYW5jaDogTWFwW1N0cmluZywgQm9vbGVhbl0pOiBTZXRbRGVwXSA9IHsKICAgICAgdmFsIHdoaWxlU3RlcHNCeUV2YWxJZEJ5QnJhbmNoID0gZGVwZW5kZW5jaWVzLm5vZGVzLnRvT3V0ZXIuZmxhdE1hcChkc3RlcCA9PgogICAgICAgIGRzdGVwLndyYXBwZXJzLmNvbGxlY3QgewogICAgICAgICAgY2FzZSBCcmFuY2hXcmFwcGVyKF8sIGV2YWxSZWYsIGJyYW5jaCwgQ29udHJvbEtpbmQuSWYsIF8pIGlmIHdoaWxlRXZhbElkVG9CcmFuY2guZ2V0T3JFbHNlKGV2YWxSZWYuaWQsIGZhbHNlKSA9PgogICAgICAgICAgICBldmFsUmVmIC0+IChicmFuY2gsIGRzdGVwKQogICAgICAgIH0KICAgICAgKS50b1NldE11bHRpTWFwLm1hcFZhbHVlcyhfLnRvU2V0TXVsdGlNYXApCgogICAgICB3aGlsZVN0ZXBzQnlFdmFsSWRCeUJyYW5jaC50b0xpc3QuZmxhdE1hcCB7IGNhc2UgKGV2YWxSZWYsIGJyYW5jaFRvU3RlcHMpID0+CiAgICAgICAgdmFsIHdoaWxlQnJhbmNoID0gd2hpbGVFdmFsSWRUb0JyYW5jaChldmFsUmVmLmlkKQogICAgICAgIHZhbCB3aGlsZVN0ZXBzOiBTZXRbRFN0ZXBdID0gYnJhbmNoVG9TdGVwcy5nZXRPckVsc2Uod2hpbGVCcmFuY2gsIFNldC5lbXB0eSkKICAgICAgICB2YWwgYWZ0ZXJTdGVwczogU2V0W0RTdGVwXSA9IGJyYW5jaFRvU3RlcHMuZ2V0T3JFbHNlKCF3aGlsZUJyYW5jaCwgU2V0LmVtcHR5KQoKICAgICAgICBmb3IgKGFmdGVyU3RlcCA8LSBhZnRlclN0ZXBzOyB3aGlsZVN0ZXAgPC0gd2hpbGVTdGVwcykKICAgICAgICAgIHlpZWxkIERlcChhZnRlclN0ZXAsIHdoaWxlU3RlcCwgRGVwS2luZC5TdGVwKHdoaWxlU3RlcC5pZCkpCiAgICAgIH0udG9TZXQKICAgIH0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -627,17 +626,19 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgICAgbm9kZS50b091dGVyLndyYXBwZXJzLmZpbmQod3JhcHBlciA9PiB3aGlsZXJpemF0aW9ucy5nZXQod3JhcHBlci5ldmFsUmVmLmlkKS5tYXAgbWF0Y2ggewogICAgICAgICAgY2FzZSBOb25lID0+IENvbnRyb2xLaW5kLklmCiAgICAgICAgICBjYXNlIFNvbWUoYykgaWYgYyA9PSBicmFuY2ggPT4gQ29udHJvbEtpbmQuV2hpbGUKICAgICAgICAgIGNhc2UgU29tZShjKSBpZiBjICE9IGJyYW5jaCA9PiBDb250cm9sS2luZC5JZg==</text>
+        <text>s
+    
+    whileSteps</text>
       </register>
       <register name="7" type="4">
+        <text encoding="base64">ICAgICAgbm9kZS50b091dGVyLndyYXBwZXJzLmZpbmQod3JhcHBlciA9PiB3aGlsZXJpemF0aW9ucy5nZXQod3JhcHBlci5ldmFsUmVmLmlkKS5tYXAgbWF0Y2ggewogICAgICAgICAgY2FzZSBOb25lID0+IENvbnRyb2xLaW5kLklmCiAgICAgICAgICBjYXNlIFNvbWUoYykgaWYgYyA9PSBicmFuY2ggPT4gQ29udHJvbEtpbmQuV2hpbGUKICAgICAgICAgIGNhc2UgU29tZShjKSBpZiBjICE9IGJyYW5jaCA9PiBDb250cm9sS2luZC5JZg==</text>
+      </register>
+      <register name="8" type="4">
         <text>assert(stack.nonEmpty, &quot;A scope stack cannot be empty&quot; )
   assert(stack.endsWith(List(NoStepScope)), &quot;A scope stack must always be part of the root scope&quot;)</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9jZXNzR3JhcGgudmVyaWZ5Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBjaGVjayBiYWxhbmNpbmcgb2YgaWYgZ2F0ZXMK</text>
+        <text encoding="base64">ICAgICAgICBwcm9jZXNzR3JhcGgudmVyaWZ5Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
