@@ -281,12 +281,6 @@
         <mark key="]" line="35" column="0" />
         <mark key="." line="35" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/design/ProcessDesignerTest.scala" timestamp="1573827194989">
-        <mark key="[" line="496" column="66" />
-        <mark key="]" line="496" column="65" />
-        <mark key="^" line="496" column="65" />
-        <mark key="." line="496" column="65" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1574765486335">
         <mark key="[" line="8" column="66" />
         <mark key="]" line="8" column="65" />
@@ -463,11 +457,10 @@
         <mark key="^" line="128" column="18" />
         <mark key="." line="128" column="18" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1575469542865">
-        <mark key="[" line="62" column="33" />
-        <mark key="]" line="62" column="33" />
-        <mark key="^" line="6" column="0" />
-        <mark key="." line="62" column="33" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1575540761183">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/RichDepGraph.scala" timestamp="1575459172489">
         <mark key="[" line="26" column="23" />
