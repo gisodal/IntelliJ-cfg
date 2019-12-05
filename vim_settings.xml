@@ -102,13 +102,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575543976381">
-        <mark key="'" line="768" column="28" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575546463374">
+        <mark key="'" line="771" column="28" />
         <mark key="i" line="162" column="134" />
-        <mark key="[" line="362" column="42" />
-        <mark key="]" line="414" column="6" />
-        <mark key="^" line="414" column="6" />
-        <mark key="." line="414" column="6" />
+        <mark key="[" line="365" column="42" />
+        <mark key="]" line="365" column="42" />
+        <mark key="^" line="342" column="25" />
+        <mark key="." line="365" column="42" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575383259475">
         <mark key="'" line="37" column="4" />
@@ -588,7 +588,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>${id}</text>
+        <text>decomposableScopes.exists(_.isEqOrSuperScopeOf(stepScope.toControlScope))</text>
       </register>
       <register name="-" type="4">
         <text>${id}</text>
@@ -597,7 +597,7 @@
         <text>afterEval</text>
       </register>
       <register name="0" type="4">
-        <text>com.xlrit.gears.generator</text>
+        <text>decomposableScopes.exists(_.isEqOrSuperScopeOf(stepScope.toControlScope))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgY2FzZSBGb3JtKGZyb20sIGl0ZW1zKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PiBzIkZyb20gJHthcHBseShmcm9tKX06ICR7cHJldHR5Rm9ybUl0ZW1zKGl0ZW1zKX0iCg==</text>
