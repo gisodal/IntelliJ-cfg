@@ -99,13 +99,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575550946939">
-        <mark key="'" line="769" column="28" />
-        <mark key="i" line="162" column="134" />
-        <mark key="[" line="421" column="0" />
-        <mark key="]" line="421" column="0" />
-        <mark key="^" line="342" column="25" />
-        <mark key="." line="421" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575883598007">
+        <mark key="'" line="774" column="28" />
+        <mark key="i" line="167" column="134" />
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="53" column="0" />
+        <mark key="^" line="53" column="3" />
+        <mark key="." line="53" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575550151539">
         <mark key="'" line="39" column="4" />
@@ -350,7 +350,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1575627632016">
+      <file name="/sbtShell" timestamp="1575882794565">
         <mark key="a" line="0" column="0" />
         <mark key="b" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -370,11 +370,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1575631650853">
-        <mark key="[" line="85" column="41" />
-        <mark key="]" line="134" column="8" />
-        <mark key="^" line="134" column="8" />
-        <mark key="." line="134" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1575883581341">
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="0" />
+        <mark key="^" line="73" column="86" />
+        <mark key="." line="74" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -581,7 +581,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRvU3RyaW5nOiBTdHJpbmcgPSBraW5kLnByZWZpeCArIGJyYW5jaE9wdC5tYXAoYiA9PiAiOiIgKyB7aWYgKGIpICJUIiBlbHNlICJGIn0pIA==</text>
+        <text encoding="base64">Y2FzZSBjbGFzcyBCbG9jayhub2RlczogSXRlcmFibGVbR3JhcGgjTm9kZVRdLCBzY29wZTogU3RlcFNjb3BlLCBraW5kOiBCbG9jay5LaW5kID0gQmxvY2tTY29wZS5CbG9jay5LaW5kLk5vcm1hbCkgewogICA=</text>
       </register>
       <register name="-" type="4">
         <text>${id}</text>
@@ -590,7 +590,7 @@
         <text>afterEval</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRvU3RyaW5nOiBTdHJpbmcgPSBraW5kLnByZWZpeCArIGJyYW5jaE9wdC5tYXAoYiA9PiAiOiIgKyB7aWYgKGIpICJUIiBlbHNlICJGIn0pIA==</text>
+        <text encoding="base64">Y2FzZSBjbGFzcyBCbG9jayhub2RlczogSXRlcmFibGVbR3JhcGgjTm9kZVRdLCBzY29wZTogU3RlcFNjb3BlLCBraW5kOiBCbG9jay5LaW5kID0gQmxvY2tTY29wZS5CbG9jay5LaW5kLk5vcm1hbCkgewogICA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGdldEl0ZW0ubWFwKGl0ZW0gPT4gaXRlbS5raW5kLnByZWZpeCArIGl0ZW0uYnJhbmNoT3B0Lm1hcChiID0+ICIoIisge2lmIChiKSAiVCIgZWxzZSAiRiJ9ICsgIikiKSkuZ2V0T3JFbHNlKCJOb25lIikgCg==</text>
