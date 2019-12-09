@@ -99,20 +99,20 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575903304894">
-        <mark key="'" line="798" column="28" />
-        <mark key="i" line="191" column="134" />
-        <mark key="[" line="59" column="5" />
-        <mark key="]" line="59" column="5" />
-        <mark key="." line="59" column="5" />
-        <mark key="^" line="59" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575908030548">
+        <mark key="'" line="815" column="28" />
+        <mark key="i" line="208" column="134" />
+        <mark key="[" line="76" column="5" />
+        <mark key="]" line="76" column="4" />
+        <mark key="^" line="76" column="4" />
+        <mark key="." line="76" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575550151539">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575906035673">
         <mark key="'" line="39" column="4" />
-        <mark key="[" line="9" column="72" />
-        <mark key="]" line="10" column="1" />
-        <mark key="." line="10" column="1" />
-        <mark key="^" line="10" column="1" />
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="0" />
+        <mark key="." line="48" column="0" />
+        <mark key="^" line="46" column="64" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/compilers/ProcessCompiler.scala" timestamp="1569507981355">
         <mark key="[" line="24" column="11" />
@@ -587,16 +587,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>tstep.scope.stack</text>
+        <text encoding="base64">dmFsIG5vZGVUb0ZvcmVhY2hJdGVtOiBMaXN0WyhUYXNrR3JhcGguTm9kZSwgU3RlcFNjb3BlLlN0ZXBTY29wZUlkKV0g</text>
       </register>
       <register name="-" type="4">
-        <text>type TaskGraph = scalax.collection.immutable.Graph[Node, DiEdge]</text>
+        <text>TaskGraph.Node</text>
       </register>
       <register name="/" type="4">
         <text>afterEval</text>
       </register>
       <register name="0" type="4">
-        <text>tstep.scope.stack</text>
+        <text encoding="base64">dmFsIG5vZGVUb0ZvcmVhY2hJdGVtOiBMaXN0WyhUYXNrR3JhcGguTm9kZSwgU3RlcFNjb3BlLlN0ZXBTY29wZUlkKV0g</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dHlwZSBOb2RlID0gVFN0ZXAKICB2YWwgTm9kZSA9IFRTdGVwCgogIHR5cGUgRWRnZSA9IERpRWRnZVtUU3RlcF0KICBvYmplY3QgRWRnZSB7CiAgICBkZWYgYXBwbHkoc291cmNlOiBUU3RlcCwgdGFyZ2V0OiBUU3RlcCk6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0K</text>
