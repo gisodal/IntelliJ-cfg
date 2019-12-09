@@ -99,13 +99,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575883598007">
-        <mark key="'" line="774" column="28" />
-        <mark key="i" line="167" column="134" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="^" line="53" column="3" />
-        <mark key="." line="53" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575884504433">
+        <mark key="'" line="773" column="28" />
+        <mark key="i" line="166" column="134" />
+        <mark key="[" line="55" column="4" />
+        <mark key="]" line="55" column="5" />
+        <mark key="." line="55" column="5" />
+        <mark key="^" line="55" column="5" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575550151539">
         <mark key="'" line="39" column="4" />
@@ -278,11 +278,11 @@
         <mark key="^" line="78" column="121" />
         <mark key="." line="78" column="121" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1574765486335">
-        <mark key="[" line="8" column="66" />
-        <mark key="]" line="8" column="65" />
-        <mark key="^" line="8" column="65" />
-        <mark key="." line="8" column="65" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1575886154710">
+        <mark key="[" line="12" column="46" />
+        <mark key="]" line="12" column="52" />
+        <mark key="^" line="12" column="52" />
+        <mark key="." line="12" column="52" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Clustering.scala" timestamp="1573132778185">
         <mark key="[" line="24" column="28" />
@@ -370,11 +370,11 @@
         <mark key="^" line="4" column="19" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1575883581341">
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="74" column="0" />
-        <mark key="^" line="73" column="86" />
-        <mark key="." line="74" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/BlockScope.scala" timestamp="1575885243127">
+        <mark key="[" line="17" column="83" />
+        <mark key="]" line="17" column="83" />
+        <mark key="^" line="88" column="52" />
+        <mark key="." line="17" column="83" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/test/BaseSuite.scala" timestamp="1566209109062">
         <mark key="[" line="27" column="0" />
@@ -581,7 +581,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Y2FzZSBjbGFzcyBCbG9jayhub2RlczogSXRlcmFibGVbR3JhcGgjTm9kZVRdLCBzY29wZTogU3RlcFNjb3BlLCBraW5kOiBCbG9jay5LaW5kID0gQmxvY2tTY29wZS5CbG9jay5LaW5kLk5vcm1hbCkgewogICA=</text>
+        <text>design.Graph</text>
       </register>
       <register name="-" type="4">
         <text>${id}</text>
@@ -590,7 +590,7 @@
         <text>afterEval</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2FzZSBjbGFzcyBCbG9jayhub2RlczogSXRlcmFibGVbR3JhcGgjTm9kZVRdLCBzY29wZTogU3RlcFNjb3BlLCBraW5kOiBCbG9jay5LaW5kID0gQmxvY2tTY29wZS5CbG9jay5LaW5kLk5vcm1hbCkgewogICA=</text>
+        <text>design.Graph</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGdldEl0ZW0ubWFwKGl0ZW0gPT4gaXRlbS5raW5kLnByZWZpeCArIGl0ZW0uYnJhbmNoT3B0Lm1hcChiID0+ICIoIisge2lmIChiKSAiVCIgZWxzZSAiRiJ9ICsgIikiKSkuZ2V0T3JFbHNlKCJOb25lIikgCg==</text>
