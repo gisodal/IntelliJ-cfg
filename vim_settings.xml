@@ -99,13 +99,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575971721246">
-        <mark key="'" line="819" column="28" />
-        <mark key="i" line="212" column="134" />
-        <mark key="[" line="96" column="36" />
-        <mark key="]" line="96" column="50" />
-        <mark key="^" line="96" column="50" />
-        <mark key="." line="96" column="50" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575974686889">
+        <mark key="'" line="842" column="28" />
+        <mark key="i" line="235" column="134" />
+        <mark key="[" line="97" column="0" />
+        <mark key="]" line="97" column="0" />
+        <mark key="^" line="90" column="5" />
+        <mark key="." line="97" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575918237677">
         <mark key="'" line="7" column="22" />
@@ -163,9 +163,9 @@
         <mark key="^" line="20" column="71" />
         <mark key="." line="20" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575491259364">
-        <mark key="[" line="523" column="116" />
-        <mark key="]" line="524" column="3" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1575974384743">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="55" />
         <mark key="^" line="524" column="3" />
         <mark key="." line="524" column="3" />
       </file>
@@ -393,11 +393,10 @@
         <mark key="^" line="5" column="6" />
         <mark key="." line="5" column="6" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/TStep.scala" timestamp="1575971841025">
-        <mark key="[" line="40" column="98" />
-        <mark key="]" line="40" column="100" />
-        <mark key="^" line="40" column="100" />
-        <mark key="." line="40" column="100" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/TStep.scala" timestamp="1575973781077">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/parser/GearsScanner.scala" timestamp="1568123097561">
         <mark key="[" line="220" column="117" />
@@ -586,16 +585,18 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>(node.toOuter.dstep.innermost.id)</text>
+        <text>if (normalizeBranches)
+      isolateBlocks(processGraph)</text>
       </register>
       <register name="-" type="4">
-        <text>TaskGraph.Node</text>
+        <text>optimizeForeach(</text>
       </register>
       <register name="/" type="4">
         <text>Root</text>
       </register>
       <register name="0" type="4">
-        <text>(node.toOuter.dstep.innermost.id)</text>
+        <text>if (normalizeBranches)
+      isolateBlocks(processGraph)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dHlwZSBOb2RlID0gVFN0ZXAKICB2YWwgTm9kZSA9IFRTdGVwCgogIHR5cGUgRWRnZSA9IERpRWRnZVtUU3RlcF0KICBvYmplY3QgRWRnZSB7CiAgICBkZWYgYXBwbHkoc291cmNlOiBUU3RlcCwgdGFyZ2V0OiBUU3RlcCk6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0K</text>
