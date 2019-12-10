@@ -99,13 +99,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575918772985">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575971721246">
         <mark key="'" line="819" column="28" />
         <mark key="i" line="212" column="134" />
-        <mark key="[" line="75" column="55" />
-        <mark key="]" line="75" column="25" />
-        <mark key="^" line="75" column="25" />
-        <mark key="." line="75" column="25" />
+        <mark key="[" line="96" column="36" />
+        <mark key="]" line="96" column="50" />
+        <mark key="^" line="96" column="50" />
+        <mark key="." line="96" column="50" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575918237677">
         <mark key="'" line="7" column="22" />
@@ -199,8 +199,8 @@
         <mark key="." line="2" column="4" />
         <mark key="^" line="2" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1575886656853">
-        <mark key="[" line="30" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DepGraph.scala" timestamp="1575970472714">
+        <mark key="[" line="21" column="2" />
         <mark key="]" line="36" column="5" />
         <mark key="." line="77" column="0" />
       </file>
@@ -393,10 +393,11 @@
         <mark key="^" line="5" column="6" />
         <mark key="." line="5" column="6" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/TStep.scala" timestamp="1575918785313">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/TStep.scala" timestamp="1575971841025">
+        <mark key="[" line="40" column="98" />
+        <mark key="]" line="40" column="100" />
+        <mark key="^" line="40" column="100" />
+        <mark key="." line="40" column="100" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/parser/GearsScanner.scala" timestamp="1568123097561">
         <mark key="[" line="220" column="117" />
@@ -585,7 +586,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>TStep, Set[StepScope.StepScopeId</text>
+        <text>(node.toOuter.dstep.innermost.id)</text>
       </register>
       <register name="-" type="4">
         <text>TaskGraph.Node</text>
@@ -594,7 +595,7 @@
         <text>Root</text>
       </register>
       <register name="0" type="4">
-        <text>TStep, Set[StepScope.StepScopeId</text>
+        <text>(node.toOuter.dstep.innermost.id)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">dHlwZSBOb2RlID0gVFN0ZXAKICB2YWwgTm9kZSA9IFRTdGVwCgogIHR5cGUgRWRnZSA9IERpRWRnZVtUU3RlcF0KICBvYmplY3QgRWRnZSB7CiAgICBkZWYgYXBwbHkoc291cmNlOiBUU3RlcCwgdGFyZ2V0OiBUU3RlcCk6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0K</text>
