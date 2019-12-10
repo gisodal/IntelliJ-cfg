@@ -111,6 +111,12 @@
         <mark key="." line="455" column="58" />
         <mark key="^" line="455" column="58" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Clustering.scala" timestamp="1575985057743">
+        <mark key="[" line="51" column="22" />
+        <mark key="]" line="51" column="21" />
+        <mark key="." line="51" column="21" />
+        <mark key="^" line="51" column="21" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575918237677">
         <mark key="'" line="7" column="22" />
         <mark key="[" line="53" column="0" />
@@ -433,11 +439,10 @@
         <mark key="^" line="67" column="2" />
         <mark key="." line="67" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Cluster.scala" timestamp="1575984415996">
-        <mark key="[" line="10" column="12" />
-        <mark key="]" line="8" column="40" />
-        <mark key="^" line="12" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Cluster.scala" timestamp="1575984528723">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="2" />
+        <mark key="." line="36" column="2" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1572882691387">
         <mark key="[" line="20" column="43" />
@@ -484,11 +489,11 @@
         <mark key="[" line="28" column="4" />
         <mark key="]" line="33" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1575984177069">
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="^" line="47" column="3" />
-        <mark key="." line="52" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1575985021076">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+        <mark key="^" line="50" column="32" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -601,16 +606,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>sealed trait Clustering extends StepLike</text>
+        <text>.toList.map(_.innermost)</text>
       </register>
       <register name="-" type="4">
-        <text>type Clustering = ClusterCompanion.Clustering</text>
+        <text>.toList</text>
       </register>
       <register name="/" type="4">
         <text>Root</text>
       </register>
       <register name="0" type="4">
-        <text>sealed trait Clustering extends StepLike</text>
+        <text>.toList.map(_.innermost)</text>
       </register>
       <register name="1" type="4">
         <text>type ClusterGraph = ClusterCompanion.ClusterGraph
