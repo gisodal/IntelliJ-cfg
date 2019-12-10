@@ -117,11 +117,11 @@
         <mark key="." line="455" column="58" />
         <mark key="^" line="455" column="58" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Clustering.scala" timestamp="1575988312065">
-        <mark key="[" line="21" column="2" />
-        <mark key="]" line="12" column="5" />
-        <mark key="." line="12" column="5" />
-        <mark key="^" line="12" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Clustering.scala" timestamp="1575989474940">
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="^" line="73" column="4" />
+        <mark key="." line="75" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575918237677">
         <mark key="'" line="7" column="22" />
@@ -612,16 +612,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>terGraph = Clustering.ClusterSet</text>
+        <text>def taskNodes: Set[TaskGraph#NodeT]</text>
       </register>
       <register name="-" type="4">
-        <text>terGraph = Clustering.ClusterSet</text>
+        <text>def taskNodes: Set[TaskGraph#NodeT]</text>
       </register>
       <register name="/" type="4">
         <text>Root</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGRlcGVuZGVuY3lOb2RlczogU2V0W0RlcE5vZGVdCgogIGRlZiBkc3RlcHM6IFNldFtEU3RlcF0gPSBkZXBlbmRlbmN5Tm9kZXMubWFwKF8udG9PdXRlcikKCiAgZGVmIHRhc2tOb2RlczogU2V0W1Rhc2tHcmFwaCNOb2RlVF0K</text>
+        <text>def taskNodes: Set[TaskGraph#NodeT]</text>
       </register>
       <register name="1" type="4">
         <text>type ClusterGraph = ClusterCompanion.ClusterGraph
