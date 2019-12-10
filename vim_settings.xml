@@ -99,13 +99,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575979794648">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1575980326439">
         <mark key="'" line="795" column="28" />
         <mark key="i" line="187" column="134" />
-        <mark key="[" line="468" column="31" />
-        <mark key="]" line="469" column="33" />
-        <mark key="^" line="469" column="33" />
-        <mark key="." line="469" column="33" />
+        <mark key="[" line="892" column="0" />
+        <mark key="]" line="892" column="0" />
+        <mark key="." line="892" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1575918237677">
         <mark key="'" line="7" column="22" />
@@ -462,21 +461,21 @@
         <mark key="^" line="128" column="18" />
         <mark key="." line="128" column="18" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1575547525747">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1575979912423">
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="0" />
+        <mark key="." line="64" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/enrich/RichDepGraph.scala" timestamp="1575887666937">
         <mark key="[" line="28" column="4" />
         <mark key="]" line="33" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1575544862424">
-        <mark key="'" line="89" column="53" />
-        <mark key="[" line="90" column="31" />
-        <mark key="]" line="90" column="29" />
-        <mark key="^" line="90" column="29" />
-        <mark key="." line="90" column="29" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1575981503008">
+        <mark key="'" line="91" column="53" />
+        <mark key="[" line="96" column="0" />
+        <mark key="]" line="96" column="0" />
+        <mark key="^" line="69" column="40" />
+        <mark key="." line="96" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -588,8 +587,8 @@
       <jump line="7" column="22" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">dmFsIGVsZW1lbnROYW1lOiBTdHJpbmcgPSBjbHVzdGVyR3JhcGgucmVwcmVzZW50YXRpdmUKICAgICAgICAgICAgICAuZ2V0V3JhcHBlcihjbHVzdGVyR3JhcGguZXZhbFJlZi5pZCkKICAgICAgICAgICAgICAuY29sbGVjdCB7IGNhc2Ugd3JhcHBlcjogRm9yRWFjaFdyYXBwZXIgPT4gd3JhcHBlci5lbGVtZW50TmFtZSB9LmdldAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">SXNvbGF0ZUJsb2NrcyA=</text>
@@ -598,7 +597,7 @@
         <text>Root</text>
       </register>
       <register name="0" type="4">
-        <text>normalizeBranches) isolateBlocks(taskGraph)</text>
+        <text encoding="base64">dmFsIGVsZW1lbnROYW1lOiBTdHJpbmcgPSBjbHVzdGVyR3JhcGgucmVwcmVzZW50YXRpdmUKICAgICAgICAgICAgICAuZ2V0V3JhcHBlcihjbHVzdGVyR3JhcGguZXZhbFJlZi5pZCkKICAgICAgICAgICAgICAuY29sbGVjdCB7IGNhc2Ugd3JhcHBlcjogRm9yRWFjaFdyYXBwZXIgPT4gd3JhcHBlci5lbGVtZW50TmFtZSB9LmdldAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
