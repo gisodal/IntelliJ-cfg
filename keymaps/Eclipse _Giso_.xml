@@ -25,6 +25,14 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateFindToolWindow" />
+  <action id="Activatesbt-shell-toolwindowToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CloseActiveTab" />
