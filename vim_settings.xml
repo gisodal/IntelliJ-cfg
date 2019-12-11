@@ -118,13 +118,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576063610708">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576064994340">
         <mark key="'" line="156" column="2" />
         <mark key="i" line="189" column="134" />
-        <mark key="[" line="191" column="18" />
-        <mark key="]" line="191" column="32" />
-        <mark key="." line="28" column="18" />
-        <mark key="^" line="28" column="18" />
+        <mark key="[" line="457" column="57" />
+        <mark key="]" line="457" column="152" />
+        <mark key="." line="457" column="152" />
+        <mark key="^" line="457" column="152" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Clustering.scala" timestamp="1575993454005">
         <mark key="[" line="12" column="8" />
@@ -482,11 +482,11 @@
         <mark key="]" line="36" column="2" />
         <mark key="." line="36" column="2" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Graph.scala" timestamp="1576063264946">
-        <mark key="[" line="33" column="71" />
-        <mark key="]" line="37" column="80" />
-        <mark key="^" line="9" column="25" />
-        <mark key="." line="37" column="80" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Graph.scala" timestamp="1576065000448">
+        <mark key="[" line="32" column="14" />
+        <mark key="]" line="32" column="13" />
+        <mark key="^" line="32" column="13" />
+        <mark key="." line="32" column="13" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/BodyId.scala" timestamp="1572882691387">
         <mark key="[" line="20" column="43" />
