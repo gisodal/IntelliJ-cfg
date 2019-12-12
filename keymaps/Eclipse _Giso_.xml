@@ -34,10 +34,12 @@
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="ChangesView.GroupBy.Directory" />
-  <action id="CloseActiveTab" />
-  <action id="CloseContent" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
@@ -164,6 +166,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
   </action>
   <action id="RunToCursor" />
+  <action id="Runner.CloseView">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
