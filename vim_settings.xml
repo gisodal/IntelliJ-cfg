@@ -36,6 +36,11 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576142187908">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
         <mark key="]" line="9" column="19" />
@@ -85,11 +90,12 @@
         <mark key="^" line="385" column="137" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1576139988772">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" timestamp="1576143026628">
         <mark key="'" line="101" column="64" />
-        <mark key="[" line="545" column="0" />
-        <mark key="]" line="545" column="0" />
-        <mark key="." line="545" column="0" />
+        <mark key="[" line="178" column="4" />
+        <mark key="]" line="240" column="4" />
+        <mark key="." line="90" column="8" />
+        <mark key="^" line="90" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/lexers/DependencyLexer.scala" timestamp="1569850217246">
         <mark key="[" line="15" column="34" />
@@ -121,13 +127,13 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576082944075">
-        <mark key="'" line="870" column="4" />
-        <mark key="i" line="195" column="134" />
-        <mark key="[" line="26" column="57" />
-        <mark key="]" line="27" column="0" />
-        <mark key="^" line="27" column="0" />
-        <mark key="." line="27" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576143703034">
+        <mark key="'" line="285" column="8" />
+        <mark key="i" line="196" column="134" />
+        <mark key="[" line="294" column="56" />
+        <mark key="]" line="493" column="0" />
+        <mark key="^" line="493" column="0" />
+        <mark key="." line="493" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/task/TStep.scala" timestamp="1576060319262">
         <mark key="[" line="12" column="0" />
@@ -306,12 +312,12 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1576062552668">
-        <mark key="'" line="59" column="46" />
-        <mark key="[" line="118" column="70" />
-        <mark key="]" line="118" column="73" />
-        <mark key="." line="118" column="73" />
-        <mark key="^" line="118" column="73" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1576143591321">
+        <mark key="'" line="61" column="46" />
+        <mark key="[" line="21" column="54" />
+        <mark key="]" line="22" column="1" />
+        <mark key="." line="22" column="1" />
+        <mark key="^" line="22" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/package.scala" timestamp="1575983749353">
         <mark key="[" line="11" column="18" />
@@ -366,6 +372,13 @@
         <mark key="]" line="22" column="21" />
         <mark key="." line="22" column="21" />
         <mark key="^" line="22" column="21" />
+      </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576143640728">
+        <mark key="'" line="115" column="39" />
+        <mark key="[" line="136" column="59" />
+        <mark key="]" line="136" column="78" />
+        <mark key="^" line="136" column="78" />
+        <mark key="." line="136" column="78" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/mutable/package.scala" timestamp="1576082851523">
         <mark key="[" line="15" column="0" />
@@ -521,6 +534,12 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/ClusteringLike.scala" timestamp="1576142600804">
+        <mark key="[" line="32" column="85" />
+        <mark key="]" line="32" column="108" />
+        <mark key="." line="32" column="85" />
+        <mark key="^" line="32" column="86" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" timestamp="1576092988473">
         <mark key="'" line="83" column="25" />
         <mark key="[" line="91" column="0" />
@@ -528,11 +547,11 @@
         <mark key="." line="91" column="2" />
         <mark key="^" line="91" column="4" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1576061067195">
-        <mark key="[" line="55" column="36" />
-        <mark key="]" line="55" column="52" />
-        <mark key="." line="55" column="52" />
-        <mark key="^" line="55" column="52" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1576141446824">
+        <mark key="[" line="55" column="40" />
+        <mark key="]" line="55" column="41" />
+        <mark key="." line="55" column="41" />
+        <mark key="^" line="55" column="41" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1576061028465">
         <mark key="[" line="47" column="0" />
@@ -546,17 +565,14 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="5" column="0" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/ClusterLike.scala" timestamp="1576142803972">
+        <mark key="[" line="5" column="5" />
+        <mark key="]" line="5" column="4" />
+        <mark key="." line="5" column="4" />
+        <mark key="^" line="5" column="4" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="117" column="11" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="15" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="153" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="116" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" />
-      <jump line="316" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="593" column="46" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="596" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="601" column="23" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="603" column="97" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="607" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="610" column="39" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -603,7 +619,6 @@
       <jump line="928" column="49" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="87" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="123" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="124" column="73" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="125" column="62" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="128" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="26" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -621,7 +636,6 @@
       <jump line="102" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="103" column="93" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="115" column="38" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="116" column="62" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="472" column="73" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="473" column="95" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="551" column="13" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -648,34 +662,45 @@
       <jump line="230" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="869" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="281" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/PathRels.scala" />
+      <jump line="286" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="564" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="289" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="37" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="99" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="107" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="116" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="120" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="124" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="285" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
+      <jump line="113" column="39" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>g.withEdgeFilter(_.label.asInstanceOf[Label].includeInReduction).transitiveReduction</text>
+        <text>import com.xlrit.gears.generator.design.Exception.DesignException</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">aW1wbGljaXQgZGVmIGVucmljaERpSW1tR3JhcGhbTiwgRVtYXSA8OiBEaUVkZ2VMaWtlSW5bWF1dKHRoaXNHcmFwaDogSW1tR3JhcGhbTiwgRV0pID0gbmV3IFJpY2hEaUdyYXBoW3RoaXNHcmFwaC50eXBlLCBJbW1HcmFwaFtOLCBFXSwgTiwgRV0odGhpc0dyYXBoKQ==</text>
+        <text>r</text>
       </register>
       <register name="/" type="4">
-        <text>Root</text>
+        <text>exporter</text>
       </register>
       <register name="0" type="4">
-        <text>g.withEdgeFilter(_.label.asInstanceOf[Label].includeInReduction).transitiveReduction</text>
+        <text>import com.xlrit.gears.generator.design.Exception.DesignException</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">LyoqIHJldHVybiBhIHRoZSB0cmFuc2l0aXZlIHJlZHVjdGlvbiBvZiB0aGUgcHJvdmlkZWQgZ3JhcGggKiovCiAgICBkZWYgdHJhbnNpdGl2ZVJlZHVjdGlvbjogRyA9IHsKICAgICAgdmFsIHRyYW5zaXRpdmVSZWR1Y3Rpb25FZGdlcyA9IHRoaXNHcmFwaC5ub2Rlcy5mbGF0TWFwKG5vZGUgPT4gbm9kZS50cmFuc2l0aXZlUmVkdWN0aW9uRWRnZXMpCiAgICAgIHRvRyh0aGlzR3JhcGggLS0gdHJhbnNpdGl2ZVJlZHVjdGlvbkVkZ2VzKQogICAgfQo=</text>
+      <register name="1" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZGVzaWduLmNsdXN0ZXIuR3JhcGguTm9kZS5DU3RlcAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICBpbXBsaWNpdCBkZWYgZW5yaWNoRGlNdXRHcmFwaFtOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odGhpc0dyYXBoOiBNdXRHcmFwaFtOLCBFXSkgPSBuZXcgUmljaERpR3JhcGhbdGhpc0dyYXBoLnR5cGUsIE11dEdyYXBoW04sIEVdLCBOLCBFXSh0aGlzR3JhcGgpCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRhc2tOb2RlczogU2V0W3Rhc2suR3JhcGgjTm9kZVRdID0gY2x1c3Rlck5vZGVzLmZsYXRNYXAgewogICAgY2FzZSBjbHVzdGVyOiBDbHVzdGVyTGlrZSA9PiBjbHVzdGVyLnRhc2tOb2RlcwogICAgY2FzZSBzdGVwOiBDU3RlcCAgICAgICAgICA9PiBTZXQoc3RlcC50YXNrTm9kZSkKICB9LnRvU2V0</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ZGVmIHRvQ2x1c3Rlck5vZGUobm9kZTogdGFzay5HcmFwaCNOb2RlVCk6IENsdXN0ZXJpbmdMaWtlID0KICAgICAgQ2x1c3Rlcihub2RlLmlkKShub2RlLnNjb3BlLCBtdXRhYmxlLlNldChDU3RlcChub2RlKSkpIAogICAg</text>
+        <text encoding="base64">LyoqIHJldHVybiBhIHRoZSB0cmFuc2l0aXZlIHJlZHVjdGlvbiBvZiB0aGUgcHJvdmlkZWQgZ3JhcGggKiovCiAgICBkZWYgdHJhbnNpdGl2ZVJlZHVjdGlvbjogRyA9IHsKICAgICAgdmFsIHRyYW5zaXRpdmVSZWR1Y3Rpb25FZGdlcyA9IHRoaXNHcmFwaC5ub2Rlcy5mbGF0TWFwKG5vZGUgPT4gbm9kZS50cmFuc2l0aXZlUmVkdWN0aW9uRWRnZXMpCiAgICAgIHRvRyh0aGlzR3JhcGggLS0gdHJhbnNpdGl2ZVJlZHVjdGlvbkVkZ2VzKQogICAgfQo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIHRvQ2x1c3Rlcihub2RlOiB0YXNrLkdyYXBoI05vZGVUKTogQ2x1c3RlcmluZ0xpa2UgPQogICAgICAgIENsdXN0ZXIobm9kZS5pZCkobm9kZS5zY29wZSwgbXV0YWJsZS5TZXQoQ1N0ZXAobm9kZSkpKSAKICAgIA==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICBpbXBsaWNpdCBkZWYgZW5yaWNoRGlNdXRHcmFwaFtOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odGhpc0dyYXBoOiBNdXRHcmFwaFtOLCBFXSkgPSBuZXcgUmljaERpR3JhcGhbdGhpc0dyYXBoLnR5cGUsIE11dEdyYXBoW04sIEVdLCBOLCBFXSh0aGlzR3JhcGgpCg==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">b2JqZWN0IENsdXN0ZXIgewogICAgICBkZWYgYXBwbHkgKGlkOiBJZCwgc2NvcGU6IFN0ZXBTY29wZSwgY2x1c3Rlck5vZGVzOiBJdGVyYWJsZVtDbHVzdGVyaW5nTGlrZV0pOiBDbHVzdGVyID0KICAgICAgICBuZXcgQ2x1c3RlcihpZCkoc2NvcGUsIG11dGFibGUuU2V0KGNsdXN0ZXJOb2RlcykpCiAgICB9Cg==</text>
+        <text encoding="base64">ZGVmIHRvQ2x1c3Rlck5vZGUobm9kZTogdGFzay5HcmFwaCNOb2RlVCk6IENsdXN0ZXJpbmdMaWtlID0KICAgICAgQ2x1c3Rlcihub2RlLmlkKShub2RlLnNjb3BlLCBtdXRhYmxlLlNldChDU3RlcChub2RlKSkpIAogICAg</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -688,26 +713,26 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ZGVmIGdldChub2RlczogR3JhcGgjTm9kZVNldFQpOiBTZXRbY2x1c3Rlci5HcmFwaERlc2lnbkdyYXBoI05vZGVUXSA9CiAgICAgIG5vZGVzLnRvTGlzdC50b05vZGVzT2YodGhpc0dyYXBoKS50b1NldAoKICAgIGRlZiBnZXQoc3RlcElkOiBJZCk6IE9wdGlvbltEZXNpZ25HcmFwaCNOb2RlVF0gPQogICAgICB0aGlzR3JhcGgubm9kZXMuZmluZChfLmNvbnRhaW5zSWQoc3RlcElkKSkKCiAgICBkZWYgZ2V0QWxsSW5FcU9yU3ViU2NvcGVPZihzdGVwU2NvcGU6IFN0ZXBTY29wZSk6IFNldFtEZXNpZ25HcmFwaCNOb2RlVF0gPQogICAgICB0aGlzR3JhcGgubm9kZXMuZmlsdGVyKF8uZ2V0U3RlcFNjb3BlLmV4aXN0cyhub2RlU2NvcGUgPT4gc3RlcFNjb3BlLmlzRXFPclN1cGVyU2NvcGVPZihub2RlU2NvcGUpKSkudG9TZXQKCiAgICBkZWYgZ2V0QWxsSW5FcU9yU3ViU2NvcGVPZihjb250cm9sU2NvcGU6IENvbnRyb2xTY29wZSk6IFNldFtEZXNpZ25HcmFwaCNOb2RlVF0gPQogICAgICB0aGlzR3JhcGgubm9kZXMuZmlsdGVyKF8uZ2V0U3RlcFNjb3BlLm1hcChfLnRvQ29udHJvbFNjb3BlKS5leGlzdHMobm9kZVNjb3BlID0+IGNvbnRyb2xTY29wZS5pc0VxT3JTdXBlclNjb3BlT2Yobm9kZVNjb3BlKSkpLnRvU2V0CgogICAgZGVmIGdldChkZXBOb2RlOiBEZXBOb2RlKTogT3B0aW9uW0Rlc2lnbkdyYXBoI05vZGVUXSA9CiAgICAgIHRoaXNHcmFwaC5ub2Rlcy5maW5kKG5vZGUgPT4gbm9kZS5kZXBlbmRlbmN5Tm9kZXMuZXhpc3RzKF8uZXEoZGVwTm9kZSkpKQoKICAgIGRlZiBnZXREU3RlcChzdGVwSWQ6IElkKTogT3B0aW9uW0RTdGVwXSA9CiAgICAgIGdldChzdGVwSWQpLm1hcChfLmdldChzdGVwSWQpLmdldC50b091dGVyKQoKICAgIGRlZiBnZXRBbGwoZXZhbFJlZjogU3RlcFJlZik6IFNldFtEZXNpZ25HcmFwaCNOb2RlVF0gID0KICAgICAgdGhpc0dyYXBoLm5vZGVzLmZpbHRlcihfLmFsbFN0ZXBSZWZzLmNvbnRhaW5zKGV2YWxSZWYpKS50b1NldAo=</text>
+        <text encoding="base64">ZGVmIHRvQ2x1c3Rlcihub2RlOiB0YXNrLkdyYXBoI05vZGVUKTogQ2x1c3RlcmluZ0xpa2UgPQogICAgICAgIENsdXN0ZXIobm9kZS5pZCkobm9kZS5zY29wZSwgbXV0YWJsZS5TZXQoQ1N0ZXAobm9kZSkpKSAKICAgIA==</text>
       </register>
       <register name="7" type="4">
-        <text>def apply(nodes: Iterable[ClusteringLike], edges: Iterable[DiEdge[ClusteringLike]]): Graph =
-      scalax.collection.mutable.Graph.from(nodes, edges)</text>
+        <text encoding="base64">b2JqZWN0IENsdXN0ZXIgewogICAgICBkZWYgYXBwbHkgKGlkOiBJZCwgc2NvcGU6IFN0ZXBTY29wZSwgY2x1c3Rlck5vZGVzOiBJdGVyYWJsZVtDbHVzdGVyaW5nTGlrZV0pOiBDbHVzdGVyID0KICAgICAgICBuZXcgQ2x1c3RlcihpZCkoc2NvcGUsIG11dGFibGUuU2V0KGNsdXN0ZXJOb2RlcykpCiAgICB9Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICBpbXBsaWNpdCBkZWYgZW5yaWNoRGlHZW5HcmFwaFtOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odGhpc0dyYXBoOiBHZW5HcmFwaFtOLCBFXSkgPSBuZXcgUmljaERpR3JhcGhbdGhpc0dyYXBoLnR5cGUsIEdlbkdyYXBoW04sIEVdLCBOLCBFXSh0aGlzR3JhcGgpCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">ZGVmIGdldChub2RlczogR3JhcGgjTm9kZVNldFQpOiBTZXRbY2x1c3Rlci5HcmFwaERlc2lnbkdyYXBoI05vZGVUXSA9CiAgICAgIG5vZGVzLnRvTGlzdC50b05vZGVzT2YodGhpc0dyYXBoKS50b1NldAoKICAgIGRlZiBnZXQoc3RlcElkOiBJZCk6IE9wdGlvbltEZXNpZ25HcmFwaCNOb2RlVF0gPQogICAgICB0aGlzR3JhcGgubm9kZXMuZmluZChfLmNvbnRhaW5zSWQoc3RlcElkKSkKCiAgICBkZWYgZ2V0QWxsSW5FcU9yU3ViU2NvcGVPZihzdGVwU2NvcGU6IFN0ZXBTY29wZSk6IFNldFtEZXNpZ25HcmFwaCNOb2RlVF0gPQogICAgICB0aGlzR3JhcGgubm9kZXMuZmlsdGVyKF8uZ2V0U3RlcFNjb3BlLmV4aXN0cyhub2RlU2NvcGUgPT4gc3RlcFNjb3BlLmlzRXFPclN1cGVyU2NvcGVPZihub2RlU2NvcGUpKSkudG9TZXQKCiAgICBkZWYgZ2V0QWxsSW5FcU9yU3ViU2NvcGVPZihjb250cm9sU2NvcGU6IENvbnRyb2xTY29wZSk6IFNldFtEZXNpZ25HcmFwaCNOb2RlVF0gPQogICAgICB0aGlzR3JhcGgubm9kZXMuZmlsdGVyKF8uZ2V0U3RlcFNjb3BlLm1hcChfLnRvQ29udHJvbFNjb3BlKS5leGlzdHMobm9kZVNjb3BlID0+IGNvbnRyb2xTY29wZS5pc0VxT3JTdXBlclNjb3BlT2Yobm9kZVNjb3BlKSkpLnRvU2V0CgogICAgZGVmIGdldChkZXBOb2RlOiBEZXBOb2RlKTogT3B0aW9uW0Rlc2lnbkdyYXBoI05vZGVUXSA9CiAgICAgIHRoaXNHcmFwaC5ub2Rlcy5maW5kKG5vZGUgPT4gbm9kZS5kZXBlbmRlbmN5Tm9kZXMuZXhpc3RzKF8uZXEoZGVwTm9kZSkpKQoKICAgIGRlZiBnZXREU3RlcChzdGVwSWQ6IElkKTogT3B0aW9uW0RTdGVwXSA9CiAgICAgIGdldChzdGVwSWQpLm1hcChfLmdldChzdGVwSWQpLmdldC50b091dGVyKQoKICAgIGRlZiBnZXRBbGwoZXZhbFJlZjogU3RlcFJlZik6IFNldFtEZXNpZ25HcmFwaCNOb2RlVF0gID0KICAgICAgdGhpc0dyYXBoLm5vZGVzLmZpbHRlcihfLmFsbFN0ZXBSZWZzLmNvbnRhaW5zKGV2YWxSZWYpKS50b1NldAo=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ZGVmIGdyYXBoID0gdGFza0dyYXBoLnRvUHJvY2Vzc0dyYXBoCgogIGRlZiBjbHVzdGVyTm9kZXM6IHNjYWxhLmNvbGxlY3Rpb24uU2V0W0NsdXN0ZXJpbmdMaWtlXQo=</text>
+        <text>def apply(nodes: Iterable[ClusteringLike], edges: Iterable[DiEdge[ClusteringLike]]): Graph =
+      scalax.collection.mutable.Graph.from(nodes, edges)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Root</last-search>
+      <last-search>exporter</last-search>
       <last-offset />
-      <last-pattern>Root</last-pattern>
+      <last-pattern>exporter</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -715,7 +740,6 @@
     </search>
     <history>
       <history-search>
-        <entry>transitive</entry>
         <entry>trans</entry>
         <entry>GenGraph</entry>
         <entry>do while</entry>
@@ -735,6 +759,7 @@
         <entry>topological</entry>
         <entry>afterEval</entry>
         <entry>Root</entry>
+        <entry>exporter</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
