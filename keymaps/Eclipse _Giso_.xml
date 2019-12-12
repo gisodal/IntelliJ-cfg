@@ -38,7 +38,6 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseEditor">
-    <keyboard-shortcut first-keystroke="ctrl x" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CommentByBlockComment" />
@@ -174,8 +173,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="Scala.ShowImplicits">
-    <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt 1" />
@@ -200,6 +199,9 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="WelcomeScreen.Configure.VMOptions">
+    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="XDebugger.CopyValue">
     <keyboard-shortcut first-keystroke="ctrl insert" />
