@@ -35,11 +35,11 @@
         <mark key="^" line="116" column="50" />
         <mark key="." line="114" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576154282132">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="42" column="66" />
-        <mark key="." line="42" column="66" />
-        <mark key="^" line="42" column="66" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576178347078">
+        <mark key="[" line="16" column="4" />
+        <mark key="]" line="16" column="4" />
+        <mark key="^" line="15" column="0" />
+        <mark key="." line="16" column="4" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -377,12 +377,12 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576165532910">
-        <mark key="'" line="165" column="39" />
-        <mark key="[" line="34" column="6" />
-        <mark key="]" line="34" column="8" />
-        <mark key="^" line="34" column="8" />
-        <mark key="." line="34" column="8" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576179715402">
+        <mark key="'" line="117" column="27" />
+        <mark key="[" line="19" column="45" />
+        <mark key="]" line="19" column="47" />
+        <mark key="." line="19" column="47" />
+        <mark key="^" line="19" column="47" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576076334438">
         <mark key="[" line="22" column="23" />
@@ -426,7 +426,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1576157922607">
+      <file name="/sbtShell" timestamp="1576177391301">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="7" />
         <mark key="." line="0" column="7" />
@@ -583,10 +583,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="157" column="83" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="605" column="33" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="616" column="38" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="703" column="44" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="0" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="170" column="49" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="177" column="12" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
@@ -683,10 +679,14 @@
       <jump line="22" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
       <jump line="117" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/package.scala" />
       <jump line="123" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" />
+      <jump line="128" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" />
+      <jump line="119" column="38" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" />
+      <jump line="122" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" />
+      <jump line="117" column="27" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIGNvbWJpbmVkQ2x1c3RlcnM6IExpc3RbQ2x1c3RlclNldF0gPSB7CiAgICAgIC8vIGNvbWJpbmUgYmxvY2tzIHdpdGggYSBzaW1wbGUgYnJlYXRoLWZpcnN0IHRyYXZlcnNlLiBFYWNoIGZyb250aWVyIGZvcm1zIGEgY29tYmluZWQgYmxvY2sgc2V0LgogICAgICBkZWYgY29tYmluZShmcm9udGllcjogU2V0W2Jsb2NrR3JhcGguTm9kZVRdLCB0cmF2ZXJzZWQ6IG11dGFibGUuU2V0W2Jsb2NrR3JhcGguTm9kZVRdKTogTGlzdFtDbHVzdGVyU2V0XSA9IHsKICAgICAgICB2YWwgY2FuZGlkYXRlcyA9IGZyb250aWVyCiAgICAgICAgICAvLyByZW1vdmUgbm9kZXMgb2Ygd2hpY2ggdGhlIHByZWRlY2Vzc29ycyBoYXZlIG5vdCBiZWVuIHRyYXZlcnNlZAogICAgICAgICAgLmZpbHRlcihfLmRpUHJlZGVjZXNzb3JzLmZvcmFsbCh0cmF2ZXJzZWQuY29udGFpbnMpKQoKICAgICAgICBpZiAoY2FuZGlkYXRlcy5pc0VtcHR5KQogICAgICAgICAgTmlsCiAgICAgICAgZWxzZSB7CiAgICAgICAgICB0cmF2ZXJzZWQgKys9IGNhbmRpZGF0ZXMKICAgICAgICAgIENsdXN0ZXJTZXQoY2FuZGlkYXRlcy5tYXAoXy50b091dGVyKSkgOjogY29tYmluZShjYW5kaWRhdGVzLmZsYXRNYXAoXy5kaVN1Y2Nlc3NvcnMpLCB0cmF2ZXJzZWQpCiAgICAgICAgfQogICAgICB9CiAgICAgIHZhbCBjb21iaW5lZEJsb2NrcyA9IGNvbWJpbmUoYmxvY2tHcmFwaC5yb290cyxtdXRhYmxlLlNldC5lbXB0eSkKCiAgICAgIC8vIHBvc3Rjb25kaXRpb25zCiAgICAgIGFzc2VydChjb21iaW5lZEJsb2Nrcy5mbGF0TWFwKF8uY2x1c3RlcnMudG9MaXN0KS5kdXBsaWNhdGVzLmlzRW1wdHksICJDb21iaW5lZCBibG9ja3MgY29udGFpbiBkdXBsaWNhdGVzIikKICAgICAgYXNzZXJ0KGJsb2NrR3JhcGgubm9kZXMudG9PdXRlciA9PSBjb21iaW5lZEJsb2Nrcy5mbGF0TWFwKF8uY2x1c3RlcnMpLnRvU2V0LCAiQ29tYmluZWQgYmxvY2tzIGRvIG5vdCBjb3ZlciBpbnB1dCBibG9ja3MiKQogICAgICBjb21iaW5lZEJsb2NrcwogICAgfQo=</text>
+        <text encoding="base64">b2JqZWN0IEdyYXBoIHsKICAgIGRlZiBhcHBseShDbHVzdGVyU2V0OiBDbHVzdGVyU2V0KTogR3JhcGggPSB7CiAgICAgIC8vdmFsIGVkZ2VzID0gQ2x1c3RlclNldC5jbHVzdGVycy5mbGF0TWFwIHsgY2x1c3RlciA9PgogICAgICAgIC8vdmFsIHRhc2tHcmFwaCA9IGNsdXN0ZXIuY29udGFpbmluZ1Rhc2tHcmFwaAogICAgICAgIC8vdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgLy8gIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgIC8vICAuYW5jZXN0b3JzT2YoY2x1c3Rlci5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAvLyAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC8vICAubWFwKF8uYXNJbnN0YW5jZU9mW0dyYXBoI05vZGVUXSkKCiAgICAgICAgLy8vLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAvLyhDbHVzdGVyU2V0LmNsdXN0ZXJzIC0gY2x1c3RlcikuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgY2x1c3RlcikgfQogICAgICAgID8/PwogICAgICAvL30KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAvLyBHcmFwaChDbHVzdGVyU2V0LmNsdXN0ZXJzLCBlZGdlcykudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgICA/Pz8KICAgIH0KICB9Cg==</text>
       </register>
       <register name="-" type="4">
         <text>def size: Int = dsteps.size</text>
@@ -695,22 +695,22 @@
         <text>exporter</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGNvbWJpbmVkQ2x1c3RlcnM6IExpc3RbQ2x1c3RlclNldF0gPSB7CiAgICAgIC8vIGNvbWJpbmUgYmxvY2tzIHdpdGggYSBzaW1wbGUgYnJlYXRoLWZpcnN0IHRyYXZlcnNlLiBFYWNoIGZyb250aWVyIGZvcm1zIGEgY29tYmluZWQgYmxvY2sgc2V0LgogICAgICBkZWYgY29tYmluZShmcm9udGllcjogU2V0W2Jsb2NrR3JhcGguTm9kZVRdLCB0cmF2ZXJzZWQ6IG11dGFibGUuU2V0W2Jsb2NrR3JhcGguTm9kZVRdKTogTGlzdFtDbHVzdGVyU2V0XSA9IHsKICAgICAgICB2YWwgY2FuZGlkYXRlcyA9IGZyb250aWVyCiAgICAgICAgICAvLyByZW1vdmUgbm9kZXMgb2Ygd2hpY2ggdGhlIHByZWRlY2Vzc29ycyBoYXZlIG5vdCBiZWVuIHRyYXZlcnNlZAogICAgICAgICAgLmZpbHRlcihfLmRpUHJlZGVjZXNzb3JzLmZvcmFsbCh0cmF2ZXJzZWQuY29udGFpbnMpKQoKICAgICAgICBpZiAoY2FuZGlkYXRlcy5pc0VtcHR5KQogICAgICAgICAgTmlsCiAgICAgICAgZWxzZSB7CiAgICAgICAgICB0cmF2ZXJzZWQgKys9IGNhbmRpZGF0ZXMKICAgICAgICAgIENsdXN0ZXJTZXQoY2FuZGlkYXRlcy5tYXAoXy50b091dGVyKSkgOjogY29tYmluZShjYW5kaWRhdGVzLmZsYXRNYXAoXy5kaVN1Y2Nlc3NvcnMpLCB0cmF2ZXJzZWQpCiAgICAgICAgfQogICAgICB9CiAgICAgIHZhbCBjb21iaW5lZEJsb2NrcyA9IGNvbWJpbmUoYmxvY2tHcmFwaC5yb290cyxtdXRhYmxlLlNldC5lbXB0eSkKCiAgICAgIC8vIHBvc3Rjb25kaXRpb25zCiAgICAgIGFzc2VydChjb21iaW5lZEJsb2Nrcy5mbGF0TWFwKF8uY2x1c3RlcnMudG9MaXN0KS5kdXBsaWNhdGVzLmlzRW1wdHksICJDb21iaW5lZCBibG9ja3MgY29udGFpbiBkdXBsaWNhdGVzIikKICAgICAgYXNzZXJ0KGJsb2NrR3JhcGgubm9kZXMudG9PdXRlciA9PSBjb21iaW5lZEJsb2Nrcy5mbGF0TWFwKF8uY2x1c3RlcnMpLnRvU2V0LCAiQ29tYmluZWQgYmxvY2tzIGRvIG5vdCBjb3ZlciBpbnB1dCBibG9ja3MiKQogICAgICBjb21iaW5lZEJsb2NrcwogICAgfQo=</text>
+        <text>import com.xlrit.gears.generator.design.scope.{ControlScope, StepScope}</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrU2V0OiBCbG9ja1NldCk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoOiBHcmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaCAvLyBGSVhNRTogZ3JhcGggPT0gY29udGFpbmluZ0dyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgICAvLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAoYmxvY2tTZXQuYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja1NldC5ibG9ja3MsIGVkZ2VzKS50cmFuc2l0aXZlUmVkdWN0aW9uCiAgICB9</text>
+        <text encoding="base64">b2JqZWN0IEdyYXBoIHsKICAgIGRlZiBhcHBseShDbHVzdGVyU2V0OiBDbHVzdGVyU2V0KTogR3JhcGggPSB7CiAgICAgIC8vdmFsIGVkZ2VzID0gQ2x1c3RlclNldC5jbHVzdGVycy5mbGF0TWFwIHsgY2x1c3RlciA9PgogICAgICAgIC8vdmFsIHRhc2tHcmFwaCA9IGNsdXN0ZXIuY29udGFpbmluZ1Rhc2tHcmFwaAogICAgICAgIC8vdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgLy8gIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgIC8vICAuYW5jZXN0b3JzT2YoY2x1c3Rlci5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAvLyAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC8vICAubWFwKF8uYXNJbnN0YW5jZU9mW0dyYXBoI05vZGVUXSkKCiAgICAgICAgLy8vLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAvLyhDbHVzdGVyU2V0LmNsdXN0ZXJzIC0gY2x1c3RlcikuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgY2x1c3RlcikgfQogICAgICAgID8/PwogICAgICAvL30KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAvLyBHcmFwaChDbHVzdGVyU2V0LmNsdXN0ZXJzLCBlZGdlcykudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgICA/Pz8KICAgIH0KICB9Cg==</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrU2V0OiBCbG9ja1NldCk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoOiBHcmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaCAvLyBGSVhNRTogZ3JhcGggPT0gY29udGFpbmluZ0dyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgICAvLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAoYmxvY2tTZXQuYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja1NldC5ibG9ja3MsIGVkZ2VzKS50cmFuc2l0aXZlUmVkdWN0aW9uCiAgICB9</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">aW1wbGljaXQgZGVmIGVucmljaERpR2VuR3JhcGhbTiwgRVtYXSA8OiBEaUVkZ2VMaWtlSW5bWF1dKHRoaXNHcmFwaDogR2VuR3JhcGhbTiwgRV0pID0gbmV3IFJpY2hEaUdyYXBoW3RoaXNHcmFwaC50eXBlLCBHZW5HcmFwaFtOLCBFXSwgTiwgRV0odGhpc0dyYXBoKQogIGltcGxpY2l0IGRlZiBlbnJpY2hEaUltbUdyYXBoW04sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdXSh0aGlzR3JhcGg6IEltbUdyYXBoW04sIEVdKSA9IG5ldyBpbW11dGFibGUuUmljaERpR3JhcGhbdGhpc0dyYXBoLnR5cGUsIEltbUdyYXBoW04sRV0sIE4sIEVdKHRoaXNHcmFwaCkKICBpbXBsaWNpdCBkZWYgZW5yaWNoRGlNdXRHcmFwaFtOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odGhpc0dyYXBoOiBNdXRHcmFwaFtOLCBFXSkgPSBuZXcgbXV0YWJsZS5SaWNoRGlHcmFwaFt0aGlzR3JhcGgudHlwZSwgTXV0R3JhcGhbTixFXSwgTiwgRV0odGhpc0dyYXBoKQ==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZGVzaWduLmNsdXN0ZXIuR3JhcGguTm9kZS5DU3RlcAo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRhc2tOb2RlczogU2V0W3Rhc2suR3JhcGgjTm9kZVRdID0gY2x1c3Rlck5vZGVzLmZsYXRNYXAgewogICAgY2FzZSBjbHVzdGVyOiBDbHVzdGVyTGlrZSA9PiBjbHVzdGVyLnRhc2tOb2RlcwogICAgY2FzZSBzdGVwOiBDU3RlcCAgICAgICAgICA9PiBTZXQoc3RlcC50YXNrTm9kZSkKICB9LnRvU2V0</text>
-      </register>
       <register name="5" type="4">
-        <text encoding="base64">LyoqIHJldHVybiBhIHRoZSB0cmFuc2l0aXZlIHJlZHVjdGlvbiBvZiB0aGUgcHJvdmlkZWQgZ3JhcGggKiovCiAgICBkZWYgdHJhbnNpdGl2ZVJlZHVjdGlvbjogRyA9IHsKICAgICAgdmFsIHRyYW5zaXRpdmVSZWR1Y3Rpb25FZGdlcyA9IHRoaXNHcmFwaC5ub2Rlcy5mbGF0TWFwKG5vZGUgPT4gbm9kZS50cmFuc2l0aXZlUmVkdWN0aW9uRWRnZXMpCiAgICAgIHRvRyh0aGlzR3JhcGggLS0gdHJhbnNpdGl2ZVJlZHVjdGlvbkVkZ2VzKQogICAgfQo=</text>
+        <text encoding="base64">b3ZlcnJpZGUgZGVmIHRhc2tOb2RlczogU2V0W3Rhc2suR3JhcGgjTm9kZVRdID0gY2x1c3Rlck5vZGVzLmZsYXRNYXAgewogICAgY2FzZSBjbHVzdGVyOiBDbHVzdGVyTGlrZSA9PiBjbHVzdGVyLnRhc2tOb2RlcwogICAgY2FzZSBzdGVwOiBDU3RlcCAgICAgICAgICA9PiBTZXQoc3RlcC50YXNrTm9kZSkKICB9LnRvU2V0</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -722,17 +722,17 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="2">
+      <register name="6" type="4">
+        <text encoding="base64">LyoqIHJldHVybiBhIHRoZSB0cmFuc2l0aXZlIHJlZHVjdGlvbiBvZiB0aGUgcHJvdmlkZWQgZ3JhcGggKiovCiAgICBkZWYgdHJhbnNpdGl2ZVJlZHVjdGlvbjogRyA9IHsKICAgICAgdmFsIHRyYW5zaXRpdmVSZWR1Y3Rpb25FZGdlcyA9IHRoaXNHcmFwaC5ub2Rlcy5mbGF0TWFwKG5vZGUgPT4gbm9kZS50cmFuc2l0aXZlUmVkdWN0aW9uRWRnZXMpCiAgICAgIHRvRyh0aGlzR3JhcGggLS0gdHJhbnNpdGl2ZVJlZHVjdGlvbkVkZ2VzKQogICAgfQo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICBpbXBsaWNpdCBkZWYgZW5yaWNoRGlNdXRHcmFwaFtOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odGhpc0dyYXBoOiBNdXRHcmFwaFtOLCBFXSkgPSBuZXcgUmljaERpR3JhcGhbdGhpc0dyYXBoLnR5cGUsIE11dEdyYXBoW04sIEVdLCBOLCBFXSh0aGlzR3JhcGgpCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ZGVmIHRvQ2x1c3Rlck5vZGUobm9kZTogdGFzay5HcmFwaCNOb2RlVCk6IENsdXN0ZXJpbmdMaWtlID0KICAgICAgQ2x1c3Rlcihub2RlLmlkKShub2RlLnNjb3BlLCBtdXRhYmxlLlNldChDU3RlcChub2RlKSkpIAogICAg</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ZGVmIHRvQ2x1c3Rlcihub2RlOiB0YXNrLkdyYXBoI05vZGVUKTogQ2x1c3RlcmluZ0xpa2UgPQogICAgICAgIENsdXN0ZXIobm9kZS5pZCkobm9kZS5zY29wZSwgbXV0YWJsZS5TZXQoQ1N0ZXAobm9kZSkpKSAKICAgIA==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">b2JqZWN0IENsdXN0ZXIgewogICAgICBkZWYgYXBwbHkgKGlkOiBJZCwgc2NvcGU6IFN0ZXBTY29wZSwgY2x1c3Rlck5vZGVzOiBJdGVyYWJsZVtDbHVzdGVyaW5nTGlrZV0pOiBDbHVzdGVyID0KICAgICAgICBuZXcgQ2x1c3RlcihpZCkoc2NvcGUsIG11dGFibGUuU2V0KGNsdXN0ZXJOb2RlcykpCiAgICB9Cg==</text>
+        <text encoding="base64">ZGVmIHRvQ2x1c3Rlcihub2RlOiB0YXNrLkdyYXBoI05vZGVUKTogQ2x1c3RlcmluZ0xpa2UgPQogICAgICAgIENsdXN0ZXIobm9kZS5pZCkobm9kZS5zY29wZSwgbXV0YWJsZS5TZXQoQ1N0ZXAobm9kZSkpKSAKICAgIA==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
