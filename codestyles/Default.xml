@@ -1,4 +1,5 @@
 <code_scheme name="Default" version="173">
+  <option name="RIGHT_MARGIN" value="500" />
   <codeStyleSettings language="Scala">
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
