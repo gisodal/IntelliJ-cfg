@@ -377,12 +377,12 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576163655840">
-        <mark key="'" line="163" column="39" />
-        <mark key="[" line="21" column="51" />
-        <mark key="]" line="21" column="50" />
-        <mark key="^" line="21" column="50" />
-        <mark key="." line="21" column="50" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576165532910">
+        <mark key="'" line="165" column="39" />
+        <mark key="[" line="34" column="6" />
+        <mark key="]" line="34" column="8" />
+        <mark key="^" line="34" column="8" />
+        <mark key="." line="34" column="8" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576076334438">
         <mark key="[" line="22" column="23" />
