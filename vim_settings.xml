@@ -377,12 +377,12 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576179715402">
-        <mark key="'" line="117" column="27" />
-        <mark key="[" line="19" column="45" />
-        <mark key="]" line="19" column="47" />
-        <mark key="." line="19" column="47" />
-        <mark key="^" line="19" column="47" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576232327934">
+        <mark key="'" line="123" column="27" />
+        <mark key="[" line="47" column="13" />
+        <mark key="]" line="47" column="43" />
+        <mark key="." line="47" column="43" />
+        <mark key="^" line="47" column="43" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576076334438">
         <mark key="[" line="22" column="23" />
@@ -686,7 +686,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">b2JqZWN0IEdyYXBoIHsKICAgIGRlZiBhcHBseShDbHVzdGVyU2V0OiBDbHVzdGVyU2V0KTogR3JhcGggPSB7CiAgICAgIC8vdmFsIGVkZ2VzID0gQ2x1c3RlclNldC5jbHVzdGVycy5mbGF0TWFwIHsgY2x1c3RlciA9PgogICAgICAgIC8vdmFsIHRhc2tHcmFwaCA9IGNsdXN0ZXIuY29udGFpbmluZ1Rhc2tHcmFwaAogICAgICAgIC8vdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgLy8gIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgIC8vICAuYW5jZXN0b3JzT2YoY2x1c3Rlci5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAvLyAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC8vICAubWFwKF8uYXNJbnN0YW5jZU9mW0dyYXBoI05vZGVUXSkKCiAgICAgICAgLy8vLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAvLyhDbHVzdGVyU2V0LmNsdXN0ZXJzIC0gY2x1c3RlcikuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgY2x1c3RlcikgfQogICAgICAgID8/PwogICAgICAvL30KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAvLyBHcmFwaChDbHVzdGVyU2V0LmNsdXN0ZXJzLCBlZGdlcykudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgICA/Pz8KICAgIH0KICB9Cg==</text>
+        <text>implicit final class RichThisNode(thisNode: thisGraph.NodeT) {</text>
       </register>
       <register name="-" type="4">
         <text>def size: Int = dsteps.size</text>
@@ -695,7 +695,7 @@
         <text>exporter</text>
       </register>
       <register name="0" type="4">
-        <text>import com.xlrit.gears.generator.design.scope.{ControlScope, StepScope}</text>
+        <text>implicit final class RichThisNode(thisNode: thisGraph.NodeT) {</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">b2JqZWN0IEdyYXBoIHsKICAgIGRlZiBhcHBseShDbHVzdGVyU2V0OiBDbHVzdGVyU2V0KTogR3JhcGggPSB7CiAgICAgIC8vdmFsIGVkZ2VzID0gQ2x1c3RlclNldC5jbHVzdGVycy5mbGF0TWFwIHsgY2x1c3RlciA9PgogICAgICAgIC8vdmFsIHRhc2tHcmFwaCA9IGNsdXN0ZXIuY29udGFpbmluZ1Rhc2tHcmFwaAogICAgICAgIC8vdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgLy8gIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgIC8vICAuYW5jZXN0b3JzT2YoY2x1c3Rlci5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAvLyAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC8vICAubWFwKF8uYXNJbnN0YW5jZU9mW0dyYXBoI05vZGVUXSkKCiAgICAgICAgLy8vLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAvLyhDbHVzdGVyU2V0LmNsdXN0ZXJzIC0gY2x1c3RlcikuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgY2x1c3RlcikgfQogICAgICAgID8/PwogICAgICAvL30KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAvLyBHcmFwaChDbHVzdGVyU2V0LmNsdXN0ZXJzLCBlZGdlcykudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgICA/Pz8KICAgIH0KICB9Cg==</text>
