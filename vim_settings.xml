@@ -127,12 +127,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576161936787">
-        <mark key="'" line="869" column="0" />
-        <mark key="[" line="190" column="70" />
-        <mark key="]" line="191" column="5" />
-        <mark key="." line="191" column="5" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576228702056">
+        <mark key="'" line="865" column="0" />
+        <mark key="[" line="234" column="0" />
+        <mark key="]" line="234" column="0" />
         <mark key="^" line="191" column="5" />
+        <mark key="." line="234" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/package.scala" timestamp="1576146365761">
         <mark key="[" line="9" column="25" />
@@ -426,7 +426,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1576177391301">
+      <file name="/sbtShell" timestamp="1576228368546">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="7" />
         <mark key="." line="0" column="7" />
