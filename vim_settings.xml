@@ -377,9 +377,9 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576235731017">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576236810697">
         <mark key="'" line="124" column="27" />
-        <mark key="[" line="48" column="0" />
+        <mark key="[" line="48" column="45" />
         <mark key="]" line="48" column="0" />
         <mark key="." line="48" column="0" />
       </file>
