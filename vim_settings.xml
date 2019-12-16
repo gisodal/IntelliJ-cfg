@@ -35,11 +35,11 @@
         <mark key="^" line="116" column="50" />
         <mark key="." line="114" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576178347078">
-        <mark key="[" line="16" column="4" />
-        <mark key="]" line="16" column="4" />
-        <mark key="^" line="15" column="0" />
-        <mark key="." line="16" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576516889454">
+        <mark key="[" line="36" column="4" />
+        <mark key="]" line="37" column="3" />
+        <mark key="^" line="37" column="3" />
+        <mark key="." line="37" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/test/scala/com/xlrit/gears/generator/util/GraphMatrixTest.scala" timestamp="1568021363425">
         <mark key="[" line="9" column="19" />
@@ -377,11 +377,11 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576512351343">
-        <mark key="'" line="79" column="53" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="71" column="0" />
-        <mark key="." line="71" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576516877780">
+        <mark key="[" line="98" column="44" />
+        <mark key="]" line="99" column="31" />
+        <mark key="." line="99" column="31" />
+        <mark key="^" line="99" column="31" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576076334438">
         <mark key="[" line="22" column="23" />
@@ -684,33 +684,38 @@
       <jump line="80" column="53" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdHJhbnNpdGl2ZVNvdXJjZXMgPSB0aGlzRWRnZS50YXJnZXQuZGlTdWNjZXNzb3JzCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ZGVmIHRyYW5zaXRpdmVDb250cmFjdGlvbkVkZ2VzOiBTZXRbdGhpc0dyYXBoLkVkZ2VUXSA9IHsKICAgICAgICAvLyBBbiBlZGdlIGlzIGNvbnRyYWN0YWJsZSBpZiBhIGN5Y2xlIGlzIG5vdCBjcmVhdGVkIGJ5IGNvbnRyYWN0aW5nIHRoZSBlZGdlOiB0aGUgZWRnZSdzIHNvdXJjZQogICAgICAgIC8vIGFuZCB0YXJnZXQgYXJlIG1lcmdlZCBpbnRvIG9uZSBub2RlLCBhbmQgdGhlIGVkZ2UgaXMgcmVtb3ZlZC4gCiAgICAgICAgLy8gSW4gYSB0cmFuc2l0aXZlbHkgcmVkdWNlZCBncmFwaCwgYW55IGVkZ2UgY2FuIGJlIGNvbnRyYWN0ZWQgd2l0aG91dCBjcmVhdGluZyBhIGN5Y2xlLiBIb3dldmVyLAogICAgICAgIC8vIHRoZSByZXN1bHRpbmcgZ3JhcGggbWF5IG5vdCBiZSB0cmFuc2l0aXZlbHkgcmVkdWNlZCBhbnkgbW9yZS4gVHJhbnNpdGl2ZSBjb250cmFjdGlvbiBlZGdlcyAKICAgICAgICAvLyBhcmUgdGhlIGVkZ2VzIHRoYXQgd291bGQgYmUgcmVtb3ZlZCBBRlRFUiBlZGdlIGNvbnRyYWN0aW9uIGJ5IHRyYW5zaXRpdmUgcmVkdWN0aW9uLgogICAgICAgIHRyYW5zaXRpdmVTb3VyY2VDb250cmFjdGlvbkVkZ2VzICsrIHRyYW5zaXRpdmVUYXJnZXRDb250cmFjdGlvbkVkZ2VzCiAgICAgIH0K</text>
       </register>
       <register name="-" type="4">
-        <text>// PRECONDITION: graph is transitively reduced</text>
+        <text>val visited = mutable.Set.empty[thisGraph.NodeT]</text>
       </register>
       <register name="/" type="4">
         <text>exporter</text>
       </register>
       <register name="0" type="4">
-        <text>thisEdge.target.diSuccessors</text>
+        <text>// An edge is contractable if a cycle is not created by contracting the edge: the edge's source
+        // and target are merged into one node, and the edge is removed.</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdHJhbnNpdGl2ZVNvdXJjZXMgPSB0aGlzRWRnZS50YXJnZXQuZGlTdWNjZXNzb3JzCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ZGVmIHRyYW5zaXRpdmVDb250cmFjdGlvbkVkZ2VzOiBTZXRbdGhpc0dyYXBoLkVkZ2VUXSA9IHsKICAgICAgICAvLyBBbiBlZGdlIGlzIGNvbnRyYWN0YWJsZSBpZiBhIGN5Y2xlIGlzIG5vdCBjcmVhdGVkIGJ5IGNvbnRyYWN0aW5nIHRoZSBlZGdlOiB0aGUgZWRnZSdzIHNvdXJjZQogICAgICAgIC8vIGFuZCB0YXJnZXQgYXJlIG1lcmdlZCBpbnRvIG9uZSBub2RlLCBhbmQgdGhlIGVkZ2UgaXMgcmVtb3ZlZC4gCiAgICAgICAgLy8gSW4gYSB0cmFuc2l0aXZlbHkgcmVkdWNlZCBncmFwaCwgYW55IGVkZ2UgY2FuIGJlIGNvbnRyYWN0ZWQgd2l0aG91dCBjcmVhdGluZyBhIGN5Y2xlLiBIb3dldmVyLAogICAgICAgIC8vIHRoZSByZXN1bHRpbmcgZ3JhcGggbWF5IG5vdCBiZSB0cmFuc2l0aXZlbHkgcmVkdWNlZCBhbnkgbW9yZS4gVHJhbnNpdGl2ZSBjb250cmFjdGlvbiBlZGdlcyAKICAgICAgICAvLyBhcmUgdGhlIGVkZ2VzIHRoYXQgd291bGQgYmUgcmVtb3ZlZCBBRlRFUiBlZGdlIGNvbnRyYWN0aW9uIGJ5IHRyYW5zaXRpdmUgcmVkdWN0aW9uLgogICAgICAgIHRyYW5zaXRpdmVTb3VyY2VDb250cmFjdGlvbkVkZ2VzICsrIHRyYW5zaXRpdmVUYXJnZXRDb250cmFjdGlvbkVkZ2VzCiAgICAgIH0K</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">dmFsIHNvdXJjZVN1Y2Nlc3NvcnMgPSAodGhpc0VkZ2Uuc291cmNlLmRpU3VjY2Vzc29ycyAtIHRoaXNFZGdlLnRhcmdldCkKICAgICAgICB2YWwgdGFyZ2V0U3VjY2Vzc29ycyA9IHRoaXNFZGdlLnRhcmdldC5kaVN1Y2Nlc3NvcnMg</text>
+        <text>visited.clear()
+        val transitiveSourceDescendants = (thisEdge.source.diPredecessors.flatMap(_.diSuccessors) - thisEdge.source)
+          .flatMap (  )
+
+        transitiveTargetDescendants ++ transitiveSourceDescendants</text>
       </register>
-      <register name="3" type="4">
-        <text>val sourceSuccessors = (thisEdge.source.diSuccessors - thisEdge.target)
-        val targetSuccessors = thisEdge.target.diSuccessors</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgdHJhbnNpdGl2ZVNvdXJjZXMgPSB0aGlzRWRnZS50YXJnZXQuZGlTdWNjZXNzb3JzCg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">dmFsIHRyYW5zaXRpdmVFZGdlcyA9IHRoaXNFZGdlLnRhcmdldC5vdXRnb2luZy5tYXAoZWRnZSA9PiBlZGdlLnRhcmdldCAtPiBlZGdlKS50b01hcAogICAgICAgIHZhbCB0cmFuc2l0aXZlVGFyZ2V0cyA9IHRyYW5zaXRpdmVFZGdlcy5rZXlTZXQ=</text>
+        <text encoding="base64">dmFsIHNvdXJjZVN1Y2Nlc3NvcnMgPSAodGhpc0VkZ2Uuc291cmNlLmRpU3VjY2Vzc29ycyAtIHRoaXNFZGdlLnRhcmdldCkKICAgICAgICB2YWwgdGFyZ2V0U3VjY2Vzc29ycyA9IHRoaXNFZGdlLnRhcmdldC5kaVN1Y2Nlc3NvcnMg</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ZGVmIHRyYXZlcnNlKG5vZGU6IHRoaXNHcmFwaC5Ob2RlVCwgdmlzaXRlZDogVmlzaXRlZCk6IFNldFt0aGlzR3JhcGguTm9kZVRdID0gewogICAgICAgICAgaWYgKCB0cmFuc2l0aXZlVGFyZ2V0cy5jb250YWlucyhub2RlKSApIHsKICAgICAgICAgICAgdmlzaXRlZCArPSBub2RlCiAgICAgICAgICAgIFNldChub2RlKQogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaWYgKCF2aXNpdGVkLmNvbnRhaW5zKG5vZGUpKSB7CiAgICAgICAgICAgICAgdmlzaXRlZCArPSBub2RlCiAgICAgICAgICAgICAgbm9kZS5kaVN1Y2Nlc3NvcnMuZmxhdE1hcCh0cmF2ZXJzZShfLCB2aXNpdGVkKSkKICAgICAgICAgICAgfSBlbHNlCiAgICAgICAgICAgICAgU2V0LmVtcHR5CiAgICAgICAgICB9CiAgICAgICAgfQo=</text>
+        <text>val sourceSuccessors = (thisEdge.source.diSuccessors - thisEdge.target)
+        val targetSuccessors = thisEdge.target.diSuccessors</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -723,16 +728,16 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">IAogICAgICAgIC8vIFBSRUNPTkRJVElPTjogZ3JhcGggaXMgdHJhbnNpdGl2ZWx5IHJlZHVjZWQKICAgICAgICB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFt0aGlzR3JhcGguRWRnZVRdCiAgICAgICAgKHRoaXNFZGdlLnNvdXJjZS5vdXRnb2luZyAtIHRoaXNFZGdlKSA=</text>
+        <text encoding="base64">dmFsIHRyYW5zaXRpdmVFZGdlcyA9IHRoaXNFZGdlLnRhcmdldC5vdXRnb2luZy5tYXAoZWRnZSA9PiBlZGdlLnRhcmdldCAtPiBlZGdlKS50b01hcAogICAgICAgIHZhbCB0cmFuc2l0aXZlVGFyZ2V0cyA9IHRyYW5zaXRpdmVFZGdlcy5rZXlTZXQ=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">b2JqZWN0IEdyYXBoIHsKICAgIGRlZiBhcHBseShDbHVzdGVyU2V0OiBDbHVzdGVyU2V0KTogR3JhcGggPSB7CiAgICAgIC8vdmFsIGVkZ2VzID0gQ2x1c3RlclNldC5jbHVzdGVycy5mbGF0TWFwIHsgY2x1c3RlciA9PgogICAgICAgIC8vdmFsIHRhc2tHcmFwaCA9IGNsdXN0ZXIuY29udGFpbmluZ1Rhc2tHcmFwaAogICAgICAgIC8vdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgLy8gIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgIC8vICAuYW5jZXN0b3JzT2YoY2x1c3Rlci5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAvLyAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC8vICAubWFwKF8uYXNJbnN0YW5jZU9mW0dyYXBoI05vZGVUXSkKCiAgICAgICAgLy8vLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAvLyhDbHVzdGVyU2V0LmNsdXN0ZXJzIC0gY2x1c3RlcikuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgY2x1c3RlcikgfQogICAgICAgID8/PwogICAgICAvL30KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAvLyBHcmFwaChDbHVzdGVyU2V0LmNsdXN0ZXJzLCBlZGdlcykudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgICA/Pz8KICAgIH0KICB9Cg==</text>
+        <text encoding="base64">ZGVmIHRyYXZlcnNlKG5vZGU6IHRoaXNHcmFwaC5Ob2RlVCwgdmlzaXRlZDogVmlzaXRlZCk6IFNldFt0aGlzR3JhcGguTm9kZVRdID0gewogICAgICAgICAgaWYgKCB0cmFuc2l0aXZlVGFyZ2V0cy5jb250YWlucyhub2RlKSApIHsKICAgICAgICAgICAgdmlzaXRlZCArPSBub2RlCiAgICAgICAgICAgIFNldChub2RlKQogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaWYgKCF2aXNpdGVkLmNvbnRhaW5zKG5vZGUpKSB7CiAgICAgICAgICAgICAgdmlzaXRlZCArPSBub2RlCiAgICAgICAgICAgICAgbm9kZS5kaVN1Y2Nlc3NvcnMuZmxhdE1hcCh0cmF2ZXJzZShfLCB2aXNpdGVkKSkKICAgICAgICAgICAgfSBlbHNlCiAgICAgICAgICAgICAgU2V0LmVtcHR5CiAgICAgICAgICB9CiAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ZGVmIGFwcGx5KGJsb2NrU2V0OiBCbG9ja1NldCk6IEJsb2NrR3JhcGggPSB7CgogICAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgICAgdmFsIGdyYXBoOiBHcmFwaCA9IGJsb2NrLmNvbnRhaW5pbmdHcmFwaCAvLyBGSVhNRTogZ3JhcGggPT0gY29udGFpbmluZ0dyYXBoCiAgICAgICAgdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAgIC5hbmNlc3RvcnNPZihibG9jay5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAgIC8vIGNvbnZlcnQgdG8gZ2VuZXJpYyBkZXNpZ24gbm9kZXMKICAgICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgICAvLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAoYmxvY2tTZXQuYmxvY2tzIC0gYmxvY2spLmNvbGxlY3QgeyBjYXNlIG90aGVyQmxvY2sgaWYgb3RoZXJCbG9jay5ub2Rlcy5leGlzdHMoYW5jZXN0b3JzLmNvbnRhaW5zKSA9PiBFZGdlKG90aGVyQmxvY2ssIGJsb2NrKSB9CiAgICAgIH0KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICBzY2FsYXguY29sbGVjdGlvbi5pbW11dGFibGUuR3JhcGguZnJvbShibG9ja1NldC5ibG9ja3MsIGVkZ2VzKS50cmFuc2l0aXZlUmVkdWN0aW9uCiAgICB9</text>
+        <text encoding="base64">IAogICAgICAgIC8vIFBSRUNPTkRJVElPTjogZ3JhcGggaXMgdHJhbnNpdGl2ZWx5IHJlZHVjZWQKICAgICAgICB0eXBlIFZpc2l0ZWQgPSBtdXRhYmxlLlNldFt0aGlzR3JhcGguRWRnZVRdCiAgICAgICAgKHRoaXNFZGdlLnNvdXJjZS5vdXRnb2luZyAtIHRoaXNFZGdlKSA=</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">aW1wbGljaXQgZGVmIGVucmljaERpR2VuR3JhcGhbTiwgRVtYXSA8OiBEaUVkZ2VMaWtlSW5bWF1dKHRoaXNHcmFwaDogR2VuR3JhcGhbTiwgRV0pID0gbmV3IFJpY2hEaUdyYXBoW3RoaXNHcmFwaC50eXBlLCBHZW5HcmFwaFtOLCBFXSwgTiwgRV0odGhpc0dyYXBoKQogIGltcGxpY2l0IGRlZiBlbnJpY2hEaUltbUdyYXBoW04sIEVbWF0gPDogRGlFZGdlTGlrZUluW1hdXSh0aGlzR3JhcGg6IEltbUdyYXBoW04sIEVdKSA9IG5ldyBpbW11dGFibGUuUmljaERpR3JhcGhbdGhpc0dyYXBoLnR5cGUsIEltbUdyYXBoW04sRV0sIE4sIEVdKHRoaXNHcmFwaCkKICBpbXBsaWNpdCBkZWYgZW5yaWNoRGlNdXRHcmFwaFtOLCBFW1hdIDw6IERpRWRnZUxpa2VJbltYXV0odGhpc0dyYXBoOiBNdXRHcmFwaFtOLCBFXSkgPSBuZXcgbXV0YWJsZS5SaWNoRGlHcmFwaFt0aGlzR3JhcGgudHlwZSwgTXV0R3JhcGhbTixFXSwgTiwgRV0odGhpc0dyYXBoKQ==</text>
+        <text encoding="base64">b2JqZWN0IEdyYXBoIHsKICAgIGRlZiBhcHBseShDbHVzdGVyU2V0OiBDbHVzdGVyU2V0KTogR3JhcGggPSB7CiAgICAgIC8vdmFsIGVkZ2VzID0gQ2x1c3RlclNldC5jbHVzdGVycy5mbGF0TWFwIHsgY2x1c3RlciA9PgogICAgICAgIC8vdmFsIHRhc2tHcmFwaCA9IGNsdXN0ZXIuY29udGFpbmluZ1Rhc2tHcmFwaAogICAgICAgIC8vdmFsIGFuY2VzdG9ycyA9IGdyYXBoCiAgICAgICAgLy8gIC8vIGdldCBhbmNlc3RvcnMgb2YgYSBncm91cCBvZiBub2RlcwogICAgICAgIC8vICAuYW5jZXN0b3JzT2YoY2x1c3Rlci5ub2Rlcy5tYXAoXy5hc0luc3RhbmNlT2ZbZ3JhcGguTm9kZVRdKSkKICAgICAgICAvLyAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC8vICAubWFwKF8uYXNJbnN0YW5jZU9mW0dyYXBoI05vZGVUXSkKCiAgICAgICAgLy8vLyBjaGVjayBob3cgZWFjaCBibG9jayBzaG91bGQgYmUgY29ubmVjdGVkIHRvIHRoZSBvdGhlcnMKICAgICAgICAvLyhDbHVzdGVyU2V0LmNsdXN0ZXJzIC0gY2x1c3RlcikuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgY2x1c3RlcikgfQogICAgICAgID8/PwogICAgICAvL30KCiAgICAgIC8vIGNyZWF0ZSBncmFwaAogICAgICAvLyBHcmFwaChDbHVzdGVyU2V0LmNsdXN0ZXJzLCBlZGdlcykudHJhbnNpdGl2ZVJlZHVjdGlvbgogICAgICA/Pz8KICAgIH0KICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
