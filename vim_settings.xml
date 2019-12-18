@@ -9,13 +9,6 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Steps.scala" timestamp="1575544261860">
-        <mark key="'" line="245" column="47" />
-        <mark key="[" line="66" column="50" />
-        <mark key="]" line="66" column="57" />
-        <mark key="^" line="116" column="50" />
-        <mark key="." line="114" column="0" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576589768907">
         <mark key="[" line="72" column="0" />
         <mark key="]" line="72" column="0" />
@@ -82,13 +75,6 @@
         <mark key="]" line="6" column="88" />
         <mark key="." line="21" column="71" />
         <mark key="^" line="21" column="71" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" timestamp="1576146470229">
-        <mark key="'" line="7" column="22" />
-        <mark key="[" line="100" column="52" />
-        <mark key="]" line="100" column="51" />
-        <mark key="^" line="100" column="51" />
-        <mark key="." line="100" column="51" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/package.scala" timestamp="1576586740526">
         <mark key="[" line="3" column="37" />
@@ -185,12 +171,12 @@
         <mark key="^" line="133" column="13" />
         <mark key="." line="133" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" timestamp="1576594214124">
-        <mark key="'" line="56" column="7" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="71" column="0" />
-        <mark key="^" line="69" column="70" />
-        <mark key="." line="71" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" timestamp="1576665377469">
+        <mark key="'" line="53" column="7" />
+        <mark key="[" line="58" column="22" />
+        <mark key="]" line="58" column="22" />
+        <mark key="^" line="58" column="22" />
+        <mark key="." line="58" column="22" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1570438529085">
         <mark key="[" line="23" column="2" />
@@ -286,13 +272,6 @@
         <mark key="^" line="20" column="13" />
         <mark key="." line="20" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/Node.scala" timestamp="1574334402819">
-        <mark key="'" line="28" column="0" />
-        <mark key="[" line="31" column="18" />
-        <mark key="]" line="31" column="16" />
-        <mark key="^" line="31" column="16" />
-        <mark key="." line="31" column="16" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/Traverser.scala" timestamp="1576146482313">
         <mark key="[" line="10" column="46" />
         <mark key="]" line="10" column="45" />
@@ -328,13 +307,6 @@
         <mark key="]" line="10" column="55" />
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Traverser.scala" timestamp="1576061281613">
-        <mark key="'" line="384" column="8" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="^" line="385" column="137" />
-        <mark key="." line="9" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1576588028688">
         <mark key="[" line="51" column="32" />
@@ -402,13 +374,6 @@
         <mark key="^" line="57" column="11" />
         <mark key="." line="57" column="11" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/DStep.scala" timestamp="1575469803991">
-        <mark key="'" line="10" column="0" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="^" line="89" column="46" />
-        <mark key="." line="53" column="0" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/depends/DependsResolver.scala" timestamp="1576146516829">
         <mark key="[" line="12" column="52" />
         <mark key="]" line="14" column="55" />
@@ -433,13 +398,6 @@
         <mark key="." line="50" column="0" />
         <mark key="^" line="54" column="16" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/DiGraphGeneric.scala" timestamp="1574166701254">
-        <mark key="'" line="39" column="41" />
-        <mark key="[" line="80" column="4" />
-        <mark key="]" line="80" column="4" />
-        <mark key="^" line="80" column="4" />
-        <mark key="." line="80" column="4" />
-      </file>
       <file name="$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" timestamp="1564155890617">
         <mark key="[" line="533" column="9" />
         <mark key="]" line="533" column="8" />
@@ -463,13 +421,6 @@
         <mark key="]" line="103" column="0" />
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
-      </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/StepScope.scala" timestamp="1576146666152">
-        <mark key="'" line="61" column="46" />
-        <mark key="[" line="75" column="5" />
-        <mark key="]" line="76" column="66" />
-        <mark key="." line="76" column="66" />
-        <mark key="^" line="76" column="66" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1576588090041">
         <mark key="[" line="22" column="32" />
@@ -620,13 +571,6 @@
         <mark key="^" line="42" column="34" />
         <mark key="." line="42" column="34" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/DiGraph.scala" timestamp="1576146348328">
-        <mark key="'" line="123" column="2" />
-        <mark key="[" line="21" column="2" />
-        <mark key="]" line="123" column="2" />
-        <mark key="." line="19" column="1" />
-        <mark key="^" line="19" column="1" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Converter.scala" timestamp="1576146704720">
         <mark key="[" line="62" column="64" />
         <mark key="]" line="62" column="71" />
@@ -759,7 +703,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>logger.warn(&quot;Unable to cluster without creating a cycle. No futher attempts will be made.&quot;)</text>
+        <text>logger.warn(&quot;Warning: chosen clustering creates cycle, thus clustering is automatically adjusted.&quot;)</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">bmV3Tm9kZSwg</text>
@@ -768,7 +712,7 @@
         <text>muta</text>
       </register>
       <register name="0" type="4">
-        <text>logger.warn(&quot;Unable to cluster without creating a cycle. No futher attempts will be made.&quot;)</text>
+        <text>logger.warn(&quot;Warning: chosen clustering creates cycle, thus clustering is automatically adjusted.&quot;)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">IAogICAgZGVmIHJlcGxhY2Uob2xkTm9kZTogTiwgbmV3Tm9kZTogTikoaW1wbGljaXQgZWRnZUZhY3Rvcnk6IEVkZ2VDb21wYW5pb25bRV0pOiBVbml0ID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZQogICAgICB0aGlzR3JhcGggKys9IHRoaXNHcmFwaC5nZXQob2xkTm9kZSkub3V0Z29pbmcubWFwKGVkZ2UgPT4gZWRnZUZhY3RvcnkobmV3Tm9kZSwgZWRnZS50YXJnZXQudG9PdXRlcikpCiAgICB9CiAgICAKICAgIGRlZiByZXBsYWNlKHJlcGxhY2VtZW50czogTWFwW04sTl0pOiBVbml0ID0gewogICAgICAKICAgIH0KICAgIA==</text>
