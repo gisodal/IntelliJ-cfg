@@ -33,12 +33,12 @@
         <mark key="." line="16" column="1" />
         <mark key="^" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/DiGraph.scala" timestamp="1576590460986">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/DiGraph.scala" timestamp="1576682985516">
         <mark key="'" line="8" column="0" />
-        <mark key="[" line="77" column="49" />
-        <mark key="]" line="77" column="86" />
-        <mark key="^" line="5" column="14" />
-        <mark key="." line="5" column="14" />
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="76" column="0" />
+        <mark key="^" line="76" column="36" />
+        <mark key="." line="76" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567775359059">
         <mark key="[" line="2" column="0" />
@@ -171,11 +171,12 @@
         <mark key="^" line="133" column="13" />
         <mark key="." line="133" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" timestamp="1576682598738">
-        <mark key="'" line="60" column="7" />
-        <mark key="[" line="109" column="0" />
-        <mark key="]" line="109" column="0" />
-        <mark key="." line="109" column="0" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" timestamp="1576684721813">
+        <mark key="'" line="69" column="7" />
+        <mark key="[" line="183" column="42" />
+        <mark key="]" line="183" column="42" />
+        <mark key="^" line="183" column="19" />
+        <mark key="." line="183" column="42" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1570438529085">
         <mark key="[" line="23" column="2" />
@@ -702,16 +703,18 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIG1lcmdlYWJsZUlucHV0R3JvdXBzOiBMaXN0W1NldFtjbHVzdGVyR3JhcGguTm9kZVRdXSA9IHsKICAgICAgLy8gaW5wdXRzIGFyZSBhbGxvd2VkIHRvIGJlIG1lcmdlIGlmIHRoZXkgYXJlIGZyb20gdGhlIHNhbWUgdXNlciBhbmQgaGF2ZSB0aGUgc2FtZSBzY29wZS4KICAgICAgdmFsIGlucHV0c0J5U2NvcGVCeVVzZXIgPSBjbHVzdGVyR3JhcGgubm9kZXMKICAgICAgICAvLyBnZXQgbm9kZXMgdGhhdCBjb250YWluIGFuIGlucHV0CiAgICAgICAgLmZpbHRlcihfLmNvbnRhaW5zSW5wdXQpCiAgICAgICAgLy8gZ3JvdXAgYnkgc2NvcGUKICAgICAgICAudG9MaXN0Lm1hcChub2RlID0+IG5vZGUuc2NvcGUgLT4gbm9kZSkudG9TZXRNdWx0aU1hcAogICAgICAgIC8vIGdyb3VwIG5vZGVzIGJ5IHVzZXIKICAgICAgICAudHJhbnNmb3JtIHsgY2FzZSAoXywgbm9kZXMpID0+IG5vZGVzCiAgICAgICAgICAuZ3JvdXBCeShub2RlID0+IG5vZGUucmVwcmVzZW50YXRpdmUuZ2V0RnJvbQogICAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IERlc2lnbkV4Y2VwdGlvbigiQ2x1c3RlciByZXByZXNlbnRhdGl2ZSBkb2VzIG5vdCBoYXZlIHJlcXVlc3RlZCBBY3RvciBzeW1ib2wiKSkpCiAgICAgICAgfQoKICAgICAgaW5wdXRzQnlTY29wZUJ5VXNlcgogICAgICAgIC8vIGZsYXR0ZW4gZ3JvdXAgYnkKICAgICAgICAudmFsdWVzLmZsYXRNYXAoXy52YWx1ZXMpLnRvTGlzdAogICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgZ3JvdXBzIHRoYXQgaGF2ZSBtb3JlIHRoYW4gb25lIGlucHV0CiAgICAgICAgLmZpbHRlcihfLnNpemUgPiAxKQogICAgfQo=</text>
+        <text>if (export)
+      exporter.add(dependencyGraph, clusterGraph.toProcessGraph, &quot;Clustering - Parallel inputs&quot;, true)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZGVmIHdpdGhJZChpZDogSWQpOiBDbHVzdGVyID0gQ2x1c3RlcihpZCkodGhpcy5zY29wZSwgdGhpcy5jbHVzdGVyTm9kZXMpIA==</text>
+        <text>.map(_.nodes).getOrElse(List()).toSet - newInnerNode</text>
       </register>
       <register name="/" type="4">
         <text>muta</text>
       </register>
       <register name="0" type="4">
-        <text>def withId(id: Id): Cluster = Cluster(id)(this.scope, this.clusterNodes)</text>
+        <text>if (export)
+      exporter.add(dependencyGraph, clusterGraph.toProcessGraph, &quot;Clustering - Parallel inputs&quot;, true)</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ZGVmIG1lcmdlYWJsZUlucHV0R3JvdXBzOiBMaXN0W1NldFtjbHVzdGVyR3JhcGguTm9kZVRdXSA9IHsKICAgICAgLy8gaW5wdXRzIGFyZSBhbGxvd2VkIHRvIGJlIG1lcmdlIGlmIHRoZXkgYXJlIGZyb20gdGhlIHNhbWUgdXNlciBhbmQgaGF2ZSB0aGUgc2FtZSBzY29wZS4KICAgICAgdmFsIGlucHV0c0J5U2NvcGVCeVVzZXIgPSBjbHVzdGVyR3JhcGgubm9kZXMKICAgICAgICAvLyBnZXQgbm9kZXMgdGhhdCBjb250YWluIGFuIGlucHV0CiAgICAgICAgLmZpbHRlcihfLmNvbnRhaW5zSW5wdXQpCiAgICAgICAgLy8gZ3JvdXAgYnkgc2NvcGUKICAgICAgICAudG9MaXN0Lm1hcChub2RlID0+IG5vZGUuc2NvcGUgLT4gbm9kZSkudG9TZXRNdWx0aU1hcAogICAgICAgIC8vIGdyb3VwIG5vZGVzIGJ5IHVzZXIKICAgICAgICAudHJhbnNmb3JtIHsgY2FzZSAoXywgbm9kZXMpID0+IG5vZGVzCiAgICAgICAgICAuZ3JvdXBCeShub2RlID0+IG5vZGUucmVwcmVzZW50YXRpdmUuZ2V0RnJvbQogICAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IERlc2lnbkV4Y2VwdGlvbigiQ2x1c3RlciByZXByZXNlbnRhdGl2ZSBkb2VzIG5vdCBoYXZlIHJlcXVlc3RlZCBBY3RvciBzeW1ib2wiKSkpCiAgICAgICAgfQoKICAgICAgaW5wdXRzQnlTY29wZUJ5VXNlcgogICAgICAgIC8vIGZsYXR0ZW4gZ3JvdXAgYnkKICAgICAgICAudmFsdWVzLmZsYXRNYXAoXy52YWx1ZXMpLnRvTGlzdAogICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgZ3JvdXBzIHRoYXQgaGF2ZSBtb3JlIHRoYW4gb25lIGlucHV0CiAgICAgICAgLmZpbHRlcihfLnNpemUgPiAxKQogICAgfQo=</text>
