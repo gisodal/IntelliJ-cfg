@@ -171,12 +171,12 @@
         <mark key="^" line="133" column="13" />
         <mark key="." line="133" column="13" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" timestamp="1576665377469">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" timestamp="1576676035190">
         <mark key="'" line="53" column="7" />
-        <mark key="[" line="58" column="22" />
-        <mark key="]" line="58" column="22" />
-        <mark key="^" line="58" column="22" />
-        <mark key="." line="58" column="22" />
+        <mark key="[" line="139" column="46" />
+        <mark key="]" line="139" column="39" />
+        <mark key="." line="139" column="39" />
+        <mark key="^" line="139" column="39" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/legacy/Combiner.scala" timestamp="1570438529085">
         <mark key="[" line="23" column="2" />
@@ -487,7 +487,7 @@
         <mark key="." line="21" column="3" />
         <mark key="^" line="21" column="3" />
       </file>
-      <file name="/sbtShell" timestamp="1576573814661">
+      <file name="/sbtShell" timestamp="1576675973792">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="7" />
         <mark key="." line="0" column="7" />
