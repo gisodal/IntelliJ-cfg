@@ -577,11 +577,11 @@
         <mark key="." line="62" column="71" />
         <mark key="^" line="62" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1576688040320">
-        <mark key="[" line="40" column="15" />
-        <mark key="]" line="40" column="13" />
-        <mark key="^" line="40" column="13" />
-        <mark key="." line="40" column="13" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1576748291464">
+        <mark key="[" line="39" column="41" />
+        <mark key="]" line="39" column="40" />
+        <mark key="^" line="39" column="40" />
+        <mark key="." line="39" column="40" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/BlockDesigner.scala" timestamp="1576687931726">
         <mark key="]" line="20" column="15" />
