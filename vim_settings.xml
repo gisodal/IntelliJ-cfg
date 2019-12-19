@@ -312,12 +312,12 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" timestamp="1576751558567">
-        <mark key="'" line="62" column="14" />
-        <mark key="[" line="124" column="2" />
-        <mark key="]" line="124" column="1" />
-        <mark key="^" line="124" column="1" />
-        <mark key="." line="124" column="1" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" timestamp="1576752240321">
+        <mark key="'" line="63" column="14" />
+        <mark key="[" line="13" column="23" />
+        <mark key="]" line="13" column="22" />
+        <mark key="^" line="13" column="22" />
+        <mark key="." line="13" column="22" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1576588028688">
         <mark key="[" line="51" column="32" />
@@ -475,11 +475,11 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576750574957">
-        <mark key="[" line="51" column="39" />
-        <mark key="]" line="51" column="38" />
-        <mark key="." line="51" column="38" />
-        <mark key="^" line="51" column="38" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576751823092">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="^" line="18" column="1" />
+        <mark key="." line="9" column="0" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/mutable/DiGraph.scala" timestamp="1576590843914">
         <mark key="[" line="16" column="0" />
@@ -719,16 +719,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">b2JqZWN0IEJsb2NrR3JhcGggewogIHR5cGUgRWRnZSA9IERpRWRnZVtCbG9ja0NsdXN0ZXJdIC8vIHRoZSBvdXRlciBlZGdlIHR5cGUKCiAgb2JqZWN0IEVkZ2UgewogICAgZGVmIGFwcGx5KHNvdXJjZTogQmxvY2tDbHVzdGVyLCB0YXJnZXQ6IEJsb2NrQ2x1c3Rlcik6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0KCiAgZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrQ2x1c3Rlcl0pOiBCbG9ja0NsdXN0ZXIuQmxvY2tHcmFwaCA9IGFwcGx5KENsdXN0ZXJTZXQoYmxvY2tzKSkKCiAgZGVmIGFwcGx5KGJsb2NrU2V0OiBDbHVzdGVyU2V0KTogQmxvY2tDbHVzdGVyLkJsb2NrR3JhcGggPSB7CiAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgIHZhbCBncmFwaDogR3JhcGggPSBibG9jay5jb250YWluaW5nR3JhcGggLy8gRklYTUU6IGdyYXBoID09IGNvbnRhaW5pbmdHcmFwaAogICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgLy8gY2hlY2sgaG93IGVhY2ggYmxvY2sgc2hvdWxkIGJlIGNvbm5lY3RlZCB0byB0aGUgb3RoZXJzCiAgICAgIChibG9ja1NldC5ibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgIH0KCiAgICAvLyBjcmVhdGUgZ3JhcGgKICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrU2V0LmJsb2NrcywgZWRnZXMpLnRyYW5zaXRpdmVSZWR1Y3Rpb24KICB9Cn0K</text>
+        <text>.toOuter</text>
       </register>
       <register name="-" type="4">
-        <text>ock(nodes: Iterable[Graph#NodeT], scope: StepScope, kind: Block.Kind) {</text>
+        <text>o</text>
       </register>
       <register name="/" type="4">
         <text>block</text>
       </register>
       <register name="0" type="4">
-        <text>import com.xlrit.gears.generator.util.IterableEnhancements._</text>
+        <text>.toOuter</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">b2JqZWN0IEJsb2NrR3JhcGggewogIHR5cGUgRWRnZSA9IERpRWRnZVtCbG9ja0NsdXN0ZXJdIC8vIHRoZSBvdXRlciBlZGdlIHR5cGUKCiAgb2JqZWN0IEVkZ2UgewogICAgZGVmIGFwcGx5KHNvdXJjZTogQmxvY2tDbHVzdGVyLCB0YXJnZXQ6IEJsb2NrQ2x1c3Rlcik6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0KCiAgZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrQ2x1c3Rlcl0pOiBCbG9ja0NsdXN0ZXIuQmxvY2tHcmFwaCA9IGFwcGx5KENsdXN0ZXJTZXQoYmxvY2tzKSkKCiAgZGVmIGFwcGx5KGJsb2NrU2V0OiBDbHVzdGVyU2V0KTogQmxvY2tDbHVzdGVyLkJsb2NrR3JhcGggPSB7CiAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgIHZhbCBncmFwaDogR3JhcGggPSBibG9jay5jb250YWluaW5nR3JhcGggLy8gRklYTUU6IGdyYXBoID09IGNvbnRhaW5pbmdHcmFwaAogICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgLy8gY2hlY2sgaG93IGVhY2ggYmxvY2sgc2hvdWxkIGJlIGNvbm5lY3RlZCB0byB0aGUgb3RoZXJzCiAgICAgIChibG9ja1NldC5ibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgIH0KCiAgICAvLyBjcmVhdGUgZ3JhcGgKICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrU2V0LmJsb2NrcywgZWRnZXMpLnRyYW5zaXRpdmVSZWR1Y3Rpb24KICB9Cn0K</text>
