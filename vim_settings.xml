@@ -9,17 +9,21 @@
         <mark key="^" line="87" column="55" />
         <mark key="." line="87" column="55" />
       </file>
+      <file name="/a.dummy" timestamp="1576751579924">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/Graph.scala" timestamp="1576687861390">
         <mark key="[" line="67" column="0" />
         <mark key="]" line="67" column="0" />
         <mark key="^" line="73" column="35" />
         <mark key="." line="67" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ProcDesigner.scala" timestamp="1576587197475">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ProcDesigner.scala" timestamp="1576749951279">
         <mark key="'" line="434" column="0" />
-        <mark key="[" line="426" column="0" />
-        <mark key="]" line="426" column="0" />
-        <mark key="." line="426" column="0" />
+        <mark key="[" line="101" column="19" />
+        <mark key="]" line="19" column="50" />
+        <mark key="." line="19" column="50" />
+        <mark key="^" line="19" column="50" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1576144628009">
         <mark key="[" line="14" column="2" />
@@ -33,12 +37,12 @@
         <mark key="." line="16" column="1" />
         <mark key="^" line="16" column="1" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/DiGraph.scala" timestamp="1576682985516">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/DiGraph.scala" timestamp="1576750790489">
         <mark key="'" line="8" column="0" />
-        <mark key="[" line="76" column="0" />
-        <mark key="]" line="76" column="0" />
-        <mark key="^" line="76" column="36" />
-        <mark key="." line="76" column="0" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+        <mark key="^" line="14" column="1" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/Exceptions.scala" timestamp="1567775359059">
         <mark key="[" line="2" column="0" />
@@ -308,6 +312,13 @@
         <mark key="." line="10" column="39" />
         <mark key="^" line="10" column="52" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" timestamp="1576751558567">
+        <mark key="'" line="62" column="14" />
+        <mark key="[" line="124" column="2" />
+        <mark key="]" line="124" column="1" />
+        <mark key="^" line="124" column="1" />
+        <mark key="." line="124" column="1" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/diagram/enrich/ProcessDesign.scala" timestamp="1576588028688">
         <mark key="[" line="51" column="32" />
         <mark key="]" line="51" column="31" />
@@ -422,6 +433,12 @@
         <mark key="." line="103" column="0" />
         <mark key="^" line="97" column="8" />
       </file>
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/ClusterSet.scala" timestamp="1576751437826">
+        <mark key="[" line="0" column="51" />
+        <mark key="]" line="2" column="61" />
+        <mark key="^" line="2" column="61" />
+        <mark key="." line="2" column="61" />
+      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graphverifier/enrich/design/Graph.scala" timestamp="1576588090041">
         <mark key="[" line="22" column="32" />
         <mark key="]" line="22" column="31" />
@@ -458,11 +475,11 @@
         <mark key="." line="15" column="5" />
         <mark key="^" line="15" column="5" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576076334438">
-        <mark key="[" line="22" column="23" />
-        <mark key="]" line="22" column="21" />
-        <mark key="." line="22" column="21" />
-        <mark key="^" line="22" column="21" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" timestamp="1576750574957">
+        <mark key="[" line="51" column="39" />
+        <mark key="]" line="51" column="38" />
+        <mark key="." line="51" column="38" />
+        <mark key="^" line="51" column="38" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/mutable/DiGraph.scala" timestamp="1576590843914">
         <mark key="[" line="16" column="0" />
@@ -577,12 +594,6 @@
         <mark key="." line="62" column="71" />
         <mark key="^" line="62" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Graph.scala" timestamp="1576748291464">
-        <mark key="[" line="39" column="41" />
-        <mark key="]" line="39" column="40" />
-        <mark key="^" line="39" column="40" />
-        <mark key="." line="39" column="40" />
-      </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/BlockDesigner.scala" timestamp="1576687931726">
         <mark key="]" line="20" column="15" />
         <mark key="^" line="20" column="15" />
@@ -600,17 +611,11 @@
         <mark key="." line="4" column="32" />
         <mark key="^" line="4" column="32" />
       </file>
+      <file name="/fragment.java" timestamp="1576751395754">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="48" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="141" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="280" column="92" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="424" column="91" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="438" column="88" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="827" column="71" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="928" column="49" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="87" column="56" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
-      <jump line="123" column="24" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="125" column="62" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="128" column="37" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="26" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Graph.scala" />
@@ -702,34 +707,44 @@
       <jump line="43" column="2" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" />
       <jump line="46" column="19" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" />
       <jump line="56" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ClusterDesigner.scala" />
+      <jump line="9" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="41" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="87" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="70" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="4" column="0" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="15" column="47" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="38" column="6" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="57" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
+      <jump line="62" column="14" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/BlockCluster.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ock(nodes: Iterable[Graph#NodeT], scope: StepScope, kind: Block.Kind) {</text>
+        <text encoding="base64">b2JqZWN0IEJsb2NrR3JhcGggewogIHR5cGUgRWRnZSA9IERpRWRnZVtCbG9ja0NsdXN0ZXJdIC8vIHRoZSBvdXRlciBlZGdlIHR5cGUKCiAgb2JqZWN0IEVkZ2UgewogICAgZGVmIGFwcGx5KHNvdXJjZTogQmxvY2tDbHVzdGVyLCB0YXJnZXQ6IEJsb2NrQ2x1c3Rlcik6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0KCiAgZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrQ2x1c3Rlcl0pOiBCbG9ja0NsdXN0ZXIuQmxvY2tHcmFwaCA9IGFwcGx5KENsdXN0ZXJTZXQoYmxvY2tzKSkKCiAgZGVmIGFwcGx5KGJsb2NrU2V0OiBDbHVzdGVyU2V0KTogQmxvY2tDbHVzdGVyLkJsb2NrR3JhcGggPSB7CiAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgIHZhbCBncmFwaDogR3JhcGggPSBibG9jay5jb250YWluaW5nR3JhcGggLy8gRklYTUU6IGdyYXBoID09IGNvbnRhaW5pbmdHcmFwaAogICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgLy8gY2hlY2sgaG93IGVhY2ggYmxvY2sgc2hvdWxkIGJlIGNvbm5lY3RlZCB0byB0aGUgb3RoZXJzCiAgICAgIChibG9ja1NldC5ibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgIH0KCiAgICAvLyBjcmVhdGUgZ3JhcGgKICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrU2V0LmJsb2NrcywgZWRnZXMpLnRyYW5zaXRpdmVSZWR1Y3Rpb24KICB9Cn0K</text>
       </register>
       <register name="-" type="4">
         <text>ock(nodes: Iterable[Graph#NodeT], scope: StepScope, kind: Block.Kind) {</text>
       </register>
       <register name="/" type="4">
-        <text>muta</text>
+        <text>block</text>
       </register>
       <register name="0" type="4">
-        <text>clusterGraph</text>
+        <text>import com.xlrit.gears.generator.util.IterableEnhancements._</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdmFsIGNsdXN0ZXJHcmFwaDogR3JhcGggPSBub2Rlcy5oZWFkLmNvbnRhaW5pbmdHcmFwaC5hc0luc3RhbmNlT2ZbR3JhcGhdCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">b2JqZWN0IEJsb2NrR3JhcGggewogIHR5cGUgRWRnZSA9IERpRWRnZVtCbG9ja0NsdXN0ZXJdIC8vIHRoZSBvdXRlciBlZGdlIHR5cGUKCiAgb2JqZWN0IEVkZ2UgewogICAgZGVmIGFwcGx5KHNvdXJjZTogQmxvY2tDbHVzdGVyLCB0YXJnZXQ6IEJsb2NrQ2x1c3Rlcik6IEVkZ2UgPSBuZXcgRGlFZGdlKHNvdXJjZSwgdGFyZ2V0KQogIH0KCiAgZGVmIGFwcGx5KGJsb2NrczogU2V0W0Jsb2NrQ2x1c3Rlcl0pOiBCbG9ja0NsdXN0ZXIuQmxvY2tHcmFwaCA9IGFwcGx5KENsdXN0ZXJTZXQoYmxvY2tzKSkKCiAgZGVmIGFwcGx5KGJsb2NrU2V0OiBDbHVzdGVyU2V0KTogQmxvY2tDbHVzdGVyLkJsb2NrR3JhcGggPSB7CiAgICB2YWwgZWRnZXMgPSBibG9ja1NldC5ibG9ja3MuZmxhdE1hcCB7IGJsb2NrID0+CiAgICAgIHZhbCBncmFwaDogR3JhcGggPSBibG9jay5jb250YWluaW5nR3JhcGggLy8gRklYTUU6IGdyYXBoID09IGNvbnRhaW5pbmdHcmFwaAogICAgICB2YWwgYW5jZXN0b3JzID0gZ3JhcGgKICAgICAgICAvLyBnZXQgYW5jZXN0b3JzIG9mIGEgZ3JvdXAgb2Ygbm9kZXMKICAgICAgICAuYW5jZXN0b3JzT2YoYmxvY2subm9kZXMubWFwKF8uYXNJbnN0YW5jZU9mW2dyYXBoLk5vZGVUXSkpCiAgICAgICAgLy8gY29udmVydCB0byBnZW5lcmljIGRlc2lnbiBub2RlcwogICAgICAgIC5tYXAoXy5hc0luc3RhbmNlT2ZbR3JhcGgjTm9kZVRdKQoKICAgICAgLy8gY2hlY2sgaG93IGVhY2ggYmxvY2sgc2hvdWxkIGJlIGNvbm5lY3RlZCB0byB0aGUgb3RoZXJzCiAgICAgIChibG9ja1NldC5ibG9ja3MgLSBibG9jaykuY29sbGVjdCB7IGNhc2Ugb3RoZXJCbG9jayBpZiBvdGhlckJsb2NrLm5vZGVzLmV4aXN0cyhhbmNlc3RvcnMuY29udGFpbnMpID0+IEVkZ2Uob3RoZXJCbG9jaywgYmxvY2spIH0KICAgIH0KCiAgICAvLyBjcmVhdGUgZ3JhcGgKICAgIHNjYWxheC5jb2xsZWN0aW9uLmltbXV0YWJsZS5HcmFwaC5mcm9tKGJsb2NrU2V0LmJsb2NrcywgZWRnZXMpLnRyYW5zaXRpdmVSZWR1Y3Rpb24KICB9Cn0K</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ZGVmIG1lcmdlYWJsZUlucHV0R3JvdXBzOiBMaXN0W1NldFtjbHVzdGVyR3JhcGguTm9kZVRdXSA9IHsKICAgICAgLy8gaW5wdXRzIGFyZSBhbGxvd2VkIHRvIGJlIG1lcmdlIGlmIHRoZXkgYXJlIGZyb20gdGhlIHNhbWUgdXNlciBhbmQgaGF2ZSB0aGUgc2FtZSBzY29wZS4KICAgICAgdmFsIGlucHV0c0J5U2NvcGVCeVVzZXIgPSBjbHVzdGVyR3JhcGgubm9kZXMKICAgICAgICAvLyBnZXQgbm9kZXMgdGhhdCBjb250YWluIGFuIGlucHV0CiAgICAgICAgLmZpbHRlcihfLmNvbnRhaW5zSW5wdXQpCiAgICAgICAgLy8gZ3JvdXAgYnkgc2NvcGUKICAgICAgICAudG9MaXN0Lm1hcChub2RlID0+IG5vZGUuc2NvcGUgLT4gbm9kZSkudG9TZXRNdWx0aU1hcAogICAgICAgIC8vIGdyb3VwIG5vZGVzIGJ5IHVzZXIKICAgICAgICAudHJhbnNmb3JtIHsgY2FzZSAoXywgbm9kZXMpID0+IG5vZGVzCiAgICAgICAgICAuZ3JvdXBCeShub2RlID0+IG5vZGUucmVwcmVzZW50YXRpdmUuZ2V0RnJvbQogICAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IERlc2lnbkV4Y2VwdGlvbigiQ2x1c3RlciByZXByZXNlbnRhdGl2ZSBkb2VzIG5vdCBoYXZlIHJlcXVlc3RlZCBBY3RvciBzeW1ib2wiKSkpCiAgICAgICAgfQoKICAgICAgaW5wdXRzQnlTY29wZUJ5VXNlcgogICAgICAgIC8vIGZsYXR0ZW4gZ3JvdXAgYnkKICAgICAgICAudmFsdWVzLmZsYXRNYXAoXy52YWx1ZXMpLnRvTGlzdAogICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgZ3JvdXBzIHRoYXQgaGF2ZSBtb3JlIHRoYW4gb25lIGlucHV0CiAgICAgICAgLmZpbHRlcihfLnNpemUgPiAxKQogICAgfQo=</text>
+        <text encoding="base64">aW1wbGljaXQgZmluYWwgY2xhc3MgUmljaEJsb2NrR3JhcGgodmFsIGJsb2NrR3JhcGg6IEJsb2NrQ2x1c3Rlci5CbG9ja0dyYXBoKSBleHRlbmRzIEFueVZhbCB7CiAgZGVmIGNvbWJpbmVkQmxvY2tzOiBMaXN0W0Jsb2NrU2V0XSA9IHsKICAgIC8vIGNvbWJpbmUgYmxvY2tzIHdpdGggYSBzaW1wbGUgYnJlYXRoLWZpcnN0IHRyYXZlcnNlLiBFYWNoIGZyb250aWVyIGZvcm1zIGEgY29tYmluZWQgYmxvY2sgc2V0LgogICAgZGVmIGNvbWJpbmUoZnJvbnRpZXI6IFNldFtibG9ja0dyYXBoLk5vZGVUXSwgdHJhdmVyc2VkOiBtdXRhYmxlLlNldFtibG9ja0dyYXBoLk5vZGVUXSk6IExpc3RbQmxvY2tTZXRdID0gewogICAgICB2YWwgY2FuZGlkYXRlcyA9IGZyb250aWVyCiAgICAgICAgLy8gcmVtb3ZlIG5vZGVzIG9mIHdoaWNoIHRoZSBwcmVkZWNlc3NvcnMgaGF2ZSBub3QgYmVlbiB0cmF2ZXJzZWQKICAgICAgICAuZmlsdGVyKF8uZGlQcmVkZWNlc3NvcnMuZm9yYWxsKHRyYXZlcnNlZC5jb250YWlucykpCgogICAgICBpZiAoY2FuZGlkYXRlcy5pc0VtcHR5KQogICAgICAgIE5pbAogICAgICBlbHNlIHsKICAgICAgICB0cmF2ZXJzZWQgKys9IGNhbmRpZGF0ZXMKICAgICAgICBCbG9ja1NldChjYW5kaWRhdGVzLm1hcChfLnRvT3V0ZXIpKSA6OiBjb21iaW5lKGNhbmRpZGF0ZXMuZmxhdE1hcChfLmRpU3VjY2Vzc29ycyksIHRyYXZlcnNlZCkKICAgICAgfQogICAgfQogICAgdmFsIGNvbWJpbmVkQmxvY2tzID0gY29tYmluZShibG9ja0dyYXBoLnJvb3RzLG11dGFibGUuU2V0LmVtcHR5KQoKICAgIC8vIHBvc3Rjb25kaXRpb25zCiAgICBhc3NlcnQoY29tYmluZWRCbG9ja3MuZmxhdE1hcChfLmJsb2Nrcy50b0xpc3QpLmR1cGxpY2F0ZXMuaXNFbXB0eSwgIkNvbWJpbmVkIGJsb2NrcyBjb250YWluIGR1cGxpY2F0ZXMiKQogICAgYXNzZXJ0KGJsb2NrR3JhcGgubm9kZXMudG9PdXRlciA9PSBjb21iaW5lZEJsb2Nrcy5mbGF0TWFwKF8uYmxvY2tzKS50b1NldCwgIkNvbWJpbmVkIGJsb2NrcyBkbyBub3QgY292ZXIgaW5wdXQgYmxvY2tzIikKICAgIGNvbWJpbmVkQmxvY2tzCiAgfQoKfQo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ZGVmIG1lcmdlTmVpZ2hib3JpbmdJbnB1dHMoKTogVW5pdCA9IHsKICAgICAgbWVyZ2VhYmxlSW5wdXRHcm91cHMuZm9yZWFjaCB7IGlucHV0cyA9PgogICAgICAgIC8vIGNvbWJpbmUgaW5wdXRzIHRoYXQgYXJlIG5laWdoYm9ycyBpbnRvIHNldHMKICAgICAgICB2YWwgaW5wdXRzTmVpZ2hib3JzID0gaW5wdXRzLmZsYXRNYXAgeyBpbnB1dCA9PiBpbnB1dC5uZWlnaGJvcnMuaW50ZXJzZWN0KGlucHV0cykubWFwKG90aGVySW5wdXQgPT4gU2V0KGlucHV0LCBvdGhlcklucHV0KSkgfQogICAgICAgIHZhbCBtZXJnZUlucHV0R3JvdXBzID0gaW5wdXRzTmVpZ2hib3JzLmZvbGRMZWZ0KFNldC5lbXB0eVtTZXRbY2x1c3RlckdyYXBoLk5vZGVUXV0pIHsgKGN1bSwgY3VyKSA9PgogICAgICAgICAgdmFsIChoYXNDb21tb24sIHJlc3QpID0gY3VtLnBhcnRpdGlvbihfICYgY3VyIG5vbkVtcHR5KQogICAgICAgICAgcmVzdCArIChjdXIgKysgaGFzQ29tbW9uLmZsYXR0ZW4pCiAgICAgICAgfS5tYXAoXy50b0xpc3QpCgogICAgICAgIC8vIG1lcmdlIGlucHV0IG5laWdoYm9ycwogICAgICAgIG1lcmdlSW5wdXRHcm91cHMuZm9yZWFjaChpbnB1dHMgPT4gbWVyZ2VDbHVzdGVyKGlucHV0cykpCiAgICAgIH0KCiAgICAgIGNsdXN0ZXJHcmFwaC50cmFuc2l0aXZlUmVkdWN0aW9uKCkKICAgICAgYXNzZXJ0KG1lcmdlYWJsZUlucHV0R3JvdXBzLmZvcmFsbCB7IGlucHV0cyA9PiBpbnB1dHMuZm9yYWxsIHsgaW5wdXQgPT4gaW5wdXQubmVpZ2hib3JzLmludGVyc2VjdChpbnB1dHMpLmlzRW1wdHkgfSB9LAogICAgICAgICJ0aGVyZSBhcmUgaW5wdXRzIHRoYXQgYXJlIG5laWdoYm9ycyB0aGF0IGhhdmUgbm90IGJlZW4gY2x1c3RlcmVkIikKICAgIH0K</text>
+        <text>// a block graph
+type BlockGraph = scalax.collection.immutable.Graph[BlockCluster, DiEdge]</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">IAogICAgZGVmIHJlcGxhY2Uob2xkTm9kZTogTiwgbmV3Tm9kZTogTikoaW1wbGljaXQgZWRnZUZhY3Rvcnk6IEVkZ2VDb21wYW5pb25bRV0pOiBVbml0ID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZQogICAgICB0aGlzR3JhcGggKys9IHRoaXNHcmFwaC5nZXQob2xkTm9kZSkub3V0Z29pbmcubWFwKGVkZ2UgPT4gZWRnZUZhY3RvcnkobmV3Tm9kZSwgZWRnZS50YXJnZXQudG9PdXRlcikpCiAgICB9CiAgICAKICAgIGRlZiByZXBsYWNlKHJlcGxhY2VtZW50czogTWFwW04sTl0pOiBVbml0ID0gewogICAgICAKICAgIH0KICAgIA==</text>
+        <text encoding="base64">ZGVmIGdldChub2RlczogSXRlcmFibGVbR2VuR3JhcGhbTixfXSNOb2RlVF0pOiBTZXRbTm9kZVRdID0gCiAgICBub2Rlcy5tYXAobm9kZSA9PiB0aGlzR3JhcGguZ2V0KG5vZGUudG9PdXRlcikpLnRvU2V0CiAg</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">Ly8gcGVyZm9ybSBjbHVzdGVyaW5nLiBQYXJ0aXRpb24gYSBjbHVzdGVyIHdoZW4gaXQgY2F1c2VzIGEgY3ljbGUgdG8gcHJldmVudCB0aGlzIGZyb20gaGFwcGVuaW5nLgogICAgZGVmIG1lcmdlQ2x1c3RlcihjbHVzdGVyOiBJdGVyYWJsZVtjbHVzdGVyR3JhcGguTm9kZVRdKSA9IHsKICAgICAgY2x1c3RlckdyYXBoLm1lcmdlKGNsdXN0ZXIpCiAgICAgIC8vY2x1c3RlckdyYXBoLmdldENsdXN0ZXJJbmhpYml0b3JzKGNsdXN0ZXIpIG1hdGNoIHsKICAgICAgLy8gIGNhc2UgU29tZShpbmhpYml0b3JzKSA9PgogICAgICAvLyAgICB2YWwgaW5oaWJpdG9yRGVzY2VuZGFudHMgPSBpbmhpYml0b3JzLmZsYXRNYXAobm9kZSA9PiBub2RlLmRlc2NlbmRhbnRzKS50b1NldCAtLSBpbmhpYml0b3JzCiAgICAgIC8vICAgIHZhbCAoaW5oaWJpdGVkLCBub25pbmhpYml0ZWQpID0gY2x1c3Rlci5wYXJ0aXRpb24oaW5oaWJpdG9yRGVzY2VuZGFudHMuY29udGFpbnMpCiAgICAgIC8vICAgIHZhbCBjbHVzdGVycyA9IExpc3QoaW5oaWJpdGVkLCBub25pbmhpYml0ZWQpCgogICAgICAvLyAgICBjbHVzdGVycy5mb3JlYWNoIHsgY2x1c3RlciA9PgogICAgICAvLyAgICAgIGNsdXN0ZXJHcmFwaC50cnlNZXJnZShjbHVzdGVyKSBtYXRjaCB7CiAgICAgIC8vICAgICAgICBjYXNlIEZhaWx1cmUoZXgpID0+IGxvZ2dlci53YXJuKCJVbmFibGUgdG8gY2x1c3RlciB3aXRob3V0IGNyZWF0aW5nIGEgY3ljbGUuIE5vIGZ1dGhlciBhdHRlbXB0cyB3aWxsIGJlIG1hZGUuIikKICAgICAgLy8gICAgICAgIGNhc2UgU3VjY2VzcyhfKSA9PiBjbHVzdGVyR3JhcGgubWVyZ2UoY2x1c3RlcikKICAgICAgLy8gICAgICB9CiAgICAgIC8vICAgIH0KCiAgICAgIC8vICBjYXNlIE5vbmUgPT4KICAgICAgLy8gICAgY2x1c3RlckdyYXBoLm1lcmdlKGNsdXN0ZXIpCiAgICAgIC8vfQogICAgfQoKICAgIGRlZiBtZXJnZUNsdXN0ZXJzKGNsdXN0ZXJzOiBJdGVyYWJsZVtJdGVyYWJsZVtjbHVzdGVyR3JhcGguTm9kZVRdXSk6IFVuaXQgPSB7CiAgICAgIGNsdXN0ZXJzLmZvcmVhY2ggeyBjbHVzdGVyID0+IG1lcmdlQ2x1c3RlcihjbHVzdGVyKSB9CiAgICB9Cg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">b2JqZWN0IEJsb2NrQ2x1c3RlciB7Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -741,26 +756,26 @@
           <key char="65535" code="81" mods="130" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZGVmIGNsdXN0ZXJCeUlucHV0KCk6IFVuaXQgPSB7CiAgICAgIGFzc2VydChjbHVzdGVyR3JhcGgubm9kZXMuZm9yYWxsKG5vZGUgPT4gIW5vZGUuY29udGFpbnNJbnB1dCB8fCBub2RlLnNpemUgPT0gMSksCiAgICAgICAgIklucHV0IGNsdXN0ZXJpbmcgY2FuIG9ubHkgYmUgcGVyZm9ybWVkIHdoZW4gaW5wdXQgY2x1c3RlcnMgY29udGFpbiBvbmx5IG9uZSBpbnB1dC4iKQogICAgICBhc3NlcnQoY2x1c3RlckdyYXBoLm5vZGVzLmZvcmFsbChub2RlID0+ICFub2RlLmNvbnRhaW5zSW5wdXQgfHwgbm9kZS5yZXByZXNlbnRhdGl2ZS5nZXRGcm9tLm5vbkVtcHR5KSwKICAgICAgICAiQW4gaW5wdXQgY2x1c3RlciByZXByZXNlbnRhdGl2ZSBkb2VzIG5vdCBoYXZlIGEgZnJvbSBmaWVsZC4iKQoKICAgICAgZGVmIG1lcmdlYWJsZUlucHV0R3JvdXBzOiBMaXN0W1NldFtjbHVzdGVyR3JhcGguTm9kZVRdXSA9IHsKICAgICAgICAvLyBpbnB1dHMgYXJlIGFsbG93ZWQgdG8gYmUgbWVyZ2UgaWYgdGhleSBhcmUgZnJvbSB0aGUgc2FtZSB1c2VyIGFuZCBoYXZlIHRoZSBzYW1lIHNjb3BlLgogICAgICAgIHZhbCBpbnB1dHNCeVNjb3BlQnlVc2VyID0gY2x1c3RlckdyYXBoLm5vZGVzCiAgICAgICAgICAvLyBnZXQgbm9kZXMgdGhhdCBjb250YWluIGFuIGlucHV0CiAgICAgICAgICAuZmlsdGVyKF8uY29udGFpbnNJbnB1dCkKICAgICAgICAgIC8vIGdyb3VwIGJ5IHNjb3BlCiAgICAgICAgICAudG9MaXN0Lm1hcChub2RlID0+IG5vZGUuc2NvcGUgLT4gbm9kZSkudG9TZXRNdWx0aU1hcAogICAgICAgICAgLy8gZ3JvdXAgbm9kZXMgYnkgdXNlcgogICAgICAgICAgLnRyYW5zZm9ybSB7IGNhc2UgKF8sIG5vZGVzKSA9PiBub2RlcwogICAgICAgICAgICAuZ3JvdXBCeShub2RlID0+IG5vZGUucmVwcmVzZW50YXRpdmUuZ2V0RnJvbQogICAgICAgICAgICAgIC5nZXRPckVsc2UodGhyb3cgRGVzaWduRXhjZXB0aW9uKCJDbHVzdGVyIHJlcHJlc2VudGF0aXZlIGRvZXMgbm90IGhhdmUgcmVxdWVzdGVkIEFjdG9yIHN5bWJvbCIpKSkKICAgICAgICAgIH0KCiAgICAgICAgaW5wdXRzQnlTY29wZUJ5VXNlcgogICAgICAgICAgLy8gZmxhdHRlbiBncm91cCBieQogICAgICAgICAgLnZhbHVlcy5mbGF0TWFwKF8udmFsdWVzKS50b0xpc3QKICAgICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgZ3JvdXBzIHRoYXQgaGF2ZSBtb3JlIHRoYW4gb25lIGlucHV0CiAgICAgICAgICAuZmlsdGVyKF8uc2l6ZSA+IDEpCiAgICAgIH0KCiAgICAgIGRlZiBjcmVhdGVJbnB1dEdyYXBoKGlucHV0czogU2V0W2NsdXN0ZXJHcmFwaC5Ob2RlVF0pID0gewogICAgICAgIGRlZiBpbnB1dEVkZ2VzKGlucHV0czogU2V0W2NsdXN0ZXJHcmFwaC5Ob2RlVF0pOiBMaXN0W2Rlc2lnbi5HcmFwaC5FZGdlXSA9IHsKICAgICAgICAgIC8vIGlkZW50aWZ5IHRyYW5zaXRpdmUgZWRnZXMgYmV0d2VlbiBpbnB1dHMKICAgICAgICAgIHZhbCBjb25uZWN0aW9ucyA9IGlucHV0cy50b0xpc3QuY29tYmluYXRpb25zKDIpLnRvTGlzdAogICAgICAgICAgdmFsIGVkZ2VzVG8gPSBjb25uZWN0aW9ucy5jb2xsZWN0IHsgY2FzZSBTZXEoaW5wdXQxLCBpbnB1dDIpIGlmIGlucHV0MS5wYXRoVG8oaW5wdXQyKS5ub25FbXB0eSA9PiAoaW5wdXQxLGlucHV0MikgfQogICAgICAgICAgdmFsIGVkZ2VzRnJvbSA9IGNvbm5lY3Rpb25zLmNvbGxlY3QgeyBjYXNlIFNlcShpbnB1dDEsIGlucHV0MikgaWYgaW5wdXQyLnBhdGhUbyhpbnB1dDEpLm5vbkVtcHR5ID0+IChpbnB1dDIsaW5wdXQxKSB9CiAgICAgICAgICB2YWwgZWRnZXMgPSB7IGVkZ2VzVG8gKysgZWRnZXNGcm9tIH0ubWFwIHsgY2FzZSAoZnJvbSwgdG8pID0+IChmcm9tLnRvT3V0ZXIuZGVlcENvcHksIHRvLnRvT3V0ZXIuZGVlcENvcHkpIH0KCiAgICAgICAgICAvLyBjb252ZXJ0IHRvIGVkZ2VzCiAgICAgICAgICBlZGdlcy5tYXAgeyBjYXNlIChmcm9tLCB0bykgPT4gZGVzaWduLkdyYXBoLkVkZ2UoZnJvbSwgdG8sIExhYmVsLk5vbmUpIH0KICAgICAgICB9CgogICAgICAgIC8vIGNyZWF0ZSBpbnB1dCBncmFwaCBiYXNlZCBvbiB0cmFuc2l0aXZlIHJlbGF0aW9ucyBiZXR3ZWVuIGlucHV0cwogICAgICAgIHZhbCBpbnB1dE5vZGVzID0gaW5wdXRzLm1hcChfLnRvT3V0ZXIuZGVlcENvcHkpCiAgICAgICAgdmFsIGlucHV0R3JhcGggPSBkZXNpZ24uR3JhcGgoaW5wdXROb2RlcywgaW5wdXRFZGdlcyhpbnB1dHMpKQogICAgICAgIGlucHV0R3JhcGgudHJhbnNpdGl2ZVJlZHVjdGlvbigpCgogICAgICAgIGFzc2VydChpbnB1dEdyYXBoLmZpbmRDeWNsZS5pc0VtcHR5LCAiVGhlcmUgaXMgYSBjeWNsZSBpbiB0aGUgaW5kdWNlZCB0cmFuc2l0aXZlIGlucHV0IGdyYXBoLiIpCiAgICAgICAgaW5wdXRHcmFwaAogICAgICB9CgogICAgICBkZWYgbWVyZ2VOZWlnaGJvcmluZ0lucHV0cygpOiBVbml0ID0gewogICAgICAgIG1lcmdlYWJsZUlucHV0R3JvdXBzLmZvcmVhY2ggeyBpbnB1dHMgPT4KICAgICAgICAgIC8vIGNvbWJpbmUgaW5wdXRzIHRoYXQgYXJlIG5laWdoYm9ycyBpbnRvIHNldHMKICAgICAgICAgIHZhbCBpbnB1dHNOZWlnaGJvcnMgPSBpbnB1dHMuZmxhdE1hcCB7IGlucHV0ID0+IGlucHV0Lm5laWdoYm9ycy5pbnRlcnNlY3QoaW5wdXRzKS5tYXAob3RoZXJJbnB1dCA9PiBTZXQoaW5wdXQsIG90aGVySW5wdXQpKSB9CiAgICAgICAgICB2YWwgbWVyZ2VJbnB1dEdyb3VwcyA9IGlucHV0c05laWdoYm9ycy5mb2xkTGVmdChTZXQuZW1wdHlbU2V0W2NsdXN0ZXJHcmFwaC5Ob2RlVF1dKSB7IChjdW0sIGN1cikgPT4KICAgICAgICAgICAgdmFsIChoYXNDb21tb24sIHJlc3QpID0gY3VtLnBhcnRpdGlvbihfICYgY3VyIG5vbkVtcHR5KQogICAgICAgICAgICByZXN0ICsgKGN1ciArKyBoYXNDb21tb24uZmxhdHRlbikKICAgICAgICAgIH0ubWFwKF8udG9MaXN0KQoKICAgICAgICAgIC8vIG1lcmdlIGlucHV0IG5laWdoYm9ycwogICAgICAgICAgbWVyZ2VJbnB1dEdyb3Vwcy5mb3JlYWNoKGlucHV0cyA9PiBtZXJnZUNsdXN0ZXIoaW5wdXRzKSkKICAgICAgICB9CgogICAgICAgIGNsdXN0ZXJHcmFwaC50cmFuc2l0aXZlUmVkdWN0aW9uKCkKICAgICAgICBhc3NlcnQobWVyZ2VhYmxlSW5wdXRHcm91cHMuZm9yYWxsIHsgaW5wdXRzID0+IGlucHV0cy5mb3JhbGwgeyBpbnB1dCA9PiBpbnB1dC5uZWlnaGJvcnMuaW50ZXJzZWN0KGlucHV0cykuaXNFbXB0eSB9IH0sCiAgICAgICAgICAidGhlcmUgYXJlIGlucHV0cyB0aGF0IGFyZSBuZWlnaGJvcnMgdGhhdCBoYXZlIG5vdCBiZWVuIGNsdXN0ZXJlZCIpCiAgICAgIH0KCiAgICAgIGRlZiBtZXJnZVBhcmFsbGVsSW5wdXRzKCk6IFVuaXQgPSB7CiAgICAgICAgZGVmIGNyZWF0ZU1lcmdlR3JvdXBzKGlucHV0R3JhcGg6IGRlc2lnbi5HcmFwaCkgPSB7CiAgICAgICAgICBkZWYgdHJhdmVyc2UoZnJvbnRpZXI6IFNldFtpbnB1dEdyYXBoLk5vZGVUXSwgdHJhdmVyc2VkOiBzY2FsYS5jb2xsZWN0aW9uLm11dGFibGUuU2V0W2Rlc2lnbi5HcmFwaCNOb2RlVF0gPSBtdXRhYmxlLlNldC5lbXB0eVtkZXNpZ24uR3JhcGgjTm9kZVRdKTogTGlzdFtTZXRbaW5wdXRHcmFwaC5Ob2RlVF1dID0gewogICAgICAgICAgICBpZiAoZnJvbnRpZXIuaXNFbXB0eSkKICAgICAgICAgICAgICBOaWwKICAgICAgICAgICAgZWxzZSB7CiAgICAgICAgICAgICAgdHJhdmVyc2VkICsrPSBmcm9udGllcgogICAgICAgICAgICAgIHZhbCBuZXh0RnJvbnRpZXIgPSBmcm9udGllci5mbGF0TWFwKF8uZGlTdWNjZXNzb3JzKQogICAgICAgICAgICAgICAgLmZpbHRlcihub2RlID0+IG5vZGUuZGlQcmVkZWNlc3NvcnMuZm9yYWxsKHRyYXZlcnNlZC5jb250YWlucykgJiYgIXRyYXZlcnNlZC5jb250YWlucyhub2RlKSkKCiAgICAgICAgICAgICAgZnJvbnRpZXIgOjogdHJhdmVyc2UobmV4dEZyb250aWVyLCB0cmF2ZXJzZWQpCiAgICAgICAgICAgIH0KICAgICAgICAgIH0KCiAgICAgICAgICB0cmF2ZXJzZShpbnB1dEdyYXBoLnJvb3RzKQogICAgICAgIH0KCiAgICAgICAgLy8gbWVyZ2UgcGFyYWxsZWwgaW5wdXRzCiAgICAgICAgbWVyZ2VhYmxlSW5wdXRHcm91cHMuZm9yZWFjaCB7IGlucHV0cyA9PgogICAgICAgICAgdmFsIGlucHV0R3JhcGg6IGRlc2lnbi5HcmFwaCA9IGNyZWF0ZUlucHV0R3JhcGgoaW5wdXRzKQogICAgICAgICAgdmFsIG1lcmdlR3JvdXBzID0gY3JlYXRlTWVyZ2VHcm91cHMoaW5wdXRHcmFwaCkKICAgICAgICAgIHZhbCBjb252ZXJ0ZWRNZXJnZUdyb3VwcyA9IG1lcmdlR3JvdXBzLm1hcChpbnB1dHMgPT4gaW5wdXRzLnRvTm9kZXNPZihjbHVzdGVyR3JhcGgpKQoKICAgICAgICAgIG1lcmdlQ2x1c3RlcnMoY29udmVydGVkTWVyZ2VHcm91cHMpCiAgICAgICAgfQogICAgICAgIGNsdXN0ZXJHcmFwaC50cmFuc2l0aXZlUmVkdWN0aW9uKCkKICAgICAgfQoKICAgICAgbWVyZ2VOZWlnaGJvcmluZ0lucHV0cygpCiAgICAgIGlmIChleHBvcnQpCiAgICAgICAgZXhwb3J0ZXIuYWRkKGRlcGVuZGVuY3lHcmFwaCwgY2x1c3RlckdyYXBoLnRvUHJvY2Vzc0dyYXBoLCAiQ2x1c3RlcmluZyAtIE5laWdoYm9yaW5nIGlucHV0cyIsIHRydWUpCgogICAgICBtZXJnZVBhcmFsbGVsSW5wdXRzKCkKICAgICAgaWYgKGV4cG9ydCkKICAgICAgICBleHBvcnRlci5hZGQoZGVwZW5kZW5jeUdyYXBoLCBjbHVzdGVyR3JhcGgudG9Qcm9jZXNzR3JhcGgsICJDbHVzdGVyaW5nIC0gUGFyYWxsZWwgaW5wdXRzIiwgdHJ1ZSkKICAgIH0K</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgdmFsIGNsdXN0ZXJHcmFwaDogR3JhcGggPSBub2Rlcy5oZWFkLmNvbnRhaW5pbmdHcmFwaC5hc0luc3RhbmNlT2ZbR3JhcGhdCg==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ZGVmIGNoZWNrUG9zdGNvbmRpdGlvbnMocHJvY2Vzc0dyYXBoOiBkZXNpZ24uR3JhcGgpOiBVbml0ID0gewogICAgdmFsIG1zZyA9ICJQcm9jZXNzIGRlc2lnbiBwb3N0Y29uZGl0aW9uIGZhaWxlZDogIgogICAgdHJ5IHsKICAgICAgcHJvY2Vzc0dyYXBoLnZlcmlmeSgpCiAgICB9IGNhdGNoIHsKICAgICAgY2FzZSBlOiBEZXNpZ25FeGNlcHRpb24gPT4KICAgICAgICB1dGlsLkV4cG9ydChkZXBlbmRlbmN5R3JhcGgsIHByb2Nlc3NHcmFwaCwgInZlcmlmeSIsICJmYWlsZWQiKQogICAgICAgIHRocm93IERlc2lnbkV4Y2VwdGlvbihzIiRtc2c6ICR7ZS5nZXRNZXNzYWdlfVxuQ3VycmVudCBwcm9jZXNzIGRlc2lnbiB3cml0dGVuIHRvICd0YXJnZXQvdmVyaWZ5JyIsIGUpCiAgICB9CiAgfQ==</text>
+        <text encoding="base64">ZGVmIG1lcmdlYWJsZUlucHV0R3JvdXBzOiBMaXN0W1NldFtjbHVzdGVyR3JhcGguTm9kZVRdXSA9IHsKICAgICAgLy8gaW5wdXRzIGFyZSBhbGxvd2VkIHRvIGJlIG1lcmdlIGlmIHRoZXkgYXJlIGZyb20gdGhlIHNhbWUgdXNlciBhbmQgaGF2ZSB0aGUgc2FtZSBzY29wZS4KICAgICAgdmFsIGlucHV0c0J5U2NvcGVCeVVzZXIgPSBjbHVzdGVyR3JhcGgubm9kZXMKICAgICAgICAvLyBnZXQgbm9kZXMgdGhhdCBjb250YWluIGFuIGlucHV0CiAgICAgICAgLmZpbHRlcihfLmNvbnRhaW5zSW5wdXQpCiAgICAgICAgLy8gZ3JvdXAgYnkgc2NvcGUKICAgICAgICAudG9MaXN0Lm1hcChub2RlID0+IG5vZGUuc2NvcGUgLT4gbm9kZSkudG9TZXRNdWx0aU1hcAogICAgICAgIC8vIGdyb3VwIG5vZGVzIGJ5IHVzZXIKICAgICAgICAudHJhbnNmb3JtIHsgY2FzZSAoXywgbm9kZXMpID0+IG5vZGVzCiAgICAgICAgICAuZ3JvdXBCeShub2RlID0+IG5vZGUucmVwcmVzZW50YXRpdmUuZ2V0RnJvbQogICAgICAgICAgICAuZ2V0T3JFbHNlKHRocm93IERlc2lnbkV4Y2VwdGlvbigiQ2x1c3RlciByZXByZXNlbnRhdGl2ZSBkb2VzIG5vdCBoYXZlIHJlcXVlc3RlZCBBY3RvciBzeW1ib2wiKSkpCiAgICAgICAgfQoKICAgICAgaW5wdXRzQnlTY29wZUJ5VXNlcgogICAgICAgIC8vIGZsYXR0ZW4gZ3JvdXAgYnkKICAgICAgICAudmFsdWVzLmZsYXRNYXAoXy52YWx1ZXMpLnRvTGlzdAogICAgICAgIC8vIHNlbGVjdCBpbnB1dHMgZ3JvdXBzIHRoYXQgaGF2ZSBtb3JlIHRoYW4gb25lIGlucHV0CiAgICAgICAgLmZpbHRlcihfLnNpemUgPiAxKQogICAgfQo=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">aWYgKHBlcmZvcm1DbHVzdGVyaW5nKSB7CiAgICAgIGNsdXN0ZXIoY2x1c3RlckdyYXBoKQogICAgICBpZiAoZXhwb3J0KQogICAgICAgIGV4cG9ydGVyLmFkZChkZXBlbmRlbmN5R3JhcGgsIGNsdXN0ZXJHcmFwaC50b1Byb2Nlc3NHcmFwaCwgIkNsdXN0ZXJpbmcgLSBCZWhhdmlvcnMgYW5kIGZvcmVhY2giLCB0cnVlKQogICAgfQo=</text>
+        <text encoding="base64">ZGVmIG1lcmdlTmVpZ2hib3JpbmdJbnB1dHMoKTogVW5pdCA9IHsKICAgICAgbWVyZ2VhYmxlSW5wdXRHcm91cHMuZm9yZWFjaCB7IGlucHV0cyA9PgogICAgICAgIC8vIGNvbWJpbmUgaW5wdXRzIHRoYXQgYXJlIG5laWdoYm9ycyBpbnRvIHNldHMKICAgICAgICB2YWwgaW5wdXRzTmVpZ2hib3JzID0gaW5wdXRzLmZsYXRNYXAgeyBpbnB1dCA9PiBpbnB1dC5uZWlnaGJvcnMuaW50ZXJzZWN0KGlucHV0cykubWFwKG90aGVySW5wdXQgPT4gU2V0KGlucHV0LCBvdGhlcklucHV0KSkgfQogICAgICAgIHZhbCBtZXJnZUlucHV0R3JvdXBzID0gaW5wdXRzTmVpZ2hib3JzLmZvbGRMZWZ0KFNldC5lbXB0eVtTZXRbY2x1c3RlckdyYXBoLk5vZGVUXV0pIHsgKGN1bSwgY3VyKSA9PgogICAgICAgICAgdmFsIChoYXNDb21tb24sIHJlc3QpID0gY3VtLnBhcnRpdGlvbihfICYgY3VyIG5vbkVtcHR5KQogICAgICAgICAgcmVzdCArIChjdXIgKysgaGFzQ29tbW9uLmZsYXR0ZW4pCiAgICAgICAgfS5tYXAoXy50b0xpc3QpCgogICAgICAgIC8vIG1lcmdlIGlucHV0IG5laWdoYm9ycwogICAgICAgIG1lcmdlSW5wdXRHcm91cHMuZm9yZWFjaChpbnB1dHMgPT4gbWVyZ2VDbHVzdGVyKGlucHV0cykpCiAgICAgIH0KCiAgICAgIGNsdXN0ZXJHcmFwaC50cmFuc2l0aXZlUmVkdWN0aW9uKCkKICAgICAgYXNzZXJ0KG1lcmdlYWJsZUlucHV0R3JvdXBzLmZvcmFsbCB7IGlucHV0cyA9PiBpbnB1dHMuZm9yYWxsIHsgaW5wdXQgPT4gaW5wdXQubmVpZ2hib3JzLmludGVyc2VjdChpbnB1dHMpLmlzRW1wdHkgfSB9LAogICAgICAgICJ0aGVyZSBhcmUgaW5wdXRzIHRoYXQgYXJlIG5laWdoYm9ycyB0aGF0IGhhdmUgbm90IGJlZW4gY2x1c3RlcmVkIikKICAgIH0K</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IuZ3JhcGguZW5yaWNoLl8KaW1wb3J0IGNvbS54bHJpdC5nZWFycy5nZW5lcmF0b3IudXRpbC5NaXNjRW5oYW5jZW1lbnRzLl8K</text>
+      <register name="9" type="4">
+        <text encoding="base64">IAogICAgZGVmIHJlcGxhY2Uob2xkTm9kZTogTiwgbmV3Tm9kZTogTikoaW1wbGljaXQgZWRnZUZhY3Rvcnk6IEVkZ2VDb21wYW5pb25bRV0pOiBVbml0ID0gewogICAgICB0aGlzR3JhcGggKz0gbmV3Tm9kZQogICAgICB0aGlzR3JhcGggKys9IHRoaXNHcmFwaC5nZXQob2xkTm9kZSkub3V0Z29pbmcubWFwKGVkZ2UgPT4gZWRnZUZhY3RvcnkobmV3Tm9kZSwgZWRnZS50YXJnZXQudG9PdXRlcikpCiAgICB9CiAgICAKICAgIGRlZiByZXBsYWNlKHJlcGxhY2VtZW50czogTWFwW04sTl0pOiBVbml0ID0gewogICAgICAKICAgIH0KICAgIA==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>muta</last-search>
+      <last-search>block</last-search>
       <last-offset />
-      <last-pattern>muta</last-pattern>
+      <last-pattern>block</last-pattern>
       <last-replace encoding="base64">XCA=</last-replace>
       <last-substitute>\n</last-substitute>
       <last-dir>1</last-dir>
@@ -768,7 +783,6 @@
     </search>
     <history>
       <history-search>
-        <entry>GenGraph</entry>
         <entry>do while</entry>
         <entry>while</entry>
         <entry>changed</entry>
@@ -788,6 +802,7 @@
         <entry>Root</entry>
         <entry>exporter</entry>
         <entry>muta</entry>
+        <entry>block</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4hY29sdW1uIC10</entry>
