@@ -18,12 +18,12 @@
         <mark key="^" line="73" column="35" />
         <mark key="." line="67" column="0" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ProcDesigner.scala" timestamp="1576764360412">
-        <mark key="'" line="435" column="0" />
-        <mark key="[" line="105" column="125" />
-        <mark key="]" line="101" column="6" />
-        <mark key="." line="101" column="6" />
-        <mark key="^" line="101" column="6" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/ProcDesigner.scala" timestamp="1576842029335">
+        <mark key="'" line="436" column="0" />
+        <mark key="[" line="438" column="0" />
+        <mark key="]" line="439" column="14" />
+        <mark key="." line="439" column="14" />
+        <mark key="^" line="439" column="14" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/enrich/Cluster.scala" timestamp="1576752812258">
         <mark key="[" line="12" column="14" />
@@ -193,12 +193,12 @@
         <mark key="^" line="45" column="30" />
         <mark key="." line="45" column="30" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" timestamp="1576766758109">
-        <mark key="'" line="18" column="8" />
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="6" />
-        <mark key="^" line="19" column="68" />
-        <mark key="." line="23" column="6" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" timestamp="1576843537049">
+        <mark key="'" line="75" column="7" />
+        <mark key="[" line="97" column="22" />
+        <mark key="]" line="97" column="23" />
+        <mark key="^" line="97" column="23" />
+        <mark key="." line="97" column="23" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576591788761">
         <mark key="[" line="271" column="28" />
@@ -349,12 +349,12 @@
         <mark key="^" line="17" column="54" />
         <mark key="." line="17" column="54" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576587521617">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" timestamp="1576842317225">
         <mark key="'" line="40" column="5" />
-        <mark key="[" line="61" column="0" />
-        <mark key="]" line="61" column="0" />
-        <mark key="." line="61" column="0" />
-        <mark key="^" line="37" column="68" />
+        <mark key="[" line="46" column="3" />
+        <mark key="]" line="46" column="3" />
+        <mark key="." line="46" column="3" />
+        <mark key="^" line="46" column="3" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/graph/enrich/immutable/package.scala" timestamp="1576146365761">
         <mark key="[" line="9" column="25" />
@@ -611,11 +611,11 @@
         <mark key="." line="62" column="71" />
         <mark key="^" line="62" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/BlockDesigner.scala" timestamp="1576760279712">
-        <mark key="[" line="172" column="4" />
-        <mark key="]" line="172" column="40" />
-        <mark key="^" line="172" column="3" />
-        <mark key="." line="172" column="4" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/BlockDesigner.scala" timestamp="1576843702496">
+        <mark key="[" line="136" column="10" />
+        <mark key="]" line="136" column="24" />
+        <mark key="." line="136" column="24" />
+        <mark key="^" line="136" column="24" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -634,7 +634,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="676" column="50" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="674" column="42" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="611" column="35" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/Designer.scala" />
       <jump line="37" column="4" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/scope/Scope.scala" />
@@ -734,13 +733,14 @@
       <jump line="15" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/package.scala" />
       <jump line="19" column="59" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" />
       <jump line="18" column="8" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" />
+      <jump line="75" column="7" filename="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>clustering.Graph.Edge</text>
+        <text>.map(_.toOuter)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">aWQ6IElkLCBwcml2YXRlIA==</text>
+        <text>.map(_.toOuter)</text>
       </register>
       <register name="/" type="4">
         <text>object</text>
