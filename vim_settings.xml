@@ -193,12 +193,12 @@
         <mark key="^" line="45" column="30" />
         <mark key="." line="45" column="30" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" timestamp="1576852000272">
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/clustering/Cluster.scala" timestamp="1576852856096">
         <mark key="'" line="90" column="7" />
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="^" line="21" column="19" />
-        <mark key="." line="17" column="0" />
+        <mark key="[" line="17" column="47" />
+        <mark key="]" line="17" column="54" />
+        <mark key="^" line="17" column="54" />
+        <mark key="." line="17" column="54" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/cluster/package.scala" timestamp="1576591788761">
         <mark key="[" line="271" column="28" />
@@ -612,11 +612,11 @@
         <mark key="." line="62" column="71" />
         <mark key="^" line="62" column="71" />
       </file>
-      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/BlockDesigner.scala" timestamp="1576845407467">
-        <mark key="[" line="39" column="1" />
-        <mark key="]" line="44" column="28" />
-        <mark key="." line="39" column="1" />
-        <mark key="^" line="39" column="1" />
+      <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/design/designer/BlockDesigner.scala" timestamp="1576853010698">
+        <mark key="[" line="46" column="41" />
+        <mark key="]" line="46" column="50" />
+        <mark key="." line="46" column="50" />
+        <mark key="^" line="46" column="50" />
       </file>
       <file name="$USER_HOME$/trunk/xlrit/gears/generator/src/main/scala/com/xlrit/gears/generator/enrich/immutable/DirectedGraph.scala" timestamp="1567079347259">
         <mark key="[" line="4" column="0" />
@@ -738,16 +738,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>mutable.Set(BStep(node)</text>
+        <text>clusterNodes</text>
       </register>
       <register name="-" type="4">
-        <text>val ids = new IdGenerator()</text>
+        <text encoding="base64">YmxvY2tHcmFwaCB8PiBtZXJnZU5laWdoYm9yaW5nSW5wdXRz</text>
       </register>
       <register name="/" type="4">
         <text>object</text>
       </register>
       <register name="0" type="4">
-        <text>mutable.Set(BStep(node)</text>
+        <text>clusterNodes</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">cHJpdmF0ZSB2YWwgaWRzID0gbmV3IElkR2VuZXJhdG9yKCkKICBwcml2YXRlIGRlZiBibG9ja0lkOiBJZCA9ICJibG9ja18iICsgaWRzLm5leHQoKQo=</text>
