@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="Console.TableResult.NavigateAction" />
   <action id="DSM.OpenInEditor" />
   <action id="Debugger.EditFrameSource" />
@@ -34,6 +37,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt 9" />
     <keyboard-shortcut first-keystroke="f6" />
   </action>
+  <action id="GotoNextError" />
   <action id="Graph.Faces.OpenSelectedPages" />
   <action id="Jdbc.OpenEditor" />
   <action id="JumpToLastChange">
@@ -56,8 +60,8 @@
   <action id="ProjectViewEditSource" />
   <action id="RemoteHostView.EditSource" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
