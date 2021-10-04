@@ -1,0 +1,9 @@
+<application>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/trunk/xlrit/gears/cases/00_xgit/target" />
+      </list>
+    </option>
+  </component>
+</application>
